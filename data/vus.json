@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "sig": [
+   "aeropo",
+   "arabie",
+   "attaqu",
+   "frappe",
+   "houthi",
+   "images",
+   "riyad",
+   "saoudi"
+  ],
+  "date": "2026-10-12T18:10:10.592305+00:00",
+  "titre": "Les Houthis frappent Riyad, l'aéroport reste fermé"
+ },
+ {
+  "sig": [
+   "annonc",
+   "donald",
+   "energe",
+   "russie",
+   "treve",
+   "trump",
+   "ukrain",
+   "zelens"
+  ],
+  "date": "2026-10-12T18:10:10.592315+00:00",
+  "titre": "Trêve énergétique Ukraine-Russie : Moscou dément"
+ },
+ {
+  "sig": [
+   "assure",
+   "attaqu",
+   "chef",
+   "expose",
+   "milita",
+   "otan",
+   "totale",
+   "vaine"
+  ],
+  "date": "2026-10-12T18:10:10.592318+00:00",
+  "titre": "L'OTAN avertit la Russie qu'toute attaque serait vaine"
+ },
+ {
+  "sig": [
+   "acquis",
+   "americ",
+   "condit",
+   "democr",
+   "domici",
+   "douleu",
+   "elue",
+   "perqui"
+  ],
+  "date": "2026-10-12T18:10:10.592320+00:00",
+  "titre": "Perquisition chez la députée démocrate Ilhan Omar"
+ }
+]
