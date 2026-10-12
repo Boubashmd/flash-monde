@@ -1,0 +1,15 @@
+[
+  {"source": "Média A", "titre": "Chili : un séisme de magnitude 6,1 secoue le nord du pays", "resume": "Un tremblement de terre de magnitude 6,1 a été ressenti dans le nord du Chili. Les autorités n'ont signalé aucune victime et ont écarté le risque de tsunami."},
+  {"source": "Média B", "titre": "Séisme de magnitude 6,1 dans le nord du Chili, pas de victime signalée", "resume": "La terre a tremblé dans le nord du Chili. Selon la protection civile, le séisme de magnitude 6,1 n'a fait aucune victime et aucune alerte au tsunami n'a été déclenchée."},
+  {"source": "Média C", "titre": "Le nord du Chili frappé par un séisme, aucun dégât majeur", "resume": "Un séisme de magnitude 6,1 a touché le nord du Chili. Aucune victime n'est à déplorer et le risque de tsunami est écarté, indiquent les autorités chiliennes."},
+  {"source": "Média A", "titre": "Kenya : un sommet africain sur le climat s'ouvre à Nairobi", "resume": "Des délégations de plusieurs dizaines de pays se retrouvent à Nairobi pour un sommet consacré au climat. Le financement de l'adaptation est au cœur des discussions."},
+  {"source": "Média C", "titre": "À Nairobi, ouverture d'un sommet sur le climat en Afrique", "resume": "Le Kenya accueille à Nairobi un sommet africain sur le climat. Les participants doivent débattre du financement de l'adaptation au changement climatique."},
+  {"source": "Média D", "titre": "Sommet sur le climat à Nairobi : le financement au centre des débats", "resume": "Au Kenya, les délégations réunies à Nairobi pour le sommet africain sur le climat discutent du financement de l'adaptation."},
+  {"source": "Média B", "titre": "Japon : la banque centrale laisse ses taux inchangés", "resume": "La Banque du Japon a décidé de maintenir ses taux directeurs à leur niveau actuel à l'issue de sa réunion de politique monétaire à Tokyo."},
+  {"source": "Média D", "titre": "La Banque du Japon maintient ses taux directeurs", "resume": "Réunie à Tokyo, la banque centrale japonaise a choisi de ne pas modifier ses taux directeurs, une décision attendue par les marchés."},
+  {"source": "Média A", "titre": "Brésil : la déforestation recule en Amazonie sur un an", "resume": "Selon les données officielles brésiliennes, la surface déboisée en Amazonie a diminué par rapport à l'année précédente."},
+  {"source": "Média C", "titre": "Amazonie : la déforestation en baisse au Brésil selon les chiffres officiels", "resume": "Le Brésil annonce un recul de la déforestation en Amazonie sur douze mois, d'après les relevés officiels publiés à Brasilia."},
+  {"source": "Média B", "titre": "Canada : une tempête de neige précoce perturbe les transports à Montréal", "resume": "Des chutes de neige inhabituelles pour la saison ont provoqué des retards dans les transports à Montréal."},
+  {"source": "Média D", "titre": "Australie : un festival de cinéma ouvre ses portes à Sydney", "resume": "Sydney accueille pendant dix jours un festival international de cinéma."},
+  {"source": "Média A", "titre": "Inde : lancement réussi d'un satellite d'observation", "resume": "L'agence spatiale indienne a mis en orbite un satellite destiné à l'observation de la Terre."}
+]

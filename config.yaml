@@ -1,0 +1,127 @@
+# Flash Monde - configuration
+# Les cles secretes ne vont PAS ici : elles vont dans le fichier .env (voir .env.example)
+
+chaine:
+  nom: "Flash Monde"
+  signature: "Abonne-toi pour la prochaine édition."
+  fuseau: "Europe/Paris"
+
+edition:
+  nb_titres: 4            # nombre maximum d'infos par video
+  fenetre_heures: 8       # on ne regarde que les articles publies depuis X heures
+  min_sources: 2          # une info n'est retenue que si X medias differents en parlent
+  oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures
+  # Ligne editoriale : les sujets de ces zones et de ces themes passent devant les autres.
+  # Les noms de zones doivent exister dans src/pays.py.
+  zones_prioritaires:
+    - "États-Unis"
+    - "Ukraine"
+    - "Russie"
+    - "Union européenne"
+    - "France"
+    - "Allemagne"
+    - "Royaume-Uni"
+    - "Italie"
+    - "Pologne"
+    - "Israël"
+    - "Palestine"
+    - "Iran"
+    - "Liban"
+    - "Syrie"
+    - "Arabie saoudite"
+    - "Turquie"
+    - "Chine"
+    - "Taïwan"
+    - "Japon"
+    - "Corée du Nord"
+    - "Corée du Sud"
+  themes_prioritaires:
+    - "président"
+    - "gouvernement"
+    - "ministre"
+    - "élection"
+    - "parlement"
+    - "congrès"
+    - "sénat"
+    - "sanction"
+    - "sommet"
+    - "diplomat"
+    - "négociation"
+    - "accord"
+    - "cessez-le-feu"
+    - "guerre"
+    - "armée"
+    - "bombard"
+    - "missile"
+    - "otan"
+    - "droits de douane"
+    - "tribunal"
+  # true : on ne garde QUE les sujets d'une zone prioritaire (moins de videos les jours calmes)
+  zones_strictes: false
+  # Les titres contenant un de ces mots sont ignores (formats qui ne sont pas des infos)
+  exclure:
+    - "en direct"
+    - "l'info du jour"
+    - "podcast"
+    - "vidéo"
+    - "revue de presse"
+    - "horoscope"
+    - "quiz"
+    - "édito"
+    - "tribune"
+    - "chronique"
+
+# Flux RSS. Desactive une source en mettant un # devant ses 2 lignes.
+# Lance "python -m src.main --verifier-sources" pour voir lesquelles repondent.
+sources:
+  - nom: "Euronews"
+    url: "https://fr.euronews.com/rss?level=theme&name=news"
+  - nom: "France 24"
+    url: "https://www.france24.com/fr/rss"
+  - nom: "RFI"
+    url: "https://www.rfi.fr/fr/rss"
+  - nom: "Le Monde"
+    url: "https://www.lemonde.fr/international/rss_full.xml"
+  - nom: "franceinfo"
+    url: "https://www.francetvinfo.fr/monde.rss"
+  - nom: "Le Figaro"
+    url: "https://www.lefigaro.fr/rss/figaro_international.xml"
+  - nom: "Radio-Canada"
+    url: "https://ici.radio-canada.ca/rss/5717"
+  - nom: "ONU Info"
+    url: "https://news.un.org/feed/subscribe/fr/news/all/rss.xml"
+  - nom: "RTS"
+    url: "https://www.rts.ch/info/monde/?format=rss/news"
+  - nom: "20 Minutes"
+    url: "https://www.20minutes.fr/feeds/rss-monde.xml"
+
+validation:
+  # Avant de fabriquer la voix et la video, le bot Telegram te propose les sujets :
+  # tu gardes ou ecartes chacun, puis tu lances. Sans reponse, l'edition est abandonnee.
+  active: true
+  delai_minutes: 30
+
+redaction:
+  # "anthropic" : reformulation par Claude (recommande, necessite ANTHROPIC_API_KEY)
+  # "extractif" : reprend le titre et le debut du resume d'une source. POUR TESTER SEULEMENT,
+  #               ne publie pas ces videos : le texte n'est pas reformule.
+  fournisseur: "anthropic"
+  modele: "claude-haiku-4-5-20251001"
+
+voix:
+  # "elevenlabs" (payant, naturel) | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
+  fournisseur: "elevenlabs"
+  elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
+  elevenlabs_modele: "eleven_multilingual_v2"
+  edge_voix: "fr-FR-HenriNeural"
+
+images:
+  # "pexels" (necessite PEXELS_API_KEY, gratuit) | "aucune" (fond uni degrade)
+  fournisseur: "pixabay"
+  par_pays: 6             # nombre de photos gardees en cache par pays
+
+video:
+  largeur: 1080
+  hauteur: 1920
+  fps: 30
+  couleur_accent: "#FFD400"

@@ -1,0 +1,59 @@
+name: Flash Monde
+
+# Heures en UTC. Reglees pour l'heure d'hiver de Paris (UTC+1) : 7h00, 12h30, 18h30, 22h00.
+# En heure d'ete (UTC+2), les editions sortent une heure plus tard : retire 1 a chaque heure.
+# GitHub peut demarrer une tache planifiee avec plusieurs minutes de retard.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 17 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Installer FFmpeg et les modules Python
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+      - name: Photos deja telechargees
+        uses: actions/cache@v4
+        with:
+          path: cache/images
+          key: images-${{ github.run_id }}
+          restore-keys: images-
+      - name: Fabriquer l'edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m src.main
+      - name: Garder la video 7 jours
+        uses: actions/upload-artifact@v4
+        with:
+          name: edition-${{ github.run_id }}
+          path: sorties/
+          retention-days: 7
+          if-no-files-found: ignore
+      - name: Memoriser les sujets deja traites
+        run: |
+          git config user.name "flash-monde"
+          git config user.email "flash-monde@users.noreply.github.com"
+          git add data/vus.json
+          git diff --cached --quiet || git commit -m "Sujets traites"
+          git push
