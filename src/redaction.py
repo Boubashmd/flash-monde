@@ -10,7 +10,7 @@ import re
 
 TITRE_MAX = 60
 
-CONSIGNES = """Tu es secrétaire de rédaction d'un flash d'information vidéo en français, consacré à la politique, à la géopolitique et à la diplomatie. Il est lu par une voix de synthèse.
+CONSIGNES = """Tu es secrétaire de rédaction d'un flash d'information vidéo en français, consacré à la politique, à la géopolitique et à la diplomatie. Le texte est lu à voix haute par une voix de synthèse, comme un journal radio.
 
 Pour chaque sujet, tu reçois les titres et résumés de plusieurs médias. Rédige une brève.
 
@@ -26,9 +26,15 @@ Chiffres et victimes :
 - Si les chiffres divergent, retiens la valeur la plus basse avec "au moins" (12 et 14 morts : "au moins douze morts").
 - Ne change jamais l'ordre de grandeur : 300 blessés, c'est "des centaines de blessés", jamais "des dizaines".
 
-Texte :
-- "texte" : 2 phrases, 260 caractères maximum, faciles à dire à voix haute. Pas de sigle obscur, pas de parenthèses, pas de guillemets.
-- Il commence par le fait principal, pas par une mise en contexte.
+Texte lu à l'antenne ("texte") :
+- 2 ou 3 phrases courtes, 280 caractères maximum. Écris comme un présentateur de journal radio : direct, vivant, naturel, jamais familier.
+- Quand c'est naturel, commence par situer le lieu en quelques mots (« En Ukraine, », « À Washington, », « Au Liban, »), puis donne tout de suite le fait principal.
+- Une idée par phrase, 20 mots au plus. Sujet, verbe, complément. Pas d'incise longue, pas de parenthèses, pas de guillemets, pas de barre oblique, pas de deux-points.
+- Écris ce qui se prononce : « pour cent » et non « % », « euros » et non « € », « dollars » et non « $ », « Monsieur » et non « M. ». Garde les nombres en chiffres (80, 6,1, 1 200).
+- Un sigle n'est permis que s'il se prononce couramment (Otan, ONU, UE, FMI, OMS). Sinon, écris le nom en clair.
+- Ne répète pas le titre mot pour mot : il est déjà affiché à l'écran.
+- Mets une virgule là où un présentateur respire.
+- Varie les tournures d'une brève à l'autre (pas deux brèves qui commencent de la même façon).
 
 Titre : style d'agence de presse (AFP, Reuters), 60 caractères maximum, sans point final.
 - C'est une phrase complète : SUJET explicite + verbe conjugué + complément. On doit savoir QUI fait QUOI.
@@ -55,8 +61,34 @@ Illustration :
 - "pays" : liste de codes ISO 3166-1 alpha-3 des pays concernés, le principal en premier (ex. ["UKR", "RUS"]). "UE" si le sujet concerne l'Union européenne en tant que telle, "MONDE" s'il est mondial.
 - "personne" : nom complet, tel que sur Wikipédia, de LA personnalité publique au cœur du sujet (chef d'État ou de gouvernement, ministre, dirigeant de parti ou d'organisation internationale). null s'il n'y en a pas une seule clairement centrale. Jamais une victime, un particulier, un mineur, ni une personne poursuivie dans une affaire de droit commun.
 
+Habillage :
+- "chiffre" : le chiffre le plus marquant du texte, écrit exactement comme dans "texte", avec une légende de 3 ou 4 mots : {"nombre": "80", "legende": "drones abattus"}. Il doit être un fait, pas une date ni une année. null s'il n'y en a pas.
+- "lien" : si l'info décrit l'action d'un pays envers un autre (frappe, sanctions, menace, aide, expulsion, attaque), {"de": "USA", "vers": "IRN", "type": "action"} ; si c'est un échange entre deux pays (rencontre, accord, négociation), "type": "echange". Les deux codes doivent figurer dans "pays". null sinon.
+- "hashtags" : 2 hashtags thématiques en français, sans accent ni espace, qui aident à trouver la vidéo, par exemple ["#Sanctions", "#Diplomatie"]. Jamais de nom de pays ni de personne : ils sont ajoutés automatiquement.
+
 Réponds uniquement avec un tableau JSON, un objet par sujet, dans le même ordre :
-[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "doublon_de": null}]"""
+[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
+
+def _section(entete: str) -> str:
+    """Un paragraphe des consignes, pour les reutiliser dans le recapitulatif de la semaine."""
+    return next(b for b in CONSIGNES.split("\n\n") if b.startswith(entete))
+
+
+SEMAINE = "\n\n".join([
+    "Tu prépares l'édition « la semaine dans le monde » d'un flash d'information vidéo en français "
+    "(politique, géopolitique, diplomatie), lu à voix haute comme un journal radio.",
+    "Pour chaque sujet, tu reçois une ou plusieurs brèves déjà publiées cette semaine, vérifiées et datées. "
+    "Rédige une brève de synthèse qui raconte où en est l'affaire en fin de semaine.",
+    "Faits :\n- N'utilise QUE les faits des brèves fournies. N'ajoute rien de ta propre connaissance.\n"
+    "- Si plusieurs brèves se suivent, dis l'évolution (« lundi... ; jeudi... ») sans inventer de lien de cause.\n"
+    "- Ton neutre et factuel, attribue les affirmations de chaque camp.",
+    _section("Chiffres et victimes"), _section("Texte lu"), _section("Titre"), _section("Illustration"),
+    _section("Habillage"),
+    "Réponds uniquement avec un tableau JSON, un objet par sujet, dans le même ordre :\n"
+    '[{"id": 1, "titre": "...", "texte": "...", "pays": ["FRA"], "personne": null, "chiffre": null, '
+    '"lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]',
+])
+
 
 RACCOURCIR = """Raccourcis chaque titre à 60 caractères maximum, espaces compris, style agence de presse.
 Règle absolue : garde le SUJET (qui agit) et le verbe. Pour gagner de la place, retire d'abord les compléments secondaires, remplace un pays par sa capitale ou un nom long par un nom court. Le titre ne doit jamais commencer par un verbe. N'ajoute rien, pas de point final ni d'exclamation.
@@ -69,7 +101,7 @@ def _appeler(systeme: str, contenu: str, modele: str) -> str:
     client = anthropic.Anthropic()  # lit ANTHROPIC_API_KEY
     rep = client.messages.create(
         model=modele,
-        max_tokens=2000,
+        max_tokens=4000,
         system=systeme,
         messages=[{"role": "user", "content": contenu}],
     )
@@ -150,6 +182,75 @@ def _extractif(sujets: list[dict]) -> list[dict]:
     return out
 
 
+ESPACES = re.compile(r"[\u00a0\u202f\u2009]")
+
+
+def valider_chiffre(c, texte: str):
+    """Le chiffre affiche doit figurer tel quel dans le texte lu (aucune invention)."""
+    if not isinstance(c, dict):
+        return None
+    nombre = ESPACES.sub(" ", str(c.get("nombre") or "")).strip()
+    legende = re.sub(r"\s+", " ", str(c.get("legende") or "")).strip()
+    if not re.match(r"^\d", nombre) or not legende or len(legende) > 30 or len(nombre) > 16:
+        return None
+    if nombre not in ESPACES.sub(" ", texte):
+        return None
+    if re.fullmatch(r"(19|20)\d\d", nombre):  # une annee n'est pas un chiffre marquant
+        return None
+    return {"nombre": nombre, "legende": legende}
+
+
+def valider_lien(l, codes: list):
+    if not isinstance(l, dict):
+        return None
+    de, vers = str(l.get("de") or "").upper(), str(l.get("vers") or "").upper()
+    if de == vers or de not in codes or vers not in codes or "MONDE" in (de, vers):
+        return None
+    return {"de": de, "vers": vers, "type": "echange" if l.get("type") == "echange" else "action"}
+
+
+def valider_hashtags(h) -> list:
+    if not isinstance(h, list):
+        return []
+    propres = []
+    for x in h[:3]:
+        x = str(x).strip()
+        x = x if x.startswith("#") else "#" + x
+        if re.fullmatch(r"#[A-Za-z0-9_]{3,30}", x):
+            propres.append(x)
+    return propres
+
+
+def rediger_semaine(groupes: list, cfg: dict) -> list:
+    """Recapitulatif de la semaine. groupes : listes de breves archivees (une liste par affaire)."""
+    blocs = []
+    for i, g in enumerate(groupes, 1):
+        lignes = [f"### Sujet {i}"]
+        for b in sorted(g, key=lambda x: x["date"]):
+            lignes.append(f"- [{b['jour']}] {b['titre']} — {b['texte']}")
+        blocs.append("\n".join(lignes))
+    breves = _json(_appeler(SEMAINE, "\n\n".join(blocs), cfg["modele"]))
+    sujets = []
+    for g, b in zip(groupes, breves):
+        if not b.get("texte") or not b.get("titre") or _sans_sujet(b["titre"]):
+            continue
+        dernier = max(g, key=lambda x: x["date"])
+        iso = b.get("pays") or dernier.get("iso") or []
+        iso = [c.strip().upper() for c in (iso if isinstance(iso, list) else [iso]) if isinstance(c, str)]
+        texte = b["texte"].strip()
+        sources = sorted({src for x in g for src in x.get("sources", [])})
+        sujets.append({
+            "titre": b["titre"].strip().rstrip("."), "texte": texte, "iso": iso,
+            "pays": dernier.get("pays", ""), "sources": sources,
+            "liens": {k: v for x in g for k, v in (x.get("liens") or {}).items()},
+            "personne": b.get("personne") if isinstance(b.get("personne"), str) else None,
+            "chiffre": valider_chiffre(b.get("chiffre"), texte), "lien": valider_lien(b.get("lien"), iso),
+            "hashtags": valider_hashtags(b.get("hashtags")), "score": max(x.get("score", 0) for x in g),
+            "sig": [w for x in g for w in x.get("sig", [])][:12], "articles": [],
+        })
+    return sujets
+
+
 def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
     """Ajoute 'titre' et 'texte' a chaque sujet. Renvoie (sujets gardes, mode utilise)."""
     mode = cfg.get("fournisseur", "anthropic")
@@ -178,5 +279,8 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
         iso = b.get("pays") or []
         s["iso"] = [c.strip().upper() for c in (iso if isinstance(iso, list) else [iso]) if isinstance(c, str) and c.strip()]
         s["personne"] = b.get("personne") if isinstance(b.get("personne"), str) and b.get("personne").strip() else None
+        s["chiffre"] = valider_chiffre(b.get("chiffre"), s["texte"])
+        s["lien"] = valider_lien(b.get("lien"), s["iso"])
+        s["hashtags"] = valider_hashtags(b.get("hashtags"))
         gardes.append(s)
     return gardes, mode

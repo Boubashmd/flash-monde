@@ -15,7 +15,8 @@ import webbrowser
 
 import requests
 
-PORTEE = "https://www.googleapis.com/auth/youtube.upload"
+# publier les videos, et lire leurs statistiques (vues, j'aime) pour le bilan de la semaine
+PORTEE = "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly"
 
 
 def main() -> int:

@@ -59,6 +59,8 @@ class Plan:
     audio: Path | None = None
     duree: float = 0.0              # duree du fichier audio
     mots: list = field(default_factory=list)  # [(mot, debut, fin)] en secondes
+    chiffre: dict | None = None     # {"nombre": "80", "legende": "drones abattus"}
+    lien: dict | None = None        # {"de": "RUS", "vers": "UKR", "type": "action" | "echange"}
 
 
 # ------------------------------------------------------------------ courbes d'animation
@@ -321,7 +323,65 @@ class Montage:
             else:
                 besoin = max(besoin, -dy / ((1 - fy) * self.H * 2 / self.L * 0.75))
             cam.w = max(cam.w, min(besoin + 0.04, math.sin(math.radians(45))))
+        if p.lien:
+            cam = self._cadrer_lien(p, cam)
         return cam
+
+    def centre(self, code: str):
+        """(lon, lat, etendue) du centre d'un pays, ou de l'Union europeenne."""
+        if code == "UE":
+            return 10.0, 50.0, 12.0
+        q = self.globe.geo.index.get(code)
+        return (q.cx, q.cy, q.ext) if q else None
+
+    def points_lien(self, p: Plan):
+        """Depart et arrivee de la fleche. Pour un grand pays, on part de sa frontiere tournee
+        vers l'autre (pas de son centre, qui peut etre tres loin)."""
+        cle = ("lien", id(p))
+        if cle in self._cache_st:
+            return self._cache_st[cle]
+        a, b = self.centre(p.lien["de"]), self.centre(p.lien["vers"])
+        res = None
+        if a and b:
+            pa, pb = (a[0], a[1], a[2]), (b[0], b[1], b[2])
+            if a[2] > 6 and p.lien["de"] != "UE":
+                q = self.globe.point_vers(p.lien["de"], (b[0], b[1]))
+                pa = (q[0], q[1], 3.0) if q else pa
+            if b[2] > 12 and p.lien["vers"] != "UE":
+                q = self.globe.point_vers(p.lien["vers"], (pa[0], pa[1]), 0.45)
+                pb = (q[0], q[1], 4.0) if q else pb
+            res = (pa, pb)
+        self._cache_st[cle] = res
+        return res
+
+    def _cadrer_lien(self, p: Plan, cam: Camera) -> Camera:
+        """Les deux pays relies par la fleche doivent tenir dans le cadre."""
+        pts = self.points_lien(p)
+        if not pts:
+            p.lien = None
+            return cam
+        a, b = pts
+        va, vb = vecteur(a[0], a[1]), vecteur(b[0], b[1])
+        d = math.acos(max(-1.0, min(1.0, float(np.dot(va, vb)))))
+        if d > math.radians(140):  # aux antipodes : pas de fleche lisible
+            p.lien = None
+            return cam
+        lon, lat = lonlat(va + vb) if d > 1e-6 else (a[0], a[1])
+        if d > math.radians(40):  # loin : vue centree a mi-latitude, pour ne pas basculer vers le pole
+            lat = max(-40.0, min(45.0, (a[1] + b[1]) / 2))
+        vue = Camera(lon, lat, 1.0, cam.fy)
+        R = self.globe.rayon(vue)
+        besoin = cam.w
+        for (lo, la, ext), v in ((a, va), (b, vb)):
+            x, y, z = self.globe.projeter(v[None, :], vue)
+            dx, dy = (x[0] - self.L / 2) / R, (self.H * cam.fy - y[0]) / R
+            marge = 0.9 * math.sin(math.radians(min(ext, 15))) + 0.04
+            besoin = max(besoin, (abs(dx) + marge) / 0.78)
+            if dy > 0:
+                besoin = max(besoin, (dy + marge + 0.05) / (cam.fy * self.H * 2 / self.L * 0.7))
+            else:
+                besoin = max(besoin, (-dy + marge) / ((1 - cam.fy) * self.H * 2 / self.L * 0.7))
+        return Camera(lon, lat, min(1.08, besoin), cam.fy)
 
     # ---- chronologie
     def _calculer_temps(self):
@@ -478,7 +538,7 @@ class Montage:
                 x += lw + esp
             sp = Sprite(_ombre(img, 10, 0.5, (0, 5)))
             if len(self._cache_st) > 40:  # chaque calque pese ~2 Mo
-                self._cache_st = {k: v for k, v in self._cache_st.items() if k[0] == "blocs"}
+                self._cache_st = {k: v for k, v in self._cache_st.items() if k[0] in ("blocs", "chiffre", "lien")}
             self._cache_st[cle] = sp
         return sp
 
@@ -498,6 +558,19 @@ class Montage:
             for code in p.secondaires:
                 g.dessiner_contour(img, cam, code, v * 0.9)
             boites[i] = g.dessiner_pays(img, cam, p.cible, v, p.iso2 or ("eu" if p.cible == "UE" else None), relief=v)
+        for i, p in enumerate(self.plans):  # fleche d'un pays vers l'autre
+            if not p.lien:
+                continue
+            v = self._visibilite(i, t)
+            if v <= 0:
+                continue
+            t_arc = (1.3 if i == 0 else self.arrivee[i]) + 0.3
+            progres = lisse(rampe(t, t_arc, t_arc + 1.5))
+            fin = t_arc + 1.5
+            onde = ((t - fin) % 1.8) / 1.8 if t > fin else None
+            a, b = self.points_lien(p)
+            g.dessiner_arc(img, cam, a[:2], b[:2], progres, v, fleche=p.lien["type"] == "action",
+                           couleur=self.accent, pulsation=onde)
         return img, boites
 
     def _nb_poses(self, t: float, cam: Camera) -> int:
@@ -534,6 +607,8 @@ class Montage:
             self._portrait(img, i, t)
             self._titre(img, i, t)
             self._sous_titres(img, i, t)
+        for i in range(n):
+            self._chiffre(img, i, t)
         self._date(img, t)
         self._fin(img, t)
         if self.demo_sp:
@@ -557,6 +632,10 @@ class Montage:
         q_in = rampe(t, t_in, t_in + 0.5)
         q_out = rampe(t, self.depart[i], self.depart[i] + 0.25)
         a = sortie(q_in) * (1 - q_out)
+        infos = self._infos_chiffre(i) if not self.portraits[i] else None
+        if infos:  # le chiffre s'affiche au meme endroit : l'etiquette s'efface le temps qu'il passe
+            debut, fin = infos[4], infos[5]
+            a *= 1 - sortie(rampe(t, debut - 0.1, debut + 0.25)) * (1 - lisse(rampe(t, fin - 0.35, fin)))
         if a <= 0:
             return
         pos = self.globe.ancre(cam, self.plans[i].cible)
@@ -616,6 +695,82 @@ class Montage:
         for sp in self.credits[i]:
             coller(img, sp, MARGE_G - 30, y_s - 26, q_src * 0.9)
             y_s += 32
+
+    # ---- chiffre marquant, compte anime au moment ou la voix le prononce
+    def _infos_chiffre(self, i: int):
+        cle = ("chiffre", i)
+        if cle in self._cache_st:
+            return self._cache_st[cle]
+        p = self.plans[i]
+        res = None
+        m = re.match(r"^(\d{1,3}(?: \d{3})+|\d+)(?:,(\d+))?(.*)$", p.chiffre["nombre"]) if p.chiffre else None
+        if m:
+            entier = int(m.group(1).replace(" ", ""))
+            dec = m.group(2) or ""
+            valeur = entier + (int(dec) / 10 ** len(dec) if dec else 0)
+            debut = self.voix[i] + 1.0
+            mots = [x[0] for x in p.mots]
+            texte = " ".join(mots)
+            k = texte.find(p.chiffre["nombre"])
+            if k >= 0 and p.mots:  # le mot ou commence le nombre
+                indice = texte[:k].count(" ")
+                debut = self.voix[i] + p.mots[min(indice, len(p.mots) - 1)][1] - 0.12
+            fin = min(debut + 3.4, self.depart[i])
+            res = (valeur, len(dec), " " in m.group(1) or entier >= 10000, m.group(3), debut, fin)
+        self._cache_st[cle] = res
+        return res
+
+    @staticmethod
+    def _formater(v: float, dec: int, milliers: bool, reste: str) -> str:
+        if dec:
+            txt = f"{v:.{dec}f}".replace(".", ",")
+        else:
+            txt = f"{int(round(v)):,}".replace(",", " ") if milliers else str(int(round(v)))
+        return txt + reste
+
+    def _sprite_chiffre(self, i: int, nombre: str) -> Sprite:
+        cle = ("sprite_chiffre", i, nombre)
+        sp = self._cache_st.get(cle)
+        if sp is None:
+            c = self.plans[i].chiffre
+            f_l = police("Bold", 46)
+            taille = 150
+            while taille > 90 and police("Bold", taille).getlength(c["nombre"]) > 760:
+                taille -= 10  # « 6,5 milliards » : on reduit pour tenir dans l'ecran
+            f_n = police("Bold", taille)
+            legende = c["legende"].upper()
+            larg = max(f_n.getlength(c["nombre"]), f_n.getlength(nombre), f_l.getlength(legende))
+            px, m = 48, 30
+            w, h = int(larg + 2 * px), 300
+            img = Image.new("RGBA", (w + 2 * m, h + 2 * m), (0, 0, 0, 0))
+            d = ImageDraw.Draw(img)
+            d.rounded_rectangle((m, m, m + w, m + h), 28, fill=(10, 12, 18, 215))
+            d.rounded_rectangle((m, m, m + w, m + 10), 5, fill=(*self.accent, 255))
+            d.text((m + w / 2, m + 120), nombre, font=f_n, fill=(*self.accent, 255), anchor="mm")
+            d.text((m + w / 2, m + 240), legende, font=f_l, fill=BLANC, anchor="mm")
+            sp = Sprite(_ombre(img, 14, 0.6, (0, 8)))
+            if len(self._cache_st) > 40:  # chaque calque pese quelques Mo
+                self._cache_st = {k: v for k, v in self._cache_st.items() if k[0] in ("blocs", "chiffre", "lien")}
+            self._cache_st[cle] = sp
+        return sp
+
+    def _chiffre(self, img, i, t):
+        infos = self._infos_chiffre(i)
+        if not infos:
+            return
+        valeur, dec, milliers, reste, debut, fin = infos
+        if t < debut or t > fin:
+            return
+        q_in = rampe(t, debut, debut + 0.45)
+        q_out = rampe(t, fin - 0.35, fin)
+        a = sortie(q_in) * (1 - lisse(q_out))
+        compte = sortie(rampe(t, debut + 0.05, debut + 1.1))
+        sp = self._sprite_chiffre(i, self._formater(valeur * compte, dec, milliers, reste))
+        e = (0.8 + 0.2 * rebond(q_in) if q_in < 1 else 1.0) * (1 - 0.05 * lisse(q_out))
+        if self.portraits[i]:  # a cheval sur le bas du portrait
+            coller(img, sp, self.L / 2, self.titre_bas[i] + 468, a, e, ancre=(0.5, 0.5))
+        else:
+            coller(img, sp, self.L / 2, self.titre_bas[i] + 40, a, e, ancre=(0.5, 0.0))
 
     def _t_titre(self, i: int) -> tuple:
         # le premier titre est deja presque entier sur la toute premiere image (vignette, accroche)
@@ -753,21 +908,74 @@ def _souffle(tr: Trajet, gain: float, graine: int) -> np.ndarray:
     return out / crete * gain
 
 
-def mixer(montage: Montage, sortie_brut: Path, souffles: bool = True) -> None:
+def mixer(montage: Montage, sortie_brut: Path, souffles: bool = True, musique_on: bool = True,
+          volume_musique: float = 1.0, graine: int = 0) -> None:
     n = int(math.ceil(montage.total * SR)) + SR
     piste = np.zeros(n, np.float32)
+    energie = []
     for i, p in enumerate(montage.plans):
         if not p.audio or not Path(p.audio).exists():
             continue
         pcm = _decoder(p.audio)
         a = int(montage.voix[i] * SR)
         piste[a:a + len(pcm)] += pcm[: max(0, n - a)]
+        actif = pcm[np.abs(pcm) > 0.01]
+        if len(actif):
+            energie.append(float(np.sqrt(np.mean(actif ** 2))))
     if souffles:
         for k, (t0, tr) in enumerate(montage.souffles):
             s = _souffle(tr, 0.10 if k == 0 else 0.13, 11 + k)
             a = int(t0 * SR)
             piste[a:a + len(s)] += s[: max(0, n - a)]
+    if musique_on:
+        from . import musique
+        voix_rms = float(np.median(energie)) if energie else 0.08
+        fond = musique.piste(montage.total, SR, graine)
+        # la musique s'efface sous la voix et remonte pendant les deplacements de camera
+        parole = np.zeros(len(fond), np.float32)
+        for i, p in enumerate(montage.plans):
+            a, b = int(montage.voix[i] * SR), int(montage.fin_parole[i] * SR)
+            parole[max(0, a):max(0, min(len(fond), b))] = 1.0
+        lissage = int(0.4 * SR)
+        noyau = np.hanning(2 * lissage + 1).astype(np.float32)
+        parole = np.convolve(parole, noyau / noyau.sum(), mode="same")
+        gain = (voix_rms / 0.2) * volume_musique * (0.22 - 0.12 * parole)
+        piste[:len(fond)] += fond * gain
     piste[: int(montage.total * SR)].astype(np.float32).tofile(sortie_brut)
+
+
+def couverture(montage: Montage, sortie: Path, marque: str = "") -> Path:
+    """Image d'apercu verticale : la carte de la premiere info et son titre en grand."""
+    t = (montage.arrivee[0] + montage.depart[0]) / 2
+    cam = montage.camera(t)
+    img, boites = montage._carte(t, cam)
+    y = np.arange(montage.H, dtype=np.float32)[:, None, None]
+    voile = np.clip(1 - y / 1100.0, 0, 1) ** 1.3 * 0.78 + np.clip((y - 1500) / 420.0, 0, 1) * 0.5
+    img = (img * (1 - voile)).astype(np.uint8)
+    montage._etiquette(img, cam, 0, t, boites.get(0))
+    pil = Image.fromarray(img).convert("RGBA")
+    d = ImageDraw.Draw(pil)
+    larg = montage.L - MARGE_G - MARGE_D - 36
+    p = montage.plans[0]
+    for taille in (112, 100, 90, 82):
+        f = police("Bold", taille)
+        lignes = _lignes(p.titre, f, larg)
+        if len(lignes) <= 4:
+            break
+    if marque:
+        fm = police("Bold", 40)
+        w = fm.getlength(marque.upper())
+        d.rounded_rectangle((MARGE_G, 150, MARGE_G + w + 44, 214), 12, fill=(*montage.accent, 255))
+        d.text((MARGE_G + 22, 182), marque.upper(), font=fm, fill=(11, 16, 32), anchor="lm")
+    d.text((MARGE_G, 246), p.date.upper(), font=police("Medium", 36), fill=(255, 255, 255, 230))
+    yy = 320
+    pas = int(taille * 1.1)
+    d.rectangle((MARGE_G, yy + 18, MARGE_G + 12, yy + len(lignes) * pas - 10), fill=(*montage.accent, 255))
+    for ligne in lignes:
+        d.text((MARGE_G + 36, yy), ligne, font=f, fill="white", stroke_width=2, stroke_fill=(0, 0, 0))
+        yy += pas
+    pil.convert("RGB").save(sortie, quality=88)
+    return sortie
 
 
 def finaliser(video: Path, brut: Path, sortie_mp4: Path, normaliser: bool = True) -> Path:
@@ -796,7 +1004,8 @@ def finaliser(video: Path, brut: Path, sortie_mp4: Path, normaliser: bool = True
 
 
 def fabriquer(plans: list, sortie_mp4: Path, cfg_video: dict, travail: Path, *, demo: bool = False,
-              marque: str = "", voix_reelle: bool = True) -> Path:
+              marque: str = "", voix_reelle: bool = True, graine: int = 0) -> tuple:
+    """Fabrique la video et son image de couverture. Renvoie (video, couverture)."""
     L, H, fps = cfg_video["largeur"], cfg_video["hauteur"], cfg_video["fps"]
     accent = tuple(int(cfg_video.get("couleur_accent", "#FFD400").lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
     t = time.time()
@@ -808,8 +1017,10 @@ def fabriquer(plans: list, sortie_mp4: Path, cfg_video: dict, travail: Path, *, 
     muet = travail / "images.mp4"
     rendre_images(montage, muet, fps, cfg_video.get("processus"))
     brut = travail / "son.f32"
-    mixer(montage, brut, cfg_video.get("son_transitions", True))
+    mixer(montage, brut, cfg_video.get("son_transitions", True), cfg_video.get("musique", True),
+          float(cfg_video.get("volume_musique", 1.0)), graine)
     finaliser(muet, brut, sortie_mp4, normaliser=voix_reelle)
     for f in (muet, brut):
         f.unlink(missing_ok=True)
-    return sortie_mp4
+    image = couverture(montage, sortie_mp4.with_name("couverture.jpg"), marque or "Flash Monde")
+    return sortie_mp4, image

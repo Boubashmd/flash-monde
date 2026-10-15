@@ -80,4 +80,39 @@ def publier(video: Path, titre: str, description: str, mots_cles: list, confiden
                                                   "Content-Type": "video/mp4"}, timeout=600)
     if r.status_code >= 400:
         raise RuntimeError(f"envoi de la vidéo interrompu : {r.status_code} {r.text[:200]}")
-    return f"https://youtube.com/shorts/{r.json()['id']}"
+    return r.json()["id"]
+
+
+def lien(video_id: str) -> str:
+    return f"https://youtube.com/shorts/{video_id}"
+
+
+def miniature(video_id: str, image: Path) -> bool:
+    """Image de couverture (refusee tant que la chaine n'est pas validee par telephone : sans gravite)."""
+    try:
+        r = requests.post("https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+                          params={"videoId": video_id},
+                          headers={"Authorization": f"Bearer {_acces()}", "Content-Type": "image/jpeg"},
+                          data=image.read_bytes(), timeout=60)
+        return r.status_code < 400
+    except Exception:
+        return False
+
+
+def statistiques(ids: list) -> dict:
+    """Vues, j'aime et commentaires de chaque video (autorisation « youtube.readonly » necessaire)."""
+    acces = _acces()
+    out = {}
+    for k in range(0, len(ids), 50):
+        r = requests.get("https://www.googleapis.com/youtube/v3/videos",
+                         params={"part": "statistics,snippet", "id": ",".join(ids[k:k + 50])},
+                         headers={"Authorization": f"Bearer {acces}"}, timeout=30)
+        if r.status_code == 403:
+            raise RuntimeError("autorisation insuffisante : relance outils/autoriser_youtube.py "
+                               "puis mets à jour le secret YOUTUBE_REFRESH_TOKEN")
+        r.raise_for_status()
+        for v in r.json().get("items", []):
+            st = v.get("statistics", {})
+            out[v["id"]] = {"titre": v["snippet"]["title"], "vues": int(st.get("viewCount", 0)),
+                            "jaime": int(st.get("likeCount", 0)), "commentaires": int(st.get("commentCount", 0))}
+    return out

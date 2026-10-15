@@ -44,6 +44,9 @@ class Camera:
     w: float          # demi-champ horizontal, en rayons terrestres
     fy: float = 0.55  # hauteur du point vise a l'ecran (0 = haut, 1 = bas)
 
+    def __post_init__(self):  # toujours des nombres Python (pas de float64 numpy qui changerait les calculs)
+        self.lon, self.lat, self.w, self.fy = float(self.lon), float(self.lat), float(self.w), float(self.fy)
+
 
 def vecteur(lon: float, lat: float) -> np.ndarray:
     lo, la = math.radians(lon), math.radians(lat)
@@ -310,11 +313,12 @@ class Globe:
         if not bord:
             return img
         # atmosphere bleutee au bord, bord du globe lisse, halo dans l'espace
-        brume = np.clip((rho - 0.70) * (1 / 0.30), 0, 1)
+        rho = rho.astype(np.float32, copy=False)
+        brume = np.clip((rho - 0.70) * np.float32(1 / 0.30), 0, 1)
         brume *= brume
         brume *= 0.40
         couv = np.clip((1.0 - rho) * R + 0.5, 0, 1)
-        halo = np.exp(np.maximum(rho - 1.0, 0) * (-R / (0.03 * L)))
+        halo = np.exp(np.maximum(rho - 1.0, 0) * np.float32(-R / (0.03 * L)))
         halo *= 0.8
         atm = self.atm[y0:y1, x0:x1]
         img = cv2.blendLinear(img, atm, 1 - brume, brume)
@@ -469,6 +473,77 @@ class Globe:
         noyau = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (n, n))
         contour = cv2.subtract(cv2.dilate(masque, noyau), masque)
         _teinter(img, contour, (255, 255, 255), 0.9 * opacite)
+
+    def dessiner_arc(self, img: np.ndarray, cam: Camera, a: tuple, b: tuple, progres: float, opacite: float,
+                     fleche: bool = True, couleur=(255, 212, 0), pulsation: float | None = None) -> None:
+        """Arc lumineux de a vers b (lon, lat) qui s'eleve au-dessus du globe, trace jusqu'a `progres`."""
+        if opacite <= 0.01 or progres <= 0.001:
+            return
+        va, vb = vecteur(*a), vecteur(*b)
+        d = math.acos(max(-1.0, min(1.0, float(np.dot(va, vb)))))
+        if d < 1e-4:
+            return
+        k = self.echelle
+        s = np.linspace(0.0, min(1.0, progres), max(3, int(140 * progres) + 2))
+        P = (np.sin((1 - s) * d)[:, None] * va + np.sin(s * d)[:, None] * vb) / math.sin(d)
+        P *= (1 + min(0.32, 0.02 + 0.26 * d) * np.sin(np.pi * s))[:, None]  # altitude de l'arc
+        x, y, z = self.projeter(P, cam)
+        R = self.rayon(cam)
+        cx, cy = (x - self.L / 2) / R, (self.H * cam.fy - y) / R
+        vis = (z > 0) | (cx * cx + cy * cy > 1.0)  # devant le globe, ou au-dessus de son bord
+        pts = np.round(np.stack([x, y], axis=1) * 8).astype(np.int32)
+        morceaux, debut = [], None
+        for j, ok in enumerate(list(vis) + [False]):
+            if ok and debut is None:
+                debut = j
+            elif not ok and debut is not None:
+                if j - debut >= 2:
+                    morceaux.append(pts[debut:j])
+                debut = None
+        if not morceaux:
+            return
+        trait = np.zeros((self.H, self.L), np.uint8)
+        cv2.polylines(trait, morceaux, False, 255, max(2, int(round(5 * k))), cv2.LINE_AA, shift=3)
+        # pointe : fleche orientee dans le sens du trace, ou point d'arrivee pour un echange
+        if vis[-1]:
+            px, py = x[-1], y[-1]
+            j = max(0, len(x) - 6)
+            dx, dy = px - x[j], py - y[j]
+            n = math.hypot(dx, dy) or 1.0
+            dx, dy = dx / n, dy / n
+            if fleche:
+                t = 30 * k
+                tri = np.array([[px + dx * t * 0.6, py + dy * t * 0.6],
+                                [px - dx * t * 0.7 - dy * t * 0.55, py - dy * t * 0.7 + dx * t * 0.55],
+                                [px - dx * t * 0.7 + dy * t * 0.55, py - dy * t * 0.7 - dx * t * 0.55]])
+                cv2.fillPoly(trait, [np.round(tri * 8).astype(np.int32)], 255, cv2.LINE_AA, shift=3)
+            elif progres >= 0.999:
+                cv2.circle(trait, (int(px * 8), int(py * 8)), int(9 * k * 8), 255, -1, cv2.LINE_AA, shift=3)
+        if vis[0]:
+            cv2.circle(trait, (int(x[0] * 8), int(y[0] * 8)), int(8 * k * 8), 255, -1, cv2.LINE_AA, shift=3)
+        halo = cv2.GaussianBlur(trait, (0, 0), 7 * k)
+        _teinter(img, cv2.convertScaleAbs(halo, alpha=1.6), couleur, 0.9 * opacite)
+        _teinter(img, trait, (255, 255, 255), opacite)
+        # onde qui part du pays vise, une fois l'arc arrive
+        if pulsation is not None and progres >= 0.999 and vis[-1]:
+            r = (14 + 70 * pulsation) * k
+            anneau = np.zeros((self.H, self.L), np.uint8)
+            cv2.circle(anneau, (int(x[-1] * 8), int(y[-1] * 8)), int(r * 8), 255, max(2, int(4 * k)),
+                       cv2.LINE_AA, shift=3)
+            _teinter(img, anneau, couleur, opacite * (1 - pulsation) ** 1.5)
+
+    def point_vers(self, code: str, cible: tuple, dedans: float = 0.3) -> tuple | None:
+        """Point d'un pays tourne vers une cible (lon, lat) : sa frontiere la plus proche, un peu
+        a l'interieur. Une fleche partant de la Russie part ainsi de l'ouest du pays, pas de Siberie."""
+        p = self.geo.index.get(code)
+        if not p or not p.coeur:
+            return None
+        vc = vecteur(*cible)
+        sommets = np.concatenate([anneau for poly in p.coeur for anneau in poly[:1]])
+        bord = sommets[int(np.argmax(sommets @ vc))]
+        centre = vecteur(p.cx, p.cy)
+        m = bord * (1 - dedans) + centre * dedans
+        return lonlat(m)
 
     def ancre(self, cam: Camera, cible: str) -> tuple[float, float] | None:
         """Position a l'ecran du centre du pays (pour son etiquette)."""

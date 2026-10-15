@@ -1,0 +1,13 @@
+Musique de fond de Flash Monde
+
+Sans fichier ici, le programme compose a chaque edition une musique d'ambiance « journal »
+(elle n'appartient a personne : aucun risque de droits d'auteur).
+
+Pour utiliser tes propres musiques, depose ici des fichiers .mp3, .wav, .m4a ou .ogg :
+une est choisie au hasard a chaque edition et jouee en boucle, tres bas sous la voix.
+
+Attention aux droits : prends uniquement des musiques dont la licence autorise l'usage sur
+TikTok et YouTube, par exemple CC0 (domaine public). Une musique « libre de droits » peut
+quand meme declencher une reclamation Content ID et bloquer la monetisation.
+
+Pour couper la musique : video.musique: false dans config.yaml.

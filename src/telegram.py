@@ -42,6 +42,12 @@ def message(texte: str) -> None:
     })
 
 
+def photo(fichier: Path, legende: str = "") -> None:
+    with open(fichier, "rb") as f:
+        _api("sendPhoto", data={"chat_id": os.environ["TELEGRAM_CHAT_ID"], "caption": legende[:1000]},
+             files={"photo": f})
+
+
 def video(fichier: Path, legende: str) -> None:
     with open(fichier, "rb") as f:
         _api("sendVideo", data={

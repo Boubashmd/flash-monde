@@ -10,8 +10,8 @@ La vidéo entre directement dans la première info : ni sommaire, ni nom d'édit
 2. **Tri** : regroupe les articles qui parlent du même fait et ne garde que les sujets repris par au moins 2 médias différents. Un sujet déjà traité n'est pas repris pendant 36 h.
 3. **Rédaction** : Claude réécrit chaque info en 2 phrases neutres, uniquement à partir de ce que les sources ont en commun. Il peut écarter un sujet si les sources se contredisent.
 4. **Voix** : ElevenLabs (payant) ou Edge (gratuit), avec l'horaire de chaque mot pour des sous-titres synchronisés mot à mot.
-5. **Montage** : une caméra continue sur un globe satellite. Pour chaque info, le pays est rempli par son drapeau, avec son nom ; la caméra avance lentement pendant la lecture. Entre deux infos, une pause, puis la caméra recule, fait tourner le globe et plonge vers le pays suivant, avec un léger souffle sonore. Si l'info tourne autour d'une personnalité publique, son portrait sous licence libre (Wikimedia Commons, crédit affiché) s'affiche en encart. Titre, sous-titres mot à mot et sources à l'écran ; la vidéo se termine par un recul sur le globe et le nom de la chaîne.
-6. **Livraison** : `sorties/<date>_<édition>/` contient `video.mp4`, `legende.txt` (texte à coller sous la vidéo, avec les liens des sources) et `script.json` (tout ce qui a servi, pour vérifier).
+5. **Montage** : une caméra continue sur un globe satellite. Le chiffre clé de chaque info s'affiche en grand au moment où la voix le prononce, et une flèche animée relie deux pays quand l'un agit sur l'autre (frappe, sanctions) ou qu'ils négocient. Une musique discrète passe sous la voix. Pour chaque info, le pays est rempli par son drapeau, avec son nom ; la caméra avance lentement pendant la lecture. Entre deux infos, une pause, puis la caméra recule, fait tourner le globe et plonge vers le pays suivant, avec un léger souffle sonore. Si l'info tourne autour d'une personnalité publique, son portrait sous licence libre (Wikimedia Commons, crédit affiché) s'affiche en encart. Titre, sous-titres mot à mot et sources à l'écran ; la vidéo se termine par un recul sur le globe et le nom de la chaîne.
+6. **Livraison** : `sorties/<date>_<heure>/` contient `video.mp4`, `couverture.jpg` (miniature), `legende.txt` (texte à coller sous la vidéo, avec les sources et les hashtags des pays, des personnalités et des thèmes) et `script.json` (tout ce qui a servi, pour vérifier). La vidéo, la couverture et la légende arrivent aussi sur Telegram.
 
 S'il n'y a aucun sujet assez recoupé, aucune vidéo n'est produite. C'est voulu.
 
@@ -67,6 +67,24 @@ Avant de fabriquer la voix et la vidéo, le bot t'envoie les sujets retenus, un 
 - `python -m src.main --sans-validation` fabrique directement, sans attendre.
 
 Sur GitHub Actions, l'attente compte dans les minutes de calcul. Un dépôt **public** a des minutes illimitées ; un dépôt privé gratuit est limité (2 000 minutes par mois au moment où j'écris ces lignes), ce que 4 éditions par jour avec attente peuvent dépasser. Le code ne contient aucun secret : les clés restent dans les « Secrets » du dépôt.
+
+## Alertes
+
+Si une édition plante (source en panne, clé expirée, crédit ElevenLabs épuisé...), un message Telegram donne l'étape, l'erreur et le lien du journal GitHub. Si la voix ElevenLabs échoue, la vidéo n'est pas fabriquée (pas de vidéo muette).
+
+## La semaine dans le monde et le bilan
+
+Le dimanche (`.github/workflows/semaine.yml`, 9h00 UTC) :
+1. **Bilan** : vues, j'aime et commentaires des Shorts YouTube de la semaine, les plus vus, les vues moyennes par pays et par heure de publication, sur Telegram. TikTok ne donne pas ses statistiques aux outils extérieurs.
+2. **La semaine dans le monde** : les 5 affaires qui ont marqué les 7 derniers jours, rédigées uniquement à partir des brèves déjà publiées (`data/archives.json`), avec la même validation sur Telegram.
+
+Pour le bilan, l'autorisation YouTube doit inclure la lecture des statistiques : relance une fois `python3 outils/autoriser_youtube.py ...` et remplace le secret `YOUTUBE_REFRESH_TOKEN`.
+
+## La voix
+
+- Change de voix sans toucher au code : dans GitHub, Settings > Secrets and variables > Actions > onglet **Variables**, crée `ELEVENLABS_VOICE_ID` avec l'identifiant de la voix (bibliothèque ElevenLabs : filtre Français, puis « Add to my voices »). `ELEVENLABS_MODELE` permet aussi de choisir le modèle.
+- Modèle par défaut : `eleven_v4` (le plus naturel). S'il n'est pas disponible avec ton offre, `eleven_v3` puis `eleven_multilingual_v2` prennent le relais, et Telegram te le signale.
+- Avec 3 à 4 éditions par jour, compte environ 100 000 caractères par mois chez ElevenLabs.
 
 ## Publication sur YouTube
 

@@ -93,6 +93,16 @@ sources:
     url: "https://www.rts.ch/info/monde/?format=rss/news"
   - nom: "20 Minutes"
     url: "https://www.20minutes.fr/feeds/rss-monde.xml"
+  - nom: "BBC Afrique"
+    url: "https://feeds.bbci.co.uk/afrique/rss.xml"
+  - nom: "DW"
+    url: "https://rss.dw.com/rdf/rss-fr-all"
+  - nom: "Courrier international"
+    url: "https://www.courrierinternational.com/feed/all/rss.xml"
+  - nom: "Le Devoir"
+    url: "https://www.ledevoir.com/rss/section/international.xml"
+  - nom: "Jeune Afrique"
+    url: "https://www.jeuneafrique.com/feed/"
 
 validation:
   # Avant de fabriquer la voix et la video, le bot Telegram te propose les sujets :
@@ -111,10 +121,14 @@ voix:
   # "elevenlabs" (payant, naturel) | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
   fournisseur: "elevenlabs"
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
-  elevenlabs_modele: "eleven_multilingual_v2"
+  # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
+  # Settings > Secrets and variables > Actions > onglet Variables : ELEVENLABS_VOICE_ID, ELEVENLABS_MODELE
+  # "eleven_v4" : le plus naturel | "eleven_v3" : tres expressif | "eleven_multilingual_v2" : le plus regulier
+  elevenlabs_modele: "eleven_v4"
+  elevenlabs_modele_secours: ["eleven_v3", "eleven_multilingual_v2"]  # essayes si le premier echoue
   # Reglages de la voix ElevenLabs (entre 0 et 1, sauf la vitesse)
   reglages:
-    stabilite: 0.45       # plus bas = plus expressif, plus haut = plus regulier
+    stabilite: 0.5        # plus bas = plus expressif, plus haut = plus regulier (v3 : 0, 0.5 ou 1)
     similarite: 0.75      # fidelite au timbre de la voix choisie
     style: 0.1            # un peu d'intention, sans theatraliser
     vitesse: 1.0          # 0.9 = plus pose, 1.1 = plus rapide
@@ -125,6 +139,14 @@ images:
   # true : si l'info tourne autour d'une personnalite publique, son portrait libre (Wikimedia Commons)
   # s'affiche en encart au-dessus de la carte. Sans photo libre, la carte seule.
   portraits: true
+
+semaine:
+  # Le dimanche, « la semaine dans le monde » : les affaires qui ont marque les 7 derniers jours,
+  # redigees a partir des breves deja publiees (workflow .github/workflows/semaine.yml)
+  nb_titres: 5
+
+publication:
+  hashtags: 10              # hashtags de la legende (pays, personnalites, themes) ; YouTube en ignore au-dela de 15
 
 youtube:
   # "bouton" : apres la video, Telegram te propose « Publier sur YouTube » (recommande)
@@ -142,3 +164,5 @@ video:
   image_hd: true          # image satellite NASA 21600 px, telechargee une seule fois (cache/terre)
   son_transitions: true   # souffle discret pendant les deplacements de camera
   fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
+  musique: true           # musique de fond discrete : fichier libre depose dans assets/musique/, sinon composee
+  volume_musique: 1.0     # 0.5 = deux fois plus discrete

@@ -105,42 +105,137 @@ def _recaler(texte: str, reperes: list) -> list | None:
 
 # ------------------------------------------------------------------ fournisseurs
 
-def _reglages(cfg: dict) -> dict:
+def _reglages(cfg: dict, modele: str) -> dict:
     r = cfg.get("reglages") or {}
-    s = {
-        "stability": float(r.get("stabilite", 0.45)),
-        "similarity_boost": float(r.get("similarite", 0.75)),
-        "style": float(r.get("style", 0.1)),
-        "use_speaker_boost": True,
-    }
+    if modele.startswith("eleven_v3"):
+        # v3 n'accepte que 3 niveaux de stabilite : 0 creatif, 0.5 naturel, 1 regulier
+        st = float(r.get("stabilite", 0.5))
+        s = {"stability": min((0.0, 0.5, 1.0), key=lambda v: abs(v - st)),
+             "similarity_boost": float(r.get("similarite", 0.75))}
+    else:
+        s = {
+            "stability": float(r.get("stabilite", 0.45)),
+            "similarity_boost": float(r.get("similarite", 0.75)),
+            "style": float(r.get("style", 0.1)),
+            "use_speaker_boost": True,
+        }
     vitesse = float(r.get("vitesse", 1.0))
     if abs(vitesse - 1.0) > 0.01:
         s["speed"] = vitesse
     return s
 
 
-def _elevenlabs(texte: str, sortie: Path, cfg: dict, precedent: str | None) -> list | None:
-    voix = cfg["elevenlabs_voice_id"]
+def pour_la_voix(texte: str) -> str:
+    """Petites retouches pour une lecture naturelle (le texte affiche reste inchange)."""
+    t = re.sub(r"(\d)[ \u00a0\u202f](\d{3})\b", r"\1\2", texte)  # 12 000 -> 12000 (un seul nombre)
+    t = t.replace("«", "").replace("»", "").replace("(", ", ").replace(")", ", ")
+    t = re.sub(r"\s+([,.;:])", r"\1", re.sub(r"\s+", " ", t))
+    t = re.sub(r",\s*,", ",", t)
+    return re.sub(r",\s*([.!?])", r"\1", t).strip()
+
+
+def _associer(texte: str, dits: list) -> list | None:
+    """Reporte les horaires des mots prononces sur les mots affiches (decoupages differents)."""
+    affiches = [m for m, _, _ in _mots(texte)]
+    out, i, j, fin = [], 0, 0, 0.0
+    while i < len(affiches):
+        if not _nu(affiches[i]):
+            out.append((affiches[i], fin, fin))
+            i += 1
+            continue
+        ga, gb = [i], [j]
+        la, lb = _nu(affiches[i]), _nu(dits[j][0]) if j < len(dits) else None
+        if lb is None:
+            return None
+        while la != lb:
+            if len(la) < len(lb):
+                i2 = ga[-1] + 1
+                if i2 >= len(affiches):
+                    return None
+                ga.append(i2)
+                la += _nu(affiches[i2])
+            else:
+                j2 = gb[-1] + 1
+                if j2 >= len(dits):
+                    return None
+                gb.append(j2)
+                lb += _nu(dits[j2][0])
+        t0, t1 = dits[gb[0]][1], dits[gb[-1]][2]
+        pas = (t1 - t0) / len(ga)
+        for k, ia in enumerate(ga):
+            out.append((affiches[ia], t0 + k * pas, t0 + (k + 1) * pas))
+        fin, i, j = t1, ga[-1] + 1, gb[-1] + 1
+        while j < len(dits) and not _nu(dits[j][0]):
+            j += 1
+    return out
+
+
+_MODELE_RETENU: dict = {}  # un seul modele par edition : la voix ne change pas d'une info a l'autre
+avertissements: list = []  # remontes sur Telegram (ex. : modele indisponible, repli)
+derniere_erreur = ""
+DIALOGUE = "https://api.elevenlabs.io/v1/text-to-dialogue/with-timestamps"
+
+
+def voix_id(cfg: dict) -> str:
+    """La voix se change sans toucher au code : variable GitHub ELEVENLABS_VOICE_ID."""
+    return os.getenv("ELEVENLABS_VOICE_ID") or cfg["elevenlabs_voice_id"]
+
+
+def _modeles(cfg: dict) -> list:
+    """Modele voulu (variable GitHub ELEVENLABS_MODELE ou config), puis modeles de secours."""
+    liste = [os.getenv("ELEVENLABS_MODELE") or cfg.get("elevenlabs_modele", "eleven_multilingual_v2")]
+    secours = cfg.get("elevenlabs_modele_secours", ["eleven_multilingual_v2"])
+    for m in ([secours] if isinstance(secours, str) else secours):
+        if m not in liste:
+            liste.append(m)
+    if "eleven_multilingual_v2" not in liste:
+        liste.append("eleven_multilingual_v2")
+    return liste
+
+
+def _requete(dit: str, modele: str, cfg: dict, precedent: str | None):
     entetes = {"xi-api-key": os.environ["ELEVENLABS_API_KEY"]}
-    corps = {
-        "text": texte,
-        "model_id": cfg.get("elevenlabs_modele", "eleven_multilingual_v2"),
-        "voice_settings": _reglages(cfg),
-    }
-    if precedent:  # meme ton d'une info a l'autre
-        corps["previous_text"] = precedent
-    r = requests.post(f"{API}/{voix}/with-timestamps", params={"output_format": "mp3_44100_128"},
-                      headers=entetes, json=corps, timeout=120)
-    if r.status_code < 400:
-        d = r.json()
-        sortie.write_bytes(base64.b64decode(d["audio_base64"]))
-        al = d.get("alignment") or d.get("normalized_alignment")
-        return _depuis_alignement(texte, al) if al else None
-    print(f"  ! ElevenLabs avec horaires : {r.status_code} {r.text[:90]} ; essai sans horaires")
-    r = requests.post(f"{API}/{voix}", headers={**entetes, "accept": "audio/mpeg"}, json=corps, timeout=120)
-    r.raise_for_status()
-    sortie.write_bytes(r.content)
-    return None
+    params = {"output_format": "mp3_44100_128"}
+    if modele.startswith("eleven_v4"):  # servi par l'API « text-to-dialogue »
+        corps = {"inputs": [{"text": dit, "voice_id": voix_id(cfg)}], "model_id": modele,
+                 "settings": {"stability": _reglages(cfg, "eleven_v3")["stability"]}}
+        if precedent:
+            corps["previous_text"] = pour_la_voix(precedent)[-100:]
+        r = requests.post(DIALOGUE, params=params, headers=entetes, json=corps, timeout=180)
+        if r.status_code == 422:  # reglage refuse : on reessaie sans
+            corps.pop("settings")
+            r = requests.post(DIALOGUE, params=params, headers=entetes, json=corps, timeout=180)
+        return r
+    corps = {"text": dit, "model_id": modele, "voice_settings": _reglages(cfg, modele)}
+    if precedent and not modele.startswith("eleven_v3"):  # meme ton d'une info a l'autre
+        corps["previous_text"] = pour_la_voix(precedent)
+    return requests.post(f"{API}/{voix_id(cfg)}/with-timestamps", params=params, headers=entetes,
+                         json=corps, timeout=180)
+
+
+def _elevenlabs(texte: str, sortie: Path, cfg: dict, precedent: str | None) -> list | None:
+    modeles = [_MODELE_RETENU["modele"]] if "modele" in _MODELE_RETENU else _modeles(cfg)
+    dit = pour_la_voix(texte)
+    erreur = ""
+    for modele in modeles:
+        r = _requete(dit, modele, cfg, precedent)
+        if r.status_code < 400:
+            d = r.json()
+            sortie.write_bytes(base64.b64decode(d["audio_base64"]))
+            if "modele" not in _MODELE_RETENU:
+                _MODELE_RETENU["modele"] = modele
+                if modele != modeles[0]:
+                    avertissements.append(f"Voix : {modeles[0]} indisponible ({erreur[:120]}), "
+                                          f"édition lue avec {modele}.")
+                print(f"  modèle de voix : {modele}")
+            al = d.get("alignment") or d.get("normalized_alignment")
+            dits = _depuis_alignement(dit, al) if al else None
+            return _associer(texte, dits) if dits else None
+        erreur = f"{modele} : {r.status_code} {r.text[:120]}"
+        print(f"  ! ElevenLabs {erreur}")
+        if r.status_code in (401, 402) or "quota" in r.text.lower():  # cle ou credit : inutile d'insister
+            break
+    raise RuntimeError(erreur)
 
 
 def _edge(texte: str, sortie: Path, cfg: dict) -> list | None:
@@ -178,7 +273,8 @@ def choisir_fournisseur(cfg: dict) -> str:
     """Determine une fois pour toutes la voix de l'edition (pas de melange de voix)."""
     f = cfg.get("fournisseur", "elevenlabs")
     if f == "elevenlabs":
-        if not os.getenv("ELEVENLABS_API_KEY") or "REMPLACE" in cfg.get("elevenlabs_voice_id", "REMPLACE"):
+        if not os.getenv("ELEVENLABS_API_KEY") or "REMPLACE" in (os.getenv("ELEVENLABS_VOICE_ID")
+                                                                 or cfg.get("elevenlabs_voice_id", "REMPLACE")):
             print("  ! ElevenLabs non configuré : passage à la voix gratuite Edge")
             f = "edge"
     if f == "edge":
@@ -202,6 +298,8 @@ def dire(texte: str, sortie: Path, cfg: dict, fournisseur: str, precedent: str |
             mots = None
         utilise = fournisseur
     except Exception as err:
+        global derniere_erreur
+        derniere_erreur = str(err)[:300]
         print(f"  ! voix {fournisseur} en échec ({str(err)[:80]}) : segment sans voix")
         _silence(texte, sortie)
         mots, utilise = None, "silence"

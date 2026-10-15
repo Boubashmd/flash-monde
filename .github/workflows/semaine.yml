@@ -1,0 +1,80 @@
+name: Flash Monde - la semaine
+
+# Le dimanche a 9h00 UTC (10h00 a Paris en hiver, 11h00 en ete) : bilan des vues YouTube,
+# puis « la semaine dans le monde ».
+on:
+  schedule:
+    - cron: "0 9 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# une seule edition a la fois (les fichiers de data/ sont partages)
+concurrency:
+  group: flash-monde
+  cancel-in-progress: false
+
+jobs:
+  semaine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      ELEVENLABS_MODELE: ${{ vars.ELEVENLABS_MODELE }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Installer FFmpeg et les modules Python
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+      - name: Photos deja telechargees
+        uses: actions/cache@v4
+        with:
+          path: |
+            cache/images
+            cache/portraits
+          key: images-${{ github.run_id }}
+          restore-keys: images-
+      - name: Image satellite HD (NASA, telechargee une seule fois)
+        uses: actions/cache@v4
+        with:
+          path: cache/terre
+          key: terre-hd-v1
+      - name: Bilan des vues de la semaine
+        continue-on-error: true
+        run: python -m src.main --bilan
+      - name: Fabriquer la semaine dans le monde
+        run: python -m src.main --semaine
+      - name: Garder la video 7 jours
+        uses: actions/upload-artifact@v4
+        with:
+          name: semaine-${{ github.run_id }}
+          path: sorties/
+          retention-days: 7
+          if-no-files-found: ignore
+      - name: Memoriser les sujets et les archives
+        run: |
+          git config user.name "flash-monde"
+          git config user.email "flash-monde@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Semaine et statistiques"
+          git pull -q --rebase --autostash && git push
+      - name: Prevenir sur Telegram en cas d'echec
+        if: failure()
+        run: |
+          [ -f sorties/.alerte ] && exit 0
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            --data-urlencode text="⚠️ Flash Monde : l'édition a échoué. Journal : ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > /dev/null
