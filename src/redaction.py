@@ -8,7 +8,7 @@ import json
 import os
 import re
 
-TITRE_MAX = 50
+TITRE_MAX = 60
 
 CONSIGNES = """Tu es secrétaire de rédaction d'un flash d'information vidéo en français, consacré à la politique, à la géopolitique et à la diplomatie. Il est lu par une voix de synthèse.
 
@@ -30,11 +30,17 @@ Texte :
 - "texte" : 2 phrases, 260 caractères maximum, faciles à dire à voix haute. Pas de sigle obscur, pas de parenthèses, pas de guillemets.
 - Il commence par le fait principal, pas par une mise en contexte.
 
-Titre : 50 caractères maximum, espaces compris, sans point final. Il doit donner envie de regarder sans jamais dépasser ce que dit le texte.
-- Verbe d'action au présent, acteur principal nommé tôt, l'enjeu ou le fait le plus fort mis en avant.
-- Interdits : exagération, "choc", "incroyable", "scandale", majuscules de cri, point d'exclamation, question ou suspense sans réponse dans le texte, pronostic.
+Titre : style d'agence de presse (AFP, Reuters), 60 caractères maximum, sans point final.
+- C'est une phrase complète : SUJET explicite + verbe conjugué + complément. On doit savoir QUI fait QUOI.
+- Le sujet est nommé : un pays ou sa capitale (Moscou, Washington, Kiev), une institution (l'Otan, l'UE), un dirigeant ou un groupe (les Houthis). Jamais de titre qui commence par un verbe.
+- Le fait le plus fort en premier, au présent. Accrocheur par la précision, pas par l'adjectif.
+- Interdits : exagération, "choc", "incroyable", "scandale", majuscules de cri, point d'exclamation, question, suspense sans réponse dans le texte, pronostic.
 - Si quelqu'un ne lit que le titre, il ne doit rien croire de faux.
 - Exemples :
+  faux (pas de sujet) : "Arrête le rédacteur en chef de Novaïa Gazeta en Russie"
+  bon : "Moscou arrête le rédacteur en chef de Novaïa Gazeta"
+  faux (pas de sujet) : "Perturbe le réseau satellitaire Starshield en Ukraine"
+  bon : "La Russie brouille le réseau Starshield en Ukraine"
   plat : "Donald Trump annonce une trêve énergétique Ukraine-Russie non confirmée"
   bon : "Trêve de Trump : ni Kiev ni Moscou ne confirment"
   plat : "Arabie saoudite : aéroport de Riyad fermé après des attaques houthis"
@@ -43,11 +49,17 @@ Titre : 50 caractères maximum, espaces compris, sans point final. Il doit donne
 Tri :
 - "politique" : true si le cœur du sujet est la politique intérieure ou internationale, la géopolitique, la diplomatie, un conflit armé, des sanctions, une élection, ou une décision de justice visant des responsables politiques. false pour l'économie, la science, la culture, le sport, les faits divers ou les catastrophes naturelles, sauf si leur cœur est une décision ou un affrontement politique.
 - "ecarter" : true si les articles d'un sujet ne parlent pas du même fait, ou se contredisent sur l'essentiel.
+- "doublon_de" : si ce sujet raconte le même fait ou la même affaire qu'un sujet précédent de la liste (même événement vu sous un autre angle), mets l'id de ce sujet précédent ; sinon null.
+
+Illustration :
+- "pays" : liste de codes ISO 3166-1 alpha-3 des pays concernés, le principal en premier (ex. ["UKR", "RUS"]). "UE" si le sujet concerne l'Union européenne en tant que telle, "MONDE" s'il est mondial.
+- "personne" : nom complet, tel que sur Wikipédia, de LA personnalité publique au cœur du sujet (chef d'État ou de gouvernement, ministre, dirigeant de parti ou d'organisation internationale). null s'il n'y en a pas une seule clairement centrale. Jamais une victime, un particulier, un mineur, ni une personne poursuivie dans une affaire de droit commun.
 
 Réponds uniquement avec un tableau JSON, un objet par sujet, dans le même ordre :
-[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false}]"""
+[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "doublon_de": null}]"""
 
-RACCOURCIR = """Raccourcis chaque titre à 50 caractères maximum, espaces compris, sans perdre l'information principale ni ajouter quoi que ce soit. Verbe d'action au présent, pas de point final, pas de point d'exclamation.
+RACCOURCIR = """Raccourcis chaque titre à 60 caractères maximum, espaces compris, style agence de presse.
+Règle absolue : garde le SUJET (qui agit) et le verbe. Pour gagner de la place, retire d'abord les compléments secondaires, remplace un pays par sa capitale ou un nom long par un nom court. Le titre ne doit jamais commencer par un verbe. N'ajoute rien, pas de point final ni d'exclamation.
 Réponds uniquement avec un tableau JSON de chaînes, dans le même ordre."""
 
 
@@ -81,6 +93,27 @@ def _dossier(sujets: list[dict]) -> str:
     return "\n\n".join(blocs)
 
 
+VERBES = re.compile(
+    r"^(arr[êe]te|perturbe|brouille|annonce|frappe|bombarde|attaque|accuse|lance|signe|rejette|menace|"
+    r"condamne|propose|suspend|reprend|ouvre|ferme|vote|adopte|refuse|appelle|exige|d[ée]nonce|confirme|"
+    r"d[ée]ment|nie|revendique|limite|restreint|interdit|autorise|sanctionne|expulse|rappelle|reconna[iî]t|"
+    r"envoie|livre|retire|d[ée]ploie|d[ée]clare|d[ée]cide|renforce|prolonge|l[èe]ve|impose|bloque|"
+    r"arr[êe]tent|annoncent|frappent|revendiquent|accusent|menacent|d[ée]noncent|refusent|exigent)\b",
+    re.I)
+
+
+def _sans_sujet(titre: str) -> bool:
+    """Titre qui commence par un verbe conjugue, sans sujet (ex. 'Arrete le redacteur...')."""
+    t = titre.strip()
+    if ":" in t.split(" ")[0]:
+        return False
+    return bool(VERBES.match(t))
+
+
+REPARER = """Chaque titre ci-dessous n'a pas de sujet : on ne sait pas qui agit. Réécris-le en style agence de presse, 60 caractères maximum, en nommant le sujet (pays, capitale, institution, dirigeant) d'après le texte fourni. N'ajoute aucune information absente du texte.
+Réponds uniquement avec un tableau JSON de chaînes, dans le même ordre."""
+
+
 def _par_claude(sujets: list[dict], modele: str) -> list[dict]:
     breves = _json(_appeler(CONSIGNES, _dossier(sujets), modele))
     trop_longs = [b for b in breves if len(b.get("titre", "")) > TITRE_MAX + 5]
@@ -88,10 +121,20 @@ def _par_claude(sujets: list[dict], modele: str) -> list[dict]:
         try:
             courts = _json(_appeler(RACCOURCIR, json.dumps([b["titre"] for b in trop_longs], ensure_ascii=False), modele))
             for b, c in zip(trop_longs, courts):
-                if isinstance(c, str) and 0 < len(c) < len(b["titre"]):
+                if isinstance(c, str) and 0 < len(c) < len(b["titre"]) and not _sans_sujet(c):
                     b["titre"] = c
         except Exception as err:
             print(f"  ! raccourcissement des titres impossible ({str(err)[:60]})")
+    sans_sujet = [b for b in breves if _sans_sujet(b.get("titre", ""))]
+    if sans_sujet:
+        try:
+            dem = [{"titre": b["titre"], "texte": b.get("texte", "")} for b in sans_sujet]
+            neufs = _json(_appeler(REPARER, json.dumps(dem, ensure_ascii=False), modele))
+            for b, c in zip(sans_sujet, neufs):
+                if isinstance(c, str) and c.strip() and not _sans_sujet(c):
+                    b["titre"] = c.strip()
+        except Exception as err:
+            print(f"  ! réparation des titres impossible ({str(err)[:60]})")
     return breves
 
 
@@ -118,6 +161,12 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
     gardes = []
     for s, b in zip(sujets, breves):
         nom = s["articles"][0].titre[:70]
+        if b.get("doublon_de"):
+            print(f"  - écarté (doublon d'un autre sujet) : {nom}")
+            continue
+        if _sans_sujet(b.get("titre", "")):
+            print(f"  - écarté (titre sans sujet) : {b.get('titre')}")
+            continue
         if b.get("ecarter") or not b.get("texte"):
             print(f"  - écarté (sources incohérentes) : {nom}")
             continue
@@ -126,5 +175,8 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
             continue
         s["titre"] = b["titre"].strip().rstrip(".")
         s["texte"] = b["texte"].strip()
+        iso = b.get("pays") or []
+        s["iso"] = [c.strip().upper() for c in (iso if isinstance(iso, list) else [iso]) if isinstance(c, str) and c.strip()]
+        s["personne"] = b.get("personne") if isinstance(b.get("personne"), str) and b.get("personne").strip() else None
         gardes.append(s)
     return gardes, mode
