@@ -126,6 +126,14 @@ images:
   # s'affiche en encart au-dessus de la carte. Sans photo libre, la carte seule.
   portraits: true
 
+youtube:
+  # "bouton" : apres la video, Telegram te propose « Publier sur YouTube » (recommande)
+  # "auto" : publication directe sans demander | "non" : jamais
+  # Necessite les secrets YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
+  publication: "bouton"
+  delai_minutes: 30         # sans reponse, la video n'est pas publiee
+  confidentialite: "public" # "public" | "unlisted" (non repertoriee) | "private"
+
 video:
   largeur: 1080
   hauteur: 1920

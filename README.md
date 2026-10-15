@@ -68,6 +68,17 @@ Avant de fabriquer la voix et la vidéo, le bot t'envoie les sujets retenus, un 
 
 Sur GitHub Actions, l'attente compte dans les minutes de calcul. Un dépôt **public** a des minutes illimitées ; un dépôt privé gratuit est limité (2 000 minutes par mois au moment où j'écris ces lignes), ce que 4 éditions par jour avec attente peuvent dépasser. Le code ne contient aucun secret : les clés restent dans les « Secrets » du dépôt.
 
+## Publication sur YouTube
+
+Après l'envoi de la vidéo sur Telegram, un bouton « Publier sur YouTube » la met en ligne en Short (titre, description avec les sources, mention de contenu synthétique). Sans réponse sous 30 minutes, rien n'est publié. Réglages dans la section `youtube` de `config.yaml`.
+
+Mise en place, une seule fois :
+1. console.cloud.google.com : crée un projet, active « YouTube Data API v3 ».
+2. « Écran de consentement OAuth » : type Externe, ajoute ton adresse comme utilisateur test, puis « Publier l'application » (sinon l'autorisation expire au bout de 7 jours).
+3. « Identifiants » > Créer > ID client OAuth > Application de bureau. Télécharge le fichier JSON.
+4. Sur ton Mac : `python3 outils/autoriser_youtube.py ~/Downloads/client_secret_xxx.json`, connecte-toi avec le compte de la chaîne.
+5. Copie les 3 valeurs affichées dans les Secrets GitHub du dépôt.
+
 ## Réglages utiles (`config.yaml`)
 
 - `edition.zones_prioritaires` et `edition.themes_prioritaires` : la ligne éditoriale. Ces sujets passent devant les autres ; avec `zones_strictes: true`, ils sont les seuls gardés.

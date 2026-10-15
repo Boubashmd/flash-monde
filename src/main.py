@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import carte, cluster, collect, film, pays, portrait, redaction, telegram, voix
+from . import carte, cluster, collect, film, pays, portrait, redaction, telegram, voix, youtube
 
 RACINE = Path(__file__).resolve().parent.parent
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -254,8 +254,38 @@ def main() -> int:
                            + "\n\nÀ vérifier avant publication.")
             telegram.message(legende)
             print("  vidéo envoyée sur Telegram")
+        publier_youtube(cfg.get("youtube") or {}, video, sujets, legende, args.sans_telegram)
     print(f"Terminé : {video}  ({voix.duree(video):.0f} s)")
     return 0
+
+
+def publier_youtube(y_cfg: dict, video: Path, sujets: list, legende: str, sans_telegram: bool) -> None:
+    """Apres la video : bouton « Publier sur YouTube » sur Telegram (ou publication directe)."""
+    mode = y_cfg.get("publication", "bouton")
+    if mode == "non" or not youtube.configure():
+        return
+    if mode == "bouton":
+        if not telegram.configure() or sans_telegram:
+            return
+        print("  YouTube : en attente de ta décision sur Telegram")
+        choix = telegram.demander("Publier cette vidéo sur YouTube ?",
+                                  [("yt", "▶️ Publier sur YouTube"), ("non", "Ne pas publier")],
+                                  int(y_cfg.get("delai_minutes", 30)))
+        if choix != "yt":
+            print("  YouTube : pas de publication")
+            return
+    mots = ["actualité", "info", "géopolitique", "monde", "politique internationale", "Flash Monde"]
+    mots += [s["pays"] for s in sujets if s.get("pays")]
+    try:
+        lien = youtube.publier(video, sujets[0]["titre"], legende + "\n#Shorts", mots,
+                               y_cfg.get("confidentialite", "public"))
+        print(f"  publiée sur YouTube : {lien}")
+        if telegram.configure() and not sans_telegram:
+            telegram.message(f"Publiée sur YouTube : {lien}")
+    except Exception as err:
+        print(f"  ! publication YouTube impossible : {str(err)[:200]}")
+        if telegram.configure() and not sans_telegram:
+            telegram.message(f"Échec de la publication YouTube : {str(err)[:300]}")
 
 
 if __name__ == "__main__":
