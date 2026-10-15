@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import cluster, collect, images, pays, redaction, rendu, telegram, voix
+from . import carte, satellite, cluster, collect, images, pays, portrait, redaction, rendu, telegram, voix
 
 RACINE = Path(__file__).resolve().parent.parent
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -204,27 +204,63 @@ def main() -> int:
     commun = dict(nom=nom, accent=accent, demo=args.demo)
     segments = []
 
-    def monter(i, photo, fixe, zoom_avant):
+    i_cfg = cfg["images"]
+    mode_images = i_cfg.get("fournisseur", "carte")
+    y_st = 1610 if mode_images == "satellite" else 1250  # sous-titres sous la carte
+
+    def monter(i, photo, fixe, zoom_avant, centrage=(0.5, 0.5)):
         audio, d = audios[i]
-        f = rendu.fond(photo, travail / f"fond_{i}.jpg", L, H, variante=i)
+        f = rendu.fond(photo, travail / f"fond_{i}.jpg", L, H, variante=i, centrage=centrage)
         blocs = rendu.decouper(textes[i])
         st = [
-            (rendu.calque_sous_titre(b, travail / f"st_{i}_{j}.png", L, H, 1560 if i in (0, len(textes) - 1) else 1250), t0, t1)
+            (rendu.calque_sous_titre(b, travail / f"st_{i}_{j}.png", L, H, 1560 if i in (0, len(textes) - 1) else y_st), t0, t1)
             for j, (b, (t0, t1)) in enumerate(zip(blocs, rendu.minuter(blocs, d)))
         ]
         segments.append(rendu.segment(f, fixe, st, audio, d, travail / f"seg_{i}.mp4", L=L, H=H, fps=fps, zoom_avant=zoom_avant))
 
-    photo_monde, _ = images.choisir("Monde", "world map globe night", cfg["images"])
+
+    def visuel(n, s):
+        """(image, credit, voile, centrage) : portrait libre, sinon carte, sinon photo du pays."""
+        photo_p, credit_p = None, ""
+        if i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
+            photo_p, credit_p = portrait.chercher(s["personne"])
+        if mode_images == "satellite":
+            codes = [c for c in s.get("iso", []) if c == "UE" or carte.connu(c)]
+            img = satellite.rendre(codes, travail / f"sat_{n}.jpg", L, H, centre_y=0.66 if photo_p else 0.6,
+                                   portrait=photo_p)
+            credit = "Carte : NASA, Natural Earth" + (f" · {credit_p}" if photo_p else "")
+            return img, credit, 45, (0.5, 0.5)
+        if photo_p:
+            return photo_p, credit_p, 110, (0.5, 0.2)
+        if mode_images == "carte":
+            codes = [c for c in s.get("iso", []) if carte.connu(c)]
+            return carte.rendre(codes or ["MONDE"], travail / f"carte_{n}.jpg", L, H, accent), "Carte : Natural Earth", 55, (0.5, 0.5)
+        photo, credit = images.choisir(s["pays"], s["requete"], i_cfg)
+        return photo, credit, 120, (0.5, 0.5)
+
+    for s in sujets:  # pays : celui donne par la redaction, sinon celui detecte par mots-cles
+        if s.get("iso") and carte.connu(s["iso"][0]):
+            s["pays"] = pays.nom_iso(s["iso"][0])
+        else:
+            s["iso"] = [pays.iso_de(s["pays"])] if pays.iso_de(s["pays"]) else []
+    tous = [c for s in sujets for c in s.get("iso", [])[:1] if c not in ("UE", "MONDE")]
+    if mode_images == "satellite":
+        photo_monde = satellite.rendre_monde(tous, travail / "carte_monde.jpg", L, H)
+    elif mode_images == "carte":
+        photo_monde = carte.rendre_monde(tous, travail / "carte_monde.jpg", L, H, accent)
+    else:
+        photo_monde, _ = images.choisir("Monde", "world map globe night", i_cfg)
     monter(0, photo_monde, rendu.calque_intro(
         travail / "fixe_0.png", L, H, edition=edition, date=date_fr.capitalize(),
         titres=[s["titre"] for s in sujets], **commun), True)
     for n, s in enumerate(sujets, 1):
-        photo, credit = images.choisir(s["pays"], s["requete"], cfg["images"])
+        photo, credit, voile, centrage = visuel(n, s)
         fixe = rendu.calque_info(
             travail / f"fixe_{n}.png", L, H, sous=f"Édition {edition} · {date_fr}",
             rang=n, total=len(sujets), pays=s["pays"], titre=s["titre"],
-            sources=s["sources"], credit=credit, **commun)
-        monter(n, photo, fixe, n % 2 == 0)
+            sources=s["sources"], credit=credit, voile=voile,
+            y_sources=1720 if mode_images == "satellite" else 1470, **commun)
+        monter(n, photo, fixe, n % 2 == 0, centrage)
     monter(len(textes) - 1, photo_monde, rendu.calque_fin(
         travail / "fixe_fin.png", L, H, signature=cfg["chaine"]["signature"], **commun), False)
 

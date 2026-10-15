@@ -8,7 +8,7 @@ Fabrique automatiquement une vidéo verticale (1080x1920, environ 1 minute) des 
 2. **Tri** : regroupe les articles qui parlent du même fait et ne garde que les sujets repris par au moins 2 médias différents. Un sujet déjà traité n'est pas repris pendant 36 h.
 3. **Rédaction** : Claude réécrit chaque info en 2 phrases neutres, uniquement à partir de ce que les sources ont en commun. Il peut écarter un sujet si les sources se contredisent.
 4. **Voix** : ElevenLabs (payant) ou Edge (gratuit).
-5. **Montage** : photo libre Pexels choisie selon le pays (ou fond dégradé), titre, sous-titres, sources affichées à l'écran.
+5. **Montage** : si l'info tourne autour d'une personnalité publique, son portrait sous licence libre (Wikimedia Commons, crédit affiché) ; sinon un globe zoomé sur le pays concerné, en surbrillance. Titre, sous-titres et sources à l'écran.
 6. **Livraison** : `sorties/<date>_<édition>/` contient `video.mp4`, `legende.txt` (texte à coller sous la vidéo, avec les liens des sources) et `script.json` (tout ce qui a servi, pour vérifier).
 
 S'il n'y a aucun sujet assez recoupé, aucune vidéo n'est produite. C'est voulu.
@@ -32,11 +32,11 @@ Copie `.env.example` en `.env` et remplis-le.
 |---|---|---|
 | `ANTHROPIC_API_KEY` | console.anthropic.com | Rédaction des brèves |
 | `ELEVENLABS_API_KEY` | elevenlabs.io, puis mets l'identifiant de la voix choisie dans `config.yaml` (`elevenlabs_voice_id`) | Voix |
-| `PIXABAY_API_KEY` | pixabay.com/api/docs (gratuit, connecte-toi : la clé apparaît dans la page) | Photos |
+| `PIXABAY_API_KEY` | pixabay.com/api/docs (facultatif : seulement si `images.fournisseur: "pixabay"`) | Photos de pays |
 | `TELEGRAM_BOT_TOKEN` | parle à @BotFather sur Telegram, commande `/newbot` | Envoi de la vidéo |
 | `TELEGRAM_CHAT_ID` | envoie un message à ton bot, puis ouvre `https://api.telegram.org/bot<TOKEN>/getUpdates` et lis `chat.id` | Destinataire |
 
-Sans clé ElevenLabs, la voix gratuite Edge est utilisée. Sans clé Pixabay, le fond est un dégradé. Sans clé Anthropic, le texte n'est **pas reformulé** : ces vidéos servent à tester, ne les publie pas.
+Sans clé ElevenLabs, la voix gratuite Edge est utilisée. Les cartes ne demandent aucune clé. Sans clé Anthropic, le texte n'est **pas reformulé** : ces vidéos servent à tester, ne les publie pas.
 
 ## Utilisation
 
@@ -80,7 +80,8 @@ Sur GitHub Actions, l'attente compte dans les minutes de calcul. Un dépôt **pu
 - **Regarde chaque vidéo.** Le recoupement réduit les erreurs, il ne les supprime pas : deux médias peuvent reprendre la même dépêche erronée.
 - Ouvre `script.json` en cas de doute : tu y vois les articles d'origine de chaque brève.
 - Sur TikTok et YouTube, coche l'option signalant un contenu généré par IA.
-- Les photos illustrent le pays, pas l'événement. N'ajoute jamais d'image tirée d'un média.
+- Les portraits viennent uniquement de Wikimedia Commons, sous licence libre (domaine public, CC0, CC BY, CC BY-SA), avec l'auteur et la licence à l'écran. N'ajoute jamais d'image tirée d'un média.
+- Cartes : image satellite NASA Blue Marble et frontières Natural Earth (domaine public), drapeaux flag-icons (licence MIT, voir `assets/drapeaux/LICENCE.txt`).
 
 ## Limites connues de cette première version
 

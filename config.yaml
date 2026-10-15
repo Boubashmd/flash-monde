@@ -116,8 +116,13 @@ voix:
   edge_voix: "fr-FR-HenriNeural"
 
 images:
-  # "pexels" (necessite PEXELS_API_KEY, gratuit) | "aucune" (fond uni degrade)
-  fournisseur: "pixabay"
+  # "satellite" : vue satellite zoomee sur le pays, rempli par son drapeau, avec son nom et le portrait en encart
+  # "carte" : globe stylise bleu nuit, pays en surbrillance jaune
+  # "pixabay" (PIXABAY_API_KEY) | "pexels" (PEXELS_API_KEY) : photo libre du pays | "aucune" : fond degrade
+  fournisseur: "satellite"
+  # true : si l'info tourne autour d'une personnalite publique, son portrait libre (Wikimedia Commons)
+  # remplace la carte. Si aucune photo libre n'existe, la carte est utilisee.
+  portraits: true
   par_pays: 6             # nombre de photos gardees en cache par pays
 
 video:

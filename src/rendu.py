@@ -41,10 +41,10 @@ def _lignes(texte: str, f: ImageFont.FreeTypeFont, largeur: int) -> list[str]:
 
 # ---------------------------------------------------------------- fonds
 
-def fond(photo: Path | None, sortie: Path, L: int, H: int, variante: int = 0) -> Path:
+def fond(photo: Path | None, sortie: Path, L: int, H: int, variante: int = 0, centrage=(0.5, 0.5)) -> Path:
     """Photo recadree plein ecran, ou degrade si aucune photo."""
     if photo:
-        img = ImageOps.fit(Image.open(photo).convert("RGB"), (L, H), Image.LANCZOS)
+        img = ImageOps.fit(Image.open(photo).convert("RGB"), (L, H), Image.LANCZOS, centering=centrage)
     else:
         teintes = [(28, 52, 110), (16, 78, 96), (70, 38, 104), (96, 48, 40)]
         haut = teintes[variante % len(teintes)]
@@ -85,8 +85,8 @@ def _demo(d: ImageDraw.ImageDraw, L: int) -> None:
     d.text((L - MARGE_D - 18 - w, 205), "DÉMO", font=f, fill=(255, 255, 255, 230), anchor="lm")
 
 
-def calque_info(sortie, L, H, *, nom, sous, accent, rang, total, pays, titre, sources, credit, demo) -> Path:
-    img = _voile(L, H)
+def calque_info(sortie, L, H, *, nom, sous, accent, rang, total, pays, titre, sources, credit, demo, voile=120, y_sources=1470) -> Path:
+    img = _voile(L, H, voile)
     d = ImageDraw.Draw(img)
     _bandeau(d, nom, sous, accent)
     if demo:
@@ -104,7 +104,7 @@ def calque_info(sortie, L, H, *, nom, sous, accent, rang, total, pays, titre, so
         d.text((MARGE_G + 36, y), ligne, font=f, fill="white")
         y += int(taille * 1.16)
     fs = police("Regular", 32)
-    y = 1470
+    y = y_sources
     for ligne in _lignes("Sources : " + ", ".join(sources), fs, large)[:2]:
         d.text((MARGE_G, y), ligne, font=fs, fill=(255, 255, 255, 220))
         y += 44
