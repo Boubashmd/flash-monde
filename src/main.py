@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import carte, satellite, cluster, collect, images, pays, portrait, redaction, rendu, telegram, voix
+from . import carte, cluster, collect, film, pays, portrait, redaction, telegram, voix
 
 RACINE = Path(__file__).resolve().parent.parent
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -37,17 +37,20 @@ def charger_env() -> None:
                 os.environ.setdefault(cle.strip(), val.strip().strip('"').strip("'"))
 
 
-def nom_edition(heure: int) -> tuple[str, str]:
-    """(texte affiche et lu, nom de dossier)"""
-    if heure < 5:
-        return "de la nuit", "nuit"
-    if heure < 10:
-        return "du matin", "matin"
-    if heure < 15:
-        return "de la mi-journée", "midi"
-    if heure < 20:
-        return "du soir", "soir"
-    return "de la nuit", "nuit"
+def date_longue(d: datetime) -> str:
+    return f"{d.day}{'er' if d.day == 1 else ''} {MOIS[d.month - 1]} {d.year}"
+
+
+def date_info(sujet: dict, fuseau: ZoneInfo) -> str:
+    """Date de l'info : celle de l'article le plus recent du sujet (affichee, jamais lue)."""
+    dates = []
+    for a in sujet["articles"]:
+        try:
+            dates.append(datetime.fromisoformat(a.date))
+        except (TypeError, ValueError):
+            pass
+    d = max(dates).astimezone(fuseau) if dates else datetime.now(fuseau)
+    return date_longue(d)
 
 
 def articles_demo() -> list[collect.Article]:
@@ -92,14 +95,13 @@ def main() -> int:
         verifier_sources(cfg)
         return 0
 
-    ed, vid = cfg["edition"], cfg["video"]
-    L, H, fps = vid["largeur"], vid["hauteur"], vid["fps"]
-    accent = rendu._hex(vid["couleur_accent"])
+    ed = cfg["edition"]
     nom = cfg["chaine"]["nom"]
-    ici = datetime.now(ZoneInfo(cfg["chaine"]["fuseau"]))
-    edition, court = nom_edition(ici.hour)
+    fuseau = ZoneInfo(cfg["chaine"]["fuseau"])
+    ici = datetime.now(fuseau)
     date_fr = f"{JOURS[ici.weekday()]} {ici.day}{'er' if ici.day == 1 else ''} {MOIS[ici.month - 1]}"
-    dossier = RACINE / "sorties" / f"{ici:%Y-%m-%d}_{court}{'_demo' if args.demo else ''}"
+    heure = f"{ici:%H}h{ici:%M}"
+    dossier = RACINE / "sorties" / f"{ici:%Y-%m-%d_%Hh%M}{'_demo' if args.demo else ''}"
     travail = dossier / "travail"
     travail.mkdir(parents=True, exist_ok=True)
 
@@ -133,7 +135,7 @@ def main() -> int:
     sujets.sort(key=lambda s: -s["score"])
     print(f"  {len(sujets)} sujets recoupés par au moins {ed['min_sources']} sources")
     if not sujets:
-        msg = f"{nom} : aucune info suffisamment recoupée pour l'édition {edition}. Pas de vidéo."
+        msg = f"{nom} : aucune info suffisamment recoupée ({heure}). Pas de vidéo."
         print("  " + msg)
         if telegram.configure() and not args.sans_telegram and not args.demo:
             telegram.message(msg)
@@ -167,7 +169,7 @@ def main() -> int:
             and not args.sans_telegram and not args.sans_validation):
         delai = int(v_val.get("delai_minutes", 30))
         print(f"  validation Telegram : en attente de ta réponse ({delai} min maximum)")
-        choix = telegram.valider(sujets, f"{nom} · édition {edition} · {date_fr}\nSujets proposés :", delai)
+        choix = telegram.valider(sujets, f"{nom} · {date_fr} · {heure}\nSujets proposés :", delai)
         if choix is None:
             print("  pas de réponse : édition abandonnée")
             nettoyer()
@@ -180,109 +182,65 @@ def main() -> int:
             return 0
         print(f"  {len(sujets)} sujet(s) validé(s)")
 
-    # 4. Voix
+    # 4. Voix : seulement le texte de chaque info (ni sommaire, ni nom d'edition, ni formule de fin)
     print("4/6 Voix")
     v_cfg = cfg["voix"]
     fournisseur = voix.choisir_fournisseur(v_cfg)
-    textes = (
-        # les 2 premieres secondes decident si on reste : on ouvre sur l'info principale
-        [f"{sujets[0]['titre'].replace(' : ', ', ')}. "
-         + (f"Et {len(sujets) - 1} autre{'s' if len(sujets) > 2 else ''} info{'s' if len(sujets) > 2 else ''} à retenir. " if len(sujets) > 1 else "")
-         + f"{nom}, édition {edition}."]
-        + [s["texte"] for s in sujets]
-        + [f"C'était {nom}. {cfg['chaine']['signature']}"]
-    )
-    audios, utilises = [], set()
-    for i, t in enumerate(textes):
+    utilises, precedent = set(), None
+    for i, s in enumerate(sujets):
         a = travail / f"voix_{i}.mp3"
-        utilises.add(voix.dire(t, a, v_cfg, fournisseur))
-        audios.append((a, voix.duree(a)))
+        f, mots = voix.dire(s["texte"], a, v_cfg, fournisseur, precedent)
+        utilises.add(f)
+        precedent = s["texte"]  # meme ton d'une info a l'autre
+        s["_audio"], s["_mots"], s["_duree"] = a, mots, voix.duree(a)
     print(f"  voix : {', '.join(sorted(utilises))}")
 
-    # 5. Montage
+    # 5. Montage : camera continue sur le globe, pays du sujet mis en avant
     print("5/6 Montage")
-    commun = dict(nom=nom, accent=accent, demo=args.demo)
-    segments = []
-
-    i_cfg = cfg["images"]
-    mode_images = i_cfg.get("fournisseur", "carte")
-    y_st = 1610 if mode_images == "satellite" else 1250  # sous-titres sous la carte
-
-    def monter(i, photo, fixe, zoom_avant, centrage=(0.5, 0.5)):
-        audio, d = audios[i]
-        f = rendu.fond(photo, travail / f"fond_{i}.jpg", L, H, variante=i, centrage=centrage)
-        blocs = rendu.decouper(textes[i])
-        st = [
-            (rendu.calque_sous_titre(b, travail / f"st_{i}_{j}.png", L, H, 1560 if i in (0, len(textes) - 1) else y_st), t0, t1)
-            for j, (b, (t0, t1)) in enumerate(zip(blocs, rendu.minuter(blocs, d)))
-        ]
-        segments.append(rendu.segment(f, fixe, st, audio, d, travail / f"seg_{i}.mp4", L=L, H=H, fps=fps, zoom_avant=zoom_avant))
-
-
-    def visuel(n, s):
-        """(image, credit, voile, centrage) : portrait libre, sinon carte, sinon photo du pays."""
-        photo_p, credit_p = None, ""
-        if i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
-            photo_p, credit_p = portrait.chercher(s["personne"])
-        if mode_images == "satellite":
-            codes = [c for c in s.get("iso", []) if c == "UE" or carte.connu(c)]
-            img = satellite.rendre(codes, travail / f"sat_{n}.jpg", L, H, centre_y=0.66 if photo_p else 0.6,
-                                   portrait=photo_p)
-            credit = "Carte : NASA, Natural Earth" + (f" · {credit_p}" if photo_p else "")
-            return img, credit, 45, (0.5, 0.5)
-        if photo_p:
-            return photo_p, credit_p, 110, (0.5, 0.2)
-        if mode_images == "carte":
-            codes = [c for c in s.get("iso", []) if carte.connu(c)]
-            return carte.rendre(codes or ["MONDE"], travail / f"carte_{n}.jpg", L, H, accent), "Carte : Natural Earth", 55, (0.5, 0.5)
-        photo, credit = images.choisir(s["pays"], s["requete"], i_cfg)
-        return photo, credit, 120, (0.5, 0.5)
-
+    i_cfg = cfg.get("images", {})
+    index = carte._par_iso()
+    plans = []
     for s in sujets:  # pays : celui donne par la redaction, sinon celui detecte par mots-cles
         if s.get("iso") and carte.connu(s["iso"][0]):
             s["pays"] = pays.nom_iso(s["iso"][0])
         else:
             s["iso"] = [pays.iso_de(s["pays"])] if pays.iso_de(s["pays"]) else []
-    tous = [c for s in sujets for c in s.get("iso", [])[:1] if c not in ("UE", "MONDE")]
-    if mode_images == "satellite":
-        photo_monde = satellite.rendre_monde(tous, travail / "carte_monde.jpg", L, H)
-    elif mode_images == "carte":
-        photo_monde = carte.rendre_monde(tous, travail / "carte_monde.jpg", L, H, accent)
-    else:
-        photo_monde, _ = images.choisir("Monde", "world map globe night", i_cfg)
-    monter(0, photo_monde, rendu.calque_intro(
-        travail / "fixe_0.png", L, H, edition=edition, date=date_fr.capitalize(),
-        titres=[s["titre"] for s in sujets], **commun), True)
-    for n, s in enumerate(sujets, 1):
-        photo, credit, voile, centrage = visuel(n, s)
-        fixe = rendu.calque_info(
-            travail / f"fixe_{n}.png", L, H, sous=f"Édition {edition} · {date_fr}",
-            rang=n, total=len(sujets), pays=s["pays"], titre=s["titre"],
-            sources=s["sources"], credit=credit, voile=voile,
-            y_sources=1720 if mode_images == "satellite" else 1470, **commun)
-        monter(n, photo, fixe, n % 2 == 0, centrage)
-    monter(len(textes) - 1, photo_monde, rendu.calque_fin(
-        travail / "fixe_fin.png", L, H, signature=cfg["chaine"]["signature"], **commun), False)
-
-    video = rendu.assembler(segments, dossier / "video.mp4")
+        codes = [c for c in s.get("iso", []) if c != "MONDE" and (c == "UE" or carte.connu(c))]
+        cible = codes[0] if codes else None
+        photo, credit_p = None, ""
+        if i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
+            photo, credit_p = portrait.chercher(s["personne"])
+        plans.append(film.Plan(
+            titre=s["titre"], texte=s["texte"], date=date_info(s, fuseau), sources=s["sources"],
+            credit="Carte : NASA, Natural Earth" + (f" · {credit_p}" if photo else ""),
+            cible=cible, secondaires=[c for c in codes[1:4] if c != "UE"],
+            iso2="eu" if cible == "UE" else (index[cible].get("iso2") if cible else None),
+            nom_pays="Union européenne" if cible == "UE" else (pays.nom_iso(cible) if cible else ""),
+            photo=photo, audio=s["_audio"], duree=s["_duree"], mots=s["_mots"],
+        ))
+    vid = cfg["video"]
+    video = film.fabriquer(plans, dossier / "video.mp4", vid, travail, demo=args.demo,
+                           marque=nom if vid.get("fin_marque", True) else "",
+                           voix_reelle=utilises != {"silence"})
     for f in travail.iterdir():
         f.unlink()
     travail.rmdir()
 
     # 6. Fiche de l'edition, memoire des sujets, envoi
     print("6/6 Livraison")
-    lignes = [f"{nom} · édition {edition} · {date_fr}", ""]
-    lignes += [f"{n}. {s['titre']}" for n, s in enumerate(sujets, 1)]
+    lignes = [f"• {s['titre']}" for s in sujets]
     lignes += ["", "Sources :"]
     for s in sujets:
         for src in s["sources"]:
             a = next(x for x in s["articles"] if x.source == src)
             lignes.append(f"- {src} : {a.lien or a.titre}")
-    lignes += ["", "Voix et montage générés automatiquement.", "#actualité #info #monde #flashinfo"]
+    lignes += ["", "Images : NASA, Natural Earth" + (", Wikimedia Commons" if any(p.photo for p in plans) else "")
+               + ". Voix et montage générés automatiquement.",
+               "#actualité #info #monde #géopolitique #flashinfo"]
     legende = "\n".join(lignes)
     (dossier / "legende.txt").write_text(legende, encoding="utf-8")
     (dossier / "script.json").write_text(json.dumps({
-        "edition": edition, "date": ici.isoformat(), "redaction": mode, "voix": sorted(utilises),
+        "date": ici.isoformat(), "redaction": mode, "voix": sorted(utilises),
         "sujets": [{"titre": s["titre"], "texte": s["texte"], "pays": s["pays"], "sources": s["sources"],
                     "articles": [a.to_dict() for a in s["articles"]]} for s in sujets],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -292,7 +250,8 @@ def main() -> int:
     if not args.demo:
         memoriser(sujets)
         if telegram.configure() and not args.sans_telegram:
-            telegram.video(video, "\n".join(lignes[: 2 + len(sujets)]) + "\n\nÀ vérifier avant publication.")
+            telegram.video(video, f"{nom} · {date_fr} · {heure}\n" + "\n".join(lignes[: len(sujets)])
+                           + "\n\nÀ vérifier avant publication.")
             telegram.message(legende)
             print("  vidéo envoyée sur Telegram")
     print(f"Terminé : {video}  ({voix.duree(video):.0f} s)")

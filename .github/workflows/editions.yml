@@ -36,12 +36,15 @@ jobs:
             cache/portraits
           key: images-${{ github.run_id }}
           restore-keys: images-
+      - name: Image satellite HD (NASA, telechargee une seule fois)
+        uses: actions/cache@v4
+        with:
+          path: cache/terre
+          key: terre-hd-v1
       - name: Fabriquer l'edition
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m src.main

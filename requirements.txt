@@ -6,3 +6,4 @@ anthropic>=0.40
 edge-tts>=6.1
 tzdata
 numpy>=1.24
+opencv-python-headless>=4.8

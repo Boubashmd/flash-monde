@@ -2,8 +2,7 @@
 # Les cles secretes ne vont PAS ici : elles vont dans le fichier .env (voir .env.example)
 
 chaine:
-  nom: "Flash Monde"
-  signature: "Abonne-toi pour la prochaine édition."
+  nom: "Flash Monde"      # affiche seulement sur la toute fin de la video, jamais lu
   fuseau: "Europe/Paris"
 
 edition:
@@ -113,20 +112,25 @@ voix:
   fournisseur: "elevenlabs"
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
   elevenlabs_modele: "eleven_multilingual_v2"
+  # Reglages de la voix ElevenLabs (entre 0 et 1, sauf la vitesse)
+  reglages:
+    stabilite: 0.45       # plus bas = plus expressif, plus haut = plus regulier
+    similarite: 0.75      # fidelite au timbre de la voix choisie
+    style: 0.1            # un peu d'intention, sans theatraliser
+    vitesse: 1.0          # 0.9 = plus pose, 1.1 = plus rapide
   edge_voix: "fr-FR-HenriNeural"
 
 images:
-  # "satellite" : vue satellite zoomee sur le pays, rempli par son drapeau, avec son nom et le portrait en encart
-  # "carte" : globe stylise bleu nuit, pays en surbrillance jaune
-  # "pixabay" (PIXABAY_API_KEY) | "pexels" (PEXELS_API_KEY) : photo libre du pays | "aucune" : fond degrade
-  fournisseur: "satellite"
+  # Le fond est toujours le globe satellite anime : la camera recule, tourne et zoome d'un pays a l'autre.
   # true : si l'info tourne autour d'une personnalite publique, son portrait libre (Wikimedia Commons)
-  # remplace la carte. Si aucune photo libre n'existe, la carte est utilisee.
+  # s'affiche en encart au-dessus de la carte. Sans photo libre, la carte seule.
   portraits: true
-  par_pays: 6             # nombre de photos gardees en cache par pays
 
 video:
   largeur: 1080
   hauteur: 1920
   fps: 30
   couleur_accent: "#FFD400"
+  image_hd: true          # image satellite NASA 21600 px, telechargee une seule fois (cache/terre)
+  son_transitions: true   # souffle discret pendant les deplacements de camera
+  fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
