@@ -31,7 +31,9 @@ jobs:
       - name: Photos deja telechargees
         uses: actions/cache@v4
         with:
-          path: cache/images
+          path: |
+            cache/images
+            cache/portraits
           key: images-${{ github.run_id }}
           restore-keys: images-
       - name: Fabriquer l'edition

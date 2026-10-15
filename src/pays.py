@@ -95,3 +95,38 @@ def detecter(textes: list[str]) -> tuple[str, str]:
         if score > score_max:
             meilleur, score_max = (nom, requete), score
     return meilleur or DEFAUT
+
+
+ISO = {
+    "États-Unis": "USA", "France": "FRA", "Royaume-Uni": "GBR", "Allemagne": "DEU", "Italie": "ITA",
+    "Espagne": "ESP", "Portugal": "PRT", "Belgique": "BEL", "Suisse": "CHE", "Pays-Bas": "NLD",
+    "Pologne": "POL", "Grèce": "GRC", "Albanie": "ALB", "Serbie": "SRB", "Hongrie": "HUN", "Suède": "SWE",
+    "Norvège": "NOR", "Ukraine": "UKR", "Russie": "RUS", "Turquie": "TUR", "Israël": "ISR",
+    "Palestine": "PSE", "Liban": "LBN", "Syrie": "SYR", "Iran": "IRN", "Irak": "IRQ",
+    "Arabie saoudite": "SAU", "Émirats arabes unis": "ARE", "Qatar": "QAT", "Égypte": "EGY",
+    "Maroc": "MAR", "Algérie": "DZA", "Tunisie": "TUN", "Libye": "LBY", "Soudan": "SDN",
+    "Éthiopie": "ETH", "Kenya": "KEN", "Nigeria": "NGA", "Niger": "NER", "Mali": "MLI",
+    "Burkina Faso": "BFA", "Sénégal": "SEN", "Côte d'Ivoire": "CIV", "Ghana": "GHA", "Cameroun": "CMR",
+    "RD Congo": "COD", "Afrique du Sud": "ZAF", "Chine": "CHN", "Taïwan": "TWN", "Japon": "JPN",
+    "Corée du Sud": "KOR", "Corée du Nord": "PRK", "Inde": "IND", "Pakistan": "PAK",
+    "Afghanistan": "AFG", "Bangladesh": "BGD", "Indonésie": "IDN", "Philippines": "PHL",
+    "Vietnam": "VNM", "Thaïlande": "THA", "Australie": "AUS", "Canada": "CAN", "Mexique": "MEX",
+    "Brésil": "BRA", "Argentine": "ARG", "Chili": "CHL", "Colombie": "COL", "Venezuela": "VEN",
+    "Pérou": "PER", "Panama": "PAN", "Haïti": "HTI", "Cuba": "CUB",
+    "Union européenne": "UE", "Nations unies": "MONDE", "Monde": "MONDE",
+}
+NOM_ISO = {v: k for k, v in ISO.items() if v not in ("MONDE",)}
+
+
+def iso_de(nom: str) -> str | None:
+    return ISO.get(nom)
+
+
+def nom_iso(code: str) -> str:
+    """Nom court en francais pour l'affichage (ex. 'Chine' plutot que le nom officiel)."""
+    if code in NOM_ISO:
+        return NOM_ISO[code]
+    if code == "MONDE":
+        return "Monde"
+    from .carte import nom
+    return nom(code)

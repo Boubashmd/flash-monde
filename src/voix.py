@@ -3,16 +3,19 @@ from __future__ import annotations
 
 import asyncio
 import os
+import re
 import subprocess
 from pathlib import Path
 
 import requests
 
 
-def duree(fichier):
-    import re
+def duree(fichier: Path) -> float:
+    """Duree en secondes, lue avec ffmpeg seul (pas besoin de ffprobe)."""
     err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(fichier)], capture_output=True, text=True).stderr
     m = re.search(r"Duration: (\d+):(\d+):(\d+(?:\.\d+)?)", err)
+    if not m:
+        raise RuntimeError(f"durée illisible pour {fichier.name}")
     h, mn, sec = m.groups()
     return int(h) * 3600 + int(mn) * 60 + float(sec)
 
