@@ -1,0 +1,36 @@
+[
+ {
+  "date": "2026-10-16T08:30:33.817298+00:00",
+  "edition": "2026-10-16T10:25:47.410406+02:00",
+  "semaine": false,
+  "titre": "Kiev frappe les raffineries russes malgré Trump",
+  "texte": "Kiev a annoncé la reprise de ses attaques contre les raffineries russes. Donald Trump qualifie cette décision de honte et juge plus difficile de travailler avec Volodymyr Zelensky qu'avec Vladimir Poutine.",
+  "iso": [
+   "UKR",
+   "RUS",
+   "USA"
+  ],
+  "pays": "Ukraine",
+  "sources": [
+   "Le Monde",
+   "franceinfo"
+  ],
+  "liens": {
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/guerre-en-ukraine-volodymyr-zelensky-acte-la-reprise-des-frappes-contre-les-raffineries-russes-une-honte-selon-donald-trump_6795219_3210.html",
+   "franceinfo": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/mise-en-difficulte-par-donald-trump-sur-la-scene-diplomatique-l-ukraine-fait-une-progression-spectaculaire-sur-le-front-face-a-la-russie_8219011.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 52.27404023277778,
+  "personne": "Volodymyr Zelensky",
+  "sig": [
+   "donald",
+   "frappe",
+   "honte",
+   "raffin",
+   "repris",
+   "russes",
+   "trump",
+   "ukrain"
+  ],
+  "youtube": "QBbWuLyw3Vg"
+ }
+]
