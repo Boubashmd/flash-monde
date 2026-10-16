@@ -95,12 +95,8 @@ sources:
     url: "https://www.20minutes.fr/feeds/rss-monde.xml"
   - nom: "BBC Afrique"
     url: "https://feeds.bbci.co.uk/afrique/rss.xml"
-  - nom: "DW"
-    url: "https://rss.dw.com/rdf/rss-fr-all"
   - nom: "Courrier international"
     url: "https://www.courrierinternational.com/feed/all/rss.xml"
-  - nom: "Le Devoir"
-    url: "https://www.ledevoir.com/rss/section/international.xml"
   - nom: "Jeune Afrique"
     url: "https://www.jeuneafrique.com/feed/"
 

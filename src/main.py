@@ -238,7 +238,9 @@ class Edition:
         cfg, args = self.cfg, self.args
         self.travail.mkdir(parents=True, exist_ok=True)
         if not sujets:
-            print("  aucun sujet retenu. Pas de vidéo.")
+            if mode:  # des sujets existaient, mais la redaction les a tous ecartes
+                self.info(f"{self.nom} ({self.heure}) : pas de nouvelle info à publier "
+                          "(déjà traitées, hors politique ou doublons). Pas de vidéo.")
             self.nettoyer()
             return 0
         for s in sujets:
