@@ -5,10 +5,9 @@ name: Flash Monde
 # GitHub peut demarrer une tache planifiee avec plusieurs minutes de retard.
 on:
   schedule:
-    - cron: "0 6 * * *"
-    - cron: "30 11 * * *"
-    - cron: "30 17 * * *"
-    - cron: "0 21 * * *"
+    - cron: "45 7 * * *"
+    - cron: "45 13 * * *"
+    - cron: "45 19 * * *"
   workflow_dispatch:
 
 permissions:
