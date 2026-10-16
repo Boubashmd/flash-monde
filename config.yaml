@@ -8,6 +8,7 @@ chaine:
 edition:
   nb_titres: 4            # nombre maximum d'infos par video
   fenetre_heures: 8       # on ne regarde que les articles publies depuis X heures
+  fenetre_matin_heures: 12  # le matin (avant midi, heure de Paris), on remonte plus loin : la nuit est calme
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
   oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures
   # Ligne editoriale : les sujets de ces zones et de ces themes passent devant les autres.

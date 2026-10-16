@@ -6,7 +6,7 @@ Utilisation :
     python -m src.main --bilan              bilan des vues YouTube de la semaine, sur Telegram
     python -m src.main --demo               edition de test avec des articles fictifs
     python -m src.main --verifier-sources   teste chaque flux RSS
-Options : --voix silence|edge|elevenlabs   --sans-telegram   --sans-validation
+Options : --voix silence|edge|elevenlabs   --sans-telegram   --sans-validation   --si-pas-faite
 """
 from __future__ import annotations
 
@@ -26,6 +26,8 @@ RACINE = Path(__file__).resolve().parent.parent
 F_VUS = RACINE / "data" / "vus.json"
 F_ARCHIVES = RACINE / "data" / "archives.json"
 F_STATS = RACINE / "data" / "stats.json"
+F_DERNIERE = RACINE / "data" / "derniere_edition.json"
+DELAI_DOUBLON_H = 2   # une edition planifiee est sautee si une autre a deja tourne dans ces 2 h
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
@@ -148,7 +150,11 @@ class Edition:
         if args.demo:
             articles = articles_demo()
         else:
-            articles, etat = collect.collecter(cfg["sources"], ed["fenetre_heures"], ed["exclure"])
+            fenetre = ed["fenetre_heures"]
+            if self.ici.hour < 12:
+                fenetre = ed.get("fenetre_matin_heures", fenetre)
+            print(f"  articles des {fenetre} dernières heures")
+            articles, etat = collect.collecter(cfg["sources"], fenetre, ed["exclure"])
             for e in etat:
                 print(f"  {'OK' if e['ok'] else 'KO'}  {e['nom']:<14} {e['detail']}")
             ko = [e["nom"] for e in etat if not e["ok"]]
@@ -459,6 +465,19 @@ def bilan(ed: Edition) -> int:
     return 0
 
 
+def deja_faite() -> bool:
+    """Vrai si une edition a deja tourne recemment (pour que le creneau de rattrapage ne refasse rien)."""
+    try:
+        d = datetime.fromisoformat(json.loads(F_DERNIERE.read_text(encoding="utf-8"))["date"])
+        return datetime.now(timezone.utc) - d < timedelta(hours=DELAI_DOUBLON_H)
+    except Exception:
+        return False
+
+
+def marquer_faite() -> None:
+    ecrire_json(F_DERNIERE, {"date": datetime.now(timezone.utc).isoformat()})
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="Flash Monde")
     p.add_argument("--demo", action="store_true")
@@ -467,6 +486,8 @@ def main() -> int:
     p.add_argument("--verifier-sources", action="store_true")
     p.add_argument("--voix", choices=["elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
+    p.add_argument("--si-pas-faite", action="store_true",
+                   help="ne fait rien si une edition a deja tourne dans les 2 dernieres heures (taches planifiees)")
     p.add_argument("--sans-validation", action="store_true",
                    help="fabrique la video sans attendre ta validation sur Telegram")
     args = p.parse_args()
@@ -479,6 +500,13 @@ def main() -> int:
     if args.verifier_sources:
         verifier_sources(cfg)
         return 0
+
+    edition_normale = not (args.demo or args.semaine or args.bilan)
+    if edition_normale and args.si_pas_faite and deja_faite():
+        print("Une édition a déjà tourné il y a moins de 2 h : rien à faire (créneau de rattrapage).")
+        return 0
+    if edition_normale:
+        marquer_faite()
 
     ed = Edition(args, cfg)
     try:

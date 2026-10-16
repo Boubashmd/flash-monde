@@ -1,13 +1,17 @@
 name: Flash Monde
 
-# Heures en UTC. Reglees pour l'heure d'hiver de Paris (UTC+1) : 7h00, 12h30, 18h30, 22h00.
-# En heure d'ete (UTC+2), les editions sortent une heure plus tard : retire 1 a chaque heure.
-# GitHub peut demarrer une tache planifiee avec plusieurs minutes de retard.
+# Heures en UTC. Videos vers 9h, 15h et 21h a Paris en heure d'hiver (UTC+1) ;
+# en heure d'ete (UTC+2), tout sort une heure plus tard.
+# Chaque edition a un creneau de rattrapage 20 min apres : GitHub saute parfois une tache
+# planifiee. Le rattrapage ne fait rien si l'edition a deja tourne.
 on:
   schedule:
     - cron: "45 7 * * *"
+    - cron: "5 8 * * *"
     - cron: "45 13 * * *"
+    - cron: "5 14 * * *"
     - cron: "45 19 * * *"
+    - cron: "5 20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -34,6 +38,8 @@ jobs:
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+      - name: Derniere version du depot (si la tache a attendu son tour)
+        run: git pull -q --rebase
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -56,7 +62,7 @@ jobs:
           path: cache/terre
           key: terre-hd-v1
       - name: Fabriquer l'edition
-        run: python -m src.main
+        run: python -m src.main ${{ github.event_name == 'schedule' && '--si-pas-faite' || '' }}
       - name: Garder la video 7 jours
         uses: actions/upload-artifact@v4
         with:
