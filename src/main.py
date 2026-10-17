@@ -166,7 +166,8 @@ class Edition:
         print("2/6 Tri et recoupement")
         limite = (datetime.now(timezone.utc) - timedelta(hours=ed["oubli_heures"])).isoformat()
         self.vus = [v for v in lire_json(F_VUS) if v["date"] >= limite]
-        sujets = cluster.classer(cluster.regrouper(articles), ed["min_sources"], [] if args.demo else self.vus)
+        sujets = cluster.classer(cluster.regrouper(articles), ed["min_sources"], [] if args.demo else self.vus,
+                                 ed.get("suites", True), ed.get("suite_apres_heures", 5))
         zones = set(ed.get("zones_prioritaires", []))
         themes = [cluster.sans_accents(t.lower()) for t in ed.get("themes_prioritaires", [])]
         for s in sujets:

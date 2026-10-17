@@ -10,7 +10,9 @@ edition:
   fenetre_heures: 8       # on ne regarde que les articles publies depuis X heures
   fenetre_matin_heures: 12  # le matin (avant midi, heure de Paris), on remonte plus loin : la nuit est calme
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
-  oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures
+  oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures...
+  suites: true            # ...sauf comme « suite » s'il y a du nouveau (au moins min_sources medias)
+  suite_apres_heures: 5   # delai minimum avant de proposer la suite d'une info
   # Ligne editoriale : les sujets de ces zones et de ces themes passent devant les autres.
   # Les noms de zones doivent exister dans src/pays.py.
   zones_prioritaires:

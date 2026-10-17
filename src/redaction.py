@@ -52,6 +52,12 @@ Titre : style d'agence de presse (AFP, Reuters), 60 caractères maximum, sans po
   plat : "Arabie saoudite : aéroport de Riyad fermé après des attaques houthis"
   bon : "Les Houthis frappent Riyad, l'aéroport fermé"
 
+Suite d'une info :
+- Un sujet marqué « Suite de : ... » a déjà fait l'objet d'une vidéo, dont le titre est donné. Les articles fournis sont seulement les nouveaux.
+- Titre et texte portent UNIQUEMENT sur le fait nouveau (réaction, riposte, bilan revu, décision, vote...). Ne raconte pas à nouveau ce que disait la vidéo précédente ; au besoin une demi-phrase de rappel suffit.
+- Le titre doit être nettement différent du titre précédent.
+- Si les nouveaux articles n'apportent aucun fait nouveau par rapport au titre précédent, mets "ecarter": true.
+
 Tri :
 - "politique" : true si le cœur du sujet est la politique intérieure ou internationale, la géopolitique, la diplomatie, un conflit armé, des sanctions, une élection, ou une décision de justice visant des responsables politiques. false pour l'économie, la science, la culture, le sport, les faits divers ou les catastrophes naturelles, sauf si leur cœur est une décision ou un affrontement politique.
 - "ecarter" : true si les articles d'un sujet ne parlent pas du même fait, ou se contredisent sur l'essentiel.
@@ -119,6 +125,8 @@ def _dossier(sujets: list[dict]) -> str:
     blocs = []
     for i, s in enumerate(sujets, 1):
         lignes = [f"### Sujet {i}"]
+        if s.get("suite") is not None:
+            lignes.append(f"Suite de : « {s['suite']} »")
         for a in s["articles"][:6]:
             lignes.append(f"- [{a.source}] {a.titre} — {a.resume[:350]}")
         blocs.append("\n".join(lignes))

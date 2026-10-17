@@ -67,28 +67,55 @@ def signature(groupe: list) -> list[str]:
     return sorted(sorted(compte, key=lambda j: (-compte[j], j))[:8])
 
 
-def deja_vu(sig: list[str], vus: list[dict]) -> bool:
+def deja_vu(sig: list[str], vus: list[dict]) -> dict | None:
+    """Derniere publication du meme sujet (ou None si le sujet n'a jamais ete publie)."""
     s = set(sig)
+    trouve = None
     for v in vus:
         t = set(v["sig"])
         if s and t and len(s & t) / len(s | t) >= 0.5:
-            return True
-    return False
+            if trouve is None or v["date"] > trouve["date"]:
+                trouve = v
+    return trouve
 
 
-def classer(groupes: list[list], min_sources: int, vus: list[dict]) -> list[dict]:
-    """Garde les sujets recoupes et non deja publies, du plus repris au moins repris."""
+def _date(a) -> datetime | None:
+    try:
+        d = datetime.fromisoformat(a.date)
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except (TypeError, ValueError):
+        return None
+
+
+def classer(groupes: list[list], min_sources: int, vus: list[dict],
+            suites: bool = True, suite_apres_h: float = 5) -> list[dict]:
+    """Garde les sujets recoupes, du plus repris au moins repris.
+
+    Un sujet deja publie ne revient que comme « suite » : s'il a ete publie il y a au moins
+    `suite_apres_h` heures ET qu'au moins `min_sources` medias ont publie de nouveaux articles
+    depuis. Seuls ces nouveaux articles sont alors donnes a la redaction (le fait nouveau).
+    """
     maintenant = datetime.now(timezone.utc)
     sujets = []
     for g in groupes:
-        sources = sorted({a.source for a in g})
-        if len(sources) < min_sources:
+        if len({a.source for a in g}) < min_sources:
             continue
         sig = signature(g)
-        if deja_vu(sig, vus):
-            continue
-        plus_recent = max(datetime.fromisoformat(a.date) for a in g)
-        age_h = (maintenant - plus_recent).total_seconds() / 3600
-        score = len(sources) * 10 - age_h
-        sujets.append({"articles": g, "sources": sources, "sig": sig, "score": score})
+        suite = None
+        precedent = deja_vu(sig, vus)
+        if precedent:
+            if not suites:
+                continue
+            publie = datetime.fromisoformat(precedent["date"])
+            if (maintenant - publie).total_seconds() / 3600 < suite_apres_h:
+                continue
+            nouveaux = [a for a in g if (_date(a) or publie) > publie]
+            if len({a.source for a in nouveaux}) < min_sources:
+                continue
+            g, suite = nouveaux, precedent.get("titre", "")
+        sources = sorted({a.source for a in g})
+        dates = [d for d in (_date(a) for a in g) if d]
+        age_h = (maintenant - max(dates)).total_seconds() / 3600 if dates else 0
+        score = len(sources) * 10 - age_h - (5 if suite is not None else 0)
+        sujets.append({"articles": g, "sources": sources, "sig": sig, "score": score, "suite": suite})
     return sorted(sujets, key=lambda s: -s["score"])

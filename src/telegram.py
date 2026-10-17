@@ -83,7 +83,8 @@ def valider(sujets: list[dict], entete: str, delai_minutes: int) -> list[int] | 
     messages = {}
     _appel("sendMessage", {"chat_id": chat, "text": entete})
     for i, s in enumerate(sujets):
-        texte = f"{i + 1}. {s['titre']}\n\n{s['texte']}\n\nSources : {', '.join(s['sources'])}"
+        suite = "🔁 Suite · " if s.get("suite") is not None else ""
+        texte = f"{i + 1}. {suite}{s['titre']}\n\n{s['texte']}\n\nSources : {', '.join(s['sources'])}"
         m = _appel("sendMessage", {"chat_id": chat, "text": texte, "reply_markup": _clavier(jeton, i, True)})
         messages[i] = m["result"]["message_id"]
     fin = _appel("sendMessage", {
