@@ -39,6 +39,7 @@ cv2.setNumThreads(1)  # le parallelisme se fait par images entieres
 POLICES = Path(__file__).resolve().parent.parent / "assets" / "fonts"
 MARGE_G, MARGE_D = 70, 130      # a droite : boutons de TikTok et YouTube
 BLANC = (255, 255, 255)
+LOGO = Path(__file__).resolve().parent.parent / "assets" / "logo" / "C_globe_titre.png"
 
 
 # ------------------------------------------------------------------ donnees d'entree
@@ -214,6 +215,24 @@ def _ombre(img: Image.Image, rayon: int, force: float, decalage=(0, 4)) -> Image
     fond.alpha_composite(ombre, decalage)
     fond.alpha_composite(img)
     return fond
+
+
+def _logo(taille: int, rayon: int | None = None) -> Image.Image | None:
+    """Logo officiel en carre arrondi, avec un fin contour clair ; None si le fichier manque."""
+    try:
+        img = Image.open(LOGO).convert("RGB").resize((taille, taille), Image.LANCZOS)
+    except Exception:
+        return None
+    rayon = rayon if rayon is not None else int(taille * 0.16)
+    masque = Image.new("L", (taille * 4, taille * 4), 0)
+    ImageDraw.Draw(masque).rounded_rectangle((0, 0, taille * 4 - 1, taille * 4 - 1), rayon * 4, fill=255)
+    masque = masque.resize((taille, taille), Image.LANCZOS)   # bords lisses
+    out = Image.new("RGBA", (taille, taille), (0, 0, 0, 0))
+    out.paste(img, (0, 0), masque)
+    bord = max(2, taille // 160)
+    ImageDraw.Draw(out).rounded_rectangle((0, 0, taille - 1, taille - 1), rayon, outline=(255, 255, 255, 70),
+                                          width=bord)
+    return out
 
 
 def _texte(texte: str, f: ImageFont.FreeTypeFont, couleur=BLANC, ombre: float = 0.6,
@@ -478,6 +497,14 @@ class Montage:
             self.etiquettes.append(_etiquette(p.nom_pays) if p.cible and p.nom_pays else None)
             self.portraits.append(_carte_portrait(p.photo) if p.photo else None)
         self.marque_sp = _texte(self.marque.upper(), police("Bold", 92), ombre=0.8) if self.marque else None
+        logo = _logo(420) if self.marque else None
+        if logo:  # carte de fin : le logo officiel de la chaine
+            marge = 40
+            fond = Image.new("RGBA", (logo.width + 2 * marge, logo.height + 2 * marge), (0, 0, 0, 0))
+            fond.alpha_composite(logo, (marge, marge))
+            self.logo_sp = Sprite(_ombre(fond, 22, 0.75, (0, 12)))
+        else:
+            self.logo_sp = None
         self.demo_sp = _texte("DÉMO", police("Bold", 30), ombre=0.6) if self.demo else None
         self.f_st = police("Bold", 64)
 
@@ -821,6 +848,10 @@ class Montage:
         q = sortie(rampe(t, t0, t0 + 0.7))
         if q <= 0:
             return
+        if self.logo_sp:  # logo officiel, qui apparait en grandissant legerement
+            e = 0.9 + 0.1 * (rebond(rampe(t, t0, t0 + 0.9)) if t < t0 + 0.9 else 1.0)
+            coller(img, self.logo_sp, self.L / 2, self.H * 0.48 + (1 - q) * 30, q, e, ancre=(0.5, 0.5))
+            return
         coller(img, self.marque_sp, self.L / 2, 300 + (1 - q) * 30, q, ancre=(0.5, 0.0))
         w = 200 * q
         y = int(300 + self.marque_sp.h - 22)
@@ -954,8 +985,7 @@ def couverture(montage: Montage, sortie: Path, marque: str = "") -> Path:
     y = np.arange(montage.H, dtype=np.float32)[:, None, None]
     voile = np.clip(1 - y / 1100.0, 0, 1) ** 1.3 * 0.78 + np.clip((y - 1500) / 420.0, 0, 1) * 0.5
     img = (img * (1 - voile)).astype(np.uint8)
-    montage._etiquette(img, cam, 0, t, boites.get(0))
-    pil = Image.fromarray(img).convert("RGBA")
+    pil = Image.fromarray(img).convert("RGBA")  # pas d'etiquette : elle chevauchait le titre
     d = ImageDraw.Draw(pil)
     larg = montage.L - MARGE_G - MARGE_D - 36
     p = montage.plans[0]
@@ -964,7 +994,10 @@ def couverture(montage: Montage, sortie: Path, marque: str = "") -> Path:
         lignes = _lignes(p.titre, f, larg)
         if len(lignes) <= 4:
             break
-    if marque:
+    logo = _logo(150) if marque else None
+    if logo:  # petit logo dans le coin : la chaine se reconnait dans les listes
+        pil.alpha_composite(_ombre(logo, 10, 0.6, (0, 5)), (MARGE_G, 70))
+    elif marque:
         fm = police("Bold", 40)
         w = fm.getlength(marque.upper())
         d.rounded_rectangle((MARGE_G, 150, MARGE_G + w + 44, 214), 12, fill=(*montage.accent, 255))
