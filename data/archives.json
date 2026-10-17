@@ -449,5 +449,72 @@
    "uni"
   ],
   "youtube": "lHzmGzcydFs"
+ },
+ {
+  "date": "2026-10-17T06:58:43.434017+00:00",
+  "edition": "2026-10-17T08:51:03.685347+02:00",
+  "semaine": false,
+  "titre": "Lula réduit la déforestation amazonienne de 71 pour cent",
+  "texte": "Au Brésil, la déforestation en Amazonie a chuté de 71 pour cent depuis quatre ans sous la présidence de Luiz Inacio Lula da Silva. C'est le plus bas niveau enregistré depuis près de quarante ans.",
+  "iso": [
+   "BRA"
+  ],
+  "pays": "Brésil",
+  "sources": [
+   "Courrier international",
+   "France 24"
+  ],
+  "liens": {
+   "Courrier international": "https://www.courrierinternational.com/article/environnement-bresil-la-deforestation-de-l-amazonie-a-son-plus-bas-historique_279481",
+   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261016-br%C3%A9sil-la-d%C3%A9forestation-en-amazonie-au-plus-bas-depuis-pr%C3%A8s-de-40-ans"
+  },
+  "score": 25.117468530277776,
+  "personne": "Luiz Inacio Lula da Silva",
+  "sig": [
+   "amazon",
+   "bas",
+   "bresil",
+   "defore",
+   "histor",
+   "pres"
+  ],
+  "youtube": "LD0DiO0Ufpc"
+ },
+ {
+  "date": "2026-10-17T06:58:43.434029+00:00",
+  "edition": "2026-10-17T08:51:03.685347+02:00",
+  "semaine": false,
+  "titre": "ONU : aucun candidat n'a l'accord des grandes puissances",
+  "texte": "Pour succéder à António Guterres à la tête de l'ONU, les sept candidats déclarés ont tous reçu un veto d'au moins une grande puissance. Rebeca Grynspan, de Costa Rica, reste en tête du scrutin, qui demeure consultatif.",
+  "iso": [
+   "CRI",
+   "CHN",
+   "USA",
+   "FRA",
+   "GBR",
+   "RUS"
+  ],
+  "pays": "Costa Rica",
+  "sources": [
+   "Le Monde",
+   "RTS"
+  ],
+  "liens": {
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/17/prochain-secretaire-general-de-l-onu-aucun-candidat-ne-fait-consensus-pour-succeder-a-antonio-guterres_6795742_3210.html",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/onu-aucun-consensus-pour-la-succession-d-antonio-guterres-29388412.html?rts_source=rss_t"
+  },
+  "score": 23.334968530277777,
+  "personne": null,
+  "sig": [
+   "antoni",
+   "aucun",
+   "candid",
+   "consen",
+   "guterr",
+   "onu",
+   "succed",
+   "succes"
+  ],
+  "youtube": "LD0DiO0Ufpc"
  }
 ]

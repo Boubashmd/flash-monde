@@ -1,118 +1,6 @@
 [
  {
   "sig": [
-   "chef",
-   "gazeta",
-   "indepe",
-   "interp",
-   "media",
-   "novaia",
-   "redact",
-   "russie"
-  ],
-  "date": "2026-10-15T15:56:43.530763+00:00",
-  "titre": "Arrête le rédacteur en chef de Novaïa Gazeta en Russie"
- },
- {
-  "sig": [
-   "accuse",
-   "aeropo",
-   "affirm",
-   "arabie",
-   "attaqu",
-   "debut",
-   "houthi",
-   "saoudi"
-  ],
-  "date": "2026-10-15T15:56:43.530772+00:00",
-  "titre": "Houthis revendiquent une attaque aérienne en Arabie"
- },
- {
-  "sig": [
-   "conseq",
-   "coupur",
-   "etats",
-   "milita",
-   "reseau",
-   "starsh",
-   "ukrain",
-   "unis"
-  ],
-  "date": "2026-10-15T15:56:43.530775+00:00",
-  "titre": "Perturbe le réseau satellitaire Starshield en Ukraine"
- },
- {
-  "sig": [
-   "attaqu",
-   "connex",
-   "diffic",
-   "intern",
-   "privee",
-   "reseau",
-   "starli",
-   "ukrain"
-  ],
-  "date": "2026-10-15T15:56:43.530778+00:00",
-  "titre": "Ukraine : restrictions d'accès au réseau Starlink"
- },
- {
-  "sig": [
-   "2027",
-   "aide",
-   "aides",
-   "choisi",
-   "marine",
-   "pen",
-   "presid",
-   "ukrain"
-  ],
-  "date": "2026-10-15T18:08:13.109972+00:00",
-  "titre": "Le Pen cesserait l'aide française à l'Ukraine après 6 mois"
- },
- {
-  "sig": [
-   "defie",
-   "frappe",
-   "guerre",
-   "raffin",
-   "repren",
-   "repris",
-   "russes",
-   "zelens"
-  ],
-  "date": "2026-10-15T18:08:13.109982+00:00",
-  "titre": "Kiev reprend les frappes sur les raffineries russes"
- },
- {
-  "sig": [
-   "americ",
-   "armee",
-   "bombes",
-   "cnn",
-   "donald",
-   "iran",
-   "mere",
-   "utilis"
-  ],
-  "date": "2026-10-15T18:08:13.109985+00:00",
-  "titre": "Washington envisagerait une bombe conventionnelle en Iran"
- },
- {
-  "sig": [
-   "allons",
-   "art",
-   "bride",
-   "chanta",
-   "choses",
-   "donald",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-15T18:08:13.109987+00:00",
-  "titre": "Musk et le Pentagone en conflit sur Starlink militaire"
- },
- {
-  "sig": [
    "balaya",
    "bombar",
    "frappe",
@@ -362,5 +250,31 @@
   ],
   "date": "2026-10-17T00:33:30.713310+00:00",
   "titre": "Londres libère 5 000 prisonniers anticipativement d'ici 2027"
+ },
+ {
+  "sig": [
+   "amazon",
+   "bas",
+   "bresil",
+   "defore",
+   "histor",
+   "pres"
+  ],
+  "date": "2026-10-17T06:56:45.862762+00:00",
+  "titre": "Lula réduit la déforestation amazonienne de 71 pour cent"
+ },
+ {
+  "sig": [
+   "antoni",
+   "aucun",
+   "candid",
+   "consen",
+   "guterr",
+   "onu",
+   "succed",
+   "succes"
+  ],
+  "date": "2026-10-17T06:56:45.862771+00:00",
+  "titre": "ONU : aucun candidat n'a l'accord des grandes puissances"
  }
 ]
