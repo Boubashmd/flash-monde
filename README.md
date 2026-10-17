@@ -9,7 +9,7 @@ La vidéo entre directement dans la première info : ni sommaire, ni nom d'édit
 1. **Collecte** : lit les flux RSS listés dans `config.yaml`.
 2. **Tri** : regroupe les articles qui parlent du même fait et ne garde que les sujets repris par au moins 2 médias différents. Un sujet déjà traité n'est pas repris pendant 36 h.
 3. **Rédaction** : Claude réécrit chaque info en 2 phrases neutres, uniquement à partir de ce que les sources ont en commun. Il peut écarter un sujet si les sources se contredisent.
-4. **Voix** : ElevenLabs (payant) ou Edge (gratuit), avec l'horaire de chaque mot pour des sous-titres synchronisés mot à mot.
+4. **Voix** : Azure (Microsoft, voix Rémy, gratuit jusqu'à 500 000 caractères par mois), avec ElevenLabs puis Edge en secours, avec l'horaire de chaque mot pour des sous-titres synchronisés mot à mot.
 5. **Montage** : une caméra continue sur un globe satellite. Le chiffre clé de chaque info s'affiche en grand au moment où la voix le prononce, et une flèche animée relie deux pays quand l'un agit sur l'autre (frappe, sanctions) ou qu'ils négocient. Une musique discrète passe sous la voix. Pour chaque info, le pays est rempli par son drapeau, avec son nom ; la caméra avance lentement pendant la lecture. Entre deux infos, une pause, puis la caméra recule, fait tourner le globe et plonge vers le pays suivant, avec un léger souffle sonore. Si l'info tourne autour d'une personnalité publique, son portrait sous licence libre (Wikimedia Commons, crédit affiché) s'affiche en encart. Titre, sous-titres mot à mot et sources à l'écran ; la vidéo se termine par un recul sur le globe et le nom de la chaîne.
 6. **Livraison** : `sorties/<date>_<heure>/` contient `video.mp4`, `couverture.jpg` (miniature), `legende.txt` (texte à coller sous la vidéo, avec les sources et les hashtags des pays, des personnalités et des thèmes) et `script.json` (tout ce qui a servi, pour vérifier). La vidéo, la couverture et la légende arrivent aussi sur Telegram.
 
@@ -33,6 +33,7 @@ Copie `.env.example` en `.env` et remplis-le.
 | Clé | Où l'obtenir | Sert à |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | console.anthropic.com | Rédaction des brèves |
+| `AZURE_SPEECH_KEY` et `AZURE_SPEECH_REGION` | portail Azure, ressource « Speech » en offre Free F0 : clé 1 et région (ex. `francecentral`) | Voix principale |
 | `ELEVENLABS_API_KEY` | elevenlabs.io, puis mets l'identifiant de la voix choisie dans `config.yaml` (`elevenlabs_voice_id`) | Voix |
 | `TELEGRAM_BOT_TOKEN` | parle à @BotFather sur Telegram, commande `/newbot` | Envoi de la vidéo |
 | `TELEGRAM_CHAT_ID` | envoie un message à ton bot, puis ouvre `https://api.telegram.org/bot<TOKEN>/getUpdates` et lis `chat.id` | Destinataire |

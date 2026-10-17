@@ -1,7 +1,9 @@
-"""Synthese vocale : ElevenLabs (payant), Edge (gratuit) ou silence (test).
+"""Synthese vocale : Azure (gratuit jusqu'a 500 000 caracteres par mois), ElevenLabs (payant),
+Edge (gratuit, non officiel) ou silence (test).
 
 Chaque fichier audio est accompagne des horaires de ses mots, pour des sous-titres
 synchronises mot a mot :
+- Azure : evenements "WordBoundary" du SDK Microsoft ;
 - ElevenLabs : horaires exacts renvoyes par l'API (endpoint "with-timestamps") ;
 - Edge : evenements "WordBoundary" ;
 - sinon : estimation d'apres la longueur des mots et la ponctuation.
@@ -260,6 +262,58 @@ def _edge(texte: str, sortie: Path, cfg: dict) -> list | None:
     return _recaler(texte, reperes)
 
 
+def _azure(texte: str, sortie: Path, cfg: dict) -> list | None:
+    """Voix Microsoft Azure (cle AZURE_SPEECH_KEY, region AZURE_SPEECH_REGION)."""
+    import datetime
+    from xml.sax.saxutils import escape
+
+    import azure.cognitiveservices.speech as sdk
+
+    conf = sdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
+                            region=os.environ["AZURE_SPEECH_REGION"])
+    conf.set_speech_synthesis_output_format(sdk.SpeechSynthesisOutputFormat.Audio24Khz160KBitRateMonoMp3)
+    synth = sdk.SpeechSynthesizer(speech_config=conf, audio_config=None)
+    reperes = []
+
+    def mot(evt):
+        if evt.boundary_type != sdk.SpeechSynthesisBoundaryType.Word:
+            return
+        t0 = evt.audio_offset / 1e7
+        d = evt.duration
+        d = d.total_seconds() if isinstance(d, datetime.timedelta) else d / 1e7
+        reperes.append((evt.text, t0, t0 + d))
+
+    synth.synthesis_word_boundary.connect(mot)
+    voix = cfg.get("azure_voix", "fr-FR-RemyMultilingualNeural")
+    vitesse = cfg.get("azure_vitesse", "0%")
+    ssml = ('<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="fr-FR">'
+            f'<voice name="{voix}"><lang xml:lang="fr-FR"><prosody rate="{vitesse}">'
+            f'{escape(pour_la_voix(texte))}</prosody></lang></voice></speak>')
+    res = synth.speak_ssml_async(ssml).get()
+    if res.reason != sdk.ResultReason.SynthesizingAudioCompleted:
+        detail = sdk.CancellationDetails(res)
+        raise RuntimeError(f"Azure : {detail.reason} {detail.error_details}"[:300])
+    sortie.write_bytes(res.audio_data)
+    return _associer(texte, reperes) if reperes else None
+
+
+def _azure_pret(cfg: dict) -> bool:
+    """Cles presentes, module installe et petit essai reussi : sinon, voix de secours."""
+    if not (os.getenv("AZURE_SPEECH_KEY") and os.getenv("AZURE_SPEECH_REGION")):
+        print("  ! Azure non configuré (AZURE_SPEECH_KEY / AZURE_SPEECH_REGION)")
+        return False
+    try:
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            _azure("Test.", Path(d) / "essai.mp3", cfg)
+        return True
+    except Exception as err:
+        msg = " ".join(str(err).split())[:150]
+        print(f"  ! Azure indisponible : {msg}")
+        avertissements.append(f"Voix Azure indisponible ({msg}), voix de secours utilisée.")
+        return False
+
+
 def _silence(texte: str, sortie: Path) -> None:
     secondes = max(2.0, len(texte) / 15)  # environ 15 caracteres par seconde a l'oral
     subprocess.run(
@@ -272,6 +326,8 @@ def _silence(texte: str, sortie: Path) -> None:
 def choisir_fournisseur(cfg: dict) -> str:
     """Determine une fois pour toutes la voix de l'edition (pas de melange de voix)."""
     f = cfg.get("fournisseur", "elevenlabs")
+    if f == "azure" and not _azure_pret(cfg):
+        f = "elevenlabs"
     if f == "elevenlabs":
         if not os.getenv("ELEVENLABS_API_KEY") or "REMPLACE" in (os.getenv("ELEVENLABS_VOICE_ID")
                                                                  or cfg.get("elevenlabs_voice_id", "REMPLACE")):
@@ -289,7 +345,9 @@ def choisir_fournisseur(cfg: dict) -> str:
 def dire(texte: str, sortie: Path, cfg: dict, fournisseur: str, precedent: str | None = None) -> tuple:
     """Cree le fichier audio. Renvoie (fournisseur reellement utilise, horaires des mots)."""
     try:
-        if fournisseur == "elevenlabs":
+        if fournisseur == "azure":
+            mots = _azure(texte, sortie, cfg)
+        elif fournisseur == "elevenlabs":
             mots = _elevenlabs(texte, sortie, cfg, precedent)
         elif fournisseur == "edge":
             mots = _edge(texte, sortie, cfg)

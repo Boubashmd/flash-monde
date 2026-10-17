@@ -6,7 +6,7 @@ Utilisation :
     python -m src.main --bilan              bilan des vues YouTube de la semaine, sur Telegram
     python -m src.main --demo               edition de test avec des articles fictifs
     python -m src.main --verifier-sources   teste chaque flux RSS
-Options : --voix silence|edge|elevenlabs   --sans-telegram   --sans-validation   --si-pas-faite
+Options : --voix silence|edge|elevenlabs|azure   --sans-telegram   --sans-validation   --si-pas-faite
 """
 from __future__ import annotations
 
@@ -288,9 +288,10 @@ class Edition:
         for i, s in enumerate(sujets):
             a = self.travail / f"voix_{i}.mp3"
             f, mots = voix.dire(s["texte"], a, v_cfg, fournisseur, precedent)
-            if fournisseur == "elevenlabs" and f == "silence" and not args.demo:
-                raise RuntimeError(f"la voix ElevenLabs a échoué ({voix.derniere_erreur}). Vérifie ton crédit "
-                                   "ElevenLabs, ta clé ou l'identifiant de la voix. Vidéo non fabriquée.")
+            if fournisseur in ("azure", "elevenlabs") and f == "silence" and not args.demo:
+                nom = "Azure" if fournisseur == "azure" else "ElevenLabs"
+                raise RuntimeError(f"la voix {nom} a échoué ({voix.derniere_erreur}). Vérifie ton crédit "
+                                   f"{nom}, ta clé ou le nom de la voix. Vidéo non fabriquée.")
             utilises.add(f)
             precedent = s["texte"]
             s["_audio"], s["_mots"], s["_duree"] = a, mots, voix.duree(a)
@@ -484,7 +485,7 @@ def main() -> int:
     p.add_argument("--semaine", action="store_true", help="récapitulatif « la semaine dans le monde »")
     p.add_argument("--bilan", action="store_true", help="bilan des vues YouTube de la semaine")
     p.add_argument("--verifier-sources", action="store_true")
-    p.add_argument("--voix", choices=["elevenlabs", "edge", "silence"])
+    p.add_argument("--voix", choices=["azure", "elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
     p.add_argument("--si-pas-faite", action="store_true",
                    help="ne fait rien si une edition a deja tourne dans les 2 dernieres heures (taches planifiees)")

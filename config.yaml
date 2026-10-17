@@ -115,8 +115,12 @@ redaction:
   modele: "claude-haiku-4-5-20251001"
 
 voix:
-  # "elevenlabs" (payant, naturel) | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
-  fournisseur: "elevenlabs"
+  # "azure" (Microsoft, gratuit jusqu'a 500 000 caracteres/mois) | "elevenlabs" (payant, naturel)
+  # | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
+  # Si Azure ne repond pas, l'edition passe a ElevenLabs (s'il est configure), sinon a Edge.
+  fournisseur: "azure"
+  azure_voix: "fr-FR-RemyMultilingualNeural"
+  azure_vitesse: "0%"     # "-10%" = plus pose, "+10%" = plus rapide
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
   # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
   # Settings > Secrets and variables > Actions > onglet Variables : ELEVENLABS_VOICE_ID, ELEVENLABS_MODELE

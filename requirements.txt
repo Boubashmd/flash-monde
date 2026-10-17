@@ -7,3 +7,4 @@ edge-tts>=6.1
 tzdata
 numpy>=1.24
 opencv-python-headless>=4.8
+azure-cognitiveservices-speech>=1.40
