@@ -315,5 +315,139 @@
    "pierre"
   ],
   "youtube": "PT96TTOBDNI"
+ },
+ {
+  "date": "2026-10-17T00:37:28.858829+00:00",
+  "edition": "2026-10-17T02:29:56.640031+02:00",
+  "semaine": false,
+  "titre": "Journaliste américaine agressée par des colons en Cisjordanie",
+  "texte": "Vendredi, en Cisjordanie occupée, la photojournaliste du Washington Post Heidi Levine a été attaquée par plus de 50 hommes masqués armés de bâtons et barres de fer. Elle couvrait la récolte des olives par des agriculteurs palestiniens.",
+  "iso": [
+   "ISR",
+   "PSE"
+  ],
+  "pays": "Israël",
+  "sources": [
+   "20 Minutes",
+   "Courrier international",
+   "France 24",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/israel/4255029-20261016-cisjordanie-journaliste-americaine-rouee-coups-colons?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/moyen-orient-une-photographe-du-washington-post-attaquee-par-des-colons-israeliens-en-cisjordanie_279447",
+   "France 24": "https://www.france24.com/fr/moyen-orient/20261016-cisjordanie-occup%C3%A9e-colons-isra%C3%A9liens-attaquent-oliveraie-journaliste-am%C3%A9ricaine-bless%C3%A9e-agriculteurs-paslestiniens",
+   "franceinfo": "https://www.franceinfo.fr/monde/proche-orient/d-un-coup-ils-m-ont-attaquee-une-journaliste-americaine-blessee-par-des-colons-israeliens-en-cisjordanie-occupee_8241010.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 61.51492538888889,
+  "personne": null,
+  "sig": [
+   "americ",
+   "attaqu",
+   "cisjor",
+   "colons",
+   "coups",
+   "israel",
+   "journa",
+   "occupe"
+  ],
+  "youtube": "lHzmGzcydFs"
+ },
+ {
+  "date": "2026-10-17T00:37:28.858843+00:00",
+  "edition": "2026-10-17T02:29:56.640031+02:00",
+  "semaine": false,
+  "titre": "Zelensky demande 70 milliards d'euros aux dirigeants européens",
+  "texte": "Le président ukrainien a participé vendredi au sommet des dirigeants européens à Bruxelles. Il a demandé une aide supplémentaire de 70 milliards d'euros pour l'année 2027.",
+  "iso": [
+   "UKR",
+   "UE"
+  ],
+  "pays": "Ukraine",
+  "sources": [
+   "Le Monde",
+   "franceinfo"
+  ],
+  "liens": {
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/guerre-en-ukraine-l-europe-fait-bloc-derriere-kiev-mais-doit-de-nouveau-etudier-le-financement-de-son-soutien_6795637_3210.html",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-les-stocks-de-missiles-patriot-presque-epuises-la-defense-aerienne-de-kiev-en-difficulte_8240479.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 48.42048094444445,
+  "personne": "Volodymyr Zelensky",
+  "sig": [
+   "aerien",
+   "bloc",
+   "defens",
+   "derrie",
+   "diffic",
+   "guerre",
+   "kiev",
+   "ukrain"
+  ],
+  "youtube": "lHzmGzcydFs"
+ },
+ {
+  "date": "2026-10-17T00:37:28.858850+00:00",
+  "edition": "2026-10-17T02:29:56.640031+02:00",
+  "semaine": false,
+  "titre": "France : gilets jaunes et lycéens manifestent samedi",
+  "texte": "Samedi 17 octobre, une journée de mobilisation particulièrement importante se déroulera en France. Les lycéens manifesteront pour la première fois au côté des gilets jaunes, dans une convergence de luttes.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "Courrier international",
+   "France 24"
+  ],
+  "liens": {
+   "Courrier international": "https://www.courrierinternational.com/article/vu-de-l-etranger-lyceens-gilets-jaunes-en-france-la-convergence-des-luttes-aura-t-elle-lieu_279230",
+   "France 24": "https://www.france24.com/fr/france/20261016-france-gilets-jaunes-lyceens-syndicats-a-quoi-va-ressembler-la-mobilisation-du-17-octobre"
+  },
+  "score": 43.87825872222222,
+  "personne": null,
+  "sig": [
+   "aura",
+   "conver",
+   "elle",
+   "france",
+   "gilets",
+   "jaunes",
+   "lieu",
+   "lyceen"
+  ],
+  "youtube": "lHzmGzcydFs"
+ },
+ {
+  "date": "2026-10-17T00:37:28.858855+00:00",
+  "edition": "2026-10-17T02:29:56.640031+02:00",
+  "semaine": false,
+  "titre": "Londres libère 5 000 prisonniers anticipativement d'ici 2027",
+  "texte": "Le gouvernement travailliste britannique a mis en place un programme de libérations anticipées pour alléger la surpopulation carcérale. Environ 5 000 nouveaux détenus sortiront après avoir purgé 30 pour cent de leur peine.",
+  "iso": [
+   "GBR"
+  ],
+  "pays": "Royaume-Uni",
+  "sources": [
+   "20 Minutes",
+   "Le Monde"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/4255044-20261016-royaume-uni-travaille-cinq-employeurs-fois-cumule-183-heures-semaine?at_medium=display&at_campaign=149",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/au-royaume-uni-la-reforme-du-gouvernement-travailliste-pour-vider-les-prisons-fait-polemique_6795562_3210.html"
+  },
+  "score": 43.44270316666667,
+  "personne": null,
+  "sig": [
+   "183",
+   "employ",
+   "fois",
+   "gouver",
+   "heures",
+   "royaum",
+   "travai",
+   "uni"
+  ],
+  "youtube": "lHzmGzcydFs"
  }
 ]
