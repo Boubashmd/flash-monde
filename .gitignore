@@ -6,3 +6,10 @@ __pycache__/
 .venv/
 *.mp3
 .DS_Store
+
+# fichiers locaux a ne jamais envoyer sur GitHub
+client_secret*.json
+*.zip
+maj-*.sh
+/voix.py
+/FICHE FLASH MONDE.md
