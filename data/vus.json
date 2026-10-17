@@ -1,20 +1,6 @@
 [
  {
   "sig": [
-   "donald",
-   "frappe",
-   "honte",
-   "raffin",
-   "repris",
-   "russes",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-16T08:28:02.448975+00:00",
-  "titre": "Kiev frappe les raffineries russes malgré Trump"
- },
- {
-  "sig": [
    "besoin",
    "bruxel",
    "emmanu",
@@ -290,5 +276,61 @@
   ],
   "date": "2026-10-17T17:11:32.880460+00:00",
   "titre": "Marseille et Nice : violences urbaines lors de la mobilisation du 17 octobre"
+ },
+ {
+  "sig": [
+   "extrem",
+   "limoge",
+   "manife",
+   "marge",
+   "mobili",
+   "octobr",
+   "paris",
+   "violen"
+  ],
+  "date": "2026-10-17T21:49:38.949330+00:00",
+  "titre": "Limoges : l'hôtel de ville incendié lors de manifestations"
+ },
+ {
+  "sig": [
+   "arrach",
+   "enquet",
+   "etienn",
+   "grenad",
+   "main",
+   "mobili",
+   "octobr",
+   "saint"
+  ],
+  "date": "2026-10-17T21:49:38.949340+00:00",
+  "titre": "Un adolescent perd sa main en ramassant une grenade"
+ },
+ {
+  "sig": [
+   "2027",
+   "coude",
+   "devant",
+   "loin",
+   "pen",
+   "presid",
+   "rivaux",
+   "sondag"
+  ],
+  "date": "2026-10-17T21:49:38.949342+00:00",
+  "titre": "Présidentielle 2027 : Le Pen largement en tête"
+ },
+ {
+  "sig": [
+   "000",
+   "3000",
+   "500",
+   "550",
+   "chere",
+   "france",
+   "person",
+   "vie"
+  ],
+  "date": "2026-10-17T21:49:38.949344+00:00",
+  "titre": "Tunisie : des milliers manifestent contre la vie chère"
  }
 ]
