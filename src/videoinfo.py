@@ -15,10 +15,13 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+import numpy as np
 
 from . import cluster, collect, hashtags, montage_video, pays, redaction, telegram, voix
 
@@ -82,10 +85,20 @@ def transcrire(fichier: Path) -> tuple:
     except ImportError:
         print("  ! faster-whisper absent : pas de transcription")
         return "", []
-    modele = WhisperModel("small", device="cpu", compute_type="int8")
-    segments, info = modele.transcribe(str(fichier), vad_filter=True, beam_size=3)
-    out = [(round(s.start, 2), round(s.end, 2), s.text.strip()) for s in segments if s.text.strip()]
-    return (info.language if out else ""), out
+    try:
+        # le son est decode par FFmpeg (et non par le module PyAV, dont certaines versions plantent)
+        brut = subprocess.run(["ffmpeg", "-v", "error", "-i", str(fichier), "-vn", "-ac", "1", "-ar", "16000",
+                               "-f", "f32le", "-"], capture_output=True, check=True).stdout
+        son = np.frombuffer(brut, np.float32)
+        if son.size < 16000:
+            return "", []
+        modele = WhisperModel("small", device="cpu", compute_type="int8")
+        segments, info = modele.transcribe(son, vad_filter=True, beam_size=3)
+        out = [(round(s.start, 2), round(s.end, 2), s.text.strip()) for s in segments if s.text.strip()]
+        return (info.language if out else ""), out
+    except Exception as err:  # sans transcription, la video reste faisable (sans traduction)
+        print(f"  ! transcription impossible ({str(err)[:120]}) : vidéo sans traduction")
+        return "", []
 
 
 def _candidats(articles: list, indice: str, paroles: str, n: int = 45) -> list:
