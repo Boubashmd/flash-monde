@@ -273,6 +273,8 @@ def _carte_portrait(photo: Path, w: int = 560, h: int = 400) -> Sprite | None:
     img = Image.new("RGBA", (w + 2 * b + 2 * m, h + 2 * b + 2 * m), (255, 255, 255, 0))
     ImageDraw.Draw(img).rectangle((m, m, m + w + 2 * b - 1, m + h + 2 * b - 1), fill=(255, 255, 255, 255))
     img.paste(ph, (m + b, m + b))
+    # lisere jaune Flash Monde en bas de la photo, le meme sur tous les portraits
+    ImageDraw.Draw(img).rectangle((m + b, m + b + h - 7, m + b + w - 1, m + b + h - 1), fill=(255, 212, 0, 255))
     return Sprite(_ombre(img, 16, 0.6, (0, 10)))
 
 

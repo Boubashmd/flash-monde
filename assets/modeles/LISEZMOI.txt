@@ -1,0 +1,2 @@
+face_detection_yunet_2023mar.onnx : detecteur de visages YuNet (OpenCV Zoo, licence MIT, voir LICENCE_YUNET.txt).
+Sert a recadrer les portraits sur le visage (src/portrait.py).

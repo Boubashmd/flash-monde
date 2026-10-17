@@ -27,7 +27,7 @@ F_VUS = RACINE / "data" / "vus.json"
 F_ARCHIVES = RACINE / "data" / "archives.json"
 F_STATS = RACINE / "data" / "stats.json"
 F_DERNIERE = RACINE / "data" / "derniere_edition.json"
-DELAI_DOUBLON_H = 2   # une edition planifiee est sautee si une autre a deja tourne dans ces 2 h
+DELAI_DOUBLON_H = 3   # une edition planifiee est sautee si une autre a deja tourne dans ces 3 h
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
@@ -488,7 +488,7 @@ def main() -> int:
     p.add_argument("--voix", choices=["azure", "elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
     p.add_argument("--si-pas-faite", action="store_true",
-                   help="ne fait rien si une edition a deja tourne dans les 2 dernieres heures (taches planifiees)")
+                   help="ne fait rien si une edition a deja tourne dans les 3 dernieres heures (taches planifiees)")
     p.add_argument("--sans-validation", action="store_true",
                    help="fabrique la video sans attendre ta validation sur Telegram")
     args = p.parse_args()
@@ -504,7 +504,7 @@ def main() -> int:
 
     edition_normale = not (args.demo or args.semaine or args.bilan)
     if edition_normale and args.si_pas_faite and deja_faite():
-        print("Une édition a déjà tourné il y a moins de 2 h : rien à faire (créneau de rattrapage).")
+        print(f"Une édition a déjà tourné il y a moins de {DELAI_DOUBLON_H} h : rien à faire (créneau de secours).")
         return 0
     if edition_normale:
         marquer_faite()

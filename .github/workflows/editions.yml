@@ -1,9 +1,9 @@
 name: Flash Monde
 
-# Heures en UTC. Videos vers 9h, 15h et 21h a Paris en heure d'hiver (UTC+1) ;
-# en heure d'ete (UTC+2), tout sort une heure plus tard.
-# Chaque edition a un creneau de rattrapage 20 min apres : GitHub saute parfois une tache
-# planifiee. Le rattrapage ne fait rien si l'edition a deja tourne.
+# Declenchement principal : cron-job.org (a l'heure pile, heure de Paris, changement d'heure gere),
+# qui appelle « workflow_dispatch » avec planifie=true.
+# Les horaires ci-dessous (en UTC) sont des SECOURS si cron-job.org ne passe pas : GitHub les lance
+# souvent en retard. Une edition planifiee ne fait rien si une autre a deja tourne dans les 3 h.
 on:
   schedule:
     - cron: "45 7 * * *"
@@ -13,6 +13,11 @@ on:
     - cron: "45 19 * * *"
     - cron: "5 20 * * *"
   workflow_dispatch:
+    inputs:
+      planifie:
+        description: "Lancement automatique (ne rien changer pour un lancement a la main)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -64,7 +69,7 @@ jobs:
           path: cache/terre
           key: terre-hd-v1
       - name: Fabriquer l'edition
-        run: python -m src.main ${{ github.event_name == 'schedule' && '--si-pas-faite' || '' }}
+        run: python -m src.main ${{ (github.event_name == 'schedule' || inputs.planifie == 'true') && '--si-pas-faite' || '' }}
       - name: Garder la video 7 jours
         uses: actions/upload-artifact@v4
         with:
