@@ -1,76 +1,6 @@
 [
  {
   "sig": [
-   "balaya",
-   "bombar",
-   "frappe",
-   "raffin",
-   "repren",
-   "russes",
-   "trump",
-   "zelens"
-  ],
-  "date": "2026-10-15T21:47:44.003967+00:00",
-  "titre": "Kiev reprend les frappes sur les raffineries russes"
- },
- {
-  "sig": [
-   "accord",
-   "allema",
-   "automo",
-   "avenir",
-   "entend",
-   "europe",
-   "france",
-   "indust"
-  ],
-  "date": "2026-10-15T21:47:44.003982+00:00",
-  "titre": "France et Allemagne s'accordent sur l'industrie automobile"
- },
- {
-  "sig": [
-   "accuse",
-   "americ",
-   "chefs",
-   "coupab",
-   "maduro",
-   "non",
-   "plaide",
-   "tortur"
-  ],
-  "date": "2026-10-15T21:47:44.003986+00:00",
-  "titre": "Maduro et sa femme plaident non coupables de torture"
- },
- {
-  "sig": [
-   "aden",
-   "attaqu",
-   "faisan",
-   "gouver",
-   "houthi",
-   "morts",
-   "siege",
-   "yemen"
-  ],
-  "date": "2026-10-15T21:47:44.003990+00:00",
-  "titre": "Les Houthis frappent le palais présidentiel d'Aden"
- },
- {
-  "sig": [
-   "140",
-   "albani",
-   "biento",
-   "chaos",
-   "condam",
-   "connai",
-   "edi",
-   "rama"
-  ],
-  "date": "2026-10-15T23:05:54.506807+00:00",
-  "titre": "Albanie : manifestation contre le PM Edi Rama"
- },
- {
-  "sig": [
    "donald",
    "frappe",
    "honte",
@@ -276,5 +206,19 @@
   ],
   "date": "2026-10-17T06:56:45.862771+00:00",
   "titre": "ONU : aucun candidat n'a l'accord des grandes puissances"
+ },
+ {
+  "sig": [
+   "donald",
+   "exempt",
+   "kiev",
+   "nouvel",
+   "russie",
+   "sancti",
+   "trump",
+   "ukrain"
+  ],
+  "date": "2026-10-17T11:51:31.344536+00:00",
+  "titre": "Trump exempte la Russie de nouvelles sanctions du Congrès"
  }
 ]

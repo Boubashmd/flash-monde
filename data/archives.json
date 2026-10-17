@@ -516,5 +516,45 @@
    "succes"
   ],
   "youtube": "LD0DiO0Ufpc"
+ },
+ {
+  "date": "2026-10-17T11:56:24.227977+00:00",
+  "edition": "2026-10-17T13:46:56.148111+02:00",
+  "semaine": false,
+  "titre": "Trump exempte la Russie de nouvelles sanctions du Congrès",
+  "texte": "Donald Trump a exempté vendredi la Russie de sanctions majeures adoptées par le Congrès. Le décret présidentiel s'appuie sur des considérations de sécurité nationale. Moscou a qualifié cette décision de moment historique, tandis que Kiev craint d'être abandonné par Washington.",
+  "iso": [
+   "USA",
+   "RUS",
+   "UKR"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "Courrier international",
+   "France 24",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4255157-20261017-guerre-ukraine-donald-trump-fait-nouveau-cadeau-russie-exempte-sanctions?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-trump-met-un-coup-d-arret-aux-sanctions-contre-la-russie-au-grand-desarroi-de-l-ukraine_279513",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261017-trump-exempte-la-russie-de-nouvelles-sanctions-en-pleine-crise-avec-kiev",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/donald-trump-exempte-la-russie-de-nouvelles-sanctions-29388459.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/donald-trump-exempte-la-russie-de-nouvelles-sanctions-et-inflige-un-nouveau-camouflet-a-kiev_8241421.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 81.88680551861111,
+  "personne": "Donald Trump",
+  "sig": [
+   "donald",
+   "exempt",
+   "kiev",
+   "nouvel",
+   "russie",
+   "sancti",
+   "trump",
+   "ukrain"
+  ],
+  "youtube": "UmRQyEV-raM"
  }
 ]
