@@ -76,7 +76,7 @@ def verifier_sources(cfg: dict) -> None:
     ok = 0
     for s in cfg["sources"]:
         try:
-            n = len(collect.lire_flux(s["nom"], s["url"]))
+            n = len(collect.lire_source(s))
             print(f"  OK   {s['nom']:<14} {n} articles")
             ok += 1
         except Exception as err:
@@ -158,7 +158,7 @@ class Edition:
             articles, etat = collect.collecter(cfg["sources"], fenetre, ed["exclure"])
             for e in etat:
                 print(f"  {'OK' if e['ok'] else 'KO'}  {e['nom']:<14} {e['detail']}")
-            ko = [e["nom"] for e in etat if not e["ok"]]
+            ko = [e["nom"] for e in etat if not e["ok"] and not e.get("optionnel")]
             if len(ko) >= 3:
                 self.info(f"ℹ️ {len(ko)} sources injoignables : {', '.join(ko)}")
         print(f"  {len(articles)} articles récents")
@@ -187,7 +187,7 @@ class Edition:
 
         self.etape = "rédaction"
         print("3/6 Rédaction")
-        sujets, mode = redaction.rediger(sujets[: ed["nb_titres"] + 5], cfg["redaction"])
+        sujets, mode = redaction.rediger(sujets[: ed["nb_titres"] + 8], cfg["redaction"])
         sujets = sujets[: ed["nb_titres"]]
         for s in sujets:
             s["liens"] = {src: next((a.lien for a in s["articles"] if a.source == src), "") for src in s["sources"]}

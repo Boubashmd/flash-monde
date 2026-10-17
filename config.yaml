@@ -58,6 +58,13 @@ edition:
     - "otan"
     - "droits de douane"
     - "tribunal"
+    - "manifestation"
+    - "émeute"
+    - "pillage"
+    - "violences urbaines"
+    - "fusillade"
+    - "attentat"
+    - "attaque"
   # true : on ne garde QUE les sujets d'une zone prioritaire (moins de videos les jours calmes)
   zones_strictes: false
   # Les titres contenant un de ces mots sont ignores (formats qui ne sont pas des infos)
@@ -72,6 +79,21 @@ edition:
     - "édito"
     - "tribune"
     - "chronique"
+    # sport, loisirs et vie pratique (frequents dans les medias de proximite)
+    - "ligue 1"
+    - "ligue des champions"
+    - "mercato"
+    - "football"
+    - "rugby"
+    - "basket"
+    - "handball"
+    - "tennis"
+    - "cyclisme"
+    - "météo"
+    - "loto"
+    - "recette"
+    - "bons plans"
+    - "programme tv"
 
 # Flux RSS. Desactive une source en mettant un # devant ses 2 lignes.
 # Lance "python -m src.main --verifier-sources" pour voir lesquelles repondent.
@@ -102,6 +124,92 @@ sources:
     url: "https://www.courrierinternational.com/feed/all/rss.xml"
   - nom: "Jeune Afrique"
     url: "https://www.jeuneafrique.com/feed/"
+
+  # --- Actualite en France et medias de proximite (politique intérieure, grands faits d'ordre public)
+  # « groupe » : les titres d'un meme groupe partagent leurs articles, ils ne comptent que pour UN media
+  # dans la regle des 2 sources. « urls » : adresses essayees dans l'ordre. « optionnel » : une panne
+  # n'est signalee que dans le journal GitHub, pas sur Telegram.
+  - nom: "franceinfo France"
+    groupe: "franceinfo"
+    optionnel: true
+    urls: ["https://www.francetvinfo.fr/france.rss", "https://www.francetvinfo.fr/titres.rss"]
+  - nom: "franceinfo faits divers"
+    groupe: "franceinfo"
+    optionnel: true
+    urls: ["https://www.francetvinfo.fr/faits-divers.rss"]
+  - nom: "France 3 Régions"
+    groupe: "franceinfo"
+    optionnel: true
+    urls: ["https://france3-regions.franceinfo.fr/rss", "https://france3-regions.francetvinfo.fr/rss"]
+  - nom: "Le Monde France"
+    groupe: "Le Monde"
+    optionnel: true
+    urls: ["https://www.lemonde.fr/rss/une.xml", "https://www.lemonde.fr/societe/rss_full.xml"]
+  - nom: "Le Figaro France"
+    groupe: "Le Figaro"
+    optionnel: true
+    urls: ["https://www.lefigaro.fr/rss/figaro_actualites.xml", "https://www.lefigaro.fr/rss/figaro_actualite-france.xml"]
+  - nom: "20 Minutes France"
+    groupe: "20 Minutes"
+    optionnel: true
+    urls: ["https://www.20minutes.fr/feeds/rss-une.xml", "https://www.20minutes.fr/feeds/rss-faits_divers.xml"]
+  - nom: "BFMTV"
+    optionnel: true
+    urls: ["https://www.bfmtv.com/rss/news-24-7/", "https://www.bfmtv.com/rss/info/flux-rss/flux-toutes-les-actualites/"]
+  - nom: "Le Parisien"
+    optionnel: true
+    urls: ["https://feeds.leparisien.fr/leparisien/rss", "https://www.leparisien.fr/arc/outboundfeeds/rss/"]
+  - nom: "Ouest-France"
+    groupe: "Ouest-France"
+    optionnel: true
+    urls: ["https://www.ouest-france.fr/rss/une", "https://www.ouest-france.fr/rss-en-continu.xml"]
+  - nom: "actu.fr"
+    groupe: "Ouest-France"
+    optionnel: true
+    urls: ["https://actu.fr/rss.xml"]
+  - nom: "La Provence"
+    optionnel: true
+    urls: ["https://www.laprovence.com/rss", "https://www.laprovence.com/arc/outboundfeeds/rss/", "https://www.laprovence.com/rss/accueil.xml"]
+  - nom: "Nice-Matin"
+    optionnel: true
+    urls: ["https://www.nicematin.com/rss", "https://www.nicematin.com/rss/derniere-minute.xml"]
+  - nom: "Sud Ouest"
+    optionnel: true
+    urls: ["https://www.sudouest.fr/rss.xml", "https://www.sudouest.fr/arc/outboundfeeds/rss/"]
+  - nom: "La Dépêche"
+    groupe: "La Dépêche"
+    optionnel: true
+    urls: ["https://www.ladepeche.fr/rss.xml", "https://www.ladepeche.fr/rss/actu.xml"]
+  - nom: "Midi Libre"
+    groupe: "La Dépêche"
+    optionnel: true
+    urls: ["https://www.midilibre.fr/rss.xml"]
+  - nom: "La Voix du Nord"
+    optionnel: true
+    urls: ["https://www.lavoixdunord.fr/rss", "https://www.lavoixdunord.fr/rss.xml"]
+  - nom: "Le Progrès"
+    groupe: "EBRA"
+    optionnel: true
+    urls: ["https://www.leprogres.fr/rss"]
+  - nom: "Le Dauphiné"
+    groupe: "EBRA"
+    optionnel: true
+    urls: ["https://www.ledauphine.com/rss"]
+  - nom: "DNA"
+    groupe: "EBRA"
+    optionnel: true
+    urls: ["https://www.dna.fr/rss"]
+  - nom: "L'Est Républicain"
+    groupe: "EBRA"
+    optionnel: true
+    urls: ["https://www.estrepublicain.fr/rss"]
+  - nom: "Le Télégramme"
+    optionnel: true
+    urls: ["https://www.letelegramme.fr/rss.xml", "https://www.letelegramme.fr/rss"]
+  - nom: "La Montagne"
+    groupe: "Centre France"
+    optionnel: true
+    urls: ["https://www.lamontagne.fr/rss", "https://www.lamontagne.fr/rss.xml"]
 
 validation:
   # Avant de fabriquer la voix et la video, le bot Telegram te propose les sujets :

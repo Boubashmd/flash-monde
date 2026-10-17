@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import html
 import re
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta, timezone
 
@@ -19,6 +20,7 @@ class Article:
     resume: str
     lien: str
     date: str  # ISO 8601, UTC
+    groupe: str = ""  # groupe de presse : deux titres du meme groupe ne comptent que pour un media
 
     def to_dict(self):
         return asdict(self)
@@ -57,23 +59,46 @@ def lire_flux(nom: str, url: str, timeout: int = 20) -> list[Article]:
     return articles
 
 
+def lire_source(s: dict) -> list[Article]:
+    """Essaie les adresses de la source dans l'ordre (« url » ou liste « urls ») ; garde la premiere qui marche."""
+    adresses = s.get("urls") or [s["url"]]
+    derniere = None
+    for url in adresses:
+        try:
+            arts = lire_flux(s["nom"], url)
+            for a in arts:
+                a.groupe = s.get("groupe", s["nom"])
+            return arts
+        except Exception as err:
+            derniere = err
+    raise derniere or ValueError("aucune adresse")
+
+
 def collecter(sources: list[dict], fenetre_heures: float, exclure: list[str]):
-    """Renvoie (articles recents, etat de chaque source)."""
+    """Renvoie (articles recents, etat de chaque source). Les flux sont lus en parallele."""
     limite = datetime.now(timezone.utc) - timedelta(hours=fenetre_heures)
     exclure = [x.lower() for x in exclure]
-    articles, etat = [], []
-    for s in sources:
+
+    def lire(s):
         try:
-            tous = lire_flux(s["nom"], s["url"])
+            return s, lire_source(s), None
         except Exception as err:  # une source en panne ne doit pas bloquer l'edition
-            etat.append({"nom": s["nom"], "ok": False, "detail": str(err)[:120]})
-            continue
-        recents = [
-            a
-            for a in tous
-            if datetime.fromisoformat(a.date) >= limite
-            and not any(x in a.titre.lower() for x in exclure)
-        ]
-        etat.append({"nom": s["nom"], "ok": True, "detail": f"{len(recents)} recents / {len(tous)}"})
-        articles.extend(recents)
+            return s, [], err
+
+    articles, etat = [], []
+    with ThreadPoolExecutor(8) as pool:
+        for s, tous, err in pool.map(lire, sources):
+            if err is not None:
+                etat.append({"nom": s["nom"], "ok": False, "detail": str(err)[:120],
+                             "optionnel": bool(s.get("optionnel"))})
+                continue
+            recents = [
+                a
+                for a in tous
+                if datetime.fromisoformat(a.date) >= limite
+                and not any(x in a.titre.lower() for x in exclure)
+            ]
+            etat.append({"nom": s["nom"], "ok": True, "detail": f"{len(recents)} recents / {len(tous)}",
+                         "optionnel": bool(s.get("optionnel"))})
+            articles.extend(recents)
     return articles, etat

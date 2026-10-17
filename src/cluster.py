@@ -87,6 +87,11 @@ def _date(a) -> datetime | None:
         return None
 
 
+def medias(articles: list) -> set:
+    """Medias distincts : deux titres du meme groupe de presse comptent pour un seul."""
+    return {getattr(a, "groupe", "") or a.source for a in articles}
+
+
 def classer(groupes: list[list], min_sources: int, vus: list[dict],
             suites: bool = True, suite_apres_h: float = 5) -> list[dict]:
     """Garde les sujets recoupes, du plus repris au moins repris.
@@ -98,7 +103,7 @@ def classer(groupes: list[list], min_sources: int, vus: list[dict],
     maintenant = datetime.now(timezone.utc)
     sujets = []
     for g in groupes:
-        if len({a.source for a in g}) < min_sources:
+        if len(medias(g)) < min_sources:
             continue
         sig = signature(g)
         suite = None
@@ -110,12 +115,12 @@ def classer(groupes: list[list], min_sources: int, vus: list[dict],
             if (maintenant - publie).total_seconds() / 3600 < suite_apres_h:
                 continue
             nouveaux = [a for a in g if (_date(a) or publie) > publie]
-            if len({a.source for a in nouveaux}) < min_sources:
+            if len(medias(nouveaux)) < min_sources:
                 continue
             g, suite = nouveaux, precedent.get("titre", "")
         sources = sorted({a.source for a in g})
         dates = [d for d in (_date(a) for a in g) if d]
         age_h = (maintenant - max(dates)).total_seconds() / 3600 if dates else 0
-        score = len(sources) * 10 - age_h - (5 if suite is not None else 0)
+        score = len(medias(g)) * 10 - age_h - (5 if suite is not None else 0)
         sujets.append({"articles": g, "sources": sources, "sig": sig, "score": score, "suite": suite})
     return sorted(sujets, key=lambda s: -s["score"])
