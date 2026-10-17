@@ -1,0 +1,32 @@
+name: Veille video
+
+# Lance toutes les 5 minutes par cron-job.org. Regarde si une video a ete envoyee au bot Telegram
+# et, si oui, lance « Video Flash Monde » (video.yml). Ne lit aucun message pour de bon : sans risque
+# pour une edition en cours. Duree : quelques secondes.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: true
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            data
+            outils
+      - name: Une video recue ?
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 outils/veille.py

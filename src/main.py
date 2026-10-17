@@ -6,6 +6,7 @@ Utilisation :
     python -m src.main --bilan              bilan des vues YouTube de la semaine, sur Telegram
     python -m src.main --demo               edition de test avec des articles fictifs
     python -m src.main --verifier-sources   teste chaque flux RSS
+    python -m src.main --videos             traite les videos envoyees au bot Telegram
 Options : --voix silence|edge|elevenlabs|azure   --sans-telegram   --sans-validation   --si-pas-faite
 """
 from __future__ import annotations
@@ -467,6 +468,13 @@ def bilan(ed: Edition) -> int:
     return 0
 
 
+def memoriser_vus(sujets: list) -> None:
+    """Note des sujets comme publies (ils ne seront repris que comme « suite »)."""
+    vus = lire_json(F_VUS)
+    vus.extend({"sig": x["sig"], "date": datetime.now(timezone.utc).isoformat(), "titre": x["titre"]} for x in sujets)
+    ecrire_json(F_VUS, vus)
+
+
 def deja_faite() -> bool:
     """Vrai si une edition a deja tourne recemment (pour que le creneau de rattrapage ne refasse rien)."""
     try:
@@ -486,6 +494,7 @@ def main() -> int:
     p.add_argument("--semaine", action="store_true", help="récapitulatif « la semaine dans le monde »")
     p.add_argument("--bilan", action="store_true", help="bilan des vues YouTube de la semaine")
     p.add_argument("--verifier-sources", action="store_true")
+    p.add_argument("--videos", action="store_true", help="traite les videos envoyees au bot Telegram")
     p.add_argument("--voix", choices=["azure", "elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
     p.add_argument("--si-pas-faite", action="store_true",
@@ -502,6 +511,14 @@ def main() -> int:
     if args.verifier_sources:
         verifier_sources(cfg)
         return 0
+
+    if args.videos:
+        from . import videoinfo
+        try:
+            return videoinfo.traiter(cfg, args, publier_youtube, archiver, memoriser_vus)
+        except Exception as err:
+            alerter(f"Échec du traitement des vidéos : {str(err)[:400]}")
+            raise
 
     edition_normale = not (args.demo or args.semaine or args.bilan)
     if edition_normale and args.si_pas_faite and deja_faite():

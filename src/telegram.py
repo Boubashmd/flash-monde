@@ -1,6 +1,7 @@
 """Telegram : validation des sujets avant fabrication, puis envoi de la video."""
 from __future__ import annotations
 
+import json
 import os
 import secrets
 import time
@@ -56,6 +57,95 @@ def video(fichier: Path, legende: str) -> None:
         }, files={"video": f})
 
 
+# ---------------------------------------------------------------- videos envoyees au bot
+# Une video envoyee au bot (depuis X, etc.) ne doit jamais etre perdue : chaque lecture des
+# messages Telegram la met de cote dans data/videos_attente.json, traitee ensuite par « --videos ».
+
+F_ATTENTE = Path("data/videos_attente.json")
+TYPES = ["message", "callback_query"]
+
+
+def _lire_attente() -> list:
+    try:
+        return json.loads(F_ATTENTE.read_text(encoding="utf-8")) if F_ATTENTE.exists() else []
+    except ValueError:
+        return []
+
+
+def _ecrire_attente(liste: list) -> None:
+    F_ATTENTE.parent.mkdir(exist_ok=True)
+    F_ATTENTE.write_text(json.dumps(liste, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def _mettre_de_cote(updates: list) -> int:
+    """Garde les videos envoyees dans notre conversation. Renvoie le nombre de nouvelles."""
+    chat = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
+    attente = _lire_attente()
+    connus = {v["message_id"] for v in attente}
+    nouvelles = 0
+    for u in updates:
+        m = u.get("message") or {}
+        if str(m.get("chat", {}).get("id")) != chat:
+            continue
+        fichier = m.get("video") or m.get("animation")
+        doc = m.get("document") or {}
+        if not fichier and str(doc.get("mime_type", "")).startswith("video/"):
+            fichier = doc
+        if not fichier or m["message_id"] in connus:
+            continue
+        attente.append({"message_id": m["message_id"], "file_id": fichier["file_id"],
+                        "taille": fichier.get("file_size", 0), "duree": fichier.get("duration", 0),
+                        "legende": m.get("caption", ""), "date": m.get("date", 0)})
+        connus.add(m["message_id"])
+        nouvelles += 1
+    if nouvelles:
+        _ecrire_attente(attente)
+    return nouvelles
+
+
+def _vider() -> int | None:
+    """Lit tous les messages en attente chez Telegram (en gardant les videos) ; renvoie l'offset suivant."""
+    offset = None
+    for _ in range(20):
+        params = {"timeout": 0, "allowed_updates": TYPES}
+        if offset is not None:
+            params["offset"] = offset
+        maj = (_appel("getUpdates", params, silencieux=True) or {}).get("result") or []
+        if not maj:
+            break
+        _mettre_de_cote(maj)
+        offset = maj[-1]["update_id"] + 1
+    if offset is not None:  # confirme la lecture aupres de Telegram
+        _appel("getUpdates", {"offset": offset, "timeout": 0, "allowed_updates": TYPES}, silencieux=True)
+    return offset
+
+
+def videos_recues() -> list:
+    """Videos a traiter : celles deja mises de cote + celles arrivees depuis."""
+    _vider()
+    return _lire_attente()
+
+
+def retirer(message_id: int) -> None:
+    _ecrire_attente([v for v in _lire_attente() if v["message_id"] != message_id])
+
+
+def telecharger(file_id: str, sortie: Path) -> Path:
+    """Telecharge un fichier envoye au bot (Telegram limite les bots a 20 Mo)."""
+    info = _appel("getFile", {"file_id": file_id})["result"]
+    r = requests.get(f"https://api.telegram.org/file/bot{os.environ['TELEGRAM_BOT_TOKEN']}/{info['file_path']}",
+                     timeout=300)
+    r.raise_for_status()
+    sortie.write_bytes(r.content)
+    return sortie
+
+
+def repondre(message_id: int, texte: str) -> None:
+    _appel("sendMessage", {"chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": texte[:4000],
+                           "reply_to_message_id": message_id, "allow_sending_without_reply": True},
+           silencieux=True)
+
+
 # ---------------------------------------------------------------- validation
 
 def _clavier(jeton: str, i: int, garde: bool) -> dict:
@@ -74,10 +164,7 @@ def valider(sujets: list[dict], entete: str, delai_minutes: int) -> list[int] | 
     chat = str(os.environ["TELEGRAM_CHAT_ID"])
     jeton = secrets.token_hex(3)  # les boutons des editions precedentes seront ignores
 
-    # on ignore les clics anterieurs a cette edition
-    r = _appel("getUpdates", {"offset": -1, "timeout": 0})
-    anciens = r.get("result") if isinstance(r.get("result"), list) else []
-    offset = anciens[-1]["update_id"] + 1 if anciens else None
+    offset = _vider()  # ignore les clics anterieurs, mais garde les videos recues
 
     etat = {i: True for i in range(len(sujets))}
     messages = {}
@@ -105,7 +192,7 @@ def valider(sujets: list[dict], entete: str, delai_minutes: int) -> list[int] | 
 
     limite = time.time() + delai_minutes * 60
     while time.time() < limite:
-        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": ["callback_query"]}
+        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": TYPES}
         if offset is not None:
             params["offset"] = offset
         try:
@@ -113,6 +200,7 @@ def valider(sujets: list[dict], entete: str, delai_minutes: int) -> list[int] | 
         except Exception:
             time.sleep(5)  # coupure reseau passagere : on reessaie
             continue
+        _mettre_de_cote(maj)  # une video envoyee pendant l'attente est gardee pour plus tard
         for u in maj:
             offset = u["update_id"] + 1
             cq = u.get("callback_query")
@@ -150,15 +238,13 @@ def demander(question: str, choix: list, delai_minutes: int) -> str | None:
     Renvoie le code du bouton choisi, ou None sans reponse dans le delai."""
     chat = str(os.environ["TELEGRAM_CHAT_ID"])
     jeton = secrets.token_hex(3)
-    r = _appel("getUpdates", {"offset": -1, "timeout": 0})
-    anciens = r.get("result") if isinstance(r.get("result"), list) else []
-    offset = anciens[-1]["update_id"] + 1 if anciens else None
+    offset = _vider()  # ignore les clics anterieurs, mais garde les videos recues
     m = _appel("sendMessage", {"chat_id": chat, "text": question, "reply_markup": {"inline_keyboard": [[
         {"text": libelle, "callback_data": f"{jeton}:{code}"} for code, libelle in choix]]}})
     id_msg = m["result"]["message_id"]
     limite = time.time() + delai_minutes * 60
     while time.time() < limite:
-        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": ["callback_query"]}
+        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": TYPES}
         if offset is not None:
             params["offset"] = offset
         try:
@@ -166,6 +252,7 @@ def demander(question: str, choix: list, delai_minutes: int) -> str | None:
         except Exception:
             time.sleep(5)
             continue
+        _mettre_de_cote(maj)  # une video envoyee pendant l'attente est gardee pour plus tard
         for u in maj:
             offset = u["update_id"] + 1
             cq = u.get("callback_query")
