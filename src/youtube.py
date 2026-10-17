@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -61,12 +62,22 @@ def publier(video: Path, titre: str, description: str, mots_cles: list, confiden
     taille = video.stat().st_size
 
     def ouvrir(corps: dict):
-        return requests.post(ENVOI, params={"uploadType": "resumable", "part": "snippet,status"},
-                             headers={"Authorization": f"Bearer {acces}",
-                                      "Content-Type": "application/json; charset=UTF-8",
-                                      "X-Upload-Content-Type": "video/mp4",
-                                      "X-Upload-Content-Length": str(taille)},
-                             data=json.dumps(corps), timeout=60)
+        """Ouvre la session d'envoi. Sans risque de doublon : rien n'est cree tant que la video n'est pas envoyee."""
+        for essai in range(4):
+            try:
+                r = requests.post(ENVOI, params={"uploadType": "resumable", "part": "snippet,status"},
+                                  headers={"Authorization": f"Bearer {acces}",
+                                           "Content-Type": "application/json; charset=UTF-8",
+                                           "X-Upload-Content-Type": "video/mp4",
+                                           "X-Upload-Content-Length": str(taille)},
+                                  data=json.dumps(corps), timeout=120)
+                if r.status_code < 500:
+                    return r
+            except requests.RequestException as err:  # coupure ou lenteur passagere de Google
+                if essai == 3:
+                    raise RuntimeError(f"YouTube ne répond pas ({err})")
+            time.sleep(10 * (essai + 1))
+        return r
 
     r = ouvrir(meta)
     if r.status_code == 400 and "containsSyntheticMedia" in r.text:  # champ refuse : on l'enleve
@@ -75,12 +86,35 @@ def publier(video: Path, titre: str, description: str, mots_cles: list, confiden
     if r.status_code >= 400:
         raise RuntimeError(f"YouTube a refusé l'envoi : {r.status_code} {r.text[:200]}")
     adresse = r.headers["Location"]
-    with open(video, "rb") as f:
-        r = requests.put(adresse, data=f, headers={"Authorization": f"Bearer {acces}",
-                                                  "Content-Type": "video/mp4"}, timeout=600)
-    if r.status_code >= 400:
-        raise RuntimeError(f"envoi de la vidéo interrompu : {r.status_code} {r.text[:200]}")
-    return r.json()["id"]
+
+    # envoi par reprise : si la connexion coupe, on demande a YouTube ou il en est et on continue
+    # (jamais de nouvelle video en double)
+    deja = 0
+    for essai in range(5):
+        try:
+            with open(video, "rb") as f:
+                f.seek(deja)
+                entetes = {"Authorization": f"Bearer {acces}", "Content-Type": "video/mp4"}
+                if deja:
+                    entetes["Content-Range"] = f"bytes {deja}-{taille - 1}/{taille}"
+                r = requests.put(adresse, data=f, headers=entetes, timeout=900)
+            if r.status_code in (200, 201):
+                return r.json()["id"]
+            if r.status_code < 500 and r.status_code != 308:
+                raise RuntimeError(f"envoi de la vidéo refusé : {r.status_code} {r.text[:200]}")
+        except requests.RequestException:
+            pass
+        time.sleep(10 * (essai + 1))
+        try:  # ou en est l'envoi ?
+            etat = requests.put(adresse, headers={"Authorization": f"Bearer {acces}",
+                                                  "Content-Range": f"bytes */{taille}"}, timeout=120)
+            if etat.status_code in (200, 201):
+                return etat.json()["id"]
+            m = re.search(r"bytes=0-(\d+)", etat.headers.get("Range", ""))
+            deja = int(m.group(1)) + 1 if m else 0
+        except requests.RequestException:
+            pass
+    raise RuntimeError("envoi de la vidéo interrompu après plusieurs essais")
 
 
 def lien(video_id: str) -> str:
