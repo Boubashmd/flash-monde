@@ -1376,5 +1376,167 @@
    "ukrain"
   ],
   "youtube": "KcqySrP0jfw"
+ },
+ {
+  "date": "2026-10-18T17:07:15.133924+00:00",
+  "edition": "2026-10-18T18:54:11.521315+02:00",
+  "semaine": false,
+  "titre": "France : plus de 2 000 interpellations après violences",
+  "texte": "Au lendemain des manifestations du 17 octobre, le gouvernement fait face à de fortes critiques sur sa gestion du maintien de l'ordre. Plus de 2 000 personnes ont été interpellées en France, dont 855 à Paris, un chiffre record. À Marseille, la préfecture dénombre plus de 30 000 pilleurs et 118 policiers blessés.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "France 24",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Nice-Matin",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/police-justice/des-centaines-de-commerces-attaques-plus-de-30-000-pilleurs-denombres-a-marseille-lors-des-manifestations-du-17-octobre_AV-202610180297.html",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261018-17-octobre-au-lendemain-des-violences-le-gouvernement-sous-forte-pression",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/direct-manifestations-du-17-octobre-lincendie-de-la-mairie-de-limoges-est-circonscrit-855-personnes-interpellees-a-paris-13608154.php",
+   "Le Figaro France": "https://www.lefigaro.fr/marseille/violences-du-17-octobre-plus-de-30-000-pilleurs-a-marseille-selon-la-prefecture-de-police-20261018",
+   "Le Parisien": "https://www.leparisien.fr/politique/17-octobre-yael-braun-pivet-favorable-a-une-commission-denquete-parlementaire-sur-les-violences-et-la-strategie-de-maintien-de-lordre-18-10-2026-NLDDUPT2VNCT7BJAIB66SGHC7M.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/a-toulon-vingt-personnes-ont-ete-placees-en-garde-a-vue-dans-le-cadre-des-violences-urbaines-commises-lors-de-la-manifestation-du-17-octobre-10743132",
+   "franceinfo faits divers": "https://www.franceinfo.fr/economie/greve/laurent-nunez-etait-completement-depasse-les-appels-a-demission-du-ministre-de-l-interieur-se-multiplient-apres-les-violences-du-17-octobre_8242828.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 102.99916002833334,
+  "personne": null,
+  "sig": [
+   "000",
+   "commis",
+   "enquet",
+   "gouver",
+   "lendem",
+   "mainti",
+   "octobr",
+   "violen"
+  ],
+  "youtube": "ZNT2KTZCiJM"
+ },
+ {
+  "date": "2026-10-18T17:07:15.133938+00:00",
+  "edition": "2026-10-18T18:54:11.521315+02:00",
+  "semaine": false,
+  "titre": "IGPN ouvre enquêtes après blessés graves aux violences",
+  "texte": "Trois enquêtes ont été confiées à l'inspection générale de la police après les incidents du 17 octobre. Une manifestante mineure a perdu l'usage d'un œil à Mulhouse. À Saint-Étienne, un adolescent de 17 ans a eu la main arrachée par une grenade.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "Le Figaro France",
+   "Le Parisien",
+   "RFI",
+   "actu.fr",
+   "franceinfo France",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "Le Figaro France": "https://www.lefigaro.fr/conjoncture/j-invite-chacun-a-venir-nous-aider-au-lendemain-des-saccages-du-17-octobre-le-maire-de-paris-appelle-les-habitants-a-nettoyer-les-rues-20261018",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/mobilisation-du-17-octobre-une-adolescente-de-17-ans-perd-un-oeil-a-mulhouse-ligpn-saisie-18-10-2026-O7DZPG42AFB45OEGQOCKGCZFNM.php",
+   "RFI": "https://www.rfi.fr/fr/france/20261018-direct-mobilisation-du-17-octobre-la-france-se-r%C3%A9veille-groggy-au-lendemain-d-une-journ%C3%A9e-de-col%C3%A8re-et-de-chaos",
+   "actu.fr": "https://actu.fr/faits-divers/une-adolescente-perd-un-oeil-a-mulhouse-apres-la-manifestation-du-17-octobre-une-enquete-de-l-igpn-ouverte_64941859.html",
+   "franceinfo France": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/une-enquete-ouverte-et-l-igpn-saisie-apres-la-plainte-d-un-manifestant-blesse-au-crane-a-paris-lors-de-la-mobilisation-du-17-octobre_8242621.html#xtor=RSS-3-%5Bgeneral%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/a-mulhouse-l-igpn-saisie-apres-qu-une-manifestante-mineure-a-perdu-l-usage-d-un-il_8242996.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 82.99916008277778,
+  "personne": null,
+  "sig": [
+   "enquet",
+   "igpn",
+   "lendem",
+   "manife",
+   "mobili",
+   "octobr",
+   "paris",
+   "saisie"
+  ],
+  "youtube": "ZNT2KTZCiJM"
+ },
+ {
+  "date": "2026-10-18T17:07:15.133955+00:00",
+  "edition": "2026-10-18T18:54:11.521315+02:00",
+  "semaine": false,
+  "titre": "Ukraine frappe deux sites pétroliers russes près de SPb",
+  "texte": "Une attaque massive de drones ukrainiens a visé deux sites pétroliers dans le sud de Saint-Pétersbourg dans la nuit de samedi à dimanche. L'attaque a fait au moins un mort et cinq blessés. Moscou affirme avoir neutralisé plus de mille engins ukrainiens.",
+  "iso": [
+   "UKR",
+   "RUS"
+  ],
+  "pays": "Ukraine",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4255320-20261018-guerre-ukraine-mort-deux-sites-petroliers-russes-incendies-apres-attaque-massive-drones?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4255320-20261018-guerre-ukraine-mort-deux-sites-petroliers-russes-incendies-apres-attaque-massive-drones?at_medium=display&at_campaign=149",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/direct-guerre-en-ukraine-vladimir-poutine-veut-deployer-des-missiles-balistiques-au-belarus-pour-attaquer-louest-de-lukraine-selon-volodymyr-zelensky-13607189.php",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-des-f-16-roumains-abattent-deux-drones-russes-geran-au-dessus-de-la-mer-noire-18-10-2026-4ZFYN34AFRDJ7DQJVM4WSECRSE.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/18/guerre-en-ukraine-ils-frappent-nous-frappons-entre-kiev-et-moscou-les-attaques-se-multiplient-sur-les-systemes-energetiques-13608465.php",
+   "Sud Ouest": "https://www.sudouest.fr/international/guerre-au-yemen-en-arabie-saoudite-riyad-vit-au-ralenti-face-aux-attaques-houthies-et-deplore-la-mort-de-deux-pilotes-31131413.php"
+  },
+  "score": 72.99916004055555,
+  "personne": null,
+  "sig": [
+   "attaqu",
+   "drones",
+   "guerre",
+   "incend",
+   "kiev",
+   "mort",
+   "russes",
+   "ukrain"
+  ],
+  "youtube": "ZNT2KTZCiJM"
+ },
+ {
+  "date": "2026-10-18T17:07:15.133960+00:00",
+  "edition": "2026-10-18T18:54:11.521315+02:00",
+  "semaine": false,
+  "titre": "Violences : environ 1 500 magasins touchés en France",
+  "texte": "Les dégâts causés par les violences en marge des manifestations du 17 octobre s'élèvent à plusieurs centaines de millions d'euros. Environ 1 500 commerces ont été touchés en France. Donald Trump a critiqué le bilan sur les réseaux sociaux.",
+  "iso": [
+   "FRA",
+   "USA"
+  ],
+  "pays": "France",
+  "sources": [
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "franceinfo France",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261018-17-octobre-la-france-face-aux-stigmates-de-violences-in%C3%A9dites",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/la-france-brule-donald-trump-sen-donne-a-coeur-joie-apres-les-manifestations-du-17-octobre-et-dezingue-la-politique-migratoire-13608514.php",
+   "Le Parisien": "https://www.leparisien.fr/politique/la-france-brule-apres-les-violences-du-17-octobre-donald-trump-critique-limmigration-18-10-2026-KWMAHIYGSVFB5PEYUALT4ATESY.php",
+   "franceinfo France": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/paris-apres-les-violences-du-17-octobre-manque-de-moyens-policiers-recuperation-politique-le-8h30-franceinfo-de-lamia-el-aaraje_8201186.html#xtor=RSS-3-%5Bgeneral%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/paris-apres-les-violences-du-17-octobre-manque-de-moyens-policiers-recuperation-politique-le-8h30-franceinfo-de-lamia-el-aaraje_8201186.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 72.99915998,
+  "personne": null,
+  "sig": [
+   "8h30",
+   "aaraje",
+   "brule",
+   "donald",
+   "france",
+   "octobr",
+   "politi",
+   "violen"
+  ],
+  "youtube": "ZNT2KTZCiJM"
  }
 ]

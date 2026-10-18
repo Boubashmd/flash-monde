@@ -1,62 +1,6 @@
 [
  {
   "sig": [
-   "americ",
-   "attaqu",
-   "cisjor",
-   "colons",
-   "coups",
-   "israel",
-   "journa",
-   "occupe"
-  ],
-  "date": "2026-10-17T00:33:30.713295+00:00",
-  "titre": "Journaliste américaine agressée par des colons en Cisjordanie"
- },
- {
-  "sig": [
-   "aerien",
-   "bloc",
-   "defens",
-   "derrie",
-   "diffic",
-   "guerre",
-   "kiev",
-   "ukrain"
-  ],
-  "date": "2026-10-17T00:33:30.713305+00:00",
-  "titre": "Zelensky demande 70 milliards d'euros aux dirigeants européens"
- },
- {
-  "sig": [
-   "aura",
-   "conver",
-   "elle",
-   "france",
-   "gilets",
-   "jaunes",
-   "lieu",
-   "lyceen"
-  ],
-  "date": "2026-10-17T00:33:30.713308+00:00",
-  "titre": "France : gilets jaunes et lycéens manifestent samedi"
- },
- {
-  "sig": [
-   "183",
-   "employ",
-   "fois",
-   "gouver",
-   "heures",
-   "royaum",
-   "travai",
-   "uni"
-  ],
-  "date": "2026-10-17T00:33:30.713310+00:00",
-  "titre": "Londres libère 5 000 prisonniers anticipativement d'ici 2027"
- },
- {
-  "sig": [
    "amazon",
    "bas",
    "bresil",
@@ -276,5 +220,61 @@
   ],
   "date": "2026-10-18T12:35:47.338626+00:00",
   "titre": "Ukraine frappe deux sites pétroliers russes à Saint-Pétersbourg"
+ },
+ {
+  "sig": [
+   "000",
+   "commis",
+   "enquet",
+   "gouver",
+   "lendem",
+   "mainti",
+   "octobr",
+   "violen"
+  ],
+  "date": "2026-10-18T17:01:12.994772+00:00",
+  "titre": "France : plus de 2 000 interpellations après violences"
+ },
+ {
+  "sig": [
+   "enquet",
+   "igpn",
+   "lendem",
+   "manife",
+   "mobili",
+   "octobr",
+   "paris",
+   "saisie"
+  ],
+  "date": "2026-10-18T17:01:12.994784+00:00",
+  "titre": "IGPN ouvre enquêtes après blessés graves aux violences"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "drones",
+   "guerre",
+   "incend",
+   "kiev",
+   "mort",
+   "russes",
+   "ukrain"
+  ],
+  "date": "2026-10-18T17:01:12.994786+00:00",
+  "titre": "Ukraine frappe deux sites pétroliers russes près de SPb"
+ },
+ {
+  "sig": [
+   "8h30",
+   "aaraje",
+   "brule",
+   "donald",
+   "france",
+   "octobr",
+   "politi",
+   "violen"
+  ],
+  "date": "2026-10-18T17:01:12.994788+00:00",
+  "titre": "Violences : environ 1 500 magasins touchés en France"
  }
 ]
