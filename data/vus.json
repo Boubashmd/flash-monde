@@ -1,32 +1,6 @@
 [
  {
   "sig": [
-   "amazon",
-   "bas",
-   "bresil",
-   "defore",
-   "histor",
-   "pres"
-  ],
-  "date": "2026-10-17T06:56:45.862762+00:00",
-  "titre": "Lula réduit la déforestation amazonienne de 71 pour cent"
- },
- {
-  "sig": [
-   "antoni",
-   "aucun",
-   "candid",
-   "consen",
-   "guterr",
-   "onu",
-   "succed",
-   "succes"
-  ],
-  "date": "2026-10-17T06:56:45.862771+00:00",
-  "titre": "ONU : aucun candidat n'a l'accord des grandes puissances"
- },
- {
-  "sig": [
    "donald",
    "exempt",
    "kiev",
@@ -276,5 +250,61 @@
   ],
   "date": "2026-10-18T17:01:12.994788+00:00",
   "titre": "Violences : environ 1 500 magasins touchés en France"
+ },
+ {
+  "sig": [
+   "allocu",
+   "colere",
+   "declar",
+   "emmanu",
+   "france",
+   "macron",
+   "octobr",
+   "violen"
+  ],
+  "date": "2026-10-18T21:58:19.518718+00:00",
+  "titre": "Macron promet fermeté contre les casseurs et transparence"
+ },
+ {
+  "sig": [
+   "allocu",
+   "commer",
+   "emmanu",
+   "macron",
+   "manife",
+   "octobr",
+   "pillag",
+   "violen"
+  ],
+  "date": "2026-10-18T21:58:19.518728+00:00",
+  "titre": "Pillages massifs et dégâts dans plusieurs villes françaises"
+ },
+ {
+  "sig": [
+   "donald",
+   "guerre",
+   "partag",
+   "rensei",
+   "repris",
+   "trump",
+   "ukrain",
+   "zelens"
+  ],
+  "date": "2026-10-18T21:58:19.518730+00:00",
+  "titre": "Zelensky échange avec émissaires de Trump, renseignements partagés"
+ },
+ {
+  "sig": [
+   "cibles",
+   "energe",
+   "frappe",
+   "guerre",
+   "incend",
+   "peters",
+   "saint",
+   "ukrain"
+  ],
+  "date": "2026-10-18T21:58:19.518731+00:00",
+  "titre": "Drones massifs sur Saint-Pétersbourg, incendie spectaculaire"
  }
 ]
