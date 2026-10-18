@@ -1,118 +1,6 @@
 [
  {
   "sig": [
-   "besoin",
-   "bruxel",
-   "emmanu",
-   "europe",
-   "sommet",
-   "ukrain",
-   "volody",
-   "zelens"
-  ],
-  "date": "2026-10-16T17:46:30.264155+00:00",
-  "titre": "Bruxelles réaffirme son soutien à l'Ukraine face à Trump"
- },
- {
-  "sig": [
-   "2027",
-   "donald",
-   "europe",
-   "trump",
-   "ukrain",
-   "union",
-   "volody",
-   "zelens"
-  ],
-  "date": "2026-10-16T17:46:30.264164+00:00",
-  "titre": "Zelensky demande 70 milliards d'euros d'aide à l'UE pour 2027"
- },
- {
-  "sig": [
-   "abando",
-   "accent",
-   "demand",
-   "donald",
-   "poutin",
-   "trump",
-   "ukrain",
-   "vladim"
-  ],
-  "date": "2026-10-16T17:46:30.264166+00:00",
-  "titre": "Trump arrête le partage de renseignements avec l'Ukraine"
- },
- {
-  "sig": [
-   "americ",
-   "cisjor",
-   "colons",
-   "coups",
-   "journa",
-   "post",
-   "rouee",
-   "washin"
-  ],
-  "date": "2026-10-16T17:46:30.264167+00:00",
-  "titre": "Photojournaliste du Washington Post agressée en Cisjordanie"
- },
- {
-  "sig": [
-   "blanch",
-   "donald",
-   "katie",
-   "parole",
-   "porte",
-   "trump",
-   "ukrain",
-   "zachar"
-  ],
-  "date": "2026-10-16T22:20:19.780849+00:00",
-  "titre": "Katie Zacharia quitte la Maison-Blanche après cinq jours"
- },
- {
-  "sig": [
-   "abando",
-   "assure",
-   "donald",
-   "emmanu",
-   "lacher",
-   "macron",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-16T22:20:19.780859+00:00",
-  "titre": "Trump interrompt l'aide à l'Ukraine et signe un accord avec Moscou"
- },
- {
-  "sig": [
-   "balkan",
-   "budget",
-   "canada",
-   "consei",
-   "divise",
-   "europe",
-   "ukrain",
-   "uni"
-  ],
-  "date": "2026-10-16T22:20:19.780862+00:00",
-  "titre": "Sommet européen : les 27 divisés sur les migrations et le budget"
- },
- {
-  "sig": [
-   "adopte",
-   "budget",
-   "cible",
-   "compli",
-   "droite",
-   "electi",
-   "moscov",
-   "pierre"
-  ],
-  "date": "2026-10-16T22:20:19.780863+00:00",
-  "titre": "Moscovici souligne les difficultés à adopter un budget"
- },
- {
-  "sig": [
    "americ",
    "attaqu",
    "cisjor",
@@ -332,5 +220,61 @@
   ],
   "date": "2026-10-17T21:49:38.949344+00:00",
   "titre": "Tunisie : des milliers manifestent contre la vie chère"
+ },
+ {
+  "sig": [
+   "jean",
+   "manife",
+   "mobili",
+   "octobr",
+   "ordre",
+   "pillag",
+   "presid",
+   "violen"
+  ],
+  "date": "2026-10-18T12:35:47.338609+00:00",
+  "titre": "Au moins 150 policiers blessés lors des violences du 17 octobre"
+ },
+ {
+  "sig": [
+   "emmanu",
+   "franca",
+   "macron",
+   "manife",
+   "mobili",
+   "octobr",
+   "paris",
+   "violen"
+  ],
+  "date": "2026-10-18T12:35:47.338621+00:00",
+  "titre": "Macron s'adresse aux Français après les violences du 17 octobre"
+ },
+ {
+  "sig": [
+   "chaos",
+   "france",
+   "interp",
+   "manife",
+   "mobili",
+   "octobr",
+   "pillag",
+   "violen"
+  ],
+  "date": "2026-10-18T12:35:47.338624+00:00",
+  "titre": "800 000 manifestants défilent en France contre la vie chère"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "drones",
+   "guerre",
+   "incend",
+   "massiv",
+   "petrol",
+   "sites",
+   "ukrain"
+  ],
+  "date": "2026-10-18T12:35:47.338626+00:00",
+  "titre": "Ukraine frappe deux sites pétroliers russes à Saint-Pétersbourg"
  }
 ]
