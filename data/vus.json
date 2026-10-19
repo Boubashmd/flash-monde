@@ -1,90 +1,6 @@
 [
  {
   "sig": [
-   "donald",
-   "exempt",
-   "kiev",
-   "nouvel",
-   "russie",
-   "sancti",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-17T11:51:31.344536+00:00",
-  "titre": "Trump exempte la Russie de nouvelles sanctions du Congrès"
- },
- {
-  "sig": [
-   "attend",
-   "colere",
-   "france",
-   "journe",
-   "manife",
-   "millie",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-10-17T14:37:46.520535+00:00",
-  "titre": "Mobilisation du 17 octobre : des milliers de manifestants en France"
- },
- {
-  "sig": [
-   "incend",
-   "lyon",
-   "manife",
-   "mobili",
-   "octobr",
-   "office",
-   "saccag",
-   "touris"
-  ],
-  "date": "2026-10-17T17:11:32.880441+00:00",
-  "titre": "Lyon : une antenne de l'office de tourisme saccagée et incendiée"
- },
- {
-  "sig": [
-   "attaqu",
-   "cisjor",
-   "colons",
-   "convoi",
-   "coups",
-   "diplom",
-   "franca",
-   "maire"
-  ],
-  "date": "2026-10-17T17:11:32.880454+00:00",
-  "titre": "Colons israéliens attaquent un convoi diplomatique européen en Cisjordanie"
- },
- {
-  "sig": [
-   "etienn",
-   "gilets",
-   "interp",
-   "jaunes",
-   "jeunes",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-10-17T17:11:32.880458+00:00",
-  "titre": "Un manifestant grièvement blessé à Saint-Étienne le 17 octobre"
- },
- {
-  "sig": [
-   "500",
-   "blesse",
-   "cgt",
-   "france",
-   "gilets",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-10-17T17:11:32.880460+00:00",
-  "titre": "Marseille et Nice : violences urbaines lors de la mobilisation du 17 octobre"
- },
- {
-  "sig": [
    "extrem",
    "limoge",
    "manife",
@@ -306,5 +222,117 @@
   ],
   "date": "2026-10-18T21:58:19.518731+00:00",
   "titre": "Drones massifs sur Saint-Pétersbourg, incendie spectaculaire"
+ },
+ {
+  "sig": [
+   "emmanu",
+   "lauren",
+   "limoge",
+   "macron",
+   "nunez",
+   "octobr",
+   "refuse",
+   "violen"
+  ],
+  "date": "2026-10-19T06:51:33.192020+00:00",
+  "titre": "Macron refuse la démission de Nuñez mais reconnaît des défaillances"
+ },
+ {
+  "sig": [
+   "interp",
+   "lauren",
+   "macron",
+   "octobr",
+   "paris",
+   "pillag",
+   "social",
+   "violen"
+  ],
+  "date": "2026-10-19T06:51:33.192029+00:00",
+  "titre": "Paris, Lyon, Marseille: violences et 350 interpellations à Paris"
+ },
+ {
+  "sig": [
+   "donald",
+   "fin",
+   "guerre",
+   "mettre",
+   "trump",
+   "ukrain",
+   "volody",
+   "zelens"
+  ],
+  "date": "2026-10-19T06:51:33.192033+00:00",
+  "titre": "Rubio appelle Zelensky à se concentrer sur la fin de la guerre"
+ },
+ {
+  "sig": [
+   "apolog",
+   "eurode",
+   "hassan",
+   "jugee",
+   "lfi",
+   "paris",
+   "rima",
+   "terror"
+  ],
+  "date": "2026-10-19T06:51:33.192035+00:00",
+  "titre": "Rima Hassan jugée pour apologie du terrorisme à Paris"
+ },
+ {
+  "sig": [
+   "emmanu",
+   "lauren",
+   "limoge",
+   "macron",
+   "nunez",
+   "octobr",
+   "refuse",
+   "violen"
+  ],
+  "date": "2026-10-19T06:57:15.707257+00:00",
+  "titre": "Macron refuse la démission de Nuñez mais reconnaît des défaillances"
+ },
+ {
+  "sig": [
+   "interp",
+   "lauren",
+   "macron",
+   "octobr",
+   "paris",
+   "pillag",
+   "social",
+   "violen"
+  ],
+  "date": "2026-10-19T06:57:15.707270+00:00",
+  "titre": "Paris, Lyon, Marseille: violences et 350 interpellations à Paris"
+ },
+ {
+  "sig": [
+   "donald",
+   "fin",
+   "guerre",
+   "mettre",
+   "trump",
+   "ukrain",
+   "volody",
+   "zelens"
+  ],
+  "date": "2026-10-19T06:57:15.707273+00:00",
+  "titre": "Rubio appelle Zelensky à se concentrer sur la fin de la guerre"
+ },
+ {
+  "sig": [
+   "apolog",
+   "eurode",
+   "hassan",
+   "jugee",
+   "lfi",
+   "paris",
+   "rima",
+   "terror"
+  ],
+  "date": "2026-10-19T06:57:15.707276+00:00",
+  "titre": "Rima Hassan jugée pour apologie du terrorisme à Paris"
  }
 ]
