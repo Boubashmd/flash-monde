@@ -1,62 +1,6 @@
 [
  {
   "sig": [
-   "extrem",
-   "limoge",
-   "manife",
-   "marge",
-   "mobili",
-   "octobr",
-   "paris",
-   "violen"
-  ],
-  "date": "2026-10-17T21:49:38.949330+00:00",
-  "titre": "Limoges : l'hôtel de ville incendié lors de manifestations"
- },
- {
-  "sig": [
-   "arrach",
-   "enquet",
-   "etienn",
-   "grenad",
-   "main",
-   "mobili",
-   "octobr",
-   "saint"
-  ],
-  "date": "2026-10-17T21:49:38.949340+00:00",
-  "titre": "Un adolescent perd sa main en ramassant une grenade"
- },
- {
-  "sig": [
-   "2027",
-   "coude",
-   "devant",
-   "loin",
-   "pen",
-   "presid",
-   "rivaux",
-   "sondag"
-  ],
-  "date": "2026-10-17T21:49:38.949342+00:00",
-  "titre": "Présidentielle 2027 : Le Pen largement en tête"
- },
- {
-  "sig": [
-   "000",
-   "3000",
-   "500",
-   "550",
-   "chere",
-   "france",
-   "person",
-   "vie"
-  ],
-  "date": "2026-10-17T21:49:38.949344+00:00",
-  "titre": "Tunisie : des milliers manifestent contre la vie chère"
- },
- {
-  "sig": [
    "jean",
    "manife",
    "mobili",
@@ -334,5 +278,117 @@
   ],
   "date": "2026-10-19T06:57:15.707276+00:00",
   "titre": "Rima Hassan jugée pour apologie du terrorisme à Paris"
+ },
+ {
+  "sig": [
+   "appell",
+   "carbur",
+   "couvre",
+   "lecorn",
+   "octobr",
+   "rassem",
+   "sebast",
+   "violen"
+  ],
+  "date": "2026-10-19T12:51:37.622758+00:00",
+  "titre": "Lecornu annonce des couvre-feux après violences du 17 octobre"
+ },
+ {
+  "sig": [
+   "couvre",
+   "feux",
+   "lecorn",
+   "locali",
+   "octobr",
+   "pillag",
+   "sebast",
+   "violen"
+  ],
+  "date": "2026-10-19T12:51:37.622768+00:00",
+  "titre": "Hôtel de ville de Limoges ravagé par incendie"
+ },
+ {
+  "sig": [
+   "casseu",
+   "chomag",
+   "commer",
+   "couvre",
+   "declen",
+   "octobr",
+   "touche",
+   "violen"
+  ],
+  "date": "2026-10-19T12:51:37.622771+00:00",
+  "titre": "Lecornu annonce une aide pour au moins 3 000 commerces endommagés"
+ },
+ {
+  "sig": [
+   "allema",
+   "appel",
+   "font",
+   "france",
+   "manife",
+   "marge",
+   "octobr",
+   "violen"
+  ],
+  "date": "2026-10-19T12:51:37.622774+00:00",
+  "titre": "Violences du 17 octobre relayées mondialement"
+ },
+ {
+  "sig": [
+   "appell",
+   "carbur",
+   "couvre",
+   "lecorn",
+   "octobr",
+   "rassem",
+   "sebast",
+   "violen"
+  ],
+  "date": "2026-10-19T12:57:38.161052+00:00",
+  "titre": "Lecornu annonce des couvre-feux après violences du 17 octobre"
+ },
+ {
+  "sig": [
+   "couvre",
+   "feux",
+   "lecorn",
+   "locali",
+   "octobr",
+   "pillag",
+   "sebast",
+   "violen"
+  ],
+  "date": "2026-10-19T12:57:38.161064+00:00",
+  "titre": "Hôtel de ville de Limoges ravagé par incendie"
+ },
+ {
+  "sig": [
+   "casseu",
+   "chomag",
+   "commer",
+   "couvre",
+   "declen",
+   "octobr",
+   "touche",
+   "violen"
+  ],
+  "date": "2026-10-19T12:57:38.161067+00:00",
+  "titre": "Lecornu annonce une aide pour au moins 3 000 commerces endommagés"
+ },
+ {
+  "sig": [
+   "allema",
+   "appel",
+   "font",
+   "france",
+   "manife",
+   "marge",
+   "octobr",
+   "violen"
+  ],
+  "date": "2026-10-19T12:57:38.161070+00:00",
+  "titre": "Violences du 17 octobre relayées mondialement"
  }
 ]

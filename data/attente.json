@@ -1,1 +1,37 @@
-[]
+[
+ {
+  "type": "youtube",
+  "jeton": "1072a3",
+  "question": "Publier cette vidéo sur YouTube ?",
+  "choix": [
+   [
+    "yt",
+    "▶️ Publier sur YouTube"
+   ],
+   [
+    "non",
+    "Ne pas publier"
+   ]
+  ],
+  "id_question": 318,
+  "artefact": "edition-39255190998",
+  "video": "2026-10-19_14h51/video.mp4",
+  "image": "2026-10-19_14h51/couverture.jpg",
+  "titre": "Lecornu annonce des couvre-feux après violences du 17 octobre",
+  "legende": "• Lecornu annonce des couvre-feux après violences du 17 octobre\n• Hôtel de ville de Limoges ravagé par incendie\n• Lecornu annonce une aide pour au moins 3 000 commerces endommagés\n• Violences du 17 octobre relayées mondialement\n\nSources :\n- BFMTV : https://www.bfmtv.com/economie/entreprises/info-bfmtv-bercy-reunit-ce-lundi-soir-les-vinted-leboncoin-et-autre-cdiscount-pour-empecher-la-revente-de-produits-pilles-lors-du-week-end_AV-202610190511.html\n- France 24 : https://www.france24.com/fr/vid%C3%A9o/20261019-crise-politique-que-se-passe-t-il-en-france\n- L'Est Républicain : https://www.estrepublicain.fr/social/2026/10/19/gilets-jaunes-un-acte-ii-annonce-pour-les-samedis-24-et-31-octobre\n- La Dépêche : https://www.ladepeche.fr/2026/10/19/un-acte-ii-des-samedi-prochain-on-va-suivre-cette-poussee-la-coordination-des-gilets-jaunes-du-17-octobre-appelle-a-un-nouveau-rassemblement-13609704.php\n- Le Figaro France : https://www.lefigaro.fr/politique/couvre-feux-localises-etat-d-urgence-ce-qu-il-faut-retenir-des-annonces-de-sebastien-lecornu-pour-repondre-aux-violences-du-17-octobre-20261019\n- Le Monde France : https://www.lemonde.fr/politique/article/2026/10/19/des-couvre-feux-partiels-et-localises-annonces-par-sebastien-lecornu-pour-lundi-soir-apres-un-week-end-marque-par-des-scenes-de-chaos-dans-plusieurs-villes_6797524_823448.html\n- Le Parisien : https://www.leparisien.fr/faits-divers/violences-urbaines-sebastien-lecornu-annonce-le-lancement-dun-fonds-de-soutien-specifique-pour-les-3-000-commerces-touches-19-10-2026-BG2ZT4VFNREP5DXZWKHYZ62KLI.php\n- Le Progrès : https://www.leprogres.fr/social/2026/10/19/gilets-jaunes-un-acte-ii-annonce-pour-les-samedis-24-et-31-octobre\n- RFI : https://www.rfi.fr/fr/france/20261019-direct-mobilisation-sociale-en-france-l-acc%C3%A8s-au-mus%C3%A9e-du-louvre-bloqu%C3%A9-par-des-manifestants\n- Sud Ouest : https://www.sudouest.fr/societe/greves-et-manifestations/affrontements-violents-batiments-incendies-les-violences-des-manifestations-du-17-octobre-vues-et-vecues-depuis-l-etranger-31139822.php\n- actu.fr : https://actu.fr/occitanie/toulouse_31555/nous-ne-les-laisserons-pas-faire-scande-jean-luc-moudenc-lors-d-un-rassemblement-contre-les-violences-a-toulouse_64943445.html\n- DNA : https://www.dna.fr/social/2026/10/19/manifestations-du-17-octobre-apres-un-week-end-de-violences-les-maires-et-elus-locaux-manifestent-a-leur-tour-ce-lundi\n- Euronews : https://fr.euronews.com/video/2026/10/19/des-images-de-drone-montrent-lampleur-des-degats-a-lhotel-de-ville-de-limoges-apres-les-vi\n- L'Est Républicain : https://www.estrepublicain.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression\n- La Dépêche : https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-laurent-nunez-a-presente-sa-demission-a-emmanuel-macron-le-president-la-refusee-13609454.php\n- Le Dauphiné : https://www.ledauphine.com/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression\n- Le Parisien : https://www.leparisien.fr/paris-75/violence-du-17-octobre-a-paris-des-rassemblements-organises-devant-lhotel-de-ville-et-les-mairies-darrondissement-pour-denoncer-les-pillages-19-10-2026-ZU2WZQT5CREUJEWFS7F2J4TXOM.php\n- Le Progrès : https://www.leprogres.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression\n- Midi Libre : https://www.midilibre.fr/2026/10/19/cherche-produit-du-17-octobre-des-pilleurs-revendent-sur-vinted-ce-quils-ont-vole-en-marge-des-manifestations-13609524.php\n- Nice-Matin : https://www.nicematin.com/societe/violences-du-17-octobre-emmanuel-macron-a-refuse-la-demission-de-laurent-nuez-nouvelle-soiree-de-tensions-dans-le-centre-de-nice-suivez-notre-direct-10743462\n- Ouest-France : https://www.ouest-france.fr/tourisme/violences-du-17-octobre-des-touristes-effrayes-et-choques-par-les-degradations-ce-week-end-a-paris-41d44982-cbaf-11f1-af3e-be5615cfd679?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu\n- Sud Ouest : https://www.sudouest.fr/pyrenees-atlantiques/orthez/orthez-un-rassemblement-contre-les-violences-et-un-appel-au-dialogue-31143286.php\n- actu.fr : https://actu.fr/societe/en-images-violences-du-17-octobre-des-centaines-de-personnes-rassemblees-devant-les-mairies-du-cotentin_64944773.html\n- France 24 : https://www.france24.com/fr/vid%C3%A9o/20261019-17-octobre-le-premier-ministre-annonce-d%C3%A9clencher-le-ch%C3%B4mage-partiel-pour-les-commer%C3%A7ants-touch%C3%A9s\n- La Dépêche : https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-jai-envie-de-descendre-et-de-me-friter-avec-ces-petits-cons-la-colere-demmanuel-petit-contre-les-casseurs-les-pilleurs-et-les-13609737.php\n- Le Parisien : https://www.leparisien.fr/societe/violences-en-france-le-premier-ministre-a-demande-de-declencher-un-certain-nombre-de-couvre-feux-19-10-2026-WMQ74BODLNG57CWN5MVSA4PFTE.php\n- Ouest-France : https://www.ouest-france.fr/societe/manifestation/violences-du-17-octobre-couvre-feu-chomage-partiel-ce-quil-faut-retenir-des-annonces-de-sebastien-lecornu-5a700f38-cbac-11f1-b8bc-a46147b584ed?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu\n- Sud Ouest : https://www.sudouest.fr/politique/sebastien-lecornu/violences-urbaines-sebastien-lecornu-annonce-des-couvre-feux-localises-et-des-aides-pour-les-au-moins-3-000-commerces-touches-31143121.php\n- 20 Minutes : https://www.20minutes.fr/monde/allemagne/4255608-20261019-violences-17-octobre-allemagne-appelle-ressortissants-prudence-france?at_medium=display&at_campaign=149\n- BFMTV : https://www.bfmtv.com/societe/manifestations/violences-du-17-octobre-le-pays-basque-se-mobilise-apres-l-appel-de-l-association-des-maires-de-france_AN-202610190512.html\n- France 24 : https://www.france24.com/fr/vid%C3%A9o/20261019-17-octobre-les-violences-en-marge-des-manifestations-font-le-lit-du-rassemblement-national\n- Le Figaro : https://www.lefigaro.fr/international/la-grandeur-de-la-france-ne-demande-qu-a-renaitre-apres-les-violences-du-17-octobre-le-president-du-salvador-nayib-bukele-propose-d-appliquer-sa-methode-securitaire-20261019\n- franceinfo : https://www.franceinfo.fr/replay-radio/bientot-chez-vous/les-images-des-violences-du-17-octobre-en-france-font-le-tour-des-medias-asiatiques_8222728.html#xtor=RSS-3-%5Bgeneral%5D\n- franceinfo faits divers : https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/un-manifestant-est-mort-apres-un-malaise-en-marge-du-cortege-parisien-le-17-octobre_8243704.html#xtor=RSS-3-%5Bgeneral%5D\n\nImages : NASA, Natural Earth, Wikimedia Commons. Voix et montage générés automatiquement.\n#France #Lecornu #USA #EtatsUnis #Allemagne #OrdrePublic #Manifestations #actualite #geopolitique #FlashMonde",
+  "tags": [
+   "#France",
+   "#Lecornu",
+   "#USA",
+   "#EtatsUnis",
+   "#Allemagne",
+   "#OrdrePublic",
+   "#Manifestations",
+   "#actualite",
+   "#geopolitique",
+   "#FlashMonde"
+  ],
+  "cree": "2026-10-19T12:57:44.888959+00:00",
+  "decision": null
+ }
+]
