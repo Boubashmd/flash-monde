@@ -215,7 +215,9 @@ validation:
   # Avant de fabriquer la voix et la video, le bot Telegram te propose les sujets :
   # tu gardes ou ecartes chacun, puis tu lances. Sans reponse, l'edition est abandonnee.
   active: true
-  delai_minutes: 30
+  # Plus de delai : les boutons restent valables 24 h. L'edition t'attend quelques minutes (au cas ou
+  # tu es la), puis les sujets restent en attente ; la video est faite ~10 min apres ton clic.
+  attente_minutes: 5
 
 redaction:
   # "anthropic" : reformulation par Claude (recommande, necessite ANTHROPIC_API_KEY)
@@ -264,7 +266,7 @@ youtube:
   # "auto" : publication directe sans demander | "non" : jamais
   # Necessite les secrets YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
   publication: "bouton"
-  delai_minutes: 30         # sans reponse, la video n'est pas publiee
+  attente_minutes: 10       # attente rapide ; ensuite le bouton reste valable 24 h
   confidentialite: "public" # "public" | "unlisted" (non repertoriee) | "private"
 
 video:

@@ -18,9 +18,14 @@ on:
         description: "Lancement automatique (ne rien changer pour un lancement a la main)"
         required: false
         default: "false"
+      reprendre:
+        description: "Suite des decisions prises sur Telegram (lance par la Veille video)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
+  actions: read
 
 # une seule edition a la fois (les fichiers de data/ sont partages)
 concurrency:
@@ -40,6 +45,8 @@ jobs:
       ELEVENLABS_MODELE: ${{ vars.ELEVENLABS_MODELE }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GITHUB_TOKEN: ${{ github.token }}
+      ARTEFACT: edition
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
@@ -69,7 +76,7 @@ jobs:
           path: cache/terre
           key: terre-hd-v1
       - name: Fabriquer l'edition
-        run: python -m src.main ${{ (github.event_name == 'schedule' || inputs.planifie == 'true') && '--si-pas-faite' || '' }}
+        run: python -m src.main ${{ inputs.reprendre == 'true' && '--reprendre' || ((github.event_name == 'schedule' || inputs.planifie == 'true') && '--si-pas-faite' || '') }}
       - name: Garder la video 7 jours
         uses: actions/upload-artifact@v4
         with:

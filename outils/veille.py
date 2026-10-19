@@ -1,4 +1,4 @@
-"""Veille : y a-t-il une video envoyee au bot Telegram ? Si oui, lance le traitement (video.yml).
+"""Veille : une video envoyee au bot, ou une decision prise sur Telegram ? Si oui, lance la suite.
 
 Lance toutes les 5 minutes par cron-job.org (workflow « Veille video »). Ne consomme AUCUN message
 Telegram (simple coup d'oeil), donc ne gene jamais une edition en cours. Bibliotheque standard seule,
@@ -9,9 +9,11 @@ import os
 import sys
 import urllib.error
 import urllib.request
+from datetime import datetime, timedelta, timezone
 
 TYPES = ["message", "callback_query"]
 OCCUPANTS = ("editions.yml", "video.yml", "semaine.yml")
+DECISIONS = ("go", "stop", "yt", "non")
 
 
 def _json(url: str, donnees=None, entetes=None, methode=None):
@@ -34,37 +36,51 @@ def main() -> int:
             print(f"Une tâche Flash Monde est déjà en cours ({statut}) : rien à faire.")
             return 0
 
-    # 2. videos deja mises de cote pendant une edition ?
-    en_attente = False
-    try:
-        with open("data/videos_attente.json", encoding="utf-8") as f:
-            en_attente = bool(json.load(f))
-    except (OSError, ValueError):
-        pass
+    # 2. ce qui est deja note dans le depot : videos mises de cote, decisions prises sur Telegram
+    def charger(chemin):
+        try:
+            with open(chemin, encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, ValueError):
+            return []
 
-    # 3. coup d'oeil chez Telegram, sans rien confirmer
-    if not en_attente:
+    video = bool(charger("data/videos_attente.json"))
+    attentes = charger("data/attente.json")
+    jetons = {r["jeton"] for r in attentes}
+    maintenant = datetime.now(timezone.utc)
+    reprise = any(r.get("decision") or maintenant - datetime.fromisoformat(r["cree"]) > timedelta(hours=24)
+                  for r in attentes)
+
+    # 3. coup d'oeil chez Telegram, sans rien confirmer : video envoyee ? bouton de decision clique ?
+    if not (video and reprise):
         chat = str(os.environ["TELEGRAM_CHAT_ID"])
         url = f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/getUpdates"
         try:
             maj = _json(url, {"timeout": 0, "allowed_updates": TYPES}).get("result", [])
         except urllib.error.HTTPError as err:  # 409 : une autre lecture est en cours
             print(f"Telegram occupé ({err.code}) : on repassera.")
-            return 0
+            maj = []
         for u in maj:
+            cq = u.get("callback_query") or {}
+            jeton, _, action = cq.get("data", "").partition(":")
+            if jeton in jetons and action.split(":")[0] in DECISIONS:
+                reprise = True
             m = u.get("message") or {}
             doc = m.get("document") or {}
             if str(m.get("chat", {}).get("id")) == chat and (
                     m.get("video") or m.get("animation") or str(doc.get("mime_type", "")).startswith("video/")):
-                en_attente = True
-                break
+                video = True
 
-    if not en_attente:
-        print("Aucune vidéo reçue.")
-        return 0
-    _json(f"https://api.github.com/repos/{depot}/actions/workflows/video.yml/dispatches", {"ref": "main"},
-          entetes=gh, methode="POST")
-    print("Vidéo reçue : traitement lancé (workflow video.yml).")
+    if reprise:
+        _json(f"https://api.github.com/repos/{depot}/actions/workflows/editions.yml/dispatches",
+              {"ref": "main", "inputs": {"reprendre": "true"}}, entetes=gh, methode="POST")
+        print("Décision prise sur Telegram : suite lancée (editions.yml, reprise).")
+    if video:
+        _json(f"https://api.github.com/repos/{depot}/actions/workflows/video.yml/dispatches", {"ref": "main"},
+              entetes=gh, methode="POST")
+        print("Vidéo reçue : traitement lancé (workflow video.yml).")
+    if not (reprise or video):
+        print("Rien de nouveau.")
     return 0
 
 

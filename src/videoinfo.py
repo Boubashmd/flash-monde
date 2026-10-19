@@ -242,18 +242,13 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
         f.unlink()
     travail.rmdir()
 
-    # validation : rien ne part sans ton accord
+    # livraison : rien ne part sur YouTube sans ton clic (bouton valable 24 h)
     telegram.video(video, f"📹 {titre}\n{lec['credit']}\n\nÀ vérifier avant publication.")
-    choix = telegram.demander("Garder cette vidéo ?", [("ok", "✅ Garder"), ("non", "🗑 Jeter")],
-                              int(cfg.get("validation", {}).get("delai_minutes", 30)))
-    if choix != "ok":
-        telegram.message("Vidéo jetée." if choix == "non" else "Pas de réponse : vidéo jetée.")
-        return
     try:
         telegram.photo(image, "Couverture, à choisir comme miniature sur TikTok")
     except Exception:
         pass
     telegram.message(legende)
     memoriser_vus([sujet])
-    id_yt = publier_youtube(cfg.get("youtube") or {}, video, image, [sujet], legende, tags, False)
+    id_yt = publier_youtube(cfg.get("youtube") or {}, video, image, [sujet], legende, tags, False, artefact="video")
     archiver([sujet], id_yt, d, False)

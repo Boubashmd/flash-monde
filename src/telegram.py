@@ -9,6 +9,8 @@ from pathlib import Path
 
 import requests
 
+from . import attente
+
 
 def configure() -> bool:
     return bool(os.getenv("TELEGRAM_BOT_TOKEN") and os.getenv("TELEGRAM_CHAT_ID"))
@@ -84,6 +86,9 @@ def _mettre_de_cote(updates: list) -> int:
     connus = {v["message_id"] for v in attente}
     nouvelles = 0
     for u in updates:
+        if u.get("callback_query"):
+            _noter_clic(u["callback_query"])
+            continue
         m = u.get("message") or {}
         if str(m.get("chat", {}).get("id")) != chat:
             continue
@@ -101,6 +106,112 @@ def _mettre_de_cote(updates: list) -> int:
     if nouvelles:
         _ecrire_attente(attente)
     return nouvelles
+
+
+# ---------------------------------------------------------------- decisions sans limite de temps
+# Un clic est note dans data/attente.json des qu'une tache lit Telegram (edition, video, reprise).
+
+def _noter_clic(cq: dict) -> None:
+    chat = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
+    if str((cq.get("message") or {}).get("chat", {}).get("id")) != chat:
+        return
+    donnee = cq.get("data", "")
+    jeton, _, action = donnee.partition(":")
+    rec = attente.trouver(jeton)
+    repondre = lambda t: _appel("answerCallbackQuery", {"callback_query_id": cq["id"], "text": t}, silencieux=True)
+    if rec is None:
+        repondre("Bouton expiré")
+        return
+    if rec.get("decision"):
+        repondre("Déjà pris en compte")
+        return
+    morceaux = action.split(":")
+    if rec["type"] == "edition" and morceaux[0] in ("k", "x"):
+        i = morceaux[1]
+        etat = rec.get("etat", {})
+        etat[i] = morceaux[0] == "k"
+        attente.modifier(jeton, etat=etat)
+        _appel("editMessageReplyMarkup", {"chat_id": chat, "message_id": rec["messages"][i],
+                                          "reply_markup": _clavier(jeton, int(i), etat[i])}, silencieux=True)
+        repondre("Gardé" if etat[i] else "Écarté")
+    elif rec["type"] == "edition" and morceaux[0] in ("go", "stop"):
+        attente.modifier(jeton, decision=morceaux[0])
+        _appel("editMessageReplyMarkup", {"chat_id": chat, "message_id": rec["id_fin"],
+                                          "reply_markup": {"inline_keyboard": []}}, silencieux=True)
+        if morceaux[0] == "go":
+            n = sum(1 for v in rec.get("etat", {}).values() if v)
+            repondre("C'est parti")
+            _appel("sendMessage", {"chat_id": chat, "text": f"✅ Noté : vidéo avec {n} sujet(s), prête dans "
+                                   "10 minutes environ." if n else "Aucun sujet gardé : édition annulée."},
+                   silencieux=True)
+        else:
+            repondre("Édition annulée")
+            _appel("sendMessage", {"chat_id": chat, "text": "Édition annulée."}, silencieux=True)
+    elif rec["type"] == "youtube":
+        libelle = dict(rec.get("choix", [])).get(morceaux[0], morceaux[0])
+        attente.modifier(jeton, decision=morceaux[0])
+        repondre(libelle)
+        _appel("editMessageText", {"chat_id": chat, "message_id": rec["id_question"],
+                                   "text": f"{rec['question']}\n→ {libelle}"}, silencieux=True)
+
+
+def proposer_sujets(sujets: list, entete: str, extra: dict) -> str:
+    """Envoie les sujets avec leurs boutons et les met en attente (sans limite de temps). Renvoie le jeton."""
+    chat = str(os.environ["TELEGRAM_CHAT_ID"])
+    jeton = secrets.token_hex(3)
+    _appel("sendMessage", {"chat_id": chat, "text": entete})
+    messages = {}
+    for i, s in enumerate(sujets):
+        suite = "🔁 Suite · " if s.get("suite") is not None else ""
+        texte = f"{i + 1}. {suite}{s['titre']}\n\n{s['texte']}\n\nSources : {', '.join(s['sources'])}"
+        m = _appel("sendMessage", {"chat_id": chat, "text": texte, "reply_markup": _clavier(jeton, i, True)})
+        messages[str(i)] = m["result"]["message_id"]
+    fin = _appel("sendMessage", {
+        "chat_id": chat,
+        "text": "Tous les sujets sont gardés par défaut. Écarte ceux qui ne te conviennent pas, puis lance la "
+                "vidéo, quand tu veux (dans les 24 h). Elle sera prête une dizaine de minutes après.",
+        "reply_markup": {"inline_keyboard": [[
+            {"text": "▶️ Lancer la vidéo", "callback_data": f"{jeton}:go"},
+            {"text": "🗑 Annuler l'édition", "callback_data": f"{jeton}:stop"},
+        ]]},
+    })
+    attente.ajouter({"type": "edition", "jeton": jeton, "messages": messages, "id_fin": fin["result"]["message_id"],
+                     "etat": {str(i): True for i in range(len(sujets))}, **extra})
+    return jeton
+
+
+def poser_question(question: str, choix: list, extra: dict) -> str:
+    """Question a boutons [(code, libelle)], valable 24 h. Renvoie le jeton."""
+    chat = str(os.environ["TELEGRAM_CHAT_ID"])
+    jeton = secrets.token_hex(3)
+    m = _appel("sendMessage", {"chat_id": chat, "text": question, "reply_markup": {"inline_keyboard": [[
+        {"text": libelle, "callback_data": f"{jeton}:{code}"} for code, libelle in choix]]}})
+    attente.ajouter({"type": "youtube", "jeton": jeton, "question": question, "choix": choix,
+                     "id_question": m["result"]["message_id"], **extra})
+    return jeton
+
+
+def attendre(jeton: str, minutes: float) -> dict | None:
+    """Attend un peu une decision (si tu es la). Renvoie l'enregistrement decide, ou None (reste en attente)."""
+    limite = time.time() + minutes * 60
+    offset = _vider()
+    while True:
+        rec = attente.trouver(jeton)
+        if rec is None or rec.get("decision"):
+            return rec
+        if time.time() >= limite:
+            return None
+        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": TYPES}
+        if offset is not None:
+            params["offset"] = offset
+        try:
+            maj = _appel("getUpdates", params, timeout=45)["result"]
+        except Exception:
+            time.sleep(5)
+            continue
+        _mettre_de_cote(maj)
+        if maj:
+            offset = maj[-1]["update_id"] + 1
 
 
 def _vider() -> int | None:
@@ -153,121 +264,3 @@ def _clavier(jeton: str, i: int, garde: bool) -> dict:
         {"text": "✅ Gardé" if garde else "Garder", "callback_data": f"{jeton}:k:{i}"},
         {"text": "Écarter" if garde else "❌ Écarté", "callback_data": f"{jeton}:x:{i}"},
     ]]}
-
-
-def valider(sujets: list[dict], entete: str, delai_minutes: int) -> list[int] | None:
-    """Propose les sujets sur Telegram et attend la decision.
-
-    Renvoie la liste des numeros de sujets gardes ([] si l'edition est annulee),
-    ou None si personne n'a repondu dans le delai.
-    """
-    chat = str(os.environ["TELEGRAM_CHAT_ID"])
-    jeton = secrets.token_hex(3)  # les boutons des editions precedentes seront ignores
-
-    offset = _vider()  # ignore les clics anterieurs, mais garde les videos recues
-
-    etat = {i: True for i in range(len(sujets))}
-    messages = {}
-    _appel("sendMessage", {"chat_id": chat, "text": entete})
-    for i, s in enumerate(sujets):
-        suite = "🔁 Suite · " if s.get("suite") is not None else ""
-        texte = f"{i + 1}. {suite}{s['titre']}\n\n{s['texte']}\n\nSources : {', '.join(s['sources'])}"
-        m = _appel("sendMessage", {"chat_id": chat, "text": texte, "reply_markup": _clavier(jeton, i, True)})
-        messages[i] = m["result"]["message_id"]
-    fin = _appel("sendMessage", {
-        "chat_id": chat,
-        "text": f"Tous les sujets sont gardés par défaut. Écarte ceux qui ne te conviennent pas, "
-                f"puis lance la vidéo. Sans réponse sous {delai_minutes} min, l'édition est abandonnée.",
-        "reply_markup": {"inline_keyboard": [[
-            {"text": "▶️ Lancer la vidéo", "callback_data": f"{jeton}:go"},
-            {"text": "🗑 Annuler l'édition", "callback_data": f"{jeton}:stop"},
-        ]]},
-    })
-    id_fin = fin["result"]["message_id"]
-
-    def clore(texte: str) -> None:
-        _appel("editMessageReplyMarkup", {"chat_id": chat, "message_id": id_fin,
-                                          "reply_markup": {"inline_keyboard": []}}, silencieux=True)
-        _appel("sendMessage", {"chat_id": chat, "text": texte}, silencieux=True)
-
-    limite = time.time() + delai_minutes * 60
-    while time.time() < limite:
-        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": TYPES}
-        if offset is not None:
-            params["offset"] = offset
-        try:
-            maj = _appel("getUpdates", params, timeout=45)["result"]
-        except Exception:
-            time.sleep(5)  # coupure reseau passagere : on reessaie
-            continue
-        _mettre_de_cote(maj)  # une video envoyee pendant l'attente est gardee pour plus tard
-        for u in maj:
-            offset = u["update_id"] + 1
-            cq = u.get("callback_query")
-            if not cq or str((cq.get("message") or {}).get("chat", {}).get("id")) != chat:
-                continue
-            donnee = cq.get("data", "")
-            repondre = lambda t: _appel("answerCallbackQuery", {"callback_query_id": cq["id"], "text": t}, silencieux=True)
-            if not donnee.startswith(jeton + ":"):
-                repondre("Bouton d'une ancienne édition")
-                continue
-            action = donnee.split(":")[1:]
-            if action[0] in ("k", "x"):
-                i = int(action[1])
-                etat[i] = action[0] == "k"
-                _appel("editMessageReplyMarkup", {"chat_id": chat, "message_id": messages[i],
-                                                  "reply_markup": _clavier(jeton, i, etat[i])}, silencieux=True)
-                repondre("Gardé" if etat[i] else "Écarté")
-            elif action[0] == "go":
-                gardes = [i for i in etat if etat[i]]
-                repondre("C'est parti")
-                clore(f"Fabrication lancée avec {len(gardes)} sujet(s)." if gardes else "Aucun sujet gardé : édition annulée.")
-                return gardes
-            elif action[0] == "stop":
-                repondre("Édition annulée")
-                clore("Édition annulée.")
-                return []
-    clore("Pas de réponse dans le délai : édition abandonnée.")
-    return None
-
-
-# ---------------------------------------------------------------- question a boutons
-
-def demander(question: str, choix: list, delai_minutes: int) -> str | None:
-    """Pose une question avec des boutons [(code, libelle), ...] et attend la reponse.
-    Renvoie le code du bouton choisi, ou None sans reponse dans le delai."""
-    chat = str(os.environ["TELEGRAM_CHAT_ID"])
-    jeton = secrets.token_hex(3)
-    offset = _vider()  # ignore les clics anterieurs, mais garde les videos recues
-    m = _appel("sendMessage", {"chat_id": chat, "text": question, "reply_markup": {"inline_keyboard": [[
-        {"text": libelle, "callback_data": f"{jeton}:{code}"} for code, libelle in choix]]}})
-    id_msg = m["result"]["message_id"]
-    limite = time.time() + delai_minutes * 60
-    while time.time() < limite:
-        params = {"timeout": max(1, min(30, int(limite - time.time()))), "allowed_updates": TYPES}
-        if offset is not None:
-            params["offset"] = offset
-        try:
-            maj = _appel("getUpdates", params, timeout=45)["result"]
-        except Exception:
-            time.sleep(5)
-            continue
-        _mettre_de_cote(maj)  # une video envoyee pendant l'attente est gardee pour plus tard
-        for u in maj:
-            offset = u["update_id"] + 1
-            cq = u.get("callback_query")
-            if not cq or str((cq.get("message") or {}).get("chat", {}).get("id")) != chat:
-                continue
-            donnee = cq.get("data", "")
-            if not donnee.startswith(jeton + ":"):
-                _appel("answerCallbackQuery", {"callback_query_id": cq["id"], "text": "Bouton expiré"}, silencieux=True)
-                continue
-            code = donnee.split(":", 1)[1]
-            libelle = dict(choix).get(code, code)
-            _appel("answerCallbackQuery", {"callback_query_id": cq["id"], "text": libelle}, silencieux=True)
-            _appel("editMessageText", {"chat_id": chat, "message_id": id_msg,
-                                       "text": f"{question}\n→ {libelle}"}, silencieux=True)
-            return code
-    _appel("editMessageText", {"chat_id": chat, "message_id": id_msg,
-                               "text": f"{question}\n→ pas de réponse dans le délai"}, silencieux=True)
-    return None

@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import carte, cluster, collect, film, hashtags, pays, portrait, redaction, telegram, voix, youtube
+from . import attente, carte, cluster, collect, film, hashtags, pays, portrait, redaction, telegram, voix, youtube
 
 RACINE = Path(__file__).resolve().parent.parent
 F_VUS = RACINE / "data" / "vus.json"
@@ -128,6 +128,7 @@ class Edition:
         self.travail = self.dossier / "travail"
         self.etape = "démarrage"
         self.telegram = telegram.configure() and not args.sans_telegram and not args.demo
+        self.deja_valide = False  # vrai quand on reprend des sujets valides plus tard sur Telegram
         self.vus = []
 
     def info(self, texte: str) -> None:
@@ -261,22 +262,31 @@ class Edition:
                             for s in liste)
             ecrire_json(F_VUS, self.vus)
 
-        # validation sur Telegram, avant de depenser la voix
+        # validation sur Telegram, avant de depenser la voix : sans limite de temps (24 h)
         v_val = cfg.get("validation", {})
-        if self.telegram and v_val.get("active", True) and not args.sans_validation:
+        if self.telegram and v_val.get("active", True) and not args.sans_validation and not self.deja_valide:
             self.etape = "validation Telegram"
-            delai = int(v_val.get("delai_minutes", 30))
-            print(f"  validation Telegram : en attente de ta réponse ({delai} min maximum)")
             entete = f"{self.nom} · {'récapitulatif de la semaine' if args.semaine else self.date_fr} · {self.heure}"
-            choix = telegram.valider(sujets, entete + "\nSujets proposés :", delai)
-            if choix is None:
-                print("  pas de réponse : édition abandonnée")
+            jeton = telegram.proposer_sujets(sujets, entete + "\nSujets proposés :", {
+                "sujets": sujets, "mode": mode, "semaine": bool(args.semaine)})
+            memoriser(sujets)  # proposes : ils ne reviendront pas a l'edition suivante
+            minutes = float(v_val.get("attente_minutes", 5))
+            print(f"  validation Telegram : j'attends {minutes:g} min, puis les sujets restent en attente 24 h")
+            rec = telegram.attendre(jeton, minutes)
+            if rec is None:
+                telegram.message("⏸ Sujets en attente : valide-les quand tu veux (24 h maximum). "
+                                 "La vidéo sera prête une dizaine de minutes après ton clic.")
+                print("  pas encore de réponse : sujets mis en attente")
                 self.nettoyer()
                 return 0
-            memoriser([s for i, s in enumerate(sujets) if i not in choix])  # ne pas les reproposer
-            sujets = [s for i, s in enumerate(sujets) if i in choix]
-            if not sujets:
+            attente.retirer(jeton)
+            if rec["decision"] != "go":
                 print("  édition annulée sur Telegram")
+                self.nettoyer()
+                return 0
+            sujets = [s for i, s in enumerate(sujets) if rec["etat"].get(str(i), True)]
+            if not sujets:
+                print("  aucun sujet gardé")
                 self.nettoyer()
                 return 0
             print(f"  {len(sujets)} sujet(s) validé(s)")
@@ -374,26 +384,37 @@ class Edition:
                 print("  vidéo envoyée sur Telegram")
             self.etape = "publication YouTube"
             id_youtube = publier_youtube(cfg.get("youtube") or {}, video, image, sujets, legende, tags,
-                                         args.sans_telegram)
+                                         args.sans_telegram, artefact="edition")
             archiver(sujets, id_youtube, self.ici, args.semaine)
         print(f"Terminé : {video}  ({voix.duree(video):.0f} s)")
         return 0
 
 
 def publier_youtube(y_cfg: dict, video: Path, image: Path, sujets: list, legende: str, tags: list,
-                    sans_telegram: bool):
-    """Apres la video : bouton « Publier sur YouTube » sur Telegram (ou publication directe)."""
+                    sans_telegram: bool, artefact: str = "edition", decide: bool = False):
+    """Apres la video : bouton « Publier sur YouTube » sur Telegram, valable 24 h (ou publication directe).
+    Sans reponse rapide, la decision est mise en attente ; la video sera reprise de l'artefact GitHub."""
     mode = y_cfg.get("publication", "bouton")
     if mode == "non" or not youtube.configure():
         return None
-    if mode == "bouton":
+    if mode == "bouton" and not decide:
         if not telegram.configure() or sans_telegram:
             return None
+        choix = [("yt", "▶️ Publier sur YouTube"), ("non", "Ne pas publier")]
+        racine = (RACINE / "sorties").resolve()
+        jeton = telegram.poser_question("Publier cette vidéo sur YouTube ?", choix, {
+            "artefact": f"{os.environ.get('ARTEFACT', artefact)}-{os.environ.get('GITHUB_RUN_ID', 'local')}",
+            "video": str(video.resolve().relative_to(racine)), "image": str(image.resolve().relative_to(racine)),
+            "titre": sujets[0]["titre"], "legende": legende, "tags": tags})
+        for s in sujets:
+            s["yt_attente"] = jeton
         print("  YouTube : en attente de ta décision sur Telegram")
-        choix = telegram.demander("Publier cette vidéo sur YouTube ?",
-                                  [("yt", "▶️ Publier sur YouTube"), ("non", "Ne pas publier")],
-                                  int(y_cfg.get("delai_minutes", 30)))
-        if choix != "yt":
+        rec = telegram.attendre(jeton, float(y_cfg.get("attente_minutes", 10)))
+        if rec is None:
+            telegram.message("⏸ Publication YouTube en attente : appuie sur le bouton quand tu veux (24 h maximum).")
+            return None
+        attente.retirer(jeton)
+        if rec["decision"] != "yt":
             print("  YouTube : pas de publication")
             return None
     titre = sujets[0]["titre"]
@@ -425,6 +446,7 @@ def archiver(sujets: list, id_youtube, ici: datetime, semaine: bool) -> None:
             "titre": s["titre"], "texte": s["texte"], "iso": s.get("iso", []), "pays": s.get("pays", ""),
             "sources": s["sources"], "liens": s.get("liens", {}), "score": s.get("score", 0),
             "personne": s.get("personne"), "sig": s.get("sig", []), "youtube": id_youtube,
+            "yt_attente": None if id_youtube else s.get("yt_attente"),
         })
     ecrire_json(F_ARCHIVES, archives)
 
@@ -468,6 +490,61 @@ def bilan(ed: Edition) -> int:
     return 0
 
 
+def _charger_sujet(s: dict) -> dict:
+    s = dict(s)
+    s["articles"] = [collect.Article(**a) if isinstance(a, dict) else a for a in s.get("articles", [])]
+    return s
+
+
+def reprendre(cfg: dict, args) -> int:
+    """Suite des decisions prises plus tard sur Telegram : fabrication des sujets valides, publication YouTube."""
+    if not telegram.configure():
+        return 0
+    telegram.videos_recues()  # lit Telegram : note les clics (et garde les videos envoyees)
+    faits = 0
+    for rec in attente.lire():
+        jeton = rec["jeton"]
+        if not rec.get("decision"):
+            if attente.perime(rec):
+                attente.retirer(jeton)
+                quoi = "Sujets" if rec["type"] == "edition" else "Publication YouTube"
+                telegram.message(f"⌛ {quoi} du {rec['cree'][:10]} : plus de réponse possible après 24 h, abandonné.")
+            continue
+        attente.retirer(jeton)
+        try:
+            if rec["type"] == "edition" and rec["decision"] == "go":
+                sujets = [_charger_sujet(s) for i, s in enumerate(rec.get("sujets", []))
+                          if rec.get("etat", {}).get(str(i), True)]
+                if sujets:
+                    a = argparse.Namespace(**vars(args))
+                    a.semaine = bool(rec.get("semaine"))
+                    ed = Edition(a, cfg)
+                    ed.deja_valide = True
+                    try:
+                        ed.produire(sujets, rec.get("mode", "anthropic"))
+                    except Exception as err:
+                        alerter(f"Échec pendant l'étape « {ed.etape} » : {str(err)[:400]}")
+                        raise
+                    faits += 1
+            elif rec["type"] == "youtube" and rec["decision"] == "yt":
+                dossier = RACINE / "sorties" / f"youtube_{jeton}"
+                video, image = attente.telecharger_artefact(rec["artefact"], [rec["video"], rec["image"]], dossier)
+                vid = publier_youtube(cfg.get("youtube") or {}, video, image, [{"titre": rec["titre"]}],
+                                      rec["legende"], rec["tags"], False, decide=True)
+                if vid:
+                    archives = lire_json(F_ARCHIVES)
+                    for a in archives:
+                        if a.get("yt_attente") == jeton:
+                            a["youtube"], a["yt_attente"] = vid, None
+                    ecrire_json(F_ARCHIVES, archives)
+                faits += 1
+        except Exception as err:
+            print(f"  ! reprise {jeton} : {err}")
+            telegram.message(f"⚠️ Reprise impossible : {str(err)[:300]}")
+    print(f"Reprise : {faits} décision(s) traitée(s).")
+    return 0
+
+
 def memoriser_vus(sujets: list) -> None:
     """Note des sujets comme publies (ils ne seront repris que comme « suite »)."""
     vus = lire_json(F_VUS)
@@ -495,6 +572,8 @@ def main() -> int:
     p.add_argument("--bilan", action="store_true", help="bilan des vues YouTube de la semaine")
     p.add_argument("--verifier-sources", action="store_true")
     p.add_argument("--videos", action="store_true", help="traite les videos envoyees au bot Telegram")
+    p.add_argument("--reprendre", action="store_true",
+                   help="suite des decisions prises plus tard sur Telegram (sujets valides, publication YouTube)")
     p.add_argument("--voix", choices=["azure", "elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
     p.add_argument("--si-pas-faite", action="store_true",
@@ -511,6 +590,9 @@ def main() -> int:
     if args.verifier_sources:
         verifier_sources(cfg)
         return 0
+
+    if args.reprendre:
+        return reprendre(cfg, args)
 
     if args.videos:
         from . import videoinfo

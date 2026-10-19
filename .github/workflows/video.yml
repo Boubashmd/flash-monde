@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 # une seule edition a la fois (les fichiers de data/ sont partages)
 concurrency:
@@ -25,6 +26,8 @@ jobs:
       ELEVENLABS_MODELE: ${{ vars.ELEVENLABS_MODELE }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GITHUB_TOKEN: ${{ github.token }}
+      ARTEFACT: video
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
