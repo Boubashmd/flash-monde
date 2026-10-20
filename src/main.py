@@ -594,6 +594,13 @@ def main() -> int:
     if args.reprendre:
         return reprendre(cfg, args)
 
+    # filet de securite : avant toute edition ou video, on traite les decisions deja prises sur Telegram
+    if not (args.demo or args.bilan or args.sans_telegram) and telegram.configure():
+        try:
+            reprendre(cfg, args)
+        except Exception as err:
+            print(f"  ! rattrapage des décisions impossible : {err}")
+
     if args.videos:
         from . import videoinfo
         try:

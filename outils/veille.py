@@ -29,11 +29,14 @@ def main() -> int:
     gh = {"Authorization": f"Bearer {jeton_gh}", "Accept": "application/vnd.github+json"}
 
     # 1. une edition ou un traitement tourne deja : on repassera dans 5 minutes
+    recent = datetime.now(timezone.utc) - timedelta(minutes=100)  # une tache plus vieille est bloquee : on l'ignore
     for statut in ("in_progress", "queued"):
         runs = _json(f"https://api.github.com/repos/{depot}/actions/runs?status={statut}&per_page=50",
                      entetes=gh).get("workflow_runs", [])
-        if any(r.get("path", "").endswith(OCCUPANTS) for r in runs):
-            print(f"Une tâche Flash Monde est déjà en cours ({statut}) : rien à faire.")
+        actifs = [r for r in runs if r.get("path", "").endswith(OCCUPANTS)
+                  and datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) > recent]
+        if actifs:
+            print(f"Une tâche Flash Monde est déjà en cours ({statut}, {actifs[0].get('path')}) : rien à faire.")
             return 0
 
     # 2. ce qui est deja note dans le depot : videos mises de cote, decisions prises sur Telegram
@@ -52,7 +55,8 @@ def main() -> int:
                   for r in attentes)
 
     # 3. coup d'oeil chez Telegram, sans rien confirmer : video envoyee ? bouton de decision clique ?
-    if not (video and reprise):
+    clics = []
+    if True:
         chat = str(os.environ["TELEGRAM_CHAT_ID"])
         url = f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/getUpdates"
         try:
@@ -60,12 +64,16 @@ def main() -> int:
         except urllib.error.HTTPError as err:  # 409 : une autre lecture est en cours
             print(f"Telegram occupé ({err.code}) : on repassera.")
             maj = []
+        print(f"{len(maj)} mise(s) à jour Telegram en attente, décisions connues : {sorted(jetons)}")
         for u in maj:
             cq = u.get("callback_query") or {}
             jeton, _, action = cq.get("data", "").partition(":")
             if jeton in jetons and action.split(":")[0] in DECISIONS:
                 reprise = True
+                clics.append(cq)
             m = u.get("message") or {}
+            if str(m.get("chat", {}).get("id")) == chat and (m.get("text") or "").strip().lower() in ("relance", "/relance"):
+                reprise = True  # commande de secours : « relance » envoye au bot
             doc = m.get("document") or {}
             if str(m.get("chat", {}).get("id")) == chat and (
                     m.get("video") or m.get("animation") or str(doc.get("mime_type", "")).startswith("video/")):
@@ -75,6 +83,18 @@ def main() -> int:
         _json(f"https://api.github.com/repos/{depot}/actions/workflows/editions.yml/dispatches",
               {"ref": "main", "inputs": {"reprendre": "true"}}, entetes=gh, methode="POST")
         print("Décision prise sur Telegram : suite lancée (editions.yml, reprise).")
+        if clics:  # accuse de reception tout de suite (ne consomme pas le message)
+            base = f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}"
+            for cq in clics:
+                try:
+                    _json(f"{base}/answerCallbackQuery", {"callback_query_id": cq["id"], "text": "Reçu ✅"})
+                except Exception:
+                    pass
+            try:
+                _json(f"{base}/sendMessage", {"chat_id": os.environ["TELEGRAM_CHAT_ID"],
+                                              "text": "✅ Clic reçu : je m'en occupe (environ 10 minutes)."})
+            except Exception:
+                pass
     if video:
         _json(f"https://api.github.com/repos/{depot}/actions/workflows/video.yml/dispatches", {"ref": "main"},
               entetes=gh, methode="POST")
