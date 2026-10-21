@@ -556,5 +556,40 @@
   "semaine": false,
   "cree": "2026-10-20T12:51:37.598753+00:00",
   "decision": null
+ },
+ {
+  "type": "youtube",
+  "jeton": "a98829",
+  "question": "Publier cette vidéo sur YouTube ?",
+  "choix": [
+   [
+    "yt",
+    "▶️ Publier sur YouTube"
+   ],
+   [
+    "non",
+    "Ne pas publier"
+   ]
+  ],
+  "id_question": 408,
+  "artefact": "edition-39559343579",
+  "video": "2026-10-21_09h03/video.mp4",
+  "image": "2026-10-21_09h03/couverture.jpg",
+  "titre": "Trump estime que Marine Le Pen a été maltraitée par la justice",
+  "legende": "• Trump estime que Marine Le Pen a été maltraitée par la justice\n• Lula et Bolsonaro demandent mutuellement leur disqualification\n• Elon Musk aurait ordonné de ralentir Starshield en Ukraine\n• Trump utilise les émeutes françaises pour sa campagne électorale\n\nSources :\n- 20 Minutes France : https://www.20minutes.fr/monde/etats-unis/4256130-20261021-etats-unis-mal-traitee-voix-conservatrice-france-trump-encense-marine-pen?at_medium=display&at_campaign=149\n- BFMTV : https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-estime-que-marine-le-pen-a-ete-maltraitee-par-la-justice-francaise_VN-202610210219.html\n- DNA : https://www.dna.fr/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille\n- France 24 : https://www.france24.com/fr/vid%C3%A9o/20261021-apr%C3%A8s-le-17-octobre-marine-le-pen-superpuissante-dans-les-sondages\n- L'Est Républicain : https://www.estrepublicain.fr/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille\n- La Dépêche : https://www.ladepeche.fr/2026/10/21/direct-presidentielle-2027-marine-le-pen-gagnante-dans-tous-les-scenarios-dapres-ce-sondage-jean-luc-melenchon-qualifie-au-second-tour-13612908.php\n- Le Dauphiné : https://www.ledauphine.com/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille\n- Le Parisien : https://www.leparisien.fr/societe/direct-violences-du-17-octobre-apres-une-nouvelle-nuit-de-couvre-feux-sebastien-lecornu-recoit-les-syndicats-ce-mercredi-21-10-2026-NGJOYJGRPNEOTKPHNYGR4AI2NU.php\n- Le Progrès : https://www.leprogres.fr/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille\n- Midi Libre : https://www.midilibre.fr/2026/10/21/sondage-presidentielle-2027-jusqua-38-pour-marine-le-pen-jean-luc-melenchon-au-second-tour-a-qui-profitent-les-violences-du-17-octobre-13612907.php\n- Sud Ouest : https://www.sudouest.fr/economie/social/les-gilets-jaunes-ont-depose-une-declaration-pour-manifester-a-paris-samedi-31167846.php\n- actu.fr : https://actu.fr/politique/a-six-mois-de-la-presidentielle-ce-sondage-rabat-completement-les-cartes-pour-jean-luc-melenchon-et-edouard-philippe_64953354.html\n- franceinfo France : https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-mobilisation-du-17-octobre-sebastien-lecornu-recoit-les-organisations-syndicales-apres-une-nouvelle-nuit-de-couvre-feux_8246746.html#xtor=RSS-3-%5Bgeneral%5D\n- 20 Minutes France : https://www.20minutes.fr/politique/4256158-20261021-presidentielle-2027-melenchon-second-tour-sondage-apres-violences?at_medium=display&at_campaign=149\n- BFMTV : https://www.bfmtv.com/international/amerique-latine/bresil/lula-et-flavio-bolsonaro-tentent-de-se-disqualifier-de-l-election-presidentielle-au-bresil-les-reseaux-sociaux-de-meta-mis-en-cause_AD-202610210257.html\n- France 24 : https://www.france24.com/fr/am%C3%A9riques/20261020-%C3%A9lection-au-br%C3%A9sil-lula-veut-disqualifier-flavio-bolsonaro-pour-ing%C3%A9rence-de-meta\n- Le Monde : https://www.lemonde.fr/international/article/2026/10/21/presidentielle-au-bresil-lula-et-flavio-bolsonaro-lancent-des-recours-pour-se-disqualifier-mutuellement-a-quelques-jours-du-second-tour_6798204_3210.html\n- Le Monde France : https://www.lemonde.fr/international/article/2026/10/21/presidentielle-au-bresil-lula-et-flavio-bolsonaro-lancent-des-recours-pour-se-disqualifier-mutuellement-a-quelques-jours-du-second-tour_6798204_3210.html\n- Le Parisien : https://www.leparisien.fr/international/presidentielle-au-bresil-lula-souhaite-lannulation-de-la-candidature-de-bolsonaro-invoquant-une-ingerence-de-meta-20-10-2026-BURMZJF34BBOVMNIGPTAK3YCUI.php\n- RTS : https://www.rts.ch/info/monde/2026/article/presidentielle-au-bresil-lula-veut-disqualifier-flavio-bolsonaro-29391851.html?rts_source=rss_t\n- franceinfo : https://www.franceinfo.fr/monde/bresil/au-bresil-lula-et-flavio-bolsonaro-appellent-a-se-disqualifier-mutuellement-a-quatre-jours-du-second-tour-de-la-presidentielle_8246728.html#xtor=RSS-3-%5Bgeneral%5D\n- Le Parisien : https://www.leparisien.fr/international/ukraine/les-restrictions-du-reseau-de-satellites-en-ukraine-auraient-ete-decidees-par-elon-musk-affirme-un-media-americain-21-10-2026-AKIGZ557UZDPPDDZOOLMUKOOEQ.php\n- RTS : https://www.rts.ch/info/monde/2026/article/ukraine-elon-musk-aurait-ordonne-de-ralentir-starshield-29392037.html?rts_source=rss_t\n- Sud Ouest : https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-musk-est-responsable-des-restrictions-du-reseau-satellitaire-starshield-31167470.php\n- 20 Minutes : https://www.20minutes.fr/monde/etats-unis/4256130-20261021-etats-unis-mal-traitee-voix-conservatrice-france-trump-encense-marine-pen?at_medium=display&at_campaign=149\n- Le Monde : https://www.lemonde.fr/international/article/2026/10/21/etats-unis-comment-le-camp-trump-exploite-les-emeutes-en-france-pour-remotiver-la-base-maga-avant-les-midterms_6798158_3210.html\n- Le Monde France : https://www.lemonde.fr/international/article/2026/10/21/etats-unis-comment-le-camp-trump-exploite-les-emeutes-en-france-pour-remotiver-la-base-maga-avant-les-midterms_6798158_3210.html\n- Le Parisien : https://www.leparisien.fr/international/etats-unis/je-nai-jamais-rien-vu-daussi-laid-dans-lohio-la-campagne-des-midterms-degenere-symbole-dun-climat-de-plus-en-plus-dur-aux-etats-unis-21-10-2026-TJNLFLX2BREVNCFLTUT6UI6ZF4.php\n\nImages : NASA, Natural Earth, Wikimedia Commons. Voix et montage générés automatiquement.\n#France #Bresil #Ukraine #USA #Pen #Silva #Trump #actualite #geopolitique #FlashMonde",
+  "tags": [
+   "#France",
+   "#Bresil",
+   "#Ukraine",
+   "#USA",
+   "#Pen",
+   "#Silva",
+   "#Trump",
+   "#actualite",
+   "#geopolitique",
+   "#FlashMonde"
+  ],
+  "cree": "2026-10-21T07:08:19.689586+00:00",
+  "decision": null
  }
 ]
