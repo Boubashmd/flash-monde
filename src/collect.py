@@ -21,6 +21,7 @@ class Article:
     lien: str
     date: str  # ISO 8601, UTC
     groupe: str = ""  # groupe de presse : deux titres du meme groupe ne comptent que pour un media
+    image: str = ""   # photo d'illustration donnee par le flux RSS (si le media en fournit une)
 
     def to_dict(self):
         return asdict(self)
@@ -30,6 +31,27 @@ def _propre(texte: str) -> str:
     texte = re.sub(r"<[^>]+>", " ", texte or "")
     texte = html.unescape(texte)
     return re.sub(r"\s+", " ", texte).strip()
+
+
+def _image(e) -> str:
+    """Photo d'illustration d'une entree RSS : media:content, media:thumbnail, enclosure ou <img> du resume."""
+    vues = []
+    for m in (e.get("media_content") or []) + (e.get("media_thumbnail") or []):
+        url = m.get("url", "")
+        if url and (m.get("medium", "image") == "image" or str(m.get("type", "")).startswith("image")):
+            try:
+                largeur = int(m.get("width") or 0)
+            except ValueError:
+                largeur = 0
+            vues.append((largeur, url))
+    for l in (e.get("enclosures") or []) + (e.get("links") or []):
+        if str(l.get("type", "")).startswith("image") and l.get("href"):
+            vues.append((0, l["href"]))
+    if vues:
+        return max(vues, key=lambda v: v[0])[1]
+    blocs = [e.get("summary", "")] + [c.get("value", "") for c in (e.get("content") or [])]
+    m = re.search(r"<img[^>]+src=[\"']([^\"']+)", " ".join(blocs))
+    return html.unescape(m.group(1)) if m else ""
 
 
 def lire_flux(nom: str, url: str, timeout: int = 20) -> list[Article]:
@@ -52,6 +74,7 @@ def lire_flux(nom: str, url: str, timeout: int = 20) -> list[Article]:
                 resume=_propre(e.get("summary", ""))[:600],
                 lien=e.get("link", ""),
                 date=date.isoformat(),
+                image=_image(e),
             )
         )
     if not articles:

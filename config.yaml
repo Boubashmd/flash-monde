@@ -222,7 +222,9 @@ voix:
   # | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
   # Si Azure ne repond pas, l'edition passe a ElevenLabs (s'il est configure), sinon a Edge.
   fournisseur: "azure"
-  azure_voix: "fr-FR-RemyMultilingualNeural"
+  # Voix HD (Dragon HD) : plus naturelle. Voix feminine : "fr-FR-Vivienne:DragonHDLatestNeural"
+  azure_voix: "fr-FR-Remy:DragonHDLatestNeural"
+  azure_voix_secours: "fr-FR-RemyMultilingualNeural"  # si la voix HD ne repond pas
   azure_vitesse: "+6%"    # "-10%" = plus pose, "+10%" = plus rapide
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
   # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
@@ -243,6 +245,10 @@ images:
   # true : si l'info tourne autour d'une personnalite publique, son portrait libre (Wikimedia Commons)
   # s'affiche en encart au-dessus de la carte. Sans photo libre, la carte seule.
   portraits: true
+  # true : la photo d'actualite de l'article source (RSS ou image de partage de la page), creditee
+  # « Photo : <media> ». Passe en premier, avant le portrait libre. ATTENTION : ces photos appartiennent
+  # aux medias et agences. Au premier avertissement (TikTok, YouTube, mail d'un media) : mettre false.
+  photos_medias: true
 
 semaine:
   # Le dimanche, « la semaine dans le monde » : les affaires qui ont marque les 7 derniers jours,

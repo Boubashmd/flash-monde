@@ -21,7 +21,8 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import attente, carte, cluster, collect, film, hashtags, pays, portrait, redaction, telegram, voix, youtube
+from . import (attente, carte, cluster, collect, film, hashtags, pays, photo_media, portrait, redaction, telegram, voix,
+               youtube)
 
 RACINE = Path(__file__).resolve().parent.parent
 F_VUS = RACINE / "data" / "vus.json"
@@ -328,7 +329,12 @@ class Edition:
             codes = [c for c in s.get("iso", []) if c != "MONDE" and (c == "UE" or carte.connu(c))]
             cible = codes[0] if codes else None
             photo, credit_p = None, ""
-            if i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
+            if i_cfg.get("photos_medias", False) and s.get("articles") and not args.demo:
+                try:  # photo d'actualite de l'article (interrupteur images.photos_medias)
+                    photo, credit_p = photo_media.chercher(s["articles"])
+                except Exception as err:
+                    print(f"  ! photo média : {str(err)[:100]}")
+            if not photo and i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
                 if s.get("avec"):  # rencontre entre deux dirigeants : d'abord une photo d'eux ensemble
                     photo, credit_p = portrait.chercher_duo(s["personne"], s["avec"])
                 if not photo:
@@ -363,8 +369,15 @@ class Edition:
                 ligne = f"- {src}" + (f" : {lien}" if lien else "")
                 if ligne not in lignes:
                     lignes.append(ligne)
-        lignes += ["", "Images : NASA, Natural Earth" + (", Wikimedia Commons" if any(p.photo for p in plans) else "")
-                   + ". Voix et montage générés automatiquement.", " ".join(tags)]
+        credits_img = ["NASA", "Natural Earth"]
+        for p in plans:
+            if p.photo:
+                c = p.credit.split(" · ", 1)[-1]
+                c = "Wikimedia Commons" if "Wikimedia" in c else c.removeprefix("Photo : ")
+                if c not in credits_img:
+                    credits_img.append(c)
+        lignes += ["", "Images : " + ", ".join(credits_img) + ". Voix et montage générés automatiquement.",
+                   " ".join(tags)]
         legende = "\n".join(lignes)
         (self.dossier / "legende.txt").write_text(legende, encoding="utf-8")
         (self.dossier / "script.json").write_text(json.dumps({

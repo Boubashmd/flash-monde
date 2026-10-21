@@ -286,15 +286,38 @@ def _azure(texte: str, sortie: Path, cfg: dict) -> list | None:
     synth.synthesis_word_boundary.connect(mot)
     voix = cfg.get("azure_voix", "fr-FR-RemyMultilingualNeural")
     vitesse = cfg.get("azure_vitesse", "0%")
+    hd = "DragonHD" in voix
+    if hd:  # voix HD : SSML minimal (pas de <lang> ni <prosody>), la vitesse est appliquee apres coup
+        corps = escape(pour_la_voix(texte))
+    else:
+        corps = (f'<lang xml:lang="fr-FR"><prosody rate="{vitesse}">'
+                 f'{escape(pour_la_voix(texte))}</prosody></lang>')
     ssml = ('<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="fr-FR">'
-            f'<voice name="{voix}"><lang xml:lang="fr-FR"><prosody rate="{vitesse}">'
-            f'{escape(pour_la_voix(texte))}</prosody></lang></voice></speak>')
+            f'<voice name="{voix}">{corps}</voice></speak>')
     res = synth.speak_ssml_async(ssml).get()
     if res.reason != sdk.ResultReason.SynthesizingAudioCompleted:
         detail = sdk.CancellationDetails(res)
         raise RuntimeError(f"Azure : {detail.reason} {detail.error_details}"[:300])
     sortie.write_bytes(res.audio_data)
+    facteur = _facteur(vitesse) if hd else 1.0
+    if abs(facteur - 1.0) > 0.005:
+        _accelerer(sortie, facteur)
+        reperes = [(m, a / facteur, b / facteur) for m, a, b in reperes]
     return _associer(texte, reperes) if reperes else None
+
+
+def _facteur(vitesse: str) -> float:
+    """« +6% » -> 1.06 ; « -10% » -> 0.90 ; illisible -> 1."""
+    m = re.fullmatch(r"\s*([+-]?\d+(?:\.\d+)?)\s*%\s*", str(vitesse))
+    return max(0.5, min(2.0, 1 + float(m.group(1)) / 100)) if m else 1.0
+
+
+def _accelerer(fichier: Path, facteur: float) -> None:
+    """Change le debit sans changer la hauteur de la voix (filtre atempo de ffmpeg)."""
+    tmp = fichier.with_name(fichier.stem + "_tempo" + fichier.suffix)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(fichier), "-filter:a", f"atempo={facteur:.4f}",
+                    "-c:a", "libmp3lame", "-b:a", "160k", str(tmp)], check=True)
+    tmp.replace(fichier)
 
 
 def _azure_pret(cfg: dict) -> bool:
@@ -302,13 +325,25 @@ def _azure_pret(cfg: dict) -> bool:
     if not (os.getenv("AZURE_SPEECH_KEY") and os.getenv("AZURE_SPEECH_REGION")):
         print("  ! Azure non configuré (AZURE_SPEECH_KEY / AZURE_SPEECH_REGION)")
         return False
+    import tempfile
     try:
-        import tempfile
         with tempfile.TemporaryDirectory() as d:
             _azure("Test.", Path(d) / "essai.mp3", cfg)
         return True
     except Exception as err:
         msg = " ".join(str(err).split())[:150]
+        secours = cfg.get("azure_voix_secours")
+        if secours and secours != cfg.get("azure_voix"):
+            # la voix HD n'est pas disponible (region, quota) : on garde Azure avec la voix classique
+            print(f"  ! voix {cfg.get('azure_voix')} indisponible ({msg}) : essai de {secours}")
+            try:
+                with tempfile.TemporaryDirectory() as d:
+                    _azure("Test.", Path(d) / "essai.mp3", {**cfg, "azure_voix": secours})
+                avertissements.append(f"Voix HD indisponible ({msg[:80]}), voix Azure classique utilisée.")
+                cfg["azure_voix"] = secours
+                return True
+            except Exception as err2:
+                msg = " ".join(str(err2).split())[:150]
         print(f"  ! Azure indisponible : {msg}")
         avertissements.append(f"Voix Azure indisponible ({msg}), voix de secours utilisée.")
         return False
