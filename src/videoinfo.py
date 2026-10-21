@@ -117,7 +117,11 @@ def _objet_json(brut: str) -> dict:
     m = re.search(r"\{.*\}", brut, re.S)
     if not m:
         raise ValueError("réponse illisible du modèle")
-    return json.loads(m.group(0))
+    try:
+        return json.loads(m.group(0))
+    except ValueError:
+        from json_repair import loads as reparer
+        return reparer(m.group(0))
 
 
 def analyser(cfg: dict, indice: str, langue: str, segments: list) -> tuple:

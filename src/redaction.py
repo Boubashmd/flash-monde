@@ -76,7 +76,7 @@ Habillage :
 - "lien" : si l'info décrit l'action d'un pays envers un autre (frappe, sanctions, menace, aide, expulsion, attaque), {"de": "USA", "vers": "IRN", "type": "action"} ; si c'est un échange entre deux pays (rencontre, accord, négociation), "type": "echange". Les deux codes doivent figurer dans "pays". null sinon.
 - "hashtags" : 2 hashtags thématiques en français, sans accent ni espace, qui aident à trouver la vidéo, par exemple ["#Sanctions", "#Diplomatie"]. Jamais de nom de pays ni de personne : ils sont ajoutés automatiquement.
 
-Réponds uniquement avec un tableau JSON, un objet par sujet, dans le même ordre :
+Réponds uniquement avec un tableau JSON valide, un objet par sujet, dans le même ordre. Dans les textes, n'utilise jamais de guillemets droits (") : uniquement des guillemets français « ».
 [{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
 
 def _section(entete: str) -> str:
@@ -94,7 +94,8 @@ SEMAINE = "\n\n".join([
     "- Ton neutre et factuel, attribue les affirmations de chaque camp.",
     _section("Chiffres et victimes"), _section("Texte lu"), _section("Titre"), _section("Illustration"),
     _section("Habillage"),
-    "Réponds uniquement avec un tableau JSON, un objet par sujet, dans le même ordre :\n"
+    "Réponds uniquement avec un tableau JSON valide, un objet par sujet, dans le même ordre. Dans les textes, "
+    "n'utilise jamais de guillemets droits : uniquement des guillemets français « ».\n"
     '[{"id": 1, "titre": "...", "texte": "...", "pays": ["FRA"], "personne": null, "chiffre": null, '
     '"lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]',
 ])
@@ -142,7 +143,15 @@ def _json(brut: str):
     m = re.search(r"\[.*\]", brut, re.S)
     if not m:
         raise ValueError("réponse illisible du modèle")
-    return json.loads(m.group(0))
+    try:
+        return json.loads(m.group(0))
+    except ValueError:  # JSON mal forme (ex. : guillemets droits dans un texte) : on le repare
+        from json_repair import loads as reparer
+        donnees = reparer(m.group(0))
+        if not isinstance(donnees, list) or not donnees:
+            raise ValueError("réponse JSON illisible, même après réparation")
+        print("  ! JSON du modèle réparé automatiquement")
+        return donnees
 
 
 def _dossier(sujets: list[dict]) -> str:
@@ -179,7 +188,14 @@ Réponds uniquement avec un tableau JSON de chaînes, dans le même ordre."""
 
 
 def _par_claude(sujets: list[dict], modele: str) -> list[dict]:
-    breves = _json(_appeler(CONSIGNES, _dossier(sujets), modele))
+    try:
+        breves = _json(_appeler(CONSIGNES, _dossier(sujets), modele))
+    except ValueError as err:  # reponse inexploitable : un essai avec le modele de secours
+        if modele == MODELE_SECOURS:
+            raise
+        print(f"  ! réponse inexploitable de {modele} ({err}) : essai avec {MODELE_SECOURS}")
+        avertissements.append(f"Réponse inexploitable de {modele} : rédaction faite avec {MODELE_SECOURS}.")
+        breves = _json(_appeler(CONSIGNES, _dossier(sujets), MODELE_SECOURS))
     trop_longs = [b for b in breves if len(b.get("titre", "")) > TITRE_MAX + 5]
     if trop_longs:
         try:
