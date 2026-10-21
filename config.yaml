@@ -125,6 +125,7 @@ sources:
   - nom: "Jeune Afrique"
     url: "https://www.jeuneafrique.com/feed/"
 
+  # Retires le 21/10/2026 (flux introuvables ou acces refuse aux robots) : La Voix du Nord, Le Telegramme, La Montagne
   # --- Actualite en France et medias de proximite (politique intérieure, grands faits d'ordre public)
   # « groupe » : les titres d'un meme groupe partagent leurs articles, ils ne comptent que pour UN media
   # dans la regle des 2 sources. « urls » : adresses essayees dans l'ordre. « optionnel » : une panne
@@ -140,7 +141,7 @@ sources:
   - nom: "France 3 Régions"
     groupe: "franceinfo"
     optionnel: true
-    urls: ["https://france3-regions.franceinfo.fr/rss", "https://france3-regions.francetvinfo.fr/rss"]
+    urls: ["https://france3-regions.franceinfo.fr/societe/rss"]
   - nom: "Le Monde France"
     groupe: "Le Monde"
     optionnel: true
@@ -169,7 +170,7 @@ sources:
     urls: ["https://actu.fr/rss.xml"]
   - nom: "La Provence"
     optionnel: true
-    urls: ["https://www.laprovence.com/rss", "https://www.laprovence.com/arc/outboundfeeds/rss/", "https://www.laprovence.com/rss/accueil.xml"]
+    urls: ["https://www.laprovence.com/rss/actualites.xml"]
   - nom: "Nice-Matin"
     optionnel: true
     urls: ["https://www.nicematin.com/rss", "https://www.nicematin.com/rss/derniere-minute.xml"]
@@ -184,9 +185,6 @@ sources:
     groupe: "La Dépêche"
     optionnel: true
     urls: ["https://www.midilibre.fr/rss.xml"]
-  - nom: "La Voix du Nord"
-    optionnel: true
-    urls: ["https://www.lavoixdunord.fr/rss", "https://www.lavoixdunord.fr/rss.xml"]
   - nom: "Le Progrès"
     groupe: "EBRA"
     optionnel: true
@@ -203,13 +201,6 @@ sources:
     groupe: "EBRA"
     optionnel: true
     urls: ["https://www.estrepublicain.fr/rss"]
-  - nom: "Le Télégramme"
-    optionnel: true
-    urls: ["https://www.letelegramme.fr/rss.xml", "https://www.letelegramme.fr/rss"]
-  - nom: "La Montagne"
-    groupe: "Centre France"
-    optionnel: true
-    urls: ["https://www.lamontagne.fr/rss", "https://www.lamontagne.fr/rss.xml"]
 
 validation:
   # Avant de fabriquer la voix et la video, le bot Telegram te propose les sujets :
