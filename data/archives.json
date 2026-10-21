@@ -3546,5 +3546,298 @@
   ],
   "youtube": "tohyScysigY",
   "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269287+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "Paris interdit les rassemblements jeudi dans certains secteurs",
+  "texte": "À Paris, la préfecture interdit les rassemblements et manifestations jeudi, de 8h à 20h, dans certains secteurs. La mesure fait suite aux violences du 17 octobre. Le gouvernement cherche toujours une issue à la crise.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/police-justice/video-violences-du-17-octobre-les-rassemblements-et-manifestations-interdits-jeudi-de-8h-a-20h-dans-certains-secteurs-de-paris_VN-202610210913.html",
+   "DNA": "https://www.dna.fr/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille",
+   "France 24": "https://www.france24.com/fr/france/20261021-non-l-ambassade-de-c%C3%B4te-d-ivoire-%C3%A0-paris-n-a-pas-%C3%A9t%C3%A9-incendi%C3%A9e-par-les-manifestants-du-17-octobre",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/nous-n-allons-pas-nous-laisser-faire-l-intefac-idf-replique-apres-l-interdiction-de-la-manifestation-du-22-octobre-a-paris-3437031.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/21/violences-du-17-octobre-sebastien-lecornu-recoit-les-syndicats-ce-matin-gerald-darmanin-attendu-a-marseille",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/21/decryptage-violences-du-17-octobre-les-reseaux-sociaux-ont-ils-mis-le-feu-aux-poudres-ils-nont-jamais-transforme-un-manifestant-pacifique-en-casseur-13613140.php",
+   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/21/grenoble-rassemblements-et-manifestations-interdites-dans-le-centre-ville-des-jeudi-matin-mais-pas-de-couvre-feu-decrete",
+   "Le Parisien": "https://www.leparisien.fr/paris-75/paris-les-rassemblements-et-manifestations-interdits-jeudi-entre-8h-et-20h-dans-certains-secteurs-21-10-2026-QHWMKLICYNCJFKOL4VEITRFZKA.php",
+   "Le Progrès": "https://www.leprogres.fr/economie/2026/10/21/certains-leur-disent-merci-d-autres-les-insultes-depuis-le-17-octobre-ils-sont-en-premiere-ligne-pour-effacer-tags-injurieux-et-traces-de-violence",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/21/en-direct-violences-du-17-octobre-les-syndicats-recus-a-matignon-ce-matin-par-sebastien-lecornu-suivez-les-dernieres-infos-13612259.php",
+   "Sud Ouest": "https://www.sudouest.fr/politique/sebastien-lecornu/mobilisation-sociale-et-violences-sebastien-lecornu-attendu-a-limoges-vendredi-apres-un-rendez-vous-a-matignon-avec-les-maires-de-paris-marseille-et-lyon-31180664.php",
+   "actu.fr": "https://actu.fr/ile-de-france/paris_75056/manifestations-interdites-a-paris-neuf-stations-de-metro-fermees-des-10-heures-jeudi_64958554.html"
+  },
+  "score": 112.99935601388889,
+  "personne": null,
+  "sig": [
+   "appell",
+   "interd",
+   "lecorn",
+   "manife",
+   "octobr",
+   "paris",
+   "social",
+   "violen"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269304+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "Moscou et Kiev prêts à reprendre des pourparlers à trois",
+  "texte": "À Saint-Pétersbourg, Vladimir Poutine s'est entretenu avec l'émissaire américain Steve Witkoff. Selon le Kremlin, Moscou est prêt à reprendre les négociations trilatérales vers le 10 novembre. Volodymyr Zelensky s'est dit favorable, tout en réclamant un cessez-le-feu.",
+  "iso": [
+   "RUS",
+   "UKR",
+   "USA"
+  ],
+  "pays": "Russie",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "RTS",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4256410-20261021-guerre-ukraine-poutine-veut-bien-reprendre-negocier-paix-zelensky-reclame-abord-cessez-feu?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4256410-20261021-guerre-ukraine-poutine-veut-bien-reprendre-negocier-paix-zelensky-reclame-abord-cessez-feu?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261021-russie-%C3%A9tats-unis-et-ukraine-le-kremlin-pr%C3%AAt-%C3%A0-reprendre-des-n%C3%A9gociations-trilat%C3%A9rales",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/21/direct-guerre-en-ukraine-lemissaire-de-donald-trump-est-en-russie-pour-une-rencontre-avec-vladimir-poutine-13612924.php",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-si-vous-ne-pouvez-pas-arreter-poutine-donnez-nous-au-moins-des-intercepteurs-zelensky-met-la-pression-sur-trump-21-10-2026-WSXK7UNZTZARBGJXPIGQBRXH3Q.php",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-poutine-rencontre-l-emissaire-americain-29392234.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/volodymyr-zelensky/guerre-en-ukraine-la-russie-et-l-ukraine-se-disent-pretes-a-des-negociations-a-trois-sous-l-egide-des-etats-unis-31179553.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/la-russie-et-l-ukraine-pretes-a-de-prochaines-negociations-a-trois-avec-les-americains_8247862.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 102.99935603805555,
+  "personne": "Vladimir Poutine",
+  "sig": [
+   "guerre",
+   "negoci",
+   "poutin",
+   "pret",
+   "repren",
+   "russie",
+   "ukrain",
+   "zelens"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269313+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "Le parquet requiert cinq ans d'inéligibilité contre Delogu",
+  "texte": "À Marseille, le parquet requiert cinq ans d'inéligibilité avec exécution immédiate contre le député LFI Sébastien Delogu. Il requiert aussi deux ans de prison avec sursis pour recel et divulgation d'informations privées. Le jugement doit être rendu ultérieurement.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Sud Ouest",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/21/documents-voles-cinq-ans-d-ineligibilite-requis-contre-le-depute-lfi-sebastien-delogu",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/21/proces-de-sebastien-delogu-deux-ans-de-prison-avec-sursis-et-une-ineligibilite-de-cinq-ans-avec-execution-immediate-requis-contre-le-depute-lfi-13614037.php",
+   "Le Figaro France": "https://www.lefigaro.fr/marseille/ineligibilite-de-cinq-ans-avec-execution-immediate-requise-contre-le-depute-lfi-sebastien-delogu-20261021",
+   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/10/21/au-tribunal-de-marseille-les-excuses-maladroites-du-depute-delogu-menace-d-ineligibilite_6798309_823448.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/proces-pour-recel-de-vol-le-depute-lfi-de-marseille-sebastien-delogu-menace-dineligibilite-21-10-2026-ZIQC3WZSAJAZRLMCZOZDFAU7N4.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/21/documents-voles-cinq-ans-d-ineligibilite-requis-contre-le-depute-lfi-sebastien-delogu",
+   "Sud Ouest": "https://www.sudouest.fr/politique/proces-de-sebastien-delogu-ineligibilite-de-cinq-ans-avec-execution-immediate-requise-contre-le-depute-lfi-31179216.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/justice-proces/cinq-ans-d-ineligibilite-requis-contre-le-depute-lfi-sebastien-delogu-pour-recel-et-divulgation-d-informations-privees_8247868.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 102.99935574305556,
+  "personne": null,
+  "sig": [
+   "delogu",
+   "depute",
+   "execut",
+   "inelig",
+   "lfi",
+   "proces",
+   "requis",
+   "sebast"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269319+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "Panne nationale : Orange rétablit son réseau mobile",
+  "texte": "Orange rétablit son réseau mobile après une panne nationale, due selon l'opérateur à la défaillance d'un équipement.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "DNA",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "Sud Ouest",
+   "actu.fr",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/high-tech/4256391-20261021-quoi-astuce-retrouver-reseau-malgre-panne-chez-orange-sosh?at_medium=display&at_campaign=149",
+   "DNA": "https://www.dna.fr/science-et-technologie/2026/10/21/les-sites-de-plusieurs-prefectures-coupes-apres-la-detection-d-une-faille-critique",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/panne-orange-ce-que-l-on-sait-des-perturbations-qui-touchent-le-reseau-mobile-ce-mercredi-3436962.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/science-et-technologie/2026/10/21/les-sites-de-plusieurs-prefectures-coupes-apres-la-detection-d-une-faille-critique",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/21/une-migration-ratee-vers-la-5g-serait-a-lorigine-de-la-panne-massive-du-reseau-orange-qui-a-touche-des-millions-dabonnes-13614008.php",
+   "Le Dauphiné": "https://www.ledauphine.com/science-et-technologie/2026/10/21/les-sites-de-plusieurs-prefectures-coupes-apres-la-detection-d-une-faille-critique",
+   "Le Figaro France": "https://www.lefigaro.fr/secteur/high-tech/le-reseau-mobile-d-orange-touche-par-une-panne-ce-mercredi-20261021",
+   "Le Monde France": "https://www.lemonde.fr/pixels/article/2026/10/21/orange-annonce-le-retablissement-de-son-reseau-mobile_6798249_4408997.html",
+   "Le Parisien": "https://www.leparisien.fr/high-tech/panne-chez-orange-cette-astuce-qui-permet-de-retrouver-partiellement-du-reseau-21-10-2026-5VBN6TEW5JEVHG2O6U4VEXNZAM.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/21/plus-de-reseau-impossible-dappeler-des-milliers-dabonnes-orange-et-sosh-coupes-du-monde-ce-mercredi-13613221.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/technologie/panne-orange-j-ai-l-impression-d-etre-seule-au-monde-les-abonnes-des-alpes-maritimes-confrontes-a-une-coupure-nationale-10744373",
+   "Ouest-France": "https://www.ouest-france.fr/high-tech/orange/loperateur-orange-victime-dune-panne-de-reseau-nationale-048e3c3c-cd34-11f1-bf87-17eca79cb13c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "Sud Ouest": "https://www.sudouest.fr/faits-divers/panne-d-orange-sosh-la-poste-mobile-bouygues-et-sfr-les-sites-internet-de-toutes-les-prefectures-inaccessibles-a-la-suite-de-failles-critiques-31176276.php",
+   "actu.fr": "https://actu.fr/sciences-technologie/panne-massive-chez-orange-le-reseau-est-enfin-retabli-et-on-connait-les-causes-de-cet-incident-national_64958539.html",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/des-millions-d-abonnes-orange-sans-reseau-mobile-une-panne-en-chaine-evoquee_8247907.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 97.99935613527778,
+  "personne": null,
+  "sig": [
+   "abonne",
+   "faille",
+   "mobile",
+   "orange",
+   "panne",
+   "prefec",
+   "reseau",
+   "retabl"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269325+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "Macron à Riyad, accord pour prolonger les livraisons de diesel",
+  "texte": "En Arabie saoudite, Emmanuel Macron annonce un accord pour prolonger les livraisons supplémentaires de diesel à la France.",
+  "iso": [
+   "SAU",
+   "FRA"
+  ],
+  "pays": "Arabie saoudite",
+  "sources": [
+   "France 24",
+   "Le Figaro",
+   "Le Parisien",
+   "Midi Libre",
+   "Ouest-France"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/moyen-orient/20261021-arabie-saoudite-emmanuel-macron-dans-derni%C3%A8re-%C3%A9tape-tourn%C3%A9e-golfe",
+   "Le Figaro": "https://www.lefigaro.fr/international/emmanuel-macron-arrache-un-accord-decisif-sur-les-carburants-en-arabie-saoudite-20261021",
+   "Le Parisien": "https://www.leparisien.fr/politique/un-geste-de-solidarite-pourquoi-emmanuel-macron-est-en-visite-surprise-en-arabie-saoudite-21-10-2026-2BT6FO5K3NEZRA3TUSKEH3GCFM.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/21/en-visite-surprise-en-arabie-saoudite-emmanuel-macron-annonce-un-accord-pour-une-prolongation-des-livraisons-de-diesel-13613733.php",
+   "Ouest-France": "https://www.ouest-france.fr/monde/arabie-saoudite/en-arabie-saoudite-washington-ordonne-le-depart-de-lambassade-americaine-a-riyad-de-ses-employes-et-leurs-familles-4242b5fc-cd85-11f1-bf87-17eca79cb13c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu"
+  },
+  "score": 82.99935588111111,
+  "personne": "Emmanuel Macron",
+  "sig": [
+   "accord",
+   "arabie",
+   "emmanu",
+   "macron",
+   "riyad",
+   "saoudi",
+   "surpri",
+   "visite"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-21T21:06:27.269330+00:00",
+  "edition": "2026-10-21T22:53:59.611374+02:00",
+  "semaine": false,
+  "titre": "L'éditeur Boréal confirme l'usage de l'IA par Thélyson Orélien",
+  "texte": "Au Canada, l'éditeur Boréal met fin à sa collaboration avec Thélyson Orélien, dont le roman a été écrit avec l'IA.",
+  "iso": [
+   "CAN"
+  ],
+  "pays": "Canada",
+  "sources": [
+   "20 Minutes France",
+   "Courrier international",
+   "France 24",
+   "La Dépêche",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RFI",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/arts-stars/culture/4256422-20261021-affaire-thelyson-orelien-ia-bien-utilisee-ecriture-roman-deplore-editeur-canadien?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/litterature-l-editeur-canadien-de-thelyson-orelien-affirme-que-l-ecrivain-a-bien-utilise-l-ia_280119",
+   "France 24": "https://www.france24.com/fr/culture/20261021-th%C3%A9lyson-or%C3%A9lien-bien-utilis%C3%A9-ia-annonce-%C3%A9diteur-canadien-met-fin-collaboration",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/21/polemique-thelyson-orelien-lia-a-bien-ete-utilisee-dans-lecriture-du-roman-cetait-ca-ou-mourir-selon-son-editeur-canadien-13613934.php",
+   "Le Monde France": "https://www.lemonde.fr/pixels/article/2026/10/21/l-ia-a-ete-utilisee-pour-l-ecriture-du-roman-de-thelyson-orelien-annonce-son-editeur-canadien-qui-met-fin-a-sa-collaboration-avec-l-auteur_6798291_4408996.html",
+   "Le Parisien": "https://www.leparisien.fr/culture-loisirs/lia-a-bien-ete-utilisee-dans-lecriture-du-roman-de-thelyson-orelien-selon-son-editeur-canadien-21-10-2026-XXC5D7VNZ5F6PE6VEBYUQ6DA4E.php",
+   "Le Progrès": "https://www.leprogres.fr/culture-loisirs/2026/10/21/thelyson-orelien-lache-par-son-editeur-canadien-qui-confirme-l-usage-de-l-ia-dans-son-roman",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/21/affaire-thelyson-orelien-lediteur-du-livre-fait-une-revelation-choc-de-lia-a-bien-ete-utilisee-dans-lecriture-de-cetait-ca-ou-mourir-13613917.php",
+   "RFI": "https://www.rfi.fr/fr/culture/20261021-affaire-th%C3%A9lyson-or%C3%A9lien-l-%C3%A9diteur-bor%C3%A9al-annonce-que-l-%C3%A9crivain-a-utilis%C3%A9-l-ia-pour-c-%C3%A9tait-%C3%A7a-ou-mourir",
+   "Sud Ouest": "https://www.sudouest.fr/culture/affaire-thelyson-orelien-l-intelligence-artificielle-a-ete-utilisee-dans-l-ecriture-du-roman-c-etait-ca-ou-mourir-annonce-son-editeur-canadien-31177503.php"
+  },
+  "score": 79.99935592333334,
+  "personne": null,
+  "sig": [
+   "bien",
+   "canadi",
+   "ecritu",
+   "editeu",
+   "orelie",
+   "roman",
+   "thelys",
+   "utilis"
+  ],
+  "youtube": "KZF7aESQRtE",
+  "yt_attente": null
  }
 ]
