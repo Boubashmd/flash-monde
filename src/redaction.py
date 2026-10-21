@@ -70,6 +70,7 @@ Tri :
 Illustration :
 - "pays" : liste de codes ISO 3166-1 alpha-3 des pays concernés, le principal en premier (ex. ["UKR", "RUS"]). "UE" si le sujet concerne l'Union européenne en tant que telle, "MONDE" s'il est mondial.
 - "personne" : nom complet, tel que sur Wikipédia, de LA personnalité publique au cœur du sujet (chef d'État ou de gouvernement, ministre, dirigeant de parti ou d'organisation internationale). null s'il n'y en a pas une seule clairement centrale. Jamais une victime, un particulier, un mineur, ni une personne poursuivie dans une affaire de droit commun.
+- "avec" : si l'info porte sur une rencontre, un appel, un échange ou un face-à-face entre "personne" et UNE autre personnalité publique (ex. Trump reçoit Macron), le nom complet de cette autre personnalité, tel que sur Wikipédia ; sinon null.
 
 Habillage :
 - "chiffre" : le chiffre le plus marquant du texte, écrit exactement comme dans "texte", avec une légende de 3 ou 4 mots : {"nombre": "80", "legende": "drones abattus"}. Il doit être un fait, pas une date ni une année. null s'il n'y en a pas.
@@ -77,7 +78,7 @@ Habillage :
 - "hashtags" : 2 hashtags thématiques en français, sans accent ni espace, qui aident à trouver la vidéo, par exemple ["#Sanctions", "#Diplomatie"]. Jamais de nom de pays ni de personne : ils sont ajoutés automatiquement.
 
 Réponds uniquement avec un tableau JSON valide, un objet par sujet, dans le même ordre. Dans les textes, n'utilise jamais de guillemets droits (") : uniquement des guillemets français « ».
-[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
+[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "avec": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
 
 def _section(entete: str) -> str:
     """Un paragraphe des consignes, pour les reutiliser dans le recapitulatif de la semaine."""
@@ -327,6 +328,8 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
         iso = b.get("pays") or []
         s["iso"] = [c.strip().upper() for c in (iso if isinstance(iso, list) else [iso]) if isinstance(c, str) and c.strip()]
         s["personne"] = b.get("personne") if isinstance(b.get("personne"), str) and b.get("personne").strip() else None
+        s["avec"] = b.get("avec").strip() if s["personne"] and isinstance(b.get("avec"), str) and b.get("avec").strip() \
+            and b.get("avec").strip() != s["personne"] else None
         s["chiffre"] = valider_chiffre(b.get("chiffre"), s["texte"])
         s["lien"] = valider_lien(b.get("lien"), s["iso"])
         s["hashtags"] = valider_hashtags(b.get("hashtags"))

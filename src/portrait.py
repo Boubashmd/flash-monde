@@ -30,7 +30,7 @@ except Exception:  # pragma: no cover
     cv2 = None
 
 CACHE = Path("cache/portraits")
-VERSION = "v2"                     # changer la version refait les portraits deja en cache
+VERSION = "v3"                     # changer la version refait les portraits deja en cache
 UA = {"User-Agent": "FlashMonde/1.0 (https://github.com/Boubashmd/flash-monde)"}
 LICENCES_OK = re.compile(r"^(cc0|public domain|pd|ogl|cc[ -]by(-sa)?([ -]\d(\.\d)?)?)", re.I)
 INTERDIT = re.compile(r"\b(nc|nd|fair use|non-free)\b", re.I)
@@ -132,18 +132,25 @@ def _infos(titres: list) -> list:
             continue
         auteur = _propre(em.get("Artist", {}).get("value", "")) or "auteur inconnu"
         texte = " ".join(_propre(em.get(k, {}).get("value", "")) for k in ("Artist", "Credit", "ImageDescription"))
-        annee = None
-        m = re.search(r"(19|20)\d\d", _propre(em.get("DateTimeOriginal", {}).get("value", "")))
+        quand = _propre(em.get("DateTimeOriginal", {}).get("value", "")) or _propre(
+            em.get("DateTime", {}).get("value", ""))
+        annee, jours = None, None
+        m = re.search(r"((?:19|20)\d\d)(?:[-:/](\d\d)(?:[-:/](\d\d))?)?", quand)
         if m:
-            annee = int(m.group(0))
+            annee = int(m.group(1))
+            try:
+                jours = (datetime.now() - datetime(annee, int(m.group(2) or 6), int(m.group(3) or 15))).days
+            except ValueError:
+                jours = (datetime.now().year - annee) * 365
         officiel = bool(OFFICIEL.search(texte))
-        # note sans regarder l'image : rang (Wikidata/Wikipedia d'abord), officiel, recent
+        # note sans regarder l'image : rang (Wikidata/Wikipedia d'abord), officiel, et surtout RECENT
         note = max(0.0, 2.0 - 0.25 * rang) + (4.0 if officiel else 0.0)
-        if annee:
-            age = datetime.now().year - annee
-            note += 3.0 if age <= 3 else 1.5 if age <= 6 else 0.0 if age <= 10 else -2.0
+        if jours is not None:
+            note += (6.0 if jours <= 30 else 4.5 if jours <= 180 else 3.0 if jours <= 365 else
+                     1.0 if jours <= 3 * 365 else 0.0 if jours <= 6 * 365 else -3.0)
         out.append({"titre": t, "url": info.get("thumburl") or info["url"], "licence": licence,
-                    "auteur": auteur, "annee": annee, "note": note, "officiel": officiel})
+                    "auteur": auteur, "annee": annee, "jours": jours, "note": note, "officiel": officiel,
+                    "desc": _sans_accents(t + " " + texte)})
     return out
 
 
@@ -199,7 +206,7 @@ def analyser(img: Image.Image, detecteur) -> dict | None:
     seul = len(faces) == 1 or faces[1][2] * faces[1][3] < 0.35 * fw * fh
     zone = gris[max(0, int(y)):max(0, int(y + fh)), max(0, int(x)):max(0, int(x + fw))]
     nettete = float(cv2.Laplacian(zone, cv2.CV_64F).var()) if zone.size else 0.0
-    return {"x": x, "y": y, "w": fw, "h": fh, "seul": seul, "nettete": nettete}
+    return {"x": x, "y": y, "w": fw, "h": fh, "seul": seul, "nettete": nettete, "faces": faces}
 
 
 def note_visage(v: dict | None, img_h: int) -> float | None:
@@ -218,12 +225,33 @@ def recadrer(img: Image.Image, v: dict | None) -> Image.Image:
     ratio = FORMAT[0] / FORMAT[1]
     if v is None:  # sans detection : on garde le haut de l'image, ou se trouve presque toujours le visage
         return ImageOps.fit(img, FORMAT, Image.LANCZOS, centering=(0.5, 0.25))
-    ch = min(H, v["h"] * 2.7)
+    ch = min(H, v["h"] * 3.3)                           # cadrage plus large : tete et epaules, rien de tronque
     cw = ch * ratio
     if cw > W:
         cw, ch = W, W / ratio
     cx = v["x"] + v["w"] / 2
-    cy = v["y"] + v["h"] * 0.62                           # visage un peu au-dessus du centre
+    cy = v["y"] + v["h"] * 0.75                           # visage un peu au-dessus du centre
+    x0 = min(max(0, cx - cw / 2), W - cw)
+    y0 = min(max(0, cy - ch / 2), H - ch)
+    return img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize(FORMAT, Image.LANCZOS)
+
+
+def recadrer_duo(img: Image.Image, faces: list) -> Image.Image:
+    """Cadre qui garde les deux visages principaux, avec de l'air autour, au format de l'encart."""
+    W, H = img.size
+    ratio = FORMAT[0] / FORMAT[1]
+    (x1, y1, w1, h1), (x2, y2, w2, h2) = faces[:2]
+    gx, dx = min(x1, x2), max(x1 + w1, x2 + w2)
+    hy, by = min(y1, y2), max(y1 + h1, y2 + h2)
+    hmoy = (h1 + h2) / 2
+    cw = (dx - gx) + 2.2 * hmoy
+    ch = max((by - hy) + 2.6 * hmoy, cw / ratio)
+    cw = ch * ratio
+    if cw > W:
+        cw, ch = W, W / ratio
+    if ch > H:
+        ch, cw = H, H * ratio
+    cx, cy = (gx + dx) / 2, (hy + by) / 2 + 0.55 * hmoy
     x0 = min(max(0, cx - cw / 2), W - cw)
     y0 = min(max(0, cy - ch / 2), H - ch)
     return img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize(FORMAT, Image.LANCZOS)
@@ -249,13 +277,91 @@ def traiter(img: Image.Image) -> Image.Image:
 
 # ------------------------------------------------------------------ point d'entree
 
+def _cache_valide(meta: Path) -> bool:
+    """Un portrait est recherche a nouveau au bout de 7 jours (2 jours si rien n'avait ete trouve) :
+    les photos officielles recentes arrivent sur Commons avec quelques jours de retard."""
+    if not meta.exists():
+        return False
+    try:
+        info = json.loads(meta.read_text(encoding="utf-8"))
+    except ValueError:
+        return False
+    age = datetime.now().timestamp() - meta.stat().st_mtime
+    return age < (7 if info.get("ok") else 2) * 86400
+
+
+def chercher_duo(nom1: str, nom2: str) -> tuple[Path | None, str]:
+    """Photo libre ou les DEUX personnalites apparaissent ensemble (rencontre, sommet), recente de preference."""
+    noms = sorted([nom1, nom2])
+    cle = re.sub(r"[^a-z0-9]+", "-", _sans_accents(" et ".join(noms))).strip("-")
+    dossier = CACHE / f"{cle}-{VERSION}"
+    meta, photo = dossier / "credit.json", dossier / "photo.jpg"
+    if _cache_valide(meta):
+        info = json.loads(meta.read_text(encoding="utf-8"))
+        return (photo, info["credit"]) if info.get("ok") and photo.exists() else (None, "")
+    dossier.mkdir(parents=True, exist_ok=True)
+
+    def refuser(raison: str):
+        print(f"  - pas de photo de {nom1} avec {nom2} ({raison})")
+        meta.write_text(json.dumps({"ok": False, "raison": raison}, ensure_ascii=False), encoding="utf-8")
+        return None, ""
+
+    detecteur = _detecteur()
+    if detecteur is None:
+        return None, ""
+    try:
+        f1, f2 = (_sans_accents(n.split()[-1]) for n in (nom1, nom2))
+        titres = []
+        for requete in (f'"{nom1}" "{nom2}" filetype:bitmap', f'{f1} {f2} filetype:bitmap'):
+            try:
+                d = _api("commons.wikimedia.org", action="query", list="search", srnamespace=6, srlimit=30,
+                         srsearch=requete, srsort="create_timestamp_desc")
+            except Exception:
+                d = _api("commons.wikimedia.org", action="query", list="search", srnamespace=6, srlimit=30,
+                         srsearch=requete)
+            titres += [r["title"].split(":", 1)[-1] for r in d.get("query", {}).get("search", [])]
+        titres = [t for t in dict.fromkeys(titres) if not EXCLURE.search(t)][:40]
+        candidats = [c for c in _infos(titres) if f1 in c["desc"] and f2 in c["desc"]]
+        if not candidats:
+            return refuser("aucune photo libre des deux ensemble")
+        candidats.sort(key=lambda c: -c["note"])
+        meilleur, meilleure_note = None, None
+        for c in candidats[:NB_TELECHARGES]:
+            try:
+                brut = requests.get(c["url"], headers=UA, timeout=60).content
+                img = ImageOps.exif_transpose(Image.open(io.BytesIO(brut))).convert("RGB")
+            except Exception:
+                continue
+            v = analyser(img, detecteur)
+            if not v or len(v["faces"]) < 2:
+                continue
+            a, b = v["faces"][:2]
+            if b[2] * b[3] < 0.3 * a[2] * a[3] or min(a[3], b[3]) < VISAGE_MIN * 0.8:
+                continue  # le second visage est trop petit : ce n'est pas une photo des deux
+            note = c["note"] + min(min(a[3], b[3]) / 150, 2.5) + min(v["nettete"] / 150, 2.0)
+            if meilleure_note is None or note > meilleure_note:
+                meilleur, meilleure_note = (c, img, v), note
+        if meilleur is None:
+            return refuser("pas de photo nette où l'on voit bien les deux")
+        c, img, v = meilleur
+        traiter(recadrer_duo(img, v["faces"])).save(photo, quality=92)
+        credit = f"Photo : {c['auteur'][:60]} / Wikimedia Commons, {c['licence']}"
+        meta.write_text(json.dumps({"ok": True, "credit": credit, "fichier": c["titre"], "jours": c["jours"]},
+                                   ensure_ascii=False), encoding="utf-8")
+        print(f"  - photo de {nom1} avec {nom2} : {c['titre'][:70]}")
+        return photo, credit
+    except Exception as err:
+        print(f"  - photo à deux indisponible ({str(err)[:60]})")
+        return None, ""
+
+
 def chercher(nom: str) -> tuple[Path | None, str]:
     """Renvoie (chemin du portrait pret a l'emploi, credit a afficher) ou (None, '') si rien de bon."""
     cle = re.sub(r"[^a-z0-9]+", "-", _sans_accents(nom)).strip("-")
     dossier = CACHE / f"{cle}-{VERSION}"
     meta = dossier / "credit.json"
     photo = dossier / "photo.jpg"
-    if meta.exists():
+    if _cache_valide(meta):
         info = json.loads(meta.read_text(encoding="utf-8"))
         return (photo, info["credit"]) if info.get("ok") and photo.exists() else (None, "")
     dossier.mkdir(parents=True, exist_ok=True)

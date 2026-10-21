@@ -329,7 +329,10 @@ class Edition:
             cible = codes[0] if codes else None
             photo, credit_p = None, ""
             if i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
-                photo, credit_p = portrait.chercher(s["personne"])
+                if s.get("avec"):  # rencontre entre deux dirigeants : d'abord une photo d'eux ensemble
+                    photo, credit_p = portrait.chercher_duo(s["personne"], s["avec"])
+                if not photo:
+                    photo, credit_p = portrait.chercher(s["personne"])
             plans.append(film.Plan(
                 titre=s["titre"], texte=s["texte"], date=s["date_affichee"], sources=s["sources"],
                 credit="Carte : NASA, Natural Earth" + (f" · {credit_p}" if photo else ""),

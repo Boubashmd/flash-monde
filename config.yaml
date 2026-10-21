@@ -223,7 +223,7 @@ voix:
   # Si Azure ne repond pas, l'edition passe a ElevenLabs (s'il est configure), sinon a Edge.
   fournisseur: "azure"
   azure_voix: "fr-FR-RemyMultilingualNeural"
-  azure_vitesse: "0%"     # "-10%" = plus pose, "+10%" = plus rapide
+  azure_vitesse: "+6%"    # "-10%" = plus pose, "+10%" = plus rapide
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
   # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
   # Settings > Secrets and variables > Actions > onglet Variables : ELEVENLABS_VOICE_ID, ELEVENLABS_MODELE
@@ -261,6 +261,7 @@ youtube:
   confidentialite: "public" # "public" | "unlisted" (non repertoriee) | "private"
 
 video:
+  rythme: 0.7             # 1 = pose (transitions longues) ; 0.7 = vif (style TikTok) ; entre les deux possible
   largeur: 1080
   hauteur: 1920
   fps: 30

@@ -39,6 +39,7 @@ cv2.setNumThreads(1)  # le parallelisme se fait par images entieres
 POLICES = Path(__file__).resolve().parent.parent / "assets" / "fonts"
 MARGE_G, MARGE_D = 70, 130      # a droite : boutons de TikTok et YouTube
 BLANC = (255, 255, 255)
+RYTHME = 1.0  # 1 = pose ; 0.7 = vif (transitions et pauses plus courtes, camera plus vivante). Voir config video.rythme
 LOGO = Path(__file__).resolve().parent.parent / "assets" / "logo" / "C_globe_titre.png"
 
 
@@ -137,7 +138,8 @@ class Trajet:
         dp = np.sqrt((d * du / Wmil) ** 2 + 0.5 * dl ** 2) + 1e-7
         self.P = np.concatenate([[0.0], np.cumsum(dp)])
         self.s, self.u, self.W = s, u, W
-        self.duree = duree if duree else min(3.4, max(2.0, 1.6 + 0.75 * float(self.P[-1])))
+        r = RYTHME
+        self.duree = duree if duree else min(3.4 * r, max(2.0 * r, (1.6 + 0.75 * float(self.P[-1])) * r))
 
     def _avance(self, q: float) -> float:
         return lisse(q) if self.mode == "inout" else sortie(q)
@@ -283,7 +285,7 @@ def _etiquette(nom: str) -> Sprite:
     return Sprite(_ombre(img, 10, 0.55, (0, 5)))
 
 
-def _carte_portrait(photo: Path, w: int = 560, h: int = 400) -> Sprite | None:
+def _carte_portrait(photo: Path, w: int = 644, h: int = 460) -> Sprite | None:
     try:
         ph = ImageOps.fit(Image.open(photo).convert("RGB"), (w, h), Image.LANCZOS, centering=(0.5, 0.28))
     except Exception:
@@ -413,18 +415,19 @@ class Montage:
         c0 = self.cibles[0]
         depart_cam = Camera(c0.lon - 32.0, max(-60.0, min(60.0, c0.lat - 12.0)),
                             min(1.05, max(0.62, 3.2 * c0.w)), 0.5)
-        ouverture = Trajet(depart_cam, c0, mode="out", duree=2.5)
+        r = RYTHME
+        ouverture = Trajet(depart_cam, c0, mode="out", duree=2.5 * (0.6 + 0.4 * r))
         self.segments.append((0.0, ouverture.duree, self._suivre(ouverture, 0.0)))
         self.souffles.append((0.0, ouverture))
         self.arrivee, self.depart, self.voix, self.fin_parole = [], [], [], []
         self.duree_entree, self.duree_sortie = [], []
         t_arrivee = ouverture.duree
-        t_voix = 0.55
+        t_voix = 0.55 * r
         self.duree_entree.append(ouverture.duree)
         for i, p in enumerate(self.plans):
             parole = (p.mots[-1][2] if p.mots else p.duree) if p.duree else 2.0
             fin_parole = t_voix + parole
-            depart = max(fin_parole + 0.7, t_arrivee + 1.2)
+            depart = max(fin_parole + 0.7 * r, t_arrivee + 1.2 * r)
             self.arrivee.append(t_arrivee)
             self.voix.append(t_voix)
             self.fin_parole.append(fin_parole)
@@ -443,7 +446,7 @@ class Montage:
             t_arrivee = depart + tr.duree
             if i + 1 < n:
                 self.duree_entree.append(tr.duree)
-                t_voix = t_arrivee - 0.15
+                t_voix = t_arrivee - 0.15 - 0.9 * (1 - r)  # rythme vif : la voix part pendant le zoom
         # fin : le globe tourne encore un peu, nom de la chaine
         fin_cam = self.segments[-1][2](t_arrivee)
         self.debut_fin = self.depart[-1]
@@ -463,8 +466,9 @@ class Montage:
             q = lisse(rampe(t, t0, t1))
             if monde:  # le globe tourne doucement sur lui-meme
                 return Camera(cam.lon + 1.2 * (t1 - t0) * q, cam.lat, cam.w, cam.fy)
-            dlon = math.degrees(0.045 * cam.w * q) / max(0.35, math.cos(math.radians(cam.lat)))
-            return Camera(cam.lon + dlon, cam.lat, cam.w * (1 - 0.07 * q), cam.fy)
+            vif = max(0.0, 1.0 - RYTHME)  # rythme vif : zoom lent plus marque, l'image ne reste jamais figee
+            dlon = math.degrees((0.045 + 0.08 * vif) * cam.w * q) / max(0.35, math.cos(math.radians(cam.lat)))
+            return Camera(cam.lon + dlon, cam.lat, cam.w * (1 - (0.07 + 0.25 * vif) * q), cam.fy)
         return f
 
     def camera(self, t: float) -> Camera:
@@ -672,7 +676,7 @@ class Montage:
             return
         x, y = pos
         if boite:  # au-dessus du pays, pour ne pas cacher son drapeau
-            plancher = self.titre_bas[i] + (568 if self.portraits[i] else 120)
+            plancher = self.titre_bas[i] + (628 if self.portraits[i] else 120)
             haut = max(boite[1] - 4, plancher)
             if haut < y + 40:
                 y = haut
@@ -1046,6 +1050,8 @@ def fabriquer(plans: list, sortie_mp4: Path, cfg_video: dict, travail: Path, *, 
     t = time.time()
     globe = Globe(L, H, int(cfg_video.get("texture_max", 21600)), hd=cfg_video.get("image_hd", True))
     print(f"  globe prêt ({'image HD' if globe.tex.hd else 'image standard'}, {time.time() - t:.0f} s)")
+    global RYTHME
+    RYTHME = float(cfg_video.get("rythme", 1.0))
     montage = Montage(plans, globe, accent, demo=demo, marque=marque,
                       fin_marque=cfg_video.get("fin_marque", True), fps=fps)
     print(f"  durée : {montage.total:.1f} s")
