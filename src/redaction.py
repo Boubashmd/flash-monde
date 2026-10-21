@@ -8,9 +8,11 @@ import json
 import os
 import re
 
+from . import cluster
+
 TITRE_MAX = 60
 
-CONSIGNES = """Tu es secrétaire de rédaction d'un flash d'information vidéo en français, consacré à la politique, à la géopolitique, à la diplomatie et aux grands faits d'ordre public. Le texte est lu à voix haute par une voix de synthèse, comme un journal radio.
+CONSIGNES = """Tu es secrétaire de rédaction d'un flash d'information vidéo en français, consacré aux grandes infos du monde : politique, géopolitique, diplomatie, conflits, mais aussi économie, catastrophes, accidents graves, science, technologie, santé et grands faits divers. Le texte est lu à voix haute par une voix de synthèse, comme un journal radio.
 
 Pour chaque sujet, tu reçois les titres et résumés de plusieurs médias. Rédige une brève.
 
@@ -40,6 +42,9 @@ Texte lu à l'antenne ("texte") :
 - Mets une virgule là où un présentateur respire.
 - Varie les tournures d'une brève à l'autre (pas deux brèves qui commencent de la même façon).
 
+Version flash ("flash") :
+- La même info en UNE seule phrase de 140 caractères maximum, lue quand le sujet passe en fin de journal. Mêmes règles que le texte : le lieu, le fait principal, le bilan s'il y en a un.
+
 Titre : style d'agence de presse (AFP, Reuters), 60 caractères maximum, sans point final.
 - C'est une phrase complète : SUJET explicite + verbe conjugué + complément. On doit savoir QUI fait QUOI.
 - Le sujet est nommé : un pays ou sa capitale (Moscou, Washington, Kiev), une institution (l'Otan, l'UE), un dirigeant ou un groupe (les Houthis). Jamais de titre qui commence par un verbe.
@@ -63,13 +68,14 @@ Suite d'une info :
 - Si les nouveaux articles n'apportent aucun fait nouveau par rapport au titre précédent, mets "ecarter": true.
 
 Tri :
+- "exclu" : true si le cœur du sujet est le sport (résultats, matchs, transferts, sauf événement mondial exceptionnel comme une finale de Coupe du monde ou un record olympique), la vie des célébrités (people), le divertissement, la vie pratique ou la consommation, ou un fait divers ordinaire (cambriolage, accident de la route isolé, drame familial). Les catastrophes, les accidents graves, les grandes annonces économiques ou technologiques et les découvertes majeures ne sont PAS exclus.
 - "politique" : true si le cœur du sujet est la politique intérieure ou internationale, la géopolitique, la diplomatie, un conflit armé, des sanctions, une élection, une décision de justice visant des responsables politiques, une manifestation, OU un fait divers marquant d'ordre public ou de sécurité (émeutes, pillages, violences urbaines, attaque, fusillade, attentat, prise d'otages, grande opération de police). false pour l'économie, la science, la culture, le sport, les catastrophes naturelles, les accidents et les faits divers ordinaires (cambriolage, accident de la route, drame familial…), sauf si leur cœur est une décision ou un affrontement politique.
 - "ecarter" : true si les articles d'un sujet ne parlent pas du même fait, ou se contredisent sur l'essentiel.
 - "doublon_de" : si ce sujet raconte le même fait ou la même affaire qu'un sujet précédent de la liste (même événement vu sous un autre angle), mets l'id de ce sujet précédent ; sinon null.
 
 Illustration :
 - "pays" : liste de codes ISO 3166-1 alpha-3 des pays concernés, le principal en premier (ex. ["UKR", "RUS"]). "UE" si le sujet concerne l'Union européenne en tant que telle, "MONDE" s'il est mondial.
-- "personne" : nom complet, tel que sur Wikipédia, de LA personnalité publique au cœur du sujet (chef d'État ou de gouvernement, ministre, dirigeant de parti ou d'organisation internationale). null s'il n'y en a pas une seule clairement centrale. Jamais une victime, un particulier, un mineur, ni une personne poursuivie dans une affaire de droit commun.
+- "personne" : nom complet, tel que sur Wikipédia, de LA personnalité publique au cœur du sujet (chef d'État ou de gouvernement, ministre, dirigeant de parti, d'organisation internationale ou de grande entreprise). null s'il n'y en a pas une seule clairement centrale. Jamais une victime, un particulier, un mineur, ni une personne poursuivie dans une affaire de droit commun.
 - "avec" : si l'info porte sur une rencontre, un appel, un échange ou un face-à-face entre "personne" et UNE autre personnalité publique (ex. Trump reçoit Macron), le nom complet de cette autre personnalité, tel que sur Wikipédia ; sinon null.
 
 Habillage :
@@ -78,7 +84,7 @@ Habillage :
 - "hashtags" : 2 hashtags thématiques en français, sans accent ni espace, qui aident à trouver la vidéo, par exemple ["#Sanctions", "#Diplomatie"]. Jamais de nom de pays ni de personne : ils sont ajoutés automatiquement.
 
 Réponds uniquement avec un tableau JSON valide, un objet par sujet, dans le même ordre. Dans les textes, n'utilise jamais de guillemets droits (") : uniquement des guillemets français « ».
-[{"id": 1, "titre": "...", "texte": "...", "politique": true, "ecarter": false, "pays": ["FRA"], "personne": null, "avec": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
+[{"id": 1, "titre": "...", "texte": "...", "flash": "...", "politique": true, "exclu": false, "ecarter": false, "pays": ["FRA"], "personne": null, "avec": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
 
 def _section(entete: str) -> str:
     """Un paragraphe des consignes, pour les reutiliser dans le recapitulatif de la semaine."""
@@ -312,7 +318,8 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
     if mode == "anthropic" and not os.getenv("ANTHROPIC_API_KEY"):
         print("  ! ANTHROPIC_API_KEY absente : rédaction en mode extractif (test seulement)")
         mode = "extractif"
-    politique_seulement = cfg.get("politique_seulement", True)
+    politique_seulement = cfg.get("politique_seulement", False)
+    seuil_autres = int(cfg.get("min_sources_hors_politique", 3))  # une info hors politique doit etre tres reprise
     breves = _par_claude(sujets, cfg["modele"]) if mode == "anthropic" else _extractif(sujets)
     gardes = []
     for s, b in zip(sujets, breves):
@@ -329,8 +336,20 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
         if politique_seulement and b.get("politique") is False:
             print(f"  - écarté (hors politique) : {nom}")
             continue
+        if b.get("exclu"):
+            print(f"  - écarté (sport, people ou fait divers ordinaire) : {nom}")
+            continue
+        if b.get("politique") is False and s.get("articles"):
+            n = len(cluster.medias(s["articles"]))
+            if n < seuil_autres:
+                print(f"  - écarté (hors politique, seulement {n} médias) : {nom}")
+                continue
+            s["score"] = s.get("score", 0) - 10  # la politique et la geopolitique gardent la priorite
         s["titre"] = b["titre"].strip().rstrip(".")
-        s["texte"] = b["texte"].strip()
+        s["texte"] = s["texte_long"] = b["texte"].strip()
+        s["flash"] = b["flash"].strip() if isinstance(b.get("flash"), str) and b["flash"].strip() else ""
+        s["politique"] = b.get("politique") is not False
+        s["_chiffre_brut"] = b.get("chiffre")
         iso = b.get("pays") or []
         s["iso"] = [c.strip().upper() for c in (iso if isinstance(iso, list) else [iso]) if isinstance(c, str) and c.strip()]
         s["personne"] = b.get("personne") if isinstance(b.get("personne"), str) and b.get("personne").strip() else None
@@ -340,4 +359,16 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
         s["lien"] = valider_lien(b.get("lien"), s["iso"])
         s["hashtags"] = valider_hashtags(b.get("hashtags"))
         gardes.append(s)
+    gardes.sort(key=lambda x: -x.get("score", 0))
     return gardes, mode
+
+
+def mettre_en_flash(sujets: list[dict], developpes: int) -> None:
+    """Les premiers sujets gardent leur texte complet ; les suivants passent en flash d'une phrase."""
+    for i, s in enumerate(sujets):
+        s.setdefault("texte_long", s["texte"])
+        flash = i >= developpes and bool(s.get("flash"))
+        s["texte"] = s["flash"] if flash else s["texte_long"]
+        s["est_flash"] = flash
+        if "_chiffre_brut" in s:
+            s["chiffre"] = valider_chiffre(s["_chiffre_brut"], s["texte"])

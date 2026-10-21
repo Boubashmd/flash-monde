@@ -253,7 +253,7 @@ class Edition:
         if not sujets:
             if mode:  # des sujets existaient, mais la redaction les a tous ecartes
                 self.info(f"{self.nom} ({self.heure}) : pas de nouvelle info à publier "
-                          "(déjà traitées, hors politique ou doublons). Pas de vidéo.")
+                          "(déjà traitées, hors ligne éditoriale ou doublons). Pas de vidéo.")
             self.nettoyer()
             return 0
         for s in sujets:
@@ -294,6 +294,10 @@ class Edition:
                 self.nettoyer()
                 return 0
             print(f"  {len(sujets)} sujet(s) validé(s)")
+
+        # les premieres infos sont developpees, les suivantes passent en flash d'une phrase
+        if not args.semaine:
+            redaction.mettre_en_flash(sujets, int(cfg["edition"].get("nb_developpes", 3)))
 
         # voix : seulement le texte de chaque info (ni sommaire, ni nom d'edition, ni formule de fin)
         self.etape = "voix"

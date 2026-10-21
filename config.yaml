@@ -6,7 +6,8 @@ chaine:
   fuseau: "Europe/Paris"
 
 edition:
-  nb_titres: 4            # nombre maximum d'infos par video
+  nb_titres: 6            # nombre maximum d'infos par video (plus d'une minute : condition de remuneration TikTok)
+  nb_developpes: 3        # les N premieres en 2-3 phrases, les suivantes en flash d'une phrase
   fenetre_heures: 8       # on ne regarde que les articles publies depuis X heures
   fenetre_matin_heures: 12  # le matin (avant midi, heure de Paris), on remonte plus loin : la nuit est calme
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
@@ -215,6 +216,10 @@ redaction:
   # "extractif" : reprend le titre et le debut du resume d'une source. POUR TESTER SEULEMENT,
   #               ne publie pas ces videos : le texte n'est pas reformule.
   fournisseur: "anthropic"
+  # false : toutes les grosses infos du monde (economie, catastrophes, science, tech, sante, grands faits divers),
+  # la politique restant prioritaire ; sport, people et faits divers ordinaires exclus. true : politique seule.
+  politique_seulement: false
+  min_sources_hors_politique: 3   # une info hors politique doit etre reprise par au moins 3 medias
   modele: "claude-haiku-5-5"   # 10 fois moins cher que Haiku 4.5 (avant : "claude-haiku-4-5-20251001")
 
 voix:

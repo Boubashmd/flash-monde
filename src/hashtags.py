@@ -25,7 +25,7 @@ PAYS = {
     "CAN": ["#Canada"], "ARG": ["#Argentine"], "CUB": ["#Cuba"], "HTI": ["#Haiti"], "ARM": ["#Armenie"],
     "AZE": ["#Azerbaidjan"], "GEO": ["#Georgie"], "BLR": ["#Bielorussie"], "SRB": ["#Serbie"],
 }
-GENERAUX = ["#actualite", "#geopolitique", "#FlashMonde"]
+GENERAUX = ["#actualite", "#info", "#FlashMonde"]
 
 
 def sans_accents(texte: str) -> str:

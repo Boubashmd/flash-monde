@@ -32,7 +32,7 @@ TAILLE_MAX = 20 * 1024 * 1024          # limite de Telegram pour les bots
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
 
-CONSIGNES = """Tu es secrétaire de rédaction de Flash Monde, flash d'information vidéo en français (politique, géopolitique, diplomatie, grands faits d'ordre public).
+CONSIGNES = """Tu es secrétaire de rédaction de Flash Monde, flash d'information vidéo en français (les grandes infos du monde : politique, conflits, catastrophes, accidents graves, grands faits divers...).
 On t'envoie une vidéo d'actualité filmée sur place : l'indice donné par le rédacteur, la transcription de ses paroles (langue d'origine, avec des numéros de segments) et une liste d'articles récents de médias.
 
 1. Identifie l'événement montré. Retiens les numéros des articles qui rapportent CE MÊME événement (même lieu, même fait, même jour).
@@ -43,7 +43,7 @@ On t'envoie une vidéo d'actualité filmée sur place : l'indice donné par le r
    - "pays" : codes ISO 3166-1 alpha-3, le principal en premier.
    - "hashtags" : 2 hashtags thématiques français sans accent (jamais de pays ni de personne).
 3. "traduction" : pour chaque segment de paroles utile, sa traduction française courte et fidèle, entre guillemets français. Si les paroles sont déjà en français, recopie-les en corrigeant seulement les fautes évidentes. Ignore les segments vides, les bruits et les répétitions. Ne traduis jamais un juron ni une insulte ni des propos haineux : mets « [propos inaudibles] ».
-   "politique" : true si l'événement relève de la politique, d'un conflit, de la diplomatie, d'une manifestation, ou d'un fait divers marquant d'ordre public ou de sécurité (émeutes, pillages, violences urbaines, attaque, fusillade, attentat, prise d'otages). false pour le sport, la culture, l'économie, un accident ou un fait divers ordinaire.
+   "politique" : false seulement si l'événement relève du sport, de la vie des célébrités, du divertissement ou d'un fait divers ordinaire (cambriolage, accident de la route isolé, drame familial). true pour tout le reste : politique, conflit, manifestation, émeutes, attaque, attentat, catastrophe, accident grave, grand événement mondial.
    Fait divers : jamais le nom d'un suspect, d'une victime ou d'un mineur ; présomption d'innocence (« un suspect », « selon le parquet ») ; aucun détail macabre.
 
 Réponds uniquement avec un objet JSON :
@@ -201,7 +201,7 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
                                "(ajoute quelques mots sur le sujet dans la légende pour m'aider).")
         return
     if r.get("politique") is False:
-        telegram.repondre(mid, "Vidéo écartée : le sujet ne relève ni de la politique ni d'un grand fait d'ordre public.")
+        telegram.repondre(mid, "Vidéo écartée : sport, people ou fait divers ordinaire, hors ligne éditoriale.")
         return
     titre = (r.get("titre") or "").strip().rstrip(".")
     texte = (r.get("texte") or "").strip()
