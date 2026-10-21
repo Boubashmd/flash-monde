@@ -105,17 +105,37 @@ Règle absolue : garde le SUJET (qui agit) et le verbe. Pour gagner de la place,
 Réponds uniquement avec un tableau JSON de chaînes, dans le même ordre."""
 
 
+MODELE_SECOURS = "claude-haiku-4-5-20251001"
+avertissements: list = []  # messages a transmettre sur Telegram (ex. : modele de secours utilise)
+
+
 def _appeler(systeme: str, contenu: str, modele: str) -> str:
+    """Appel a Claude. Si le modele demande est refuse (nom inconnu, acces), on reessaie avec Haiku 4.5."""
     import anthropic
 
-    client = anthropic.Anthropic()  # lit ANTHROPIC_API_KEY
-    rep = client.messages.create(
-        model=modele,
-        max_tokens=4000,
-        system=systeme,
-        messages=[{"role": "user", "content": contenu}],
-    )
-    return rep.content[0].text
+    client = anthropic.Anthropic(max_retries=4)  # lit ANTHROPIC_API_KEY ; nouveaux essais en cas de coupure
+    for m in dict.fromkeys([modele, MODELE_SECOURS]):
+        try:
+            rep = client.messages.create(
+                model=m,
+                max_tokens=16000,  # de la marge : les modeles recents reflechissent avant de repondre
+                system=systeme,
+                messages=[{"role": "user", "content": contenu}],
+            )
+        except (anthropic.NotFoundError, anthropic.BadRequestError, anthropic.PermissionDeniedError) as err:
+            print(f"  ! modèle {m} refusé ({str(err)[:160]})")
+            if m == MODELE_SECOURS:
+                raise
+            msg = f"Le modèle {m} est refusé par l'API Claude : rédaction faite avec {MODELE_SECOURS}."
+            if msg not in avertissements:
+                avertissements.append(msg)
+            continue
+        # seuls les blocs de texte comptent (certains modeles renvoient aussi un bloc de reflexion)
+        texte = "".join(getattr(b, "text", "") for b in rep.content if getattr(b, "type", "") == "text")
+        if texte.strip():
+            return texte
+        raise ValueError(f"réponse vide du modèle {m} (arrêt : {rep.stop_reason})")
+    raise RuntimeError("aucun modèle Claude disponible")
 
 
 def _json(brut: str):

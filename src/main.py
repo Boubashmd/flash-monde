@@ -189,6 +189,9 @@ class Edition:
         self.etape = "rédaction"
         print("3/6 Rédaction")
         sujets, mode = redaction.rediger(sujets[: ed["nb_titres"] + 8], cfg["redaction"])
+        for a in redaction.avertissements:
+            self.info("ℹ️ " + a)
+        redaction.avertissements.clear()
         sujets = sujets[: ed["nb_titres"]]
         for s in sujets:
             s["liens"] = {src: next((a.lien for a in s["articles"] if a.source == src), "") for src in s["sources"]}
