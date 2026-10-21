@@ -510,7 +510,6 @@ def reprendre(cfg: dict, args) -> int:
                 quoi = "Sujets" if rec["type"] == "edition" else "Publication YouTube"
                 telegram.message(f"⌛ {quoi} du {rec['cree'][:10]} : plus de réponse possible après 24 h, abandonné.")
             continue
-        attente.retirer(jeton)
         try:
             if rec["type"] == "edition" and rec["decision"] == "go":
                 sujets = [_charger_sujet(s) for i, s in enumerate(rec.get("sujets", []))
@@ -538,9 +537,17 @@ def reprendre(cfg: dict, args) -> int:
                             a["youtube"], a["yt_attente"] = vid, None
                     ecrire_json(F_ARCHIVES, archives)
                 faits += 1
-        except Exception as err:
-            print(f"  ! reprise {jeton} : {err}")
-            telegram.message(f"⚠️ Reprise impossible : {str(err)[:300]}")
+            attente.retirer(jeton)
+        except Exception as err:  # la decision est gardee : nouvel essai a la prochaine veille (3 fois maximum)
+            essais = rec.get("essais", 0) + 1
+            print(f"  ! reprise {jeton} (essai {essais}) : {err}")
+            if essais >= 3:
+                attente.retirer(jeton)
+                telegram.message(f"⚠️ Reprise abandonnée après 3 essais : {str(err)[:300]}")
+            else:
+                attente.modifier(jeton, essais=essais)
+                telegram.message(f"⚠️ Reprise interrompue ({str(err)[:200]}). Nouvel essai automatique "
+                                 "dans quelques minutes.")
     print(f"Reprise : {faits} décision(s) traitée(s).")
     return 0
 

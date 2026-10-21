@@ -20,18 +20,41 @@ def _url(methode: str) -> str:
     return f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/{methode}"
 
 
+def _post(methode: str, essais: int = 5, **kw):
+    """Envoi a Telegram avec nouveaux essais : depuis GitHub, la connexion est parfois coupee
+    (« Connection reset by peer »). Les refus de Telegram (4xx) ne sont pas reessayes, sauf 429."""
+    for k in range(essais):
+        for f in (kw.get("files") or {}).values():  # un fichier deja lu doit repartir du debut
+            f.seek(0)
+        try:
+            r = requests.post(_url(methode), **kw)
+        except (requests.ConnectionError, requests.Timeout) as err:
+            if k == essais - 1:
+                raise
+            print(f"  ! Telegram injoignable ({type(err).__name__}), nouvel essai…")
+            time.sleep(3 * (k + 1))
+            continue
+        if r.status_code == 429 or r.status_code >= 500:
+            if k == essais - 1:
+                r.raise_for_status()
+            try:
+                attente_s = int(r.json().get("parameters", {}).get("retry_after", 3 * (k + 1)))
+            except ValueError:
+                attente_s = 3 * (k + 1)
+            time.sleep(min(attente_s, 60))
+            continue
+        r.raise_for_status()
+        return r.json()
+
+
 def _api(methode: str, **kw):
-    r = requests.post(_url(methode), timeout=300, **kw)
-    r.raise_for_status()
-    return r.json()
+    return _post(methode, timeout=300, **kw)
 
 
 def _appel(methode: str, donnees: dict, timeout: int = 60, silencieux: bool = False):
     """Appel JSON. En mode silencieux, une erreur est ignoree (ex. : message deja a jour)."""
     try:
-        r = requests.post(_url(methode), json=donnees, timeout=timeout)
-        r.raise_for_status()
-        return r.json()
+        return _post(methode, json=donnees, timeout=timeout)
     except Exception:
         if silencieux:
             return None
@@ -244,9 +267,16 @@ def retirer(message_id: int) -> None:
 def telecharger(file_id: str, sortie: Path) -> Path:
     """Telecharge un fichier envoye au bot (Telegram limite les bots a 20 Mo)."""
     info = _appel("getFile", {"file_id": file_id})["result"]
-    r = requests.get(f"https://api.telegram.org/file/bot{os.environ['TELEGRAM_BOT_TOKEN']}/{info['file_path']}",
-                     timeout=300)
-    r.raise_for_status()
+    for k in range(4):
+        try:
+            r = requests.get(f"https://api.telegram.org/file/bot{os.environ['TELEGRAM_BOT_TOKEN']}/{info['file_path']}",
+                             timeout=300)
+            r.raise_for_status()
+            break
+        except (requests.ConnectionError, requests.Timeout):
+            if k == 3:
+                raise
+            time.sleep(5 * (k + 1))
     sortie.write_bytes(r.content)
     return sortie
 

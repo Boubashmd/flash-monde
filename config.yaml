@@ -224,7 +224,7 @@ redaction:
   # "extractif" : reprend le titre et le debut du resume d'une source. POUR TESTER SEULEMENT,
   #               ne publie pas ces videos : le texte n'est pas reformule.
   fournisseur: "anthropic"
-  modele: "claude-haiku-4-5-20251001"
+  modele: "claude-haiku-5-5"   # 10 fois moins cher que Haiku 4.5 (avant : "claude-haiku-4-5-20251001")
 
 voix:
   # "azure" (Microsoft, gratuit jusqu'a 500 000 caracteres/mois) | "elevenlabs" (payant, naturel)

@@ -16,12 +16,33 @@ OCCUPANTS = ("editions.yml", "video.yml", "semaine.yml")
 DECISIONS = ("go", "stop", "yt", "non")
 
 
-def _json(url: str, donnees=None, entetes=None, methode=None):
-    req = urllib.request.Request(url, data=json.dumps(donnees).encode() if donnees is not None else None,
-                                 headers={"Content-Type": "application/json", **(entetes or {})}, method=methode)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        corps = r.read()
-        return json.loads(corps) if corps else {}
+def _json(url: str, donnees=None, entetes=None, methode=None, essais: int = 3):
+    """Appel HTTP avec nouveaux essais (coupure ou lenteur passagere). Les erreurs 4xx ne sont pas reessayees."""
+    import time
+    for k in range(essais):
+        req = urllib.request.Request(url, data=json.dumps(donnees).encode() if donnees is not None else None,
+                                     headers={"Content-Type": "application/json", **(entetes or {})}, method=methode)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                corps = r.read()
+                return json.loads(corps) if corps else {}
+        except urllib.error.HTTPError as err:
+            if err.code < 500 or k == essais - 1:
+                detail = err.read().decode(errors="replace")[:300]
+                raise RuntimeError(f"{err.code} sur {url.split('?')[0].split('/bot')[0]} : {detail}") from None
+        except (urllib.error.URLError, TimeoutError, OSError) as err:
+            if k == essais - 1:
+                raise RuntimeError(f"réseau ({err}) sur {url.split('?')[0].split('/bot')[0]}") from None
+        time.sleep(3 * (k + 1))
+
+
+def _prevenir(texte: str) -> None:
+    """Message Telegram, sans jamais faire echouer la veille."""
+    try:
+        _json(f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage",
+              {"chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": texte[:900]}, essais=1)
+    except Exception:
+        pass
 
 
 def main() -> int:
@@ -61,8 +82,8 @@ def main() -> int:
         url = f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/getUpdates"
         try:
             maj = _json(url, {"timeout": 0, "allowed_updates": TYPES}).get("result", [])
-        except urllib.error.HTTPError as err:  # 409 : une autre lecture est en cours
-            print(f"Telegram occupé ({err.code}) : on repassera.")
+        except RuntimeError as err:  # 409 : une autre lecture est en cours
+            print(f"Telegram indisponible ({err}) : on repassera.")
             maj = []
         print(f"{len(maj)} mise(s) à jour Telegram en attente, décisions connues : {sorted(jetons)}")
         for u in maj:
@@ -105,4 +126,12 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except Exception as err:  # jamais d'echec silencieux : le message part sur Telegram
+        import traceback
+        traceback.print_exc()
+        print(f"ERREUR VEILLE : {err}")
+        if datetime.now(timezone.utc).minute < 5:  # la veille passe toutes les 5 min : un message par heure maximum
+            _prevenir(f"⚠️ Veille Flash Monde : {err}\nSi ça se répète, envoie-moi ce message.")
+        sys.exit(0)
