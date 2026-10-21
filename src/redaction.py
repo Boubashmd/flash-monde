@@ -118,11 +118,17 @@ def _appeler(systeme: str, contenu: str, modele: str) -> str:
     client = anthropic.Anthropic(max_retries=4)  # lit ANTHROPIC_API_KEY ; nouveaux essais en cas de coupure
     for m in dict.fromkeys([modele, MODELE_SECOURS]):
         try:
+            options = {}
+            if not m.startswith(("claude-3", "claude-haiku-4", "claude-sonnet-4", "claude-opus-4")):
+                # modeles recents (Haiku 5.5...) : la reflexion est active par defaut et peut consommer tout
+                # max_tokens avant d'ecrire la reponse. Pour reformuler des breves, inutile : on la coupe.
+                options["thinking"] = {"type": "disabled"}
             rep = client.messages.create(
                 model=m,
-                max_tokens=16000,  # de la marge : les modeles recents reflechissent avant de repondre
+                max_tokens=16000,
                 system=systeme,
                 messages=[{"role": "user", "content": contenu}],
+                **options,
             )
         except (anthropic.NotFoundError, anthropic.BadRequestError, anthropic.PermissionDeniedError) as err:
             print(f"  ! modèle {m} refusé ({str(err)[:160]})")
