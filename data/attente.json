@@ -1,1 +1,923 @@
-[]
+[
+ {
+  "type": "edition",
+  "jeton": "af77be",
+  "messages": {
+   "0": 464,
+   "1": 465,
+   "2": 466,
+   "3": 467,
+   "4": 468,
+   "5": 469
+  },
+  "id_fin": 470,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "franceinfo",
+      "titre": "Donald Trump s'appuie sur les violences en France pour mobiliser son électorat",
+      "resume": "À deux semaines des élections de mi-mandat, Donald Trump multiplie les références aux violences en France pour dénoncer l'immigration et critiquer Emmanuel Macron. La Maison-Blanche relaie également des images des débordements. Mais aux États-Unis, le pouvoir d'achat reste la principale préoccupation des électeurs.",
+      "lien": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-s-appuie-sur-les-violences-en-france-pour-mobiliser-son-electorat_8247985.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-21T20:44:17+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/RLnwkcxJIEUJYo7_3Pys1VHyqnE/0x34:838x505/432x243/filters:format(jpg)/2026/10/21/6ad9241d27f69268096334.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Mobilisation du 24 octobre: Manuel Bompard, coordinateur national de La France Insoumise, appelle à “des mobilisations massives et non violentes”",
+      "resume": "Manuel Bompard, coordinateur national de La France Insoumise, était l’invité du Face-à-Face de ce jeudi 22 octobre sur BFMTV et RMC.",
+      "lien": "https://www.bfmtv.com/politique/la-france-insoumise/video-mobilisation-du-24-octobre-manuel-bompard-coordinateur-national-de-la-france-insoumise-appelle-a-des-mobilisations-massives-et-non-violentes_VN-202610220258.html",
+      "date": "2026-10-22T06:44:10+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/yXGvZi8SwkLTJ5adXkmsNeiI08I=/0x0:1280x720/800x0/images/Mobilisation-du-24-octobre-Manuel-Bompard-coordinateur-national-de-La-France-Insoumise-appelle-a-des-mobilisations-massives-et-non-violentes-2370015.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Réunion des partis à Matignon: \"J'attends que le gouvernement renonce à sa stratégie du pourrissement\", affirme Manuel Bompard, coordinateur national de LFI",
+      "resume": "Manuel Bompard, coordinateur national de La France Insoumise, était l’invité du Face-à-Face de ce jeudi 22 octobre sur BFMTV et RMC. Il a notamment été interrogé sur la gestion du 17 octobre par le gouvernement et les forces de l’ordre",
+      "lien": "https://www.bfmtv.com/politique/la-france-insoumise/video-reunion-des-partis-a-matignon-j-attends-que-le-gouvernement-renonce-a-sa-strategie-du-pourrissement-affirme-manuel-bompard-coordinateur-national-de-lfi_VN-202610220257.html",
+      "date": "2026-10-22T06:42:03+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/uhJYHMAsjpjHKSxOjFX9Fxn4wws=/0x0:1280x720/800x0/images/Reunion-des-partis-a-Matignon-J-attends-que-le-gouvernement-renonce-a-sa-strategie-du-pourrissement-affirme-Manuel-Bompard-coordinateur-national-de-LFI-2370014.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifetations du 17 octobre: Manuel Bompard réclame des \"excuses\" à Sébastien Lecornu et dénonce ses \"manipulations\"",
+      "resume": "Le coordinateur national de La France insoumise accuse, sur BFMTV-RMC, le Premier ministre de se livrer \"à une forme de manipulations pour faire croire\" que le parti \"serait responsable de violences qu'elle a toujours refusées\".",
+      "lien": "https://www.bfmtv.com/politique/la-france-insoumise/manifetations-du-17-octobre-manuel-bompard-reclame-des-excuses-a-sebastien-lecornu-et-denonce-ses-manipulations_AN-202610220253.html",
+      "date": "2026-10-22T06:41:18+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/slSzvECjM4frRqxE4Dmz74SQA_Q=/0x0:1920x1080/800x0/images/Manuel-Bompard-coordinateur-de-La-France-insoumise-sur-RMC-BFMTV-le-22-octobre-2026-2369992.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manuel Bompard, coordinateur national de LFI, demande \"des excuses\", \"des explications\" et des \"réponses politiques à la colère de la jeunesse\" au Premier ministre Sébastien Lecornu",
+      "resume": "Manuel Bompard, coordinateur national de La France Insoumise, était l’invité du Face-à-Face de ce jeudi 22 octobre sur BFMTV et RMC. Il a notamment été interrogé sur la gestion du 17 octobre par le gouvernement et les forces de l’ordre",
+      "lien": "https://www.bfmtv.com/politique/la-france-insoumise/video-manuel-bompard-coordinateur-national-de-lfi-demande-des-excuses-des-explications-et-des-reponses-politiques-a-la-colere-de-la-jeunesse-au-premier-ministre-sebastien-lecornu_VN-202610220249.html",
+      "date": "2026-10-22T06:38:12+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/KhfwrImY481m1QtWNSgTSjY8rbc=/0x0:1280x720/800x0/images/Manuel-Bompard-coordinateur-national-de-LFI-demande-des-excuses-des-explications-et-des-reponses-politiques-a-la-colere-de-la-jeunesse-au-Premier-ministre-Sebastien-Lecornu-2370008.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "DIRECT. Violences du 17 octobre : LFI ira à la réunion à Matignon pour demander des « excuses » et « des réponses politiques »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/direct-violences-du-17-octobre-lecornu-recoit-les-partis-a-matignon-des-manifestations-interdites-dans-plusieurs-villes-ce-jeudi-22-10-2026-7OTIEXHF3BECRPMC3B6CMXG5AE.php",
+      "date": "2026-10-22T06:53:44.045423+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Veuillez rester vigilants » : l’Inde émet un avis de sécurité pour ses ressortissants en France, après les violences du 17 octobre",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/veuillez-rester-vigilants-linde-emet-un-avis-de-securite-pour-ses-ressortissants-en-france-apres-les-violences-du-17-octobre-21-10-2026-JVT5GJFSCBHE7BBMZ3MXW64PCY.php",
+      "date": "2026-10-22T06:53:44.045909+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« On n’y va pas pour recevoir une leçon ! » : à Matignon, une réunion électrique avec les partis, mais pour quoi faire ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/on-ny-va-pas-pour-recevoir-une-lecon-a-matignon-une-reunion-electrique-avec-les-partis-mais-pour-quoi-faire-21-10-2026-BYHAEJ3NHZC55LLLZTETP3EY74.php",
+      "date": "2026-10-22T06:53:44.046205+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Violences du 17 octobre : LFI veut demander à Sébastien Lecornu des « excuses » et « des réponses politiques »",
+      "resume": "La France insoumise a annoncé son intention de demander des excuses à Sébastien Lecornu lors de la réunion du Premier ministre avec les partis politiques, prévue ce jeudi à Matignon. Les élus insoumis dénoncent la « stratégie de pourrissement » du Premier ministre et veulent savoir pourquoi il a « choisi de faire de la menace et de la violence le cœur de sa stratégie ».",
+      "lien": "https://www.ouest-france.fr/faits-divers/violences/violences-du-17-octobre-lfi-veut-demander-a-sebastien-lecornu-des-excuses-et-des-reponses-politiques-6de4e9c0-cde2-11f1-bf87-17eca79cb13c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-22T06:50:03+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwMTk0NmQ2ZjgzNDNkMzdkYjJmMzJjZmJmMGU4YmMwNjk?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=83c515a312712f2abec8813a3b3c3da84827b294c42ef369aceda5fc83a433b0"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« On ne veut pas vivre des samedis de peur et d’angoisse » : après les violences du 17 octobre, les commerçants de Toulon demandent des garanties",
+      "resume": "Vitres brisées, commerces partiellement pillés, inquiétude pour les prochains rassemblements : après les débordements du samedi 17 octobre, la mairie de Toulon et la préfecture tentent de préparer au mieux les prochaines mobilisations et de répondre aux demandes des commerçants.",
+      "lien": "https://www.nicematin.com/societe/vie-locale/on-ne-veut-pas-vivre-des-samedis-de-peur-et-d-angoisse-apres-les-violences-du-17-octobre-les-commercants-de-toulon-demandent-des-garanties-10744335",
+      "date": "2026-10-22T04:00:09+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/43/35/OG-10744335-1200-800-7521280_ftp-1-ux5nswqosg2y-20261021nim8504.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "DIRECT. Mobilisation sociale et violences : LFI vient à Matignon avec une liste de revendications, inquiétude « maximale » chez les commerçants, suivez le fil de la journée",
+      "resume": "La sécurité de la journée de mobilisation de samedi, l’acte II des revendications, est au centre des préoccupations alors que l’exécutif tente de sortir de la crise. Réunions avec les partis politiques,",
+      "lien": "https://www.sudouest.fr/politique/direct-mobilisation-sociale-et-violences-point-avec-les-partis-a-matignon-inquietude-maximale-chez-les-commercants-impact-sur-les-marches-financiers-suivez-le-fil-de-la-journee-du-jeudi-22-octobre-31182983.php",
+      "date": "2026-10-22T05:04:06+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31182983/1200x-1/20261017160122-lt671.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Mobilisation sociale et violences : « On n’y va pas pour recevoir une leçon », les partis conviés à Matignon, le renseignement convoqué à l’Élysée",
+      "resume": "À deux jours d’une nouvelle mobilisation, le Premier ministre et le président multiplient les réunions, avec les partis politiques, les forces de l’ordre, le renseignement",
+      "lien": "https://www.sudouest.fr/societe/greves-et-manifestations/mobilisation-sociale-et-violences-on-n-y-va-pas-pour-recevoir-une-lecon-les-partis-convies-a-matignon-le-renseignement-convoque-a-l-elysee-31182854.php",
+      "date": "2026-10-22T04:26:51+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31182854/1200x-1/20261019130527-2559412.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Mobilisation sociale et violences : Sébastien Lecornu attendu à Limoges vendredi, après un rendez-vous à Matignon avec les maires de Paris, Marseille et Lyon",
+      "resume": "Le chef du gouvernement se rendra vendredi à Limoges, où l’hôtel de ville a été incendié en marge des manifestations samedi 17 octobre",
+      "lien": "https://www.sudouest.fr/politique/sebastien-lecornu/mobilisation-sociale-et-violences-sebastien-lecornu-attendu-a-limoges-vendredi-apres-un-rendez-vous-a-matignon-avec-les-maires-de-paris-marseille-et-lyon-31180664.php",
+      "date": "2026-10-21T20:19:52+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31180664/1200x-1/20261021141107-26869412.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Violences du 17 octobre : \"Œil pour œil, dent pour dent\", \"peut-être que c’est illégal, mais je n’ai pas le choix\", \"le risque d'un drame\"... Ces commerçants qui font le choix de s'armer",
+      "resume": "Face à la crainte de nouvelles manifestations le 24 octobre, des commerçants s'arment pour protéger leurs établissements. Depuis les pillages du 17 octobre, les ventes d'armes de défense ont explosé, multipliées par...",
+      "lien": "https://www.ladepeche.fr/2026/10/22/violences-du-17-octobre-oeil-pour-oeil-dent-pour-dent-peut-etre-que-cest-illegal-mais-je-nai-pas-le-choix-le-risque-dun-drame-ces-commercants-qui-font-13614696.php",
+      "date": "2026-10-22T06:50:06+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad9b00475bdf3407607b28e/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Violences du 17 octobre : six Français sur dix estiment devoir assurer eux-mêmes leur sécurité après les événements du week-end dernier",
+      "resume": "Revivez l'actualité de ce mercredi 21 octobre après les violences du 17 octobre, alors que les Gilets jaunes appellent à manifester samedi prochain pour un acte II.",
+      "lien": "https://www.ladepeche.fr/2026/10/21/direct-violences-du-17-octobre-sebastien-lecornu-va-recevoir-les-syndicats-et-les-partis-politiques-ce-mercredi-13612898.php",
+      "date": "2026-10-21T20:40:28+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad8be5bb5c3b341b90cd7e3/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Violences du 17 octobre : \"Des gens ont merdé, ils sont totalement hors-sol…\" Le coup de gueule d’un expert sur le fiasco du dispositif sécuritaire",
+      "resume": "Créateur d’une plateforme de gestion des risques, ancien coordinateur de la cellule interministérielle de crise jusqu’en 2019, Ludovic Pinganaud eut notamment à gérer des drames comme les attentats de Charlie Hebdo ou...",
+      "lien": "https://www.midilibre.fr/2026/10/22/violences-du-17-octobre-des-gens-ont-merde-ils-sont-totalement-hors-sol-le-coup-de-gueule-dun-expert-sur-le-fiasco-du-dispositif-securitaire-13613342.php",
+      "date": "2026-10-22T04:04:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ad8cd368c758bd6e7027cb1/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "Ouest-France",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "bompar",
+     "demand",
+     "excuse",
+     "lfi",
+     "matign",
+     "mobili",
+     "octobr",
+     "violen"
+    ],
+    "score": 102.9991126988889,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Trump s'appuie sur les violences en France pour sa campagne",
+    "texte": "Aux États-Unis, Donald Trump évoque les violences survenues en France pour critiquer l'immigration et Emmanuel Macron. À deux semaines des élections de mi-mandat, le pouvoir d'achat reste la principale préoccupation des électeurs.",
+    "texte_long": "Aux États-Unis, Donald Trump évoque les violences survenues en France pour critiquer l'immigration et Emmanuel Macron. À deux semaines des élections de mi-mandat, le pouvoir d'achat reste la principale préoccupation des électeurs.",
+    "flash": "Aux États-Unis, Donald Trump cite les violences survenues en France à deux semaines des élections de mi-mandat.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "USA",
+     "FRA"
+    ],
+    "personne": "Donald Trump",
+    "avec": "Emmanuel Macron",
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Midterms",
+     "#Immigration"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/politique/la-france-insoumise/video-mobilisation-du-24-octobre-manuel-bompard-coordinateur-national-de-la-france-insoumise-appelle-a-des-mobilisations-massives-et-non-violentes_VN-202610220258.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/22/violences-du-17-octobre-oeil-pour-oeil-dent-pour-dent-peut-etre-que-cest-illegal-mais-je-nai-pas-le-choix-le-risque-dun-drame-ces-commercants-qui-font-13614696.php",
+     "Le Parisien": "https://www.leparisien.fr/societe/direct-violences-du-17-octobre-lecornu-recoit-les-partis-a-matignon-des-manifestations-interdites-dans-plusieurs-villes-ce-jeudi-22-10-2026-7OTIEXHF3BECRPMC3B6CMXG5AE.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/22/violences-du-17-octobre-des-gens-ont-merde-ils-sont-totalement-hors-sol-le-coup-de-gueule-dun-expert-sur-le-fiasco-du-dispositif-securitaire-13613342.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/vie-locale/on-ne-veut-pas-vivre-des-samedis-de-peur-et-d-angoisse-apres-les-violences-du-17-octobre-les-commercants-de-toulon-demandent-des-garanties-10744335",
+     "Ouest-France": "https://www.ouest-france.fr/faits-divers/violences/violences-du-17-octobre-lfi-veut-demander-a-sebastien-lecornu-des-excuses-et-des-reponses-politiques-6de4e9c0-cde2-11f1-bf87-17eca79cb13c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "Sud Ouest": "https://www.sudouest.fr/politique/direct-mobilisation-sociale-et-violences-point-avec-les-partis-a-matignon-inquietude-maximale-chez-les-commercants-impact-sur-les-marches-financiers-suivez-le-fil-de-la-journee-du-jeudi-22-octobre-31182983.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-s-appuie-sur-les-violences-en-france-pour-mobiliser-son-electorat_8247985.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "22 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Des intempéries ont fait au moins quatre morts dans le sud-est de la France",
+      "resume": "De violentes intempéries ayant entraîné des inondations ont frappé le sud-est de la France en début de semaine. La préfecture des Bouches-du-Rhône a fait état de trois morts mardi, portant le bilan à quatre morts. Les secours recherchent toujours une personne portée disparue dans le Var.",
+      "lien": "https://www.france24.com/fr/france/20261021-intemperies-au-moins-quatre-morts-sud-est-france-inondations-rechauffement-climatique-bouches-rhone-secours-disparu",
+      "date": "2026-10-21T23:54:28+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/6e0c27e8-cdaa-11f1-ba17-4da0d2c6855d/w:1024/p:16x9/000-D3UB82Y.jpg"
+     },
+     {
+      "source": "franceinfo France",
+      "titre": "Quatre morts et un disparu dans les intempéries dans le Sud",
+      "resume": "Trois personnes sont mortes dans les intempéries qui ont touché, mardi 20 octobre, les Bouches-du-Rhône, selon un nouveau bilan communiqué mercredi soir par la préfecture, portant à quatre morts et un disparu le bilan des violentes intempéries qui ont frappé le sud-est du pays.",
+      "lien": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/intemperies-dans-le-sud-est/quatre-morts-et-un-disparu-dans-les-intemperies-dans-le-sud_8248480.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-22T06:23:55+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/MLohiQ_teA5CT3WZFpf9OoHQcRo/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/10/22/6ad9abcabb0d8139224426.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Intempéries dans le Sud-Est : Le bilan s’alourdit et s’élève à quatre morts et un disparu",
+      "resume": "Deux femmes ont été retrouvées noyées, mercredi, dans les Bouches-du-Rhône et une personne est toujours recherchée dans le Var. Le bilan des intempéries s’élève désormais à quatre morts",
+      "lien": "https://www.20minutes.fr/faits_divers/4256467-20261022-intemperies-sud-bilan-alourdit-eleve-quatre-morts-disparu?at_medium=display&at_campaign=149",
+      "date": "2026-10-21T23:19:50+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/QhF3lxcgTEaHIS6xWY_4BSk/1200x768_un-pompier-marche-dans-une-rue-inondee-de-lunel-pres-de-montpellier-dans-le-sud-de-la-france-le-20-octobre-2026-a-la-suite-de-fortes-pluies-les-fortes-pluies-qui-ont-debute-le-19-octobre-2026-ont-provoque-d-importantes-inondations-dans-plusieurs-cours-d-eau-du-departement-de-l-herault-aux-bouches-du-rhone-dans-le-sud-est-de-la-france-pendant-la-nuit-necessitant-l-evacuation-ou-la-securisation-de-dizaines-de-personnes-photo-de-sylvain-thomas-afp"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Intempéries dans les Bouches-du-Rhône : le bilan s’aggrave avec trois morts",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/bouches-du-rhone-13/intemperies-dans-les-bouches-du-rhone-le-bilan-saggrave-avec-trois-morts-21-10-2026-GSYVEFVTY5A5DCCFV2MOY5MRMY.php",
+      "date": "2026-10-22T06:53:44.045932+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Au moins quatre morts et un disparu : le bilan des pluies torrentielles dans le sud de la France grimpe",
+      "resume": "Deux femmes ont été retrouvées noyées à Lançon-Provence (Bouches-du-Rhône) après les orages diluviens de ce début de semaine. Une personne est toujours recherchée dans le Var.",
+      "lien": "https://actu.fr/faits-divers/plusieurs-morts-et-un-disparu-le-bilan-des-pluies-torrentielles-dans-le-sud-de-la-france-grimpe_64958650.html",
+      "date": "2026-10-22T06:19:53+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/intemperiesmorts-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Épisode méditerranéen : le bilan passe à quatre morts dans les Bouches-du-Rhône et en Corse, un disparu dans le Var",
+      "resume": "Le bilan de l’épisode méditerranéen, qui a impacté le sud-est de la France et la Corse ce mardi 20 octobre 2026, s’est alourdi. Quatre personnes sont décédées et une cinquième est portée disparue, à Roquebrune-sur-Argens dans le Var.",
+      "lien": "https://www.nicematin.com/meteo/episode-mediterraneen-le-bilan-passe-a-quatre-morts-dans-les-bouches-du-rhone-et-en-corse-un-disparu-dans-le-var-10744518",
+      "date": "2026-10-22T05:31:13+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/45/18/OG-10744518-1200-800-4ff2318_ftp-1-aodhqpa4jt0g-20261021pvl9404.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Intempéries dans le Sud-Est : le bilan monte à 4 morts et 1 disparu",
+      "resume": "Trois personnes sont mortes dans les intempéries qui ont touché les Bouches-du-Rhône, selon un nouveau bilan communiqué par la préfecture, portant à quatre morts et un disparu le bilan de ces violentes",
+      "lien": "https://www.sudouest.fr/environnement/meteo/intemperies/intemperies-dans-le-sud-est-le-bilan-monte-a-4-morts-et-1-disparu-31182889.php",
+      "date": "2026-10-22T04:29:11+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31182889/1200x-1/20261020132906-2618812.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Intempéries dans les Bouches-du-Rhône : trois personnes décédées et une blessée, selon le dernier bilan de la préfecture",
+      "resume": "Les Bouches-du-Rhône ont été frappées par de violentes intempéries, causant la mort de trois personnes et blessant une autre, selon la préfecture. D'importants dégâts matériels ont été signalés. Bien que la situation...",
+      "lien": "https://www.ladepeche.fr/2026/10/22/intemperies-dans-les-bouches-du-rhone-trois-personnes-decedees-et-une-blessee-selon-le-dernier-bilan-de-la-prefecture-13614666.php",
+      "date": "2026-10-22T05:24:36+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad9999f986a19ef5b020230/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Disparition de Medhi Narjissi : le voyagiste mandaté par la FFR pour l'organisation du séjour du XV de France U18 en Afrique du Sud va être entendu par la justice",
+      "resume": "Dans l'affaire de la disparition de Medhi Narjissi, la chambre de l'instruction de la cour d'appel d'Agen a ordonné, ce mercredi 21 octobre, l'audition de Frédéric Plachesi, prestataire de la Fédération Française de...",
+      "lien": "https://www.ladepeche.fr/2026/10/21/disparition-de-medhi-narjissi-le-voyagiste-mandate-par-la-ffr-pour-lorganisation-du-sejour-du-xv-de-france-u18-en-afrique-du-sud-va-etre-entendu-par-13613300.php",
+      "date": "2026-10-22T06:11:50+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad8a77e3bc2d495cd020cd0/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Épisode méditerranéen : \"Deux femmes ont été retrouvées noyées\"… Le bilan dans le Sud-Est montre à 4 morts et un disparu",
+      "resume": "Le bilan des violentes intempéries qui ont frappé le sud-est de la France en début de semaine s’est alourdi mercredi soir. Quatre personnes ont perdu la vie, dont trois dans les Bouches-du-Rhône, et une autre est...",
+      "lien": "https://www.midilibre.fr/2026/10/22/episode-mediterraneen-deux-femmes-ont-ete-retrouvees-noyees-le-bilan-dans-le-sud-est-montre-a-4-morts-et-un-disparu-13614667.php",
+      "date": "2026-10-22T05:24:00+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ad99b85adef6e6e090e143e/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "France 24",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo France"
+    ],
+    "sig": [
+     "bilan",
+     "bouche",
+     "dispar",
+     "france",
+     "intemp",
+     "morts",
+     "rhone",
+     "sud"
+    ],
+    "score": 94.99911262305555,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Intempéries dans le Sud-Est : au moins quatre morts en France",
+    "texte": "Dans le sud-est de la France, des intempéries ont fait au moins quatre morts. Une personne est toujours recherchée dans le Var, selon les secours.",
+    "texte_long": "Dans le sud-est de la France, des intempéries ont fait au moins quatre morts. Une personne est toujours recherchée dans le Var, selon les secours.",
+    "flash": "Dans le sud-est de la France, des intempéries ont fait au moins quatre morts, une personne restant recherchée dans le Var.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "4",
+     "legende": "morts au moins"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Intemperies",
+     "#Meteo"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/faits_divers/4256467-20261022-intemperies-sud-bilan-alourdit-eleve-quatre-morts-disparu?at_medium=display&at_campaign=149",
+     "France 24": "https://www.france24.com/fr/france/20261021-intemperies-au-moins-quatre-morts-sud-est-france-inondations-rechauffement-climatique-bouches-rhone-secours-disparu",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/22/intemperies-dans-les-bouches-du-rhone-trois-personnes-decedees-et-une-blessee-selon-le-dernier-bilan-de-la-prefecture-13614666.php",
+     "Le Parisien": "https://www.leparisien.fr/bouches-du-rhone-13/intemperies-dans-les-bouches-du-rhone-le-bilan-saggrave-avec-trois-morts-21-10-2026-GSYVEFVTY5A5DCCFV2MOY5MRMY.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/22/episode-mediterraneen-deux-femmes-ont-ete-retrouvees-noyees-le-bilan-dans-le-sud-est-montre-a-4-morts-et-un-disparu-13614667.php",
+     "Nice-Matin": "https://www.nicematin.com/meteo/episode-mediterraneen-le-bilan-passe-a-quatre-morts-dans-les-bouches-du-rhone-et-en-corse-un-disparu-dans-le-var-10744518",
+     "Sud Ouest": "https://www.sudouest.fr/environnement/meteo/intemperies/intemperies-dans-le-sud-est-le-bilan-monte-a-4-morts-et-1-disparu-31182889.php",
+     "actu.fr": "https://actu.fr/faits-divers/plusieurs-morts-et-un-disparu-le-bilan-des-pluies-torrentielles-dans-le-sud-de-la-france-grimpe_64958650.html",
+     "franceinfo France": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/intemperies-dans-le-sud-est/quatre-morts-et-un-disparu-dans-les-intemperies-dans-le-sud_8248480.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "22 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Zelensky plaide pour un gel de la ligne de front, première étape vers un cessez-le-feu en Ukraine",
+      "resume": "Le président ukrainien insiste sur la nécessité pour Kyiv de participer à toute négociation et réclame des garanties de sécurité de Washington et de ses alliés européens, alors que les restrictions visant les services satellitaires de SpaceX continuent d'alimenter les tensions.",
+      "lien": "https://fr.euronews.com/2026/10/22/zelensky-plaide-pour-un-gel-de-la-ligne-de-front-premiere-etape-vers-un-cessez-le-feu-en-u",
+      "date": "2026-10-22T05:49:49+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "RFI",
+      "titre": "Volodymyr Zelensky se dit prêt à un gel du front pour sortir de la guerre Russie-Ukraine",
+      "resume": "C'est une concession que Volodymyr Zelensky a longtemps refusé : le président ukrainien s'est dit prêt à un accord de cessez-le-feu qui gèlerait la ligne de front. Une annonce faite mercredi 21 octobre sur la chaîne américaine Fox News, pour tenter de pousser Moscou vers un accord et sortir d’une guerre sans fin.",
+      "lien": "https://www.rfi.fr/fr/europe/20261022-volodymyr-zelensky-se-dit-pr%C3%AAt-%C3%A0-un-gel-du-front-pour-sortir-de-la-guerre-russie-ukraine",
+      "date": "2026-10-22T03:08:43+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/512240c2-cd9b-11f1-8a11-8bea73bbe173/w:1024/p:16x9/UKRAINE-GUERRE-VOLODYMYR-ZELENSKY.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : il était accusé de mercenariat à 74 ans, qui est Stephen Hubbard, cet instituteur américain libéré par la Russie ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-il-etait-accuse-de-mercenariat-a-74-ans-qui-est-stephen-hubbard-cet-instituteur-americain-libere-par-la-russie-22-10-2026-OSDM6LIDMBHKZC2HJFDAZ3RJCE.php",
+      "date": "2026-10-22T06:53:44.045198+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : visas étudiants et salaires spoliés, comment la Russie cache 12 000 Nord-coréens dans ses usines de drones ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-visas-etudiants-et-salaires-spolies-comment-la-russie-cache-12-000-nord-coreens-dans-ses-usines-de-drones-21-10-2026-GCL3TFZORRAVRKMGAREWVL6KHY.php",
+      "date": "2026-10-22T06:53:44.046218+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Guerre en Ukraine : attaques réciproques de Kiev et Moscou après les pourparlers russo-américains",
+      "resume": "Quelques heures seulement après des pourparlers russo-américains pour mettre fin au conflit, la Russie a tiré des missiles sur Kiev, tandis que l’Ukraine a lancé des drones vers la région de Moscou",
+      "lien": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-attaques-reciproques-de-kiev-et-moscou-apres-dles-pourparlers-russo-americains-31182958.php",
+      "date": "2026-10-22T04:47:23+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31182958/1200x-1/20261022020703-2723912.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Guerre en Ukraine. La fin du conflit, « nous n’en avons jamais été aussi proches » : la Russie et l’Ukraine se disent prêtes à des négociations à trois sous l’égide des États-Unis",
+      "resume": "Après une rencontre entre l’émissaire américain Steve Witkoff et Vladimir Poutine, Moscou et Kiev affichent leur volonté de participer à des discussions trilatérales pour tenter de mettre fin au conflit",
+      "lien": "https://www.sudouest.fr/international/europe/ukraine/volodymyr-zelensky/guerre-en-ukraine-la-russie-et-l-ukraine-se-disent-pretes-a-des-negociations-a-trois-sous-l-egide-des-etats-unis-31179553.php",
+      "date": "2026-10-21T19:12:01+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31179553/1200x-1/20261020195705-2637212.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Guerre en Ukraine : 630 drones lancés sur la Russie, bombardements sur Kiev... Des attaques réciproques ont eu lieu cette nuit après des pourparlers russo-américains",
+      "resume": "Suivez l'actualité de la guerre en Ukraine, en direct, ce dimanche 18 octobre 2026 sur ladepeche.fr",
+      "lien": "https://www.ladepeche.fr/2026/10/22/direct-guerre-en-ukraine-630-drones-lances-sur-la-russie-bombardements-sur-kiev-des-attaques-reciproques-ont-eu-lieu-cette-nuit-apres-des-pourparlers-13614670.php",
+      "date": "2026-10-22T05:36:30+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad99f033190f4304d080701/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Guerre en Ukraine : le Kremlin prêt à reprendre des négociations trilatérales avec Kiev et Washington à la mi-novembre",
+      "resume": "Revivez l'actualité de la guerre en Ukraine, en direct, ce dimanche 18 octobre 2026 sur ladepeche.fr",
+      "lien": "https://www.ladepeche.fr/2026/10/21/direct-guerre-en-ukraine-lemissaire-de-donald-trump-est-en-russie-pour-une-rencontre-avec-vladimir-poutine-13612924.php",
+      "date": "2026-10-21T20:40:22+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad8b5d9b3d19f72200f963e/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Présidentielle 2027 : un nouveau débat organisé entre les principaux candidats le 16 novembre prochain, mais sans Édouard Philippe",
+      "resume": "Revivez toute l'actualité politique de ce mercredi 21 octobre 2026 en direct sur ladepeche.fr toute la journée.",
+      "lien": "https://www.ladepeche.fr/2026/10/21/direct-presidentielle-2027-marine-le-pen-gagnante-dans-tous-les-scenarios-dapres-ce-sondage-jean-luc-melenchon-qualifie-au-second-tour-13612908.php",
+      "date": "2026-10-21T20:40:15+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad85794fcb1685fcb0697f0/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Guerre en Ukraine : une reprise des négociations entre Moscou, Kiev et Washington \"vers le 10 novembre\" ? Ce que se sont dit Steve Witkoff et Vladimir Poutine",
+      "resume": "Ce mercredi 21 octobre à Saint-Pétersbourg, la Russie et l’Ukraine se sont dites ouvertes à des négociations de paix trilatérales sous médiation des États-Unis vers le 10 novembre. À l’issue d’un entretien de trois...",
+      "lien": "https://www.midilibre.fr/2026/10/21/guerre-en-ukraine-une-reprise-des-negociations-entre-moscou-kiev-et-washington-vers-le-10-novembre-ce-que-se-sont-dit-steve-witkoff-et-vladimir-13614055.php",
+      "date": "2026-10-21T19:19:36+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ad90f601cd00cd3f9010e7e/standard/image.jpg?v=7"
+     },
+     {
+      "source": "DNA",
+      "titre": "Guerre en Ukraine. Moscou et Kiev prêts à négocier à trois avec Washington",
+      "resume": "Après la rencontre entre Steve Witkoff et Vladimir Poutine à Saint-Pétersbourg, le Kremlin évoque une reprise des pourparlers après les élections américaines.",
+      "lien": "https://www.dna.fr/defense-guerre-conflit/2026/10/21/moscou-et-kiev-prets-a-negocier-a-trois-avec-washington",
+      "date": "2026-10-21T19:03:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "DNA",
+     "Euronews",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "RFI",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "americ",
+     "guerre",
+     "kiev",
+     "moscou",
+     "negoci",
+     "novemb",
+     "russie",
+     "ukrain"
+    ],
+    "score": 92.9991127025,
+    "suite": null,
+    "pays": "Ukraine",
+    "requete": "Kyiv Ukraine",
+    "prioritaire": true,
+    "titre": "Zelensky se dit prêt à un gel de la ligne de front",
+    "texte": "En Ukraine, Volodymyr Zelensky se dit prêt à un cessez-le-feu qui gèlerait la ligne de front. Il l'a annoncé mercredi sur la chaîne américaine Fox News, pour tenter de pousser Moscou vers un accord.",
+    "texte_long": "En Ukraine, Volodymyr Zelensky se dit prêt à un cessez-le-feu qui gèlerait la ligne de front. Il l'a annoncé mercredi sur la chaîne américaine Fox News, pour tenter de pousser Moscou vers un accord.",
+    "flash": "En Ukraine, Volodymyr Zelensky se dit prêt à un gel de la ligne de front pour aller vers un cessez-le-feu.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "UKR",
+     "RUS"
+    ],
+    "personne": "Volodymyr Zelensky",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Ukraine",
+     "#Diplomatie"
+    ],
+    "liens": {
+     "DNA": "https://www.dna.fr/defense-guerre-conflit/2026/10/21/moscou-et-kiev-prets-a-negocier-a-trois-avec-washington",
+     "Euronews": "https://fr.euronews.com/2026/10/22/zelensky-plaide-pour-un-gel-de-la-ligne-de-front-premiere-etape-vers-un-cessez-le-feu-en-u",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/22/direct-guerre-en-ukraine-630-drones-lances-sur-la-russie-bombardements-sur-kiev-des-attaques-reciproques-ont-eu-lieu-cette-nuit-apres-des-pourparlers-13614670.php",
+     "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-il-etait-accuse-de-mercenariat-a-74-ans-qui-est-stephen-hubbard-cet-instituteur-americain-libere-par-la-russie-22-10-2026-OSDM6LIDMBHKZC2HJFDAZ3RJCE.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/21/guerre-en-ukraine-une-reprise-des-negociations-entre-moscou-kiev-et-washington-vers-le-10-novembre-ce-que-se-sont-dit-steve-witkoff-et-vladimir-13614055.php",
+     "RFI": "https://www.rfi.fr/fr/europe/20261022-volodymyr-zelensky-se-dit-pr%C3%AAt-%C3%A0-un-gel-du-front-pour-sortir-de-la-guerre-russie-ukraine",
+     "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-attaques-reciproques-de-kiev-et-moscou-apres-dles-pourparlers-russo-americains-31182958.php"
+    },
+    "date_affichee": "22 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Les États-Unis ordonnent le départ de l'ambassade américaine à Riyad d'employés et leurs familles",
+      "resume": "Le département d'État américain a demandé, mercredi, à des employés \"non essentiels\" de son ambassade à Riyad et à leurs familles de quitter l'Arabie saoudite. Cette annonce est intervenue alors que des attaques ont fait au moins un mort à l'aéroport de Damman, dans l'est du royaume.",
+      "lien": "https://www.france24.com/fr/moyen-orient/20261022-les-%C3%A9tats-unis-ordonnent-le-d%C3%A9part-de-l-ambassade-am%C3%A9ricaine-%C3%A0-riyad-d-employ%C3%A9s-et-leurs-familles",
+      "date": "2026-10-22T00:37:58+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/d354537c-cdb0-11f1-b90c-eb48fa034ddc/w:1024/p:16x9/0328d7752153aea478c46acce26547da30511c34.jpg"
+     },
+     {
+      "source": "RFI",
+      "titre": "Midterms aux États-Unis: ces États américains où va se jouer la bataille pour le contrôle du Sénat",
+      "resume": "Le 3 novembre, les midterms pourraient bouleverser l’équilibre des pouvoirs à Washington. Des bastions républicains aux États les plus disputés, tour d'horizon des dix batailles électorales qui seront déterminantes pour savoir qui, des démocrates ou des républicains, contrôlera le Sénat.",
+      "lien": "https://www.rfi.fr/fr/am%C3%A9riques/20261022-jeudi-7h-midterms-aux-%C3%A9tats-unis-ces-%C3%A9tats-am%C3%A9ricains-o%C3%B9-va-se-jouer-la-bataille-pour-le-contr%C3%B4le-du-s%C3%A9nat",
+      "date": "2026-10-22T05:01:02+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/9525024a-cdce-11f1-aff3-4da0d2c6855d/w:1024/p:16x9/AP26252824127179.jpg"
+     },
+     {
+      "source": "RFI",
+      "titre": "Midterms aux États-Unis: mobiliser les jeunes électeurs, un des enjeux des élections",
+      "resume": "Les Américains voteront le 3 novembre pour les élections de mi-mandat, les « midterms ». Les démocrates espèrent obtenir le contrôle du Congrès pour contrer les politiques de Donald Trump. Mais l'un des enjeux pour ces élections est la mobilisation des jeunes électeurs. Le président états-unien avait cherché à gagner des voix dans cet électorat pour gagner la présidentielle, il y a deux ans. Les démocrates cherchent donc à galvaniser les jeunes.",
+      "lien": "https://www.rfi.fr/fr/podcasts/reportage-international/20261022-midterms-aux-%C3%A9tats-unis-mobiliser-les-jeunes-%C3%A9lecteurs-un-des-enjeux-des-%C3%A9lections",
+      "date": "2026-10-22T05:00:03+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/259033b6-cd81-11f1-9a8c-19980254bb31/w:1024/p:16x9/AP26104807254794.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Les Etats-Unis ordonnent le départ d’une partie des employés de leur ambassade à Riyad",
+      "resume": "Les autorités saoudiennes ont annoncé la mort de trois personnes dans une attaque contre l’aéroport international à Dammam, dans l’est du pays. Des explosions ont, par ailleurs, été signalées près du détroit d’Ormuz.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/21/les-etats-unis-ordonnent-le-depart-d-une-partie-des-employes-de-leur-ambassade-a-riyad_6798311_3210.html",
+      "date": "2026-10-21T20:54:31+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/03/03/300/0/3600/1800/644/322/60/0/7bd8d09_ftp-1-zdpsz71q50xg-5351499-01-06.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "«L’IA s’est imposée de manière significative» : aux États-Unis, les publicités électorales enflamment la campagne des midterms",
+      "resume": "DÉCRYPTAGE - Des sommes colossales ont été dépensées par les camps républicains et démocrates, misant parfois sur des attaques personnelles.",
+      "lien": "https://www.lefigaro.fr/international/l-ia-s-est-imposee-de-maniere-significative-aux-etats-unis-les-publicites-electorales-enflamment-la-campagne-des-midterms-20261022",
+      "date": "2026-10-22T06:03:42+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/10/22/2165f5e7a69b3c8bdd505da89bb44c330ddaab8d9cda90c7877d6b50681b487e.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Etats-Unis : La publicité de campagne de Vivek Ramaswamy avec la mère d’une adversaire démocrate fait polémique",
+      "resume": "Aux Etats-Unis, le candidat Vivek Ramaswamy a provoqué une polémique dans l’Ohio avec une publicité où la mère de son adversaire démocrate Amy Acton accuse sa fille de mentir",
+      "lien": "https://www.20minutes.fr/monde/4256482-20261022-etats-unis-publicite-campagne-vivek-ramaswamy-mere-adversaire-democrate-fait-polemique?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T00:46:27+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/ry8B51BKQwekYy6174a26ik/1200x768_le-president-donald-trump-ecoute-le-candidat-au-poste-de-gouverneur-vivek-ramaswamy-prendre-la-parole-lors-d-un-rassemblement-de-campagne-au-covelli-centre-a-youngstown-dans-l-ohio-le-lundi-12-octobre-2026-ap-photo-jacquelyn-martin-ohje389-26286023448653-2610130240"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "États-Unis : « Ceux qui prendront l’épée périront par l’épée »… Musk menace avant les midterms",
+      "resume": "Le patron de Tesla prend très mal des informations de « Politico » selon lesquelles les démocrates voudraient multiplier les enquêtes parlementaires à son égard en cas de victoire lors des midterms",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4256481-20261022-etats-unis-ceux-prendront-epee-periront-epee-musk-menace-avant-midterms?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T00:32:21+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/G7x6X-A6TbO8DP_fj0bQ2Sk/1200x768_elon-musk-ecoute-le-discours-du-president-donald-trump-lors-d-un-evenement-a-l-institut-americain-pour-la-paix-le-jeudi-8-octobre-2026-a-washington-photo-ap-julia-demaree-nikhinson-dcpu577-26281640891990-2610081949"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Etats-Unis : Auditions, destitution, blocages budgétaires… Trump sous la menace d’une défaite aux midterms",
+      "resume": "Que se passera-t-il si Trump perd les midterms du 3 novembre ? Paralysie politique, shutdowns, procédures de destitution et présidentielle 2028… Explications avec Rebecca D. Gill, politologue à l’Université du Nevada",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4255823-20261022-etats-unis-auditions-destitution-blocages-budgetaires-trump-sous-menace-defaite-midterms?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T02:02:36+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/hi6VgZE4Tv2OuI0Hw4seSSk/1200x768_le-president-donald-trump-prend-la-parole-lors-d-un-rassemblement-de-campagne-a-l-aeroport-municipal-de-dalton-le-vendredi-16-octobre-2026-a-dalton-en-georgie-ap-photo-mike-stewart-gaje379-26289757837958-2610162304"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "États-Unis : « Ceux qui prendront l’épée périront par l’épée »… Musk menace avant les midterms",
+      "resume": "Le patron de Tesla prend très mal des informations de « Politico » selon lesquelles les démocrates voudraient multiplier les enquêtes parlementaires à son égard en cas de victoire lors des midterms",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4256481-20261022-etats-unis-ceux-prendront-epee-periront-epee-musk-menace-avant-midterms?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T00:32:21+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/G7x6X-A6TbO8DP_fj0bQ2Sk/1200x768_elon-musk-ecoute-le-discours-du-president-donald-trump-lors-d-un-evenement-a-l-institut-americain-pour-la-paix-le-jeudi-8-octobre-2026-a-washington-photo-ap-julia-demaree-nikhinson-dcpu577-26281640891990-2610081949"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Etats-Unis : La publicité de campagne de Vivek Ramaswamy avec la mère d’une adversaire démocrate fait polémique",
+      "resume": "Aux Etats-Unis, le candidat Vivek Ramaswamy a provoqué une polémique dans l’Ohio avec une publicité où la mère de son adversaire démocrate Amy Acton accuse sa fille de mentir",
+      "lien": "https://www.20minutes.fr/monde/4256482-20261022-etats-unis-publicite-campagne-vivek-ramaswamy-mere-adversaire-democrate-fait-polemique?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T00:46:27+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/ry8B51BKQwekYy6174a26ik/1200x768_le-president-donald-trump-ecoute-le-candidat-au-poste-de-gouverneur-vivek-ramaswamy-prendre-la-parole-lors-d-un-rassemblement-de-campagne-au-covelli-centre-a-youngstown-dans-l-ohio-le-lundi-12-octobre-2026-ap-photo-jacquelyn-martin-ohje389-26286023448653-2610130240"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Arabie saoudite : les États-Unis évacuent le personnel « non essentiel » de l’ambassade après une reprise des attaques Houthis",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/les-etats-unis-evacuent-le-personnel-non-essentiel-de-lambassade-en-arabie-saoudite-alors-que-les-houthis-multiplient-les-frappes-22-10-2026-6QGDTVDQJZDE5HQWJGKZJIOUFQ.php",
+      "date": "2026-10-22T06:53:44.045866+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Ceux qui prendront l’épée périront par l’épée » : Elon Musk menaçant face à la perspective d’enquêtes le visant en cas de majorité démocrate aux midterms",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/ceux-qui-prendront-lepee-periront-par-lepee-elon-musk-menacant-face-a-la-perspective-denquetes-le-visant-en-cas-de-majorite-democrate-aux-midterms-22-10-2026-XGLJRMITTRAN5BFAEPHJ6D6KMQ.php",
+      "date": "2026-10-22T06:53:44.045895+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "France 24",
+     "Le Figaro",
+     "Le Monde",
+     "Le Parisien",
+     "RFI"
+    ],
+    "sig": [
+     "ambass",
+     "campag",
+     "ceux",
+     "democr",
+     "epee",
+     "etats",
+     "midter",
+     "unis"
+    ],
+    "score": 92.99911261277778,
+    "suite": null,
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Les Houthis frappent Riyad, l'aéroport fermé",
+    "texte": "En Arabie saoudite, les États-Unis ordonnent le départ d'une partie du personnel de leur ambassade à Riyad. Cette mesure intervient après des attaques qui ont fait au moins un mort à l'aéroport de Damman.",
+    "texte_long": "En Arabie saoudite, les États-Unis ordonnent le départ d'une partie du personnel de leur ambassade à Riyad. Cette mesure intervient après des attaques qui ont fait au moins un mort à l'aéroport de Damman.",
+    "flash": "En Arabie saoudite, les États-Unis ordonnent le départ d'une partie du personnel de leur ambassade à Riyad.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "3",
+     "legende": "morts selon Riyad"
+    },
+    "iso": [
+     "USA",
+     "SAU"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Securite",
+     "#Diplomatie"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/4256482-20261022-etats-unis-publicite-campagne-vivek-ramaswamy-mere-adversaire-democrate-fait-polemique?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4255823-20261022-etats-unis-auditions-destitution-blocages-budgetaires-trump-sous-menace-defaite-midterms?at_medium=display&at_campaign=149",
+     "France 24": "https://www.france24.com/fr/moyen-orient/20261022-les-%C3%A9tats-unis-ordonnent-le-d%C3%A9part-de-l-ambassade-am%C3%A9ricaine-%C3%A0-riyad-d-employ%C3%A9s-et-leurs-familles",
+     "Le Figaro": "https://www.lefigaro.fr/international/l-ia-s-est-imposee-de-maniere-significative-aux-etats-unis-les-publicites-electorales-enflamment-la-campagne-des-midterms-20261022",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/21/les-etats-unis-ordonnent-le-depart-d-une-partie-des-employes-de-leur-ambassade-a-riyad_6798311_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/etats-unis/les-etats-unis-evacuent-le-personnel-non-essentiel-de-lambassade-en-arabie-saoudite-alors-que-les-houthis-multiplient-les-frappes-22-10-2026-6QGDTVDQJZDE5HQWJGKZJIOUFQ.php",
+     "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261022-jeudi-7h-midterms-aux-%C3%A9tats-unis-ces-%C3%A9tats-am%C3%A9ricains-o%C3%B9-va-se-jouer-la-bataille-pour-le-contr%C3%B4le-du-s%C3%A9nat"
+    },
+    "date_affichee": "22 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Monde France",
+      "titre": "Banque : 43 % des Français sont à découvert au moins une fois par an",
+      "resume": "L’étude du comparateur de tarifs bancaires Panorabanques dévoilée en exclusivité par « Le Monde » fait le point sur le coût du découvert, dont les règles évoluent à partir du 20 novembre.",
+      "lien": "https://www.lemonde.fr/economie/article/2026/10/22/banque-43-des-francais-sont-a-decouvert-au-moins-une-fois-par-an_6798573_3234.html",
+      "date": "2026-10-22T05:00:04+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2023/05/03/94/0/3000/1500/644/322/60/0/fbf8301_1683120136900-lmargent6.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Près d’un Français sur cinq se retrouve à découvert chaque mois, selon une étude",
+      "resume": "Selon une étude réalisée par le comparateur Panorabanques, 18 % des Français se retrouvent à découvert une fois par mois et près d’un Français sur deux tombe dans le rouge au moins une fois par an",
+      "lien": "https://www.20minutes.fr/economie/4256504-20261022-pres-francais-cinq-retrouve-decouvert-chaque-mois-selon-etude?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T06:29:19+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/MxqNTaFxQGmriXAdLqiDwyk/1200x768_les-decouverts-bancaires-seront-plus-encadres-par-les-banques-des-le-20-novembre-prochain-photo-d-illustration"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Près d’un Français sur cinq se retrouve à découvert chaque mois, selon un sondage",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/pres-dun-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-selon-un-sondage-22-10-2026-MDFYKFMTDBF7HHGO7FKJLWSVIY.php",
+      "date": "2026-10-22T06:53:44.045327+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Hausse du coût de la vie : près d’un Français sur cinq se retrouve à découvert chaque mois, selon une étude",
+      "resume": "Près d’un Français sur cinq, 18% exactement, se retrouve à découvert une fois par mois, selon une étude réalisée en juillet et publiée jeudi 22 octobre 2026 par le comparateur Panorabanques, principalement à cause de la hausse du coût de la vie.",
+      "lien": "https://www.nicematin.com/economie/pouvoir-d-achat/hausse-du-cout-de-la-vie-pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-selon-une-etude-10744620",
+      "date": "2026-10-22T06:39:43+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/46/20/OG-10744620-1200-800-4737b41_upload-1-ybvbnvil0jlv-maxnewsspecialtwo763626.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Près de six Français sur dix se disent favorables à un renforcement du pouvoir régional, voici ce que révèle cette étude",
+      "resume": "Plus d’un an après l’étude qu’il avait commandée à l’Ifop à l’occasion de ses trente ans, le parti Régions et Peuples Solidaires s’offrent un nouveau sondage. Ce dernier confirme l’appétence des Français pour un fédéralisme régional.",
+      "lien": "https://www.nicematin.com/societe/politique/pres-de-six-francais-sur-dix-se-disent-favorables-a-un-renforcement-du-pouvoir-regional-c-est-ce-que-revele-une-etude-realisee-par-l-ifop-a-la-demande-du-parti-regions-et-peuples-solidaires-10744375",
+      "date": "2026-10-22T04:32:01+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/43/75/OG-10744375-1200-800-8675a61_upload-1-w059xnymivid-rps2.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027. Décentralisation : les Français veulent donner plus de pouvoir aux régions",
+      "resume": "Selon un vaste sondage Ifop pour Régions et Peuples Solidaires, près de trois Français sur quatre souhaitent que davantage de décisions soient prises dans les régions. Une aspiration également très forte en Occitanie,...",
+      "lien": "https://www.ladepeche.fr/2026/10/21/presidentielle-2027-decentralisation-les-francais-veulent-donner-plus-de-pouvoir-aux-regions-13612929.php",
+      "date": "2026-10-22T04:31:05+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ad85b6f32adc760170e8ba0/standard/image.png?v=1"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Économie. Près d’un Français sur cinq se retrouve à découvert chaque mois, révèle une étude",
+      "resume": "Selon une étude de Panoramabanque, 18 % des Français se retrouvent à découvert une fois par mois, contre 16% l'an dernier.",
+      "lien": "https://www.ledauphine.com/economie/2026/10/22/pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-revele-une-etude",
+      "date": "2026-10-22T05:00:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/AD744433-5171-4387-8286-0568A068DDDC/NW_listB/pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-revele-une-etude-1792644904.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Économie. Près d’un Français sur cinq se retrouve à découvert chaque mois, révèle une étude",
+      "resume": "Selon une étude de Panoramabanque, 18 % des Français se retrouvent à découvert une fois par mois, contre 16% l'an dernier.",
+      "lien": "https://www.estrepublicain.fr/economie/2026/10/22/pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-revele-une-etude",
+      "date": "2026-10-22T05:00:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Monde France",
+     "Le Parisien",
+     "Nice-Matin"
+    ],
+    "sig": [
+     "chaque",
+     "decouv",
+     "econom",
+     "etude",
+     "franca",
+     "pres",
+     "retrou",
+     "revele"
+    ],
+    "score": 82.999112455,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Près d'un Français sur cinq à découvert chaque mois",
+    "texte": "En France, 18 pour cent des habitants se retrouvent à découvert chaque mois, selon une étude du comparateur Panorabanques. Au total, 43 pour cent sont concernés au moins une fois par an.",
+    "texte_long": "En France, 18 pour cent des habitants se retrouvent à découvert chaque mois, selon une étude du comparateur Panorabanques. Au total, 43 pour cent sont concernés au moins une fois par an.",
+    "flash": "En France, 18 pour cent des habitants se retrouvent à découvert chaque mois, selon une étude de Panorabanques.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "18",
+     "legende": "pour cent à découvert"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "18",
+     "legende": "pour cent à découvert"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Banque",
+     "#PouvoirDAchat"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/economie/4256504-20261022-pres-francais-cinq-retrouve-decouvert-chaque-mois-selon-etude?at_medium=display&at_campaign=149",
+     "L'Est Républicain": "https://www.estrepublicain.fr/economie/2026/10/22/pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-revele-une-etude",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/21/presidentielle-2027-decentralisation-les-francais-veulent-donner-plus-de-pouvoir-aux-regions-13612929.php",
+     "Le Dauphiné": "https://www.ledauphine.com/economie/2026/10/22/pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-revele-une-etude",
+     "Le Monde France": "https://www.lemonde.fr/economie/article/2026/10/22/banque-43-des-francais-sont-a-decouvert-au-moins-une-fois-par-an_6798573_3234.html",
+     "Le Parisien": "https://www.leparisien.fr/economie/pres-dun-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-selon-un-sondage-22-10-2026-MDFYKFMTDBF7HHGO7FKJLWSVIY.php",
+     "Nice-Matin": "https://www.nicematin.com/economie/pouvoir-d-achat/hausse-du-cout-de-la-vie-pres-d-un-francais-sur-cinq-se-retrouve-a-decouvert-chaque-mois-selon-une-etude-10744620"
+    },
+    "date_affichee": "22 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "«Nous étions livrés à nous-mêmes» : ces Français qui veulent s’armer après les violences du 17 octobre",
+      "resume": "TÉMOIGNAGES - Les pillages et émeutes qui ont traversé la France le week-end dernier incitent une partie de la population à s’armer, malgré une confiance toujours importante envers les forces de l’ordre pour la protéger.",
+      "lien": "https://www.lefigaro.fr/actualite-france/nous-etions-livres-a-nous-memes-ces-francais-qui-veulent-s-armer-apres-les-violences-du-17-octobre-20261021",
+      "date": "2026-10-22T05:50:51+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/10/21/83145580afc80ce3357921e5bac0d4928d7a33be82cf69b8e8b8207b36afacf9.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Violences du 17 octobre : Le tourisme français est-il menacé par une crise d’image à l’international ?",
+      "resume": "Les violences du week-end dernier et les mises en garde de plusieurs gouvernements étrangers suscitent l’inquiétude du secteur touristique, qui craint des annulations et une dégradation de l’image de la France",
+      "lien": "https://www.20minutes.fr/economie/4255893-20261022-violences-17-octobre-tourisme-francais-menace-crise-image-international?at_medium=display&at_campaign=149",
+      "date": "2026-10-22T03:32:36+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/ytxkgA6hR6OkY3G8TEhTuik/1200x768_paris-dans-les-jours-qui-ont-suivi-le-17-octobre-2026-bastille-et-republique-des-voitures-incendiees-des-messages-de-haine-et-les-cicatrices-laissees-par-une-nuit-de-troubles-une-ville-confrontee-aux-consequences-de-la-violence-capturee-a-travers-l-objectif-brut-de-la-photographie-de-rue-1910-2026-paris-france-benhamou-lbh-8701-credit-laurent-benhamou-sipa-2610201045"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Violences et pillages du 17 octobre : selon un sondage, 91 % des Français les condamnent, 24 % les comprennent",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/violences-et-pillages-du-17-octobre-selon-un-sondage-91-des-francais-les-condamnent-24-les-comprennent-21-10-2026-NXVI4G5P25BMXPTF2B5QXNOLQ4.php",
+      "date": "2026-10-22T06:53:44.045997+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Décryptage. Violences du 17 octobre : protéger soi-même sa boutique contre les pillages, est-ce de la légitime défense ?",
+      "resume": "Alors que des commerçants confessent vouloir s'armer en vue des prochaines mobilisations sociales, certains invoquent le droit à la légitime défense.",
+      "lien": "https://www.ledauphine.com/social/2026/10/22/violences-du-17-octobre-proteger-soi-meme-sa-boutique-contre-les-pillages-est-ce-de-la-legitime-defense",
+      "date": "2026-10-22T06:00:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/8527A760-D82A-409A-BE63-455833D33A96/NW_listB/violences-du-17-octobre-proteger-soi-meme-sa-boutique-contre-les-pillages-est-ce-de-la-legitime-defense-1792598124.jpg"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien"
+    ],
+    "sig": [
+     "armer",
+     "boutiq",
+     "compre",
+     "condam",
+     "franca",
+     "octobr",
+     "pillag",
+     "violen"
+    ],
+    "score": 72.99911264111111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Les violences du 17 octobre inquiètent le tourisme français",
+    "texte": "En France, les violences du week-end dernier et les mises en garde de plusieurs gouvernements étrangers inquiètent le secteur touristique. Il craint des annulations et une dégradation de l'image du pays.",
+    "texte_long": "En France, les violences du week-end dernier et les mises en garde de plusieurs gouvernements étrangers inquiètent le secteur touristique. Il craint des annulations et une dégradation de l'image du pays.",
+    "flash": "En France, les violences du 17 octobre et les mises en garde étrangères inquiètent le secteur touristique.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Manifestations",
+     "#Tourisme"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/economie/4255893-20261022-violences-17-octobre-tourisme-francais-menace-crise-image-international?at_medium=display&at_campaign=149",
+     "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/22/violences-du-17-octobre-proteger-soi-meme-sa-boutique-contre-les-pillages-est-ce-de-la-legitime-defense",
+     "Le Figaro France": "https://www.lefigaro.fr/actualite-france/nous-etions-livres-a-nous-memes-ces-francais-qui-veulent-s-armer-apres-les-violences-du-17-octobre-20261021",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/violences-et-pillages-du-17-octobre-selon-un-sondage-91-des-francais-les-condamnent-24-les-comprennent-21-10-2026-NXVI4G5P25BMXPTF2B5QXNOLQ4.php"
+    },
+    "date_affichee": "22 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-22T06:54:07.030966+00:00",
+  "decision": null
+ }
+]
