@@ -1,258 +1,6 @@
 [
  {
   "sig": [
-   "bompar",
-   "demand",
-   "excuse",
-   "lfi",
-   "matign",
-   "mobili",
-   "octobr",
-   "violen"
-  ],
-  "date": "2026-10-22T07:10:18.957741+00:00",
-  "titre": "Trump s'appuie sur les violences en France pour sa campagne"
- },
- {
-  "sig": [
-   "bilan",
-   "bouche",
-   "dispar",
-   "france",
-   "intemp",
-   "morts",
-   "rhone",
-   "sud"
-  ],
-  "date": "2026-10-22T07:10:18.957753+00:00",
-  "titre": "Intempéries dans le Sud-Est : au moins quatre morts en France"
- },
- {
-  "sig": [
-   "americ",
-   "guerre",
-   "kiev",
-   "moscou",
-   "negoci",
-   "novemb",
-   "russie",
-   "ukrain"
-  ],
-  "date": "2026-10-22T07:10:18.957757+00:00",
-  "titre": "Zelensky se dit prêt à un gel de la ligne de front"
- },
- {
-  "sig": [
-   "ambass",
-   "campag",
-   "ceux",
-   "democr",
-   "epee",
-   "etats",
-   "midter",
-   "unis"
-  ],
-  "date": "2026-10-22T07:10:18.957760+00:00",
-  "titre": "Les Houthis frappent Riyad, l'aéroport fermé"
- },
- {
-  "sig": [
-   "chaque",
-   "decouv",
-   "econom",
-   "etude",
-   "franca",
-   "pres",
-   "retrou",
-   "revele"
-  ],
-  "date": "2026-10-22T07:10:18.957763+00:00",
-  "titre": "Près d'un Français sur cinq à découvert chaque mois"
- },
- {
-  "sig": [
-   "armer",
-   "boutiq",
-   "compre",
-   "condam",
-   "franca",
-   "octobr",
-   "pillag",
-   "violen"
-  ],
-  "date": "2026-10-22T07:10:18.957765+00:00",
-  "titre": "Les violences du 17 octobre inquiètent le tourisme français"
- },
- {
-  "sig": [
-   "emmanu",
-   "interd",
-   "macron",
-   "manife",
-   "mobili",
-   "octobr",
-   "social",
-   "syndic"
-  ],
-  "date": "2026-10-22T13:05:03.722252+00:00",
-  "titre": "Macron dénonce des violences organisées et restreint les manifestations"
- },
- {
-  "sig": [
-   "cour",
-   "decern",
-   "europe",
-   "intern",
-   "parlem",
-   "penale",
-   "prix",
-   "sakhar"
-  ],
-  "date": "2026-10-22T13:05:03.722262+00:00",
-  "titre": "La CPI reçoit le prix Sakharov du Parlement européen"
- },
- {
-  "sig": [
-   "detect",
-   "fois",
-   "france",
-   "humain",
-   "mort",
-   "patien",
-   "shamon",
-   "virus"
-  ],
-  "date": "2026-10-22T13:05:03.722265+00:00",
-  "titre": "Un patient meurt du virus Shamonda, premier cas humain en France"
- },
- {
-  "sig": [
-   "americ",
-   "attaqu",
-   "frappe",
-   "guerre",
-   "moscou",
-   "russie",
-   "russo",
-   "ukrain"
-  ],
-  "date": "2026-10-22T13:05:03.722268+00:00",
-  "titre": "Moscou et Kiev échangent des frappes après des pourparlers"
- },
- {
-  "sig": [
-   "creuse",
-   "deuxie",
-   "incend",
-   "interp",
-   "limoge",
-   "mairie",
-   "second",
-   "suspec"
-  ],
-  "date": "2026-10-22T13:05:03.722270+00:00",
-  "titre": "Incendie de la mairie de Limoges : un deuxième suspect interpellé"
- },
- {
-  "sig": [
-   "appell",
-   "armer",
-   "choix",
-   "commer",
-   "font",
-   "octobr",
-   "police",
-   "violen"
-  ],
-  "date": "2026-10-22T13:05:03.722273+00:00",
-  "titre": "Plus de 450 commerces vandalisés à Paris après les violences"
- },
- {
-  "sig": [
-   "emmanu",
-   "interd",
-   "macron",
-   "manife",
-   "mobili",
-   "octobr",
-   "social",
-   "syndic"
-  ],
-  "date": "2026-10-22T13:10:20.212191+00:00",
-  "titre": "Macron dénonce des violences organisées et restreint les manifestations"
- },
- {
-  "sig": [
-   "cour",
-   "decern",
-   "europe",
-   "intern",
-   "parlem",
-   "penale",
-   "prix",
-   "sakhar"
-  ],
-  "date": "2026-10-22T13:10:20.212204+00:00",
-  "titre": "La CPI reçoit le prix Sakharov du Parlement européen"
- },
- {
-  "sig": [
-   "detect",
-   "fois",
-   "france",
-   "humain",
-   "mort",
-   "patien",
-   "shamon",
-   "virus"
-  ],
-  "date": "2026-10-22T13:10:20.212207+00:00",
-  "titre": "Un patient meurt du virus Shamonda, premier cas humain en France"
- },
- {
-  "sig": [
-   "americ",
-   "attaqu",
-   "frappe",
-   "guerre",
-   "moscou",
-   "russie",
-   "russo",
-   "ukrain"
-  ],
-  "date": "2026-10-22T13:10:20.212209+00:00",
-  "titre": "Moscou et Kiev échangent des frappes après des pourparlers"
- },
- {
-  "sig": [
-   "creuse",
-   "deuxie",
-   "incend",
-   "interp",
-   "limoge",
-   "mairie",
-   "second",
-   "suspec"
-  ],
-  "date": "2026-10-22T13:10:20.212212+00:00",
-  "titre": "Incendie de la mairie de Limoges : un deuxième suspect interpellé"
- },
- {
-  "sig": [
-   "appell",
-   "armer",
-   "choix",
-   "commer",
-   "font",
-   "octobr",
-   "police",
-   "violen"
-  ],
-  "date": "2026-10-22T13:10:20.212216+00:00",
-  "titre": "Plus de 450 commerces vandalisés à Paris après les violences"
- },
- {
-  "sig": [
    "couvre",
    "feu",
    "interd",
@@ -262,7 +10,7 @@
    "octobr",
    "paris"
   ],
-  "date": "2026-10-22T18:42:15.023753+00:00",
+  "date": "2026-10-22T18:50:33.603882+00:00",
   "titre": "Macron limite les manifestations à celles des syndicats"
  },
  {
@@ -276,7 +24,7 @@
    "nancy",
    "pres"
   ],
-  "date": "2026-10-22T18:42:15.023764+00:00",
+  "date": "2026-10-22T18:50:33.603895+00:00",
   "titre": "Le parquet de Metz confirme la mort des deux militaires"
  },
  {
@@ -290,7 +38,7 @@
    "tablea",
    "vendu"
   ],
-  "date": "2026-10-22T18:42:15.023767+00:00",
+  "date": "2026-10-22T18:50:33.603897+00:00",
   "titre": "Un Monet adjugé 50 millions d'euros à Paris"
  },
  {
@@ -304,7 +52,7 @@
    "tibet",
    "victim"
   ],
-  "date": "2026-10-22T18:42:15.023770+00:00",
+  "date": "2026-10-22T18:50:33.603898+00:00",
   "titre": "Un séisme de magnitude 7 frappe le Tibet"
  },
  {
@@ -318,7 +66,7 @@
    "pierre",
    "presid"
   ],
-  "date": "2026-10-22T18:42:15.023772+00:00",
+  "date": "2026-10-22T18:50:33.603900+00:00",
   "titre": "Pierre Moscovici démissionne de la Cour des comptes européenne"
  },
  {
@@ -332,7 +80,7 @@
    "tempet",
    "vigila"
   ],
-  "date": "2026-10-22T18:42:15.023775+00:00",
+  "date": "2026-10-22T18:50:33.603901+00:00",
   "titre": "La tempête Austen place quinze départements en vigilance orange"
  }
 ]
