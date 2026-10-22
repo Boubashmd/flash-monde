@@ -4100,5 +4100,290 @@
   ],
   "youtube": null,
   "yt_attente": "f69e61"
+ },
+ {
+  "date": "2026-10-22T13:15:42.469872+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "Macron dénonce des violences organisées et restreint les manifestations",
+  "texte": "À Paris, Emmanuel Macron dénonce les violences du 17 octobre, qu'il attribue à des groupes organisés d'ultragauche. Seules les manifestations syndicales seront tolérées samedi, selon le président.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "actu.fr"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/politique/video-mouvement-lyceen-et-etudiant-un-rassemblement-a-lyon-malgre-l-interdiction-de-la-manifestation-par-la-prefecture_VN-202610220604.html",
+   "DNA": "https://www.dna.fr/social/2026/10/22/nous-voulons-un-retour-au-calme-de-nombreuses-manifestations-seront-interdites-annonce-macron",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261022-replay-emmanuel-macron-d%C3%A9nonce-les-violences-du-17-octobre-et-annonce-des-mesures",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/isere/grenoble/mobilisation-du-24-octobre-a-grenoble-rassemblements-interdits-dans-le-centre-ville-plusieurs-manifestations-a-quoi-faut-il-s-attendre-3437040.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/22/violences-du-17-octobre-les-partis-et-les-maires-des-grandes-villes-recus-a-matignon-macron-reunit-le-renseignement",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/22/direct-manifestations-du-24-octobre-emmanuel-macron-convoque-le-renseignement-a-lelysee-sebastien-lecornu-recoit-les-partis-politiques-a-matignon-13614677.php",
+   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/22/nouvelles-manifestations-etudiantes-150-jeunes-sont-presents-sur-le-campus-des-echanges-tendus-avec-le-president",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/mobilisation-du-24-octobre-le-parcours-de-la-manifestation-parisienne-valide-entre-bastille-et-nation-interdit-vers-opera-20261022",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/22/emmanuel-macron-defend-sa-tournee-de-trois-jours-dans-le-golfe-persique-en-pleine-tempete-politique-en-france_6798580_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/22/emmanuel-macron-defend-sa-tournee-de-trois-jours-dans-le-golfe-persique-en-pleine-tempete-politique-en-france_6798580_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/paris-75/paris-la-justice-autorise-la-manifestation-de-linterfac-interdite-par-la-prefecture-de-police-prevue-ce-jeudi-22-10-2026-EI72AZBGUJFIRB424K6NZQYA3A.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/22/mobilisation-du-24-octobre-quest-ce-que-les-vehicules-centaures-ces-monstres-qui-seront-deployes-samedi-pour-maintenir-lordre-13614928.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/info-nice-matin-les-manifestations-interdites-samedi-dans-le-centre-de-nice-650-membres-des-forces-de-securite-mobilises-le-raid-deploye-10744660",
+   "RFI": "https://www.rfi.fr/fr/france/20261022-manifestations-en-france-emmanuel-macron-interdit-tout-rassemblement-qui-n-est-pas-organis%C3%A9e-par-des-syndicats",
+   "actu.fr": "https://actu.fr/provence-alpes-cote-d-azur/nice_06088/interdiction-de-la-manifestation-du-24-octobre-a-nice-voici-la-zone-sensible_64960806.html"
+  },
+  "score": 142.99930893194443,
+  "personne": "Emmanuel Macron",
+  "sig": [
+   "emmanu",
+   "interd",
+   "macron",
+   "manife",
+   "mobili",
+   "octobr",
+   "social",
+   "syndic"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-22T13:15:42.469893+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "La CPI reçoit le prix Sakharov du Parlement européen",
+  "texte": "Le Parlement européen a décerné son prix Sakharov 2026 à la Cour pénale internationale. Selon la présidente Roberta Metsola, l'institution est actuellement visée par le président américain Donald Trump.",
+  "iso": [
+   "UE",
+   "USA"
+  ],
+  "pays": "Union européenne",
+  "sources": [
+   "20 Minutes France",
+   "Courrier international",
+   "DNA",
+   "France 24",
+   "RFI",
+   "RTS",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4256634-20261022-prix-sakharov-decerne-cour-penale-internationale?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/justice-trump-attaque-la-cpi-l-europe-lui-decerne-le-prix-sakharov_280421",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/22/le-prix-sakharov-est-decerne-a-la-cour-penale-internationale",
+   "France 24": "https://www.france24.com/fr/europe/20261022-parlement-europ%C3%A9en-d%C3%A9cerne-prix-sakharov-2026-cour-p%C3%A9nale-internationale",
+   "RFI": "https://www.rfi.fr/fr/europe/20261022-le-parlement-europ%C3%A9en-d%C3%A9cerne-le-prix-sakharov-%C3%A0-la-cour-p%C3%A9nale-internationale",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/prix-sakharov-la-cour-penale-internationale-recompensee-29393385.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/international/le-prix-sakharov-decerne-a-la-cour-penale-internationale-sous-le-coup-de-sanctions-americaines-31186207.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/union-europeenne/le-prix-sakharov-2026-du-parlement-europeen-est-attribue-a-la-cour-penale-internationale_8248783.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 112.86047811861111,
+  "personne": "Roberta Metsola",
+  "sig": [
+   "cour",
+   "decern",
+   "europe",
+   "intern",
+   "parlem",
+   "penale",
+   "prix",
+   "sakhar"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-22T13:15:42.469901+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "Un patient meurt du virus Shamonda, premier cas humain en France",
+  "texte": "En France, les autorités ont détecté le virus Shamonda chez un patient immunodéprimé, mort début octobre à Lyon. C'est le premier cas humain documenté de ce virus, transmis par des insectes piqueurs.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "France 24",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/sante/4256523-20261022-lyon-sait-virus-shamonda-virus-animal-detecte-premiere-fois-chez-etre-humain?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/france/20261022-virus-shamonda-d%C3%A9tect%C3%A9-premi%C3%A8re-fois-%C3%AAtre-humain-france",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/virus-shamonda-detecte-pour-la-premiere-fois-chez-un-humain-le-patient-hospitalise-a-lyon-est-decede-3437547.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/22/virus-shamonda-un-patient-zero-en-france-un-homme-infecte-est-mort-a-lyon-dans-ce-qui-est-la-premiere-detection-documentee-et-rapportee-chez-letre-13614935.php",
+   "Le Figaro France": "https://www.lefigaro.fr/sciences/qu-est-ce-que-le-shamonda-europeen-ce-nouveau-virus-des-bovins-qui-se-propage-en-france-20260909",
+   "Le Monde France": "https://www.lemonde.fr/planete/article/2026/10/22/le-virus-shamonda-detecte-pour-la-premiere-fois-chez-un-humain-un-patient-immunodeprime-mort-en-france_6798613_3244.html",
+   "Le Parisien": "https://www.leparisien.fr/societe/sante/premier-cas-humain-de-virus-shamonda-il-y-a-de-nombreuses-zones-dincertitude-22-10-2026-GSLR35JIYBFIRORSTZIJSKWTLA.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/22/un-virus-jamais-detecte-chez-lhomme-un-patient-meurt-a-lyon-apres-avoir-contracte-le-shamonda-une-premiere-mondiale-13614924.php",
+   "Nice-Matin": "https://www.nicematin.com/sante/le-virus-shamonda-detecte-pour-la-premiere-fois-chez-un-humain-un-patient-immunodeprime-mort-en-france-10744644",
+   "Sud Ouest": "https://www.sudouest.fr/sante/un-homme-est-mort-en-france-du-virus-shamonda-detecte-pour-la-premiere-fois-chez-un-humain-aucun-risque-sanitaire-selon-les-autorites-31184972.php"
+  },
+  "score": 104.99930868472222,
+  "personne": null,
+  "sig": [
+   "detect",
+   "fois",
+   "france",
+   "humain",
+   "mort",
+   "patien",
+   "shamon",
+   "virus"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-22T13:15:42.469908+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "Moscou et Kiev échangent des frappes après des pourparlers",
+  "texte": "En Ukraine, des frappes russes font au moins sept morts, après une rencontre entre Steve Witkoff et Vladimir Poutine.",
+  "iso": [
+   "RUS",
+   "UKR",
+   "USA"
+  ],
+  "pays": "Russie",
+  "sources": [
+   "Euronews",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "RFI",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "Euronews": "https://fr.euronews.com/2026/10/22/reprise-des-attaques-nocturnes-entre-la-russie-et-lukraine-apres-la-visite-de-steve-witkof",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261022-attaques-r%C3%A9ciproques-de-la-russie-et-de-l-ukraine-apr%C3%A8s-des-pourparlers-russo-am%C3%A9ricains",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/22/direct-guerre-en-ukraine-630-drones-lances-sur-la-russie-bombardements-sur-kiev-des-attaques-reciproques-ont-eu-lieu-cette-nuit-apres-des-pourparlers-13614670.php",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-poutine-est-pret-a-reprendre-les-negociations-sur-la-fin-du-conflit-avec-kiev-et-washington-des-la-mi-novembre-22-10-2026-GBBZZSEFEZAC5EP2JX4ZIFVLUU.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/22/guerre-en-ukraine-pluie-de-missiles-sur-le-metro-de-kiev-et-630-drones-lances-sur-moscou-les-frappes-se-poursuivent-malgre-les-efforts-de-mediation-13614787.php",
+   "RFI": "https://www.rfi.fr/fr/europe/20261022-guerre-en-ukraine-moscou-reprend-ses-frappes-mortelles-apr%C3%A8s-la-visite-de-l-%C3%A9missaire-am%C3%A9ricain-en-russie",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-tirs-de-missiles-et-de-drones-apres-les-pourparlers-29393166.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-nouvelles-frappes-sur-l-ukraine-sont-la-preuve-que-moscou-n-a-pas-change-d-attitude-denonce-volodymyr-zelensky-au-lendemain-des-discussions-russo-americaines_8248591.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 102.9993088875,
+  "personne": "Vladimir Poutine",
+  "sig": [
+   "americ",
+   "attaqu",
+   "frappe",
+   "guerre",
+   "moscou",
+   "russie",
+   "russo",
+   "ukrain"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-22T13:15:42.469915+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "Incendie de la mairie de Limoges : un deuxième suspect interpellé",
+  "texte": "À Limoges, un deuxième suspect est interpellé dans l'enquête sur l'incendie criminel de la mairie.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "France 24",
+   "France 3 Régions",
+   "Le Parisien",
+   "Nice-Matin",
+   "Sud Ouest",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/societe/4256599-20261022-incendie-mairie-limoges-second-suspect-qualification-etendue-enquete?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261022-incendie-de-la-mairie-de-limoges-le-maire-guillaume-gu%C3%A9rin-r%C3%A9agit-sur-france-24",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/incendie-de-la-mairie-de-limoges-un-deuxieme-suspect-interpelle-en-creuse-la-garde-a-vue-du-premier-requalifiee-pour-tentative-de-meurtre-3437415.html",
+   "Le Parisien": "https://www.leparisien.fr/video/actualites/faits-divers/incendie-de-la-mairie-de-limoges-un-deuxieme-suspect-de-66-ans-interpelle-ce-jeudi-dans-la-creuse-avec-laide-du-raid-22-10-2026-IQITY5LYG5BJXHF6C4NFNKG4MM.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/mairie-incendiee-a-limoges-un-second-suspect-age-de-66-ans-arrete-dans-la-creuse-10744648",
+   "Sud Ouest": "https://www.sudouest.fr/haute-vienne/limoges/incendie-de-la-mairie-de-limoges-un-second-suspect-age-de-66-ans-a-ete-interpelle-ce-jeudi-matin-dans-la-creuse-31185249.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-garde-a-vue-du-suspect-dans-l-incendie-de-la-mairie-de-limoges-a-ete-prolongee-de-48-heures_8248513.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 84.99930863305556,
+  "personne": null,
+  "sig": [
+   "creuse",
+   "deuxie",
+   "incend",
+   "interp",
+   "limoge",
+   "mairie",
+   "second",
+   "suspec"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-22T13:15:42.469921+00:00",
+  "edition": "2026-10-22T15:04:39.481162+02:00",
+  "semaine": false,
+  "titre": "Plus de 450 commerces vandalisés à Paris après les violences",
+  "texte": "À Paris, des commerçants s'équipent après les violences des 17 et 18 octobre, qui ont touché des centaines de commerces.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "actu.fr",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/economie/entreprises/chomage-partiel-pour-10-a-15-000-salaries-report-de-charges-pret-jusqu-a-50-000-euros-l-ursaaf-detaille-les-aides-pour-les-commerces-pilles-le-17-octobre_AD-202610220599.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/22/violence-du-17-octobre-la-police-lance-un-appel-a-temoins-pour-retrouver-lagresseur-du-gerant-de-micromania-a-nice-13615197.php",
+   "Le Parisien": "https://www.leparisien.fr/paris-75/451-commerces-vandalises-la-carte-des-etablissements-parisiens-pilles-et-degrades-les-17-et-18-octobre-22-10-2026-SBWJHPIKZ5DMZFSEWE4IYYCAIY.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/22/mobilisation-du-24-octobre-pas-le-choix-des-commercants-sorganisent-et-prennent-les-armes-pour-se-proteger-des-pillages-le-24-octobre-13614837.php",
+   "actu.fr": "https://actu.fr/provence-alpes-cote-d-azur/toulon_83137/jets-de-pierres-et-violences-contre-la-police-deux-hommes-condamnes-apres-les-violences-du-17-octobre-a-toulon_64961126.html",
+   "franceinfo faits divers": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/reportage-on-est-obliges-on-ne-peut-pas-dependre-de-la-police-des-commercants-parisiens-font-le-choix-de-s-armer-avant-la-journee-du-24-octobre_8248336.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 82.99930869722222,
+  "personne": null,
+  "sig": [
+   "appell",
+   "armer",
+   "choix",
+   "commer",
+   "font",
+   "octobr",
+   "police",
+   "violen"
+  ],
+  "youtube": "7lv-MTi9ve8",
+  "yt_attente": null
  }
 ]
