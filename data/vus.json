@@ -1,342 +1,6 @@
 [
  {
   "sig": [
-   "couvre",
-   "feu",
-   "interd",
-   "macron",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris"
-  ],
-  "date": "2026-10-22T18:50:33.603882+00:00",
-  "titre": "Macron limite les manifestations à celles des syndicats"
- },
- {
-  "sig": [
-   "2000d",
-   "accide",
-   "confir",
-   "crash",
-   "milita",
-   "mirage",
-   "nancy",
-   "pres"
-  ],
-  "date": "2026-10-22T18:50:33.603895+00:00",
-  "titre": "Le parquet de Metz confirme la mort des deux militaires"
- },
- {
-  "sig": [
-   "euros",
-   "france",
-   "millio",
-   "monet",
-   "paris",
-   "record",
-   "tablea",
-   "vendu"
-  ],
-  "date": "2026-10-22T18:50:33.603897+00:00",
-  "titre": "Un Monet adjugé 50 millions d'euros à Paris"
- },
- {
-  "sig": [
-   "chine",
-   "frappe",
-   "magnit",
-   "plusie",
-   "region",
-   "seisme",
-   "tibet",
-   "victim"
-  ],
-  "date": "2026-10-22T18:50:33.603898+00:00",
-  "titre": "Un séisme de magnitude 7 frappe le Tibet"
- },
- {
-  "sig": [
-   "2027",
-   "compte",
-   "cour",
-   "demiss",
-   "europe",
-   "moscov",
-   "pierre",
-   "presid"
-  ],
-  "date": "2026-10-22T18:50:33.603900+00:00",
-  "titre": "Pierre Moscovici démissionne de la Cour des comptes européenne"
- },
- {
-  "sig": [
-   "austen",
-   "concer",
-   "depart",
-   "france",
-   "ile",
-   "orange",
-   "tempet",
-   "vigila"
-  ],
-  "date": "2026-10-22T18:50:33.603901+00:00",
-  "titre": "La tempête Austen place quinze départements en vigilance orange"
- },
- {
-  "sig": [
-   "domini",
-   "emmanu",
-   "interd",
-   "macron",
-   "manife",
-   "octobr",
-   "presid",
-   "villep"
-  ],
-  "date": "2026-10-22T22:47:49.310651+00:00",
-  "titre": "Macron limite les manifestations du 24 octobre, Lyon et Marseille interdites"
- },
- {
-  "sig": [
-   "blesse",
-   "chine",
-   "frappe",
-   "magnit",
-   "morts",
-   "puissa",
-   "seisme",
-   "tibet"
-  ],
-  "date": "2026-10-22T22:47:49.310663+00:00",
-  "titre": "Un séisme de magnitude 7 fait au moins seize morts au Tibet"
- },
- {
-  "sig": [
-   "autops",
-   "decede",
-   "famill",
-   "homme",
-   "manife",
-   "octobr",
-   "paris",
-   "reclam"
-  ],
-  "date": "2026-10-22T22:47:49.310666+00:00",
-  "titre": "La famille d'un homme mort le 17 octobre réclame l'autopsie"
- },
- {
-  "sig": [
-   "accord",
-   "courte",
-   "final",
-   "guerre",
-   "negoci",
-   "poutin",
-   "pret",
-   "ukrain"
-  ],
-  "date": "2026-10-22T22:47:49.310668+00:00",
-  "titre": "Poutine se dit prêt à négocier un accord final avec Kiev"
- },
- {
-  "sig": [
-   "decryp",
-   "detect",
-   "fois",
-   "france",
-   "humain",
-   "immuno",
-   "shamon",
-   "virus"
-  ],
-  "date": "2026-10-22T22:47:49.310670+00:00",
-  "titre": "Le virus Shamonda détecté pour la première fois chez un humain"
- },
- {
-  "sig": [
-   "agress",
-   "appel",
-   "gerant",
-   "lance",
-   "microm",
-   "nice",
-   "police",
-   "temoin"
-  ],
-  "date": "2026-10-22T22:47:49.310672+00:00",
-  "titre": "Nice : la police recherche l'agresseur d'un gérant de magasin"
- },
- {
-  "sig": [
-   "domini",
-   "emmanu",
-   "interd",
-   "macron",
-   "manife",
-   "octobr",
-   "presid",
-   "villep"
-  ],
-  "date": "2026-10-22T22:51:40.208748+00:00",
-  "titre": "Macron limite les manifestations du 24 octobre, Lyon et Marseille interdites"
- },
- {
-  "sig": [
-   "blesse",
-   "chine",
-   "frappe",
-   "magnit",
-   "morts",
-   "puissa",
-   "seisme",
-   "tibet"
-  ],
-  "date": "2026-10-22T22:51:40.208760+00:00",
-  "titre": "Un séisme de magnitude 7 fait au moins seize morts au Tibet"
- },
- {
-  "sig": [
-   "autops",
-   "decede",
-   "famill",
-   "homme",
-   "manife",
-   "octobr",
-   "paris",
-   "reclam"
-  ],
-  "date": "2026-10-22T22:51:40.208762+00:00",
-  "titre": "La famille d'un homme mort le 17 octobre réclame l'autopsie"
- },
- {
-  "sig": [
-   "accord",
-   "courte",
-   "final",
-   "guerre",
-   "negoci",
-   "poutin",
-   "pret",
-   "ukrain"
-  ],
-  "date": "2026-10-22T22:51:40.208764+00:00",
-  "titre": "Poutine se dit prêt à négocier un accord final avec Kiev"
- },
- {
-  "sig": [
-   "decryp",
-   "detect",
-   "fois",
-   "france",
-   "humain",
-   "immuno",
-   "shamon",
-   "virus"
-  ],
-  "date": "2026-10-22T22:51:40.208766+00:00",
-  "titre": "Le virus Shamonda détecté pour la première fois chez un humain"
- },
- {
-  "sig": [
-   "agress",
-   "appel",
-   "gerant",
-   "lance",
-   "microm",
-   "nice",
-   "police",
-   "temoin"
-  ],
-  "date": "2026-10-22T22:51:40.208768+00:00",
-  "titre": "Nice : la police recherche l'agresseur d'un gérant de magasin"
- },
- {
-  "sig": [
-   "aignan",
-   "france",
-   "interd",
-   "macron",
-   "manife",
-   "mobili",
-   "octobr",
-   "social"
-  ],
-  "date": "2026-10-23T07:14:27.633068+00:00",
-  "titre": "Macron limite les manifestations du 24 octobre, recours au Conseil d'État"
- },
- {
-  "sig": [
-   "000",
-   "161",
-   "austen",
-   "electr",
-   "foyers",
-   "france",
-   "prives",
-   "tempet"
-  ],
-  "date": "2026-10-23T07:14:27.633083+00:00",
-  "titre": "La tempête Austen prive 161 000 foyers d'électricité"
- },
- {
-  "sig": [
-   "ancien",
-   "france",
-   "huchon",
-   "ile",
-   "jean",
-   "mort",
-   "paul",
-   "presid"
-  ],
-  "date": "2026-10-23T07:14:27.633086+00:00",
-  "titre": "Jean-Paul Huchon, ex-président PS d'Île-de-France, est mort à 80 ans"
- },
- {
-  "sig": [
-   "affirm",
-   "guerre",
-   "musk",
-   "reseau",
-   "satell",
-   "starli",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-23T07:14:27.633089+00:00",
-  "titre": "Trump affirme qu'Elon Musk a rétabli Starlink pour Kiev"
- },
- {
-  "sig": [
-   "accuse",
-   "arabie",
-   "confli",
-   "donald",
-   "emirat",
-   "gendre",
-   "hausse",
-   "trump"
-  ],
-  "date": "2026-10-23T07:14:27.633092+00:00",
-  "titre": "Le baril de pétrole atteint 113 dollars, Trump accuse l'Iran"
- },
- {
-  "sig": [
-   "decemb",
-   "diego",
-   "fille",
-   "jugeme",
-   "justic",
-   "marado",
-   "mort",
-   "rendu"
-  ],
-  "date": "2026-10-23T07:14:27.633094+00:00",
-  "titre": "Procès Maradona : le jugement sera rendu le 22 décembre"
- },
- {
-  "sig": [
    "antite",
    "attaqu",
    "blesse",
@@ -346,7 +10,7 @@
    "trappe",
    "yvelin"
   ],
-  "date": "2026-10-23T12:51:32.737771+00:00",
+  "date": "2026-10-23T15:18:46.669203+00:00",
   "titre": "Netanyahu ordonne un bouclage total de la Cisjordanie"
  },
  {
@@ -360,7 +24,7 @@
    "octobr",
    "rassem"
   ],
-  "date": "2026-10-23T12:51:32.737781+00:00",
+  "date": "2026-10-23T15:18:46.669216+00:00",
   "titre": "Macron reçoit les lycéens et rencontre les forces de l'ordre"
  },
  {
@@ -374,7 +38,7 @@
    "trappe",
    "yvelin"
   ],
-  "date": "2026-10-23T12:51:32.737784+00:00",
+  "date": "2026-10-23T15:18:46.669219+00:00",
   "titre": "Un homme tire dans la rue à Trappes, un mort"
  },
  {
@@ -388,7 +52,7 @@
    "prives",
    "tempet"
   ],
-  "date": "2026-10-23T12:51:32.737786+00:00",
+  "date": "2026-10-23T15:18:46.669221+00:00",
   "titre": "Austen prive des centaines de milliers de foyers d'électricité"
  },
  {
@@ -402,7 +66,7 @@
    "presid",
    "region"
   ],
-  "date": "2026-10-23T12:51:32.737787+00:00",
+  "date": "2026-10-23T15:18:46.669222+00:00",
   "titre": "Jean-Paul Huchon, ex-président d'Île-de-France, est mort"
  },
  {
@@ -416,7 +80,7 @@
    "trump",
    "ukrain"
   ],
-  "date": "2026-10-23T12:51:32.737788+00:00",
+  "date": "2026-10-23T15:18:46.669224+00:00",
   "titre": "Kiev affirme que les limites sur Starshield persistent"
  }
 ]
