@@ -281,4 +281,4 @@ video:
   son_transitions: true   # souffle discret pendant les deplacements de camera
   fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
   musique: true           # musique de fond discrete : fichier libre depose dans assets/musique/, sinon composee
-  volume_musique: 1.0     # 0.5 = deux fois plus discrete
+  volume_musique: 0.5     # 1.0 = niveau d origine ; 0.5 = deux fois plus discrete (baisse le 25/10/2026 a la demande des abonnes)
