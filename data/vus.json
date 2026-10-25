@@ -1,174 +1,6 @@
 [
  {
   "sig": [
-   "attaqu",
-   "attent",
-   "emmanu",
-   "macron",
-   "racist",
-   "terror",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-23T22:46:23.126505+00:00",
-  "titre": "Macron dénonce à Trappes un attentat terroriste raciste"
- },
- {
-  "sig": [
-   "centre",
-   "interd",
-   "lyceen",
-   "manife",
-   "mobili",
-   "octobr",
-   "parcou",
-   "trappe"
-  ],
-  "date": "2026-10-23T22:46:23.126515+00:00",
-  "titre": "Lycéens reçus à l'Élysée, mobilisation maintenue le 24 octobre"
- },
- {
-  "sig": [
-   "cessez",
-   "feu",
-   "guerre",
-   "melani",
-   "olechk",
-   "russie",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-23T22:46:23.126519+00:00",
-  "titre": "Melania Trump annonce une trêve, Moscou et Kiev confirment"
- },
- {
-  "sig": [
-   "aa3",
-   "agence",
-   "dette",
-   "france",
-   "mainti",
-   "moody",
-   "negati",
-   "note"
-  ],
-  "date": "2026-10-23T22:46:23.126522+00:00",
-  "titre": "Moody's maintient la note de la France à Aa3"
- },
- {
-  "sig": [
-   "armee",
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "neymar",
-   "presid",
-   "soutie"
-  ],
-  "date": "2026-10-23T22:46:23.126524+00:00",
-  "titre": "Brésil : Lula et Flavio Bolsonaro s'affrontent au second tour"
- },
- {
-  "sig": [
-   "11eme",
-   "amelot",
-   "antoin",
-   "arment",
-   "arrond",
-   "commer",
-   "octobr",
-   "paris"
-  ],
-  "date": "2026-10-23T22:46:23.126527+00:00",
-  "titre": "Paris : des commerçants ferment avant le 24 octobre"
- },
- {
-  "sig": [
-   "attaqu",
-   "attent",
-   "emmanu",
-   "macron",
-   "racist",
-   "terror",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-23T22:52:54.983641+00:00",
-  "titre": "Macron dénonce à Trappes un attentat terroriste raciste"
- },
- {
-  "sig": [
-   "centre",
-   "interd",
-   "lyceen",
-   "manife",
-   "mobili",
-   "octobr",
-   "parcou",
-   "trappe"
-  ],
-  "date": "2026-10-23T22:52:54.983655+00:00",
-  "titre": "Lycéens reçus à l'Élysée, mobilisation maintenue le 24 octobre"
- },
- {
-  "sig": [
-   "cessez",
-   "feu",
-   "guerre",
-   "melani",
-   "olechk",
-   "russie",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-23T22:52:54.983658+00:00",
-  "titre": "Melania Trump annonce une trêve, Moscou et Kiev confirment"
- },
- {
-  "sig": [
-   "aa3",
-   "agence",
-   "dette",
-   "france",
-   "mainti",
-   "moody",
-   "negati",
-   "note"
-  ],
-  "date": "2026-10-23T22:52:54.983661+00:00",
-  "titre": "Moody's maintient la note de la France à Aa3"
- },
- {
-  "sig": [
-   "armee",
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "neymar",
-   "presid",
-   "soutie"
-  ],
-  "date": "2026-10-23T22:52:54.983663+00:00",
-  "titre": "Brésil : Lula et Flavio Bolsonaro s'affrontent au second tour"
- },
- {
-  "sig": [
-   "11eme",
-   "amelot",
-   "antoin",
-   "arment",
-   "arrond",
-   "commer",
-   "octobr",
-   "paris"
-  ],
-  "date": "2026-10-23T22:52:54.983666+00:00",
-  "titre": "Paris : des commerçants ferment avant le 24 octobre"
- },
- {
-  "sig": [
    "congre",
    "end",
    "epicen",
@@ -922,5 +754,89 @@
   ],
   "date": "2026-10-25T07:55:52.058119+00:00",
   "titre": "Elon Musk accuse l'Ukraine de détourner Starlink"
+ },
+ {
+  "sig": [
+   "attent",
+   "garde",
+   "psychi",
+   "racist",
+   "suspec",
+   "trappe",
+   "vue",
+   "yvelin"
+  ],
+  "date": "2026-10-25T12:48:29.611047+00:00",
+  "titre": "Trappes : le suspect placé en observation psychiatrique"
+ },
+ {
+  "sig": [
+   "314",
+   "blesse",
+   "forces",
+   "interp",
+   "manife",
+   "mobili",
+   "octobr",
+   "person"
+  ],
+  "date": "2026-10-25T12:48:29.611055+00:00",
+  "titre": "Manifestations du 24 octobre : plus de 1 300 interpellations"
+ },
+ {
+  "sig": [
+   "bolson",
+   "bout",
+   "bresil",
+   "electi",
+   "flavio",
+   "lula",
+   "presid",
+   "urnes"
+  ],
+  "date": "2026-10-25T12:48:29.611058+00:00",
+  "titre": "Brésil : Lula et Flavio Bolsonaro au coude-à-coude"
+ },
+ {
+  "sig": [
+   "000",
+   "austen",
+   "boelo",
+   "electr",
+   "foyers",
+   "midi",
+   "prives",
+   "tempet"
+  ],
+  "date": "2026-10-25T12:48:29.611060+00:00",
+  "titre": "Tempêtes Austen et Boelo : 59 000 foyers privés d'électricité"
+ },
+ {
+  "sig": [
+   "boucla",
+   "boucle",
+   "cisjor",
+   "electi",
+   "impose",
+   "israel",
+   "legisl",
+   "occupe"
+  ],
+  "date": "2026-10-25T12:48:29.611062+00:00",
+  "titre": "Israël impose un bouclage de la Cisjordanie le jour des législatives"
+ },
+ {
+  "sig": [
+   "arabie",
+   "dix",
+   "houthi",
+   "interc",
+   "lances",
+   "missil",
+   "saoudi",
+   "sud"
+  ],
+  "date": "2026-10-25T12:48:29.611064+00:00",
+  "titre": "Riyad intercepte dix missiles lancés par les Houthis"
  }
 ]
