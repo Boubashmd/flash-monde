@@ -1,258 +1,6 @@
 [
  {
   "sig": [
-   "antite",
-   "attaqu",
-   "blesse",
-   "cisjor",
-   "fusill",
-   "mort",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-23T15:18:46.669203+00:00",
-  "titre": "Netanyahu ordonne un bouclage total de la Cisjordanie"
- },
- {
-  "sig": [
-   "emmanu",
-   "interd",
-   "lyceen",
-   "macron",
-   "manife",
-   "mobili",
-   "octobr",
-   "rassem"
-  ],
-  "date": "2026-10-23T15:18:46.669216+00:00",
-  "titre": "Macron reçoit les lycéens et rencontre les forces de l'ordre"
- },
- {
-  "sig": [
-   "antite",
-   "blesse",
-   "fusill",
-   "homme",
-   "mort",
-   "tire",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-23T15:18:46.669219+00:00",
-  "titre": "Un homme tire dans la rue à Trappes, un mort"
- },
- {
-  "sig": [
-   "000",
-   "austen",
-   "depart",
-   "electr",
-   "foyers",
-   "orange",
-   "prives",
-   "tempet"
-  ],
-  "date": "2026-10-23T15:18:46.669221+00:00",
-  "titre": "Austen prive des centaines de milliers de foyers d'électricité"
- },
- {
-  "sig": [
-   "ancien",
-   "france",
-   "huchon",
-   "jean",
-   "mort",
-   "paul",
-   "presid",
-   "region"
-  ],
-  "date": "2026-10-23T15:18:46.669222+00:00",
-  "titre": "Jean-Paul Huchon, ex-président d'Île-de-France, est mort"
- },
- {
-  "sig": [
-   "donald",
-   "elon",
-   "guerre",
-   "malgre",
-   "musk",
-   "starsh",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-10-23T15:18:46.669224+00:00",
-  "titre": "Kiev affirme que les limites sur Starshield persistent"
- },
- {
-  "sig": [
-   "attaqu",
-   "blesse",
-   "emmanu",
-   "fusill",
-   "macron",
-   "trappe",
-   "verrie",
-   "yvelin"
-  ],
-  "date": "2026-10-23T17:58:32.244934+00:00",
-  "titre": "Un homme tire en rafales à Trappes, une personne tuée"
- },
- {
-  "sig": [
-   "attend",
-   "besanc",
-   "etudia",
-   "interd",
-   "lyon",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-10-23T17:58:32.244946+00:00",
-  "titre": "Lyon interdit tout rassemblement pour la manifestation du 24 octobre"
- },
- {
-  "sig": [
-   "000",
-   "arbres",
-   "austen",
-   "blesse",
-   "electr",
-   "foyers",
-   "jusqu",
-   "tempet"
-  ],
-  "date": "2026-10-23T17:58:32.244948+00:00",
-  "titre": "Nancy interdit une place et un rond-point pour le 24 octobre"
- },
- {
-  "sig": [
-   "barric",
-   "commer",
-   "etat",
-   "lecorn",
-   "manife",
-   "mobili",
-   "octobr",
-   "social"
-  ],
-  "date": "2026-10-23T17:58:32.244950+00:00",
-  "titre": "Saint-Étienne interdit les manifestations de plus de cinq personnes"
- },
- {
-  "sig": [
-   "attaqu",
-   "benyam",
-   "boucla",
-   "cisjor",
-   "israel",
-   "netany",
-   "occupe",
-   "operat"
-  ],
-  "date": "2026-10-23T17:58:32.244951+00:00",
-  "titre": "Caen, Rouen et Le Havre limitent les manifestations de samedi"
- },
- {
-  "sig": [
-   "couvre",
-   "feu",
-   "interd",
-   "manife",
-   "octobr",
-   "prefec",
-   "rassem",
-   "recour"
-  ],
-  "date": "2026-10-23T17:58:32.244953+00:00",
-  "titre": "La France et le Royaume-Uni réalisent un exercice nucléaire commun"
- },
- {
-  "sig": [
-   "attaqu",
-   "blesse",
-   "emmanu",
-   "fusill",
-   "macron",
-   "trappe",
-   "verrie",
-   "yvelin"
-  ],
-  "date": "2026-10-23T18:04:24.916905+00:00",
-  "titre": "Un homme tire en rafales à Trappes, une personne tuée"
- },
- {
-  "sig": [
-   "attend",
-   "besanc",
-   "etudia",
-   "interd",
-   "lyon",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-10-23T18:04:24.916916+00:00",
-  "titre": "Lyon interdit tout rassemblement pour la manifestation du 24 octobre"
- },
- {
-  "sig": [
-   "000",
-   "arbres",
-   "austen",
-   "blesse",
-   "electr",
-   "foyers",
-   "jusqu",
-   "tempet"
-  ],
-  "date": "2026-10-23T18:04:24.916918+00:00",
-  "titre": "Nancy interdit une place et un rond-point pour le 24 octobre"
- },
- {
-  "sig": [
-   "barric",
-   "commer",
-   "etat",
-   "lecorn",
-   "manife",
-   "mobili",
-   "octobr",
-   "social"
-  ],
-  "date": "2026-10-23T18:04:24.916920+00:00",
-  "titre": "Saint-Étienne interdit les manifestations de plus de cinq personnes"
- },
- {
-  "sig": [
-   "attaqu",
-   "benyam",
-   "boucla",
-   "cisjor",
-   "israel",
-   "netany",
-   "occupe",
-   "operat"
-  ],
-  "date": "2026-10-23T18:04:24.916922+00:00",
-  "titre": "Caen, Rouen et Le Havre limitent les manifestations de samedi"
- },
- {
-  "sig": [
-   "couvre",
-   "feu",
-   "interd",
-   "manife",
-   "octobr",
-   "prefec",
-   "rassem",
-   "recour"
-  ],
-  "date": "2026-10-23T18:04:24.916924+00:00",
-  "titre": "La France et le Royaume-Uni réalisent un exercice nucléaire commun"
- },
- {
-  "sig": [
    "attaqu",
    "attent",
    "emmanu",
@@ -1006,5 +754,173 @@
   ],
   "date": "2026-10-24T22:00:36.056752+00:00",
   "titre": "En Israël, des milliers de manifestants contre Netanyahou"
+ },
+ {
+  "sig": [
+   "000",
+   "cisjor",
+   "defile",
+   "electi",
+   "israel",
+   "manife",
+   "mobili",
+   "octobr"
+  ],
+  "date": "2026-10-25T07:51:19.649887+00:00",
+  "titre": "Israël boucle la Cisjordanie le jour des législatives"
+ },
+ {
+  "sig": [
+   "142",
+   "dernie",
+   "interp",
+   "manife",
+   "mobili",
+   "octobr",
+   "paris",
+   "person"
+  ],
+  "date": "2026-10-25T07:51:19.649897+00:00",
+  "titre": "Manifestations du 24 octobre : 1 000 interpellations"
+ },
+ {
+  "sig": [
+   "bolson",
+   "bresil",
+   "flavio",
+   "lula",
+   "presid",
+   "second",
+   "sondag",
+   "tour"
+  ],
+  "date": "2026-10-25T07:51:19.649901+00:00",
+  "titre": "Brésil : Flavio Bolsonaro devance Lula à la veille du second tour"
+ },
+ {
+  "sig": [
+   "import",
+   "incide",
+   "journe",
+   "majeur",
+   "manife",
+   "mobili",
+   "octobr",
+   "tensio"
+  ],
+  "date": "2026-10-25T07:51:19.649903+00:00",
+  "titre": "Obama appelle à voter démocrate aux midterms à Cleveland"
+ },
+ {
+  "sig": [
+   "barack",
+   "camp",
+   "donald",
+   "etats",
+   "midter",
+   "obama",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-10-25T07:51:19.649906+00:00",
+  "titre": "Congrès du RN à Orléans : Bardella reconduit à la présidence"
+ },
+ {
+  "sig": [
+   "000",
+   "congre",
+   "direct",
+   "manife",
+   "nation",
+   "orlean",
+   "parti",
+   "rassem"
+  ],
+  "date": "2026-10-25T07:51:19.649908+00:00",
+  "titre": "Elon Musk accuse l'Ukraine de détourner Starlink"
+ },
+ {
+  "sig": [
+   "000",
+   "cisjor",
+   "defile",
+   "electi",
+   "israel",
+   "manife",
+   "mobili",
+   "octobr"
+  ],
+  "date": "2026-10-25T07:55:52.058097+00:00",
+  "titre": "Israël boucle la Cisjordanie le jour des législatives"
+ },
+ {
+  "sig": [
+   "142",
+   "dernie",
+   "interp",
+   "manife",
+   "mobili",
+   "octobr",
+   "paris",
+   "person"
+  ],
+  "date": "2026-10-25T07:55:52.058108+00:00",
+  "titre": "Manifestations du 24 octobre : 1 000 interpellations"
+ },
+ {
+  "sig": [
+   "bolson",
+   "bresil",
+   "flavio",
+   "lula",
+   "presid",
+   "second",
+   "sondag",
+   "tour"
+  ],
+  "date": "2026-10-25T07:55:52.058112+00:00",
+  "titre": "Brésil : Flavio Bolsonaro devance Lula à la veille du second tour"
+ },
+ {
+  "sig": [
+   "import",
+   "incide",
+   "journe",
+   "majeur",
+   "manife",
+   "mobili",
+   "octobr",
+   "tensio"
+  ],
+  "date": "2026-10-25T07:55:52.058114+00:00",
+  "titre": "Obama appelle à voter démocrate aux midterms à Cleveland"
+ },
+ {
+  "sig": [
+   "barack",
+   "camp",
+   "donald",
+   "etats",
+   "midter",
+   "obama",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-10-25T07:55:52.058117+00:00",
+  "titre": "Congrès du RN à Orléans : Bardella reconduit à la présidence"
+ },
+ {
+  "sig": [
+   "000",
+   "congre",
+   "direct",
+   "manife",
+   "nation",
+   "orlean",
+   "parti",
+   "rassem"
+  ],
+  "date": "2026-10-25T07:55:52.058119+00:00",
+  "titre": "Elon Musk accuse l'Ukraine de détourner Starlink"
  }
 ]
