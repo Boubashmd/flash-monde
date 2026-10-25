@@ -1,90 +1,6 @@
 [
  {
   "sig": [
-   "congre",
-   "end",
-   "epicen",
-   "manife",
-   "mobili",
-   "orlean",
-   "tensio",
-   "week"
-  ],
-  "date": "2026-10-24T06:51:27.666059+00:00",
-  "titre": "Le RN réuni à Orléans, Marine Le Pen lance sa campagne"
- },
- {
-  "sig": [
-   "centre",
-   "interd",
-   "manife",
-   "mobili",
-   "octobr",
-   "parcou",
-   "paris",
-   "polici"
-  ],
-  "date": "2026-10-24T06:51:27.666069+00:00",
-  "titre": "Manifestations du 24 octobre : 70 000 policiers mobilisés"
- },
- {
-  "sig": [
-   "000",
-   "austen",
-   "calais",
-   "electr",
-   "foyers",
-   "france",
-   "inonda",
-   "tempet"
-  ],
-  "date": "2026-10-24T06:51:27.666072+00:00",
-  "titre": "La tempête Austen frappe le nord-ouest de la France"
- },
- {
-  "sig": [
-   "end",
-   "etats",
-   "guerre",
-   "iran",
-   "moyen",
-   "orient",
-   "pourra",
-   "week"
-  ],
-  "date": "2026-10-24T06:51:27.666075+00:00",
-  "titre": "Washington n'exclut pas de frapper l'Iran ce week-end"
- },
- {
-  "sig": [
-   "aigle",
-   "allema",
-   "arrete",
-   "bavier",
-   "hitler",
-   "homme",
-   "incend",
-   "nid"
-  ],
-  "date": "2026-10-24T06:51:27.666077+00:00",
-  "titre": "Le Nid d'Aigle d'Hitler incendié en Bavière, un suspect arrêté"
- },
- {
-  "sig": [
-   "attaqu",
-   "attent",
-   "emmanu",
-   "macron",
-   "racist",
-   "terror",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-24T06:51:27.666079+00:00",
-  "titre": "Trappes : une fusillade à caractère raciste fait un mort"
- },
- {
-  "sig": [
    "attaqu",
    "attent",
    "manife",
@@ -1006,5 +922,173 @@
   ],
   "date": "2026-10-25T17:20:24.075566+00:00",
   "titre": "À Nice, 63 interpellations lors de la manifestation du 24 octobre"
+ },
+ {
+  "sig": [
+   "2027",
+   "colere",
+   "lyceen",
+   "marine",
+   "orlean",
+   "pen",
+   "presid",
+   "social"
+  ],
+  "date": "2026-10-25T22:05:42.632998+00:00",
+  "titre": "Marine Le Pen lance sa campagne présidentielle à Orléans"
+ },
+ {
+  "sig": [
+   "attent",
+   "bossio",
+   "hommag",
+   "pengo",
+   "racist",
+   "trappe",
+   "wangi",
+   "yvelin"
+  ],
+  "date": "2026-10-25T22:05:42.633011+00:00",
+  "titre": "Garde à vue du tireur de Trappes levée, raisons psychiatriques"
+ },
+ {
+  "sig": [
+   "americ",
+   "aura",
+   "lieu",
+   "novemb",
+   "reunio",
+   "russes",
+   "ukrain",
+   "zelens"
+  ],
+  "date": "2026-10-25T22:05:42.633015+00:00",
+  "titre": "Zelensky confirme une réunion Moscou-Washington en novembre"
+ },
+ {
+  "sig": [
+   "afflue",
+   "electi",
+   "iran",
+   "israel",
+   "legisl",
+   "netany",
+   "octobr",
+   "pertur"
+  ],
+  "date": "2026-10-25T22:05:42.633017+00:00",
+  "titre": "Élections en Israël : Netanyahou met en garde l'Iran"
+ },
+ {
+  "sig": [
+   "corina",
+   "machad",
+   "maria",
+   "nobel",
+   "opposa",
+   "prix",
+   "retour",
+   "venezu"
+  ],
+  "date": "2026-10-25T22:05:42.633020+00:00",
+  "titre": "Maria Corina Machado de retour au Venezuela après un an d'exil"
+ },
+ {
+  "sig": [
+   "aleksa",
+   "antici",
+   "defait",
+   "legisl",
+   "nation",
+   "reconn",
+   "serbie",
+   "vucic"
+  ],
+  "date": "2026-10-25T22:05:42.633022+00:00",
+  "titre": "Serbie : Aleksandar Vucic reconnaît sa défaite aux législatives"
+ },
+ {
+  "sig": [
+   "2027",
+   "colere",
+   "lyceen",
+   "marine",
+   "orlean",
+   "pen",
+   "presid",
+   "social"
+  ],
+  "date": "2026-10-25T22:10:18.041935+00:00",
+  "titre": "Marine Le Pen lance sa campagne présidentielle à Orléans"
+ },
+ {
+  "sig": [
+   "attent",
+   "bossio",
+   "hommag",
+   "pengo",
+   "racist",
+   "trappe",
+   "wangi",
+   "yvelin"
+  ],
+  "date": "2026-10-25T22:10:18.041948+00:00",
+  "titre": "Garde à vue du tireur de Trappes levée, raisons psychiatriques"
+ },
+ {
+  "sig": [
+   "americ",
+   "aura",
+   "lieu",
+   "novemb",
+   "reunio",
+   "russes",
+   "ukrain",
+   "zelens"
+  ],
+  "date": "2026-10-25T22:10:18.041951+00:00",
+  "titre": "Zelensky confirme une réunion Moscou-Washington en novembre"
+ },
+ {
+  "sig": [
+   "afflue",
+   "electi",
+   "iran",
+   "israel",
+   "legisl",
+   "netany",
+   "octobr",
+   "pertur"
+  ],
+  "date": "2026-10-25T22:10:18.041953+00:00",
+  "titre": "Élections en Israël : Netanyahou met en garde l'Iran"
+ },
+ {
+  "sig": [
+   "corina",
+   "machad",
+   "maria",
+   "nobel",
+   "opposa",
+   "prix",
+   "retour",
+   "venezu"
+  ],
+  "date": "2026-10-25T22:10:18.041955+00:00",
+  "titre": "Maria Corina Machado de retour au Venezuela après un an d'exil"
+ },
+ {
+  "sig": [
+   "aleksa",
+   "antici",
+   "defait",
+   "legisl",
+   "nation",
+   "reconn",
+   "serbie",
+   "vucic"
+  ],
+  "date": "2026-10-25T22:10:18.041958+00:00",
+  "titre": "Serbie : Aleksandar Vucic reconnaît sa défaite aux législatives"
  }
 ]
