@@ -40,6 +40,7 @@ POLICES = Path(__file__).resolve().parent.parent / "assets" / "fonts"
 MARGE_G, MARGE_D = 70, 130      # a droite : boutons de TikTok et YouTube
 BLANC = (255, 255, 255)
 RYTHME = 1.0  # 1 = pose ; 0.7 = vif (transitions et pauses plus courtes, camera plus vivante). Voir config video.rythme
+APPEL = ("Abonne-toi pour l'info", "3 fois par jour")  # carte de fin, sous le logo. Voir config video.appel_abonnement
 LOGO = Path(__file__).resolve().parent.parent / "assets" / "logo" / "C_globe_titre.png"
 
 
@@ -501,6 +502,9 @@ class Montage:
             self.etiquettes.append(_etiquette(p.nom_pays) if p.cible and p.nom_pays else None)
             self.portraits.append(_carte_portrait(p.photo) if p.photo else None)
         self.marque_sp = _texte(self.marque.upper(), police("Bold", 92), ombre=0.8) if self.marque else None
+        self.appel_sp = (_texte(APPEL[0], police("Bold", 58), ombre=0.85),
+                         _texte(APPEL[1], police("Bold", 58), self.accent, ombre=0.85)) \
+            if self.marque and APPEL[0] else None
         logo = _logo(420) if self.marque else None
         if logo:  # carte de fin : le logo officiel de la chaine
             marge = 40
@@ -855,6 +859,12 @@ class Montage:
         if self.logo_sp:  # logo officiel, qui apparait en grandissant legerement
             e = 0.9 + 0.1 * (rebond(rampe(t, t0, t0 + 0.9)) if t < t0 + 0.9 else 1.0)
             coller(img, self.logo_sp, self.L / 2, self.H * 0.48 + (1 - q) * 30, q, e, ancre=(0.5, 0.5))
+            if self.appel_sp:  # appel a s'abonner, sous le logo, juste apres lui
+                qa = sortie(rampe(t, t0 + 0.4, t0 + 1.0))
+                if qa > 0:
+                    y = self.H * 0.48 + self.logo_sp.h / 2 + 40 + (1 - qa) * 25
+                    coller(img, self.appel_sp[0], self.L / 2, y, qa, ancre=(0.5, 0.0))
+                    coller(img, self.appel_sp[1], self.L / 2, y + self.appel_sp[0].h - 40, qa, ancre=(0.5, 0.0))
             return
         coller(img, self.marque_sp, self.L / 2, 300 + (1 - q) * 30, q, ancre=(0.5, 0.0))
         w = 200 * q
@@ -1050,8 +1060,10 @@ def fabriquer(plans: list, sortie_mp4: Path, cfg_video: dict, travail: Path, *, 
     t = time.time()
     globe = Globe(L, H, int(cfg_video.get("texture_max", 21600)), hd=cfg_video.get("image_hd", True))
     print(f"  globe prêt ({'image HD' if globe.tex.hd else 'image standard'}, {time.time() - t:.0f} s)")
-    global RYTHME
+    global RYTHME, APPEL
     RYTHME = float(cfg_video.get("rythme", 1.0))
+    appel = cfg_video.get("appel_abonnement", list(APPEL))
+    APPEL = tuple((list(appel) + ["", ""])[:2]) if appel else ("", "")
     montage = Montage(plans, globe, accent, demo=demo, marque=marque,
                       fin_marque=cfg_video.get("fin_marque", True), fps=fps)
     print(f"  durée : {montage.total:.1f} s")

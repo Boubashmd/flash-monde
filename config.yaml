@@ -220,6 +220,8 @@ redaction:
   # la politique restant prioritaire ; sport, people et faits divers ordinaires exclus. true : politique seule.
   politique_seulement: false
   min_sources_hors_politique: 3   # une info hors politique doit etre reprise par au moins 3 medias
+  bonus_france: 15                # 70 % du public est en France : ces infos passent devant (pays principal FRA)
+  bonus_francophonie: 8           # Belgique, Suisse, Luxembourg, outre-mer (Reunion, Martinique...)
   modele: "claude-haiku-5-5"   # 10 fois moins cher que Haiku 4.5 (avant : "claude-haiku-4-5-20251001")
 
 voix:
@@ -280,5 +282,7 @@ video:
   image_hd: true          # image satellite NASA 21600 px, telechargee une seule fois (cache/terre)
   son_transitions: true   # souffle discret pendant les deplacements de camera
   fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
+  # appel a s'abonner sous le logo de fin (2 lignes, la 2e en jaune). [] pour l'enlever
+  appel_abonnement: ["Abonne-toi pour l'info", "3 fois par jour"]
   musique: true           # musique de fond discrete : fichier libre depose dans assets/musique/, sinon composee
   volume_musique: 0.5     # 1.0 = niveau d origine ; 0.5 = deux fois plus discrete (baisse le 25/10/2026 a la demande des abonnes)

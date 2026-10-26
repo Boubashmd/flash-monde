@@ -29,7 +29,7 @@ F_VUS = RACINE / "data" / "vus.json"
 F_ARCHIVES = RACINE / "data" / "archives.json"
 F_STATS = RACINE / "data" / "stats.json"
 F_DERNIERE = RACINE / "data" / "derniere_edition.json"
-DELAI_DOUBLON_H = 3   # une edition planifiee est sautee si une autre a deja tourne dans ces 3 h
+DELAI_DOUBLON_H = 2   # une edition planifiee est sautee si une autre a deja tourne dans ces 2 h (15h -> 18h : 3 h)
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
@@ -366,7 +366,15 @@ class Edition:
         self.etape = "livraison"
         print("6/6 Livraison")
         tags = hashtags.construire(sujets, pays.nom_iso, int(cfg.get("publication", {}).get("hashtags", 10)))
-        lignes = [f"• {s['titre']}" for s in sujets] + ["", "Sources :"]
+        # 1re ligne = phrase d'accroche (lue par la recherche TikTok), puis les hashtags, puis le detail
+        def phrase(t):
+            t = t.strip().rstrip(".")
+            return t if t.endswith(("…", "!", "?")) else t + "."
+        lignes = [phrase(sujets[0]["titre"])]
+        if len(sujets) > 1:
+            lignes.append("Aussi dans ce flash : " + phrase(" · ".join(s["titre"].strip().rstrip(".") for s in sujets[1:4])))
+        lignes += [" ".join(tags), "", "Au programme :"]
+        lignes += [f"• {s['titre']}" for s in sujets] + ["", "Sources :"]
         for s in sujets:
             for src in s["sources"]:
                 lien = (s.get("liens") or {}).get(src) or ""
@@ -380,8 +388,7 @@ class Edition:
                 c = "Wikimedia Commons" if "Wikimedia" in c else c.removeprefix("Photo : ")
                 if c not in credits_img:
                     credits_img.append(c)
-        lignes += ["", "Images : " + ", ".join(credits_img) + ". Voix et montage générés automatiquement.",
-                   " ".join(tags)]
+        lignes += ["", "Images : " + ", ".join(credits_img) + ". Voix et montage générés automatiquement."]
         legende = "\n".join(lignes)
         (self.dossier / "legende.txt").write_text(legende, encoding="utf-8")
         (self.dossier / "script.json").write_text(json.dumps({

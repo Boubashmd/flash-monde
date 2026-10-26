@@ -114,6 +114,9 @@ Réponds uniquement avec un tableau JSON de chaînes, dans le même ordre."""
 
 
 MODELE_SECOURS = "claude-haiku-4-5-20251001"
+# Belgique, Suisse, Luxembourg, Monaco et outre-mer (Reunion, Martinique, Guadeloupe, Guyane, Mayotte...)
+FRANCOPHONIE = {"BEL", "CHE", "LUX", "MCO", "REU", "MTQ", "GLP", "GUF", "MYT", "NCL", "PYF", "SPM", "BLM", "MAF",
+                "WLF"}
 avertissements: list = []  # messages a transmettre sur Telegram (ex. : modele de secours utilise)
 
 
@@ -358,6 +361,11 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
         s["chiffre"] = valider_chiffre(b.get("chiffre"), s["texte"])
         s["lien"] = valider_lien(b.get("lien"), s["iso"])
         s["hashtags"] = valider_hashtags(b.get("hashtags"))
+        principal = s["iso"][0] if s["iso"] else ""
+        if principal == "FRA":  # 70 % du public est en France
+            s["score"] = s.get("score", 0) + int(cfg.get("bonus_france", 15))
+        elif principal in FRANCOPHONIE:
+            s["score"] = s.get("score", 0) + int(cfg.get("bonus_francophonie", 8))
         gardes.append(s)
     gardes.sort(key=lambda x: -x.get("score", 0))
     return gardes, mode

@@ -3,15 +3,16 @@ name: Flash Monde
 # Declenchement principal : cron-job.org (a l'heure pile, heure de Paris, changement d'heure gere),
 # qui appelle « workflow_dispatch » avec planifie=true.
 # Les horaires ci-dessous (en UTC) sont des SECOURS si cron-job.org ne passe pas : GitHub les lance
-# souvent en retard. Une edition planifiee ne fait rien si une autre a deja tourne dans les 3 h.
+# souvent en retard. Une edition planifiee ne fait rien si une autre a deja tourne dans les 2 h.
+# Editions a 9h, 15h et 18h (heure de Paris) ; secours environ 1 h apres (2 h en ete).
 on:
   schedule:
-    - cron: "45 7 * * *"
-    - cron: "5 8 * * *"
-    - cron: "45 13 * * *"
-    - cron: "5 14 * * *"
-    - cron: "45 19 * * *"
-    - cron: "5 20 * * *"
+    - cron: "45 8 * * *"
+    - cron: "5 9 * * *"
+    - cron: "45 14 * * *"
+    - cron: "5 15 * * *"
+    - cron: "45 17 * * *"
+    - cron: "5 18 * * *"
   workflow_dispatch:
     inputs:
       planifie:
