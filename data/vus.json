@@ -1,342 +1,6 @@
 [
  {
   "sig": [
-   "attaqu",
-   "attent",
-   "manife",
-   "mobili",
-   "octobr",
-   "racist",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-24T12:15:55.793315+00:00",
-  "titre": "Manifestations en France : Paris sous haute surveillance"
- },
- {
-  "sig": [
-   "barric",
-   "commer",
-   "corteg",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "rassem"
-  ],
-  "date": "2026-10-24T12:15:55.793325+00:00",
-  "titre": "Orléans accueille le congrès du RN, des milliers d'anti-RN attendus"
- },
- {
-  "sig": [
-   "arrond",
-   "mainti",
-   "manife",
-   "octobr",
-   "ordre",
-   "parcou",
-   "paris",
-   "violen"
-  ],
-  "date": "2026-10-24T12:15:55.793329+00:00",
-  "titre": "Maintien de l'ordre : la doctrine remise en question"
- },
- {
-  "sig": [
-   "carbur",
-   "decret",
-   "essenc",
-   "gazole",
-   "meille",
-   "octobr",
-   "plein",
-   "prix"
-  ],
-  "date": "2026-10-24T12:15:55.793331+00:00",
-  "titre": "Carburants : un décret libère des stocks de gazole stratégiques"
- },
- {
-  "sig": [
-   "connex",
-   "crucia",
-   "kiev",
-   "stable",
-   "starli",
-   "starsh",
-   "system",
-   "ukrain"
-  ],
-  "date": "2026-10-24T12:15:55.793334+00:00",
-  "titre": "Kiev dit retrouver une connexion stable au réseau Starshield"
- },
- {
-  "sig": [
-   "acte",
-   "attaqu",
-   "attent",
-   "choque",
-   "emmanu",
-   "racist",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-24T12:15:55.793336+00:00",
-  "titre": "Trappes : un suspect de fusillade fait un mort, cinq blessés"
- },
- {
-  "sig": [
-   "attaqu",
-   "attent",
-   "manife",
-   "mobili",
-   "octobr",
-   "racist",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-24T12:22:33.148076+00:00",
-  "titre": "Manifestations en France : Paris sous haute surveillance"
- },
- {
-  "sig": [
-   "barric",
-   "commer",
-   "corteg",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "rassem"
-  ],
-  "date": "2026-10-24T12:22:33.148088+00:00",
-  "titre": "Orléans accueille le congrès du RN, des milliers d'anti-RN attendus"
- },
- {
-  "sig": [
-   "arrond",
-   "mainti",
-   "manife",
-   "octobr",
-   "ordre",
-   "parcou",
-   "paris",
-   "violen"
-  ],
-  "date": "2026-10-24T12:22:33.148091+00:00",
-  "titre": "Maintien de l'ordre : la doctrine remise en question"
- },
- {
-  "sig": [
-   "carbur",
-   "decret",
-   "essenc",
-   "gazole",
-   "meille",
-   "octobr",
-   "plein",
-   "prix"
-  ],
-  "date": "2026-10-24T12:22:33.148094+00:00",
-  "titre": "Carburants : un décret libère des stocks de gazole stratégiques"
- },
- {
-  "sig": [
-   "connex",
-   "crucia",
-   "kiev",
-   "stable",
-   "starli",
-   "starsh",
-   "system",
-   "ukrain"
-  ],
-  "date": "2026-10-24T12:22:33.148096+00:00",
-  "titre": "Kiev dit retrouver une connexion stable au réseau Starshield"
- },
- {
-  "sig": [
-   "acte",
-   "attaqu",
-   "attent",
-   "choque",
-   "emmanu",
-   "racist",
-   "trappe",
-   "yvelin"
-  ],
-  "date": "2026-10-24T12:22:33.148099+00:00",
-  "titre": "Trappes : un suspect de fusillade fait un mort, cinq blessés"
- },
- {
-  "sig": [
-   "000",
-   "800",
-   "france",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "person"
-  ],
-  "date": "2026-10-24T16:59:32.394489+00:00",
-  "titre": "Manifestations contre la vie chère dans toute la France"
- },
- {
-  "sig": [
-   "bardel",
-   "congre",
-   "jordan",
-   "nation",
-   "orlean",
-   "parti",
-   "presid",
-   "rassem"
-  ],
-  "date": "2026-10-24T16:59:32.394497+00:00",
-  "titre": "À Orléans, des milliers de manifestants contre le congrès du RN"
- },
- {
-  "sig": [
-   "armee",
-   "cisjor",
-   "deplac",
-   "hebron",
-   "israel",
-   "mort",
-   "palest",
-   "soldat"
-  ],
-  "date": "2026-10-24T16:59:32.394500+00:00",
-  "titre": "Israël lance une opération majeure en Cisjordanie"
- },
- {
-  "sig": [
-   "attaqu",
-   "attent",
-   "bossio",
-   "pengo",
-   "racist",
-   "terror",
-   "trappe",
-   "wangi"
-  ],
-  "date": "2026-10-24T16:59:32.394502+00:00",
-  "titre": "Trappes : une attaque raciste fait un mort et cinq blessés"
- },
- {
-  "sig": [
-   "aigle",
-   "allema",
-   "arrete",
-   "hitler",
-   "incend",
-   "nid",
-   "ravage",
-   "suspec"
-  ],
-  "date": "2026-10-24T16:59:32.394504+00:00",
-  "titre": "Un incendie ravage le Nid d'Aigle d'Hitler, un suspect arrêté"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "debat",
-   "lula",
-   "presid",
-   "second",
-   "tour",
-   "ultime"
-  ],
-  "date": "2026-10-24T16:59:32.394506+00:00",
-  "titre": "Brésil : Lula et Bolsonaro au coude-à-coude avant le second tour"
- },
- {
-  "sig": [
-   "000",
-   "800",
-   "france",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "person"
-  ],
-  "date": "2026-10-24T17:06:22.119756+00:00",
-  "titre": "Manifestations contre la vie chère dans toute la France"
- },
- {
-  "sig": [
-   "bardel",
-   "congre",
-   "jordan",
-   "nation",
-   "orlean",
-   "parti",
-   "presid",
-   "rassem"
-  ],
-  "date": "2026-10-24T17:06:22.119768+00:00",
-  "titre": "À Orléans, des milliers de manifestants contre le congrès du RN"
- },
- {
-  "sig": [
-   "armee",
-   "cisjor",
-   "deplac",
-   "hebron",
-   "israel",
-   "mort",
-   "palest",
-   "soldat"
-  ],
-  "date": "2026-10-24T17:06:22.119771+00:00",
-  "titre": "Israël lance une opération majeure en Cisjordanie"
- },
- {
-  "sig": [
-   "attaqu",
-   "attent",
-   "bossio",
-   "pengo",
-   "racist",
-   "terror",
-   "trappe",
-   "wangi"
-  ],
-  "date": "2026-10-24T17:06:22.119773+00:00",
-  "titre": "Trappes : une attaque raciste fait un mort et cinq blessés"
- },
- {
-  "sig": [
-   "aigle",
-   "allema",
-   "arrete",
-   "hitler",
-   "incend",
-   "nid",
-   "ravage",
-   "suspec"
-  ],
-  "date": "2026-10-24T17:06:22.119774+00:00",
-  "titre": "Un incendie ravage le Nid d'Aigle d'Hitler, un suspect arrêté"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "debat",
-   "lula",
-   "presid",
-   "second",
-   "tour",
-   "ultime"
-  ],
-  "date": "2026-10-24T17:06:22.119776+00:00",
-  "titre": "Brésil : Lula et Bolsonaro au coude-à-coude avant le second tour"
- },
- {
-  "sig": [
    "000",
    "corteg",
    "interp",
@@ -1090,5 +754,89 @@
   ],
   "date": "2026-10-25T22:10:18.041958+00:00",
   "titre": "Serbie : Aleksandar Vucic reconnaît sa défaite aux législatives"
+ },
+ {
+  "sig": [
+   "bolson",
+   "bresil",
+   "decroc",
+   "flavio",
+   "lula",
+   "mandat",
+   "presid",
+   "quatri"
+  ],
+  "date": "2026-10-26T08:17:48.582730+00:00",
+  "titre": "Lula réélu au Brésil, Bolsonaro demande l'annulation du scrutin"
+ },
+ {
+  "sig": [
+   "435",
+   "attend",
+   "concre",
+   "lyceen",
+   "macron",
+   "marsei",
+   "repons",
+   "social"
+  ],
+  "date": "2026-10-26T08:17:48.582747+00:00",
+  "titre": "Le gouvernement annonce des mesures pour la crise lycéenne"
+ },
+ {
+  "sig": [
+   "2027",
+   "accuse",
+   "campag",
+   "france",
+   "glucks",
+   "harcel",
+   "insoum",
+   "raphae"
+  ],
+  "date": "2026-10-26T08:17:48.582750+00:00",
+  "titre": "Glucksmann accuse LFI d'une campagne de harcèlement"
+ },
+ {
+  "sig": [
+   "articl",
+   "attaqu",
+   "benjam",
+   "electi",
+   "israel",
+   "legisl",
+   "netany",
+   "octobr"
+  ],
+  "date": "2026-10-26T08:17:48.582753+00:00",
+  "titre": "Israël vote mardi, Nétanyahou et Eisenkot au coude-à-coude"
+ },
+ {
+  "sig": [
+   "2027",
+   "congre",
+   "france",
+   "marine",
+   "orlean",
+   "pen",
+   "presid",
+   "renais"
+  ],
+  "date": "2026-10-26T08:17:48.582755+00:00",
+  "titre": "Marine Le Pen lance sa campagne à Orléans"
+ },
+ {
+  "sig": [
+   "aleksa",
+   "defait",
+   "electi",
+   "etudia",
+   "legisl",
+   "nation",
+   "serbie",
+   "vucic"
+  ],
+  "date": "2026-10-26T08:17:48.582758+00:00",
+  "titre": "Vučić reconnaît sa défaite face au mouvement étudiant"
  }
 ]
