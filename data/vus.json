@@ -1,426 +1,6 @@
 [
  {
   "sig": [
-   "benjam",
-   "bureau",
-   "crucia",
-   "electi",
-   "israel",
-   "legisl",
-   "netany",
-   "vote"
-  ],
-  "date": "2026-10-27T08:04:24.830759+00:00",
-  "titre": "Israël : duel serré entre Netanyahou et Eisenkot aux législatives"
- },
- {
-  "sig": [
-   "dollar",
-   "donald",
-   "electo",
-   "etats",
-   "fraude",
-   "millio",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-10-27T08:04:24.830793+00:00",
-  "titre": "Trump offre un million de dollars contre les fraudes électorales"
- },
- {
-  "sig": [
-   "colere",
-   "doit",
-   "gouver",
-   "lyceen",
-   "mobili",
-   "parcou",
-   "social",
-   "superi"
-  ],
-  "date": "2026-10-27T08:04:24.830795+00:00",
-  "titre": "Lycéens : le gouvernement annonce des mesures, mobilisation continue"
- },
- {
-  "sig": [
-   "attent",
-   "condam",
-   "homme",
-   "maire",
-   "martin",
-   "messag",
-   "racist",
-   "trappe"
-  ],
-  "date": "2026-10-27T08:04:24.830796+00:00",
-  "titre": "Trappes : des milliers de personnes rassemblées contre le racisme"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "defait",
-   "flavio",
-   "lula",
-   "parti",
-   "reconn",
-   "victoi"
-  ],
-  "date": "2026-10-27T08:04:24.830798+00:00",
-  "titre": "Au Brésil, la Bourse de Sao Paulo chute après la victoire de Lula"
- },
- {
-  "sig": [
-   "arrive",
-   "autono",
-   "corse",
-   "loi",
-   "projet",
-   "reform",
-   "rejett",
-   "senat"
-  ],
-  "date": "2026-10-27T08:04:24.830799+00:00",
-  "titre": "Le Sénat rejette la réforme sur l'autonomie de la Corse"
- },
- {
-  "sig": [
-   "assemb",
-   "attent",
-   "colere",
-   "minute",
-   "nation",
-   "racist",
-   "silenc",
-   "trappe"
-  ],
-  "date": "2026-10-27T14:57:33.528086+00:00",
-  "titre": "Trappes : une minute de silence observée à l'Assemblée"
- },
- {
-  "sig": [
-   "chine",
-   "chinoi",
-   "kylian",
-   "mao",
-   "mbappe",
-   "polemi",
-   "propos",
-   "zedong"
-  ],
-  "date": "2026-10-27T14:57:33.528098+00:00",
-  "titre": "Mbappé présente ses excuses après des propos sur Mao"
- },
- {
-  "sig": [
-   "bureau",
-   "electi",
-   "israel",
-   "legisl",
-   "netany",
-   "partic",
-   "scruti",
-   "vote"
-  ],
-  "date": "2026-10-27T14:57:33.528102+00:00",
-  "titre": "Israël : Netanyahou et Eisenkot au coude à coude"
- },
- {
-  "sig": [
-   "dirige",
-   "finlan",
-   "guerre",
-   "norveg",
-   "otan",
-   "poutin",
-   "ukrain",
-   "vladim"
-  ],
-  "date": "2026-10-27T14:57:33.528105+00:00",
-  "titre": "Poutine s'entretient avec les dirigeants norvégien et finlandais"
- },
- {
-  "sig": [
-   "accuse",
-   "blesse",
-   "enquet",
-   "gravem",
-   "grenad",
-   "igpn",
-   "manife",
-   "octobr"
-  ],
-  "date": "2026-10-27T14:57:33.528107+00:00",
-  "titre": "Manifestations du 24 octobre : des blessés, l'IGPN saisie"
- },
- {
-  "sig": [
-   "accuse",
-   "condam",
-   "franca",
-   "irak",
-   "perpet",
-   "prison",
-   "proces",
-   "sept"
-  ],
-  "date": "2026-10-27T14:57:33.528110+00:00",
-  "titre": "Irak : six Français condamnés à la perpétuité pour l'EI"
- },
- {
-  "sig": [
-   "assemb",
-   "attent",
-   "colere",
-   "minute",
-   "nation",
-   "racist",
-   "silenc",
-   "trappe"
-  ],
-  "date": "2026-10-27T15:02:11.201648+00:00",
-  "titre": "Trappes : une minute de silence observée à l'Assemblée"
- },
- {
-  "sig": [
-   "chine",
-   "chinoi",
-   "kylian",
-   "mao",
-   "mbappe",
-   "polemi",
-   "propos",
-   "zedong"
-  ],
-  "date": "2026-10-27T15:02:11.201659+00:00",
-  "titre": "Mbappé présente ses excuses après des propos sur Mao"
- },
- {
-  "sig": [
-   "bureau",
-   "electi",
-   "israel",
-   "legisl",
-   "netany",
-   "partic",
-   "scruti",
-   "vote"
-  ],
-  "date": "2026-10-27T15:02:11.201663+00:00",
-  "titre": "Israël : Netanyahou et Eisenkot au coude à coude"
- },
- {
-  "sig": [
-   "dirige",
-   "finlan",
-   "guerre",
-   "norveg",
-   "otan",
-   "poutin",
-   "ukrain",
-   "vladim"
-  ],
-  "date": "2026-10-27T15:02:11.201665+00:00",
-  "titre": "Poutine s'entretient avec les dirigeants norvégien et finlandais"
- },
- {
-  "sig": [
-   "accuse",
-   "blesse",
-   "enquet",
-   "gravem",
-   "grenad",
-   "igpn",
-   "manife",
-   "octobr"
-  ],
-  "date": "2026-10-27T15:02:11.201668+00:00",
-  "titre": "Manifestations du 24 octobre : des blessés, l'IGPN saisie"
- },
- {
-  "sig": [
-   "accuse",
-   "condam",
-   "franca",
-   "irak",
-   "perpet",
-   "prison",
-   "proces",
-   "sept"
-  ],
-  "date": "2026-10-27T15:02:11.201670+00:00",
-  "titre": "Irak : six Français condamnés à la perpétuité pour l'EI"
- },
- {
-  "sig": [
-   "bhv",
-   "demand",
-   "judici",
-   "magasi",
-   "marais",
-   "paris",
-   "placem",
-   "redres"
-  ],
-  "date": "2026-10-27T19:41:04.136885+00:00",
-  "titre": "Le BHV Marais demande son placement en redressement judiciaire"
- },
- {
-  "sig": [
-   "albert",
-   "cellul",
-   "condam",
-   "garde",
-   "monaco",
-   "prison",
-   "suspec",
-   "vue"
-  ],
-  "date": "2026-10-27T19:41:04.136895+00:00",
-  "titre": "Attentat raciste à Trappes : le suspect reste en garde à vue"
- },
- {
-  "sig": [
-   "500",
-   "bilan",
-   "centai",
-   "commer",
-   "nice",
-   "octobr",
-   "touche",
-   "violen"
-  ],
-  "date": "2026-10-27T19:41:04.136899+00:00",
-  "titre": "Nice : dix hommes poursuivis après les violences du 24 octobre"
- },
- {
-  "sig": [
-   "annule",
-   "bolson",
-   "bresil",
-   "etats",
-   "flavio",
-   "passep",
-   "presid",
-   "unis"
-  ],
-  "date": "2026-10-27T19:41:04.136902+00:00",
-  "titre": "Flavio Bolsonaro quitte le Brésil pour les États-Unis"
- },
- {
-  "sig": [
-   "1993",
-   "2026",
-   "donald",
-   "electi",
-   "midter",
-   "presid",
-   "trump",
-   "truque"
-  ],
-  "date": "2026-10-27T19:41:04.136904+00:00",
-  "titre": "Donald Trump juge la présidentielle brésilienne « truquée »"
- },
- {
-  "sig": [
-   "alexan",
-   "appell",
-   "arnaul",
-   "auditi",
-   "confer",
-   "interd",
-   "lyon",
-   "raphae"
-  ],
-  "date": "2026-10-27T19:41:04.136906+00:00",
-  "titre": "Quentin Deranque : la famille demande l'audition d'Arnault"
- },
- {
-  "sig": [
-   "bhv",
-   "demand",
-   "judici",
-   "magasi",
-   "marais",
-   "paris",
-   "placem",
-   "redres"
-  ],
-  "date": "2026-10-27T19:47:35.819405+00:00",
-  "titre": "Le BHV Marais demande son placement en redressement judiciaire"
- },
- {
-  "sig": [
-   "albert",
-   "cellul",
-   "condam",
-   "garde",
-   "monaco",
-   "prison",
-   "suspec",
-   "vue"
-  ],
-  "date": "2026-10-27T19:47:35.819416+00:00",
-  "titre": "Attentat raciste à Trappes : le suspect reste en garde à vue"
- },
- {
-  "sig": [
-   "500",
-   "bilan",
-   "centai",
-   "commer",
-   "nice",
-   "octobr",
-   "touche",
-   "violen"
-  ],
-  "date": "2026-10-27T19:47:35.819420+00:00",
-  "titre": "Nice : dix hommes poursuivis après les violences du 24 octobre"
- },
- {
-  "sig": [
-   "annule",
-   "bolson",
-   "bresil",
-   "etats",
-   "flavio",
-   "passep",
-   "presid",
-   "unis"
-  ],
-  "date": "2026-10-27T19:47:35.819422+00:00",
-  "titre": "Flavio Bolsonaro quitte le Brésil pour les États-Unis"
- },
- {
-  "sig": [
-   "1993",
-   "2026",
-   "donald",
-   "electi",
-   "midter",
-   "presid",
-   "trump",
-   "truque"
-  ],
-  "date": "2026-10-27T19:47:35.819425+00:00",
-  "titre": "Donald Trump juge la présidentielle brésilienne « truquée »"
- },
- {
-  "sig": [
-   "alexan",
-   "appell",
-   "arnaul",
-   "auditi",
-   "confer",
-   "interd",
-   "lyon",
-   "raphae"
-  ],
-  "date": "2026-10-27T19:47:35.819427+00:00",
-  "titre": "Quentin Deranque : la famille demande l'audition d'Arnault"
- },
- {
-  "sig": [
    "bloc",
    "electi",
    "israel",
@@ -430,7 +10,7 @@
    "partic",
    "tete"
   ],
-  "date": "2026-10-27T22:09:21.809051+00:00",
+  "date": "2026-10-27T22:20:20.643587+00:00",
   "titre": "Israël : l'opposition devancerait légèrement le Likoud"
  },
  {
@@ -444,7 +24,7 @@
    "trappe",
    "victim"
   ],
-  "date": "2026-10-27T22:09:21.809068+00:00",
+  "date": "2026-10-27T22:20:20.643600+00:00",
   "titre": "Trappes : Lecornu accuse la gauche de « recel politicien »"
  },
  {
@@ -458,7 +38,7 @@
    "pres",
    "rouen"
   ],
-  "date": "2026-10-27T22:09:21.809071+00:00",
+  "date": "2026-10-27T22:20:20.643604+00:00",
   "titre": "Nancy : deux enquêtes après des affrontements lors d'une manifestation"
  },
  {
@@ -472,7 +52,7 @@
    "prison",
    "sept"
   ],
-  "date": "2026-10-27T22:09:21.809074+00:00",
+  "date": "2026-10-27T22:20:20.643606+00:00",
   "titre": "Irak : six Français condamnés à perpétuité pour appartenance à l'EI"
  },
  {
@@ -486,7 +66,7 @@
    "octobr",
    "paris"
   ],
-  "date": "2026-10-27T22:09:21.809076+00:00",
+  "date": "2026-10-27T22:20:20.643609+00:00",
   "titre": "Paris : un manifestant mort le 17 octobre, arrêt cardiaque selon l'autopsie"
  },
  {
@@ -500,7 +80,7 @@
    "result",
    "trump"
   ],
-  "date": "2026-10-27T22:09:21.809079+00:00",
+  "date": "2026-10-27T22:20:20.643612+00:00",
   "titre": "Serbie : les étudiants remportent les législatives face à Vucic"
  }
 ]
