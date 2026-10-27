@@ -1,426 +1,6 @@
 [
  {
   "sig": [
-   "bolson",
-   "bresil",
-   "decroc",
-   "flavio",
-   "lula",
-   "mandat",
-   "presid",
-   "quatri"
-  ],
-  "date": "2026-10-26T08:44:37.144756+00:00",
-  "titre": "Lula réélu au Brésil, Bolsonaro demande l'annulation du scrutin"
- },
- {
-  "sig": [
-   "435",
-   "attend",
-   "concre",
-   "lyceen",
-   "macron",
-   "marsei",
-   "repons",
-   "social"
-  ],
-  "date": "2026-10-26T08:44:37.144768+00:00",
-  "titre": "Le gouvernement annonce des mesures pour la crise lycéenne"
- },
- {
-  "sig": [
-   "2027",
-   "accuse",
-   "campag",
-   "france",
-   "glucks",
-   "harcel",
-   "insoum",
-   "raphae"
-  ],
-  "date": "2026-10-26T08:44:37.144770+00:00",
-  "titre": "Glucksmann accuse LFI d'une campagne de harcèlement"
- },
- {
-  "sig": [
-   "articl",
-   "attaqu",
-   "benjam",
-   "electi",
-   "israel",
-   "legisl",
-   "netany",
-   "octobr"
-  ],
-  "date": "2026-10-26T08:44:37.144773+00:00",
-  "titre": "Israël vote mardi, Nétanyahou et Eisenkot au coude-à-coude"
- },
- {
-  "sig": [
-   "2027",
-   "congre",
-   "france",
-   "marine",
-   "orlean",
-   "pen",
-   "presid",
-   "renais"
-  ],
-  "date": "2026-10-26T08:44:37.144774+00:00",
-  "titre": "Marine Le Pen lance sa campagne à Orléans"
- },
- {
-  "sig": [
-   "aleksa",
-   "defait",
-   "electi",
-   "etudia",
-   "legisl",
-   "nation",
-   "serbie",
-   "vucic"
-  ],
-  "date": "2026-10-26T08:44:37.144776+00:00",
-  "titre": "Vučić reconnaît sa défaite face au mouvement étudiant"
- },
- {
-  "sig": [
-   "attent",
-   "hommag",
-   "racist",
-   "rassem",
-   "suspec",
-   "trappe",
-   "victim",
-   "yvelin"
-  ],
-  "date": "2026-10-26T13:51:38.996872+00:00",
-  "titre": "Trappes : rassemblements contre le racisme en France"
- },
- {
-  "sig": [
-   "age",
-   "ancien",
-   "barzac",
-   "chirac",
-   "michel",
-   "minist",
-   "morte",
-   "sante"
-  ],
-  "date": "2026-10-26T13:51:38.996886+00:00",
-  "titre": "Michèle Barzach, ex-ministre de la Santé, est morte à 83 ans"
- },
- {
-  "sig": [
-   "emmanu",
-   "forces",
-   "garde",
-   "macron",
-   "manife",
-   "marsei",
-   "octobr",
-   "ordre"
-  ],
-  "date": "2026-10-26T13:51:38.996889+00:00",
-  "titre": "Emmanuel Macron en visite surprise à Marseille après les pillages"
- },
- {
-  "sig": [
-   "advers",
-   "bulgar",
-   "dialog",
-   "presid",
-   "russie",
-   "second",
-   "sortan",
-   "tour"
-  ],
-  "date": "2026-10-26T13:51:38.996892+00:00",
-  "titre": "Bulgarie : la présidente sortante en tête du premier tour"
- },
- {
-  "sig": [
-   "amer",
-   "armee",
-   "barric",
-   "cisjor",
-   "collec",
-   "erigee",
-   "hebron",
-   "israel"
-  ],
-  "date": "2026-10-26T13:51:38.996894+00:00",
-  "titre": "Hébron : l'armée israélienne poursuit son opération"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "mandat",
-   "presid",
-   "quatri",
-   "victoi"
-  ],
-  "date": "2026-10-26T13:51:38.996896+00:00",
-  "titre": "Brésil : Lula réélu, Flávio Bolsonaro demande l'annulation"
- },
- {
-  "sig": [
-   "attent",
-   "hommag",
-   "racist",
-   "rassem",
-   "suspec",
-   "trappe",
-   "victim",
-   "yvelin"
-  ],
-  "date": "2026-10-26T13:56:54.104693+00:00",
-  "titre": "Trappes : rassemblements contre le racisme en France"
- },
- {
-  "sig": [
-   "age",
-   "ancien",
-   "barzac",
-   "chirac",
-   "michel",
-   "minist",
-   "morte",
-   "sante"
-  ],
-  "date": "2026-10-26T13:56:54.104708+00:00",
-  "titre": "Michèle Barzach, ex-ministre de la Santé, est morte à 83 ans"
- },
- {
-  "sig": [
-   "emmanu",
-   "forces",
-   "garde",
-   "macron",
-   "manife",
-   "marsei",
-   "octobr",
-   "ordre"
-  ],
-  "date": "2026-10-26T13:56:54.104710+00:00",
-  "titre": "Emmanuel Macron en visite surprise à Marseille après les pillages"
- },
- {
-  "sig": [
-   "advers",
-   "bulgar",
-   "dialog",
-   "presid",
-   "russie",
-   "second",
-   "sortan",
-   "tour"
-  ],
-  "date": "2026-10-26T13:56:54.104712+00:00",
-  "titre": "Bulgarie : la présidente sortante en tête du premier tour"
- },
- {
-  "sig": [
-   "amer",
-   "armee",
-   "barric",
-   "cisjor",
-   "collec",
-   "erigee",
-   "hebron",
-   "israel"
-  ],
-  "date": "2026-10-26T13:56:54.104714+00:00",
-  "titre": "Hébron : l'armée israélienne poursuit son opération"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "mandat",
-   "presid",
-   "quatri",
-   "victoi"
-  ],
-  "date": "2026-10-26T13:56:54.104717+00:00",
-  "titre": "Brésil : Lula réélu, Flávio Bolsonaro demande l'annulation"
- },
- {
-  "sig": [
-   "attent",
-   "garde",
-   "mort",
-   "racist",
-   "repris",
-   "suspec",
-   "trappe",
-   "vue"
-  ],
-  "date": "2026-10-26T19:34:12.943684+00:00",
-  "titre": "Attentat de Trappes : le suspect conteste le mobile raciste"
- },
- {
-  "sig": [
-   "annonc",
-   "colere",
-   "gouver",
-   "lyceen",
-   "mobili",
-   "mouvem",
-   "parcou",
-   "rempla"
-  ],
-  "date": "2026-10-26T19:34:12.943697+00:00",
-  "titre": "Parcoursup remplacé en 2028, les lycéens maintiennent la mobilisation"
- },
- {
-  "sig": [
-   "benyam",
-   "eisenk",
-   "electi",
-   "gadi",
-   "israel",
-   "leader",
-   "netany",
-   "veille"
-  ],
-  "date": "2026-10-26T19:34:12.943699+00:00",
-  "titre": "Israël : Eisenkot, principal rival de Netanyahou aux législatives"
- },
- {
-  "sig": [
-   "blesse",
-   "enquet",
-   "gravem",
-   "manife",
-   "montpe",
-   "octobr",
-   "ordre",
-   "violen"
-  ],
-  "date": "2026-10-26T19:34:12.943702+00:00",
-  "titre": "Reims : un manifestant blessé à la jambe par une grenade"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "electi",
-   "intern",
-   "lula",
-   "presid",
-   "reelec",
-   "victoi"
-  ],
-  "date": "2026-10-26T19:34:12.943704+00:00",
-  "titre": "Brésil : Lula réélu de justesse, Bolsonaro demande l'annulation"
- },
- {
-  "sig": [
-   "benoit",
-   "dvg",
-   "emmanu",
-   "macron",
-   "maire",
-   "marsei",
-   "octobr",
-   "payan"
-  ],
-  "date": "2026-10-26T19:34:12.943706+00:00",
-  "titre": "Emmanuel Macron à Marseille après les pillages du 17 octobre"
- },
- {
-  "sig": [
-   "attent",
-   "garde",
-   "mort",
-   "racist",
-   "repris",
-   "suspec",
-   "trappe",
-   "vue"
-  ],
-  "date": "2026-10-26T19:38:32.408685+00:00",
-  "titre": "Attentat de Trappes : le suspect conteste le mobile raciste"
- },
- {
-  "sig": [
-   "annonc",
-   "colere",
-   "gouver",
-   "lyceen",
-   "mobili",
-   "mouvem",
-   "parcou",
-   "rempla"
-  ],
-  "date": "2026-10-26T19:38:32.408696+00:00",
-  "titre": "Parcoursup remplacé en 2028, les lycéens maintiennent la mobilisation"
- },
- {
-  "sig": [
-   "benyam",
-   "eisenk",
-   "electi",
-   "gadi",
-   "israel",
-   "leader",
-   "netany",
-   "veille"
-  ],
-  "date": "2026-10-26T19:38:32.408698+00:00",
-  "titre": "Israël : Eisenkot, principal rival de Netanyahou aux législatives"
- },
- {
-  "sig": [
-   "blesse",
-   "enquet",
-   "gravem",
-   "manife",
-   "montpe",
-   "octobr",
-   "ordre",
-   "violen"
-  ],
-  "date": "2026-10-26T19:38:32.408700+00:00",
-  "titre": "Reims : un manifestant blessé à la jambe par une grenade"
- },
- {
-  "sig": [
-   "bolson",
-   "bresil",
-   "electi",
-   "intern",
-   "lula",
-   "presid",
-   "reelec",
-   "victoi"
-  ],
-  "date": "2026-10-26T19:38:32.408702+00:00",
-  "titre": "Brésil : Lula réélu de justesse, Bolsonaro demande l'annulation"
- },
- {
-  "sig": [
-   "benoit",
-   "dvg",
-   "emmanu",
-   "macron",
-   "maire",
-   "marsei",
-   "octobr",
-   "payan"
-  ],
-  "date": "2026-10-26T19:38:32.408704+00:00",
-  "titre": "Emmanuel Macron à Marseille après les pillages du 17 octobre"
- },
- {
-  "sig": [
    "benjam",
    "bureau",
    "crucia",
@@ -430,7 +10,7 @@
    "netany",
    "vote"
   ],
-  "date": "2026-10-27T07:51:26.832482+00:00",
+  "date": "2026-10-27T08:04:24.830759+00:00",
   "titre": "Israël : duel serré entre Netanyahou et Eisenkot aux législatives"
  },
  {
@@ -444,7 +24,7 @@
    "trump",
    "unis"
   ],
-  "date": "2026-10-27T07:51:26.832491+00:00",
+  "date": "2026-10-27T08:04:24.830793+00:00",
   "titre": "Trump offre un million de dollars contre les fraudes électorales"
  },
  {
@@ -458,7 +38,7 @@
    "social",
    "superi"
   ],
-  "date": "2026-10-27T07:51:26.832495+00:00",
+  "date": "2026-10-27T08:04:24.830795+00:00",
   "titre": "Lycéens : le gouvernement annonce des mesures, mobilisation continue"
  },
  {
@@ -472,7 +52,7 @@
    "racist",
    "trappe"
   ],
-  "date": "2026-10-27T07:51:26.832498+00:00",
+  "date": "2026-10-27T08:04:24.830796+00:00",
   "titre": "Trappes : des milliers de personnes rassemblées contre le racisme"
  },
  {
@@ -486,7 +66,7 @@
    "reconn",
    "victoi"
   ],
-  "date": "2026-10-27T07:51:26.832500+00:00",
+  "date": "2026-10-27T08:04:24.830798+00:00",
   "titre": "Au Brésil, la Bourse de Sao Paulo chute après la victoire de Lula"
  },
  {
@@ -500,7 +80,7 @@
    "rejett",
    "senat"
   ],
-  "date": "2026-10-27T07:51:26.832502+00:00",
+  "date": "2026-10-27T08:04:24.830799+00:00",
   "titre": "Le Sénat rejette la réforme sur l'autonomie de la Corse"
  }
 ]
