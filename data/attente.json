@@ -1922,5 +1922,1080 @@
   "semaine": false,
   "cree": "2026-10-28T19:54:57.088208+00:00",
   "decision": null
+ },
+ {
+  "type": "edition",
+  "jeton": "fa3c22",
+  "messages": {
+   "0": 840,
+   "1": 841,
+   "2": 842,
+   "3": 843,
+   "4": 844,
+   "5": 845
+  },
+  "id_fin": 846,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "franceinfo France",
+      "titre": "L'émotion de la mère de Ramatou, la fillette blessée à La Verrière",
+      "resume": "Une marche blanche en hommage aux victimes de l'attentat raciste dans les Yvelines s'est tenue mercredi 28 octobre à La Verrière, sur les lieux où une jeune fille a échappé de peu à la mort. Sa mère a remercié les personnes venues leur apporter leur soutien et assuré que sa fille \"continue de se battre\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-emotion-de-la-mere-de-ramatou-la-fillette-blessee-a-la-verriere_8258438.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T07:09:08+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/dCdS33LDsk-MQAnZrotYE8K_kBw/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/10/29/6ae2f0cc7387d274877352.jpg"
+     },
+     {
+      "source": "franceinfo France",
+      "titre": "VIDEO. \"Votre solidarité nous touche\" : à la marche blanche de La Verrière, l'émotion de la mère de l'enfant gravement blessée dans l'attentat raciste des Yvelines",
+      "resume": "Une marche blanche en hommage aux victimes de l'attaque a eu lieu mercredi soir à La Verrière, sur les lieux où une jeune fille a échappé de peu à la mort. La mère de l'enfant a exprimé sa reconnaissance à ses soutiens et assuré que sa fille \"continue de se battre\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/elle-continue-de-se-battre-le-chemin-sera-tres-long-la-mere-de-l-enfant-blessee-dans-l-attentat-raciste-des-yvelines-se-confie_8257919.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T21:08:04+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/LrnDlgRzhCuafP83n8MyTTqeJg4/30x0:1300x714/432x243/filters:format(jpg)/2026/10/28/6ae25d7e4f4e4002991960.jpg"
+     },
+     {
+      "source": "franceinfo France",
+      "titre": "Attentat raciste dans les Yvelines : \"Il faut une concorde nationale\", souhaite Arnaud Robinet, maire Horizons de Reims",
+      "resume": "Mélanie Vogel, sénatrice et présidente du groupe Écologiste à l’Assemblée nationale et Arnaud Robinet, maire Horizons de Reims (Marne) étaient les invités du Duel ce mercredi 28 octobre sur franceinfo. Ils sont notamment revenus sur l’annonce d’un hommage national après l’attentat raciste des Yvelines.",
+      "lien": "https://www.franceinfo.fr/replay-magazine/franceinfo/avant-le-20h/attentat-raciste-dans-les-yvelines-il-faut-une-concorde-nationale-souhaite-arnaud-robinet-maire-horizons-de-reims_8257835.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T21:52:04+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/zD3kQiullPTKNJfqzerD7VAWwv4/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/28/6ae24315c9a93548655338.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "L'émotion de la mère de Ramatou, la fillette blessée à La Verrière",
+      "resume": "Une marche blanche en hommage aux victimes de l'attentat raciste dans les Yvelines s'est tenue mercredi 28 octobre à La Verrière, sur les lieux où une jeune fille a échappé de peu à la mort. Sa mère a remercié les personnes venues leur apporter leur soutien et assuré que sa fille \"continue de se battre\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-emotion-de-la-mere-de-ramatou-la-fillette-blessee-a-la-verriere_8258438.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T07:09:08+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/dCdS33LDsk-MQAnZrotYE8K_kBw/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/10/29/6ae2f0cc7387d274877352.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "VIDEO. \"Votre solidarité nous touche\" : à la marche blanche de La Verrière, l'émotion de la mère de l'enfant gravement blessée dans l'attentat raciste des Yvelines",
+      "resume": "Une marche blanche en hommage aux victimes de l'attaque a eu lieu mercredi soir à La Verrière, sur les lieux où une jeune fille a échappé de peu à la mort. La mère de l'enfant a exprimé sa reconnaissance à ses soutiens et assuré que sa fille \"continue de se battre\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/elle-continue-de-se-battre-le-chemin-sera-tres-long-la-mere-de-l-enfant-blessee-dans-l-attentat-raciste-des-yvelines-se-confie_8257919.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T21:08:04+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/LrnDlgRzhCuafP83n8MyTTqeJg4/30x0:1300x714/432x243/filters:format(jpg)/2026/10/28/6ae25d7e4f4e4002991960.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Attentat raciste dans les Yvelines : \"Il faut une concorde nationale\", souhaite Arnaud Robinet, maire Horizons de Reims",
+      "resume": "Mélanie Vogel, sénatrice et présidente du groupe Écologiste à l’Assemblée nationale et Arnaud Robinet, maire Horizons de Reims (Marne) étaient les invités du Duel ce mercredi 28 octobre sur franceinfo. Ils sont notamment revenus sur l’annonce d’un hommage national après l’attentat raciste des Yvelines.",
+      "lien": "https://www.franceinfo.fr/replay-magazine/franceinfo/avant-le-20h/attentat-raciste-dans-les-yvelines-il-faut-une-concorde-nationale-souhaite-arnaud-robinet-maire-horizons-de-reims_8257835.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T21:52:04+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/zD3kQiullPTKNJfqzerD7VAWwv4/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/28/6ae24315c9a93548655338.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Attentat raciste dans les Yvelines : l’assaillant a été présenté à la justice en vue de sa mise en examen",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/attentat-raciste-dans-les-yvelines-lassaillant-a-ete-presente-a-la-justice-en-vue-de-sa-mise-en-examen-29-10-2026-J6HHVT2HKVFDNGSUV4SGOWX5LE.php",
+      "date": "2026-10-29T07:51:05.439018+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Elle se bat tous les jours »: l’état de santé de Ramatou, la fille de 12 ans victime de l’attentat raciste, s’améliore selon sa mère",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/yvelines-78/elle-se-bat-tous-les-jours-letat-de-sante-de-ramatou-la-fille-de-12-ans-victime-de-lattentat-raciste-sameliore-selon-sa-mere-28-10-2026-KX6ZPHFR7RELZM6CEVKGO54EEY.php",
+      "date": "2026-10-29T07:51:05.439600+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Notre famille demande justice pour Pengo » : à Saint-Denis, l’appel digne de l’oncle de la victime de l’attentat raciste",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/seine-saint-denis-93/notre-famille-demande-justice-pour-pengo-a-saint-denis-lappel-digne-de-loncle-de-la-victime-de-lattentat-raciste-28-10-2026-KTXELBTIW5DELBEGJMZ67DTYPA.php",
+      "date": "2026-10-29T07:51:05.439701+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Il est passé devant moi et m’a dit : T’as de la chance »: après l’attentat raciste dans les Yvelines, les témoins mobilisés",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/yvelines-78/il-est-passe-devant-moi-et-ma-dit-tas-de-la-chance-apres-lattentat-raciste-dans-les-yvelines-les-temoins-mobilises-28-10-2026-3C7DMV4SINHPDMQTVXPYFRPX4I.php",
+      "date": "2026-10-29T07:51:05.439878+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Rennes : un nouveau rassemblement en hommage aux victimes de l'attentat raciste de Trappes organisé par la mairie",
+      "resume": "Un nouveau rassemblement en soutien aux victimes de l’attentat raciste de Trappes et La Verrière est organisé, cette-fois par la mairie, le vendredi 30 octobre à Rennes.",
+      "lien": "https://actu.fr/bretagne/rennes_35238/rennes-un-nouveau-rassemblement-en-hommage-aux-victimes-de-l-attentat-raciste-de-trappes-organise-par-la-mairie_64988404.html",
+      "date": "2026-10-29T06:50:15+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/03/mairie-rennes-hotel-de-ville-ciel-bleu-meteo-soleil-mars-2026-1024x557.jpeg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Tuerie dans les Yvelines : l’assaillant transféré au tribunal judiciaire de Paris en vue de sa mise en examen",
+      "resume": "Le suspect, âgé de 39 ans, a reconnu les faits mais démenti « le caractère raciste de ses crimes ». Il a été transféré au tribunal judiciaire de Paris sitôt sa garde à vue achevée",
+      "lien": "https://www.sudouest.fr/faits-divers/tuerie-dans-les-yvelines-l-assaillant-transfere-au-tribunal-dans-la-nuit-en-vue-de-sa-mise-en-examen-31286311.php",
+      "date": "2026-10-29T06:58:17+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31286311/1200x-1/20261023131123-28216812.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Attentat raciste à Trappes : la garde à vue de Kevin T. est terminée, l'assaillant transféré dans la nuit au tribunal en vue de sa mise en examen",
+      "resume": "Le suspect de l'attentat raciste à Trappes, qui a fait un mort et sept blessés, a été déféré et présenté à la justice dans la nuit de mercredi à jeudi. Âgé de 39 ans, Kevin T. a reconnu les faits devant les...",
+      "lien": "https://www.midilibre.fr/2026/10/29/attentat-raciste-a-trappes-la-garde-a-vue-de-kevin-t-est-terminee-lassaillanttransfere-dans-la-nuit-au-tribunal-en-vue-de-sa-mise-en-examen-13625901.php",
+      "date": "2026-10-29T07:10:38+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae2e6a39b2b91d6950ea432/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Yvelines. Attentat de Trappes : Kévin T. a été présenté à la justice dans la nuit pour être mis en examen",
+      "resume": "La garde à vue de Kévin T., soupçonné d’avoir tué un homme et blessé plusieurs personnes lors d’une attaque terroriste et raciste à Trappes et La Verrière, a été déferré sitôt sa garde à vue achevée, peu après minuit.",
+      "lien": "https://www.leprogres.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+      "date": "2026-10-29T05:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Yvelines. Attentat de Trappes : Kévin T. a été présenté à la justice dans la nuit pour être mis en examen",
+      "resume": "La garde à vue de Kévin T., soupçonné d’avoir tué un homme et blessé plusieurs personnes lors d’une attaque terroriste et raciste à Trappes et La Verrière, a été déferré sitôt sa garde à vue achevée, peu après minuit.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+      "date": "2026-10-29T05:59:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/290D69D5-CB12-400D-B4F7-770799CCAA9B/NW_listB/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen-1793202146.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Yvelines. Attentat de Trappes : Kévin T. a été présenté à la justice dans la nuit pour être mis en examen",
+      "resume": "La garde à vue de Kévin T., soupçonné d’avoir tué un homme et blessé plusieurs personnes lors d’une attaque terroriste et raciste à Trappes et La Verrière, a été déferré sitôt sa garde à vue achevée, peu après minuit.",
+      "lien": "https://www.dna.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+      "date": "2026-10-29T05:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Yvelines. Attentat de Trappes : Kévin T. a été présenté à la justice dans la nuit pour être mis en examen",
+      "resume": "La garde à vue de Kévin T., soupçonné d’avoir tué un homme et blessé plusieurs personnes lors d’une attaque terroriste et raciste à Trappes et La Verrière, a été déferré sitôt sa garde à vue achevée, peu après minuit.",
+      "lien": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+      "date": "2026-10-29T05:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "DNA",
+     "L'Est Républicain",
+     "Le Dauphiné",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo France",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "attent",
+     "examen",
+     "justic",
+     "kevin",
+     "mere",
+     "racist",
+     "trappe",
+     "yvelin"
+    ],
+    "score": 107.99926338583333,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "La Verrière rend hommage aux victimes de l'attentat raciste",
+    "texte": "À La Verrière, dans les Yvelines, une marche blanche a rendu hommage mercredi aux victimes d'un attentat raciste. Une jeune fille grièvement blessée a échappé de peu à la mort, et sa mère assure qu'elle continue de se battre.",
+    "texte_long": "À La Verrière, dans les Yvelines, une marche blanche a rendu hommage mercredi aux victimes d'un attentat raciste. Une jeune fille grièvement blessée a échappé de peu à la mort, et sa mère assure qu'elle continue de se battre.",
+    "flash": "À La Verrière, dans les Yvelines, une marche blanche a rendu hommage aux victimes d'un attentat raciste.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Racisme",
+     "#Securite"
+    ],
+    "liens": {
+     "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+     "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/attentat-raciste-dans-les-yvelines-lassaillant-a-ete-presente-a-la-justice-en-vue-de-sa-mise-en-examen-29-10-2026-J6HHVT2HKVFDNGSUV4SGOWX5LE.php",
+     "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/29/attentat-de-trappes-kevin-t-a-ete-presente-a-la-justice-dans-la-nuit-pour-etre-mis-en-examen",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/29/attentat-raciste-a-trappes-la-garde-a-vue-de-kevin-t-est-terminee-lassaillanttransfere-dans-la-nuit-au-tribunal-en-vue-de-sa-mise-en-examen-13625901.php",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/tuerie-dans-les-yvelines-l-assaillant-transfere-au-tribunal-dans-la-nuit-en-vue-de-sa-mise-en-examen-31286311.php",
+     "actu.fr": "https://actu.fr/bretagne/rennes_35238/rennes-un-nouveau-rassemblement-en-hommage-aux-victimes-de-l-attentat-raciste-de-trappes-organise-par-la-mairie_64988404.html",
+     "franceinfo France": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-emotion-de-la-mere-de-ramatou-la-fillette-blessee-a-la-verriere_8258438.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-emotion-de-la-mere-de-ramatou-la-fillette-blessee-a-la-verriere_8258438.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "29 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Flávio Bolsonaro affirme être le \"leader\" du Brésil après sa fuite aux États-Unis",
+      "resume": "Après sa défaite à la présidentielle, Flávio Bolsonaro a quitté son pays. Il fait l'objet d'enquêtes pour des soupçons de corruption et de blanchiment d'argent.",
+      "lien": "https://fr.euronews.com/2026/10/29/flavio-bolsonaro-affirme-etre-le-leader-du-bresil-apres-sa-fuite-aux-etats-unis",
+      "date": "2026-10-29T06:09:09+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Flavio Bolsonaro, du candidat sûr d’être élu président du Brésil au mauvais perdant en cavale aux Etats-Unis",
+      "resume": "Entré tôt en politique, le sénateur s’était distingué par des positions sécuritaires et opposées aux protections environnementales, mais aussi par un parcours jalonné d’affaires judiciaires.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/29/flavio-bolsonaro-du-candidat-sur-d-etre-elu-president-du-bresil-au-mauvais-perdant-en-cavale-aux-etats-unis_6802013_3210.html",
+      "date": "2026-10-29T04:30:02+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/21/429/0/4252/2126/644/322/60/0/664dfbd_ftp-1-s67ckr8yiexw-afp-d3zf3b9.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "En fuite aux Etats-Unis, Flavio Bolsonaro assure être le « leader » du Brésil",
+      "resume": "Battu dimanche lors du second tour de l’élection présidentielle et visé par plusieurs enquêtes dans son pays, le sénateur d’extrême droite a atterri mercredi en Floride. Il dénonce une « fraude électorale » et affirme « diriger l’opposition » à partir de l’étranger.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/29/en-fuite-aux-etats-unis-flavio-bolsonaro-assure-etre-le-leader-du-bresil_6801710_3210.html",
+      "date": "2026-10-28T23:08:30+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/28/455/0/5463/2731/644/322/60/0/03d22a1_ftp-1-bivvbexayojb-afp-d4pr8bt.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "\"J'ai quitté le Brésil, mais je n'ai pas abandonné les Brésiliens\" : depuis les Etats-Unis, Flavio Bolsonaro affirme être le \"leader\" du pays",
+      "resume": "Quelques heures après son arrivée en Floride, le candidat conservateur vaincu par Lula à la présidentielle a promis de \"diriger l'opposition\" depuis les Etats-Unis, en se comparant au général de Gaulle.",
+      "lien": "https://www.franceinfo.fr/monde/bresil/j-ai-quitte-le-bresil-mais-je-n-ai-pas-abandonne-les-bresiliens-depuis-les-etats-unis-flavio-bolsonaro-affirme-etre-le-leader-du-pays_8257973.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T22:20:09+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/ZUzJf3RxIZDUFsXL2Ddphl420To/0x18:1024x594/432x243/filters:format(jpg)/2026/10/28/6ae2750e59322292920598.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Exil, prison, soupçons de détournement de fonds… Derrière la fuite rocambolesque de Flavio Bolsonaro, les casseroles d’une dynastie brésilienne",
+      "resume": "RÉCIT - Perdant de l’élection présidentielle, le fils de l’ex-président brésilien visé par plusieurs enquêtes judiciaires a quitté le Brésil pour les États-Unis. La fratrie Bolsonaro, très présente dans la vie politique du pays, n’est pas en reste.",
+      "lien": "https://www.lefigaro.fr/international/exil-prison-soupcons-de-detournement-de-fonds-derriere-la-fuite-rocambolesque-de-flavio-bolsonaro-les-casseroles-d-une-dynastie-bresilienne-20261028",
+      "date": "2026-10-28T21:59:12+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/10/28/19c6063629c4ecec4a34c5127b41a5b8f67c4685606873296dd762341d8207fa.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "En fuite aux Etats-Unis, Flavio Bolsonaro dit être le \"leader\" du Brésil",
+      "resume": "Le sénateur brésilien Flavio Bolsonaro, qui a fui aux États-Unis après sa défaite à l'élection présidentielle face au sortant Luiz Inacio Lula da Silva, a affirmé mercredi être le \"leader du Brésil\", tout en dénonçant une \"fraude électorale\".",
+      "lien": "https://www.rts.ch/info/monde/2026/article/bresil-flavio-bolsonaro-se-dit-le-veritable-president-29399268.html?rts_source=rss_t",
+      "date": "2026-10-28T21:56:25+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/9156a0e0-29399285.image?w=320&h=180"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Brésil : En fuite aux Etats-Unis, Bolsonaro se proclame « leader » du pays et accuse Lula de fraude",
+      "resume": "Le fils de Jair Bolsonaro refuse de reconnaître sa défaite à l’élection présidentielle et entend diriger l’opposition depuis la Floride. Donald Trump a réagi mercredi à ses déclarations, tout en prenant ses distances",
+      "lien": "https://www.20minutes.fr/monde/bresil/4258443-20261028-bresil-fuite-etats-unis-bolsonaro-proclame-leader-pays-accuse-lula-fraude?at_medium=display&at_campaign=149",
+      "date": "2026-10-28T22:36:33+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/6pHIoZ2YRVOY9pWzG4LEUCk/1200x768_guarulhos-sp-21-10-2026-f-lavi-o-bolsonaro-em-guarulhos-flavio-bolsonaro-senateur-pl-et-candidat-a-la-presidence-participe-a-un-evenement-a-guarulhos-en-espagne-ce-mercredi-21-photo-roberto-casimiro-fotoarena-sipa-etats-unis-74323917-roberto-casimiro-2610212109"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Flavio Bolsonaro, du candidat sûr d’être élu président du Brésil au mauvais perdant en cavale aux Etats-Unis",
+      "resume": "Entré tôt en politique, le sénateur s’était distingué par des positions sécuritaires et opposées aux protections environnementales, mais aussi par un parcours jalonné d’affaires judiciaires.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/29/flavio-bolsonaro-du-candidat-sur-d-etre-elu-president-du-bresil-au-mauvais-perdant-en-cavale-aux-etats-unis_6802013_3210.html",
+      "date": "2026-10-29T04:30:02+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/21/429/0/4252/2126/644/322/60/0/664dfbd_ftp-1-s67ckr8yiexw-afp-d3zf3b9.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Brésil : En fuite aux Etats-Unis, Bolsonaro se proclame « leader » du pays et accuse Lula de fraude",
+      "resume": "Le fils de Jair Bolsonaro refuse de reconnaître sa défaite à l’élection présidentielle et entend diriger l’opposition depuis la Floride. Donald Trump a réagi mercredi à ses déclarations, tout en prenant ses distances",
+      "lien": "https://www.20minutes.fr/monde/bresil/4258443-20261028-bresil-fuite-etats-unis-bolsonaro-proclame-leader-pays-accuse-lula-fraude?at_medium=display&at_campaign=149",
+      "date": "2026-10-28T22:36:33+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/6pHIoZ2YRVOY9pWzG4LEUCk/1200x768_guarulhos-sp-21-10-2026-f-lavi-o-bolsonaro-em-guarulhos-flavio-bolsonaro-senateur-pl-et-candidat-a-la-presidence-participe-a-un-evenement-a-guarulhos-en-espagne-ce-mercredi-21-photo-roberto-casimiro-fotoarena-sipa-etats-unis-74323917-roberto-casimiro-2610212109"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "En fuite aux États-Unis après sa défaite face à Lula, Flavio Bolsonaro affirme qu’il est le « véritable président » du Brésil",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/en-fuite-aux-etats-unis-flavio-bolsonaro-affirme-quil-est-le-veritable-president-du-bresil-28-10-2026-WKLWPJLR7JF6ZGF4I6CWUZ3EQ4.php",
+      "date": "2026-10-29T07:51:05.439574+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "États-Unis. Accusé de meurtre, il réclame un sandwich et un soda en échange de ses aveux : le juge refuse",
+      "resume": "En Floride, lundi 26 octobre, Robert Kessler a proposé de plaider coupable du meurtre d’une femme en échange d’un sandwich, de frites et d’un soda. Une offre que le juge a sèchement écartée.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/10/29/accuse-de-meurtre-il-reclame-un-sandwich-et-un-soda-en-echange-de-ses-aveux-le-juge-refuse",
+      "date": "2026-10-29T06:45:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/9CA92FD8-97E9-449A-A2FD-0F0133020195/NW_listB/accuse-de-meurtre-il-reclame-un-sandwich-et-un-soda-en-echange-de-ses-aveux-le-juge-refuse-1793218199.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "États-Unis. Accusé de meurtre, il réclame un sandwich et un soda en échange de ses aveux : le juge refuse",
+      "resume": "En Floride, lundi 26 octobre, Robert Kessler a proposé de plaider coupable du meurtre d’une femme en échange d’un sandwich, de frites et d’un soda. Une offre que le juge a sèchement écartée.",
+      "lien": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/29/accuse-de-meurtre-il-reclame-un-sandwich-et-un-soda-en-echange-de-ses-aveux-le-juge-refuse",
+      "date": "2026-10-29T06:45:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "Euronews",
+     "L'Est Républicain",
+     "Le Dauphiné",
+     "Le Figaro",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "RTS",
+     "franceinfo"
+    ],
+    "sig": [
+     "accuse",
+     "bolson",
+     "bresil",
+     "etats",
+     "flavio",
+     "fuite",
+     "leader",
+     "unis"
+    ],
+    "score": 107.9992633013889,
+    "suite": "Flavio Bolsonaro arrive en Floride après sa défaite",
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Flavio Bolsonaro, en Floride, se dit « leader » du Brésil",
+    "texte": "Depuis les États-Unis, où il s'est réfugié après sa défaite à la présidentielle, Flávio Bolsonaro affirme diriger l'opposition brésilienne. Il dénonce une « fraude électorale » et fait l'objet d'enquêtes dans son pays.",
+    "texte_long": "Depuis les États-Unis, où il s'est réfugié après sa défaite à la présidentielle, Flávio Bolsonaro affirme diriger l'opposition brésilienne. Il dénonce une « fraude électorale » et fait l'objet d'enquêtes dans son pays.",
+    "flash": "Installé en Floride après sa défaite, Flávio Bolsonaro se dit « leader » du Brésil et dénonce une fraude électorale.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "BRA",
+     "USA"
+    ],
+    "personne": "Flávio Bolsonaro",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Bresil",
+     "#Presidentielle"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/bresil/4258443-20261028-bresil-fuite-etats-unis-bolsonaro-proclame-leader-pays-accuse-lula-fraude?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/bresil/4258443-20261028-bresil-fuite-etats-unis-bolsonaro-proclame-leader-pays-accuse-lula-fraude?at_medium=display&at_campaign=149",
+     "Euronews": "https://fr.euronews.com/2026/10/29/flavio-bolsonaro-affirme-etre-le-leader-du-bresil-apres-sa-fuite-aux-etats-unis",
+     "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/29/accuse-de-meurtre-il-reclame-un-sandwich-et-un-soda-en-echange-de-ses-aveux-le-juge-refuse",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/29/accuse-de-meurtre-il-reclame-un-sandwich-et-un-soda-en-echange-de-ses-aveux-le-juge-refuse",
+     "Le Figaro": "https://www.lefigaro.fr/international/exil-prison-soupcons-de-detournement-de-fonds-derriere-la-fuite-rocambolesque-de-flavio-bolsonaro-les-casseroles-d-une-dynastie-bresilienne-20261028",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/29/flavio-bolsonaro-du-candidat-sur-d-etre-elu-president-du-bresil-au-mauvais-perdant-en-cavale-aux-etats-unis_6802013_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/29/flavio-bolsonaro-du-candidat-sur-d-etre-elu-president-du-bresil-au-mauvais-perdant-en-cavale-aux-etats-unis_6802013_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/en-fuite-aux-etats-unis-flavio-bolsonaro-affirme-quil-est-le-veritable-president-du-bresil-28-10-2026-WKLWPJLR7JF6ZGF4I6CWUZ3EQ4.php",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/bresil-flavio-bolsonaro-se-dit-le-veritable-president-29399268.html?rts_source=rss_t",
+     "franceinfo": "https://www.franceinfo.fr/monde/bresil/j-ai-quitte-le-bresil-mais-je-n-ai-pas-abandonne-les-bresiliens-depuis-les-etats-unis-flavio-bolsonaro-affirme-etre-le-leader-du-pays_8257973.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "29 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "En France, le Sénat vote l'imprescriptibilité des crimes sexuels commis sur les mineurs",
+      "resume": "Les sénateurs ont largement approuvé, mercredi, l'imprescriptibilité des crimes sexuels commis sur les mineurs, une mesure inédite jusqu’ici réservée aux crimes contre l’humanité. Le texte doit encore être validé lors d’un vote solennel puis en commission mixte paritaire.",
+      "lien": "https://www.france24.com/fr/france/20261029-en-france-le-s%C3%A9nat-vote-l-imprescriptibilit%C3%A9-des-crimes-sexuels-commis-sur-les-mineurs",
+      "date": "2026-10-29T00:12:41+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/743004ea-d32d-11f1-9579-811458fcf026/w:1024/p:16x9/ddebad9cb4c4927230c7519fa204074a8cd1a885.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"Plus jamais un enfant victime d'inceste n'entendra qu'il était trop tard pour parler\" : le Sénat approuve l'imprescriptibilité des crimes sexuels commis sur les mineurs",
+      "resume": "A l'heure actuelle, une victime de viol subi dans l'enfance peut porter plainte jusqu'à 48 ans, le délai de prescription étant de trente ans à compter de sa majorité, un délai jugé insuffisant par certaines associations de protection de l'enfance.",
+      "lien": "https://www.franceinfo.fr/societe/harcelement-sexuel/plus-jamais-un-enfant-victime-d-inceste-n-entendra-qu-il-etait-trop-tard-pour-parler-le-senat-approuve-l-imprescriptibilite-des-crimes-sexuels-commis-sur-les-mineurs_8258195.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T06:26:09+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/c3OxneWaxRB1qf3IG0-rghzq1u4/0x922:8949x5956/432x243/filters:format(jpg)/2026/10/29/6ae2d441b4c13009290507.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Toute l’info en 2 minutes : L’Espagne en deuil, crimes sexuels sur les mineurs et idylle Canada-UE",
+      "resume": "« 20 Minutes » a compilé pour vous les infos qu’il ne fallait pas manquer ce jeudi matin",
+      "lien": "https://www.20minutes.fr/societe/4258487-20261029-toute-info-2-minutes-espagne-deuil-crimes-sexuels-mineurs-idylle-canada-ue?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T06:59:13+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/fbth1vEbSA28aF32JM15Dik/1200x768_28-octobre-2026-urda-tolede-espagne-au-moins-68-personnes-sont-mortes-et-des-dizaines-d-autres-ont-ete-blessees-apres-la-collision-de-deux-trains-de-voyageurs-a-grande-vitesse-pres-de-la-gare-d-urda-dans-la-province-de-tolede-mercredi-matin-ont-confirme-les-autorites-regionales-la-catastrophe-s-est-produite-vers-8-h-53-lorsqu-un-train-renfe-ave-appartenant-a-l-etat-a-percute-l-arriere-d-un-train-a-l-arret-exploite-par-le-transporteur-prive-iryo-plus-de-500-passagers-se-trouvaient-a-bord-des-deux-convois-qui-empruntaient-le-corridor-a-grande-vitesse-madrid-andalousie-le-ministre-espagnol-des-transports-puente-a-declare-que-la-collision-faisait-suite-a-une-defaillance-du-systeme-de-securite-a-la-suite-de-laquelle-un-ordre-inexplicable-avait-ete-emis-par-le-centre-de-controle-autorisant-l-ave-a-poursuivre-sa-route-malgre-un-signal-rouge-le-premier-ministre-pedro-sanchez-a-declare-trois-jours-de-deuil-national-alors-que-les-unites-militaires-d-urgence-et-les-equipes-de-secours-continuent-de-travailler-sur-les-lieux-image-de-credit-juan-carlos-lucas-zuma-press-wire-20261028-zsp-d308-130-ruaridh-stewart-2610282340"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Le Sénat vote l’imprescriptibilité des crimes sexuels sur les mineurs, 80 voix contre",
+      "resume": "Les députés avaient déjà approuvé cette exception jusqu’ici réservée aux crimes contre l’humanité. L’adoption définitive, dans les prochaines semaines, marquera un changement majeur pour la justice française",
+      "lien": "https://www.20minutes.fr/politique/assemblee_nationale/4258452-20261029-senat-vote-imprescriptibilite-crimes-sexuels-mineurs-80-voix-contre?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T00:33:15+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/7gQdailTSj2OcvUaX4A_lyk/1200x768_vue-ensemble-hemicycle-seance-hebdomadaire-des-questions-au-gouvernement-par-les-senateurs-palais-du-luxembourg-senat-paris-france-le-28-octobre-2026-weekly-session-of-questions-to-the-government-by-the-senators-palais-du-luxembourg-senate-paris-france-october-28-2026-nicolasmessyasz-2026-10-28b-454a-credit-nicolas-messyasz-sipa-2610282051"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Les crimes sexuels sur mineurs bientôt imprescriptibles ? Le vote positif du Sénat ouvre la voie à l’adoption de la mesure",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/les-crimes-sexuels-sur-mineurs-bientot-imprescriptibles-le-vote-positif-du-senat-ouvre-la-voie-a-ladoption-de-la-mesure-29-10-2026-NCKZZRQFS5CJ5JN3I3QWWX32NY.php",
+      "date": "2026-10-29T07:51:05.439447+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "« Plus jamais un enfant victime d’inceste n’entendra qu’il était trop tard pour parler » : le Sénat approuve l’imprescriptibilité des crimes sexuels commis sur les mineurs",
+      "resume": "Le vote du Sénat, avec 252 voix pour 80 contre, ouvre la voie à l’adoption définitive de cette réforme profonde de la prescription dans les prochaines semaines après des concertations entre les deux chambres",
+      "lien": "https://www.sudouest.fr/societe/plus-jamais-un-enfant-victime-d-inceste-n-entendra-qu-il-etait-trop-tard-pour-parler-le-senat-approuve-l-imprescriptibilite-des-crimes-sexuels-commis-sur-les-mineurs-31286105.php",
+      "date": "2026-10-29T05:48:27+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31286105/1200x-1/20261027175706-31481412.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Politique. Pédocriminalité : le Sénat vote pour l'imprescribilité des crimes sexuels commis sur les mineurs",
+      "resume": "Le Sénat a voté pour l'imprescriptibilité des crimes sexuels commis sur les mineurs lors de l'examen du projet de loi sur la protection des enfants.",
+      "lien": "https://www.dna.fr/politique/2026/10/29/pedocriminalite-le-senat-vote-pour-l-imprescribilite-des-crimes-sexuels-commis-sur-les-mineurs",
+      "date": "2026-10-28T23:05:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "DNA",
+     "France 24",
+     "Le Parisien",
+     "Sud Ouest",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "approu",
+     "commis",
+     "crimes",
+     "impres",
+     "mineur",
+     "senat",
+     "sexuel",
+     "vote"
+    ],
+    "score": 107.99926326611111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Le Sénat vote l'imprescriptibilité des crimes sexuels sur mineurs",
+    "texte": "Le Sénat a approuvé l'imprescriptibilité des crimes sexuels commis sur les mineurs, par 252 voix contre 80. Une mesure jusqu'ici réservée aux crimes contre l'humanité, qui doit encore être validée définitivement.",
+    "texte_long": "Le Sénat a approuvé l'imprescriptibilité des crimes sexuels commis sur les mineurs, par 252 voix contre 80. Une mesure jusqu'ici réservée aux crimes contre l'humanité, qui doit encore être validée définitivement.",
+    "flash": "Le Sénat approuve l'imprescriptibilité des crimes sexuels commis sur les mineurs, par 252 voix contre 80.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "252",
+     "legende": "voix pour"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "252",
+     "legende": "voix pour"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Justice",
+     "#Enfance"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/societe/4258487-20261029-toute-info-2-minutes-espagne-deuil-crimes-sexuels-mineurs-idylle-canada-ue?at_medium=display&at_campaign=149",
+     "DNA": "https://www.dna.fr/politique/2026/10/29/pedocriminalite-le-senat-vote-pour-l-imprescribilite-des-crimes-sexuels-commis-sur-les-mineurs",
+     "France 24": "https://www.france24.com/fr/france/20261029-en-france-le-s%C3%A9nat-vote-l-imprescriptibilit%C3%A9-des-crimes-sexuels-commis-sur-les-mineurs",
+     "Le Parisien": "https://www.leparisien.fr/politique/les-crimes-sexuels-sur-mineurs-bientot-imprescriptibles-le-vote-positif-du-senat-ouvre-la-voie-a-ladoption-de-la-mesure-29-10-2026-NCKZZRQFS5CJ5JN3I3QWWX32NY.php",
+     "Sud Ouest": "https://www.sudouest.fr/societe/plus-jamais-un-enfant-victime-d-inceste-n-entendra-qu-il-etait-trop-tard-pour-parler-le-senat-approuve-l-imprescriptibilite-des-crimes-sexuels-commis-sur-les-mineurs-31286105.php",
+     "franceinfo faits divers": "https://www.franceinfo.fr/societe/harcelement-sexuel/plus-jamais-un-enfant-victime-d-inceste-n-entendra-qu-il-etait-trop-tard-pour-parler-le-senat-approuve-l-imprescriptibilite-des-crimes-sexuels-commis-sur-les-mineurs_8258195.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "29 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Europe Today : deuxième catastrophe de train à grande vitesse en neuf mois endeuille l'Espagne",
+      "resume": "Au moins 68 morts dans une collision de trains à grande vitesse au sud de Madrid, deuxième accident ferroviaire mortel en Espagne cette année. À Montréal, l'UE et Mark Carney lancent une \"Alliance pour l'avenir\" et évoquent midterms US, défense de l'Ukraine et hausse des prix du pétrole.",
+      "lien": "https://fr.euronews.com/2026/10/29/europe-today-deuxieme-catastrophe-de-train-a-grande-vitesse-en-neuf-mois-endeuille-lespagn",
+      "date": "2026-10-29T07:03:42+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "franceinfo",
+      "titre": "A suivre avec Loïc de la Mornais : Catastrophe ferroviaire : l'Espagne en deuil",
+      "resume": "Dans cette première partie, Loïc de la Mornais et ses invités reviennent sur l'accident ferroviaire en Espagne qui a causé plusieurs dizaines de morts et une centaine de blessés à 150km de Madrid. Le premier ministre espagnol, Pedro Sanchez, a décrété trois jours de deuil national suite au drame. Une séquence à retrouver dans l'émission \"À suivre Loïc de la Mornais\", diffusée entre 20h30 et 23h sur la chaîne info, canal 16.",
+      "lien": "https://www.franceinfo.fr/replay-magazine/franceinfo/a-suivre-avec-loic-de-la-mornais/a-suivre-avec-loic-de-la-mornais-catastrophe-ferroviaire-l-espagne-en-deuil_8258351.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T06:12:34+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/uSfFvaD4MpuGtFX_-_6BdGNWXUY/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/29/6ae2e2f5cdf4d609880205.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Derrière le tragique accident ferroviaire en Espagne, des actions «inexplicables» et une terrible erreur humaine",
+      "resume": "RECIT - Alors que le bilan mercredi soir s’élevait à 68 morts après la collision entre deux trains, le ministère espagnol des Transports a pointé du doigt une erreur de la part du gestionnaire du réseau.",
+      "lien": "https://www.lefigaro.fr/international/derriere-le-tragique-accident-ferroviaire-en-espagne-des-actions-inexplicables-et-une-terrible-erreur-humaine-20261028",
+      "date": "2026-10-29T06:29:01+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2850x1602_crop/2026/10/28/411357eada4533de8a1b2b2471d13558c01921aa6c1ae1794159e5efd5728c47.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "Trois jours de deuil et incompréhension en Espagne après une collision ferroviaire jugée \"invraisemblable\"",
+      "resume": "L'Espagne a entamé jeudi trois jours de deuil national après la collision mercredi entre deux trains qui a fait au moins 68 morts et plus d'une centaine de blessés, pire tragédie ferroviaire dans ce pays depuis 2013, moins d'un an après une collision qui avait fait 46 morts.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/espagne-au-moins-68-morts-dans-une-collision-de-trains-29399423.html?rts_source=rss_t",
+      "date": "2026-10-29T07:40:45+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/a9ce25c5-29399417.image?w=320&h=180"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "La presse espagnole réclame des comptes à Pedro Sánchez après la catastrophe ferroviaire d’Urda",
+      "resume": "La presse espagnole, notamment de droite, tirait à boulets rouges sur le gouvernement de Pedro Sánchez, jeudi matin, après la catastrophe ferroviaire d’Urda, qui a fait au moins 68 morts mercredi. Au-delà de l’“erreur humaine” mise en avant par l’exécutif, les médias espagnols évoquent une “crise de confiance” et un problème “structurel”.",
+      "lien": "https://www.courrierinternational.com/article/transports-la-presse-espagnole-reclame-des-comptes-a-pedro-sanchez-apres-la-catastrophe-ferroviaire-d-urda_282285",
+      "date": "2026-10-29T05:15:06+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/10/28/0/0/7699/5133/644/0/60/0/94b7e89_ftp-1-49od5ci3pzho-afp-d4q64b2.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "En Espagne, la collision meurtrière entre deux trains fragilise-t-elle la campagne législative de Pedro Sánchez ?",
+      "resume": "L'Espagne est en deuil, après la catastrophe ferroviaire survenue mercredi 28 octobre. À un mois des législatives anticipées, Pedro Sánchez promet une enquête complète. Mais ce drame pourrait compliquer la campagne du chef du gouvernement sortant, déjà fragilisée, notamment par la crise du logement.",
+      "lien": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/en-espagne-la-collision-meurtriere-entre-deux-trains-fragilise-t-elle-la-campagne-legislative-de-pedro-sanchez_8258009.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T23:09:16+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/-5t0y-aU6c9upk7yTmZGaKHD8Tk/0x11:986x566/432x243/filters:format(jpg)/2026/10/29/6ae280897389e628886301.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Collision meurtrière entre deux trains en Espagne : la piste d'une erreur humaine privilégiée",
+      "resume": "Un accident ferroviaire survenu ce mercredi 28 octobre en Espagne a fait au moins 68 morts. Selon les premiers éléments des investigations, la piste d'une erreur humaine est privilégiée à la suite d’une panne de signalisation.",
+      "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/collision-meurtriere-entre-deux-trains-en-espagne-la-piste-d-une-erreur-humaine-privilegiee_8257868.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T21:59:27+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/1gTjwwCtm6NcnnoPoTyEGTTykTA/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/28/6ae24ef8e4782716207855.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"Si je n'étais pas parti chercher un café, je serais parmi les morts\" : en Espagne, l'incrédulité des rescapés de la collision meurtrière entre deux trains",
+      "resume": "C'est la pire catastrophe ferroviaire depuis 2013 en Espagne. Deux trains sont entrés en collision, mercredi, au sud de Madrid, faisant au moins 68 morts et une centaine de blessés.",
+      "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/les-gens-criaient-et-pleuraient-au-moins-68-morts-apres-un-accident-ferroviaire-en-espagne_8257865.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-28T22:44:06+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/fiB8cYC_HfGdzD-rhWR9Xup87WI/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/28/6ae254bf28f77299848549.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Derrière le tragique accident ferroviaire en Espagne, des actions «inexplicables» et une terrible erreur humaine",
+      "resume": "RECIT - Alors que le bilan mercredi soir s’élevait à 68 morts après la collision entre deux trains, le ministère espagnol des Transports a pointé du doigt une erreur de la part du gestionnaire du réseau.",
+      "lien": "https://www.lefigaro.fr/international/derriere-le-tragique-accident-ferroviaire-en-espagne-des-actions-inexplicables-et-une-terrible-erreur-humaine-20261028",
+      "date": "2026-10-29T06:29:01+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2850x1602_crop/2026/10/28/411357eada4533de8a1b2b2471d13558c01921aa6c1ae1794159e5efd5728c47.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Collision entre deux trains en Espagne : le pays entame trois jours de deuil, le gouvernement face à de vives critiques",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/espagne/collision-entre-deux-trains-en-espagne-le-pays-entame-trois-jours-de-deuil-le-gouvernement-face-a-de-vives-critiques-29-10-2026-GAVBLOJDGRFW5EKEKHLSZGRBKE.php",
+      "date": "2026-10-29T07:51:05.438725+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Il y avait des bagages qui volaient, des gens qui criaient » : l’effroi des rescapés de la catastrophe ferroviaire en Espagne",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/tangui-rescape-de-la-catastrophe-ferroviaire-en-espagne-il-y-avait-des-bagages-qui-volaient-des-gens-qui-criaient-28-10-2026-3Z4575TSAFDNRHRK6EUJKHOCWM.php",
+      "date": "2026-10-29T07:51:05.439532+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Panne informatique puis « erreur humaine » : que sait-on des causes de la collision meurtrière de train en Espagne ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/espagne/panne-informatique-puis-erreur-humaine-que-sait-on-des-causes-de-la-collision-meurtriere-de-train-en-espagne-28-10-2026-FRHKNSCOY5AUBKKIH4BUZMK4S4.php",
+      "date": "2026-10-29T07:51:05.439713+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Nous n’avons pas de nouvelles » : sur les réseaux sociaux, les avis de disparition se multiplient après la collision de trains en Espagne",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/nous-navons-pas-de-nouvelles-sur-les-reseaux-sociaux-les-avis-de-disparition-se-multiplient-apres-la-collision-de-trains-en-espagne-28-10-2026-GMZ6K3IXPRB67KZCJRUWPUB6FM.php",
+      "date": "2026-10-29T07:51:05.439852+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Au moins 68 morts et 108 blessés, trois jours de deuil national… Ce que l’on sait au lendemain de la collision entre deux trains en Espagne",
+      "resume": "L’Espagne a entamé ce jeudi 29 octobre 2026 trois jours de deuil national après la collision survenue la veille entre deux trains, qui a fait au moins 68 morts et plus d’une centaine de blessés. Il s’agit de la pire tragédie ferroviaire dans ce pays depuis 2013, moins d’un an après une collision qui avait fait 46 morts.",
+      "lien": "https://www.nicematin.com/faits-divers/au-moins-68-morts-et-108-blesses-trois-jours-de-deuil-national-ce-que-l-on-sait-au-lendemain-de-la-collision-entre-deux-trains-en-espagne-10748348",
+      "date": "2026-10-29T06:38:38+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/83/48/OG-10748348-1200-800-5b592be_ftp-1-xyqpdqif8v6w-00775685-000003.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Accident de trains en Espagne : au moins 68 morts après la collision entre deux trains, un deuil de trois jours décrété... Suivez le fil des infos",
+      "resume": "L’Espagne a entamé jeudi 29 octobre trois jours de deuil national après la collision mercredi entre deux trains qui a fait au moins 68 morts et plus d’une centaine de blessés. Il s’agit de la pire tragédie",
+      "lien": "https://www.sudouest.fr/faits-divers/accident-de-trains-en-espagne-au-moins-68-morts-apres-la-collision-entre-deux-trains-un-deuil-de-trois-jours-decrete-suivez-le-fil-des-infos-31286055.php",
+      "date": "2026-10-29T05:15:44+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31286055/1200x-1/20261028190523-32154912.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Collision mortelle de trains en Espagne : au moins 68 morts et 108 blessés selon un nouveau bilan, Pedro Sanchez annonce trois jours de deuil national",
+      "resume": "Deux trains sont entrés en collision en Espagne, sur la ligne ferroviaire à grande vitesse Madrid-Séville. Selon les autorités locales, l'accident a fait \"plusieurs dizaines de morts\". La Dépêche du Midi vous propose...",
+      "lien": "https://www.ladepeche.fr/2026/10/28/direct-collision-mortelle-de-trains-en-espagne-au-moins-dix-morts-selon-les-autorites-locales-qui-evoquent-un-bilan-qui-pourrait-salourdir-13624357.php",
+      "date": "2026-10-28T22:00:34+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae1e2239275dd28430076c7/standard/image.jpg?v=3"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Collision entre deux trains en Espagne : au lendemain du terrible drame, le pays entame trois jours de deuil national",
+      "resume": "L’Espagne entame jeudi trois jours de deuil national après la collision ferroviaire en Castille-La Manche qui a fait au moins 68 morts et 108 blessés. Une panne de signalisation suivie d’un ordre de marche erroné du...",
+      "lien": "https://www.midilibre.fr/2026/10/29/collision-entre-deux-trains-en-espagne-au-lendemain-du-terrible-drame-le-pays-entame-trois-jours-de-deuil-national-13625897.php",
+      "date": "2026-10-29T07:08:16+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae2ec686ec4e9acde0ca71a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Collision entre deux trains en Espagne : retour sur les accidents de trains les plus meurtriers en Europe de ces 20 dernières années",
+      "resume": "La collision de deux trains en Espagne, ce mercredi 28 octobre, à 150 km au sud de Madrid, rappelle les tragédies ferroviaires qui se sont déroulées en Europe. Retour sur les accidents les plus meurtriers de ces deux...",
+      "lien": "https://www.midilibre.fr/2026/10/29/collision-entre-de-tgv-en-espagne-retour-sur-les-accidents-de-trains-les-plus-meurtriers-en-europe-de-ces-20-dernieres-annees-13625319.php",
+      "date": "2026-10-29T06:51:47+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae253c1b78135ba61030b70/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "Courrier international",
+     "Euronews",
+     "La Dépêche",
+     "Le Figaro",
+     "Le Figaro France",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "RTS",
+     "Sud Ouest",
+     "franceinfo",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "accide",
+     "catast",
+     "collis",
+     "deuil",
+     "espagn",
+     "ferrov",
+     "morts",
+     "trains"
+    ],
+    "score": 82.9992633786111,
+    "suite": "Une collision de trains en Espagne fait au moins 68 morts",
+    "pays": "Espagne",
+    "requete": "Madrid Spain",
+    "prioritaire": false,
+    "titre": "Espagne : trois jours de deuil après la collision d'Urda",
+    "texte": "L'Espagne observe trois jours de deuil national après une collision entre deux trains qui a fait au moins 68 morts. Plus d'une centaine de blessés sont recensés, et le gouvernement évoque une erreur du gestionnaire du réseau.",
+    "texte_long": "L'Espagne observe trois jours de deuil national après une collision entre deux trains qui a fait au moins 68 morts. Plus d'une centaine de blessés sont recensés, et le gouvernement évoque une erreur du gestionnaire du réseau.",
+    "flash": "L'Espagne observe trois jours de deuil après une collision ferroviaire qui a fait au moins 68 morts.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "68",
+     "legende": "morts au moins"
+    },
+    "iso": [
+     "ESP"
+    ],
+    "personne": "Pedro Sánchez",
+    "avec": null,
+    "chiffre": {
+     "nombre": "68",
+     "legende": "morts au moins"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Ferroviaire",
+     "#Espagne"
+    ],
+    "liens": {
+     "Courrier international": "https://www.courrierinternational.com/article/transports-la-presse-espagnole-reclame-des-comptes-a-pedro-sanchez-apres-la-catastrophe-ferroviaire-d-urda_282285",
+     "Euronews": "https://fr.euronews.com/2026/10/29/europe-today-deuxieme-catastrophe-de-train-a-grande-vitesse-en-neuf-mois-endeuille-lespagn",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/28/direct-collision-mortelle-de-trains-en-espagne-au-moins-dix-morts-selon-les-autorites-locales-qui-evoquent-un-bilan-qui-pourrait-salourdir-13624357.php",
+     "Le Figaro": "https://www.lefigaro.fr/international/derriere-le-tragique-accident-ferroviaire-en-espagne-des-actions-inexplicables-et-une-terrible-erreur-humaine-20261028",
+     "Le Figaro France": "https://www.lefigaro.fr/international/derriere-le-tragique-accident-ferroviaire-en-espagne-des-actions-inexplicables-et-une-terrible-erreur-humaine-20261028",
+     "Le Parisien": "https://www.leparisien.fr/international/espagne/collision-entre-deux-trains-en-espagne-le-pays-entame-trois-jours-de-deuil-le-gouvernement-face-a-de-vives-critiques-29-10-2026-GAVBLOJDGRFW5EKEKHLSZGRBKE.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/29/collision-entre-deux-trains-en-espagne-au-lendemain-du-terrible-drame-le-pays-entame-trois-jours-de-deuil-national-13625897.php",
+     "Nice-Matin": "https://www.nicematin.com/faits-divers/au-moins-68-morts-et-108-blesses-trois-jours-de-deuil-national-ce-que-l-on-sait-au-lendemain-de-la-collision-entre-deux-trains-en-espagne-10748348",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/espagne-au-moins-68-morts-dans-une-collision-de-trains-29399423.html?rts_source=rss_t",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/accident-de-trains-en-espagne-au-moins-68-morts-apres-la-collision-entre-deux-trains-un-deuil-de-trois-jours-decrete-suivez-le-fil-des-infos-31286055.php",
+     "franceinfo": "https://www.franceinfo.fr/replay-magazine/franceinfo/a-suivre-avec-loic-de-la-mornais/a-suivre-avec-loic-de-la-mornais-catastrophe-ferroviaire-l-espagne-en-deuil_8258351.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/en-espagne-la-collision-meurtriere-entre-deux-trains-fragilise-t-elle-la-campagne-legislative-de-pedro-sanchez_8258009.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "29 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "Au moins 927 personnes sans-abri sont mortes en 2025, selon un collectif",
+      "resume": "Le collectif Les Morts de la Rue note ainsi que les décès signalés par ses partenaires institutionnels ont marqué le pas en 2025 après avoir constitué «l’essentiel de la croissance du recensement» ces dernières années.",
+      "lien": "https://www.lefigaro.fr/actualite-france/au-moins-927-personnes-sans-abri-sont-mortes-en-2025-selon-un-collectif-20261029",
+      "date": "2026-10-29T07:44:24+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2002_crop/2026/10/29/2712cc56d5b8b5d835c4da21b9dc8647e7bf3aaa21ccbe62d49c1c9f5cf82c9e.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Un palier » mais « pas une baisse de la mortalité » : au moins 927 personnes sans-abri sont décédées en 2025, selon un collectif",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/un-palier-mais-pas-une-baisse-de-la-mortalite-au-moins-927-personnes-sans-abri-sont-decedees-en-2025-selon-un-collectif-29-10-2026-DDA4VIVMANGFLHXUVIFFWOTUQA.php",
+      "date": "2026-10-29T07:51:05.438785+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« Des chiffres ni exhaustifs, ni définitifs » : au moins 927 personnes sans-abri sont mortes dans les rues de France en 2025",
+      "resume": "Au moins 927 personnes sans abri sont décédées en 2025, indique ce jeudi 29 octobre 2026 le collectif Les Morts de la Rue. Un bilan dramatique, en léger recul par rapport à 2024.",
+      "lien": "https://www.nicematin.com/societe/social/des-chiffres-ni-exhaustifs-ni-definitifs-au-moins-927-personnes-sans-abri-sont-mortes-dans-les-rues-de-france-en-2025-10748313",
+      "date": "2026-10-29T05:51:25+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/83/13/OG-10748313-1200-800-44416e0_ftp-1-c7hgw6fzpn7g-20260526vdn2315.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Au moins 927 personnes sans-abri sont décédées en 2025 en France, selon le collectif Les Morts de la Rue",
+      "resume": "Le collectif Les Morts de la Rue a publié son rapport annuel, dénombrant au moins 927 décès de personnes sans-abri en 2025, un chiffre en léger recul par rapport à 2024, mais qui ne traduit pas une baisse",
+      "lien": "https://www.sudouest.fr/economie/social/au-moins-927-personnes-sans-abri-sont-decedees-en-2025-en-france-selon-le-collectif-les-morts-de-la-rue-31286066.php",
+      "date": "2026-10-29T05:26:20+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31286066/1200x-1/sudouest-photo-1-14226758.jpg"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Société. « Ils ne laissent pas de trace » : un collectif dénonce l’invisibilisation des morts sans-abri",
+      "resume": "Le collectif Les Morts de la rue publie ce jeudi un rapport alarmant sur les décès de personnes sans domicile fixe. Au moins 927 sont mortes l’année dernière en France. Mais en raison d’un manque criant de données sur cette population invisibilisée, « la réalité est nécessairement pire », alerte le collectif.",
+      "lien": "https://www.leprogres.fr/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+      "date": "2026-10-29T06:00:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Société. « Ils ne laissent pas de trace » : un collectif dénonce l’invisibilisation des morts sans-abri",
+      "resume": "Le collectif Les Morts de la rue publie ce jeudi un rapport alarmant sur les décès de personnes sans domicile fixe. Au moins 927 sont mortes l’année dernière en France. Mais en raison d’un manque criant de données sur cette population invisibilisée, « la réalité est nécessairement pire », alerte le collectif.",
+      "lien": "https://www.ledauphine.com/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+      "date": "2026-10-29T06:00:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/D9D70571-92DB-425F-9DD1-6D7DDD682EA9/NW_listB/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-sans-abri-1793217443.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Société. « Ils ne laissent pas de trace » : un collectif dénonce l’invisibilisation des morts sans-abri",
+      "resume": "Le collectif Les Morts de la rue publie ce jeudi un rapport alarmant sur les décès de personnes sans domicile fixe. Au moins 927 sont mortes l’année dernière en France. Mais en raison d’un manque criant de données sur cette population invisibilisée, « la réalité est nécessairement pire », alerte le collectif.",
+      "lien": "https://www.dna.fr/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+      "date": "2026-10-29T06:00:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "DNA",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès",
+     "Nice-Matin",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "2025",
+     "927",
+     "abri",
+     "collec",
+     "denonc",
+     "ils",
+     "morts",
+     "person"
+    ],
+    "score": 79.99926308222223,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Au moins 927 sans-abri sont morts en France en 2025",
+    "texte": "Au moins 927 personnes sans-abri sont mortes en France en 2025, selon le collectif Les Morts de la Rue. Ce chiffre est en léger recul par rapport à 2024, mais le collectif juge la réalité sans doute plus lourde.",
+    "texte_long": "Au moins 927 personnes sans-abri sont mortes en France en 2025, selon le collectif Les Morts de la Rue. Ce chiffre est en léger recul par rapport à 2024, mais le collectif juge la réalité sans doute plus lourde.",
+    "flash": "Au moins 927 personnes sans-abri sont mortes en France en 2025, selon le collectif Les Morts de la Rue.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "927",
+     "legende": "sans-abri morts en 2025"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "927",
+     "legende": "sans-abri morts en 2025"
+    },
+    "lien": null,
+    "hashtags": [
+     "#SansAbri",
+     "#Societe"
+    ],
+    "liens": {
+     "DNA": "https://www.dna.fr/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+     "Le Dauphiné": "https://www.ledauphine.com/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+     "Le Figaro France": "https://www.lefigaro.fr/actualite-france/au-moins-927-personnes-sans-abri-sont-mortes-en-2025-selon-un-collectif-20261029",
+     "Le Parisien": "https://www.leparisien.fr/societe/un-palier-mais-pas-une-baisse-de-la-mortalite-au-moins-927-personnes-sans-abri-sont-decedees-en-2025-selon-un-collectif-29-10-2026-DDA4VIVMANGFLHXUVIFFWOTUQA.php",
+     "Le Progrès": "https://www.leprogres.fr/societe/2026/10/29/ils-ne-laissent-pas-de-trace-un-collectif-denonce-l-invisibilisation-des-morts-de-sans-abri",
+     "Nice-Matin": "https://www.nicematin.com/societe/social/des-chiffres-ni-exhaustifs-ni-definitifs-au-moins-927-personnes-sans-abri-sont-mortes-dans-les-rues-de-france-en-2025-10748313",
+     "Sud Ouest": "https://www.sudouest.fr/economie/social/au-moins-927-personnes-sans-abri-sont-decedees-en-2025-en-france-selon-le-collectif-les-morts-de-la-rue-31286066.php"
+    },
+    "date_affichee": "29 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "Présidentielle 2027 : à la peine dans les sondages, Gabriel Attal propose une «grande primaire des démocrates» pour éviter un duel LFI-RN",
+      "resume": "Invité mercredi du « 20 heures » de TF1, le candidat Renaissance à la présidentielle a dit redouter par-dessus tout un second tour entre LFI et le RN, dont son camp serait exclu. Mais son idée a été accueillie très froidement chez Édouard Philippe et Bruno Retailleau.",
+      "lien": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-a-la-peine-dans-les-sondages-gabriel-attal-propose-une-grande-primaire-des-democrates-20261028",
+      "date": "2026-10-29T01:15:08+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/10/28/dc5746b6376083a894fce24c3d96f02b48db5e80c2b4cac4c7653af6381acdaf.JPG"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Présidentielle 2027 : WhatsApp, invisibiliser le RN… LFI lance son « armée » sur les réseaux, pour faire « comme au Brésil »",
+      "resume": "Après la victoire de Lula, des militants LFI veulent s’inspirer de la méthode du député brésilien André Janones qui a accompagné le candidat du PT pour remporter l’élection présidentielle grâce, entre autres, à son « armée » sur WhatsApp",
+      "lien": "https://www.20minutes.fr/politique/4258359-20261029-presidentielle-2027-whatsapp-invisibiliser-rn-lfi-lance-armee-reseaux-faire-comme-bresil?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T06:39:07+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/pFF68I9fSyimXzUsClBM3yk/1200x768_luiz-inacio-lula-da-silva-ancien-president-de-la-republique-federative-du-bresil-rencontre-jean-luc-melenchon-candidat-de-la-france-insoumise-a-la-presidentielle-a-l-hotel-pont-royal-a-paris-mercredi-17-novembre-2021-photographie-de-jeanne-accorsini-sipa-press-luiz-inacio-lula-da-silva-ancien-president-de-la-republique-federale-du-bresil-rencontre-jean-luc-melenchon-candidat-de-la-france-insoumise-aux-elections-presidentielles-a-l-hotel-pont-royal-a-paris-mercredi-17-novembre-2021-photographie-de-jeanne-accorsini-sipa-press-accorsini-jeanne-1030-2111171646-credit-jeanne-accorsini-sipa-2111171651"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Présidentielle 2027 : « Il nous faut un autre candidat », alertent des macronistes déçus par Philippe et Attal",
+      "resume": "Alors que les candidats Renaissance et Horizons stagnent dans les sondages, plusieurs élus de l’ancien bloc central évoquent l’idée d’une autre candidature ou l’organisation d’une primaire",
+      "lien": "https://www.20minutes.fr/politique/4258243-20261029-presidentielle-2027-faut-autre-candidat-alertent-macronistes-decus-philippe-attal?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T06:07:37+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/PwWp9KIjSRu6ZALHlvW0gyk/1200x768_gabriel-attal-et-edouard-philippe"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Présidentielle 2027 : Attal veut une « primaire des démocrates », Philippe et Retailleau réticents",
+      "resume": "Le candidat Renaissance estime qu’une « primaire des démocrates » est le moyen d' « empêcher » un duel entre LFI et le RN au deuxième tour de la présidentielle",
+      "lien": "https://www.20minutes.fr/politique/4258468-20261029-presidentielle-2027-attal-veut-primaire-democrates-philippe-retailleau-reticents?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T02:06:07+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/2aQKwKUbSUOB1xpkPhBeWyk/1200x768_edouard-philippe-soiree-horizons-et-gabriel-attal-soiree-renaissance-pierre-yves-bournazel-s-adresse-a-ses-partisans-lors-d-un-grand-rassemblement-de-campagne-dans-le-cadre-des-elections-municipales-de-2026-a-paris-le-10-fevrier-l-evenement-a-rassemble-des-militants-et-des-habitants-locaux-avant-le-prochain-vote-dugad-frederic-1-000090-credit-franck-derouda-sipa-2602110949"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Gabriel Attal plaide pour l’organisation d’une « grande primaire des démocrates »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/presidentielle-2027-gabriel-attal-plaide-pour-lorganisation-dune-grande-primaire-des-democrates-28-10-2026-WGXD43JJS5BMROSDPMJOIIRAVA.php",
+      "date": "2026-10-29T07:51:05.439650+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Présidentielle 2027 : malgré la morosité ambiante, pourquoi les candidats ont-ils de l’optimisme à revendre ?",
+      "resume": "Marine Le Pen défend l’idée du bonheur. Gabriel Attal et Edouard Philippe veulent donner de l’espoir. Karim Bouamrane fait l’éloge du beau et de l’émancipation… Surjouent-ils tous la confiance, ou croient-ils vraiment aux temps meilleurs ?",
+      "lien": "https://www.ouest-france.fr/elections/presidentielle/malgre-la-morosite-ambiante-pourquoi-les-candidats-a-la-presidentielle-ont-ils-de-loptimisme-a-revendre-17afb5ee-d28d-11f1-81f2-0d14b9f9c452?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-29T07:28:53+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwMjY2NmI3ODMyZjg4NGRhMWY1MWM4YmM0ZDAwNDQxMGU?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=acaa346f3407814ebb34c7b1d6b1e277bfcfdf3100c80bc933bea94609c9f0f3"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Présidentielle 2027 : un système \"à bout de souffle\"... David Lisnard propose de geler les pensions de retraite de plus de 2 200 euros par mois",
+      "resume": "Une primaire de la droite et du centre sera-t-elle organisée ? Plusieurs candidats – comme Édouard Philippe ou Xavier Bertrand – s'inscrivent contre cet exercice au grand dam de David Lisnard ou encore de Gabriel...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/direct-presidentielle-2027-un-systeme-a-bout-de-souffle-david-lisnard-propose-de-geler-les-pensions-de-retraite-de-plus-de-2-200-euros-par-mois-13625896.php",
+      "date": "2026-10-29T06:20:42+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae2e514412e6e9fc2089420/standard/image.jpg?v=6"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DECRYPTAGE. Présidentielle 2027 : une primaire de la droite et du centre est-elle encore possible ?",
+      "resume": "Édouard Philippe, candidat à la présidentielle, est confronté à une baisse de popularité, talonné par Jean-Luc Mélenchon et Raphaël Glucksmann. Face à cette situation, des voix s'élèvent pour organiser une primaire...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/decryptage-presidentielle-2027-une-primaire-de-la-droite-et-du-centre-est-elle-encore-possible-13625204.php",
+      "date": "2026-10-29T05:41:04+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae2371cb0ff4e034604e4d2/standard/image.jpg?v=2"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : Édouard Philippe et Gabriel Attal peuvent-ils échapper au naufrage du macronisme ?",
+      "resume": "En rupture de ton avec Emmanuel Macron, Édouard Philippe et Gabriel Attal espèrent s'émanciper d'un président de plus en plus impopulaire. Mais les sondages témoignent d'une dynamique en berne pour les deux anciens...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/presidentielle-2027-edouard-philippe-et-gabriel-attal-peuvent-ils-echapper-au-naufrage-du-macronisme-13624449.php",
+      "date": "2026-10-29T05:41:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae1da615101e72d3a045f93/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "ENTRETIEN. Présidentielle 2027 : la primaire à droite peut-elle changer la donne ? \"Elle apporte un sursaut immédiat de légitimité\"",
+      "resume": "Alors que plusieurs candidats plaident pour une primaire du centre et de la droite, la perspective d'un scrutin commun soulève de nombreuses questions. Peut-il créer une dynamique et désigner un candidat légitime,...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/entretien-presidentielle-2027-la-primaire-a-droite-peut-elle-changer-la-donne-elle-apporte-un-sursaut-immediat-de-legitimite-13624949.php",
+      "date": "2026-10-29T05:23:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae22d012838e38a0e055694/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : la peur gagne les électeurs du centre et du centre-gauche selon une note de Terra Nova",
+      "resume": "Une note de Terra Nova révèle une inquiétude croissante chez les électeurs de Glucksmann, Philippe et Attal. Moins demandeurs de rupture, ils sont aussi moins certains de leur choix que les soutiens de Mélenchon et de...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/presidentielle-2027-la-peur-gagne-les-electeurs-du-centre-et-du-centre-gauche-selon-une-note-de-terra-nova-13625936.php",
+      "date": "2026-10-29T07:28:39+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae2f421d8936ae37d0dd1ac/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Présidentielle 2027. Doudounes, mugs, t-shirts, gourdes... les produits dérivés insolites des candidats",
+      "resume": "Des mugs du Rassemblement national aux doudounes sans manches d’Horizons, en passant par les maillots de foot de La France insoumise, les partis politiques déclinent leur identité en produits dérivés... pas toujours de bon goût.",
+      "lien": "https://www.leprogres.fr/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+      "date": "2026-10-29T07:45:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Présidentielle 2027. Doudounes, mugs, t-shirts, gourdes... les produits dérivés insolites des candidats",
+      "resume": "Des mugs du Rassemblement national aux doudounes sans manches d’Horizons, en passant par les maillots de foot de La France insoumise, les partis politiques déclinent leur identité en produits dérivés... pas toujours de bon goût.",
+      "lien": "https://www.ledauphine.com/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+      "date": "2026-10-29T07:45:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/EBCA230D-988A-4D28-882A-3CE970B0CEC4/NW_listB/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats-1793219354.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Présidentielle 2027. Doudounes, mugs, t-shirts, gourdes... les produits dérivés insolites des candidats",
+      "resume": "Des mugs du Rassemblement national aux doudounes sans manches d’Horizons, en passant par les maillots de foot de La France insoumise, les partis politiques déclinent leur identité en produits dérivés... pas toujours de bon goût.",
+      "lien": "https://www.estrepublicain.fr/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+      "date": "2026-10-29T07:45:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès",
+     "Ouest-France"
+    ],
+    "sig": [
+     "2027",
+     "attal",
+     "candid",
+     "democr",
+     "gabrie",
+     "grande",
+     "presid",
+     "primai"
+    ],
+    "score": 77.9992633225,
+    "suite": "Gabriel Attal propose une « grande primaire des démocrates »",
+    "pays": "Brésil",
+    "requete": "Brazil city",
+    "prioritaire": false,
+    "titre": "Gabriel Attal propose une « grande primaire des démocrates »",
+    "texte": "Gabriel Attal propose une « grande primaire des démocrates » pour éviter un second tour entre LFI et le RN. Édouard Philippe et Bruno Retailleau ont accueilli cette idée avec réticence.",
+    "texte_long": "Gabriel Attal propose une « grande primaire des démocrates » pour éviter un second tour entre LFI et le RN. Édouard Philippe et Bruno Retailleau ont accueilli cette idée avec réticence.",
+    "flash": "Gabriel Attal propose une « grande primaire des démocrates » pour éviter un duel entre LFI et le RN.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Gabriel Attal",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Presidentielle2027",
+     "#Primaire"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/politique/4258359-20261029-presidentielle-2027-whatsapp-invisibiliser-rn-lfi-lance-armee-reseaux-faire-comme-bresil?at_medium=display&at_campaign=149",
+     "L'Est Républicain": "https://www.estrepublicain.fr/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/29/direct-presidentielle-2027-un-systeme-a-bout-de-souffle-david-lisnard-propose-de-geler-les-pensions-de-retraite-de-plus-de-2-200-euros-par-mois-13625896.php",
+     "Le Dauphiné": "https://www.ledauphine.com/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+     "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-a-la-peine-dans-les-sondages-gabriel-attal-propose-une-grande-primaire-des-democrates-20261028",
+     "Le Parisien": "https://www.leparisien.fr/politique/presidentielle-2027-gabriel-attal-plaide-pour-lorganisation-dune-grande-primaire-des-democrates-28-10-2026-WGXD43JJS5BMROSDPMJOIIRAVA.php",
+     "Le Progrès": "https://www.leprogres.fr/elections/2026/10/29/doudounes-mugs-t-shirts-gourdes-les-produits-derives-insolites-des-candidats",
+     "Ouest-France": "https://www.ouest-france.fr/elections/presidentielle/malgre-la-morosite-ambiante-pourquoi-les-candidats-a-la-presidentielle-ont-ils-de-loptimisme-a-revendre-17afb5ee-d28d-11f1-81f2-0d14b9f9c452?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu"
+    },
+    "date_affichee": "29 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-29T07:51:26.370346+00:00",
+  "decision": null
  }
 ]
