@@ -1,1 +1,1046 @@
-[]
+[
+ {
+  "type": "edition",
+  "jeton": "476155",
+  "messages": {
+   "0": 897,
+   "1": 898,
+   "2": 899,
+   "3": 900,
+   "4": 901,
+   "5": 902
+  },
+  "id_fin": 903,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Législatives en Israël : le camp Netanyahu en tête mais sans majorité, selon les résultats officiels",
+      "resume": "Selon les ultimes résultats officiels des législatives en Israël, la coalition de droite et d'extrême droite de Benjamin Netanyahu recueille 53 sièges sur les 120 que compte le Parlement. Le bloc de l'opposition, emmené par Gadi Eisenkot, en obtient 48. Deux listes arabes raflent à elles seules 19 sièges et s'imposent comme de possibles faiseurs de roi.",
+      "lien": "https://www.france24.com/fr/moyen-orient/20261030-israel-legislatives-netanyahu-tete-sans-majorite-resultats-officiels-eisenkot-partis-arabes",
+      "date": "2026-10-30T01:52:55+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/0b800e90-d404-11f1-acfb-bf1914cabd52/w:1024/p:16x9/AP26300421850547-1.jpg"
+     },
+     {
+      "source": "France 24",
+      "titre": "🔴 Législatives en Israël : le camp de Netanyahu en tête mais sans majorité (résultats officiels)",
+      "resume": "",
+      "lien": "https://www.france24.com/fr/moyen-orient/20261029-en-direct-israel-legislatives-depouillement-fin-majorite-netanyahu-eisenkot",
+      "date": "2026-10-29T23:54:08+00:00",
+      "groupe": "France 24",
+      "image": ""
+     },
+     {
+      "source": "RFI",
+      "titre": "Législatives en Israël: le camp de Benyamin Netanyahu sans majorité, des tractations difficiles à venir",
+      "resume": "Le camp du Premier ministre israélien, Benyamin Netanyahu, est arrivé devant le bloc principal de l'opposition. Mais il est loin de la majorité pour garder le contrôle de la Knesset, selon les résultats finaux des élections législatives publiés dans la nuit du jeudi 29 au vendredi 30 octobre.",
+      "lien": "https://www.rfi.fr/fr/moyen-orient/20261030-l%C3%A9gislatives-en-isra%C3%ABl-le-camp-de-benyamin-netanyahu-en-t%C3%AAte-mais-sans-majorit%C3%A9",
+      "date": "2026-10-30T00:03:30+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/c8ccaf2c-d3f9-11f1-b372-1beafce15fea/w:1024/p:16x9/ISRAEL-LEGISLATIVES-NETANYAHU.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Législatives en Israël : le camp de Benyamin Nétanyahou arrive en tête mais sans majorité, selon les résultats définitifs",
+      "resume": "La coalition sortante de droite et d’extrême droite recueille 53 sièges à la Knesset. L’opposition menée par le centriste Gadi Eisenkot obtient 48 députés et les deux listes arabes en totalisent 19.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/legislatives-en-israel-le-camp-de-benyamin-netanyahou-arrive-en-tete-mais-sans-majorite-selon-les-resultats-definitifs_6802493_3210.html",
+      "date": "2026-10-30T01:00:41+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/28/481/0/5760/2880/644/322/60/0/faf952f_upload-1-rqzrcxh9aoaa-lgeai-qg-netanyahou-30.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "La coalition de droite et d'extrême droite de Benyamin Nétanyahou en tête mais sans majorité après la publication des résultats définitifs des élections législatives israéliennes",
+      "resume": "Le bloc de l'opposition emmené par le centriste Gadi Eisenkot obtient 48 sièges, contre 53 pour la coalition sortante de droite et d'extrême droite de Benyamin Nétanyahou. Les deux listes arabes Raam et la Liste unifiée raflent quant à elles 19 sièges.",
+      "lien": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/la-coalition-de-droite-et-d-extreme-droite-de-benyamin-netanyahou-en-tete-des-elections-en-israel-mais-sans-majorite-une-percee-historique-confirmee-pour-les-listes-arabes_8259809.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T07:19:43+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/S20OHXoqEjBZAwg-Twmw9AgsxGQ/0x0:5000x2812/432x243/filters:format(jpg)/2026/10/30/6ae4256d363da896078722.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Législatives en Israël : une alliance pourrait-elle faire chuter Benjamin Netanyahou ?",
+      "resume": "Qui va gouverner en Israël ? C'est la grande question qui se pose avec des élections législatives lors desquelles le parti de Benjamin Netanyahou est arrivé en tête, mais pas assez pour former un gouvernement. L'opposition songe à une alliance pour le faire tomber.",
+      "lien": "https://www.franceinfo.fr/monde/israel/legislatives-en-israel-une-alliance-pourrait-elle-faire-chuter-benjamin-netanyahou_8259467.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T21:05:35+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/hGbiYUTQ8EsaqKjkMCxqFIcF3X0/0x8:1506x855/432x243/filters:format(jpg)/2026/10/29/6ae3b4f038f68115624087.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "Le camp de Benjamin Netanyahu vainqueur mais sans majorité, selon les résultats définitifs",
+      "resume": "Le camp du Premier ministre israélien sortant Benjamin Netanyahu est arrivé devant le bloc principal de l'opposition lors des élections législatives de mardi, selon les résultats finaux. Il est cependant loin de la majorité pour garder le contrôle du Parlement.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/elections-en-israel-netanyahou-en-tete-mais-sans-majorite-29400265.html?rts_source=rss_t",
+      "date": "2026-10-30T00:17:17+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/5437be08-29400266.image?w=320&h=180"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Législatives en Israël : Netanyahou officiellement en tête mais sans majorité à la Knesset",
+      "resume": "Selon les chiffres officiels des élections en Israël, publiés dans la nuit de jeudi à vendredi, Netanyahou arrive en tête, mais sans majorité. Les partis arabes joueront un rôle décisif dans la formation d’une coalition",
+      "lien": "https://www.20minutes.fr/monde/israel/4258796-20261030-legislatives-israel-netanyahou-officiellement-tete-majorite-knesset?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T00:29:22+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/WXTXTZqjQHi86FEttT2wCyk/1200x768_28-octobre-2026-israel-jerusalem-le-premier-ministre-israelien-et-chef-du-parti-likoud-benjamin-netanyahou-s-adresse-a-des-partisans-au-siege-du-parti-a-jerusalem-a-la-suite-des-premiers-resultats-des-sondages-a-la-sortie-des-urnes-des-elections-legislatives-en-israel-photo-olivier-fitoussi-dpa-ur-newsml-dpa-com-20090101-261028-911-002831-olivier-fitoussi-dpa-sipa-2610280250"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "En Israël, Isaac Herzog, le président honorifique devenu arbitre d’une Knesset sans majorité",
+      "resume": "Faute de majorité, le président israélien, connu pour sa prudence et sa difficulté à trancher, pourrait pousser à un gouvernement d’union, comme Chaim Herzog, son père, quarante-deux ans plus tôt.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/en-israel-isaac-herzog-le-president-honorifique-devenu-arbitre-d-une-knesset-sans-majorite_6802757_3210.html",
+      "date": "2026-10-30T03:54:33+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/29/40/0/3480/1740/644/322/60/0/e0c2460_upload-1-4rxfdv86x2ei-000-a8gy8bj.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Toute l’info en 2 minutes : Halloween sous haute surveillance, Philippe témoin assisté et le camp de Netanyahou en tête",
+      "resume": "« 20 Minutes » a compilé pour vous les infos qu’il ne fallait pas manquer ce vendredi matin",
+      "lien": "https://www.20minutes.fr/societe/4258798-20261030-toute-info-2-minutes-halloween-sous-haute-surveillance-philippe-temoin-assiste-camp-netanyahou-tete?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T06:13:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/5595esFoRXWbivaJQVwb1yk/1200x768_securisation-de-l-arc-de-triomphe-par-les-gendarmes-lors-de-la-manifestation-en-soutien-au-mouvement-lyceen-et-pour-protester-contre-la-vie-chere-a-l-appel-des-gilets-jaunes-ce-samedi-17-octobre-2026-a-paris-paris-france-18-10-2026-des-gendarmes-securisent-l-arc-de-triomphe-lors-de-la-manifestation-de-soutien-au-mouvement-des-lyceens-et-de-protestation-contre-la-vie-chere-organisee-par-les-gilets-jaunes-le-samedi-17-octobre-2026-a-paris-paris-france-18-10-2026-harsin-manifetudiants-contreviechere025-credit-isa-harsin-sipa-2610181703"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Edouard Philippe placé sous le statut de témoin assisté dans une affaire de détournement de fonds publics",
+      "resume": "Edouard Philippe a été placé sous le statut de témoin assisté jeudi dans une enquête pour détournement de fonds publics, favoritisme et harcèlement moral au Havre",
+      "lien": "https://www.20minutes.fr/justice/4258786-20261029-edouard-philippe-place-sous-statut-temoin-assiste-affaire-detournement-fonds-publics?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T20:51:39+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/UWqbXUtdS8aL0wTSIPAMLik/1200x768_edouard-philippe-ancien-premier-ministre-francais-maire-du-havre-et-president-du-parti-politique-horizons-prononce-un-discours-lors-du-congres-du-parti-radical-parti-radical-a-dijon-france-dijon-11-octobre-2026-konrad-k-konrad-027-credit-konrad-k-sipa-2610111647"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Législatives en Israël : Netanyahou officiellement en tête mais sans majorité à la Knesset",
+      "resume": "Selon les chiffres officiels des élections en Israël, publiés dans la nuit de jeudi à vendredi, Netanyahou arrive en tête, mais sans majorité. Les partis arabes joueront un rôle décisif dans la formation d’une coalition",
+      "lien": "https://www.20minutes.fr/monde/israel/4258796-20261030-legislatives-israel-netanyahou-officiellement-tete-majorite-knesset?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T00:29:22+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/WXTXTZqjQHi86FEttT2wCyk/1200x768_28-octobre-2026-israel-jerusalem-le-premier-ministre-israelien-et-chef-du-parti-likoud-benjamin-netanyahou-s-adresse-a-des-partisans-au-siege-du-parti-a-jerusalem-a-la-suite-des-premiers-resultats-des-sondages-a-la-sortie-des-urnes-des-elections-legislatives-en-israel-photo-olivier-fitoussi-dpa-ur-newsml-dpa-com-20090101-261028-911-002831-olivier-fitoussi-dpa-sipa-2610280250"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "En Israël, le bloc de Netanyahou en tête des résultats finaux mais sans majorité, les partis arabes possibles faiseurs de roi",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/israel/en-israel-le-bloc-de-netanyahou-en-tete-des-resultats-finaux-mais-les-partis-arabes-possibles-faiseurs-de-roi-30-10-2026-L5GMQUSGLNH6RDHUUKEWXBJWIM.php",
+      "date": "2026-10-30T07:51:25.502173+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Accusations de détournement de fonds publics : Édouard Philippe placé sous le statut de témoin assisté",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/accusations-de-detournement-de-fonds-publics-edouard-philippe-place-sous-le-statut-de-temoin-assiste-29-10-2026-4NACFYRQMFD2JIUP6KBWO7KLHE.php",
+      "date": "2026-10-30T07:51:25.502652+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Législatives en Israël : le camp de Netanyahou en tête après les élections mais sans majorité",
+      "resume": "La coalition sortante de droite et d’extrême droite de Benyamin Netanyahou recueille 53 sièges sur les 120 que compte le Parlement israélien. L’absence de majorité à ce stade risque de provoquer des tractations",
+      "lien": "https://www.sudouest.fr/international/legislatives-en-israel-le-camp-de-netanyahou-en-tete-apres-les-elections-mais-sans-majorite-31299479.php",
+      "date": "2026-10-30T05:41:42+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31299479/1200x-1/20261028031104-31764212.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Soupçons de détournement de fonds publics au Havre : Édouard Philippe placé sous le statut de témoin assisté",
+      "resume": "L’ancien Premier ministre a été entendu par des juges d’instruction financiers dans l’enquête sur la gestion de la communauté d’agglomération du Havre. L’affaire avait démarré par une plainte d’une ancienne",
+      "lien": "https://www.sudouest.fr/politique/edouard-philippe/soupcons-de-detournement-de-fonds-publics-au-havre-edouard-philippe-place-sous-le-statut-de-temoin-assiste-31297331.php",
+      "date": "2026-10-29T21:01:09+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31297331/1200x-1/20261029213107-3356812.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Présidentielle 2027 : soupçonné de détournement de fonds publics au Havre, Édouard Philippe placé sous le statut de témoin assisté",
+      "resume": "L'idée d'une primaire \"démocrate\", plébiscitée par Gabriel Attal, est loin de faire son chemin. Plusieurs personnalités politiques, comme Dominique de Villepin, Xavier Bertrand ou Édouard Philippe, se disent opposées...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/direct-presidentielle-2027-soupconne-de-detournement-de-fonds-publics-au-havre-edouard-philippe-place-sous-le-statut-de-temoin-assiste-13627491.php",
+      "date": "2026-10-30T06:15:10+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4353408022f118d01c6da/standard/image.jpg?v=6"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Présidentielle 2027 : soupçonné de détournement de fonds publics au Havre, Edouard Philippe placé sous le statut de témoin assisté",
+      "resume": "Une primaire de la droite et du centre sera-t-elle organisée ? Plusieurs candidats – comme Édouard Philippe ou Xavier Bertrand – s'inscrivent contre cet exercice au grand dam de David Lisnard ou encore de Gabriel...",
+      "lien": "https://www.ladepeche.fr/2026/10/29/direct-presidentielle-2027-un-systeme-a-bout-de-souffle-david-lisnard-propose-de-geler-les-pensions-de-retraite-de-plus-de-2-200-euros-par-mois-13625896.php",
+      "date": "2026-10-29T21:50:17+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae3ad73f53aee20e00eae02/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Élections législatives en Israël : le camp du Premier ministre Benjamin Netanyahu devance le bloc d’opposition, mais n’obtient pas de majorité",
+      "resume": "La coalition sortante du Premier ministre Benjamin Netanyahu est arrivée en tête des législatives israéliennes de mardi avec 53 sièges sur 120, devançant les 48 députés du bloc centriste de Gadi Eisenkot. Ce score...",
+      "lien": "https://www.midilibre.fr/2026/10/30/elections-legislatives-en-israel-le-camp-du-premier-ministre-benjamin-netanyahu-devance-le-bloc-dopposition-mais-nobtient-pas-de-majorite-13627492.php",
+      "date": "2026-10-30T06:22:05+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4376da013c40e5b07b1c0/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Soupçons de détournement de fonds publics au Havre : le candidat à la présidentielle Édouard Philippe placé sous le statut de témoin assisté",
+      "resume": "Édouard Philippe, candidat Horizons à la présidentielle et maire du Havre, a été placé jeudi 29 octobre 2026 sous le statut de témoin assisté dans une enquête pour détournement de fonds publics, favoritisme et...",
+      "lien": "https://www.midilibre.fr/2026/10/29/soupcons-de-detournement-de-fonds-publics-au-havre-le-candidat-a-la-presidentielle-edouard-philippe-place-sous-le-statut-de-temoin-assiste-13626979.php",
+      "date": "2026-10-29T20:56:08+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae3b1562f0d833bf9089388/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Israël. Élections législatives : le camp de Netanyahou arrive en tête mais sans majorité",
+      "resume": "Le camp du Premier ministre est arrivé devant le bloc principal de l'opposition mais loin de la majorité pour garder le contrôle de la Knesset, selon les résultats finaux des élections législatives publiés dans la nuit de jeudi à vendredi.",
+      "lien": "https://www.leprogres.fr/politique/2026/10/30/elections-legislatives-le-camp-de-netanyahou-arrive-en-tete-mais-sans-majorite",
+      "date": "2026-10-30T05:39:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "DNA",
+      "titre": "Israël. Élections législatives : le camp de Netanyahou arrive en tête mais sans majorité",
+      "resume": "Le camp du Premier ministre est arrivé devant le bloc principal de l'opposition mais loin de la majorité pour garder le contrôle de la Knesset, selon les résultats finaux des élections législatives publiés dans la nuit de jeudi à vendredi.",
+      "lien": "https://www.dna.fr/politique/2026/10/30/elections-legislatives-le-camp-de-netanyahou-arrive-en-tete-mais-sans-majorite",
+      "date": "2026-10-30T05:39:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "DNA",
+      "titre": "Justice. Enquête pour détournement de fonds public : Edouard Philippe placé sous le statut de témoin assisté",
+      "resume": "L'ex-Premier ministre Edouard Philippe a été placé sous le statut de témoin assisté dans le cadre de l'enquête pour détournement de fonds public menée par le parquet national financier (PNF).",
+      "lien": "https://www.dna.fr/faits-divers-justice/2026/10/29/enquete-pour-detournement-de-fonds-public-edouard-philippe-place-sous-le-statut-de-temoin-assiste",
+      "date": "2026-10-29T20:34:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "DNA",
+     "France 24",
+     "La Dépêche",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "RFI",
+     "RTS",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "assist",
+     "camp",
+     "israel",
+     "legisl",
+     "majori",
+     "netany",
+     "philip",
+     "tete"
+    ],
+    "score": 132.99926747749998,
+    "suite": null,
+    "pays": "Israël",
+    "requete": "Jerusalem city",
+    "prioritaire": true,
+    "titre": "Israël : le camp Netanyahou en tête sans majorité",
+    "texte": "En Israël, la coalition de Benyamin Netanyahou arrive en tête des législatives, avec 53 sièges sur 120. Elle reste loin de la majorité, selon les résultats officiels.",
+    "texte_long": "En Israël, la coalition de Benyamin Netanyahou arrive en tête des législatives, avec 53 sièges sur 120. Elle reste loin de la majorité, selon les résultats officiels.",
+    "flash": "En Israël, la coalition de Benyamin Netanyahou arrive en tête des législatives avec 53 sièges sur 120, mais sans majorité.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "53",
+     "legende": "sièges sur 120"
+    },
+    "iso": [
+     "ISR"
+    ],
+    "personne": "Benyamin Netanyahou",
+    "avec": null,
+    "chiffre": {
+     "nombre": "53",
+     "legende": "sièges sur 120"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Diplomatie"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/israel/4258796-20261030-legislatives-israel-netanyahou-officiellement-tete-majorite-knesset?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/societe/4258798-20261030-toute-info-2-minutes-halloween-sous-haute-surveillance-philippe-temoin-assiste-camp-netanyahou-tete?at_medium=display&at_campaign=149",
+     "DNA": "https://www.dna.fr/politique/2026/10/30/elections-legislatives-le-camp-de-netanyahou-arrive-en-tete-mais-sans-majorite",
+     "France 24": "https://www.france24.com/fr/moyen-orient/20261030-israel-legislatives-netanyahu-tete-sans-majorite-resultats-officiels-eisenkot-partis-arabes",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/30/direct-presidentielle-2027-soupconne-de-detournement-de-fonds-publics-au-havre-edouard-philippe-place-sous-le-statut-de-temoin-assiste-13627491.php",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/30/legislatives-en-israel-le-camp-de-benyamin-netanyahou-arrive-en-tete-mais-sans-majorite-selon-les-resultats-definitifs_6802493_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/30/en-israel-isaac-herzog-le-president-honorifique-devenu-arbitre-d-une-knesset-sans-majorite_6802757_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/israel/en-israel-le-bloc-de-netanyahou-en-tete-des-resultats-finaux-mais-les-partis-arabes-possibles-faiseurs-de-roi-30-10-2026-L5GMQUSGLNH6RDHUUKEWXBJWIM.php",
+     "Le Progrès": "https://www.leprogres.fr/politique/2026/10/30/elections-legislatives-le-camp-de-netanyahou-arrive-en-tete-mais-sans-majorite",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/elections-legislatives-en-israel-le-camp-du-premier-ministre-benjamin-netanyahu-devance-le-bloc-dopposition-mais-nobtient-pas-de-majorite-13627492.php",
+     "RFI": "https://www.rfi.fr/fr/moyen-orient/20261030-l%C3%A9gislatives-en-isra%C3%ABl-le-camp-de-benyamin-netanyahu-en-t%C3%AAte-mais-sans-majorit%C3%A9",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/elections-en-israel-netanyahou-en-tete-mais-sans-majorite-29400265.html?rts_source=rss_t",
+     "Sud Ouest": "https://www.sudouest.fr/international/legislatives-en-israel-le-camp-de-netanyahou-en-tete-apres-les-elections-mais-sans-majorite-31299479.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/la-coalition-de-droite-et-d-extreme-droite-de-benyamin-netanyahou-en-tete-des-elections-en-israel-mais-sans-majorite-une-percee-historique-confirmee-pour-les-listes-arabes_8259809.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "Présidentielle au Brésil: la défaite de Flavio Bolsonaro ne marque pas «la fin du mouvement bolsonariste»",
+      "resume": "Au Brésil, la telenovela politique continue. Après la réélection de Lula, et alors que Flavio Bolsonaro s’est exilé aux États-Unis, qu’en est-il des orphelins du mouvement bolsonariste ? La fuite du candidat et fils de l'ancien président Jair Bolsonaro ne signifie pas la fin de son mouvement, dans une société brésilienne plus polarisée que jamais.",
+      "lien": "https://www.rfi.fr/fr/am%C3%A9riques/20261030-pr%C3%A9sidentielle-au-br%C3%A9sil-la-d%C3%A9faite-de-flavio-bolsonaro-ne-marque-pas-la-fin-du-mouvement-bolsonariste",
+      "date": "2026-10-30T07:34:34+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/85bc1d64-d429-11f1-bccf-d18c5759e759/w:1024/p:16x9/2026-10-29T032319Z-130326728-RC2RCOA6LVU8-RTRMADP-3-BRAZIL-USA-1.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Flavio Bolsonaro aurait fui le Brésil à bord d’un avion payé depuis les Etats-Unis",
+      "resume": "Le jet qui a transporté le sénateur brésilien et sa famille, mercredi, aurait été réglé par un intermédiaire à partir d’un compte bancaire américain. Selon le « Wall Street Journal » et le « New York Times ». L’appareil aurait, par ailleurs, été affrété par un conseiller de Donald Trump.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+      "date": "2026-10-30T02:50:26+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/28/175/0/2098/1049/644/322/60/0/6db3ab7_ftp-1-q8afmbhpqeow-219b1f2890ba4d439c607a606adb7549-0-c7743acb4c604086b0993de5a398fb2f.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "L'avion à bord duquel Bolsonaro a fui le Brésil a été payé depuis les Etats-Unis, affirme le propriétaire de la compagnie aérienne",
+      "resume": "Le quotidien The New York Times a écrit jeudi que l'avion aurait été affrété par Jason Miller, un conseiller du président américain Donald Trump. La Maison Blanche ne s'est pas exprimée à ce sujet.",
+      "lien": "https://www.franceinfo.fr/monde/bresil/l-avion-a-bord-duquel-bolsonaro-a-fui-le-bresil-a-ete-paye-depuis-les-etats-unis-affirme-le-proprietaire-de-la-compagnie-aerienne_8259803.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T07:25:15+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/356o2G_BYfoHZSwN0fi_DpXVRN4/0x430:5463x3503/432x243/filters:format(jpg)/2026/10/30/6ae42d145ca42989735584.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "L’avion à bord duquel Flavio Bolsonaro a fui le Brésil a été payé depuis les États-Unis",
+      "resume": "Selon les quotidiens « Wall Street Journal » et « New York Times », l’avion aurait été affrété par Jason Miller, un conseiller de Donald Trump",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4258814-20261030-avion-bord-duquel-flavio-bolsonaro-fui-bresil-paye-depuis-etats-unis?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T07:14:20+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/zvx-Mcb3S3m1qoa0lgNJ5Ck/1200x768_flavio-bolsonaro-arrive-a-l-aeroport-executif-de-miami-opa-locka-le-mercredi-28-octobre-2026-a-opa-locka-en-floride-ap-photo-marta-lavandier-flml303-26301499990407-2610281456"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Comment Flávio Bolsonaro a fui vers les États-Unis en jet privé avec “l’aide de la Maison-Blanche”",
+      "resume": "Après sa défaite à la présidentielle brésilienne, dimanche, face à Lula, le sénateur conservateur, visé par une série d’enquêtes judiciaires, est arrivé mercredi en Floride, où il s’est autoproclamé “leader” du Brésil. “The New York Times” et “The Wall Street Journal” font état de l’implication de Jason Miller, un conseiller du président américain Donald Trump.",
+      "lien": "https://www.courrierinternational.com/article/bresil-comment-flavio-bolsonaro-a-fui-vers-les-etats-unis-en-jet-prive-avec-l-aide-de-la-maison-blanche_282945",
+      "date": "2026-10-30T05:00:00+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/10/28/0/0/3000/2000/644/0/60/0/4dc91b1_ftp-1-pkran4raceon-afp-d4pc79e.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Flavio Bolsonaro aurait fui le Brésil à bord d’un avion payé depuis les Etats-Unis",
+      "resume": "Le jet qui a transporté le sénateur brésilien et sa famille, mercredi, aurait été réglé par un intermédiaire à partir d’un compte bancaire américain. Selon le « Wall Street Journal » et le « New York Times ». L’appareil aurait, par ailleurs, été affrété par un conseiller de Donald Trump.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+      "date": "2026-10-30T02:50:26+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/28/175/0/2098/1049/644/322/60/0/6db3ab7_ftp-1-q8afmbhpqeow-219b1f2890ba4d439c607a606adb7549-0-c7743acb4c604086b0993de5a398fb2f.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« J’ai été engagé par un broker des États-Unis » : l’avion à bord duquel Bolsonaro a fui le Brésil a-t-il été payé par un proche de Trump ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/jai-ete-engage-par-un-broker-des-etats-unis-lavion-a-bord-duquel-bolsonaro-a-fui-le-bresil-a-t-il-paye-par-un-proche-de-trump-30-10-2026-LPDMPOCQMRGWFNJS52CEW4A4OQ.php",
+      "date": "2026-10-30T07:51:25.502223+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Élections de mi-mandat aux États-Unis : Donald Trump annule ses meetings du week-end pour multiplier ses apparitions en virtuel",
+      "resume": "À quelques jours des élections de mi-mandat, le président américain Donald Trump annule ses déplacements physiques pour participer à une vingtaine d’interventions à distance",
+      "lien": "https://www.sudouest.fr/international/etats-unis/donald-trump/elections-de-mi-mandat-aux-etats-unis-donald-trump-annule-ses-meetings-du-week-end-pour-multiplier-ses-apparitions-en-virtuel-31299561.php",
+      "date": "2026-10-30T06:23:33+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31299561/1200x-1/20261029230104-331812.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Un versement de 150 000 dollars depuis une banque américaine : Flavio Bolsornaro a fui avec un avion payé depuis les États-Unis",
+      "resume": "Le sénateur brésilien Flavio Bolsonaro est arrivé mercredi en Floride après avoir fui le Brésil à bord d’un jet privé payé 150 000 dollars depuis un compte américain, a appris l’AFP jeudi. Cet exil du fils de l’ex...",
+      "lien": "https://www.midilibre.fr/2026/10/30/un-versement-de-150-000-dollars-depuis-une-banque-americaine-flavio-bolsornaro-a-fui-avec-un-avion-paye-depuis-les-etats-unis-13627518.php",
+      "date": "2026-10-30T07:35:05+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae448813cc61ddb590b922c/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "Courrier international",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "Midi Libre",
+     "RFI",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "avion",
+     "bolson",
+     "bresil",
+     "etats",
+     "flavio",
+     "fui",
+     "paye",
+     "unis"
+    ],
+    "score": 112.99926735833333,
+    "suite": null,
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Flavio Bolsonaro quitte le Brésil pour les États-Unis",
+    "texte": "Au Brésil, Flavio Bolsonaro, battu à la présidentielle, aurait quitté le pays à bord d'un avion payé depuis les États-Unis. Selon la presse américaine, l'appareil aurait été affrété par un conseiller de Donald Trump.",
+    "texte_long": "Au Brésil, Flavio Bolsonaro, battu à la présidentielle, aurait quitté le pays à bord d'un avion payé depuis les États-Unis. Selon la presse américaine, l'appareil aurait été affrété par un conseiller de Donald Trump.",
+    "flash": "Au Brésil, Flavio Bolsonaro aurait quitté le pays à bord d'un avion payé depuis les États-Unis, selon la presse américaine.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "BRA",
+     "USA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": {
+     "de": "USA",
+     "vers": "BRA",
+     "type": "echange"
+    },
+    "hashtags": [],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4258814-20261030-avion-bord-duquel-flavio-bolsonaro-fui-bresil-paye-depuis-etats-unis?at_medium=display&at_campaign=149",
+     "Courrier international": "https://www.courrierinternational.com/article/bresil-comment-flavio-bolsonaro-a-fui-vers-les-etats-unis-en-jet-prive-avec-l-aide-de-la-maison-blanche_282945",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/jai-ete-engage-par-un-broker-des-etats-unis-lavion-a-bord-duquel-bolsonaro-a-fui-le-bresil-a-t-il-paye-par-un-proche-de-trump-30-10-2026-LPDMPOCQMRGWFNJS52CEW4A4OQ.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/un-versement-de-150-000-dollars-depuis-une-banque-americaine-flavio-bolsornaro-a-fui-avec-un-avion-paye-depuis-les-etats-unis-13627518.php",
+     "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261030-pr%C3%A9sidentielle-au-br%C3%A9sil-la-d%C3%A9faite-de-flavio-bolsonaro-ne-marque-pas-la-fin-du-mouvement-bolsonariste",
+     "Sud Ouest": "https://www.sudouest.fr/international/etats-unis/donald-trump/elections-de-mi-mandat-aux-etats-unis-donald-trump-annule-ses-meetings-du-week-end-pour-multiplier-ses-apparitions-en-virtuel-31299561.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/bresil/l-avion-a-bord-duquel-bolsonaro-a-fui-le-bresil-a-ete-paye-depuis-les-etats-unis-affirme-le-proprietaire-de-la-compagnie-aerienne_8259803.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Cryptomonnaies : une cyberattaque massive pousse Binance à geler 2,5 milliards de dollars",
+      "resume": "Victime d'une cyberattaque massive, la plateforme de cryptomonnaies Binance a suspendu, jeudi, temporairement, tous les dépôts et retraits de fonds. Elle a évalué le montant total gelé à 2,54 milliards de dollars. Mais le cabinet Chainalysis estime, lui, le montant volé à environ 5,9 milliards de dollars. Binance promet de couvrir toutes les pertes.",
+      "lien": "https://www.france24.com/fr/%C3%A9co-tech/20261030-cryptomonnaies-binance-cyberattaque-massive-gel-2-5-milliards-de-dollars-bitcoin-ether",
+      "date": "2026-10-30T03:15:02+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/9baaa84a-9069-11ee-a55a-005056bfb2b6/w:1024/p:16x9/2023-11-24T134442Z_540451245_RC2OJ4ABFUX9_RTRMADP_3_FINTECH-BINANCE-TENG.JPG"
+     },
+     {
+      "source": "Radio-Canada",
+      "titre": "Cryptomonnaies : Binance fait état d’une cyberattaque massive",
+      "resume": "Dans ce contexte, le cours du bitcoin s'est nettement replié.",
+      "lien": "https://ici.radio-canada.ca/nouvelle/2297003/cryptomonnaies-binance-cyberattaque-massive",
+      "date": "2026-10-30T02:53:07+00:00",
+      "groupe": "Radio-Canada",
+      "image": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/crypto-cyber-attaque-massive.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Cryptomonnaies : la plateforme Binance annonce avoir été victime d’un important piratage, dont le préjudice est estimé à 6,3 milliards de dollars",
+      "resume": "La plateforme a publié sur X plusieurs messages contradictoires, assurant d’abord que tous les fonds déposés par les clients sur son site étaient « totalement à l’abri », avant d’affirmer, un peu plus tard, qu’elle couvrirait « toutes les pertes ».",
+      "lien": "https://www.lemonde.fr/pixels/article/2026/10/30/cryptomonnaies-binance-annonce-avoir-ete-victime-d-un-important-piratage-dont-le-prejudice-est-estime-a-6-3-milliards-de-dollars_6802872_4408996.html",
+      "date": "2026-10-30T06:41:12+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/06/24/339/0/3500/1750/644/322/60/0/14f17d7_ftp-1-iuaif5k1gj6w-2026-06-24t111449z-1839853244-rc22pgazfu9w-rtrmadp-3-binance-licence-europe.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Fonds gelés, 6,3 milliards de dollars de préjudice : la cyberattaque massive de la plateforme Binance plonge le secteur des cryptos dans la panique",
+      "resume": "RÉCIT - Binance a annoncé qu’elle avait été victime d’un important piratage dont le préjudice est estimé à quelque 6,3 milliards de dollars, la moitié des fonds ayant été gelés pour empêcher un siphonnage total.",
+      "lien": "https://www.lefigaro.fr/secteur/high-tech/fonds-geles-pres-de-6-milliards-de-dollars-voles-cyberattaque-massive-le-piratage-de-la-plateforme-binance-plonge-le-secteur-des-cryptos-dans-la-panique-20261030",
+      "date": "2026-10-30T06:25:20+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x1715_crop/2026/10/30/b029c3150b23c4d942cd85591f50befce9e4e2b0f9b754b34697901d1d643d6e.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Le bitcoin dévisse après des rumeurs de cyberattaque massive sur la plateforme de cryptomonnaies Binance",
+      "resume": "Alors que plusieurs spécialistes ont fait état de détournements colossaux, Binance a assuré jeudi soir que les fonds déposés par les clients sur son site étaient «totalement à l’abri».",
+      "lien": "https://www.lefigaro.fr/secteur/high-tech/le-bitcoin-devisse-apres-des-rumeurs-de-cyberattaque-massive-sur-la-plateforme-de-cryptomonnaies-binance-20261029",
+      "date": "2026-10-30T06:09:59+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2082_crop/2026/10/29/efd3f3d6352f06f84de6effb197145ae3bd2081a71dd9ef2f84cc1352b721cdc.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "La plateforme de prédiction Polymarket victime d’une «intrusion», plusieurs millions de dollars potentiellement volés",
+      "resume": "Dans un message publié sur son compte X (ex-Twitter) la plateforme a affirmé qu’un de ses «prestataires tiers» avait été visé par une «intrusion». Sur les réseaux sociaux, certains utilisateurs assurent avoir perdu plusieurs centaines de milliers de dollars.",
+      "lien": "https://www.lefigaro.fr/secteur/high-tech/la-plateforme-de-prediction-polymarket-victime-d-une-intrusion-plusieurs-millions-de-dollars-potentiellement-voles-20261029",
+      "date": "2026-10-29T20:51:11+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/10/29/8aee55db211c372075f4970dd469f88d05005c44b2782c68504042e190586537.JPG"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Cyberattaque en cours sur la plateforme crypto Binance",
+      "resume": "C'est ce qu'on pourrait considérer comme le casse numérique du siècle. La plus grosse plateforme mondiale d'échange de crypto est victime d'un piratage de grande ampleur. Plus de 6 milliards de dollars d'actifs sont concernés.",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-cyberattaque-en-cours-sur-la-plateforme-crypto-binance_VN-202610300259.html",
+      "date": "2026-10-30T07:34:11+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/nrDFyUNLzxtu8Jn4v4eZqjLb_1c=/0x0:1280x720/800x0/images/Cyberattaque-en-cours-sur-la-plateforme-crypto-Binance-2374881.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Binance victime d'une cyberattaque massive, le préjudice est estimé à 6,3 milliards de dollars",
+      "resume": "Le préjudice du piratage de la plateforme de cryptomonnaies Binance est estimé à environ 6,3 milliards de dollars, soit près de quatre fois le montant dérobé lors de la plus grande cyberattaque de ce type jusqu'alors.",
+      "lien": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-binance-victime-d-une-cyberattaque-massive-le-prejudice-est-estime-a-6-3-milliards-de-dollars_VN-202610300232.html",
+      "date": "2026-10-30T07:09:43+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/RHJPbx5ampi3gwCAL8f7Jy4V1uc=/0x0:1280x720/800x0/images/Binance-victime-d-une-cyberattaque-massive-le-prejudice-est-estime-a-6-3-milliards-de-dollars-2374861.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "6,3 milliards de dollars impactés, dépôts et retraits suspendus : cinq minutes pour comprendre la cyberattaque de Binance",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/6-milliards-de-dollars-impactes-depots-et-retraits-suspendus-cinq-minutes-pour-comprendre-la-cyberattaque-de-binance-30-10-2026-2VNSQXXGARHE5IFDIWRGEPRQCU.php",
+      "date": "2026-10-30T07:51:25.501236+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Cryptomonnaies : Binance fait état d’une cyberattaque massive estimée à 6,3 milliards de dollars, le Bitcoin en chute",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/le-bitcoin-en-chute-apres-un-piratage-dune-des-principales-plateformes-dechange-30-10-2026-DUSTOHBPRBBHPI7CSMHO6GRDEE.php",
+      "date": "2026-10-30T07:51:25.502278+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Plus de 2 millions de dollars potentiellement volés : la plateforme Polymarket victime d’une cyberattaque",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/high-tech/plus-de-2-millions-de-dollars-potentiellement-voles-la-plateforme-polymarket-victime-dune-cyberattaque-29-10-2026-R2LO2OB6I5B2FLSM5A5LXY2KXM.php",
+      "date": "2026-10-30T07:51:25.502404+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Cryptomonnaies : Binance confirme une cyberattaque massive au préjudice record de 6,3 milliards de dollars",
+      "resume": "La plateforme d’échanges de cryptomonnaies Binance a été la cible d’un piratage historique, entraînant le gel de la moitié des fonds pour limiter les pertes",
+      "lien": "https://www.sudouest.fr/economie/cybersecurite/cryptomonnaies-binance-confirme-une-cyberattaque-massive-au-prejudice-record-de-6-3-milliards-de-dollars-31299472.php",
+      "date": "2026-10-30T05:29:45+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31299472/1200x-1/archive-quay-a1-34650896.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "\"Le montant total volé est d’environ 6,3 milliards\" : la plateforme Binance victime de la plus grande cyberattaque de l’histoire",
+      "resume": "La plateforme de cryptomonnaies Binance a suspendu ses opérations vendredi après une cyberattaque massive estimée à 6,3 milliards de dollars.",
+      "lien": "https://www.midilibre.fr/2026/10/30/le-montant-total-vole-est-denviron-63-milliards-la-plateforme-binance-victime-de-la-plus-grande-cyberattaque-de-lhistoire-13627504.php",
+      "date": "2026-10-30T06:51:47+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae43e058ab016f5410d81af/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Cryptomonnaies. Binance victime d'une cyberattaque : le préjudice estimé à 6,3 milliards de dollars",
+      "resume": "La plateforme d'échanges de cryptomonnaies a assuré qu'elle couvrirait « toutes les pertes » après avoir été victime d'un important piratage.",
+      "lien": "https://www.leprogres.fr/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+      "date": "2026-10-30T06:25:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Cryptomonnaies. Binance victime d'une cyberattaque : le préjudice estimé à 6,3 milliards de dollars",
+      "resume": "La plateforme d'échanges de cryptomonnaies a assuré qu'elle couvrirait « toutes les pertes » après avoir été victime d'un important piratage.",
+      "lien": "https://www.ledauphine.com/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+      "date": "2026-10-30T06:25:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/57ED19C8-F177-49EC-AC31-0D22D8178003/NW_listB/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars-1793341415.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Cryptomonnaies. Binance victime d'une cyberattaque : le préjudice estimé à 6,3 milliards de dollars",
+      "resume": "La plateforme d'échanges de cryptomonnaies a assuré qu'elle couvrirait « toutes les pertes » après avoir été victime d'un important piratage.",
+      "lien": "https://www.estrepublicain.fr/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+      "date": "2026-10-30T06:25:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "France 24",
+     "L'Est Républicain",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Monde France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Radio-Canada",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "binanc",
+     "crypto",
+     "cybera",
+     "dollar",
+     "massiv",
+     "millia",
+     "platef",
+     "victim"
+    ],
+    "score": 87.99926740861112,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Binance victime d'une cyberattaque, des fonds gelés",
+    "texte": "La plateforme de cryptomonnaies Binance a été victime d'une cyberattaque massive. Elle a gelé au moins 2,5 milliards de dollars et promet de couvrir toutes les pertes.",
+    "texte_long": "La plateforme de cryptomonnaies Binance a été victime d'une cyberattaque massive. Elle a gelé au moins 2,5 milliards de dollars et promet de couvrir toutes les pertes.",
+    "flash": "La plateforme de cryptomonnaies Binance a été victime d'une cyberattaque massive et promet de couvrir toutes les pertes.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "2,5 milliards",
+     "legende": "dollars gelés"
+    },
+    "iso": [
+     "MONDE"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "2,5 milliards",
+     "legende": "dollars gelés"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Cryptomonnaies"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-cyberattaque-en-cours-sur-la-plateforme-crypto-binance_VN-202610300259.html",
+     "France 24": "https://www.france24.com/fr/%C3%A9co-tech/20261030-cryptomonnaies-binance-cyberattaque-massive-gel-2-5-milliards-de-dollars-bitcoin-ether",
+     "L'Est Républicain": "https://www.estrepublicain.fr/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+     "Le Dauphiné": "https://www.ledauphine.com/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+     "Le Figaro France": "https://www.lefigaro.fr/secteur/high-tech/fonds-geles-pres-de-6-milliards-de-dollars-voles-cyberattaque-massive-le-piratage-de-la-plateforme-binance-plonge-le-secteur-des-cryptos-dans-la-panique-20261030",
+     "Le Monde France": "https://www.lemonde.fr/pixels/article/2026/10/30/cryptomonnaies-binance-annonce-avoir-ete-victime-d-un-important-piratage-dont-le-prejudice-est-estime-a-6-3-milliards-de-dollars_6802872_4408996.html",
+     "Le Parisien": "https://www.leparisien.fr/economie/6-milliards-de-dollars-impactes-depots-et-retraits-suspendus-cinq-minutes-pour-comprendre-la-cyberattaque-de-binance-30-10-2026-2VNSQXXGARHE5IFDIWRGEPRQCU.php",
+     "Le Progrès": "https://www.leprogres.fr/economie/2026/10/30/binance-victime-d-une-cyberattaque-le-prejudice-estime-a-6-3-milliards-de-dollars",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/le-montant-total-vole-est-denviron-63-milliards-la-plateforme-binance-victime-de-la-plus-grande-cyberattaque-de-lhistoire-13627504.php",
+     "Radio-Canada": "https://ici.radio-canada.ca/nouvelle/2297003/cryptomonnaies-binance-cyberattaque-massive",
+     "Sud Ouest": "https://www.sudouest.fr/economie/cybersecurite/cryptomonnaies-binance-confirme-une-cyberattaque-massive-au-prejudice-record-de-6-3-milliards-de-dollars-31299472.php"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Monde France",
+      "titre": "Le PIB français a reculé de 0,1 % au troisième trimestre, après avoir stagné au deuxième et reculé de 0,2 % au premier",
+      "resume": "« L’économie française est à l’arrêt », a réagi le ministre de l’économie et des finances, Roland Lescure. « La France ne va pas à la crise », mais « si on n’a pas le redressement budgétaire qu’on a mis dans le budget, on ira dans le mur », a-t-il prévenu.",
+      "lien": "https://www.lemonde.fr/economie/article/2026/10/30/le-pib-francais-a-recule-de-0-1-au-troisieme-trimestre-apres-avoir-stagne-au-deuxieme-trimestre-et-recule-de-0-2-au-premier_6802906_3234.html",
+      "date": "2026-10-30T06:52:38+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/428/0/5137/2568/644/322/60/0/43fcbc0_upload-1-rfhb2gr28way-000-c9936mm.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "La croissance en baisse de 0,1 % au troisième trimestre : le moteur de l'économie française toujours sans carburant",
+      "resume": "Le PIB est en recul de 0,1 %. La croissance française enchaîne les contre-performances depuis plusieurs trimestres.",
+      "lien": "https://www.lefigaro.fr/conjoncture/la-croissance-en-baisse-de-0-1-au-troisieme-trimestre-le-moteur-de-l-economie-francaise-toujours-sans-carburant-20261030",
+      "date": "2026-10-30T07:17:53+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x1688_crop/2026/10/30/e015103f40736233e3c93a96b864e260a53dd15c8feca05ba5bbaa830d378b6a.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Croissance Française : le PIB a reculé de 0.1% au T3",
+      "resume": "\"C'est un scénario plutôt noir pour l'économie française. Quand on fait la moyenne sur l'année, on est en début de récession\", explique Anthony Morlet-Lavidalie, économiste chez Rexecode sur le plateau de Good Morning Business",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-croissance-francaise-le-pib-a-recule-de-0-1-au-t3_VN-202610300247.html",
+      "date": "2026-10-30T07:21:48+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/cq594u8scbao-v8nCt12_LYDMuQ=/0x0:1280x720/800x0/images/Croissance-Francaise-le-PIB-a-recule-de-0-1-au-T3-2374871.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Anthony Morlet-Lavidalie (Rexecode) : Croissance française, le PIB a reculé de 0,1% au T3 - 30/10",
+      "resume": "Anthony Morlet-Lavidalie, économiste chez Rexecode, était l'invité de Sandra Gandoin dans Good Morning Business, ce vendredi 30 octobre. Il aborde le recul du PIB au T3, l'incertitude politique et fiscale qui pèse sur l'économie et le taux de chômage qui augmente en France, notamment chez les jeunes, sur BFM Business. Retrouvez l'émission du lundi au vendredi et réécoutez la en podcast.",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/le-grand-entretien/video-anthony-morlet-lavidalie-rexecode-croissance-francaise-le-pib-a-recule-de-0-1-au-t3-30-10_VN-202610300229.html",
+      "date": "2026-10-30T07:06:05+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/laTEz8ALejTxlQMDpdNOumZPyDk=/0x0:1280x720/800x0/images/Anthony-Morlet-Lavidalie-Rexecode-Croissance-francaise-le-PIB-a-recule-de-0-1-au-T3-30-10-2374859.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Croissance Française : le PIB a reculé de 0.1% au T3",
+      "resume": "Malgré une consommation des ménages qui s'accélère, Anthony Morlet-Lavidalie craint que cette dernière ne pâtisse davantage à l'avenir. Il s'inquiète de l'investissement, qui connaît des \"reculs qui touchent tous les acteurs\".",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-croissance-francaise-le-pib-a-recule-de-0-1-au-t3_VN-202610300225.html",
+      "date": "2026-10-30T07:05:58+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LRbrKD9Lk-AccUuQq0X8d61T99k=/0x0:1280x720/800x0/images/Croissance-Francaise-le-PIB-a-recule-de-0-1-au-T3-2374855.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« L’économie française est à l’arrêt » : le PIB a reculé de 0,1 % au troisième trimestre après avoir stagné au deuxième",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/france-le-pib-a-recule-de-01-au-troisieme-trimestre-apres-avoir-stagne-au-deuxieme-30-10-2026-HFSEUN6OEVHCRE7KYNEJ7B2T6Q.php",
+      "date": "2026-10-30T07:51:25.501310+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Le PIB de la France a reculé de 0,1 % au troisième trimestre, « l’économie française est à l’arrêt », affirme Roland Lescure",
+      "resume": "Le recul de l’activité s’explique principalement par une forte contraction des exportations, en particulier dans les matériels de transport, notamment l’aéronautique",
+      "lien": "https://www.sudouest.fr/economie/le-pib-de-la-france-a-recule-de-0-1-au-troisieme-trimestre-l-economie-francaise-est-a-l-arret-affirme-roland-lescure-31300286.php",
+      "date": "2026-10-30T07:39:12+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31300286/1200x-1/20261028113705-3193412.jpg"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "Le Figaro France",
+     "Le Monde France",
+     "Le Parisien",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "arret",
+     "croiss",
+     "econom",
+     "franca",
+     "pib",
+     "recule",
+     "trimes",
+     "troisi"
+    ],
+    "score": 87.99926710472222,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "La croissance française recule de 0,1 % au T3",
+    "texte": "En France, le PIB a reculé de 0,1 % au troisième trimestre, après une stagnation au deuxième. Le ministre de l'Économie, Roland Lescure, parle d'une économie à l'arrêt.",
+    "texte_long": "En France, le PIB a reculé de 0,1 % au troisième trimestre, après une stagnation au deuxième. Le ministre de l'Économie, Roland Lescure, parle d'une économie à l'arrêt.",
+    "flash": "En France, le PIB a reculé de 0,1 % au troisième trimestre, selon les chiffres publiés ce vendredi.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "0,1",
+     "legende": "pour cent de recul"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Roland Lescure",
+    "avec": null,
+    "chiffre": {
+     "nombre": "0,1",
+     "legende": "pour cent de recul"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Croissance"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-croissance-francaise-le-pib-a-recule-de-0-1-au-t3_VN-202610300247.html",
+     "Le Figaro France": "https://www.lefigaro.fr/conjoncture/la-croissance-en-baisse-de-0-1-au-troisieme-trimestre-le-moteur-de-l-economie-francaise-toujours-sans-carburant-20261030",
+     "Le Monde France": "https://www.lemonde.fr/economie/article/2026/10/30/le-pib-francais-a-recule-de-0-1-au-troisieme-trimestre-apres-avoir-stagne-au-deuxieme-trimestre-et-recule-de-0-2-au-premier_6802906_3234.html",
+     "Le Parisien": "https://www.leparisien.fr/economie/france-le-pib-a-recule-de-01-au-troisieme-trimestre-apres-avoir-stagne-au-deuxieme-30-10-2026-HFSEUN6OEVHCRE7KYNEJ7B2T6Q.php",
+     "Sud Ouest": "https://www.sudouest.fr/economie/le-pib-de-la-france-a-recule-de-0-1-au-troisieme-trimestre-l-economie-francaise-est-a-l-arret-affirme-roland-lescure-31300286.php"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "BFMTV",
+      "titre": "DIRECT. Colère sociale: François Ruffin estime que la \"France d'en haut se gave\" et constate \"la convergence des pourrissements\"",
+      "resume": "Alors que de nouvelles manifestations auront lieu partout en France ce samedi 31 octobre, une cellule interministérielle de crise s'est tenue jeudi en amont d'une journée que le ministre de l’Intérieur qualifie à \"risque très élevé\". Dans le même temps, l'examen du budget se poursuit à l'Assemblée.",
+      "lien": "https://www.bfmtv.com/politique/direct-colere-sociale-une-cellule-interministerielle-de-crise-s-est-tenue-hier-avant-de-nouvelles-manifestations-jugees-a-risque-tres-eleve-ce-samedi_LN-202610300140.html",
+      "date": "2026-10-30T05:55:00+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/o2UZiGUX-5WOcWJWIJgR7nnVCKI=/0x0:1920x1080/800x0/images/Francois-Ruffin-candidat-Debout-a-la-presidentielle-2027-sur-BFMTV-RMC-le-30-octobre-2026-2374878.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Crise sociale: François Ruffin, candidat “Debout!” à l’élection présidentielle, observe \"la convergence des pourrissements\" du gouvernement",
+      "resume": "François Ruffin, candidat à l’élection présidentielle, et député \"Debout!\" de la Somme, était l’invité du Face à Face sur RMC et BFMTV. Il évoque le “choix du pourrissement” du gouvernement.",
+      "lien": "https://www.bfmtv.com/politique/video-crise-sociale-francois-ruffin-candidat-debout-a-l-election-presidentielle-observe-la-convergence-des-pourrissements-du-gouvernement_VN-202610300273.html",
+      "date": "2026-10-30T07:45:20+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/GixY-eM-AanV3o4lrHth_xlZmP8=/0x0:1280x720/800x0/images/Crise-sociale-Francois-Ruffin-candidat-Debout-a-l-election-presidentielle-observe-la-convergence-des-pourrissements-du-gouvernement-2374894.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "\"C'est la récession\", estime François Ruffin, candidat \"Debout!\" à l'élection présidentielle, à propos de la situation économique française",
+      "resume": "François Ruffin, député de la Somme et candidat \"Debout!\" à la présidentielle, était l’invité du Face-à-Face sur BFMTV et RMC ce vendredi 30 octobre. Il a notamment été interrogé sur la situation économique de la France.",
+      "lien": "https://www.bfmtv.com/politique/elections/presidentielle/video-c-est-la-recession-estime-francois-ruffin-candidat-debout-a-l-election-presidentielle-a-propos-de-la-situation-economique-francaise_VN-202610300265.html",
+      "date": "2026-10-30T07:39:23+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/q8ixKBRK3avZGC97cKVpoQLy7mI=/0x0:1280x720/800x0/images/C-est-la-recession-estime-Francois-Ruffin-candidat-Debout-a-l-election-presidentielle-a-propos-de-la-situation-economique-francaise-2374888.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "DIRECT. Colère sociale : les Gilets jaunes appellent à des casserolades partout en France, avant une nouvelle journée de mobilisation samedi",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/direct-colere-sociale-les-gilets-jaunes-appellent-a-des-casserolades-partout-en-france-avant-une-nouvelle-journee-de-mobilisation-samedi-30-10-2026-U5IZWFS5S5EZPC55656MKS5HHM.php",
+      "date": "2026-10-30T07:51:25.501359+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Paris : la préfecture de police interdit la casserolade prévue vendredi par les Gilets jaunes devant l’Assemblée nationale",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/paris-la-prefecture-de-police-interdit-la-casserolade-prevue-vendredi-par-les-gilets-jaunes-devant-lassemblee-nationale-29-10-2026-BOIJIOCGPFFY3DQZLUSM3UHN6U.php",
+      "date": "2026-10-30T07:51:25.503050+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : François Hollande un non-candidat en campagne ! Comment l'ancien Président avance tapi dans l'ombre",
+      "resume": "François Hollande, ancien président, multiplie les déplacements en France, comme hier à Chenevelles dans la Vienne pour discuter avec les agriculteurs. Bien qu'il ne soit pas officiellement candidat pour 2027, il se...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/presidentielle-2027-francois-hollande-un-non-candidat-en-campagne-comment-lancien-president-avance-tapis-dans-lombre-13626843.php",
+      "date": "2026-10-30T07:44:51+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae387af050f4bfae10a5930/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Colère sociale en France : de nouvelles manifestations jugées \"à risque très élevé\" ce samedi, une cellule interministérielle de crise s’est tenue ce jeudi",
+      "resume": "Une nouvelle journée de mobilisation est prévue samedi en France : le ministère de l'Intérieur évoque une journée \"à risque très élevé\". Ce jeudi, une cellule interministérielle de crise a été organisée. La Dépêche du...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/direct-colere-sociale-en-france-de-nouvelles-manifestations-jugees-a-risque-tres-eleve-ce-samedi-une-cellule-interministerielle-de-crise-sest-tenue-ce-13627503.php",
+      "date": "2026-10-30T06:53:36+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae43da002a4d008310b8c10/standard/image.jpg?v=6"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "La Dépêche",
+     "Le Parisien"
+    ],
+    "sig": [
+     "candid",
+     "colere",
+     "direct",
+     "france",
+     "franco",
+     "presid",
+     "ruffin",
+     "social"
+    ],
+    "score": 77.99926758805556,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Colère sociale : nouvelles manifestations samedi en France",
+    "texte": "En France, de nouvelles manifestations sont prévues samedi partout dans le pays. Le ministre de l'Intérieur qualifie la journée de risque très élevé, tandis que l'examen du budget se poursuit à l'Assemblée.",
+    "texte_long": "En France, de nouvelles manifestations sont prévues samedi partout dans le pays. Le ministre de l'Intérieur qualifie la journée de risque très élevé, tandis que l'examen du budget se poursuit à l'Assemblée.",
+    "flash": "En France, de nouvelles manifestations sont prévues samedi, le ministre de l'Intérieur parle d'un risque très élevé.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Manifestation",
+     "#Budget"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/politique/direct-colere-sociale-une-cellule-interministerielle-de-crise-s-est-tenue-hier-avant-de-nouvelles-manifestations-jugees-a-risque-tres-eleve-ce-samedi_LN-202610300140.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/30/presidentielle-2027-francois-hollande-un-non-candidat-en-campagne-comment-lancien-president-avance-tapis-dans-lombre-13626843.php",
+     "Le Parisien": "https://www.leparisien.fr/societe/direct-colere-sociale-les-gilets-jaunes-appellent-a-des-casserolades-partout-en-france-avant-une-nouvelle-journee-de-mobilisation-samedi-30-10-2026-U5IZWFS5S5EZPC55656MKS5HHM.php"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Attentat raciste dans les Yvelines : \"Indirectement, Jordan Bardella a mis dans la tête de cet homme le lieu où il devait déployer sa haine\", dénonce l'avocat d'une des victimes",
+      "resume": "Selon Romain Ruiz, le président du Rassemblement national a \"donné la localisation de l'attentat\" raciste qui s'est produit vendredi dernier dans les Yvelines.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-dans-les-yvelines-indirectement-jordan-bardella-a-mis-dans-la-tete-de-cet-homme-le-lieu-ou-il-devait-deployer-sa-haine-denonce-l-avocat-d-une-des-victimes_8260046.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T07:31:35+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/ixPsMZiB6yS0i4yeh9RgqXFEEcU/475x0:3637x1778/432x243/filters:format(jpg)/2026/10/24/6adc695a470f7094505855.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Attentat raciste dans les Yvelines : le maire de Trappes, Ali Rabeh, appelle à modifier la loi et \"rendre illégale\" la théorie du grand remplacement",
+      "resume": "Le maire de Trappes estime vendredi sur France Inter que les propos racistes doivent \"condamnées plus lourdement\" en France.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-dans-les-yvelines-le-maire-de-trappes-ali-rabeh-appelle-a-modifier-la-loi-et-rendre-illegale-la-theorie-du-grand-remplacement_8260037.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T07:34:18+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/SgMYYpkg-8DvnRHGVJO--kWWrBY/0x0:5472x3078/432x243/filters:format(jpg)/2026/10/23/6adb49f95180d325145566.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"Ali Rabeh aura un rôle à jouer dans la campagne\" : comment le maire de Trappes est devenu une figure de la gauche contre le RN",
+      "resume": "Depuis l'attentat raciste qui a frappé sa ville, Ali Rabeh monte au front médiatique pour représenter les habitants de Trappes et contrer les discours d'extrême droite. \"Sa parole est importante\", juge-t-on à gauche.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/ali-rabeh-aura-un-role-a-jouer-dans-la-campagne-comment-le-maire-de-trappes-est-devenu-une-figure-de-la-gauche-contre-le-rn_8254042.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T04:50:27+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/0d2qQGkq0BJAKDPTtRmFzAp-vt0/0x306:3892x2495/432x243/filters:format(jpg)/2026/10/26/6adf4a69e0a93094704036.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"Il y a une certaine forme d'hypocrisie à penser que le racisme a commencé aujourd'hui\", dénonce Lilian Thuram après l'attentat raciste dans les Yvelines",
+      "resume": "L'ancien champion du monde 1998 rappelle que \"c'est très important de comprendre la situation [actuelle] et de la dénoncer\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/il-y-a-une-certaine-forme-d-hypocrisie-a-penser-que-le-racisme-a-commence-aujourd-hui-denonce-lilian-thuram-apres-l-attentat-raciste-dans-les-yvelines_8259527.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T22:04:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/lMgKoZku_tsP2D5B6Z6oiGAH1Vo/0x0:3543x1992/432x243/filters:format(jpg)/2024/07/23/lilian-thuram-669f3b48c1319439697699.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Kevin Tessier, l'assaillant de l'attentat raciste dans les Yvelines, a été placé en détention provisoire",
+      "resume": "Le suspect déjà mis en examen est soupçonné d'avoir tué un Français noir, Pengo Bossio Wangi, et blessé sept autres personnes, dont plusieurs d'origines africaines ou maghrébines, à Trappes et à La Verrière, près de Paris.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/kevin-teissier-l-assaillant-de-l-attentat-raciste-dans-les-yvelines-est-place-en-detention-provisoire_8259476.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-29T21:04:49+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/QWD72D5esUDiU-j_agRuyaIrx1M/0x284:5463x3357/432x243/filters:format(jpg)/2026/10/29/6ae2ecca88fd4799373914.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Attentat raciste à Trappes et La Verrière : Kevin T. avait été interpellé trois jours avant l’attaque",
+      "resume": "Accusé d’avoir frappé et menacé de mort un automobiliste dans une station-service de Levallois-Perret le 20 octobre, Kévin T. avait été entendu par la police avant l’attentat raciste dans les Yvelines, a indiqué le parquet de Nanterre jeudi",
+      "lien": "https://www.20minutes.fr/justice/4258791-20261029-attentat-raciste-trappes-verriere-kevin-interpelle-trois-jours-avant-attaque?at_medium=display&at_campaign=149",
+      "date": "2026-10-29T22:40:17+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/082W0VxNSV225m9W-yL2Cyk/1200x768_la-station-service-esso-a-subi-une-attaque-terroriste-a-l-arme-automatique-le-vendredi-23-octobre-2026-trappes-ouest-de-paris-france-photo-christophe-saidi-sipa-saidichristophe-saidi0562-credit-christophe-saidi-sipa-2610231750"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Il semblait obsédé par l’idée de ne pas faire de bruit » : dans l’immeuble de Kévin T., suspect de l’attentat de Trappes",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/yvelines-78/il-semblait-obsede-par-lidee-de-ne-pas-faire-de-bruit-dans-limmeuble-de-kevin-t-suspect-de-lattentat-de-trappes-30-10-2026-LWND42TDMRGXDGIVFDUGMU5D3A.php",
+      "date": "2026-10-30T07:51:25.501283+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Attentat raciste dans les Yvelines : l’assaillant Kevin T. avait été interpellé trois jours plus tôt pour avoir frappé un automobiliste à Levallois",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/attentat-raciste-dans-les-yvelines-lassaillant-kevin-t-avait-ete-interpelle-trois-jours-plus-tot-pour-avoir-frappe-un-automobiliste-29-10-2026-XJJZ3W4BXZHD5GK44427BPADCI.php",
+      "date": "2026-10-30T07:51:25.502474+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Un héros », « Merci Kévin » : après l’attentat raciste de Trappes, la haine décomplexée sur les réseaux sociaux",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/un-heros-merci-kevin-apres-lattentat-raciste-de-trappes-la-haine-decomplexee-sur-les-reseaux-sociaux-29-10-2026-XI2DRUFKLVASJNFPPI4B2KNCSM.php",
+      "date": "2026-10-30T07:51:25.502936+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Kévin T. avait été interpellé dans les Hauts-de-Seine trois jours avant l'attentat raciste de Trappes",
+      "resume": "L'homme avait finalement été relâché et devait se présenter à une audition devant les policiers le matin même de l'attentat raciste de Trappes.",
+      "lien": "https://actu.fr/ile-de-france/levallois-perret_92044/kevin-t-avait-ete-interpelle-dans-les-hauts-de-seine-trois-jours-avant-l-attentat-raciste-de-trappes_64993343.html",
+      "date": "2026-10-30T07:39:46+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/d0db0e3e21f66c4db0e3e21f6a8db0v-1-1024x557.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Tuerie dans les Yvelines. Du « gaz lacrymogène dans le visage et plusieurs coups » : l’assaillant a été interpellé trois jours avant pour des violences sur un automobiliste",
+      "resume": "Le suspect avait été interpellé suite à un « différend entre automobilistes » dans une station-service de Levallois-Perret (Hauts-de-Seine). Une nouvelle audition du suspect était prévue le 23 octobre,",
+      "lien": "https://www.sudouest.fr/faits-divers/tuerie-dans-les-yvelines-du-gaz-lacrymogene-dans-le-visage-et-plusieurs-coups-l-assaillant-a-ete-interpelle-trois-jours-avant-pour-des-violences-sur-un-automobiliste-31299549.php",
+      "date": "2026-10-30T06:11:03+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31299549/1200x-1/20261023130704-2821512.jpg"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "Le Parisien",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "assail",
+     "attent",
+     "avait",
+     "interp",
+     "kevin",
+     "racist",
+     "trappe",
+     "yvelin"
+    ],
+    "score": 72.99926755638889,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Attentat raciste à Trappes : un suspect placé en détention",
+    "texte": "À Trappes et La Verrière, près de Paris, un homme déjà mis en examen a été placé en détention provisoire. Il est soupçonné d'avoir tué un Français noir et blessé sept autres personnes.",
+    "texte_long": "À Trappes et La Verrière, près de Paris, un homme déjà mis en examen a été placé en détention provisoire. Il est soupçonné d'avoir tué un Français noir et blessé sept autres personnes.",
+    "flash": "À Trappes et La Verrière, un suspect mis en examen pour un attentat raciste est placé en détention provisoire.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "7",
+     "legende": "blessés"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Racisme",
+     "#Justice"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/justice/4258791-20261029-attentat-raciste-trappes-verriere-kevin-interpelle-trois-jours-avant-attaque?at_medium=display&at_campaign=149",
+     "Le Parisien": "https://www.leparisien.fr/yvelines-78/il-semblait-obsede-par-lidee-de-ne-pas-faire-de-bruit-dans-limmeuble-de-kevin-t-suspect-de-lattentat-de-trappes-30-10-2026-LWND42TDMRGXDGIVFDUGMU5D3A.php",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/tuerie-dans-les-yvelines-du-gaz-lacrymogene-dans-le-visage-et-plusieurs-coups-l-assaillant-a-ete-interpelle-trois-jours-avant-pour-des-violences-sur-un-automobiliste-31299549.php",
+     "actu.fr": "https://actu.fr/ile-de-france/levallois-perret_92044/kevin-t-avait-ete-interpelle-dans-les-hauts-de-seine-trois-jours-avant-l-attentat-raciste-de-trappes_64993343.html",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-dans-les-yvelines-indirectement-jordan-bardella-a-mis-dans-la-tete-de-cet-homme-le-lieu-ou-il-devait-deployer-sa-haine-denonce-l-avocat-d-une-des-victimes_8260046.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-30T07:51:47.694397+00:00",
+  "decision": null
+ }
+]
