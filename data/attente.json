@@ -1042,5 +1042,850 @@
   "semaine": false,
   "cree": "2026-10-30T07:51:47.694397+00:00",
   "decision": null
+ },
+ {
+  "type": "edition",
+  "jeton": "1653ea",
+  "messages": {
+   "0": 936,
+   "1": 937,
+   "2": 938,
+   "3": 939,
+   "4": 940,
+   "5": 941
+  },
+  "id_fin": 942,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Dans les Yvelines, des rassemblements distincts en hommage aux victimes de l'attentat raciste",
+      "resume": "Deux rassemblements distincts ont eu lieu vendredi, à Trappes et à La Verrière, pour rendre hommage aux victimes de l'attentat raciste perpétré la semaine dernière dans ces deux communes des Yvelines. Des milliers de personnes se sont réunies à Trappes, où le maire Ali Rabeh a accusé les dirigeants du Rassemblement national d'avoir une responsabilité directe dans le passage à l'acte de l'assaillant.",
+      "lien": "https://www.france24.com/fr/france/20261030-attentat-raciste-yvelines-centaines-personnes-rassemblement-la-verri%C3%A8re-hommage-victimes-edouard-philippe",
+      "date": "2026-10-30T17:12:38+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/59f273b8-d492-11f1-aa2e-bf1914cabd52/w:1024/p:16x9/000-D4Y89JC.jpg"
+     },
+     {
+      "source": "France 24",
+      "titre": "Attentat raciste dans les Yvelines : les partis de gauche présents pour l'hommage prévu à Trappes",
+      "resume": "Le candidat à la présidentielle Édouard Philippe, s'est rendu vendredi 30 octobre à La Verrière pour l'hommage rendu à la fillette de 11 ans, grièvement blessée lors de l'attaque raciste de Kevin Tessier, mais il ne sera pas présent à Trappes. Les principaux candidats de gauche à l'élection présidentielle, dont Raphaël Glucksmann, Jean-Luc Mélenchon, Marine Tondelier ont prévu de participer à ce rassemblement. Les précisions Florent Rodo, journaliste France 24 en direct de La Verrière.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261030-attentat-raciste-dans-les-yvelines-les-partis-de-gauche-pr%C3%A9sents-pour-l-hommage-pr%C3%A9vu-%C3%A0-trappes",
+      "date": "2026-10-30T15:59:42+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/c52d5b40-d477-11f1-83bf-d18c5759e759/w:1024/p:16x9/FR-20261030-160114-160502-CS.jpg"
+     },
+     {
+      "source": "franceinfo France",
+      "titre": "\"J'ai peur d'être morte, vu que je suis musulmane\" : après l'attentat raciste de Trappes, l'inquiétude gagne les enfants et les personnes âgées de la ville",
+      "resume": "Comment vivre avec le sentiment d'être devenus des cibles ? Une équipe de France Télévisions a passé plusieurs jours à Trappes (Yvelines) pour recueillir la parole et l'état d'esprit des habitants après l'attentat du 23 octobre.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/comment-on-peut-construire-une-societe-avec-des-enfants-qui-ont-peur-des-le-plus-jeune-age-les-habitants-de-trappes-se-confient-une-semaine-apres-l-attaque_8261015.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T21:32:06+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Ljes0AgEJ0PN9kBI_XtoB5evQQ4/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/30/6ae5047f2cae1697079825.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"La France, c'est nous\" : une semaine après l'attentat raciste à Trappes, un rassemblement \"pour faire face aux discours xénophobes\"",
+      "resume": "Un rassemblement a eu lieu vendredi soir à Trappes (Yvelines), une semaine après un attentat raciste qui a causé la mort d'un homme noir de 26 ans, Pengo Bossio Wangi, et blessé sept personnes, dont une fillette.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/la-france-c-est-nous-une-semaine-apres-l-attentat-raciste-a-trappes-un-rassemblement-pour-faire-face-aux-discours-xenophobes_8260991.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T21:33:25+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/BUg_XRWQOdQMya4KIXPFAHq0Go0/0x53:1024x629/432x243/filters:format(jpg)/2026/10/30/6ae4fe6d2f8a0368957686.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"J'ai peur d'être morte, vu que je suis musulmane\" : après l'attentat raciste de Trappes, l'inquiétude gagne les enfants et les personnes âgées de la ville",
+      "resume": "Comment vivre avec le sentiment d'être devenus des cibles ? Une équipe de France Télévisions a passé plusieurs jours à Trappes (Yvelines) pour recueillir la parole et l'état d'esprit des habitants après l'attentat du 23 octobre.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/comment-on-peut-construire-une-societe-avec-des-enfants-qui-ont-peur-des-le-plus-jeune-age-les-habitants-de-trappes-se-confient-une-semaine-apres-l-attaque_8261015.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T21:32:06+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Ljes0AgEJ0PN9kBI_XtoB5evQQ4/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/30/6ae5047f2cae1697079825.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Des cellules psychologiques déployées au collège public du Mesnil-Saint-Denis et dans une école de La Verrière à la rentrée, après l'attentat raciste dans les Yvelines",
+      "resume": "Par ailleurs, la première heure de cours sera banalisée dans l'ensemble des collèges et lycées des communes de Trappes et du Mesnil-Saint-Denis lundi 2 novembre.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/des-cellules-psychologiques-deployees-au-college-public-du-mesnil-saint-denis-et-dans-une-ecole-de-la-verriere-a-la-rentree-apres-l-attentat-raciste-dans-les-yvelines_8260622.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T15:28:05+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/aZlywj31lwcaP5PRare9i0cWHSc/0x260:5000x3072/432x243/filters:format(jpg)/2026/10/30/6ae4b68b8856c952624813.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Après l'attentat raciste de Trappes, les discours sur le \"grand remplacement\" peuvent-ils être interdits ?",
+      "resume": "Alors que cette théorie complotiste connaît un certain succès sur des sites d'extrême droite, des responsables de gauche proposent d'interdire ce discours. Mais cela pose la question de la liberté d'expression garantie par la Constitution.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/apres-l-attentat-raciste-de-trappes-les-discours-sur-le-grand-remplacement-peuvent-ils-etre-interdits_8260517.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T14:35:36+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/-Cwr9x2Y2ZOWXI_VK9sBe4tRtWA/432x243/filters:format(jpg)/2026/10/26/6adf39cf11618165993338.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Une proposition de loi déposée visant à rendre illégale l'évocation de la théorie du \"grand remplacement\" après l'attentat raciste dans les Yvelines",
+      "resume": "Cette loi doit contribuer, selon ses auteurs, à \"renforcer la lutte contre les discours incitant à la haine et aux actes racistes et xénophobes\", au cœur du débat public depuis l'attentat raciste survenu à Trappes ayant fait un mort et sept blessés.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/une-proposition-de-loi-deposee-visant-a-rendre-illegale-l-evocation-de-la-theorie-du-grand-remplacement-apres-l-attentat-raciste-dans-les-yvelines_8260526.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T17:21:26+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Mig4-DO2s8dquKFqOtPkFgT6sw0/432x243/filters:format(jpg)/2026/10/02/6abf7815c317d528773933.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Attentat dans les Yvelines : Le maire de Trappes pointe du doigt les dirigeants du RN",
+      "resume": "Lors d’un rassemblement en hommage aux victimes de l’attaque dans les Yvelines, Ali Rabeh a vivement critiqué, vendredi, les discours de Jordan Bardella et Marine Le Pen, ainsi que le rôle de CNews",
+      "lien": "https://www.20minutes.fr/societe/4259098-20261030-attentat-yvelines-maire-trappes-pointe-doigt-dirigeants-rn?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T20:43:08+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/NvGLBjCPROGb90zCuH3XaSk/1200x768_le-maire-de-trappes-ali-rabeh-prend-la-parole-lors-d-un-rassemblement-contre-le-racisme-et-pour-rendre-hommage-aux-victimes-de-l-attaque-raciste-qui-a-eu-lieu-dans-la-region-des-yvelines-a-trappes-le-30-octobre-2026-un-homme-arrete-apres-une-attaque-a-l-arme-a-feu-qui-a-eu-lieu-le-23-octobre-2026-dans-les-villes-de-trappes-et-la-verriere-a-l-ouest-de-paris-tuant-une-personne-et-en-blessant-sept-dont-un-enfant-a-reconnu-avoir-cible-des-individus-qui-semblaient-etre-musulmans-africains-ou-maghrebins-ont-indique-les-procureurs-le-29-octobre-2026-photo-de-simon-wohlfahrt-afp"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Attentat dans les Yvelines: à Trappes, des milliers de personnes réunies contre le racisme",
+      "resume": "Une semaine après l'attentat qui a causé la mort d'un homme de 26 ans, Pengo Bossio Wangi, et blessé sept personnes, des rassemblements ont eu lieu dans la soirée dans les deux communes où l'assaillant a effectué son périple meurtrier.",
+      "lien": "https://www.bfmtv.com/societe/video-attentat-dans-les-yvelines-a-trappes-des-milliers-de-personnes-reunies-contre-le-racisme_VN-202610300927.html",
+      "date": "2026-10-30T21:35:08+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0xfzdfxB5uiN5eZBkTkT-YtdMCs=/0x0:1280x720/800x0/images/Attentat-dans-les-Yvelines-a-Trappes-des-milliers-de-personnes-reunies-contre-le-racisme-2375394.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Attentat raciste dans les Yvelines: des milliers de personnes réunies à Trappes et à La Verrière pour rendre hommage aux victimes",
+      "resume": "Une semaine après l'attentat qui a causé la mort d'un homme de 26 ans, Pengo Bossio Wangi, et blessé sept personnes, des rassemblements ont eu lieu dans la soirée dans les deux communes où l'assaillant a effectué son périple meurtrier.",
+      "lien": "https://www.bfmtv.com/police-justice/attentat-raciste-dans-les-yvelines-des-milliers-de-personnes-reunies-a-trappes-et-a-la-verriere-pour-rendre-hommage-aux-victimes_AD-202610300889.html",
+      "date": "2026-10-30T20:17:12+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/dy5-TrGa20yd7kuBj8GVK-ezDlU=/0x0:1920x1080/800x0/images/Un-hommage-aux-victimes-de-l-attentat-raciste-dans-les-Yvelines-le-30-octobre-2026-a-Trappes-2375353.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Trappes : le temps d’un hommage aux victimes de l’attentat raciste, la gauche présente un visage uni",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/trappes-le-temps-dun-hommage-aux-victimes-de-lattentat-raciste-la-gauche-presente-un-visage-uni-30-10-2026-E22QKDENJBHYNOAT577IGNL5XA.php",
+      "date": "2026-10-30T22:14:41.475310+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Un rassemblement ce vendredi soir à Trappes, une semaine après l’attentat raciste des Yvelines",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/yvelines-78/un-rassemblement-ce-vendredi-soir-a-trappes-une-semaine-apres-lattentat-raciste-des-yvelines-30-10-2026-FCCDULVNSNEMTKAQ6PI2WP27JE.php",
+      "date": "2026-10-30T22:14:41.476798+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Après l'attentat, plusieurs milliers de personnes rassemblées à Trappes contre le racisme",
+      "resume": "Ce vendredi 30 octobre 2026, plusieurs milliers de personnes se sont réunies à Trappes (Yvelines) après l'attentat raciste qui a touché la ville et La Verrière.",
+      "lien": "https://actu.fr/ile-de-france/trappes_78621/apres-lattentat-plusieurs-milliers-de-personnes-rassemblees-a-trappes-contre-le-racisme_64998063.html",
+      "date": "2026-10-30T20:59:06+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/46953bb205ea64a953bb205ea1e953v-1024x557.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Attentat dans les Yvelines : des milliers de personnes rassemblées à Trappes contre le racisme et l’islamophobie",
+      "resume": "Une semaine après l’attentat meurtrier qui a coûté la vie à un jeune homme de 26 ans, une importante mobilisation s’est tenue à Trappes en présence de nombreuses personnalités politiques",
+      "lien": "https://www.sudouest.fr/faits-divers/attentat-dans-les-yvelines-des-milliers-de-personnes-rassemblees-a-trappes-contre-le-racisme-et-l-islamophobie-31309279.php",
+      "date": "2026-10-30T18:37:48+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31309279/1200x-1/20261030191507-33591512.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Suites de l’attentat raciste dans les Yvelines : les écologistes déposent leur loi pour sanctionner la théorie du « grand remplacement »",
+      "resume": "Après l’attentat de Trappes dans les Yvelines, des parlementaires ont déposé un texte jeudi pour rendre illégaux les discours invoquant le remplacement d’une population",
+      "lien": "https://www.sudouest.fr/france/suites-de-l-attentat-raciste-dans-les-yvelines-les-ecologistes-deposent-leur-loi-pour-sanctionner-la-theorie-du-grand-remplacement-31307276.php",
+      "date": "2026-10-30T16:55:16+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31307276/1200x-1/20251105141322-8659412.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Attentat raciste dans les Yvelines : \"Sa haine ne vient pas de nulle part\"… Le maire de Trappes accuse le RN et CNews \"d’empoisonner les esprits\"",
+      "resume": "À Trappes, plusieurs milliers de personnes se sont rassemblées vendredi 30 octobre pour dénoncer le racisme et l’islamophobie, une semaine après l’attentat meurtrier ayant coûté la vie à Pengo Bossio Wangi. Devant la...",
+      "lien": "https://www.midilibre.fr/2026/10/30/attentat-raciste-dans-les-yvelines-sa-haine-ne-vient-pas-de-nulle-part-le-maire-de-trappes-accuse-le-rn-et-cnews-dempoisonner-les-esprits-13628494.php",
+      "date": "2026-10-30T19:35:18+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4eac55eb55686b80f652a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "\"Il n’y a qu’une seule race, l’humanité\" : à Nîmes, un millier de personnes pour dire Non au racisme",
+      "resume": "Une semaine après les attentats racistes de Trappes, des Nîmois et Gardois de diverses sensibilités politiques se sont réunies ce vendredi soir.",
+      "lien": "https://www.midilibre.fr/2026/10/30/il-ny-a-quune-seule-race-lhumanite-a-nimes-un-gros-millier-de-personnes-pour-dire-non-au-racisme-13628455.php",
+      "date": "2026-10-30T18:35:01+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4e1de3844bab24205481e/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "France 24",
+     "Le Parisien",
+     "Midi Libre",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo France",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "attent",
+     "hommag",
+     "millie",
+     "person",
+     "racist",
+     "rassem",
+     "trappe",
+     "yvelin"
+    ],
+    "score": 127.99920539611111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Deux rassemblements en hommage aux victimes de Trappes",
+    "texte": "À Trappes et à La Verrière, dans les Yvelines, deux rassemblements distincts ont rendu hommage vendredi aux victimes d'un attentat raciste. Des cellules psychologiques seront déployées à la rentrée.",
+    "texte_long": "À Trappes et à La Verrière, dans les Yvelines, deux rassemblements distincts ont rendu hommage vendredi aux victimes d'un attentat raciste. Des cellules psychologiques seront déployées à la rentrée.",
+    "flash": "Dans les Yvelines, deux rassemblements distincts ont rendu hommage vendredi aux victimes de l'attentat raciste de la semaine dernière à Trappes et La Verrière.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Trappes",
+     "#Racisme"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/societe/4259098-20261030-attentat-yvelines-maire-trappes-pointe-doigt-dirigeants-rn?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/societe/video-attentat-dans-les-yvelines-a-trappes-des-milliers-de-personnes-reunies-contre-le-racisme_VN-202610300927.html",
+     "France 24": "https://www.france24.com/fr/france/20261030-attentat-raciste-yvelines-centaines-personnes-rassemblement-la-verri%C3%A8re-hommage-victimes-edouard-philippe",
+     "Le Parisien": "https://www.leparisien.fr/politique/trappes-le-temps-dun-hommage-aux-victimes-de-lattentat-raciste-la-gauche-presente-un-visage-uni-30-10-2026-E22QKDENJBHYNOAT577IGNL5XA.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/attentat-raciste-dans-les-yvelines-sa-haine-ne-vient-pas-de-nulle-part-le-maire-de-trappes-accuse-le-rn-et-cnews-dempoisonner-les-esprits-13628494.php",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/attentat-dans-les-yvelines-des-milliers-de-personnes-rassemblees-a-trappes-contre-le-racisme-et-l-islamophobie-31309279.php",
+     "actu.fr": "https://actu.fr/ile-de-france/trappes_78621/apres-lattentat-plusieurs-milliers-de-personnes-rassemblees-a-trappes-contre-le-racisme_64998063.html",
+     "franceinfo France": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/comment-on-peut-construire-une-societe-avec-des-enfants-qui-ont-peur-des-le-plus-jeune-age-les-habitants-de-trappes-se-confient-une-semaine-apres-l-attaque_8261015.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/la-france-c-est-nous-une-semaine-apres-l-attentat-raciste-a-trappes-un-rassemblement-pour-faire-face-aux-discours-xenophobes_8260991.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Guerre en Ukraine : la ville d'Olechky isolée, en proie à une crise humanitaire",
+      "resume": "Le sort des Habitants d'Olechky, ville ukrainienne coupée du monde depuis le mois de mai 2026 peut à présent évoluer. Depuis mardi 27 octobre, un cessez-le-feu local annoncé par la Première dame des États-Unis Melania Trump, y est respecté. Cette trêve permet d’acheminer de l’aide humanitaire aux habitants et d’évacuer ceux qui le souhaitent.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261030-guerre-en-ukraine-la-ville-d-olechky-isol%C3%A9e-en-proie-%C3%A0-une-crise-humanitaire",
+      "date": "2026-10-30T16:48:12+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/531721c2-d480-11f1-b85d-695cb59fade5/w:1024/p:16x9/FR-20261030-170615-170751-CS.jpg"
+     },
+     {
+      "source": "France 24",
+      "titre": "Guerre en Ukraine : les habitants d'Olechky évacués malgré l'intimidation des autorités russes",
+      "resume": "Des habitants de la ville d'Olechky sous occupation russe dans le sud de l'Ukraine, où une crise humanitaire se déroulait ces dernières semaines, ont été évacués vendredi 30 octobre vers la Russie puis le Bélarus, en vue de rejoindre les territoires sous contrôle de Kiev. Quelque 2 000 habitants, contre 24 000 avant l'invasion russe, se trouvaient toujours dans cette localité, selon des estimations de Kiev. Les explications d'Emmanuelle Chaze, correspondante France 24 à Kiev.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261030-olecky-en-ukraine-les-habitants-%C3%A9vacu%C3%A9s-malgr%C3%A9-l-intimidation-des-autorit%C3%A9s-russes",
+      "date": "2026-10-30T15:50:58+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/3a9ac718-d479-11f1-9e69-bf1914cabd52/w:1024/p:16x9/2026-10-30T153354Z-361594988-RC2QDOAAUMFM-RTRMADP-3-UKRAINE-CRISIS-OLESHKY.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "En Ukraine, les habitants de la ville sous occupation russe d'Olechky, en proie à une crise humanitaire, ont été évacués",
+      "resume": "Le cessez-le-feu humanitaire en vigueur dans cette ville du sud du pays doit prendre fin dimanche.",
+      "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-ukraine-les-habitants-de-la-ville-sous-occupation-russe-d-olechky-en-proie-a-une-crise-humanitaire-ont-ete-evacues_8260574.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T15:09:13+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/HWuLr-gw0paksbf63k3IwlGsf7k/0x53:1024x629/432x243/filters:format(jpg)/2026/10/30/6ae4b169a78c7783786079.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Guerre en Ukraine : Kiev reprend ses tirs sur les raffineries russes et une « photo de famille » annulée",
+      "resume": "« 20 Minutes » fait le point pour vous tous les soirs sur le conflit. Ce vendredi, les Européens ont refusé de s’afficher avec Sergueï Lavrov, le chef de la diplomatie russe",
+      "lien": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T18:43:20+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/SbK_1hbDQJSnNqaaKMzYTyk/1200x768_30-octobre-2026-etats-unis-atlanta-serguei-lavrov-le-ministre-russe-des-affaires-etrangeres-participe-a-la-reunion-des-ministres-des-affaires-etrangeres-du-g20-presidee-par-le-secretaire-d-etat-americain-rubio-photo-michael-kappeler-dpa-ur-newsml-dpa-com-20090101-261030-99-117359-michael-kappeler-dpa-sipa-2610301610"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Guerre en Ukraine : le gouvernement américain approuve la vente de 500 missiles Patriot à Kiev",
+      "resume": "Les intercepteurs américains Patriot sont les seuls capables d’abattre les missiles russes plus sophistiqués.",
+      "lien": "https://www.lefigaro.fr/international/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-20261030",
+      "date": "2026-10-30T21:59:08+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/10/30/517658d3c98390823651f49ded35dbe84e17ca3f90e18bd0faa7fd614417dbff.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Guerre en Ukraine : Kiev reprend ses tirs sur les raffineries russes et une « photo de famille » annulée",
+      "resume": "« 20 Minutes » fait le point pour vous tous les soirs sur le conflit. Ce vendredi, les Européens ont refusé de s’afficher avec Sergueï Lavrov, le chef de la diplomatie russe",
+      "lien": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T18:43:20+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/SbK_1hbDQJSnNqaaKMzYTyk/1200x768_30-octobre-2026-etats-unis-atlanta-serguei-lavrov-le-ministre-russe-des-affaires-etrangeres-participe-a-la-reunion-des-ministres-des-affaires-etrangeres-du-g20-presidee-par-le-secretaire-d-etat-americain-rubio-photo-michael-kappeler-dpa-ur-newsml-dpa-com-20090101-261030-99-117359-michael-kappeler-dpa-sipa-2610301610"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : le bras droit de Vladimir Poutine critique le comportement « étrange » de Kiev et incite à « poursuivre le conflit »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-le-bras-droit-de-vladimir-poutine-critique-le-comportement-etrange-de-kiev-et-incite-a-poursuivre-le-conflit-30-10-2026-UAQJCVJZRFCZHA7YMNF6TYAR4A.php",
+      "date": "2026-10-30T22:14:41.476308+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Guerre en Ukraine : le gouvernement américain approuve la vente de 500 missiles Patriot à Kiev",
+      "resume": "Financée notamment par des contributions européennes et canadiennes, cette transaction majeure d’armement doit permettre à l’Ukraine de renforcer sa défense face aux frappes de missiles russes",
+      "lien": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-31311656.php",
+      "date": "2026-10-30T21:30:28+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31311656/1200x-1/20230517201307-4983412.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Guerre en Ukraine : « On veut juste être avec nos enfants », des habitants d’Olechky évacués après des semaines de crise humanitaire",
+      "resume": "Un rare cessez-le-feu localisé a permis l’évacuation de civils de cette ville de la ligne de front, où les résidents étaient confrontés à de graves pénuries et au danger permanent des drones",
+      "lien": "https://www.sudouest.fr/international/migrants-et-refugies/guerre-en-ukraine-on-veut-juste-etre-avec-nos-enfants-des-habitants-d-olechky-evacues-apres-des-semaines-de-crise-humanitaire-31307810.php",
+      "date": "2026-10-30T17:23:40+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31307810/1200x-1/20261030154114-33473212.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Guerre en Ukraine : Le gouvernement américain approuve la vente de 500 missiles Patriot à l'Ukraine",
+      "resume": "Malgré les \"efforts\" de paix récents et la trêve temporaire des combats dans la ville ukrainienne d'Olechky, Vladimir Poutine poursuit les menaces contre l'Europe. Lors d'un rare appel avec les dirigeants norvégiens...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/direct-guerre-en-ukraine-vladimir-poutine-affirme-etre-pret-a-partir-en-guerre-avec-leurope-tout-en-soutenant-ne-pas-vouloir-en-arriver-jusque-la-13627513.php",
+      "date": "2026-10-30T21:53:31+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae448207f097602230a4802/standard/image.jpg?v=4"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "\"Que personne ne l’oublie\" : Vladimir Poutine assure que \"la Russie est prête\" pour une potentielle guerre avec l’Europe \"d’ici 2030\"",
+      "resume": "Lors du sommet Russie-Afrique, jeudi 29 octobre, Vladimir Poutine a réagi aux spéculations occidentales sur un potentiel conflit militaire d’ici 2030. Le président russe a affirmé que Moscou est prêt mais ne souhaite...",
+      "lien": "https://www.midilibre.fr/2026/10/30/que-personne-ne-loublie-vladimir-poutine-assure-que-la-russie-est-prete-pour-une-potentielle-guerre-avec-leurope-dici-2030-13628371.php",
+      "date": "2026-10-30T17:14:29+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4cf9c2ecb75813209f0b5/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "France 24",
+     "La Dépêche",
+     "Le Figaro France",
+     "Le Parisien",
+     "Midi Libre",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "500",
+     "americ",
+     "approu",
+     "crise",
+     "guerre",
+     "kiev",
+     "olechk",
+     "ukrain"
+    ],
+    "score": 102.99920526,
+    "suite": null,
+    "pays": "Ukraine",
+    "requete": "Kyiv Ukraine",
+    "prioritaire": true,
+    "titre": "Olechky : des habitants évacués pendant une trêve locale",
+    "texte": "En Ukraine, des habitants de la ville d'Olechky, sous occupation russe, ont été évacués vendredi vers la Russie puis la Biélorussie. Le cessez-le-feu local doit prendre fin dimanche.",
+    "texte_long": "En Ukraine, des habitants de la ville d'Olechky, sous occupation russe, ont été évacués vendredi vers la Russie puis la Biélorussie. Le cessez-le-feu local doit prendre fin dimanche.",
+    "flash": "En Ukraine, des habitants d'Olechky, sous occupation russe, ont été évacués vendredi pendant un cessez-le-feu local qui doit prendre fin dimanche.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "2 000",
+     "legende": "habitants restants"
+    },
+    "iso": [
+     "UKR",
+     "RUS"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Ukraine",
+     "#Humanitaire"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261030-guerre-en-ukraine-la-ville-d-olechky-isol%C3%A9e-en-proie-%C3%A0-une-crise-humanitaire",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/30/direct-guerre-en-ukraine-vladimir-poutine-affirme-etre-pret-a-partir-en-guerre-avec-leurope-tout-en-soutenant-ne-pas-vouloir-en-arriver-jusque-la-13627513.php",
+     "Le Figaro France": "https://www.lefigaro.fr/international/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-20261030",
+     "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-le-bras-droit-de-vladimir-poutine-critique-le-comportement-etrange-de-kiev-et-incite-a-poursuivre-le-conflit-30-10-2026-UAQJCVJZRFCZHA7YMNF6TYAR4A.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/que-personne-ne-loublie-vladimir-poutine-assure-que-la-russie-est-prete-pour-une-potentielle-guerre-avec-leurope-dici-2030-13628371.php",
+     "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-31311656.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-ukraine-les-habitants-de-la-ville-sous-occupation-russe-d-olechky-en-proie-a-une-crise-humanitaire-ont-ete-evacues_8260574.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Accident ferroviaire en Espagne : les familles dans une attente angoissante",
+      "resume": "L'Espagne a intensifié vendredi 30 octobre le travail d'identification des victimes de la collision de deux trains qui a fait au moins 69 morts mercredi 28 octobre, afin de répondre à l'angoisse des familles restant sans nouvelles de leurs proches. Le Premier ministre Pedro Sánchez a déclaré que les autorités travaillaient \"sans relâche (..) pour tenter de fournir le maximum d'informations le plus rapidement possible, de manière fiable, aux familles des victimes\".",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261030-accident-ferroviaire-en-espagne-les-familles-dans-une-attente-angoissante",
+      "date": "2026-10-30T16:02:49+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/0bd20220-d479-11f1-9cfc-d18c5759e759/w:1024/p:16x9/FR-20261030-161228-161429-CS.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Après la collision mortelle de trains en Espagne, la longue attente des familles de victimes",
+      "resume": "Deux jours après la collision ferroviaire meurtrière en Espagne, les familles des passagers disparus sont confrontées à une attente insoutenable. Les autorités dénombrent officiellement 70 personnes portées disparues, dont une Française installée à Madrid. Les opérations d'identification se poursuivent dans des conditions particulièrement difficiles.",
+      "lien": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/collision-mortelle-de-trains-en-espagne-la-longue-attente-des-familles-de-victimes_8260421.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T16:40:08+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/5Fj4VjmzeGqZouDgtesofpW3Q_Q/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/30/6ae48d349622e156412764.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Une Française de 50 ans portée disparue après la collision entre deux trains qui a fait 69 morts en Espagne",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/espagne/une-francaise-de-50-ans-portee-disparue-apres-la-collision-entre-deux-trains-qui-a-fait-69-morts-en-espagne-30-10-2026-NBCOEKPCHFGFLO767D26IOBZSI.php",
+      "date": "2026-10-30T22:14:41.475666+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Collision de deux trains en Espagne : ce que l'on sait sur Marie Audan, la Française portée disparue depuis le drame",
+      "resume": "La collision entre deux trains qui a fait 69 morts dans le centre de l'Espagne pourrait avoir fait une victime française : Marie Audan, 50 ans, a disparu depuis le 28 octobre.",
+      "lien": "https://actu.fr/faits-divers/collision-de-deux-trains-en-espagne-ce-que-l-on-sait-sur-marie-audan-la-francaise-portee-disparue-depuis-le-drame_64998004.html",
+      "date": "2026-10-30T20:25:42+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/newsmlafp-com-20261030t165458zdoc-d4xw4ux-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« Qui va monter dans un train maintenant ? On y va déjà avec la peur... » : après la collision mortelle en Espagne, les familles des victimes entre désespoir, colère et silence",
+      "resume": "Après ce nouveau drame sur le réseau ferroviaire espagnol, l’émotion est encore vive pendant les trois jours de deuil national. Les familles des victimes commencent à témoigner et racontent l’horreur.",
+      "lien": "https://www.nicematin.com/faits-divers/qui-va-monter-dans-un-train-maintenant-on-y-va-deja-avec-la-peur-apres-la-collision-mortelle-en-espagne-les-familles-des-victimes-entre-desespoir-colere-et-silence-10749465",
+      "date": "2026-10-30T16:57:24+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/94/65/OG-10749465-1200-800-602f675_ftp-1-toyafd4yrwnv-00775705-000003.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Accident de trains en Espagne : « Nous faisons ce que nous pouvons », l’identification des victimes se poursuit face à l’angoisse des familles",
+      "resume": "Après la terrible collision de trains qui a fait au moins 69 morts, mercredi dans le centre du pays, les opérations de recherche de victimes s’avèrent particulièrement complexes. Pour l’heure, 12 corps",
+      "lien": "https://www.sudouest.fr/international/europe/espagne/accident-de-trains-en-espagne-nous-faisons-ce-que-nous-pouvons-l-identification-des-victimes-se-poursuit-face-a-l-angoisse-des-familles-31310098.php",
+      "date": "2026-10-30T19:21:40+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31310098/1200x-1/20261030175707-33543812.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Collision mortelle de trains en Espagne : \"Toujours prête à aider...\" Qui est Marie Audan, cette Française de 50 ans portée disparue depuis la catastrophe ?",
+      "resume": "Installée à Madrid depuis 25 ans, Marie Audan, mère de deux enfants et responsable dans une chaîne de spas, figure parmi les personnes portées disparues après la collision de deux trains qui a fait au moins 69 morts...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-de-trains-en-espagne-toujours-prete-a-aider-qui-est-marie-audan-cette-francaise-de-50-ans-portee-disparue-depuis-la-catastrophe-13628522.php",
+      "date": "2026-10-30T19:24:57+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4ed7ab77bd80e6b069d04/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Collision mortelle entre deux trains en Espagne : fils de cheminot, futur papa... Qui était Antonio Acedo, l'un des conducteurs décédés dans l'accident ?",
+      "resume": "Mort à 36 ans dans la collision ferroviaire d’Urda, en Espagne, Antonio Acedo était un conducteur passionné qui s'apprêtait à devenir papa pour la première fois. Avant le drame, il avait alerté à plusieurs reprises...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-entre-deux-trains-en-espagne-fils-de-cheminot-futur-papa-qui-etait-antonio-acedo-lun-des-conducteurs-decedes-dans-laccident-13627960.php",
+      "date": "2026-10-30T18:16:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4a20ec17b03d3330ef8b6/standard/image.png?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Collision mortelle de trains en Espagne : \"C'est déchirant...\" Ana se rendait à Séville pour assister au mariage de sa fille, elle est introuvable depuis l'accident",
+      "resume": "Une femme de 68 ans avait pris le train à Madrid en direction de Séville pour préparer le mariage de sa fille. Sa famille n'a plus de nouvelles depuis l'accident. Les préparatifs se transforment en cauchemar pour les...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-de-trains-en-espagne-cest-dechirant-ana-se-rendait-a-seville-pour-assister-au-mariage-de-sa-fille-elle-est-introuvable-depuis-13627957.php",
+      "date": "2026-10-30T17:55:42+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4983890b40dd09401266a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Collision mortelle entre deux trains en Espagne : \"J'ai aperçu l'avant d'une rame accidentée\"… Un troisième convoi s’arrête à seulement 500 mètres du drame et évite de justesse un suraccident",
+      "resume": "En Espagne, un troisième train a été stoppé à quelques centaines de mètres des deux rames entrées en collision mercredi 28 octobre. Ses passagers ont filmé la scène et relayé la vidéo sur les réseaux sociaux.",
+      "lien": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-entre-deux-trains-en-espagne-jai-apercu-lavant-dune-rame-accidentee-un-troisieme-convoi-sarrete-a-seulement-500-metres-du-drame-et-13627850.php",
+      "date": "2026-10-30T14:26:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4931f0feb62e6120f3e3f/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Collision mortelle de trains en Espagne : \"Je suis bouleversé...\" Qui est Fátima Báñez, l'ancienne ministre du Travail décédée dans l'accident ?",
+      "resume": "Soixante-quatorze personnes ont perdu la vie dans l'accident de train au sud de Tolède en Espagne. Parmi les passagers décédés, de nombreux anonymes, et une personnalité politique : l'ancienne ministre du Travail. Les...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-de-trains-en-espagne-je-suis-bouleverse-qui-est-fatima-banez-lancienne-ministre-du-travail-decedee-dans-laccident-13627681.php",
+      "date": "2026-10-30T14:40:55+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae468b6f6f95471c50ba4d5/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Espagne. Collision entre deux trains à grande vitesse : au moins une Française de 50 ans portée disparue",
+      "resume": "Entre impatience et colère : depuis l’accident ferroviaire d’Urda, qui a fait 69 morts et environ 200 blessés, de nombreuses familles sont dans l'attente. Dont celle de Marie Audan, une quinquagénaire française installée à Madrid, selon Le Parisien, qui n'a plus donné signe de vie depuis mercredi.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/10/30/collision-entre-deux-trains-a-grande-vitesse-une-francaise-de-50-ans-recherchee-par-sa-famille",
+      "date": "2026-10-30T20:18:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/899C23C4-D8F9-464B-8832-45890402D148/NW_listB/collision-entre-deux-trains-a-grande-vitesse-au-moins-une-francaise-de-50-ans-portee-disparue-1793391409.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Espagne. Collision entre deux trains à grande vitesse : au moins une Française de 50 ans portée disparue",
+      "resume": "Entre impatience et colère : depuis l’accident ferroviaire d’Urda, qui a fait 69 morts et environ 200 blessés, de nombreuses familles sont dans l'attente. Dont celle de Marie Audan, une quinquagénaire française installée à Madrid, selon Le Parisien, qui n'a plus donné signe de vie depuis mercredi.",
+      "lien": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/30/collision-entre-deux-trains-a-grande-vitesse-une-francaise-de-50-ans-recherchee-par-sa-famille",
+      "date": "2026-10-30T20:18:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "France 24",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Parisien",
+     "Nice-Matin",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo"
+    ],
+    "sig": [
+     "accide",
+     "collis",
+     "dispar",
+     "espagn",
+     "franca",
+     "mortel",
+     "portee",
+     "trains"
+    ],
+    "score": 72.99920508166667,
+    "suite": "Espagne : une collision de trains fait au moins 69 morts",
+    "pays": "Espagne",
+    "requete": "Madrid Spain",
+    "prioritaire": false,
+    "titre": "Espagne : au moins 69 morts dans une collision de trains",
+    "texte": "En Espagne, l'identification des victimes de la collision de deux trains se poursuit. Au moins soixante-neuf personnes sont mortes mercredi, et soixante-dix sont portées disparues.",
+    "texte_long": "En Espagne, l'identification des victimes de la collision de deux trains se poursuit. Au moins soixante-neuf personnes sont mortes mercredi, et soixante-dix sont portées disparues.",
+    "flash": "En Espagne, l'identification des victimes de la collision de deux trains se poursuit, au moins soixante-neuf personnes sont mortes.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "69",
+     "legende": "morts au moins"
+    },
+    "iso": [
+     "ESP"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Espagne",
+     "#Accident"
+    ],
+    "liens": {
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261030-accident-ferroviaire-en-espagne-les-familles-dans-une-attente-angoissante",
+     "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/30/collision-entre-deux-trains-a-grande-vitesse-une-francaise-de-50-ans-recherchee-par-sa-famille",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-de-trains-en-espagne-toujours-prete-a-aider-qui-est-marie-audan-cette-francaise-de-50-ans-portee-disparue-depuis-la-catastrophe-13628522.php",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/30/collision-entre-deux-trains-a-grande-vitesse-une-francaise-de-50-ans-recherchee-par-sa-famille",
+     "Le Parisien": "https://www.leparisien.fr/international/espagne/une-francaise-de-50-ans-portee-disparue-apres-la-collision-entre-deux-trains-qui-a-fait-69-morts-en-espagne-30-10-2026-NBCOEKPCHFGFLO767D26IOBZSI.php",
+     "Nice-Matin": "https://www.nicematin.com/faits-divers/qui-va-monter-dans-un-train-maintenant-on-y-va-deja-avec-la-peur-apres-la-collision-mortelle-en-espagne-les-familles-des-victimes-entre-desespoir-colere-et-silence-10749465",
+     "Sud Ouest": "https://www.sudouest.fr/international/europe/espagne/accident-de-trains-en-espagne-nous-faisons-ce-que-nous-pouvons-l-identification-des-victimes-se-poursuit-face-a-l-angoisse-des-familles-31310098.php",
+     "actu.fr": "https://actu.fr/faits-divers/collision-de-deux-trains-en-espagne-ce-que-l-on-sait-sur-marie-audan-la-francaise-portee-disparue-depuis-le-drame_64998004.html",
+     "franceinfo": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/collision-mortelle-de-trains-en-espagne-la-longue-attente-des-familles-de-victimes_8260421.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "Albert Zennou : « Présidentielle 2027, le moment David Lisnard, le doute Bruno Retailleau »",
+      "resume": "CHRONIQUE - À six mois de la présidentielle, le maire de Cannes conteste au Vendéen son statut de candidat naturel de la droite. Porté par une dynamique nouvelle dans les sondages, il séduit au-delà de l’électorat traditionnel de LR. Entre libéralisme et conservatisme, deux incarnations de la droite s’affrontent désormais.",
+      "lien": "https://www.lefigaro.fr/vox/politique/albert-zennou-presidentielle-2027-le-moment-david-lisnard-le-doute-bruno-retailleau-20261030",
+      "date": "2026-10-30T18:00:00+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1910x1075_crop/2026/10/30/8489f4471b1d71b00fa6335975871b2132f38dd42610bd20334a35817d8961b1.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : David Lisnard tiendra son premier grand meeting de campagne à Lyon en décembre",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/presidentielle-2027-david-lisnard-tiendra-son-plus-premier-grand-meeting-de-campagne-a-lyon-en-decembre-30-10-2026-ZKBM7G454VACHAJ5TAUQTTPOEY.php",
+      "date": "2026-10-30T22:14:41.476458+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "Le Figaro France",
+     "Le Parisien"
+    ],
+    "sig": [
+     "2027",
+     "albert",
+     "bruno",
+     "campag",
+     "david",
+     "decemb",
+     "lisnar",
+     "presid"
+    ],
+    "score": 67.99920530166666,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Présidentielle 2027 : David Lisnard lance sa campagne à Lyon",
+    "texte": "David Lisnard tiendra son premier grand meeting de campagne à Lyon en décembre, à six mois de la présidentielle. Le maire de Cannes conteste à Bruno Retailleau le statut de candidat naturel de la droite.",
+    "texte_long": "David Lisnard tiendra son premier grand meeting de campagne à Lyon en décembre, à six mois de la présidentielle. Le maire de Cannes conteste à Bruno Retailleau le statut de candidat naturel de la droite.",
+    "flash": "David Lisnard tiendra son premier grand meeting de campagne à Lyon en décembre, à six mois de la présidentielle.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "David Lisnard",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [],
+    "liens": {
+     "Le Figaro France": "https://www.lefigaro.fr/vox/politique/albert-zennou-presidentielle-2027-le-moment-david-lisnard-le-doute-bruno-retailleau-20261030",
+     "Le Parisien": "https://www.leparisien.fr/politique/presidentielle-2027-david-lisnard-tiendra-son-plus-premier-grand-meeting-de-campagne-a-lyon-en-decembre-30-10-2026-ZKBM7G454VACHAJ5TAUQTTPOEY.php"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo",
+      "titre": "Une Française fait partie des victimes dans l'effondrement d'une colonne rocheuse en Turquie",
+      "resume": "Au moins trois personnes ont perdu la vie jeudi dans l'éboulement d'une colonne de pierre dans la vallée des cheminées de fées, en Cappadoce.",
+      "lien": "https://www.franceinfo.fr/monde/turquie/une-francaise-fait-partie-des-victimes-dans-l-effondrement-d-une-colonne-rocheuse-en-turquie_8260661.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T15:52:26+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Zcp0fxfeaCZ7do-LRNvV2PtqfIg/0x0:1080x607/432x243/filters:format(jpg)/2026/10/30/6ae4bb0dd1be0075190626.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Turquie : Une Française parmi les victimes de l’effondrement d’une colonne rocheuse en Cappadoce",
+      "resume": "Une Française est morte dans l’effondrement d’une colonne rocheuse sur un site touristique de Cappadoce en Turquie",
+      "lien": "https://www.20minutes.fr/monde/4259030-20261030-turquie-francaise-parmi-victimes-effondrement-colonne-rocheuse-cappadoce?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T15:42:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/XBNyUz0jTwSHtjl0blurcCk/1200x768_production-4-novembre-2025-turquie-goreme-formations-rocheuses-de-love-valley-dans-le-parc-national-de-goreme-en-cappadoce-a-l-automne-un-paysage-de-tuffeau-unique-avec-des-cheminees-de-fees-en-forme-de-champignon-s-est-forme-ici-ces-roches-formees-par-l-erosion-abritent-egalement-des-eglises-rupestres-des-monasteres-et-des-villes-souterraines-vieux-de-plusieurs-siecles-le-paysage-classe-au-patrimoine-mondial-de-l-unesco-est-caracterise-par-de-remarquables-formations-de-tuf-appelees-cheminees-de-fees-les-conditions-meteorologiques-pour-les-vols-en-montgolfiere-sont-tres-bonnes-en-cappadoce-avec-environ-260-jours-de-vol-photo-jens-kalaene-dpa-ur-newsml-dpa-com-20090101-260227-99-664929-jens-kalaene-dpa-sipa-2602270738"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Turquie : Une Française parmi les victimes de l’effondrement d’une colonne rocheuse en Cappadoce",
+      "resume": "Une Française est morte dans l’effondrement d’une colonne rocheuse sur un site touristique de Cappadoce en Turquie",
+      "lien": "https://www.20minutes.fr/monde/4259030-20261030-turquie-francaise-parmi-victimes-effondrement-colonne-rocheuse-cappadoce?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T15:42:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/XBNyUz0jTwSHtjl0blurcCk/1200x768_production-4-novembre-2025-turquie-goreme-formations-rocheuses-de-love-valley-dans-le-parc-national-de-goreme-en-cappadoce-a-l-automne-un-paysage-de-tuffeau-unique-avec-des-cheminees-de-fees-en-forme-de-champignon-s-est-forme-ici-ces-roches-formees-par-l-erosion-abritent-egalement-des-eglises-rupestres-des-monasteres-et-des-villes-souterraines-vieux-de-plusieurs-siecles-le-paysage-classe-au-patrimoine-mondial-de-l-unesco-est-caracterise-par-de-remarquables-formations-de-tuf-appelees-cheminees-de-fees-les-conditions-meteorologiques-pour-les-vols-en-montgolfiere-sont-tres-bonnes-en-cappadoce-avec-environ-260-jours-de-vol-photo-jens-kalaene-dpa-ur-newsml-dpa-com-20090101-260227-99-664929-jens-kalaene-dpa-sipa-2602270738"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Une Française tuée en Turquie dans l’effondrement d’une colonne rocheuse sur un site touristique classé à l’Unesco",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/une-francaise-tuee-en-turquie-dans-leffondrement-dune-colonne-rocheuse-sur-un-site-touristique-classe-a-lunesco-30-10-2026-66ZDJZBDGJBNXA43H6F4O5TA7Y.php",
+      "date": "2026-10-30T22:14:41.476440+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Une Française tuée en Turquie dans l’effondrement d’une colonne rocheuse sur un site touristique de Cappadoce",
+      "resume": "Une Française figure parmi les trois victimes de l’effondrement rocheux mortel survenu jeudi en Cappadoce, selon une confirmation du ministère français des Affaires étrangères.",
+      "lien": "https://www.nicematin.com/faits-divers/une-francaise-tuee-en-turquie-dans-l-effondrement-d-une-colonne-rocheuse-sur-un-site-touristique-de-cappadoce-10749460",
+      "date": "2026-10-30T16:14:02+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/94/60/OG-10749460-1200-800-1f5204a_upload-1-xf3j3yqpfi66-1f5204a6bec076fbb56777dad29eb1ceb73331e5.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Éboulement mortel sur un célèbre site touristique : une Française tuée et plusieurs blessés après l’effondrement d’une \"cheminée de fée\" en Turquie",
+      "resume": "Une Française figure parmi les trois victimes de l’effondrement d’une colonne rocheuse survenu jeudi 29 octobre en Cappadoce, site classé au patrimoine mondial de l’Unesco. Le ministère français des Affaires...",
+      "lien": "https://www.midilibre.fr/2026/10/30/eboulement-mortel-sur-un-celebre-site-touristique-une-francaise-tuee-et-plusieurs-blesses-apres-leffondrement-dune-cheminee-de-fee-en-turquie-13628485.php",
+      "date": "2026-10-30T18:24:45+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4df40fb5307f4ce076860/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "franceinfo"
+    ],
+    "sig": [
+     "cappad",
+     "colonn",
+     "effond",
+     "franca",
+     "rocheu",
+     "site",
+     "touris",
+     "turqui"
+    ],
+    "score": 64.99920529666667,
+    "suite": null,
+    "pays": "Turquie",
+    "requete": "Istanbul Turkey",
+    "prioritaire": true,
+    "titre": "Turquie : une Française tuée dans un éboulement en Cappadoce",
+    "texte": "En Turquie, une Française figure parmi les trois victimes de l'effondrement d'une colonne rocheuse en Cappadoce, jeudi. Le ministère français des Affaires étrangères a confirmé sa mort.",
+    "texte_long": "En Turquie, une Française figure parmi les trois victimes de l'effondrement d'une colonne rocheuse en Cappadoce, jeudi. Le ministère français des Affaires étrangères a confirmé sa mort.",
+    "flash": "En Turquie, une Française figure parmi les trois victimes de l'effondrement d'une colonne rocheuse en Cappadoce, jeudi.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "3",
+     "legende": "victimes de l'éboulement"
+    },
+    "iso": [
+     "TUR",
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Turquie",
+     "#Accident"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/4259030-20261030-turquie-francaise-parmi-victimes-effondrement-colonne-rocheuse-cappadoce?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/4259030-20261030-turquie-francaise-parmi-victimes-effondrement-colonne-rocheuse-cappadoce?at_medium=display&at_campaign=149",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/une-francaise-tuee-en-turquie-dans-leffondrement-dune-colonne-rocheuse-sur-un-site-touristique-classe-a-lunesco-30-10-2026-66ZDJZBDGJBNXA43H6F4O5TA7Y.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/30/eboulement-mortel-sur-un-celebre-site-touristique-une-francaise-tuee-et-plusieurs-blesses-apres-leffondrement-dune-cheminee-de-fee-en-turquie-13628485.php",
+     "Nice-Matin": "https://www.nicematin.com/faits-divers/une-francaise-tuee-en-turquie-dans-l-effondrement-d-une-colonne-rocheuse-sur-un-site-touristique-de-cappadoce-10749460",
+     "franceinfo": "https://www.franceinfo.fr/monde/turquie/une-francaise-fait-partie-des-victimes-dans-l-effondrement-d-une-colonne-rocheuse-en-turquie_8260661.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "30 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Monde",
+      "titre": "En Pologne, le président du Tribunal constitutionnel écarté, la police déployée à Varsovie",
+      "resume": "Des dizaines de policiers antiémeute barrent l’accès à l’enceinte de la plus haute juridiction aux nombreux militants du parti national conservateur Droit et justice venus soutenir le magistrat.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html",
+      "date": "2026-10-30T20:12:22+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/651/0/6397/3198/644/322/60/0/45a8604_ftp-1-yq4tqavberny-afp-d4yf4zq.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "En Pologne, le président du Tribunal constitutionnel écarté, la police déployée à Varsovie",
+      "resume": "Des dizaines de policiers antiémeute barrent l’accès à l’enceinte de la plus haute juridiction aux nombreux militants du parti national conservateur Droit et justice venus soutenir le magistrat.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html",
+      "date": "2026-10-30T20:12:22+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/651/0/6397/3198/644/322/60/0/45a8604_ftp-1-yq4tqavberny-afp-d4yf4zq.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Crise politique en Pologne : le président du tribunal constitutionnel écarté, la police anti-émeutes déployée",
+      "resume": "Des dizaines de policiers anti-émeutes empêchaient l’accès à l’enceinte de la plus haute juridiction polonaise aux nombreux soutiens du parti national-conservateur Droit et Justice (PiS, opposition). La cour dénonce un «coup d’État».",
+      "lien": "https://www.lefigaro.fr/international/crise-politique-en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-anti-emeutes-deployee-20261030",
+      "date": "2026-10-30T20:50:24+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/10/30/1b6fe95ff04d2e601924822f4fbd098dabfdc0db587d7e8a82efaecf9cf4934c.JPG"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Pologne: la police bloque l'accès au Tribunal constitutionnel, au coeur d'une crise politique",
+      "resume": "La police s'est déployée vendredi soir à Varsovie autour du Tribunal constitutionnel après l'annonce de la suspension de son président, au coeur d'un bras-de-fer entre la droite nationaliste qui l'a nommé quand elle était au pouvoir, et l'actuel gouvernement centriste de Donald Tusk.",
+      "lien": "https://www.bfmtv.com/international/europe/pologne-la-police-bloque-l-acces-au-tribunal-constitutionnel-au-coeur-d-une-crise-politique_AD-202610300935.html",
+      "date": "2026-10-30T21:55:02+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/CfGi8_PBwU9tMkd_gTigBphuQzk=/0x104:2048x1256/800x0/images/Des-vehicules-de-police-aux-abords-du-tribunal-constitutionnel-a-Varsovie-Pologne-le-30-octobre-2026-2375402.jpg"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "Le Figaro France",
+     "Le Monde",
+     "Le Monde France"
+    ],
+    "sig": [
+     "consti",
+     "crise",
+     "deploy",
+     "ecarte",
+     "police",
+     "pologn",
+     "presid",
+     "tribun"
+    ],
+    "score": 62.67157295222222,
+    "suite": null,
+    "pays": "Pologne",
+    "requete": "Warsaw Poland",
+    "prioritaire": true,
+    "titre": "Pologne : la police bloque le Tribunal constitutionnel",
+    "texte": "En Pologne, la police s'est déployée vendredi soir autour du Tribunal constitutionnel, après la suspension de son président. Des militants du parti Droit et justice sont venus le soutenir.",
+    "texte_long": "En Pologne, la police s'est déployée vendredi soir autour du Tribunal constitutionnel, après la suspension de son président. Des militants du parti Droit et justice sont venus le soutenir.",
+    "flash": "En Pologne, la police s'est déployée vendredi soir autour du Tribunal constitutionnel après la suspension de son président.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "POL"
+    ],
+    "personne": "Donald Tusk",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Pologne",
+     "#Justice"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/international/europe/pologne-la-police-bloque-l-acces-au-tribunal-constitutionnel-au-coeur-d-une-crise-politique_AD-202610300935.html",
+     "Le Figaro France": "https://www.lefigaro.fr/international/crise-politique-en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-anti-emeutes-deployee-20261030",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html"
+    },
+    "date_affichee": "30 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-30T22:15:04.363355+00:00",
+  "decision": null
  }
 ]
