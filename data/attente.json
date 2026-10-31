@@ -1887,5 +1887,983 @@
   "semaine": false,
   "cree": "2026-10-30T22:15:04.363355+00:00",
   "decision": null
+ },
+ {
+  "type": "edition",
+  "jeton": "573285",
+  "messages": {
+   "0": 945,
+   "1": 946,
+   "2": 947,
+   "3": 948,
+   "4": 949,
+   "5": 950
+  },
+  "id_fin": 951,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Halloween et manifestations : interdit de dissimuler son visage ?",
+      "resume": "Le message a provoqué un tollé. Mercredi, la préfecture de police rappelle que dissimuler son visage dans l'espace public est passible d'une amende, même pendant Halloween. En principe, c'est faux. En revanche, qu'en est-il quand la fête d'Halloween investit les manifestations ? Peut-on manifester le visage couvert, comme de nombreuses publications appellent à le faire ? Les explications avec Jules BOITEAU dans Info ou Intox.",
+      "lien": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261030-halloween-et-manifestations-interdit-de-dissimuler-son-visage",
+      "date": "2026-10-30T21:40:13+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/51e0b42a-d4a9-11f1-b058-a575454bc579/w:1024/p:16x9/capture-279ed734.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Manifestation du 31 octobre : le jour d’Halloween, peut-on masquer son visage dans les cortèges ?",
+      "resume": "Laurent Nuñez, ministre de l’Intérieur, a prévenu que «le prétexte de la nuit d’Halloween ne sera pas un motif légitime pour se dissimuler le visage dans l’espace public» en vue de «commettre des troubles à l’ordre public». Que dit la loi ?",
+      "lien": "https://www.lefigaro.fr/actualite-france/manifestation-du-31-octobre-le-jour-d-halloween-peut-on-masquer-son-visage-dans-les-corteges-20261031",
+      "date": "2026-10-31T07:40:32+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/10/31/1deac064f0f643912a48dfe9f01377feb1d5dd0741161d79151277303506f155.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: les commerces barricadés sur le parcours du cortège à Paris",
+      "resume": "La France s'apprête à vivre ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Selon la police, 350 actions sont programmées, susceptibles de fédérer 350.000 à 450.000 personnes.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-les-commerces-barricades-sur-le-parcours-du-cortege-a-paris_VN-202610310110.html",
+      "date": "2026-10-31T06:04:13+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/DEr7MPJdoVYI8SC8IcsJ0Qlrb-s=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-les-commerces-barricades-sur-le-parcours-du-cortege-a-Paris-2375456.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "INFO BFMTV. Manifestations du 31 octobre: le conseil d’État annule la décision du tribunal administratif, le parcours allant de Bagnolet à Charenton finalement autorisé",
+      "resume": "Le conseil d’État a annulé, ce samedi 31 octobre, la décision du tribunal administratif concernant le parcours de la manifestation parisienne et donne raison au ministère de l'Intérieur en autorisant le parcours allant de Porte de Bagnolet à Porte de Charenton.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/info-bfmtv-manifestations-du-31-octobre-le-conseil-d-etat-annule-la-decision-du-tribunal-administratif-le-parcours-allant-de-bagnolet-a-charenton-finalement-autorise_AV-202610310103.html",
+      "date": "2026-10-31T05:57:55+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/gsTASFxb7CbqghHLu73XIl-qHsI=/0x40:768x472/800x0/images/Des-associations-saisissent-le-Conseil-d-Etat-contre-les-cases-genrees-Monsieur-ou-Madame-2372862.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: à Bordeaux, le parcours autorisé est trop proche du centre-ville selon le maire",
+      "resume": "La France s'apprête à vivre ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Selon la police, 350 actions sont programmées, susceptibles de fédérer 350.000 à 450.000 personnes.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-a-bordeaux-le-parcours-autorise-est-trop-proche-du-centre-ville-selon-le-maire_VN-202610310099.html",
+      "date": "2026-10-31T05:46:51+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/kbuxS_wQbYYWmRGDdNtaKLnN2Xc=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-a-Bordeaux-le-parcours-autorise-est-trop-proche-du-centre-ville-selon-le-maire-2375450.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestation du 31 octobre: le parcours à Paris allant de Bagnolet à Charenton finalement autorisé",
+      "resume": "La France s'apprête à vivre ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Selon la police, 350 actions sont programmées, susceptibles de fédérer 350.000 à 450.000 personnes.",
+      "lien": "https://www.bfmtv.com/police-justice/video-manifestation-du-31-octobre-le-parcours-a-paris-allant-de-bagnolet-a-charenton-finalement-autorise_VN-202610310095.html",
+      "date": "2026-10-31T05:37:59+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/9MHZPzUzyjwzIaveJRFgz1blPgI=/0x0:1280x720/800x0/images/Manifestation-du-31-octobre-le-parcours-a-Paris-allant-de-Bagnolet-a-Charenton-finalement-autorise-2375444.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Le Conseil d’État annule la décision du tribunal administratif de Paris, le parcours Bastille-Nation interdit",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/paris-75/le-conseil-detat-annule-la-decision-du-tribunal-administratif-de-paris-le-parcours-bastille-nation-interdit-31-10-2026-MEP53KUPSJBQJJ5AKJQPDLQCTI.php",
+      "date": "2026-10-31T07:51:26.449057+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "DIRECT. Trajet du 31 octobre à Paris : la CGT fustige une «stratégie de désorganisation» mais appelle à respecter la décision du Conseil d'État",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/direct-mobilisation-du-31-octobre-nouvelle-journee-de-manifestations-dans-plusieurs-villes-lexecutif-craint-des-debordements-31-10-2026-DRJIUI3CBVHBBAGX66RVWDYPBM.php",
+      "date": "2026-10-31T07:51:26.449245+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
+      "date": "2026-10-31T07:51:26.449480+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Prix des carburants dans Paris : voici les stations les moins chères ce samedi 31 octobre",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/consommation/prix-des-carburants-dans-paris-ou-trouver-les-stations-les-moins-cheres-ce-samedi-31-octobre-31-10-2026-E2DBLRVLNBCFXBF2D4ZI2RBXIM.php",
+      "date": "2026-10-31T07:51:26.449748+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Seul, pacifique, et non armé » : le parquet de Paris ouvre une enquête après le tabassage d’un manifestant par des policiers le 17 octobre",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/seul-pacifique-et-non-arme-le-parquet-de-paris-ouvre-une-enquete-apres-le-tabassage-dun-manifestant-par-des-policiers-le-17-octobre-30-10-2026-LBBSF3XWTBC4ND2WCZC2V2KCSI.php",
+      "date": "2026-10-31T07:51:26.450047+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "31 octobre : Rennes, Bordeaux, Lyon, Nice… manifestation ou interdiction, à quoi faut-il s’attendre pour les cortèges ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/31-octobre-rennes-bordeaux-lyon-nice-manifestation-ou-interdiction-a-quoi-faut-il-sattendre-pour-les-corteges-30-10-2026-QPUBW3J54RBA3DZDP2DZCTXF4A.php",
+      "date": "2026-10-31T07:51:26.450525+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Manifestation du 31 octobre à Paris : Bastille-Nation, voici le parcours autorisé par le tribunal administratif",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-bastille-nation-voici-le-parcours-autorise-par-le-tribunal-administratif-30-10-2026-VHV7WTYF3FDVFOJUDLHZFG5QZQ.php",
+      "date": "2026-10-31T07:51:26.450639+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Manifestations du 31 octobre : « Acte III » des Gilets jaunes, lycéens, parcours… À quoi faut-il s’attendre ce samedi ?",
+      "resume": "Des rassemblements sont prévus un peu partout en France samedi 31 octobre à l’appel des Gilets jaunes et de syndicats. À Paris, le parcours Bastille-Nation est finalement interdit. Voici ce qu’il faut savoir de cette nouvelle journée de mobilisation.",
+      "lien": "https://www.ouest-france.fr/societe/manifestation/manifestations-du-31-octobre-acte-iii-des-gilets-jaunes-lyceens-parcours-a-quoi-faut-il-sattendre-ce-samedi-01ad7e4a-d399-11f1-81f2-0d14b9f9c452?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-31T06:42:57+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwNjMyYjE3MTVjZGIxMmE3MWQ3MTYwYjJhNjQ4ZjM1NjI?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=d43f069640cbdf9065849670b0797b154f58224ee49222818bffda41208a5dd2"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestations du 31 octobre : acte III des Gilets jaunes ce samedi, suivez la mobilisation partout en France",
+      "resume": "Acte III des Gilets jaunes ce samedi 31 octobre, sur fond de contestation contre la vie chère. Suivez les mobilisations, les restrictions et les événements marquants en France.",
+      "lien": "https://actu.fr/societe/direct-manifestations-du-31-octobre-acte-iii-des-gilets-jaunes-ce-samedi-suivez-la-mobilisation-partout-en-france_64997812.html",
+      "date": "2026-10-31T06:22:52+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/newsmlafp-com-20261024t154913zpartners-080-hl-ptournier-3357067-1024x557.jpg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation à Paris : commerces barricadés, sécurité renforcée… les autorités redoutent un nouveau 17-octobre",
+      "resume": "À Paris, la mobilisation de ce samedi 31 octobre inquiète les autorités. Commerces protégés, couvre-feu et dispositif exceptionnel : la capitale se prépare au pire.",
+      "lien": "https://actu.fr/ile-de-france/paris_75056/manifestation-a-paris-commerces-barricades-securite-renforcee-les-autorites-redoutent-un-nouveau-17-octobre_64998381.html",
+      "date": "2026-10-31T07:17:30+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/newsmlafp-com-20261026t093730zdoc-d4f4764-1024x557.jpg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 31 octobre à Montpellier : l'arrêté de la préfète attaqué au tribunal, la fac de sciences évacuée",
+      "resume": "L'arrêté de la préfète interdisant la manifestation des lycéens ce samedi, à Montpellier, est attaqué au tribunal administratif. La police nationale a évacué la fac des sciences.",
+      "lien": "https://actu.fr/occitanie/montpellier_34172/manifestation-du-31-octobre-a-montpellier-l-arrete-de-la-prefete-attaque-au-tribunal-la-fac-de-sciences-evacuee_64998346.html",
+      "date": "2026-10-31T07:12:35+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2024/06/tribunal-administratif-montpellier-1-1024x557.jpg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "RATP. Manifestation à Paris : 40 stations de métro fermées ce samedi 31 octobre, voici la liste et les horaires",
+      "resume": "La RATP annonce la fermeture de 40 stations de métro, auxquelles s'ajoutent des restrictions dans plusieurs gares RER à la demande de la préfecture de police.",
+      "lien": "https://actu.fr/ile-de-france/paris_75056/ratp-manifestations-a-paris-40-stations-de-metro-fermees-ce-samedi-31-octobre-voici-la-liste-et-les-horaires_64998362.html",
+      "date": "2026-10-31T07:02:24+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/03/acces-station-metro-republique-place-republique-paris-x-fr75-2021-12-20-5-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Une journée à « risque très élevé »: pour cet acte III contre la vie chère, les autorités redoutent un nouveau 17-octobre",
+      "resume": "Pour l’acte III de mobilisation contre la vie chère, en pleine fête d’Halloween, les autorités, face à une journée à « risque très élevé » déploieront quelque 70.000 policiers et gendarmes sur le territoire français et multiplient les mesures de coercition.",
+      "lien": "https://www.nicematin.com/societe/greves/une-journee-a-risque-tres-eleve-pour-cet-acte-iii-contre-la-vie-chere-les-autorites-redoutent-un-nouveau-17-octobre-10749732",
+      "date": "2026-10-31T05:24:27+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/97/32/OG-10749732-1200-800-822adc7_ftp-1-o79y3i1zgc3k-rcaxxq231-cd-emeutes.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Itinéraire de manif inédit, couvre-feux pour les mineurs, service d’ordre organisé par les syndicats : que va nous réserver l’acte III contre la vie chère à Toulon, ce samedi",
+      "resume": "Ce samedi 31 octobre marque à Toulon le 3e acte de la mobilisation nationale contre la vie chère, avec un cortège de plus de 5 kilomètres « sur les boulevards de ceinture » autour de la ville, autorisé par la préfecture du Var. Les syndicats seront présents avec leur service d’ordre. Les commerçants sont partagés, entre invitation à venir en centre-ville et fermeture de rideau.",
+      "lien": "https://www.nicematin.com/societe/social/itineraire-de-manif-inedit-couvre-feux-pour-les-mineurs-service-d-ordre-organise-par-les-syndicats-que-va-nous-reserver-l-acte-iii-contre-la-vie-chere-a-toulon-ce-samedi-10749423",
+      "date": "2026-10-31T04:55:00+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/94/23/OG-10749423-1200-800-4b2f63e_upload-1-s6kouwu1rnlq-maxmatinarchtwo265123.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Mobilisation du 31 octobre : sécurité « amplifiée » pour un samedi à « haut risque » sur la Côte d’Azur et partout en France",
+      "resume": "L’acte III de la mobilisation contre la vie chère ce samedi 31 octobre est placée sous haute-surveillance. On fait le point sur la situation et sur les risques attendus ce week-end.",
+      "lien": "https://www.nicematin.com/societe/mobilisation-du-31-octobre-securite-amplifiee-pour-un-samedi-a-haut-risque-sur-la-cote-d-azur-et-partout-en-france-10749492",
+      "date": "2026-10-30T20:16:42+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/94/92/OG-10749492-1200-800-b12c2db_upload-1-kl9xrebru3gq-rcaxxq43-fbt-manif-ni-46159311.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "DIRECT. Manifestation du 31 octobre : « même si c’est Halloween, le port d’un déguisement qui masque le visage est interdit », nouvelle journée de mobilisation sous tension, suivez le fil",
+      "resume": "La France s’apprête à vivre samedi sa troisième journée de mobilisation sociale en trois semaines, avec 350 actions programmées dans le pays.",
+      "lien": "https://www.sudouest.fr/economie/social/direct-manifestation-du-31-octobre-meme-si-c-est-halloween-le-port-d-un-deguisement-qui-masque-le-visage-est-interdit-nouvelle-journee-de-mobilisation-sous-tension-suivez-le-fil-31313567.php",
+      "date": "2026-10-31T06:12:25+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31313567/1200x-1/gironde-20261024192119-fcot5617.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Mobilisation sociale : « Il faut que les manifestations se déportent des centres-villes », le ministre de l’Économie à Bordeaux au chevet des commerçants sinistrés",
+      "resume": "Le ministre de l’Économie Roland Lescure s’est rendu vendredi 29 octobre à Bordeaux à la rencontre des commerçants « sinistrés par les violences urbaines ». Il a rappelé les aides d’urgence et appelé avec",
+      "lien": "https://www.sudouest.fr/gironde/bordeaux/mobilisation-sociale-il-faut-que-les-manifestations-se-deportent-des-centres-villes-le-ministre-de-l-economie-a-bordeaux-au-chevet-des-commercants-sinistres-31309900.php",
+      "date": "2026-10-30T21:52:06+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31309900/1200x-1/20261030191034-4x1a8757.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPORTAGE. Manifestations du 31 octobre : \"On fermera si ça chauffe trop\", des commerçants du centre-ville de Toulouse entre inquiétude et lassitude pour cette nouvelle journée de mobilisation",
+      "resume": "Dans le centre-ville de Toulouse, les commerçants se préparent pour un troisième samedi de mobilisation, ravivant chez certains le souvenir des Gilets jaunes. Entre barricades de bois et groupes de solidarité sur...",
+      "lien": "https://www.ladepeche.fr/2026/10/31/reportage-manifestations-du-31-octobre-on-fermera-si-ca-chauffe-trop-des-commercants-du-centre-ville-de-toulouse-entre-inquietude-et-lassitude-a-la-13627992.php",
+      "date": "2026-10-31T07:30:09+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae4b05f2322577b0a09a981/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestations du 31 octobre : 70 000 policiers pour un samedi sous haute tension, le gouvernement redoute de nouvelles violences",
+      "resume": "La troisième journée de mobilisation contre la vie chère et de colère lycéenne, ce samedi, coïncide avec Halloween. Le gouvernement redoute de nouveaux débordements et reconduit un dispositif de sécurité exceptionnel....",
+      "lien": "https://www.ladepeche.fr/2026/10/30/manifestations-du-31-octobre-70-000-policiers-pour-un-samedi-sous-haute-tension-lexecutif-redoute-de-nouveaux-derapages-13627736.php",
+      "date": "2026-10-31T06:59:12+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae46de513fb2c86b709c348/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Manifestations du 31 octobre à Toulouse : pas de mobilisation déclarée officiellement en préfecture, 70 000 policiers et gendarmes mobilisés dans toute la France",
+      "resume": "Suivez les manifestations de ce samedi 31 octobre 2026, à Toulouse et en région Occitanie, en direct toute la journée sur ladepeche.fr",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-manifestations-du-31-octobre-a-toulouse-pas-de-mobilisation-declaree-officiellement-en-prefecture-70-000-policiers-et-gendarmes-mobilises-dans-13628338.php",
+      "date": "2026-10-31T07:26:26+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae5045e2a29b834da0a2f11/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "VRAI OU FAUX. Mobilisations du 31 octobre : les manifestants peuvent-ils venir déguisés ou risquent-ils une amende ?",
+      "resume": "L’acte III de la mobilisation contre la vie chère tombe le même jour qu’Halloween. Des appels à venir déguisé ou masqué ont été lancés sur les réseaux sociaux. Est-ce autorisé ? Et pourquoi certains manifestants...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/vrai-ou-faux-mobilisations-du-31-octobre-les-manifestants-peuvent-il-venir-deguises-ou-risquent-ils-une-amende-13627814.php",
+      "date": "2026-10-31T06:20:18+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae48ee6d911d448770d51be/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "CARTE Manifestations du 31 octobre : barrages filtrants, blocages de stations-service… Voici les principaux secteurs touchés en Occitanie",
+      "resume": "Ce 31 octobre 2026, près de 900 actions sont déclarées dans toute la France. En Occitanie, une cinquantaine de rassemblements sont annoncés. Les voici en carte.",
+      "lien": "https://www.midilibre.fr/2026/10/31/carte-manifestations-du-31-octobre-barrages-filtrants-blocages-de-stations-service-voici-les-principaux-secteurs-touches-en-occitanie-13628174.php",
+      "date": "2026-10-31T07:08:32+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4c40b379ed22cea0be3cf/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Manifestations du 31 octobre en Occitanie : Montpellier, Narbonne, Nîmes… à quoi faut-il s’attendre ?",
+      "resume": "Un rassemblement finalement autorisé à Nîmes, un autre interdit au dernier moment à Montpellier. Et le tout sur fond d’Halloween. Tour d’horizon de l’Acte III des manifestations, ce samedi 31 octobre 2026 dans la région.",
+      "lien": "https://www.midilibre.fr/2026/10/30/manifestations-du-31-octobre-en-occitanie-montpellier-narbonne-nimes-a-quoi-faut-il-sattendre-13628477.php",
+      "date": "2026-10-30T20:36:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4dc0f55937b67830d4180/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "REPLAY Manifestation du 31 octobre : des épisodes de violences \"comparables à ceux du 17 octobre\" attendus",
+      "resume": "À la veille d’une nouvelle journée de mobilisation dans de nombreuses villes françaises, le ministre de l’Intérieur Laurent Nuñez met en garde contre \"un risque de violences urbaines très élevé\" et a annoncé un...",
+      "lien": "https://www.midilibre.fr/2026/10/30/en-direct-manifestations-du-31-octobre-70-000-policiers-et-gendarmes-mobilises-les-mesures-de-securite-prevues-a-montpellier-les-dernieres-infos-13627529.php",
+      "date": "2026-10-30T20:04:16+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae4dae27855363d5e03f30e/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Social. Manifestations du 31 octobre : le parcours Bastille/Nation finalement interdit à Paris, des épisodes de violences redoutés",
+      "resume": "Gilets, syndicats, lycéens ou encore étudiants sont attendus dans la rue ce samedi 31 octobre. Des épisodes de violences sont redoutés. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.leprogres.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T06:23:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Humour. Le dessin du 31 octobre : des manifestations jour d'Halloween",
+      "resume": "L'actualité croquée par notre dessinateur.",
+      "lien": "https://www.leprogres.fr/societe/2026/10/31/le-dessin-du-31-octobre-des-manifestations-jour-d-halloween",
+      "date": "2026-10-31T05:15:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Social. Manifestation du 31 octobre à Lyon : de la Manufacture des Tabacs à Jean-Macé, des commerçants inquiets",
+      "resume": "À la veille de la manifestation du samedi 31 octobre, Le Progrès est allé à la rencontre des commerçants qui bordent le parcours. Beaucoup témoignent de leur inquiétude sur d’éventuels débordements tandis que d’autres sont rassurés de savoir le cortège déclaré.",
+      "lien": "https://www.leprogres.fr/economie/2026/10/31/manifestation-du-31-octobre-de-la-manufacture-des-tabacs-a-jean-mace-des-commercants-inquiets",
+      "date": "2026-10-31T05:00:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Social. Manifestations du 31 octobre : le parcours Bastille/Nation finalement interdit à Paris, des épisodes de violences redoutés",
+      "resume": "Gilets, syndicats, lycéens ou encore étudiants sont attendus dans la rue ce samedi 31 octobre. Des épisodes de violences sont redoutés. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.ledauphine.com/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T06:23:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/6019C1A9-A3F6-4D8A-8911-9038A2771C87/NW_listB/manifestations-du-31-octobre-le-parcours-bastille-nation-finalement-interdit-a-paris-des-episodes-de-violences-redoutes-1793426928.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Social. Manifestations du 31 octobre : le parcours Bastille/Nation finalement interdit à Paris, des épisodes de violences redoutés",
+      "resume": "Gilets, syndicats, lycéens ou encore étudiants sont attendus dans la rue ce samedi 31 octobre. Des épisodes de violences sont redoutés. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T06:23:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "France 24",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "Ouest-France",
+     "Sud Ouest",
+     "actu.fr"
+    ],
+    "sig": [
+     "autori",
+     "interd",
+     "manife",
+     "mobili",
+     "octobr",
+     "parcou",
+     "paris",
+     "redout"
+    ],
+    "score": 132.99914367305556,
+    "suite": "Plus de 70 000 policiers mobilisés pour le 31 octobre",
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Paris autorise un parcours de Bagnolet à Charenton",
+    "texte": "Le Conseil d'État a validé le parcours de la manifestation parisienne du 31 octobre, de la porte de Bagnolet à la porte de Charenton. Les autorités redoutent des violences, avec 70 000 policiers et gendarmes mobilisés.",
+    "texte_long": "Le Conseil d'État a validé le parcours de la manifestation parisienne du 31 octobre, de la porte de Bagnolet à la porte de Charenton. Les autorités redoutent des violences, avec 70 000 policiers et gendarmes mobilisés.",
+    "flash": "À Paris, le Conseil d'État valide le parcours de la manifestation du 31 octobre, de Bagnolet à Charenton, alors que 70 000 policiers et gendarmes sont mobilisés.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "70 000",
+     "legende": "policiers et gendarmes mobilisés"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Manifestation",
+     "#Ordrepublic"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-les-commerces-barricades-sur-le-parcours-du-cortege-a-paris_VN-202610310110.html",
+     "France 24": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261030-halloween-et-manifestations-interdit-de-dissimuler-son-visage",
+     "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/31/reportage-manifestations-du-31-octobre-on-fermera-si-ca-chauffe-trop-des-commercants-du-centre-ville-de-toulouse-entre-inquietude-et-lassitude-a-la-13627992.php",
+     "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+     "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestation-du-31-octobre-le-jour-d-halloween-peut-on-masquer-son-visage-dans-les-corteges-20261031",
+     "Le Parisien": "https://www.leparisien.fr/paris-75/le-conseil-detat-annule-la-decision-du-tribunal-administratif-de-paris-le-parcours-bastille-nation-interdit-31-10-2026-MEP53KUPSJBQJJ5AKJQPDLQCTI.php",
+     "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/31/carte-manifestations-du-31-octobre-barrages-filtrants-blocages-de-stations-service-voici-les-principaux-secteurs-touches-en-occitanie-13628174.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/greves/une-journee-a-risque-tres-eleve-pour-cet-acte-iii-contre-la-vie-chere-les-autorites-redoutent-un-nouveau-17-octobre-10749732",
+     "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestations-du-31-octobre-acte-iii-des-gilets-jaunes-lyceens-parcours-a-quoi-faut-il-sattendre-ce-samedi-01ad7e4a-d399-11f1-81f2-0d14b9f9c452?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "Sud Ouest": "https://www.sudouest.fr/economie/social/direct-manifestation-du-31-octobre-meme-si-c-est-halloween-le-port-d-un-deguisement-qui-masque-le-visage-est-interdit-nouvelle-journee-de-mobilisation-sous-tension-suivez-le-fil-31313567.php",
+     "actu.fr": "https://actu.fr/societe/direct-manifestations-du-31-octobre-acte-iii-des-gilets-jaunes-ce-samedi-suivez-la-mobilisation-partout-en-france_64997812.html"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "France: une semaine après l'attentat, la gauche dénonce à Trappes le RN, le racisme et l'islamophobie",
+      "resume": "Il y a une semaine, le 23 octobre 2026, une personne était tuée et sept autres blessées à Trappes et La Verrière, au sud-ouest de Paris, dans un attentat raciste. Plusieurs milliers de personnes se sont réunies à Trappes, vendredi 30 octobre, pour se dresser contre le racisme et l'islamophobie, à l'appel du maire de la ville. Un rassemblement marqué par la présence de plusieurs personnalités politiques de gauche, dont trois candidats à l'élection présidentielle.",
+      "lien": "https://www.rfi.fr/fr/france/20261031-france-une-semaine-apr%C3%A8s-l-attentat-la-gauche-d%C3%A9nonce-%C3%A0-trappes-le-rn-le-racisme-et-l-islamophobie",
+      "date": "2026-10-31T03:26:57+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/2fa52ae6-d4b6-11f1-9195-d18c5759e759/w:1024/p:16x9/000-D4YD3XT.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "REPORTAGE. \"La France, c'est nous\" : une semaine après l'attentat raciste à Trappes, un rassemblement \"pour faire face aux discours xénophobes\"",
+      "resume": "Un rassemblement a eu lieu vendredi soir à Trappes (Yvelines), une semaine après un attentat raciste qui a causé la mort d'un homme noir de 26 ans, Pengo Bossio Wangi, et blessé sept personnes, dont une fillette.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/la-france-c-est-nous-une-semaine-apres-l-attentat-raciste-a-trappes-un-rassemblement-pour-faire-face-aux-discours-xenophobes_8260991.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T22:36:49+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/BUg_XRWQOdQMya4KIXPFAHq0Go0/0x53:1024x629/432x243/filters:format(jpg)/2026/10/30/6ae4fe6d2f8a0368957686.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"J'ai peur d'être morte, vu que je suis musulmane\" : après l'attentat raciste de Trappes, l'inquiétude gagne les enfants et les personnes âgées de la ville",
+      "resume": "Comment vivre avec le sentiment d'être devenus des cibles ? Une équipe de France Télévisions a passé plusieurs jours à Trappes (Yvelines) pour recueillir la parole et l'état d'esprit des habitants après l'attentat du 23 octobre.",
+      "lien": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/comment-on-peut-construire-une-societe-avec-des-enfants-qui-ont-peur-des-le-plus-jeune-age-les-habitants-de-trappes-se-confient-une-semaine-apres-l-attaque_8261015.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T21:32:06+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Ljes0AgEJ0PN9kBI_XtoB5evQQ4/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/30/6ae5047f2cae1697079825.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Trappes: des milliers de personnes rassemblées contre le racisme, le maire Génération.s cible le RN",
+      "resume": "Une semaine après l'attentat qui a causé la mort d'un homme de 26 ans, Pengo Bossio Wangi, et blessé sept personnes, des rassemblements ont eu lieu vendredi 30 octobre au soir dans les deux communes où l'assaillant a effectué son périple meurtrier.",
+      "lien": "https://www.bfmtv.com/politique/video-trappes-des-milliers-de-personnes-rassemblees-contre-le-racisme-le-maire-generation-s-cible-le-rn_VN-202610310109.html",
+      "date": "2026-10-31T06:03:03+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/E3HBKKtvE-hhDN4eB_xEts0Ib00=/0x0:1280x720/800x0/images/Trappes-des-milliers-de-personnes-rassemblees-contre-le-racisme-le-maire-Generation-s-cible-le-RN-2375455.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Trappes : le temps d’un hommage aux victimes de l’attentat raciste, la gauche présente un visage uni",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/trappes-le-temps-dun-hommage-aux-victimes-de-lattentat-raciste-la-gauche-presente-un-visage-uni-30-10-2026-E22QKDENJBHYNOAT577IGNL5XA.php",
+      "date": "2026-10-31T07:51:26.450069+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Présidentielle 2027 : plusieurs candidats de gauche au rassemblement de Trappes après l'attentat raciste, la droite absente",
+      "resume": "Retrouvez l'actualité de la campagne de la présidentielle 2027 dans notre direct, ce samedi 31 octobre 2026, toute la journée.",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-presidentielle-2027-plusieurs-candidats-de-gauche-au-rassemblement-de-trappes-apres-lattentat-raciste-la-droite-absente-13628337.php",
+      "date": "2026-10-31T07:19:00+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae50d627d6b8b2bc00eff02/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "La Dépêche",
+     "Le Parisien",
+     "RFI",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "attent",
+     "france",
+     "gauche",
+     "person",
+     "racism",
+     "racist",
+     "rassem",
+     "trappe"
+    ],
+    "score": 97.99914351472222,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Trappes rassemble des milliers de personnes contre le racisme",
+    "texte": "À Trappes, des milliers de personnes se sont rassemblées vendredi contre le racisme et l'islamophobie, une semaine après un attentat qui a tué un homme de 26 ans et blessé sept personnes. Le maire de la ville a appelé à ce rassemblement.",
+    "texte_long": "À Trappes, des milliers de personnes se sont rassemblées vendredi contre le racisme et l'islamophobie, une semaine après un attentat qui a tué un homme de 26 ans et blessé sept personnes. Le maire de la ville a appelé à ce rassemblement.",
+    "flash": "À Trappes, plusieurs milliers de personnes se rassemblent contre le racisme, une semaine après un attentat qui a fait au moins un mort.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "sept",
+     "legende": "personnes blessées"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Racisme",
+     "#Trappes"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/politique/video-trappes-des-milliers-de-personnes-rassemblees-contre-le-racisme-le-maire-generation-s-cible-le-rn_VN-202610310109.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/31/direct-presidentielle-2027-plusieurs-candidats-de-gauche-au-rassemblement-de-trappes-apres-lattentat-raciste-la-droite-absente-13628337.php",
+     "Le Parisien": "https://www.leparisien.fr/politique/trappes-le-temps-dun-hommage-aux-victimes-de-lattentat-raciste-la-gauche-presente-un-visage-uni-30-10-2026-E22QKDENJBHYNOAT577IGNL5XA.php",
+     "RFI": "https://www.rfi.fr/fr/france/20261031-france-une-semaine-apr%C3%A8s-l-attentat-la-gauche-d%C3%A9nonce-%C3%A0-trappes-le-rn-le-racisme-et-l-islamophobie",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/la-france-c-est-nous-une-semaine-apres-l-attentat-raciste-a-trappes-un-rassemblement-pour-faire-face-aux-discours-xenophobes_8260991.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Monde",
+      "titre": "Midterms aux Etats-Unis : le petit guide pour tout comprendre aux élections de mi-mandat",
+      "resume": "Outre le renouvellement d’une partie du Congrès, avec un enjeu important pour la suite de la présidence Trump, certains électeurs américains seront amenés, mardi 3 novembre, à élire leurs représentants locaux et à se prononcer sur des référendums.",
+      "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/10/31/midterms-aux-etats-unis-le-petit-guide-pour-tout-comprendre-aux-elections-de-mi-mandat_6803393_4355770.html",
+      "date": "2026-10-31T05:00:27+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/27/417/0/5079/2539/644/322/60/0/ed55bc4_upload-1-yah3pypiz6wt-2026-10-22-otouron-arizona-midterms-035.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Chances d'une vague démocrate, enjeu pour Donald Trump et pour 2028... L'article à lire pour tout comprendre aux midterms, les élections de mi-mandat aux Etats-Unis",
+      "resume": "Si le président américain en exercice sort rarement gagnant de ce scrutin, le revers pourrait être lourd pour Donald Trump, mardi 3 novembre. Les sondages prédisent à l'opposition démocrate une majorité à la Chambre des représentants et peut être même au Sénat, l'autre chambre du Congrès américain.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/chances-d-une-vague-democrate-enjeu-pour-donald-trump-et-pour-2028-l-article-a-lire-pour-tout-comprendre-aux-midterms-les-elections-de-mi-mandat-aux-etats-unis_8237488.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-31T06:29:06+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/_G6L9uwq1r2pQZCMbB1CXHto_Hc/0x0:3840x2160/432x243/filters:format(jpg)/2026/10/16/6ad234fa41a84406617364.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Le pape Léon XIV a voté pour les élections de mi-mandat aux Etats-Unis",
+      "resume": "\"Le Saint-Père exprime sa conviction quant au droit et au devoir des citoyens de participer aux processus démocratiques\", a souligné le Vatican, vendredi.",
+      "lien": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/le-pape-leon-xiv-a-vote-pour-les-elections-de-mi-mandat-aux-etats-unis_8261009.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T20:26:17+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/FbQeh6nbcFftRNUvc16Gwgz1AjU/0x106:1024x682/432x243/filters:format(jpg)/2026/10/30/6ae4fc3720442519459874.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Midterms aux Etats-Unis : le petit guide pour tout comprendre aux élections de mi-mandat",
+      "resume": "Outre le renouvellement d’une partie du Congrès, avec un enjeu important pour la suite de la présidence Trump, certains électeurs américains seront amenés, mardi 3 novembre, à élire leurs représentants locaux et à se prononcer sur des référendums.",
+      "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/10/31/midterms-aux-etats-unis-le-petit-guide-pour-tout-comprendre-aux-elections-de-mi-mandat_6803393_4355770.html",
+      "date": "2026-10-31T05:00:27+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/27/417/0/5079/2539/644/322/60/0/ed55bc4_upload-1-yah3pypiz6wt-2026-10-22-otouron-arizona-midterms-035.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Midterms 2026: déçus par Donald Trump, les électeurs hispaniques pourraient faire basculer le scrutin",
+      "resume": "L'électorat hispanique, désenchanté par la politique économique et migratoire répressive de Donald Trump à qui ils avaient été nombreux à accorder leur confiance en 2024, pourrait reporter leur désillusion sur le camp républicain lors des élections de mi-mandat du 3 novembre, et ainsi faire pencher le scrutin en faveur des démocrates.",
+      "lien": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/midterms-2026-decus-par-donald-trump-les-electeurs-hispaniques-pourraient-faire-basculer-le-scrutin_AN-202611030022.html",
+      "date": "2026-10-31T07:45:00+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/If89xDoO3XXso1orXM6hbIbbLhA=/0x106:2048x1258/800x0/images/La-manifestation-Latinos-Unidos-contre-les-expulsions-massives-et-les-politiques-d-immigration-de-Trump-a-Lake-Worth-Beach-en-Floride-le-7-fevrier-2025-2368153.jpg"
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Midterms aux États-Unis : le Texas, bastion républicain, sera-t-il fatal à Donald Trump ?",
+      "resume": "Dans cet État du Sud conservateur, un séminariste presbytérien tient tête au candidat du Président pour la sénatoriale de mi-mandat, le 3 novembre. James Talarico, étoile montante du parti démocrate, pourrait contribuer à faire perdre le Congrès aux républicains.",
+      "lien": "https://www.ouest-france.fr/monde/etats-unis/midterms-aux-etats-unis-le-texas-bastion-republicain-sera-t-il-fatal-a-donald-trump-5eb6f764-d21e-11f1-af78-2d36ec019942?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-31T07:00:37+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwMmUwNGU3ODQ0Y2MwMDUzODEyNWY1NzBlYzBlNWVkZjg?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=6edc1fbb14bc713e4897b457c3146e92d8e789d654932e053795cf285ec35a0f"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Interview. Midterms 2026 : « Aux États-Unis, tout le monde pense déjà à l’après-Donald Trump »",
+      "resume": "Le président américain risque de perdre sa majorité au Congrès mardi prochain lors des élections de mi-mandat. Donald Trump pourrait devenir un « canard boiteux », explique Romain Huret, historien des États-Unis à l‘époque contemporaine (*). Outre les questions de pouvoir d’achat, le président de l’École des hautes études en sciences sociales (EHESS) estime possible que les républicains modérés disent qu’il est temps de revenir à un pays plus apaisé.",
+      "lien": "https://www.leprogres.fr/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+      "date": "2026-10-31T06:30:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Interview. Midterms 2026 : « Aux États-Unis, tout le monde pense déjà à l’après-Donald Trump »",
+      "resume": "Le président américain risque de perdre sa majorité au Congrès mardi prochain lors des élections de mi-mandat. Donald Trump pourrait devenir un « canard boiteux », explique Romain Huret, historien des États-Unis à l‘époque contemporaine (*). Outre les questions de pouvoir d’achat, le président de l’École des hautes études en sciences sociales (EHESS) estime possible que les républicains modérés disent qu’il est temps de revenir à un pays plus apaisé.",
+      "lien": "https://www.ledauphine.com/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+      "date": "2026-10-31T06:30:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/BB706D1A-C369-4D06-A95D-2567A08B9F01/NW_listB/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump-1793385191.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Interview. Midterms 2026 : « Aux États-Unis, tout le monde pense déjà à l’après-Donald Trump »",
+      "resume": "Le président américain risque de perdre sa majorité au Congrès mardi prochain lors des élections de mi-mandat. Donald Trump pourrait devenir un « canard boiteux », explique Romain Huret, historien des États-Unis à l‘époque contemporaine (*). Outre les questions de pouvoir d’achat, le président de l’École des hautes études en sciences sociales (EHESS) estime possible que les républicains modérés disent qu’il est temps de revenir à un pays plus apaisé.",
+      "lien": "https://www.estrepublicain.fr/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+      "date": "2026-10-31T06:30:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "L'Est Républicain",
+     "Le Dauphiné",
+     "Le Monde",
+     "Le Monde France",
+     "Le Progrès",
+     "Ouest-France",
+     "franceinfo"
+    ],
+    "sig": [
+     "2026",
+     "donald",
+     "electi",
+     "etats",
+     "mandat",
+     "midter",
+     "trump",
+     "unis"
+    ],
+    "score": 77.89179627333334,
+    "suite": "Trump célèbre Halloween, un avion présidentiel survole la fête",
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Midterms : les électeurs hispaniques pourraient peser",
+    "texte": "Aux États-Unis, les élections de mi-mandat se tiendront mardi 3 novembre. Selon BFMTV, les électeurs hispaniques, déçus par Donald Trump, pourraient faire pencher le scrutin vers les démocrates.",
+    "texte_long": "Aux États-Unis, les élections de mi-mandat se tiendront mardi 3 novembre. Selon BFMTV, les électeurs hispaniques, déçus par Donald Trump, pourraient faire pencher le scrutin vers les démocrates.",
+    "flash": "Aux États-Unis, les électeurs hispaniques, déçus par Donald Trump, pourraient peser sur les élections de mi-mandat du 3 novembre.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "USA"
+    ],
+    "personne": "Donald Trump",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Midterms",
+     "#Elections"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/midterms-2026-decus-par-donald-trump-les-electeurs-hispaniques-pourraient-faire-basculer-le-scrutin_AN-202611030022.html",
+     "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+     "Le Dauphiné": "https://www.ledauphine.com/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+     "Le Monde": "https://www.lemonde.fr/les-decodeurs/article/2026/10/31/midterms-aux-etats-unis-le-petit-guide-pour-tout-comprendre-aux-elections-de-mi-mandat_6803393_4355770.html",
+     "Le Monde France": "https://www.lemonde.fr/les-decodeurs/article/2026/10/31/midterms-aux-etats-unis-le-petit-guide-pour-tout-comprendre-aux-elections-de-mi-mandat_6803393_4355770.html",
+     "Le Progrès": "https://www.leprogres.fr/politique/2026/10/31/midterms-2026-aux-etats-unis-tout-le-monde-pense-deja-a-l-apres-donald-trump",
+     "Ouest-France": "https://www.ouest-france.fr/monde/etats-unis/midterms-aux-etats-unis-le-texas-bastion-republicain-sera-t-il-fatal-a-donald-trump-5eb6f764-d21e-11f1-af78-2d36ec019942?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "franceinfo": "https://www.franceinfo.fr/monde/usa/midterms-2018/chances-d-une-vague-democrate-enjeu-pour-donald-trump-et-pour-2028-l-article-a-lire-pour-tout-comprendre-aux-midterms-les-elections-de-mi-mandat-aux-etats-unis_8237488.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo",
+      "titre": "Le gouvernement américain approuve la vente de 500 missiles Patriot à l'Ukraine",
+      "resume": "En cas de feu vert du Congrès, l'Ukraine financera cette transaction avec \"des contributions\" de ses alliés étrangers, notamment européens, selon Washington, qui précise qu'\"aucun fonds américain n'est engagé\" dans cette vente.",
+      "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-l-ukraine_8261099.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-30T22:24:00+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/1yiHgWPMXDPZGZBF_CSC5L3fqXo/0x0:1024x576/432x243/filters:format(jpg)/2026/10/30/6ae518d120566621422447.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "Washington approuve la vente de 500 missiles Patriot à l'Ukraine",
+      "resume": "Le gouvernement américain a approuvé la vente de 500 missiles intercepteurs Patriot à l'Ukraine pour un montant dépassant les deux milliards de dollars, a indiqué vendredi le département d'État dans un communiqué.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/ukraine-washington-approuve-la-vente-de-500-missiles-patriot-29401212.html?rts_source=rss_t",
+      "date": "2026-10-30T22:28:44+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/63a20638-29401218.image?w=320&h=180"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Guerre en Ukraine : le gouvernement américain approuve la vente de 500 missiles Patriot à Kiev",
+      "resume": "Financée notamment par des contributions européennes et canadiennes, cette transaction majeure d’armement doit permettre à l’Ukraine de renforcer sa défense face aux frappes de missiles russes",
+      "lien": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-31311656.php",
+      "date": "2026-10-30T21:30:28+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31311656/1200x-1/20230517201307-4983412.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Guerre en Ukraine : les États-Unis vont vendre 500 missiles Patriot à Kiev pour un montant de 2 milliards de dollars",
+      "resume": "Suivez toute l'actualité de la guerre en Ukraine, ce samedi 31 octobre 2026, dans le direct de ladepeche.fr toute la journée.",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-guerre-en-ukraine-les-etats-unis-vont-vendre-500-missiles-patriot-a-kiev-pour-un-montant-de-2-milliards-de-dollars-13628336.php",
+      "date": "2026-10-31T07:33:55+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae511e086a68bf9980b291a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Guerre en Ukraine : Le gouvernement américain approuve la vente de 500 missiles Patriot à l'Ukraine",
+      "resume": "Malgré les \"efforts\" de paix récents et la trêve temporaire des combats dans la ville ukrainienne d'Olechky, Vladimir Poutine poursuit les menaces contre l'Europe. Lors d'un rare appel avec les dirigeants norvégiens...",
+      "lien": "https://www.ladepeche.fr/2026/10/30/direct-guerre-en-ukraine-vladimir-poutine-affirme-etre-pret-a-partir-en-guerre-avec-leurope-tout-en-soutenant-ne-pas-vouloir-en-arriver-jusque-la-13627513.php",
+      "date": "2026-10-30T21:53:31+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae448207f097602230a4802/standard/image.jpg?v=4"
+     }
+    ],
+    "sources": [
+     "La Dépêche",
+     "RTS",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "500",
+     "americ",
+     "approu",
+     "gouver",
+     "missil",
+     "patrio",
+     "ukrain",
+     "vente"
+    ],
+    "score": 72.7070740511111,
+    "suite": null,
+    "pays": "Ukraine",
+    "requete": "Kyiv Ukraine",
+    "prioritaire": true,
+    "titre": "Washington approuve la vente de 500 missiles Patriot à Kiev",
+    "texte": "Le gouvernement américain a approuvé la vente de 500 missiles Patriot à l'Ukraine, pour plus de deux milliards de dollars. Selon Washington, l'Ukraine financera cette vente avec des contributions de ses alliés européens.",
+    "texte_long": "Le gouvernement américain a approuvé la vente de 500 missiles Patriot à l'Ukraine, pour plus de deux milliards de dollars. Selon Washington, l'Ukraine financera cette vente avec des contributions de ses alliés européens.",
+    "flash": "Washington approuve la vente de 500 missiles Patriot à l'Ukraine, pour plus de deux milliards de dollars, sous réserve de l'accord du Congrès.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "500",
+     "legende": "missiles Patriot vendus"
+    },
+    "iso": [
+     "USA",
+     "UKR"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "500",
+     "legende": "missiles Patriot vendus"
+    },
+    "lien": {
+     "de": "USA",
+     "vers": "UKR",
+     "type": "echange"
+    },
+    "hashtags": [
+     "#Ukraine",
+     "#Defense"
+    ],
+    "liens": {
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/31/direct-guerre-en-ukraine-les-etats-unis-vont-vendre-500-missiles-patriot-a-kiev-pour-un-montant-de-2-milliards-de-dollars-13628336.php",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/ukraine-washington-approuve-la-vente-de-500-missiles-patriot-29401212.html?rts_source=rss_t",
+     "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-kiev-31311656.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-l-ukraine_8261099.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "L’agence de notation Fitch maintient la note A+ de la France mais abaisse sa perspective",
+      "resume": "«Une croissance plus faible, une nouvelle détérioration budgétaire et des rendements plus élevés ont accru la difficulté de mener la consolidation budgétaire soutenue nécessaire pour enrayer la trajectoire de dégradation de la dette de la France», écrit l’agence dans un communiqué.",
+      "lien": "https://www.lefigaro.fr/flash-eco/l-agence-de-notation-fitch-maintient-la-note-a-de-la-france-mais-abaisse-sa-perspective-20261030",
+      "date": "2026-10-30T22:42:32+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/10/30/541390910034a048e7906acd11e9ebbeb11ac177ef2df3a22e6c91642f441893.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Dette publique : L’agence Fitch maintient la note A + de la France mais abaisse sa perspective",
+      "resume": "Vendredi, l’agence Fitch a maintenu la note de la dette française à A +, mais abaissé sa perspective à « négative ». En cause : la dégradation des finances publiques et de hausse des taux d’emprunt",
+      "lien": "https://www.20minutes.fr/economie/4259113-20261031-dette-publique-agence-fitch-maintient-note-france-abaisse-perspective?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T23:31:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/TbzgNoALQRKIGqDPgWekESk/1200x768_france-12-09-2025-illustration-agences-de-notation-financiere-logo-fitch-ratings-et-grille-de-notation-france-12-09-2025-illustration-agences-de-notation-financiere-logo-fitch-ratings-et-grille-de-notation-photo-de-jean-marc-barrere-hans-lucas-via-afp"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "L’agence de notation Fitch maintient la note A + de la France mais abaisse sa perspective",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/economie/lagence-de-notation-fitch-maintient-la-note-a-de-la-france-mais-abaisse-sa-perspective-30-10-2026-SQHQWXTT3VBSRGKVRD54LHS3SI.php",
+      "date": "2026-10-31T07:51:26.449862+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Economie. Dette publique : l'agence de notation Fitch revoit à la baisse la perspective de la France",
+      "resume": "L'agence Fitch Ratings, tout en maintenant la note de la dette souveraine de la France à A+, a dégradé vendredi sa perspective, qui passe de stable à négative.",
+      "lien": "https://www.leprogres.fr/economie/2026/10/30/dette-publique-l-agende-de-notation-fitch-revoit-a-la-baisse-la-perspective-de-la-france",
+      "date": "2026-10-30T21:55:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès"
+    ],
+    "sig": [
+     "abaiss",
+     "agence",
+     "fitch",
+     "france",
+     "mainti",
+     "notati",
+     "note",
+     "perspe"
+    ],
+    "score": 69.99914345722223,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Fitch maintient la note A+ de la France, perspective négative",
+    "texte": "L'agence de notation Fitch maintient la note A+ de la dette française, mais abaisse sa perspective à négative. Elle cite une croissance plus faible et une détérioration des finances publiques.",
+    "texte_long": "L'agence de notation Fitch maintient la note A+ de la dette française, mais abaisse sa perspective à négative. Elle cite une croissance plus faible et une détérioration des finances publiques.",
+    "flash": "L'agence Fitch maintient la note A+ de la France, mais abaisse sa perspective à négative, à cause des finances publiques.",
+    "politique": false,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Dette",
+     "#Economie"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/economie/4259113-20261031-dette-publique-agence-fitch-maintient-note-france-abaisse-perspective?at_medium=display&at_campaign=149",
+     "Le Figaro France": "https://www.lefigaro.fr/flash-eco/l-agence-de-notation-fitch-maintient-la-note-a-de-la-france-mais-abaisse-sa-perspective-20261030",
+     "Le Parisien": "https://www.leparisien.fr/economie/lagence-de-notation-fitch-maintient-la-note-a-de-la-france-mais-abaisse-sa-perspective-30-10-2026-SQHQWXTT3VBSRGKVRD54LHS3SI.php",
+     "Le Progrès": "https://www.leprogres.fr/economie/2026/10/30/dette-publique-l-agende-de-notation-fitch-revoit-a-la-baisse-la-perspective-de-la-france"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Depuis les États-Unis, Flavio Bolsonaro se dit victime d'une \"persécution\" au Brésil",
+      "resume": "L'ex-candidat de droite à la présidentielle au Brésil, Flavio Bolsonaro, qui a fui son pays en jet privé après sa défaite et s'est réfugié aux États-Unis, a justifié vendredi son départ par une \"persécution\" dont il se dit victime.",
+      "lien": "https://www.france24.com/fr/am%C3%A9riques/20261030-depuis-les-%C3%A9tats-unis-flavio-bolsonaro-se-dit-victime-d-une-pers%C3%A9cution-au-br%C3%A9sil",
+      "date": "2026-10-30T21:05:57+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/67af1ce0-d4f1-11f1-afce-1beafce15fea/w:1024/p:16x9/000-D4PC79E.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Flavio Bolsonaro assure avoir quitté le Brésil pour fuir une « persécution »",
+      "resume": "Alors qu’il se trouve aux Etats-Unis, le candidat malheureux à l’élection présidentielle brésilienne est revenu vendredi sur les raisons qui l’ont poussé au départ. Désapprouvé jusque dans son camp, il continue de crier à la fraude électorale, sans étayer ses accusations.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/flavio-bolsonaro-assure-avoir-quitte-le-bresil-pour-fuir-une-persecution_6803369_3210.html",
+      "date": "2026-10-31T03:54:17+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/310/0/3726/1863/644/322/60/0/6d35bfe_ftp-1-ajrdidufpxup-2026-10-30t193559z-590486683-rc2ecoapope9-rtrmadp-3-brazil-election-argentina.JPG"
+     },
+     {
+      "source": "RTS",
+      "titre": "Flavio Bolsonaro dit avoir quitté le Brésil pour fuir une \"persécution\"",
+      "resume": "Perdant de la présidentielle au Brésil, Flavio Bolsonaro, a justifié vendredi sa fuite aux Etats-Unis par une \"persécution\" dont il se dit victime.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/bresil-flavio-bolsonaro-s-estime-victime-d-une-persecution-29401289.html?rts_source=rss_t",
+      "date": "2026-10-31T03:25:40+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/42848c33-29401291.image?w=320&h=180"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Fuite de Flavio Bolsonaro : Les Etats-Unis et l’Argentine sommés de s’expliquer sur son départ du Brésil",
+      "resume": "Après sa défaite à la présidentielle au Brésil, Flavio Bolsonaro a fui vers les Etats-Unis via l’Argentine. Son départ provoque des tensions et suscite des questions sur le rôle de Donald Trump et de Javier Milei",
+      "lien": "https://www.20minutes.fr/monde/bresil/4259102-20261030-fuite-flavio-bolsonaro-etats-unis-argentine-expliquer-depart-bresil?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T22:33:58+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/4WbyBYkIRpOjQIT30OFWaSk/1200x768_flavio-bolsonaro-arrive-a-l-aeroport-executif-opa-locka-de-miami-le-mercredi-28-octobre-2026-a-opa-locka-en-floride-ap-photo-marta-lavandier-flml204-26301633331243-2610281837"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Flavio Bolsonaro assure avoir quitté le Brésil pour fuir une « persécution »",
+      "resume": "Alors qu’il se trouve aux Etats-Unis, le candidat malheureux à l’élection présidentielle brésilienne est revenu vendredi sur les raisons qui l’ont poussé au départ. Désapprouvé jusque dans son camp, il continue de crier à la fraude électorale, sans étayer ses accusations.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/flavio-bolsonaro-assure-avoir-quitte-le-bresil-pour-fuir-une-persecution_6803369_3210.html",
+      "date": "2026-10-31T03:54:17+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/310/0/3726/1863/644/322/60/0/6d35bfe_ftp-1-ajrdidufpxup-2026-10-30t193559z-590486683-rc2ecoapope9-rtrmadp-3-brazil-election-argentina.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Flavio Bolsonaro affirme avoir quitté le Brésil pour fuir une «persécution»",
+      "resume": "L’ex-candidat de droite à la présidentielle au Brésil, qui a quitté le pays après sa défaite, a justifié vendredi sa fuite aux États-Unis par une «persécution» dont il se dit victime.",
+      "lien": "https://www.lefigaro.fr/international/flavio-bolsonaro-affirme-avoir-quitte-le-bresil-pour-fuir-une-persecution-20261031",
+      "date": "2026-10-31T04:08:33+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x1992_crop/2026/10/31/40f9ff30e8dabf03577f4a627de9a0d87547a17d5f27097c456961d552a423dc.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Fuite de Flavio Bolsonaro : Les Etats-Unis et l’Argentine sommés de s’expliquer sur son départ du Brésil",
+      "resume": "Après sa défaite à la présidentielle au Brésil, Flavio Bolsonaro a fui vers les Etats-Unis via l’Argentine. Son départ provoque des tensions et suscite des questions sur le rôle de Donald Trump et de Javier Milei",
+      "lien": "https://www.20minutes.fr/monde/bresil/4259102-20261030-fuite-flavio-bolsonaro-etats-unis-argentine-expliquer-depart-bresil?at_medium=display&at_campaign=149",
+      "date": "2026-10-30T22:33:58+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/4WbyBYkIRpOjQIT30OFWaSk/1200x768_flavio-bolsonaro-arrive-a-l-aeroport-executif-opa-locka-de-miami-le-mercredi-28-octobre-2026-a-opa-locka-en-floride-ap-photo-marta-lavandier-flml204-26301633331243-2610281837"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Je suis sorti pour le Brésil » : Flavio Bolsonaro affirme avoir quitté son pays pour fuir une « persécution »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/je-suis-sorti-pour-le-bresil-flavio-bolsonaro-affirme-avoir-quitte-son-pays-pour-fuir-une-persecution-31-10-2026-MDU42R2PHFHRVBZCD57LEDVK4A.php",
+      "date": "2026-10-31T07:51:26.449176+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "France 24",
+     "Le Figaro France",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "RTS"
+    ],
+    "sig": [
+     "bolson",
+     "bresil",
+     "etats",
+     "flavio",
+     "fuir",
+     "persec",
+     "quitte",
+     "unis"
+    ],
+    "score": 67.99914326666666,
+    "suite": null,
+    "pays": "Brésil",
+    "requete": "Brazil city",
+    "prioritaire": false,
+    "titre": "Flavio Bolsonaro dit fuir une « persécution » au Brésil",
+    "texte": "Depuis les États-Unis, Flavio Bolsonaro, battu à la présidentielle brésilienne, affirme avoir quitté le pays pour fuir une persécution. Il continue de crier à la fraude électorale, sans étayer ses accusations.",
+    "texte_long": "Depuis les États-Unis, Flavio Bolsonaro, battu à la présidentielle brésilienne, affirme avoir quitté le pays pour fuir une persécution. Il continue de crier à la fraude électorale, sans étayer ses accusations.",
+    "flash": "Depuis les États-Unis, Flavio Bolsonaro affirme avoir quitté le Brésil pour fuir une persécution, sans prouver ses accusations de fraude.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "BRA",
+     "USA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Bresil",
+     "#Presidentielle"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/bresil/4259102-20261030-fuite-flavio-bolsonaro-etats-unis-argentine-expliquer-depart-bresil?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/bresil/4259102-20261030-fuite-flavio-bolsonaro-etats-unis-argentine-expliquer-depart-bresil?at_medium=display&at_campaign=149",
+     "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261030-depuis-les-%C3%A9tats-unis-flavio-bolsonaro-se-dit-victime-d-une-pers%C3%A9cution-au-br%C3%A9sil",
+     "Le Figaro France": "https://www.lefigaro.fr/international/flavio-bolsonaro-affirme-avoir-quitte-le-bresil-pour-fuir-une-persecution-20261031",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/flavio-bolsonaro-assure-avoir-quitte-le-bresil-pour-fuir-une-persecution_6803369_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/flavio-bolsonaro-assure-avoir-quitte-le-bresil-pour-fuir-une-persecution_6803369_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/je-suis-sorti-pour-le-bresil-flavio-bolsonaro-affirme-avoir-quitte-son-pays-pour-fuir-une-persecution-31-10-2026-MDU42R2PHFHRVBZCD57LEDVK4A.php",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/bresil-flavio-bolsonaro-s-estime-victime-d-une-persecution-29401289.html?rts_source=rss_t"
+    },
+    "date_affichee": "31 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-31T07:51:47.916988+00:00",
+  "decision": null
  }
 ]
