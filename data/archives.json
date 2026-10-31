@@ -11987,5 +11987,268 @@
   ],
   "youtube": "5qfwriiK1Zg",
   "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740501+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "Paris saisit la justice après des tags « remigration »",
+  "texte": "À Paris, des tags racistes appelant à la « remigration » ont été découverts sur des commerces. La mairie a saisi la justice. Une enquête pour provocation à la haine raciale est ouverte par le parquet.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "France 3 Régions",
+   "Le Monde France",
+   "Le Parisien"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/societe/4259194-20261031-paris-cedera-rien-face-racisme-emmanuel-gregoire-porte-plainte-apres-decouverte-tags-remigration?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/police-justice/video-a-paris-des-tags-remigration-ont-ete-decouverts-la-justice-a-ete-saisie_VN-202610310341.html",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/une-incitation-a-la-haine-raciale-la-mairie-de-paris-supprime-des-tags-racistes-appelant-a-la-remigration-et-saisit-la-justice-3442230.html",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/31/le-parquet-de-paris-a-ouvert-une-enquete-pour-provocation-a-la-haine-raciale-en-raison-de-menaces-racistes-visant-des-livreurs-et-chauffeurs-sur-x_6803720_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/paris-75/paris-des-tags-faisant-la-promotion-de-la-remigration-decouverts-sur-des-facades-de-commerces-emmanuel-gregoire-annonce-porter-plainte-31-10-2026-KRZWVXRCFBGAHHK7ZN4NZUYN2A.php"
+  },
+  "score": 97.99932045666667,
+  "personne": "Emmanuel Grégoire",
+  "sig": [
+   "decouv",
+   "emmanu",
+   "gregoi",
+   "haine",
+   "justic",
+   "paris",
+   "remigr",
+   "tags"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740521+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "L'Iran menace les États-Unis d'une riposte sans limite",
+  "texte": "En Iran, le guide suprême Mojtaba Khamenei menace d'une riposte immédiate et puissante si les États-Unis reprennent les frappes. Téhéran dit ne pas vouloir négocier avec Washington.",
+  "iso": [
+   "IRN",
+   "USA",
+   "ISR"
+  ],
+  "pays": "Iran",
+  "sources": [
+   "France 24",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/moyen-orient/20261031-iran-%C3%A9tats-unis-isra%C3%ABl-guere-face-aux-sp%C3%A9culations-de-nouvelles-frappes-mojtaba-khamenei-menace-d-une-riposte-imm%C3%A9diate",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/russie-lambassade-des-etats-unis-alerte-sur-un-risque-dattentat-pouvant-entrainer-de-nombreuses-victimes-dans-un-musee-a-moscou-13629845.php",
+   "Le Figaro France": "https://www.lefigaro.fr/international/la-russie-prevenue-par-les-etats-unis-d-une-menace-credible-d-attentat-a-moscou-samedi-20261031",
+   "Le Parisien": "https://www.leparisien.fr/international/une-riposte-immediate-puissante-et-sans-limite-geographique-liran-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques-31-10-2026-MNQ3JYD625F5LH7S3SZVLATVNI.php",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/moscou-les-etats-unis-avertissent-d-une-menace-d-attentat-29401494.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-d-eventuelles-attaques_8261696.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 92.99932052,
+  "personne": "Mojtaba Khamenei",
+  "sig": [
+   "attent",
+   "credib",
+   "etats",
+   "menace",
+   "moscou",
+   "ripost",
+   "russie",
+   "unis"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740528+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "Des milliers de jeunes Allemands manifestent dans une trentaine de villes",
+  "texte": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils réclament de meilleures conditions d'études, dénoncent le coût de la vie et rejettent le service militaire. Les rassemblements se sont déroulés sans débordement.",
+  "iso": [
+   "DEU"
+  ],
+  "pays": "Allemagne",
+  "sources": [
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Nice-Matin",
+   "RFI",
+   "RTS",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/social/maintenant-le-gouvernement-doit-ceder-aux-revendications-a-toulon-le-depute-manuel-bompard-est-venu-soutenir-la-jeunesse-et-les-manifestants-10750307",
+   "RFI": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/manifestations-en-allemagne-la-gen-z-se-mobilise-des-heurts-en-fin-de-parcours-31326065.php"
+  },
+  "score": 92.99932026527779,
+  "personne": null,
+  "sig": [
+   "allema",
+   "argent",
+   "doit",
+   "fin",
+   "jeunes",
+   "manife",
+   "trenta",
+   "villes"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740533+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "Pologne : Nawrocki et Tusk s'affrontent sur le Tribunal",
+  "texte": "En Pologne, la crise du Tribunal constitutionnel s'aggrave, avec une intervention de la police à Varsovie.",
+  "iso": [
+   "POL"
+  ],
+  "pays": "Pologne",
+  "sources": [
+   "Courrier international",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Monde France",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "Courrier international": "https://www.courrierinternational.com/article/crise-en-pologne-chaos-autour-du-tribunal-constitutionnel-une-institution-jugee-enterree_283737",
+   "Le Figaro France": "https://www.lefigaro.fr/international/pologne-donald-tusk-denonce-les-responsables-politiques-qui-veulent-detruire-la-democratie-et-l-etat-de-droit-20261031",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/la-pologne-ne-s-est-pas-eteinte-et-ne-s-eteindra-pas-declare-donald-tusk-alors-que-le-pays-est-plonge-dans-une-grave-crise-politique-liee-au-tribunal-constitutionnel_6803486_3211.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/la-pologne-ne-s-est-pas-eteinte-et-ne-s-eteindra-pas-declare-donald-tusk-alors-que-le-pays-est-plonge-dans-une-grave-crise-politique-liee-au-tribunal-constitutionnel_6803486_3211.html",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/pologne-le-president-recoit-les-partis-face-a-la-crise-29401501.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/pologne-une-crise-politique-eclate-au-tribunal-constitutionnel-de-varsovie-le-premier-ministre-donald-tusk-defie-par-le-president-karol-nawrocki_8261876.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 82.74127975916667,
+  "personne": "Donald Tusk",
+  "sig": [
+   "consti",
+   "crise",
+   "declar",
+   "donald",
+   "politi",
+   "pologn",
+   "tribun",
+   "tusk"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740538+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "Collision de trains en Espagne : au moins 69 morts",
+  "texte": "En Espagne, la collision de deux trains près de Tolède fait au moins soixante-neuf morts, dont une Française.",
+  "iso": [
+   "ESP",
+   "FRA"
+  ],
+  "pays": "Espagne",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "DNA",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/collision-mortelle-de-trains-en-espagne-une-francaise-est-decedee-dans-la-catastrophe-annonce-le-quai-dorsay-13629720.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
+   "Le Figaro France": "https://www.lefigaro.fr/international/collision-de-trains-en-espagne-une-francaise-est-decedee-20261031",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/collision-de-trains-en-espagne-une-francaise-parmi-les-69-morts-le-ministere-des-affaires-etrangeres-dit-sa-tres-vive-emotion_6803714_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/collision-de-trains-en-espagne-une-francaise-parmi-les-69-morts-le-ministere-des-affaires-etrangeres-dit-sa-tres-vive-emotion_6803714_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/catastrophe-ferroviaire-en-espagne-une-francaise-est-decedee-dans-la-collision-entre-deux-trains-31-10-2026-YDIWXR36OBDKBGHRVO3EPS3GVA.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/31/collision-entre-deux-trains-en-espagne-nous-sommes-en-lien-constant-avec-sa-famille-une-francaise-decedee-lors-de-laccident-13629716.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/une-francaise-est-decedee-dans-la-collision-de-trains-en-espagne-10750227",
+   "Sud Ouest": "https://www.sudouest.fr/faits-divers/collision-de-trains-en-espagne-une-francaise-figure-parmi-les-victimes-de-la-catastrophe-ferroviaire-31319441.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/une-francaise-figure-parmi-les-victimes-de-la-collision-de-trains-en-espagne-qui-a-fait-69-morts-annonce-le-ministere-des-affaires-etrangeres_8261951.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 79.99932055861112,
+  "personne": null,
+  "sig": [
+   "catast",
+   "collis",
+   "decede",
+   "espagn",
+   "franca",
+   "orsay",
+   "quai",
+   "trains"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T21:42:48.740544+00:00",
+  "edition": "2026-10-31T22:27:10.287143+01:00",
+  "semaine": false,
+  "titre": "Midterms : Trump admet qu'un président perd souvent ce scrutin",
+  "texte": "Aux États-Unis, Donald Trump admet que les élections de mi-mandat s'annoncent difficiles pour les républicains.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "La Dépêche",
+   "Le Figaro",
+   "Le Parisien",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/midterms-2026-donald-trump-admet-quun-president-perd-generalement-les-elections-mais-affirme-que-les-republicains-ont-une-chance-de-lemporter-13629531.php",
+   "Le Figaro": "https://www.lefigaro.fr/international/blocage-enquetes-impeachment-les-scenarios-de-l-apres-midterms-pour-donald-trump-en-cas-de-defaite-20261031",
+   "Le Parisien": "https://www.leparisien.fr/international/midterms-2026-generalement-un-president-bon-ou-mauvais-republicain-ou-democrate-perd-ces-elections-affirme-donald-trump-31-10-2026-5B2WTRP5IJGDBHKL7B4C6AISUE.php",
+   "Sud Ouest": "https://www.sudouest.fr/international/etats-unis/midterms-aux-etats-unis-febrile-donald-trump-entrevoit-une-defaite-aux-elections-de-mi-mandat-31317601.php"
+  },
+  "score": 72.99932062777778,
+  "personne": "Donald Trump",
+  "sig": [
+   "2026",
+   "affirm",
+   "defait",
+   "donald",
+   "electi",
+   "genera",
+   "midter",
+   "trump"
+  ],
+  "youtube": "Wt5WT-Nl0d0",
+  "yt_attente": null
  }
 ]
