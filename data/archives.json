@@ -11731,5 +11731,261 @@
   ],
   "youtube": "Tr2YD2no_VI",
   "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275106+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Des milliers de jeunes manifestent dans une trentaine de villes allemandes",
+  "texte": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils dénoncent le coût de la vie et réclament de meilleures conditions d'enseignement, sans débordement signalé.",
+  "iso": [
+   "DEU"
+  ],
+  "pays": "Allemagne",
+  "sources": [
+   "BFMTV",
+   "Courrier international",
+   "DNA",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "RFI",
+   "RTS",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/politique/video-manifestations-du-31-octobre-on-attend-fermement-ceux-qui-voudraient-en-decoudre-ce-soir-declare-laurent-nunez-ministre-de-l-interieur_VN-202610310349.html",
+   "Courrier international": "https://www.courrierinternational.com/article/mobilisations-des-dizaines-de-milliers-de-manifestants-en-france-et-en-allemagne-avec-ou-sans-masque_283770",
+   "DNA": "https://www.dna.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-jai-cru-mourir-je-nai-pas-compris-un-manifestant-frappe-par-les-policiers-en-plein-coeur-du-quartier-des-carmes-13629926.php",
+   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-des-violences-vont-elles-encore-emailler-les-manifestations-de-ce-samedi",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-de-320-000-a-pres-de-500-000-manifestants-en-france-296-interpellations-recensees-20261031",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
+   "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-31-octobre-de-nimes-a-montpellier-en-passant-par-ales-des-corteges-clairsemes-et-plus-de-joie-que-de-degats-13629937.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/acte-iii-pres-d-un-demi-million-de-manifestants-en-france-dont-200-000-a-paris-10750305",
+   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-batman-zorro-et-10-000-personnes-determinees-a-angers-contre-la-vie-chere-et-la-repression-b0f9902c-d548-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "RFI": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
+   "actu.fr": "https://actu.fr/occitanie/montpellier_34172/manifestation-de-ce-samedi-31-octobre-a-montpellier-jusqu-a-8-000-personnes-dont-200-black-blocs_65000247.html"
+  },
+  "score": 162.9993957136111,
+  "personne": null,
+  "sig": [
+   "000",
+   "allema",
+   "corteg",
+   "lauren",
+   "manife",
+   "mobili",
+   "nunez",
+   "octobr"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275126+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Habitants d'Olechky évacués : retrouvailles en Ukraine",
+  "texte": "En Ukraine, des habitants de la ville d'Olechky, occupée par la Russie, ont été évacués puis accueillis par leurs proches samedi. L'opération s'est déroulée pendant une trêve en vigueur depuis mardi. Ni Moscou ni Kiev n'ont précisé le nombre de personnes évacuées.",
+  "iso": [
+   "UKR",
+   "RUS"
+  ],
+  "pays": "Ukraine",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/europe/20261031-ukraine-habitants-olechky-retrouvent-leurs-proches-apr%C3%A8s-avoir-%C3%A9t%C3%A9-%C3%A9vacu%C3%A9s-cessez-feu-russie-op%C3%A9ration-humanitaire-melania-trump",
+   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/guerre-en-ukraine-une-decision-forte-washington-approuve-la-vente-de-500-missiles-intercepteurs-patriot-a-kiev-mais-volodymyr-zelensky-ne-cache-pas-13629843.php",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-une-decision-forte-ladministration-trump-valide-la-vente-de-500-missiles-patriot-a-kiev-pour-19-milliard-deuros-31-10-2026-NLQ4IWPBARFDFBWLU7F3QBYLSM.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/31/guerre-en-ukraine-donald-trump-promet-500-missiles-patriot-a-lukraine-pour-21-milliards-de-dollars-mais-kiev-devra-attendre-des-annees-pour-les-13629520.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-habitants-evacues-d-olechky-ville-occupee-par-la-russie-sont-arrives-en-ukraine_8261879.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 82.99939610638889,
+  "personne": null,
+  "sig": [
+   "500",
+   "approu",
+   "guerre",
+   "kiev",
+   "missil",
+   "patrio",
+   "ukrain",
+   "vente"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275132+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Midterms : votes anticipés record aux États-Unis",
+  "texte": "Aux États-Unis, le vote par anticipation pour les élections de mi-mandat connaît des niveaux records, notamment en Alaska. Dans certains États clés, les électeurs progressistes semblent se mobiliser avant le scrutin de mardi.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "France 3 Régions",
+   "L'Est Républicain",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RFI",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/direct-manifestation-du-31-octobre-suivez-les-rassemblements-a-nantes-3442098.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/incendie-dun-immeuble-a-clermont-ferrand-trois-morts-et-un-quatrieme-corps-recherche-un-homme-interpelle-31-10-2026-UXPWGY26KJC2LBDK2X5SJ6DJEM.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+   "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-17-octobre-on-peut-voir-la-vitrine-de-magasin-comme-une-gigantesque-entreprise-de-creation-de-frustration-13627819.php",
+   "RFI": "https://www.rfi.fr/fr/europe/20261031-albanie-les-heurts-entre-les-manifestants-et-la-police-lors-d-une-nouvelle-journ%C3%A9e-de-mobilisation",
+   "Sud Ouest": "https://www.sudouest.fr/international/albanie-nouvelles-tensions-et-heurts-avec-la-police-lors-d-une-manifestation-etudiante-a-tirana-31320676.php"
+  },
+  "score": 67.9993962325,
+  "personne": null,
+  "sig": [
+   "clermo",
+   "corps",
+   "ferran",
+   "heurts",
+   "interp",
+   "manife",
+   "octobr",
+   "tensio"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275137+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Cinq Britanniques interpellés près de Dunkerque",
+  "texte": "Près de Dunkerque, cinq Britanniques de l'ultradroite interpellés pour des actions d'intimidation contre des migrants.",
+  "iso": [
+   "FRA",
+   "GBR"
+  ],
+  "pays": "France",
+  "sources": [
+   "France 24",
+   "Le Monde"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/europe/20261031-andy-burnham-royaume-uni-pr%C3%AAt-pr%C3%A9senter-excuses-pour-son-r%C3%B4le-dans-esclavage-traite-transatlantique",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/au-royaume-uni-le-premier-ministre-andy-burnham-se-dit-ouvert-a-des-excuses-officielles-a-propos-de-l-esclavage_6803603_3210.html"
+  },
+  "score": 65.65422454666667,
+  "personne": null,
+  "sig": [
+   "andy",
+   "burnha",
+   "compen",
+   "esclav",
+   "excuse",
+   "offici",
+   "royaum",
+   "uni"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275142+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Aurore Bergé réclame une primaire de la droite et du centre",
+  "texte": "En France, Aurore Bergé réclame une primaire de la droite et du centre avant la présidentielle de 2027.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes",
+   "Le Parisien"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259189-20261031-etats-unis-washington-veut-expulser-migrants-vers-afghanistan-malgre-risques-persecution?at_medium=display&at_campaign=149",
+   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/pas-une-expulsion-mais-une-sentence-les-etats-unis-sappretent-a-renvoyer-des-refugies-vers-lafghanistan-malgre-des-risques-de-persecution-31-10-2026-ZHP6TDNBKVELJNMGPH6EUEVRII.php"
+  },
+  "score": 59.99939584333333,
+  "personne": "Aurore Bergé",
+  "sig": [
+   "afghan",
+   "appret",
+   "etats",
+   "expuls",
+   "malgre",
+   "persec",
+   "risque",
+   "unis"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-10-31T20:44:53.275147+00:00",
+  "edition": "2026-10-31T21:36:04.824192+01:00",
+  "semaine": false,
+  "titre": "Albanie : heurts entre manifestants et police à Tirana",
+  "texte": "En Albanie, la police disperse à coups de gaz lacrymogène des manifestants qui réclament la démission d'Edi Rama.",
+  "iso": [
+   "ALB"
+  ],
+  "pays": "Albanie",
+  "sources": [
+   "BFMTV",
+   "Le Figaro France",
+   "RFI"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/nord/cinq-britanniques-proches-de-la-mouvance-d-ultradroite-interpelles-pres-de-dunkerque-pour-des-actions-anti-migrants_AD-202610310337.html",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/pres-de-dunkerque-cinq-britanniques-interpelles-jeudi-pour-des-actions-anti-migrants-20261031",
+   "RFI": "https://www.rfi.fr/fr/europe/20261031-france-cinq-britanniques-interpell%C3%A9s-dans-le-nord-pour-des-actions-anti-migrants"
+  },
+  "score": 54.63811343555555,
+  "personne": "Edi Rama",
+  "sig": [
+   "action",
+   "anti",
+   "britan",
+   "dunker",
+   "france",
+   "interp",
+   "migran",
+   "pres"
+  ],
+  "youtube": "5qfwriiK1Zg",
+  "yt_attente": null
  }
 ]
