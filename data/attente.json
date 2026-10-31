@@ -1821,5 +1821,1114 @@
   "semaine": false,
   "cree": "2026-10-31T07:51:47.916988+00:00",
   "decision": null
+ },
+ {
+  "type": "edition",
+  "jeton": "d02a27",
+  "messages": {
+   "0": 985,
+   "1": 986,
+   "2": 987,
+   "3": 988,
+   "4": 989,
+   "5": 990
+  },
+  "id_fin": 991,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "«Nous voulons un autre avenir»: la jeunesse allemande manifeste dans une trentaine de villes",
+      "resume": "Des milliers de ⁠personnes manifestaient samedi 31 octobre en ​Allemagne, à l'appel d'un mouvement menépar la jeunesse qui s'inspire des vagues de protestations qui touchent l'Europe, exigeant de ​meilleures conditions d'enseignement et dénonçant le coût de la vie.",
+      "lien": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
+      "date": "2026-10-31T17:35:47+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/13c87990-d551-11f1-b439-a575454bc579/w:1024/p:16x9/AP26304531156517.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "« De l’argent pour les systèmes sociaux plutôt que pour la guerre » : dans une trentaine de villes allemandes, des manifestants hostiles au service militaire",
+      "resume": "De Cologne à Berlin en passant par Hambourg, les rassemblements se sont déroulés sans débordement. Au sein des cortèges, constitués principalement de jeunes, le coût de la vie, le refus de la conscription ou la difficulté de se loger étaient au centre des revendications.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+      "date": "2026-10-31T18:31:53+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/31/86/0/5500/2750/644/322/60/0/fb55511_ftp-1-kk8xtyugn20e-2026-10-31t133551z-315778834-rc2deoazyw8a-rtrmadp-3-germany-protest.JPG"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "En Allemagne, des dizaines de milliers de jeunes attendus dans les rues samedi pour manifester contre le coût de la vie et l’état des établissements scolaires",
+      "resume": "Ces manifestations s’inspirent de mouvements similaires dans d’autres pays européens, notamment en France et en Italie, où des jeunes ont exprimé leur colère contre des élites politiques, les accusant d’ignorer leurs préoccupations. En France, des manifestations similaires sont aussi prévues samedi.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/en-allemagne-des-dizaines-de-milliers-de-jeunes-attendus-dans-les-rues-samedi-pour-manifester-contre-le-cout-de-la-vie-et-l-etat-des-etablissements-scolaires_6803597_3210.html",
+      "date": "2026-10-31T12:03:17+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/02/214/0/6030/3015/644/322/60/0/45fc7e7_ftp-1-a0jxdllr8lst-cd8104eb7eb74fb38e1eab1b9ce3feb4-0-d1b34f82ed3e4d2dbba17a5c5ca96a8c.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "\"Les jeunes ne sont toujours pas entendus\": la Gen Z allemande manifeste dans tout le pays samedi",
+      "resume": "La police allemande a été déployée dans tout le pays samedi et des commerces ont barricadé leurs vitrines avant des manifestations qui devraient rassembler des dizaines de milliers de jeunes. Ceux-ci veulent faire entendre leur voix face à des élites politiques qu'ils accusent d'ignorer leurs préoccupations.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
+      "date": "2026-10-31T15:10:18+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/44b5eeea-29401481.image?w=320&h=180"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Des dizaines de milliers de manifestants en France et en Allemagne, avec ou sans masque",
+      "resume": "Des manifestations à l’appel de la jeunesse, notamment, étaient organisées ce 31 octobre en France, pour le troisième samedi consécutif, mais aussi en Allemagne, où le mouvement “Gen Z regelt” a organisé une trentaine de rassemblements. Si les défilés se sont déroulés de façon pacifique, le climat a commencé à se tendre en fin d’après-midi.",
+      "lien": "https://www.courrierinternational.com/article/mobilisations-des-dizaines-de-milliers-de-manifestants-en-france-et-en-allemagne-avec-ou-sans-masque_283770",
+      "date": "2026-10-31T16:50:07+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/10/31/0/0/7468/5120/644/0/60/0/18710fe_ftp-1-i0oxmafu2qjm-afp-d4zv4b2.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "DIRECT. Manifestation du 31 octobre, 3e vague de mobilisation contre la vie chère, à quoi s'attendre à Toulouse où les rassemblements sont interdits",
+      "resume": "Pour le troisième samedi consécutif, la mobilisation contre la vie chère s'est poursuivie à Toulouse comme dans toute la France. Ce 31 octobre, la préfecture de la Haute-Garonne avait interdit tous les rassemblements, mais plusieurs milliers de personnes se sont tout de même déplacées. La journée s'est déroulée globalement dans le calme",
+      "lien": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
+      "date": "2026-10-31T18:01:30+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/MvEniyGsEi5MVWtA8WmWYkaT8SY/930x620/filters:format(webp)/regions/2026/10/31/6ae5fddd5ee0d533937090.png"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestations du 31 octobre : quelques centaines de manifestants en Picardie pour cette journée de mobilisation contre la vie chère",
+      "resume": "Malgré d'importants dispositifs de sécurité déployés au niveau national, la mobilisation contre la vie chère de ce samedi 31 octobre n'a pas été aussi suivie que prévu en Picardie. En début d'après-midi, ils n'étaient que 300 à 400 manifestants à marcher à Amiens, principalement des étudiants et des lycéens.",
+      "lien": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/amiens/manifestations-du-31-octobre-quelques-centaines-de-manifestants-a-amiens-pour-cette-journee-de-mobilisation-contre-la-vie-chere-3442194.html",
+      "date": "2026-10-31T17:45:23+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/BvsVIa8xEJpAKtBVajF9qsKqcmY/930x620/filters:format(webp)/regions/2026/10/31/6ae61bfde5b21564894105.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestations du 31 octobre : forte mobilisation à Poitiers et La Rochelle, rassemblements pacifistes à Niort et Angoulême",
+      "resume": "Troisième week-end consécutif de mobilisation contre la \"vie chère\" partout en France, et notamment en Poitou-Charentes, ce samedi 31 octobre. À Niort et à Angoulême, les mobilisations ont débuté dans la matinée et poursuivent cet après-midi. À Poitiers, les manifestants devraient se retrouver près de la porte de la Madeleine.",
+      "lien": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/vienne/poitiers/manifestations-du-31-octobre-debut-de-la-mobilisation-a-poitiers-rassemblements-pacifistes-a-niort-et-a-angouleme-3442161.html",
+      "date": "2026-10-31T17:19:59+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/pc1B0r9GVnhb4rzqDfdJW1ygToU/930x620/filters:format(webp)/regions/2026/10/31/6ae5ef7d57fd0597312377.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestation du 31 octobre : forte mobilisation à Bordeaux avec 11 000 personnes dans la rue",
+      "resume": "Ce samedi est la troisième journée de mobilisation sociale contre la vie chère. Syndicats, lycéens, étudiants et gilets jaunes se mobilisent. À Bordeaux, en Gironde, 11 000 personnes se sont réunies. En fin de cortège, les manifestants se sont rassemblés place de la Victoire, où des tensions éclatent avec les forces de l'ordre.",
+      "lien": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/direct-manifestation-du-31-octobre-a-bordeaux-le-cortege-s-elance-sur-un-trace-proche-des-rues-commercantes-3442164.html",
+      "date": "2026-10-31T16:36:42+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/OGibXpAhBgssRW2sQ3Crwny0fOU/930x620/filters:format(webp)/regions/2026/10/31/6ae60524e3827672318077.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "4500 manifestants dans les rues de Besançon malgré l'interdiction du centre-ville, bouclé par un important dispositif policier",
+      "resume": "Pour le troisième samedi consécutif, plusieurs milliers de personnes se sont mobilisées ce 31 octobre 2026 à Besançon (Doubs) contre la vie chère et pour défendre l'enseignement et la liberté de manifester. Faute de parcours autorisé par la préfecture, le rassemblement s'est élancé du parc des Glacis, avant de se disperser en plusieurs cortèges.",
+      "lien": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/doubs/4-000-manifestants-dans-les-rues-de-besancon-malgre-l-interdiction-du-centre-ville-boucle-par-un-important-dispositif-policier-3442143.html",
+      "date": "2026-10-31T16:48:30+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/_zFqxFfOuD9hWRB3VroYsQNAHCc/930x620/filters:format(webp)/regions/2026/10/31/6ae613e1db039664168375.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestation du 31 octobre à Montpellier : une 3e manifestation contre la vie chère, interdite par la préfecture et la justice",
+      "resume": "Le tribunal administratif de Montpellier a donné raison à la préfète de l'Hérault, ce samedi 31 octobre 2026, en interdisant la demande de manifestation déposée par des syndicats. Les cortèges n'ont pas le droit de défiler, même hors du centre-ville de Montpellier. Plusieurs milliers de manifestants sont néanmoins en marche dans les rues de la capitale languedocienne, cet après-midi.",
+      "lien": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/manifestation-du-31-octobre-a-montpellier-la-3e-manifestation-contre-la-vie-chere-interdite-par-la-prefecture-et-la-justice-3442140.html",
+      "date": "2026-10-31T15:03:19+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/hx1hZl-tV5MK5eSmK3U07okF51k/930x620/filters:format(webp)/regions/2026/10/31/6ae600183a2d8297478092.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "« De l’argent pour les systèmes sociaux plutôt que pour la guerre » : dans une trentaine de villes allemandes, des manifestants hostiles au service militaire",
+      "resume": "De Cologne à Berlin en passant par Hambourg, les rassemblements se sont déroulés sans débordement. Au sein des cortèges, constitués principalement de jeunes, le coût de la vie, le refus de la conscription ou la difficulté de se loger étaient au centre des revendications.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+      "date": "2026-10-31T18:31:53+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/31/86/0/5500/2750/644/322/60/0/fb55511_ftp-1-kk8xtyugn20e-2026-10-31t133551z-315778834-rc2deoazyw8a-rtrmadp-3-germany-protest.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Manifestations du 31 octobre : de 320.000 à près de 500.000 manifestants en France, 422 interpellations recensées",
+      "resume": "Les organisations lycéennes et étudiantes revendiquent, elles, 500.000 participants. Elles appellent déjà à bloquer facs et lycées dès mardi, avant la grève du 5 novembre.",
+      "lien": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-de-320-000-a-pres-de-500-000-manifestants-en-france-296-interpellations-recensees-20261031",
+      "date": "2026-10-31T18:58:10+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/10/31/3b20a4e7e07746c0dc0cafee1426650991373555ca466b9173e13e1806c69cbe.JPG"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"On attend fermement ceux qui voudraient en découdre ce soir\", déclare Laurent Nuñez, ministre de l'Intérieur",
+      "resume": "L'acte III de la colère sociale a rassemblé 320.000 manifestants en France, dont 70.000 à Paris, selon le ministère de l'Intérieur. L'intersyndicale de la jeunesse comptabilise de son côté près de 500.000 manifestants sur le territoire, dont 200.000 à Paris. Les manifestations se sont déroulées globalement dans le calme sur le territoire, avant que des heurts n'éclatent avec les forces de l'ordre dans plusieurs villes, dont la capitale, en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/politique/video-manifestations-du-31-octobre-on-attend-fermement-ceux-qui-voudraient-en-decoudre-ce-soir-declare-laurent-nunez-ministre-de-l-interieur_VN-202610310349.html",
+      "date": "2026-10-31T19:00:50+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/i6uWkuZXRZsFfTZ6DiGE9nf-YvM=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-On-attend-fermement-ceux-qui-voudraient-en-decoudre-ce-soir-declare-Laurent-Nunez-ministre-de-l-Interieur-2375630.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"40.000 contrôles ont été effectués et 422 personnes interpellées\", annonce Laurent Nuñez, ministre de l'Intérieur",
+      "resume": "La France vit ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Les cortèges, élancés vers 14h à distance des centres-villes, se sont déroulés dans le calme sur le territoire, avant que des heurts n'éclatent dans plusieurs villes en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/police-justice/video-manifestations-du-31-octobre-40-000-controles-ont-ete-effectues-et-422-personnes-interpellees-annonce-laurent-nunez-ministre-de-l-interieur_VN-202610310347.html",
+      "date": "2026-10-31T18:54:40+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/MH7xRy5SlKLFhRtHvFUi0o-OeZU=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-40-000-controles-ont-ete-effectues-et-422-personnes-interpellees-annonce-Laurent-Nunez-ministre-de-l-Interieur-2375628.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"On a eu dans chaque cortège des groupes de casseurs et de pilleurs\", explique Laurent Nuñez, ministre de l'Intérieur",
+      "resume": "La France vit ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Les cortèges, élancés vers 14h à distance des centres-villes, se sont déroulés dans le calme sur le territoire, avant que des heurts n'éclatent dans plusieurs villes en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/police-justice/video-manifestations-du-31-octobre-on-a-eu-dans-chaque-cortege-des-groupes-de-casseurs-et-de-pilleurs-explique-laurent-nunez-ministre-de-l-interieur_VN-202610310346.html",
+      "date": "2026-10-31T18:51:52+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BB45f9JsRrpzZtyqm58Q9-ZBGB8=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-On-a-eu-dans-chaque-cortege-des-groupes-de-casseurs-et-de-pilleurs-explique-Laurent-Nunez-ministre-de-l-Interieur-2375627.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"Les cortèges se sont bien déroulés\", explique Laurent Nuñez, ministre de l'Intérieur",
+      "resume": "La France vit ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Les cortèges, élancés vers 14h à distance des centres-villes, se sont déroulés dans le calme sur le territoire, avant que des heurts n'éclatent dans plusieurs villes en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/police-justice/video-manifestations-du-31-octobre-les-corteges-se-sont-bien-deroules-explique-laurent-nunez-ministre-de-l-interieur_VN-202610310345.html",
+      "date": "2026-10-31T18:49:10+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/DL3i696eKigw7jQsj8S9iTCkSo0=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-Les-corteges-se-sont-bien-deroules-explique-Laurent-Nunez-ministre-de-l-Interieur-2375626.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: des tensions à Marseille où des affrontements ont lieu entre quelques groupes et des forces de l'ordre",
+      "resume": "La France vit ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Les cortèges, élancés vers 14h à distance des centres-villes, se sont déroulés dans le calme sur le territoire, avant que des heurts n'éclatent dans plusieurs villes en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/police-justice/video-manifestations-du-31-octobre-des-tensions-a-marseille-ou-des-affrontements-ont-lieu-entre-quelques-groupes-et-des-forces-de-l-ordre_VN-202610310342.html",
+      "date": "2026-10-31T18:32:31+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/dJuCdL6E7U9Dk0Psghrw8bPZNGs=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-des-tensions-a-Marseille-ou-des-affrontements-ont-lieu-entre-quelques-groupes-et-des-forces-de-l-ordre-2375623.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestation du 31 octobre à Paris: retour au calme du côté de la porte de Charenton dans l'est parisien",
+      "resume": "La France vit ce samedi 31 octobre sa troisième journée de mobilisation sociale en trois semaines, considérée par l'exécutif comme \"à haut risque\". Les cortèges, élancés vers 14h à distance des centres-villes, se sont déroulés dans le calme sur le territoire, avant que des heurts n'éclatent dans plusieurs villes en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestation-du-31-octobre-a-paris-retour-au-calme-du-cote-de-la-porte-de-charenton-dans-l-est-parisien_VN-202610310336.html",
+      "date": "2026-10-31T18:16:04+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/NfXh1lfFrjJSgLGCM2FjozTNuUU=/0x0:1280x720/800x0/images/Manifestation-du-31-octobre-a-Paris-retour-au-calme-du-cote-de-la-porte-de-Charenton-dans-l-est-parisien-2375620.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"L'immense majorité des personnes dans les manifestations portent des revendications\", rappelle Caroline Chevé, Secrétaire générale de la Fédération syndicale unitaire (FSU)",
+      "resume": "Les cortèges de l'acte III de la colère sociale, qui ont réuni entre 320.000 et 500.000 personnes, se sont généralement déroulés dans le calme mais des échauffourées ont éclaté lors des premières dispersions par les forces de l'ordre. Au total 320.000 personnes ont manifesté dont 70.000 à Paris, selon les autorités qui avaient dénombré la semaine dernière 410.000 personnes. Pour sa part, l'Intersyndicale de la jeunesse a avancé le chiffre de 500.000 manifestants dont 200.000 à Paris.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-l-immense-majorite-des-personnes-dans-les-manifestations-portent-des-revendications-rappelle-caroline-cheve-secretaire-generale-de-la-federation-syndicale-unitaire-fsu_VN-202610310327.html",
+      "date": "2026-10-31T17:50:49+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/QnEULn5gBcP9Yym_Zi7hJEQqdls=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-L-immense-majorite-des-personnes-dans-les-manifestations-portent-des-revendications-rappelle-Caroline-Cheve-Secretaire-generale-de-la-Federation-syndicale-unitaire-FSU-2375613.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: 500.000 personnes mobilisées dans toute la France selon les syndicats, 320.000 d'après les autorités",
+      "resume": "Selon le ministère de l'Intérieur, 320.000 personnes ont défilé ce samedi 31 octobre en France lors de l'acte III de la colère sociale. L'Intersyndicale de la jeunesse annonce 500.000 manifestants.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/manifestations-du-31-octobre-500-000-personnes-mobilisees-dans-toute-la-france-selon-les-syndicats-320-000-d-apres-les-autorites_AV-202610310325.html",
+      "date": "2026-10-31T17:43:30+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2kQOZU7y03MLQXRZ5DOqcfEIkUM=/0x0:1920x1080/800x0/images/La-manif-Interfac-a-Paris-le-22-octobre-2026-2370323.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: le ministère de l'Intérieur annonce 296 interpellations en France à 18h",
+      "resume": "L'acte III de la colère sociale a rassemblé 320.000 manifestants en France, dont 70.000 à Paris, selon le ministère de l'Intérieur. L'intersyndicale de la jeunesse comptabilise de son côté près de 500.000 manifestants sur le territoire, dont 200.000 à Paris. Les manifestations se sont déroulées globalement dans le calme sur le territoire, avant que des heurts n'éclatent avec les forces de l'ordre dans plusieurs villes, dont la capitale, en fin d'après-midi.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-le-ministere-de-l-interieur-annonce-296-interpellations-en-france-a-18h_VN-202610310324.html",
+      "date": "2026-10-31T17:37:04+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/oPAESFjI7JQmWAUAYZtx39VGpOU=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-le-ministere-de-l-Interieur-annonce-296-interpellations-en-France-a-18h-2375611.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: les forces de l'ordre tentent d'évacuer la place de la Victoire, à Bordeaux",
+      "resume": "Les cortèges de l'acte III de la colère sociale, qui ont réuni entre 320.000 et 500.000 personnes, se sont généralement déroulés dans le calme mais des échauffourées ont éclaté lors des premières dispersions par les forces de l'ordre. Au total 320.000 personnes ont manifesté dont 70.000 à Paris, selon les autorités qui avaient dénombré la semaine dernière 410.000 personnes. Pour sa part, l'Intersyndicale de la jeunesse a avancé le chiffre de 500.000 manifestants dont 200.000 à Paris.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-les-forces-de-l-ordre-tentent-d-evacuer-la-place-de-la-victoire-a-bordeaux_VN-202610310321.html",
+      "date": "2026-10-31T17:16:29+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/gfgcPnjkR99_FVzmPC--VrMnD44=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-les-forces-de-l-ordre-tentent-d-evacuer-la-place-de-la-Victoire-a-Bordeaux-2375606.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"On se prive de tout\", raconte Émilie dans le cortège parisien",
+      "resume": "320.000 personnes ont défilé en France pour cet acte III de la colère sociale, a indiqué à ce stade le ministère de l'Intérieur. Le 24 octobre, 410.000 manifestants avaient été recensés par Beauvau sur le territoire, 800.000 selon les organisateurs. Le 17 octobre, ils étaient 550.000 selon le ministère de l'Intérieur et 800.000 selon les organisateurs.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-on-se-prive-de-tout-raconte-emilie-dans-le-cortege-parisien_VN-202610310316.html",
+      "date": "2026-10-31T17:08:07+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TwuGKV2fDx59xYAFIkZ_5HK3KxY=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-On-se-prive-de-tout-raconte-Emilie-dans-le-cortege-parisien-2375603.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: \"On se prive de tout, on ne fait rien\", raconte cette manifestante",
+      "resume": "320.000 personnes ont défilé en France pour cet acte III de la colère sociale, a indiqué à ce stade le ministère de l'Intérieur. Le 24 octobre, 410.000 manifestants avaient été recensés par Beauvau sur le territoire, 800.000 selon les organisateurs. Le 17 octobre, ils étaient 550.000 selon le ministère de l'Intérieur et 800.000 selon les organisateurs.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-on-se-prive-de-tout-on-ne-fait-rien-raconte-cette-manifestante_VN-202610310312.html",
+      "date": "2026-10-31T16:55:28+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/tTnAfhyMdJ6ZLqbxfIVIUO3FUCQ=/0x0:1280x720/800x0/images/Manifestations-du-31-octobre-On-se-prive-de-tout-on-ne-fait-rien-raconte-cette-manifestante-2375599.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Merz doit partir » : en Allemagne, des milliers de jeunes ont manifesté « pour une existence accessible à tous », des heurts en fin de parcours",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
+      "date": "2026-10-31T19:15:01.615851+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Mobilisation du 31 octobre : des gendarmes prennent feu après le jet d’engins incendiaires en marge de la manifestation à Paris",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/mobilisation-du-31-octobre-des-gendarmes-prennent-feu-apres-le-jet-dengins-incendiaires-en-marge-de-la-manifestation-a-paris-31-10-2026-T4PCNVIJVNDRTDX6CLJ7ANGN3E.php",
+      "date": "2026-10-31T19:15:01.616084+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« C’est ma liberté de venir » : à Marseille, 10 000 manifestants défient l’interdiction de la préfecture",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/bouches-du-rhone-13/cest-ma-liberte-de-venir-a-marseille-10-000-manifestants-defient-linterdiction-de-la-prefecture-31-10-2026-27FANEKFDRAUDB5TW7OHMOIOLQ.php",
+      "date": "2026-10-31T19:15:01.616201+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Manifestation du 31 octobre. Batman, Zorro et 10 000 personnes déterminées à Angers contre la vie chère et la répression",
+      "resume": "Emaillée de tensions avec les forces de l’ordre, déployées en nombre, la troisième manifestation contre la vie chère, interdite dans l’hypercentre, a rassemblé environ 10 000 personnes à Angers. C’est plus que les deux précédents cortèges. L’essoufflement espéré par le gouvernement n’est pas pour demain.",
+      "lien": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-batman-zorro-et-10-000-personnes-determinees-a-angers-contre-la-vie-chere-et-la-repression-b0f9902c-d548-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-31T18:31:28+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwZGMyNDYzODI4MDIzODExY2IwZmViODExMTg2OGFlZDQ?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=a8cbe820f9da818e57531f31c4e7d21bab464f68b6d8ea147aa32281dd930d19"
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "EN IMAGES. Manifestations du 31 octobre : des affrontements éclatent à Angers, deux blessés pris en charge",
+      "resume": "La manifestation de ce samedi 31 octobre 2026 après-midi, qui avait débuté dans le calme, a été marquée par des affrontements avec les forces de l’ordre boulevard Foch, puis dans le centre-ville. Plusieurs personnes ont été interpellées et deux manifestants ont été blessés et transportés à l’hôpital.",
+      "lien": "https://www.ouest-france.fr/societe/manifestation/en-images-manifestations-du-31-octobre-des-affrontements-eclatent-a-angers-deux-blesses-pris-en-charge-08b1a032-d550-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-10-31T18:14:05+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwMjg4MjdjY2Q2ZTg3NjBkZGJlYTk3NzdhOWM3ODA2MDk?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=9fe9e201dc819c2bfe33ae2d1295d52483106401d882c0f0515d1990f72076db"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation de ce samedi 31 octobre à Montpellier : jusqu'à 8 000 personnes dont 2 000 Black blocs",
+      "resume": "Jusqu'à 8 000 personnes ont manifesté ce samedi à Montpellier, selon la préfecture de l'Hérault qui évoque 2 000 casseurs, des Black blocs et des militants d'ultra-gauche.",
+      "lien": "https://actu.fr/occitanie/montpellier_34172/manifestation-de-ce-samedi-31-octobre-a-montpellier-jusqu-a-8-000-personnes-dont-200-black-blocs_65000247.html",
+      "date": "2026-10-31T18:50:01+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/img-0155-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 31 octobre à Bordeaux : le quartier de la Victoire, théâtre d'affrontements violents",
+      "resume": "Samedi 31 octobre, la manifestation s'est achevée dans le quartier de la Victoire. En fin d'après-midi, le calme a laissé place à des affrontements avec les forces de l'ordre.",
+      "lien": "https://actu.fr/nouvelle-aquitaine/bordeaux_33063/manifestation-du-31-octobre-a-bordeaux-le-quartier-de-la-victoire-theatre-d-affrontements-violents_65000252.html",
+      "date": "2026-10-31T18:50:38+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/manifestation-bordeaux-7-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 31 octobre à Bordeaux : un distributeur de titres TBM détruit par le feu",
+      "resume": "Samedi 31 octobre, en marge de la manifestation contre la vie chère, un distributeur de titres du réseau TBM a été incendié sur la place de la Victoire à Bordeaux.",
+      "lien": "https://actu.fr/nouvelle-aquitaine/bordeaux_33063/manifestation-du-31-octobre-a-bordeaux-un-distributeur-de-titres-tbm-detruit-par-le-feu_65000233.html",
+      "date": "2026-10-31T18:39:20+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/victoire-bordeaux-manifestation-incendie-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 31 octobre à Bordeaux : la préfecture dresse le bilan après les débordements en centre-ville",
+      "resume": "La manifestation du 31 octobre à Bordeaux a réuni plus de 11 000 personnes, selon la préfecture, qui déplore ensuite des débordements. Dans un bilan, elle évoque sept gardes à vue.",
+      "lien": "https://actu.fr/nouvelle-aquitaine/bordeaux_33063/manifestation-du-31-octobre-a-bordeaux-la-prefecture-dresse-le-bilan-apres-les-debordements-en-centre-ville_65000209.html",
+      "date": "2026-10-31T18:27:17+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/manifestation-sauvage-bordeaux-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 31 octobre à Montpellier : deux cortèges, l'un quittant Saint-Éloi, l'autre la Comédie",
+      "resume": "Acte III de la manifestation des lycéens, étudiants et Gilets Jaunes, ce samedi. Deux cortèges se forment, l'un à Saint-Éloi, l'autre à la Comédie. Suivez notree direct.",
+      "lien": "https://actu.fr/occitanie/montpellier_34172/manifestation-du-31-octobre-a-montpellier-le-cortege-va-rejoindre-le-parc-montcalm-depuis-saint-eloi_64998791.html",
+      "date": "2026-10-31T13:00:34+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/img-5268-1024-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Acte III : près d’un demi-million de manifestants en France, dont 200.000 à Paris",
+      "resume": "Près d’un demi-million de personnes ont manifesté samedi en France, dont 200.000 à Paris, a annoncé l’intersyndicale jeunesse, qui regroupe des syndicats ou des associations représentatives du monde lycéen et étudiant (UE, Fage, Unef et USL).",
+      "lien": "https://www.nicematin.com/societe/acte-iii-pres-d-un-demi-million-de-manifestants-en-france-dont-200-000-a-paris-10750305",
+      "date": "2026-10-31T17:23:29+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/03/05/OG-10750305-1200-800-5b0c9c5_ftp-1-iz4x8kijgmgn-afp-d4zz6l8.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Mobilisation du 31 octobre : les groupes se sont dispersés, sept interpellations à Nice, huit à Toulon… Revivez notre direct",
+      "resume": "L’acte III de cette mobilisation contre la vie chère s’est poursuivi ce samedi 31 octobre sur la Côte d’Azur et dans plusieurs grandes villes de France. Suivez notre direct pour vivre toutes les étapes de la journée dans les Alpes-Maritimes et le Var.",
+      "lien": "https://www.nicematin.com/societe/mobilisation-du-31-octobre-un-dispositif-exceptionnel-des-corteges-partiront-a-14h-a-nice-et-toulon-suivez-notre-direct-10749897",
+      "date": "2026-10-31T13:04:01+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/74/98/97/OG-10749897-1200-800-e6f9d2d_upload-1-egghislsuofo-whatsapp-image-2026-10-31-at-15-07-51.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Allemagne : la police sur le qui-vive avant d’importantes manifestations de jeunes ce 31 octobre",
+      "resume": "Les forces de l’ordre allemandes se déploient en nombre et des commerces se barricadent avant des rassemblements qui pourraient réunir plus de 170 000 participants à travers le pays",
+      "lien": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
+      "date": "2026-10-31T13:53:16+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31316701/1200x-1/20261031132105-341912.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "VIDEO. Manifestations du 31 octobre à Toulouse : \"J'ai cru mourir, je n'ai pas compris\"... Maël, 19 ans, frappé par les policiers en plein cœur du quartier des Carmes sous les yeux de passants choqués",
+      "resume": "Ce samedi 31 octobre, au marché des Carmes à Toulouse, une intervention policière a choqué les clients attablés. Maël, 19 ans, a été violemment frappé par des policiers, suscitant l'indignation des témoins. L'incident...",
+      "lien": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-jai-cru-mourir-je-nai-pas-compris-un-manifestant-frappe-par-les-policiers-en-plein-coeur-du-quartier-des-carmes-13629926.php",
+      "date": "2026-10-31T18:48:17+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae633f2f8d16c12d903f15a/standard/image.png?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Manifestations du 31 octobre à Toulouse : des tensions toujours en cours, 28 interpellations et trois blessés légers",
+      "resume": "Suivez les manifestations de ce samedi 31 octobre 2026, à Toulouse et en région Occitanie, en direct toute la journée sur ladepeche.fr",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-manifestations-du-31-octobre-a-toulouse-pas-de-mobilisation-declaree-officiellement-en-prefecture-70-000-policiers-et-gendarmes-mobilises-dans-13628338.php",
+      "date": "2026-10-31T18:50:21+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae625a4bf21da211903c00a/standard/image.png?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestation du 31 octobre à Toulouse : \"l'atmosphère qui règne n'incite pas à sortir\"… entre manifestations et consommation en berne, ambiance préoccupante en centre-ville",
+      "resume": "À Toulouse, ce samedi 31 octobre, une manifestation non déclarée contre la vie chère a rassemblé plusieurs milliers de personnes dès 13 h 30 au métro Jaurès. Le centre-ville, bouclé par les forces de l'ordre, a vu des...",
+      "lien": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-latmosphere-qui-regne-nincite-pas-a-sortir-entre-manifestations-et-consommation-en-berne-ambiance-preoccupante-13629847.php",
+      "date": "2026-10-31T18:26:26+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae6251eb17a328e350c764c/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestations du 31 octobre : 320 000 participants dans tout le pays, selon le ministère de l’Intérieur",
+      "resume": "La mobilisation nationale du samedi 31 octobre a réuni 320 000 personnes en France, selon le ministère de l’Intérieur, tandis que l’intersyndicale jeunesse avance près d’un demi-million de participants.",
+      "lien": "https://www.ladepeche.fr/2026/10/31/manifestations-du-31-octobre-320-000-participants-dans-tout-le-pays-selon-le-ministere-de-linterieur-13629802.php",
+      "date": "2026-10-31T17:37:13+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae615e9589d2627b3081630/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestations du 31 octobre : des tensions à Paris, Marseille et Rennes… quelle est la situation ce samedi ville par ville en France",
+      "resume": "Un troisième samedi de mobilisation sociale est organisé partout en France, ce samedi 31 octobre, contre la vie chère. Le gouvernement a mobilisé 70 000 policiers et gendarmes pour encadrer les cortèges et contrer les...",
+      "lien": "https://www.ladepeche.fr/2026/10/31/manifestations-du-31-octobre-defiles-autorises-interdits-deplaces-quelle-est-la-situation-ce-samedi-ville-par-ville-en-france-13629363.php",
+      "date": "2026-10-31T17:50:37+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae60caeb721100ff109aec8/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Présidentielle 2027 : \"Nous voulons faire vivre le droit de manifester pacifiquement\", déclare Jean-Luc Mélenchon avant la manifestation parisienne",
+      "resume": "Retrouvez l'actualité de la campagne de la présidentielle 2027 dans notre direct, ce samedi 31 octobre 2026, toute la journée.",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-presidentielle-2027-plusieurs-candidats-de-gauche-au-rassemblement-de-trappes-apres-lattentat-raciste-la-droite-absente-13628337.php",
+      "date": "2026-10-31T11:54:34+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae50d627d6b8b2bc00eff02/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "EN IMAGES Manifestation du 31 octobre : de Nîmes à Montpellier en passant par Alès, des cortèges clairsemés et plus de joie que de dégâts",
+      "resume": "Après les manifestations de 17 octobre et du 24 octobre, la mobilisation contre la vie chère et en soutien à la jeunesse s’est poursuivie avec son Acte III ce samedi 31 octobre. Retour en images sur les mobilisations...",
+      "lien": "https://www.midilibre.fr/2026/10/31/manifestation-du-31-octobre-de-nimes-a-montpellier-en-passant-par-ales-des-corteges-clairsemes-et-plus-de-joie-que-de-degats-13629937.php",
+      "date": "2026-10-31T18:01:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae6254585d6d0fa8108adce/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Entretien. Mobilisation du 31 octobre : cette colère « dit quelque chose sur le mal-être d’une génération »",
+      "resume": "Le gouvernement a beaucoup trop tardé dans sa réponse à la colère de la jeunesse, estime Danielle Tartakowsky, historienne des mouvements sociaux. Elle s’interroge sur ce qui s’est passé le 17 octobre et sur « les auteurs de l’organisation du désordre ».",
+      "lien": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
+      "date": "2026-10-31T17:40:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Social. Mobilisation du 31 octobre : « Les cortèges se sont bien déroulés », constate Laurent Nuñez",
+      "resume": "Gilets jaunes syndicats, lycéens ou encore étudiants ont manifesté ce samedi 31 octobre. Dans certaines villes, des heurts se sont produits au moment de la dispersion des cortèges. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.leprogres.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T19:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Pays de Savoie. Mobilisation du 31 octobre : à Chambéry, les derniers manifestants dispersés par les tirs de gaz lacrymogènes",
+      "resume": "L'acte III des manifestations du samedi se tient ce 31 octobre jour d'Halloween. De nombreux rassemblements sont annoncés en Savoie et Haute-Savoie. Suivez en direct ce nouveau samedi de mobilisation.",
+      "lien": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-des-violences-vont-elles-encore-emailler-les-manifestations-de-ce-samedi",
+      "date": "2026-10-31T19:11:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/4F62310E-19E5-433D-9073-0C4A81B2759E/NW_listB/mobilisation-du-31-octobre-a-chambery-les-derniers-manifestants-disperses-par-les-tirs-de-gaz-lacrymogenes-1793473895.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Social. Mobilisation du 31 octobre : « Les cortèges se sont bien déroulés », constate Laurent Nuñez",
+      "resume": "Gilets jaunes syndicats, lycéens ou encore étudiants ont manifesté ce samedi 31 octobre. Dans certaines villes, des heurts se sont produits au moment de la dispersion des cortèges. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.ledauphine.com/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T19:10:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/52927484-AF28-4946-BC08-733B5D7F2CBF/NW_listB/mobilisation-du-31-octobre-les-corteges-se-sont-bien-deroules-constate-laurent-nunez-1793473858.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Valence. Mobilisation du 31 octobre : « On voit l’État policier, il y a plus de flics que de manifestants »",
+      "resume": "Nouvelle journée de mobilisation ce samedi 31 octobre. À Valence, ils étaient plus d’un millier, révoltés notamment par l’interdiction de manifester en centre-ville.",
+      "lien": "https://www.ledauphine.com/social/2026/10/31/journee-de-mobilisation-on-ne-peut-pas-nous-interdire-de-manifester",
+      "date": "2026-10-31T16:58:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/D2C0A264-D13F-4FBE-A83E-13C4A90D1718/NW_listB/mobilisation-du-31-octobre-on-voit-l-etat-policier-il-y-a-plus-de-flics-que-de-manifestants-1793466003.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Entretien. Mobilisation du 31 octobre : cette colère « dit quelque chose sur le mal-être d’une génération »",
+      "resume": "Le gouvernement a beaucoup trop tardé dans sa réponse à la colère de la jeunesse, estime Danielle Tartakowsky, historienne des mouvements sociaux. Elle s’interroge sur ce qui s’est passé le 17 octobre et sur « les auteurs de l’organisation du désordre ».",
+      "lien": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
+      "date": "2026-10-31T17:40:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/19834C64-BDA3-430D-8DAF-0466A3AF5681/NW_listB/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation-1793466090.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Social. Mobilisation du 31 octobre : « Les cortèges se sont bien déroulés », constate Laurent Nuñez",
+      "resume": "Gilets jaunes syndicats, lycéens ou encore étudiants ont manifesté ce samedi 31 octobre. Dans certaines villes, des heurts se sont produits au moment de la dispersion des cortèges. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.dna.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T19:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Social. Mobilisation du 31 octobre : « Les cortèges se sont bien déroulés », constate Laurent Nuñez",
+      "resume": "Gilets jaunes syndicats, lycéens ou encore étudiants ont manifesté ce samedi 31 octobre. Dans certaines villes, des heurts se sont produits au moment de la dispersion des cortèges. Suivez l'évolution de la situation en direct.",
+      "lien": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+      "date": "2026-10-31T19:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Entretien. Mobilisation du 31 octobre : cette colère « dit quelque chose sur le mal-être d’une génération »",
+      "resume": "Le gouvernement a beaucoup trop tardé dans sa réponse à la colère de la jeunesse, estime Danielle Tartakowsky, historienne des mouvements sociaux. Elle s’interroge sur ce qui s’est passé le 17 octobre et sur « les auteurs de l’organisation du désordre ».",
+      "lien": "https://www.estrepublicain.fr/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
+      "date": "2026-10-31T17:40:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "Courrier international",
+     "DNA",
+     "France 3 Régions",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "Ouest-France",
+     "RFI",
+     "RTS",
+     "Sud Ouest",
+     "actu.fr"
+    ],
+    "sig": [
+     "000",
+     "allema",
+     "corteg",
+     "lauren",
+     "manife",
+     "mobili",
+     "nunez",
+     "octobr"
+    ],
+    "score": 162.9993957136111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Des milliers de jeunes manifestent dans une trentaine de villes allemandes",
+    "texte": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils dénoncent le coût de la vie et réclament de meilleures conditions d'enseignement, sans débordement signalé.",
+    "texte_long": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils dénoncent le coût de la vie et réclament de meilleures conditions d'enseignement, sans débordement signalé.",
+    "flash": "En Allemagne, des milliers de jeunes manifestent samedi dans une trentaine de villes contre le coût de la vie et pour l'école.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "DEU"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Jeunesse",
+     "#VieChere"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/politique/video-manifestations-du-31-octobre-on-attend-fermement-ceux-qui-voudraient-en-decoudre-ce-soir-declare-laurent-nunez-ministre-de-l-interieur_VN-202610310349.html",
+     "Courrier international": "https://www.courrierinternational.com/article/mobilisations-des-dizaines-de-milliers-de-manifestants-en-france-et-en-allemagne-avec-ou-sans-masque_283770",
+     "DNA": "https://www.dna.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
+     "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-jai-cru-mourir-je-nai-pas-compris-un-manifestant-frappe-par-les-policiers-en-plein-coeur-du-quartier-des-carmes-13629926.php",
+     "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-des-violences-vont-elles-encore-emailler-les-manifestations-de-ce-samedi",
+     "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-de-320-000-a-pres-de-500-000-manifestants-en-france-296-interpellations-recensees-20261031",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
+     "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-31-octobre-de-nimes-a-montpellier-en-passant-par-ales-des-corteges-clairsemes-et-plus-de-joie-que-de-degats-13629937.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/acte-iii-pres-d-un-demi-million-de-manifestants-en-france-dont-200-000-a-paris-10750305",
+     "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-batman-zorro-et-10-000-personnes-determinees-a-angers-contre-la-vie-chere-et-la-repression-b0f9902c-d548-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "RFI": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
+     "Sud Ouest": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
+     "actu.fr": "https://actu.fr/occitanie/montpellier_34172/manifestation-de-ce-samedi-31-octobre-a-montpellier-jusqu-a-8-000-personnes-dont-200-black-blocs_65000247.html"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "En Ukraine, des habitants d'Olechky retrouvent leurs proches après avoir été évacués",
+      "resume": "Des habitants de la ville ukrainienne d'Olechky, occupée par la Russie, ont été accueillis par leurs proches samedi après avoir été évacués la veille. Cette opération humanitaire a été rendue possible grâce à un cessez-le-feu, en cours depuis mardi, entre les deux pays.",
+      "lien": "https://www.france24.com/fr/europe/20261031-ukraine-habitants-olechky-retrouvent-leurs-proches-apr%C3%A8s-avoir-%C3%A9t%C3%A9-%C3%A9vacu%C3%A9s-cessez-feu-russie-op%C3%A9ration-humanitaire-melania-trump",
+      "date": "2026-10-31T15:47:39+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/bff7a79c-d53b-11f1-8be7-a575454bc579/w:1024/p:16x9/AP26304492932574.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Des habitants évacués d'Olechky, ville sous occupation russe, sont arrivés en Ukraine",
+      "resume": "Cette opération a eu lieu dans le cadre d'une trêve qui débuté mardi matin et doit durer jusqu'à dimanche soir. Ni Moscou, ni Kiev n'ont précisé le nombre de personnes évacuées.",
+      "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-habitants-evacues-d-olechky-ville-occupee-par-la-russie-sont-arrives-en-ukraine_8261879.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-10-31T17:50:29+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/Yt_0wlg6BI8AJ6Mh3bESRrbErOk/0x53:1024x629/432x243/filters:format(jpg)/2026/10/31/6ae5f55f8d15c374696220.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Guerre en Ukraine : Washington approuve la vente de 500 missiles Patriot à Kiev, des habitants évacués d’Olechky",
+      "resume": "« 20 Minutes » fait le point pour vous tous les soirs sur le conflit. Ce samedi, des habitants de la ville ukrainienne d’Olechky ont été évacués et le gouvernement américain a approuvé la vente de 500 missiles Patriot",
+      "lien": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+      "date": "2026-10-31T17:47:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/E4zxcrLhSiWERJ8XF_NuJCk/1200x768_14-octobre-2026-grece-la-canee-un-missile-antiaerien-patriot-de-l-armee-de-l-air-suedoise-est-lance-depuis-un-lanceur-lors-de-l-exercice-militaire-spartan-arrow-2026-lors-d-exercices-de-tir-reel-avec-les-forces-de-defense-aerienne-allemandes-en-crete-sur-un-champ-de-tir-de-missiles-de-l-otan-pour-engager-avec-succes-un-drone-d-entrainement-photo-kay-nietfeld-dpa-ur-newsml-dpa-com-20090101-261014-99-947037-kay-nietfeld-dpa-sipa-2610141000"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Guerre en Ukraine : Le gouvernement américain approuve la vente de 500 missiles Patriot à Kiev",
+      "resume": "Washington a approuvé la vente de 500 missiles Patriot à l’Ukraine, Zelensky salue une « décision forte », mais la livraison devrait prendre « quelques années »",
+      "lien": "https://www.20minutes.fr/monde/ukraine/4259179-20261031-guerre-ukraine-gouvernement-americain-approuve-vente-500-missiles-patriot-kiev?at_medium=display&at_campaign=149",
+      "date": "2026-10-31T13:06:29+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/onIh3_-vQC2WG-jYehqvDCk/1200x768_14-octobre-2026-grece-la-canee-un-missile-de-defense-aerienne-patriot-de-la-bundeswehr-est-lance-depuis-un-lanceur-lors-de-l-exercice-militaire-spartan-arrow-2026-dans-le-cadre-d-exercices-de-tir-reel-des-forces-de-defense-aerienne-allemandes-en-crete-sur-un-champ-de-tir-de-missiles-de-l-otan-interceptant-avec-succes-un-drone-d-entrainement-photo-kay-nietfeld-dpa-ur-newsml-dpa-com-20090101-261014-99-947003-kay-nietfeld-dpa-sipa-2610140950"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Guerre en Ukraine : Washington approuve la vente de 500 missiles Patriot à Kiev, des habitants évacués d’Olechky",
+      "resume": "« 20 Minutes » fait le point pour vous tous les soirs sur le conflit. Ce samedi, des habitants de la ville ukrainienne d’Olechky ont été évacués et le gouvernement américain a approuvé la vente de 500 missiles Patriot",
+      "lien": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+      "date": "2026-10-31T17:47:54+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/E4zxcrLhSiWERJ8XF_NuJCk/1200x768_14-octobre-2026-grece-la-canee-un-missile-antiaerien-patriot-de-l-armee-de-l-air-suedoise-est-lance-depuis-un-lanceur-lors-de-l-exercice-militaire-spartan-arrow-2026-lors-d-exercices-de-tir-reel-avec-les-forces-de-defense-aerienne-allemandes-en-crete-sur-un-champ-de-tir-de-missiles-de-l-otan-pour-engager-avec-succes-un-drone-d-entrainement-photo-kay-nietfeld-dpa-ur-newsml-dpa-com-20090101-261014-99-947037-kay-nietfeld-dpa-sipa-2610141000"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : « une décision forte », l’administration Trump valide la vente de 500 missiles Patriot à Kiev pour 1,9 milliard d’euros",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-une-decision-forte-ladministration-trump-valide-la-vente-de-500-missiles-patriot-a-kiev-pour-19-milliard-deuros-31-10-2026-NLQ4IWPBARFDFBWLU7F3QBYLSM.php",
+      "date": "2026-10-31T19:15:01.617615+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Guerre en Ukraine : \"Une décision forte\"... Washington approuve la vente de 500 missiles intercepteurs Patriot à Kiev, mais Volodymyr Zelensky ne cache pas son inquiétude",
+      "resume": "Le département d'État américain a validé, vendredi 30 octobre, la vente de 500 intercepteurs Patriot à Kiev, pour un montant de 1,9 milliard d'euros. Volodymyr Zelensky s’inquiète cependant de ne pas les recevoir...",
+      "lien": "https://www.ladepeche.fr/2026/10/31/guerre-en-ukraine-une-decision-forte-washington-approuve-la-vente-de-500-missiles-intercepteurs-patriot-a-kiev-mais-volodymyr-zelensky-ne-cache-pas-13629843.php",
+      "date": "2026-10-31T19:06:10+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae622cf45b6a0f4ad0751be/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Guerre en Ukraine : pour Volodymyr Zelensky, \"tous ceux qui ne veulent pas voir cette escalade russe s'étendre davantage en Europe doivent aider l'Ukraine\"",
+      "resume": "Suivez toute l'actualité de la guerre en Ukraine, ce samedi 31 octobre 2026, dans le direct de ladepeche.fr toute la journée.",
+      "lien": "https://www.ladepeche.fr/2026/10/31/direct-guerre-en-ukraine-les-etats-unis-vont-vendre-500-missiles-patriot-a-kiev-pour-un-montant-de-2-milliards-de-dollars-13628336.php",
+      "date": "2026-10-31T16:50:34+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae511e086a68bf9980b291a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Guerre en Ukraine : Donald Trump promet 500 missiles Patriot à l’Ukraine pour 2,1 milliards de dollars, mais Kiev devra attendre des années pour les recevoir",
+      "resume": "L’administration Trump a approuvé, vendredi 30 octobre, la vente à l’Ukraine de 500 missiles Patriot pour un montant de 1,9 milliard d’euros, marquant un soutien défensif majeur pour Kiev. Cependant, les livraisons ne...",
+      "lien": "https://www.midilibre.fr/2026/10/31/guerre-en-ukraine-donald-trump-promet-500-missiles-patriot-a-lukraine-pour-21-milliards-de-dollars-mais-kiev-devra-attendre-des-annees-pour-les-13629520.php",
+      "date": "2026-10-31T14:11:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae5ef3798deab66d509e6c0/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "France 24",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "franceinfo"
+    ],
+    "sig": [
+     "500",
+     "approu",
+     "guerre",
+     "kiev",
+     "missil",
+     "patrio",
+     "ukrain",
+     "vente"
+    ],
+    "score": 82.99939610638889,
+    "suite": null,
+    "pays": "Ukraine",
+    "requete": "Kyiv Ukraine",
+    "prioritaire": true,
+    "titre": "Habitants d'Olechky évacués : retrouvailles en Ukraine",
+    "texte": "En Ukraine, des habitants de la ville d'Olechky, occupée par la Russie, ont été évacués puis accueillis par leurs proches samedi. L'opération s'est déroulée pendant une trêve en vigueur depuis mardi. Ni Moscou ni Kiev n'ont précisé le nombre de personnes évacuées.",
+    "texte_long": "En Ukraine, des habitants de la ville d'Olechky, occupée par la Russie, ont été évacués puis accueillis par leurs proches samedi. L'opération s'est déroulée pendant une trêve en vigueur depuis mardi. Ni Moscou ni Kiev n'ont précisé le nombre de personnes évacuées.",
+    "flash": "En Ukraine, des habitants d'Olechky évacués pendant une trêve retrouvent leurs proches, le nombre de personnes restant non précisé.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "UKR",
+     "RUS"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": {
+     "de": "RUS",
+     "vers": "UKR",
+     "type": "echange"
+    },
+    "hashtags": [
+     "#Ukraine",
+     "#Humanitaire"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
+     "France 24": "https://www.france24.com/fr/europe/20261031-ukraine-habitants-olechky-retrouvent-leurs-proches-apr%C3%A8s-avoir-%C3%A9t%C3%A9-%C3%A9vacu%C3%A9s-cessez-feu-russie-op%C3%A9ration-humanitaire-melania-trump",
+     "La Dépêche": "https://www.ladepeche.fr/2026/10/31/guerre-en-ukraine-une-decision-forte-washington-approuve-la-vente-de-500-missiles-intercepteurs-patriot-a-kiev-mais-volodymyr-zelensky-ne-cache-pas-13629843.php",
+     "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-une-decision-forte-ladministration-trump-valide-la-vente-de-500-missiles-patriot-a-kiev-pour-19-milliard-deuros-31-10-2026-NLQ4IWPBARFDFBWLU7F3QBYLSM.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/31/guerre-en-ukraine-donald-trump-promet-500-missiles-patriot-a-lukraine-pour-21-milliards-de-dollars-mais-kiev-devra-attendre-des-annees-pour-les-13629520.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-habitants-evacues-d-olechky-ville-occupee-par-la-russie-sont-arrives-en-ukraine_8261879.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "Albanie: les heurts entre les manifestants et la police lors d'une nouvelle journée de mobilisation",
+      "resume": "Les forces de l'ordre albanaises ont fait usage samedi 31 octobre de gaz lacrymogène et de canons à eau pour disperser des groupes de manifestants violents rassemblés près des bureaux du Premier ministre Edi Rama, dont la démission est réclamée depuis des mois.",
+      "lien": "https://www.rfi.fr/fr/europe/20261031-albanie-les-heurts-entre-les-manifestants-et-la-police-lors-d-une-nouvelle-journ%C3%A9e-de-mobilisation",
+      "date": "2026-10-31T18:25:51+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/120d0024-d558-11f1-bee4-695cb59fade5/w:1024/p:16x9/AP26304576189808.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "EN IMAGES. \"Si on ne peut pas manifester en centre-ville, ça veut dire qu'on n'est plus en démocratie\" : entre ambiance festive et heurts en fin de journée, revivez les manifestations du samedi 31 octobre à Nantes, Le Mans et Laval",
+      "resume": "Ce samedi 31 octobre marque la troisième semaine de manifestations pour des milliers de citoyens en France. Un rassemblement contre la vie chère, sur l'île de Nantes, a réuni plusieurs milliers de personnes qui se sont dirigées vers le palais de justice pour respecter le périmètre interdit par la préfecture. En fin de journée, des tensions sont montées dans le centre-ville.",
+      "lien": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/direct-manifestation-du-31-octobre-suivez-les-rassemblements-a-nantes-3442098.html",
+      "date": "2026-10-31T18:48:25+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/GnExYUk2-Rw9wQmd4J0b03wlxyo/930x620/filters:format(webp)/regions/2026/10/31/6ae6343f1c421833410746.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestation du 31 octobre : des tensions en fin de défilé à Lille, quinze interpellations et un dispositif policier renforcé",
+      "resume": "La manifestation lilloise du 31 octobre 2026 s'est déroulée dans une ambiance bon enfant. Malgré cela, vers 17 heures, des premières tensions sont apparues en fin de cortège. À la nuit tombante, des affrontements se sont produits entre manifestants et forces de l'ordre. Le calme est revenu peu après.",
+      "lien": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/des-tensions-en-fin-de-manifestation-a-lille-quinze-interpellations-et-un-dispositif-policier-renforce-3442248.html",
+      "date": "2026-10-31T18:45:25+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/EhyNWQ5L2qFi-ualQeJSilo_8XQ/930x620/filters:format(webp)/regions/2026/10/31/6ae6297ba7cce802528752.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestations du 31 octobre : hormis des tensions à Reims, un \"acte III\" calme en Champagne-Ardenne",
+      "resume": "Dans le cadre des quelque 150 mobilisations attendues en France, le 31 octobre, pour le troisième samedi de rang, des cortèges ont arpenté les rues de Reims (Marne), où 23 personnes ont été interpellées, Châlons-en-Champagne et Charleville-Mézières (Ardennes), où cet acte III s'est déroulé sans incident.",
+      "lien": "https://france3-regions.franceinfo.fr/grand-est/marne/reims/direct-manifestations-du-31-octobre-les-corteges-s-elancent-en-champagne-ardenne-3442134.html",
+      "date": "2026-10-31T18:08:01+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/CzSf4kKxWdqIlpEK4IDBdMdApOA/930x620/filters:format(webp)/regions/2026/10/31/6ae6020297d41844172179.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestations du 31 octobre : un \"acte III\" calme en Lorraine hormis des tensions entre manifestants et CRS à Nancy",
+      "resume": "Dans le cadre des mobilisations samedi 31 octobre 2026, les manifestations à Metz, Nancy et Épinal se sont déroulées dans le calme. Quelques heurts ont eu lieu entre manifestants et forces de l'ordre en fin de parcours, notamment à Nancy.",
+      "lien": "https://france3-regions.franceinfo.fr/grand-est/moselle/metz/direct-manifestations-du-31-octobre-les-prefectures-veulent-a-tout-prix-interdire-les-centres-villes-3442017.html",
+      "date": "2026-10-31T17:48:09+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/SdqOB0S6S_cR295kRkiN47Pes6o/930x620/filters:format(webp)/regions/2026/10/31/6ae60e861a23e965409966.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestation du 31 octobre : trois interpellations et jusqu'à 2000 manifestants à Clermont-Ferrand, selon la préfecture",
+      "resume": "Pour le troisième samedi consécutif, une manifestation a lieu à Clermont-Ferrand ce 31 octobre. L'acte III du mouvement national contre la vie chère a lieu, avec une manifestation de 2000 personnes qui a commencé dès 10 heures, place Delille.",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/direct-manifestation-du-31-octobre-suivez-la-mobilisation-a-clermont-ferrand-3442044.html",
+      "date": "2026-10-31T17:22:20+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/BkTwnzTyM9QyNLvwXG_6dcyO_Q8/930x620/filters:format(webp)/regions/2026/10/31/6ae606026cede646592251.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Violences policières, démocratie, traitement médiatique... A Nice, les revendications multiples des manifestants du 31 octobre",
+      "resume": "Interrogés dans le cortège de Nice (Alpes-Maritimes) le 31 octobre 2026, les manifestants expriment leurs revendications avec humour ou gravité à travers de nombreuses pancartes. Rencontres et témoignages à l'occasion de cette nouvelle journée de mobilisation contre la vie chère.",
+      "lien": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/violences-policieres-democratie-traitement-mediatique-a-nice-les-revendications-multiples-des-manifestants-du-31-octobre-3442224.html",
+      "date": "2026-10-31T16:14:33+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/XeymEEIgHhoTzZdhYwUkaUJMMtc/930x620/filters:format(webp)/regions/2026/10/31/6ae61375130cc319698511.png"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestation du 31 octobre à Lyon : Interpellation d'un individu qui transportait des éléments permettant un dispositif explosif artisanal",
+      "resume": "Ce samedi 31 octobre, en début d'après-midi, les policiers nationaux ont interpellé à Lyon un individu qui transportait des éléments permettant de lancer un dispositif explosif artisanal contre les forces de l’ordre (source préfecture du Rhône).",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/manifestation-du-31-octobre-a-lyon-interpellation-d-un-individu-qui-transportait-des-elements-permettant-un-dispositif-explosif-artisanal-3442155.html",
+      "date": "2026-10-31T13:23:59+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/GBAncc9eawAAIoWBp_2KCyaTFfc/930x620/filters:format(webp)/regions/2026/10/31/6ae5eb18d65da872125165.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Incendie d’un immeuble à Clermont-Ferrand : trois morts et un quatrième corps recherché, un homme interpellé",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/incendie-dun-immeuble-a-clermont-ferrand-trois-morts-et-un-quatrieme-corps-recherche-un-homme-interpelle-31-10-2026-UXPWGY26KJC2LBDK2X5SJ6DJEM.php",
+      "date": "2026-10-31T19:15:01.618069+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Albanie : nouvelles tensions et heurts avec la police lors d’une manifestation étudiante à Tirana",
+      "resume": "Des heurts ont éclaté devant le ministère de l’Éducation en Albanie où des manifestants réclament la démission du Premier ministre Edi Rama",
+      "lien": "https://www.sudouest.fr/international/albanie-nouvelles-tensions-et-heurts-avec-la-police-lors-d-une-manifestation-etudiante-a-tirana-31320676.php",
+      "date": "2026-10-31T17:03:04+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31320676/1200x-1/20261031172109-34226112.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Manifestation du 17 octobre : \"On peut voir la vitrine de magasin comme une gigantesque entreprise de création de frustration\"",
+      "resume": "Pour le documentariste héraultais Pierre Carles, les casseurs et les pilleurs mettent en lumière \"l’idéologie consumériste et son bras armé publicitaire\". Il signe une tribune disruptive dans l’espace Lignes ouvertes...",
+      "lien": "https://www.midilibre.fr/2026/10/31/manifestation-du-17-octobre-on-peut-voir-la-vitrine-de-magasin-comme-une-gigantesque-entreprise-de-creation-de-frustration-13627819.php",
+      "date": "2026-10-31T16:35:09+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae479da654e05fac103852c/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Puy-de-Dôme. Incendie d'un immeuble à Clermont-Ferrand : un quatrième corps retrouvé dans les décombres",
+      "resume": "L'incendie d'un immeuble dans la nuit de jeudi à vendredi, qui pourrait être d'origine criminelle, a aussi fait au moins six blessés légers.",
+      "lien": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+      "date": "2026-10-31T16:20:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Puy-de-Dôme. Incendie d'un immeuble à Clermont-Ferrand : un quatrième corps retrouvé dans les décombres",
+      "resume": "L'incendie d'un immeuble dans la nuit de jeudi à vendredi, qui pourrait être d'origine criminelle, a aussi fait au moins six blessés légers.",
+      "lien": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+      "date": "2026-10-31T16:20:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "France 3 Régions",
+     "L'Est Républicain",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "RFI",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "clermo",
+     "corps",
+     "ferran",
+     "heurts",
+     "interp",
+     "manife",
+     "octobr",
+     "tensio"
+    ],
+    "score": 67.9993962325,
+    "suite": null,
+    "pays": "Albanie",
+    "requete": "Albania landscape",
+    "prioritaire": false,
+    "titre": "Midterms : votes anticipés record aux États-Unis",
+    "texte": "Aux États-Unis, le vote par anticipation pour les élections de mi-mandat connaît des niveaux records, notamment en Alaska. Dans certains États clés, les électeurs progressistes semblent se mobiliser avant le scrutin de mardi.",
+    "texte_long": "Aux États-Unis, le vote par anticipation pour les élections de mi-mandat connaît des niveaux records, notamment en Alaska. Dans certains États clés, les électeurs progressistes semblent se mobiliser avant le scrutin de mardi.",
+    "flash": "Aux États-Unis, le vote par anticipation pour les élections de mi-mandat bat des records avant le scrutin de mardi.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "USA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Midterms",
+     "#Election"
+    ],
+    "liens": {
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/direct-manifestation-du-31-octobre-suivez-les-rassemblements-a-nantes-3442098.html",
+     "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/incendie-dun-immeuble-a-clermont-ferrand-trois-morts-et-un-quatrieme-corps-recherche-un-homme-interpelle-31-10-2026-UXPWGY26KJC2LBDK2X5SJ6DJEM.php",
+     "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
+     "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-17-octobre-on-peut-voir-la-vitrine-de-magasin-comme-une-gigantesque-entreprise-de-creation-de-frustration-13627819.php",
+     "RFI": "https://www.rfi.fr/fr/europe/20261031-albanie-les-heurts-entre-les-manifestants-et-la-police-lors-d-une-nouvelle-journ%C3%A9e-de-mobilisation",
+     "Sud Ouest": "https://www.sudouest.fr/international/albanie-nouvelles-tensions-et-heurts-avec-la-police-lors-d-une-manifestation-etudiante-a-tirana-31320676.php"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Le Royaume-Uni prêt à présenter des excuses officielles pour son rôle dans l'esclavage",
+      "resume": "Le Royaume-Uni serait prêt à présenter des excuses officielles pour son rôle dans la traite transatlantique des esclaves, a déclaré samedi son Premier ministre, Andy Burnham. Il se rendra la semaine prochaine à Antigua-et-Barbuda, dans les Caraïbes, pour un sommet des chefs de gouvernement des pays du Commonwealth (CHOGM).",
+      "lien": "https://www.france24.com/fr/europe/20261031-andy-burnham-royaume-uni-pr%C3%AAt-pr%C3%A9senter-excuses-pour-son-r%C3%B4le-dans-esclavage-traite-transatlantique",
+      "date": "2026-10-31T16:54:19+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/38e2dd38-d542-11f1-9750-bf1914cabd52/w:1024/p:16x9/2026-10-31T100609Z-128435128-RC2MDOA7K8GW-RTRMADP-3-BRITAIN-SLAVERY.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Andy Burnham se dit ouvert à des « excuses officielles » du Royaume-Uni à propos de l’esclavage et écarte toute compensation financière",
+      "resume": "Le chef du gouvernement britannique a déclaré, samedi, dans une tribune au « Guardian », être à l’écoute et en « faveur » d’excuses.",
+      "lien": "https://www.lemonde.fr/international/article/2026/10/31/au-royaume-uni-le-premier-ministre-andy-burnham-se-dit-ouvert-a-des-excuses-officielles-a-propos-de-l-esclavage_6803603_3210.html",
+      "date": "2026-10-31T13:02:16+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/31/400/0/5665/2832/644/322/60/0/cac4744_ftp-1-bqgldvygul06-2026-10-31t100609z-128435128-rc2mdoa7k8gw-rtrmadp-3-britain-slavery.JPG"
+     }
+    ],
+    "sources": [
+     "France 24",
+     "Le Monde"
+    ],
+    "sig": [
+     "andy",
+     "burnha",
+     "compen",
+     "esclav",
+     "excuse",
+     "offici",
+     "royaum",
+     "uni"
+    ],
+    "score": 65.65422454666667,
+    "suite": null,
+    "pays": "Royaume-Uni",
+    "requete": "London United Kingdom",
+    "prioritaire": true,
+    "titre": "Cinq Britanniques interpellés près de Dunkerque",
+    "texte": "Dans le Nord, cinq Britanniques issus de la mouvance d'ultradroite ont été interpellés jeudi près de Dunkerque. Ils diffusaient en direct des images d'actions d'intimidation contre des migrants, selon la préfecture. Ils devraient être expulsés.",
+    "texte_long": "Dans le Nord, cinq Britanniques issus de la mouvance d'ultradroite ont été interpellés jeudi près de Dunkerque. Ils diffusaient en direct des images d'actions d'intimidation contre des migrants, selon la préfecture. Ils devraient être expulsés.",
+    "flash": "Près de Dunkerque, cinq Britanniques de l'ultradroite interpellés pour des actions d'intimidation contre des migrants.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "5",
+     "legende": "Britanniques interpellés"
+    },
+    "iso": [
+     "FRA",
+     "GBR"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Migrants",
+     "#Securite"
+    ],
+    "liens": {
+     "France 24": "https://www.france24.com/fr/europe/20261031-andy-burnham-royaume-uni-pr%C3%AAt-pr%C3%A9senter-excuses-pour-son-r%C3%B4le-dans-esclavage-traite-transatlantique",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/au-royaume-uni-le-premier-ministre-andy-burnham-se-dit-ouvert-a-des-excuses-officielles-a-propos-de-l-esclavage_6803603_3210.html"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "20 Minutes",
+      "titre": "Etats-Unis : Washington veut expulser des migrants vers l’Afghanistan, malgré les risques de persécution",
+      "resume": "Plus de 150 Afghans, dont un homosexuel, pourraient être renvoyés en Afghanistan via le Pakistan, où ils risquent des représailles des talibans",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4259189-20261031-etats-unis-washington-veut-expulser-migrants-vers-afghanistan-malgre-risques-persecution?at_medium=display&at_campaign=149",
+      "date": "2026-10-31T14:21:13+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/Fzz2GUIuTwCi7CCcEY1JESk/1200x768_des-agents-de-securite-talibans-inspectent-les-lieux-de-ce-que-les-responsables-talibans-ont-qualifie-de-frappes-aeriennes-pakistanaises-dans-la-province-de-khost-en-afghanistan-le-jeudi-24-septembre-2026-ap-photo-saifullah-zahir-kh102-26267435390421-2609241419"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Pas une expulsion, mais une sentence » : les États-Unis s’apprêtent à renvoyer des réfugiés vers l’Afghanistan, malgré des risques de persécution",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/pas-une-expulsion-mais-une-sentence-les-etats-unis-sappretent-a-renvoyer-des-refugies-vers-lafghanistan-malgre-des-risques-de-persecution-31-10-2026-ZHP6TDNBKVELJNMGPH6EUEVRII.php",
+      "date": "2026-10-31T19:15:01.616668+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "Le Parisien"
+    ],
+    "sig": [
+     "afghan",
+     "appret",
+     "etats",
+     "expuls",
+     "malgre",
+     "persec",
+     "risque",
+     "unis"
+    ],
+    "score": 59.99939584333333,
+    "suite": null,
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Aurore Bergé réclame une primaire de la droite et du centre",
+    "texte": "En France, la ministre Aurore Bergé appelle à une primaire de la droite et du centre pour la présidentielle de 2027. Elle souhaite un accord sur ses modalités d'ici la fin de l'année.",
+    "texte_long": "En France, la ministre Aurore Bergé appelle à une primaire de la droite et du centre pour la présidentielle de 2027. Elle souhaite un accord sur ses modalités d'ici la fin de l'année.",
+    "flash": "En France, Aurore Bergé réclame une primaire de la droite et du centre avant la présidentielle de 2027.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Aurore Bergé",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Presidentielle",
+     "#Primaire"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259189-20261031-etats-unis-washington-veut-expulser-migrants-vers-afghanistan-malgre-risques-persecution?at_medium=display&at_campaign=149",
+     "Le Parisien": "https://www.leparisien.fr/international/etats-unis/pas-une-expulsion-mais-une-sentence-les-etats-unis-sappretent-a-renvoyer-des-refugies-vers-lafghanistan-malgre-des-risques-de-persecution-31-10-2026-ZHP6TDNBKVELJNMGPH6EUEVRII.php"
+    },
+    "date_affichee": "31 octobre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "France: cinq Britanniques interpellés dans le Nord pour des actions anti-migrants",
+      "resume": "Cinq Britanniques « de la mouvance d'ultradroite » ont été interpellés jeudi 29 octobre près de Dunkerque (Nord), alors qu'ils diffusaient en direct sur un réseau social des images destinées à illustrer des « actions d'intimidation » à l'encontre de migrants, a annoncé ce samedi 31 octobre la préfecture.",
+      "lien": "https://www.rfi.fr/fr/europe/20261031-france-cinq-britanniques-interpell%C3%A9s-dans-le-nord-pour-des-actions-anti-migrants",
+      "date": "2026-10-31T18:53:21+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/35fa2bee-d55b-11f1-8ed9-d18c5759e759/w:1024/p:16x9/000-C96Q8CR.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Près de Dunkerque, cinq Britanniques interpellés jeudi pour des actions anti-migrants",
+      "resume": "À l’issue de leurs gardes à vue, ces militants, qui étaient notamment en possession de quatre bombes lacrymogènes, devraient être placés en rétention dans la perspective de leur expulsion du territoire français.",
+      "lien": "https://www.lefigaro.fr/actualite-france/pres-de-dunkerque-cinq-britanniques-interpelles-jeudi-pour-des-actions-anti-migrants-20261031",
+      "date": "2026-10-31T18:48:32+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/10/31/258b9ceeaa96b2505e9a26a31f730d83cb61931303ddf5492a572bd1db591963.JPG"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Cinq Britanniques, proches \"de la mouvance d'ultradroite\", interpellés près de Dunkerque pour des actions anti-migrants",
+      "resume": "La préfecture du Nord annonce, ce samedi 31 octobre, que cinq Britanniques de \"la mouvance d'ultradroite\" ont été interpellés jeudi près de Dunkerque pour des actions anti-migrants. Ils devraient être placés en centre de rétention en vue de leur expulsion.",
+      "lien": "https://www.bfmtv.com/nord/cinq-britanniques-proches-de-la-mouvance-d-ultradroite-interpelles-pres-de-dunkerque-pour-des-actions-anti-migrants_AD-202610310337.html",
+      "date": "2026-10-31T18:20:27+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/kyV2xkEWvU8ejxbZX0fCNW3W-rA=/0x40:768x472/800x0/images/Des-migrants-au-large-de-Neufchatel-Hardelot-nord-de-la-France-tentent-de-traverser-la-Manche-le-13-aout-2025-2135320.jpg"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "Le Figaro France",
+     "RFI"
+    ],
+    "sig": [
+     "action",
+     "anti",
+     "britan",
+     "dunker",
+     "france",
+     "interp",
+     "migran",
+     "pres"
+    ],
+    "score": 54.63811343555555,
+    "suite": null,
+    "pays": "Royaume-Uni",
+    "requete": "London United Kingdom",
+    "prioritaire": true,
+    "titre": "Albanie : heurts entre manifestants et police à Tirana",
+    "texte": "En Albanie, la police a utilisé gaz lacrymogène et canons à eau samedi pour disperser des manifestants violents près des bureaux du Premier ministre Edi Rama. Les manifestants réclament sa démission depuis des mois.",
+    "texte_long": "En Albanie, la police a utilisé gaz lacrymogène et canons à eau samedi pour disperser des manifestants violents près des bureaux du Premier ministre Edi Rama. Les manifestants réclament sa démission depuis des mois.",
+    "flash": "En Albanie, la police disperse à coups de gaz lacrymogène des manifestants qui réclament la démission d'Edi Rama.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "ALB"
+    ],
+    "personne": "Edi Rama",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Albanie",
+     "#Manifestation"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/nord/cinq-britanniques-proches-de-la-mouvance-d-ultradroite-interpelles-pres-de-dunkerque-pour-des-actions-anti-migrants_AD-202610310337.html",
+     "Le Figaro France": "https://www.lefigaro.fr/actualite-france/pres-de-dunkerque-cinq-britanniques-interpelles-jeudi-pour-des-actions-anti-migrants-20261031",
+     "RFI": "https://www.rfi.fr/fr/europe/20261031-france-cinq-britanniques-interpell%C3%A9s-dans-le-nord-pour-des-actions-anti-migrants"
+    },
+    "date_affichee": "31 octobre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-10-31T19:15:23.716386+00:00",
+  "decision": null
  }
 ]
