@@ -1,342 +1,6 @@
 [
  {
   "sig": [
-   "000",
-   "allema",
-   "corteg",
-   "lauren",
-   "manife",
-   "mobili",
-   "nunez",
-   "octobr"
-  ],
-  "date": "2026-10-31T20:39:04.796746+00:00",
-  "titre": "Des milliers de jeunes manifestent dans une trentaine de villes allemandes"
- },
- {
-  "sig": [
-   "500",
-   "approu",
-   "guerre",
-   "kiev",
-   "missil",
-   "patrio",
-   "ukrain",
-   "vente"
-  ],
-  "date": "2026-10-31T20:39:04.796758+00:00",
-  "titre": "Habitants d'Olechky évacués : retrouvailles en Ukraine"
- },
- {
-  "sig": [
-   "clermo",
-   "corps",
-   "ferran",
-   "heurts",
-   "interp",
-   "manife",
-   "octobr",
-   "tensio"
-  ],
-  "date": "2026-10-31T20:39:04.796762+00:00",
-  "titre": "Midterms : votes anticipés record aux États-Unis"
- },
- {
-  "sig": [
-   "andy",
-   "burnha",
-   "compen",
-   "esclav",
-   "excuse",
-   "offici",
-   "royaum",
-   "uni"
-  ],
-  "date": "2026-10-31T20:39:04.796764+00:00",
-  "titre": "Cinq Britanniques interpellés près de Dunkerque"
- },
- {
-  "sig": [
-   "afghan",
-   "appret",
-   "etats",
-   "expuls",
-   "malgre",
-   "persec",
-   "risque",
-   "unis"
-  ],
-  "date": "2026-10-31T20:39:04.796766+00:00",
-  "titre": "Aurore Bergé réclame une primaire de la droite et du centre"
- },
- {
-  "sig": [
-   "action",
-   "anti",
-   "britan",
-   "dunker",
-   "france",
-   "interp",
-   "migran",
-   "pres"
-  ],
-  "date": "2026-10-31T20:39:04.796768+00:00",
-  "titre": "Albanie : heurts entre manifestants et police à Tirana"
- },
- {
-  "sig": [
-   "decouv",
-   "emmanu",
-   "gregoi",
-   "haine",
-   "justic",
-   "paris",
-   "remigr",
-   "tags"
-  ],
-  "date": "2026-10-31T21:27:33.400270+00:00",
-  "titre": "Paris saisit la justice après des tags « remigration »"
- },
- {
-  "sig": [
-   "attent",
-   "credib",
-   "etats",
-   "menace",
-   "moscou",
-   "ripost",
-   "russie",
-   "unis"
-  ],
-  "date": "2026-10-31T21:27:33.400281+00:00",
-  "titre": "L'Iran menace les États-Unis d'une riposte sans limite"
- },
- {
-  "sig": [
-   "allema",
-   "argent",
-   "doit",
-   "fin",
-   "jeunes",
-   "manife",
-   "trenta",
-   "villes"
-  ],
-  "date": "2026-10-31T21:27:33.400283+00:00",
-  "titre": "Des milliers de jeunes Allemands manifestent dans une trentaine de villes"
- },
- {
-  "sig": [
-   "consti",
-   "crise",
-   "declar",
-   "donald",
-   "politi",
-   "pologn",
-   "tribun",
-   "tusk"
-  ],
-  "date": "2026-10-31T21:27:33.400285+00:00",
-  "titre": "Pologne : Nawrocki et Tusk s'affrontent sur le Tribunal"
- },
- {
-  "sig": [
-   "catast",
-   "collis",
-   "decede",
-   "espagn",
-   "franca",
-   "orsay",
-   "quai",
-   "trains"
-  ],
-  "date": "2026-10-31T21:27:33.400287+00:00",
-  "titre": "Collision de trains en Espagne : au moins 69 morts"
- },
- {
-  "sig": [
-   "2026",
-   "affirm",
-   "defait",
-   "donald",
-   "electi",
-   "genera",
-   "midter",
-   "trump"
-  ],
-  "date": "2026-10-31T21:27:33.400289+00:00",
-  "titre": "Midterms : Trump admet qu'un président perd souvent ce scrutin"
- },
- {
-  "sig": [
-   "decouv",
-   "emmanu",
-   "gregoi",
-   "haine",
-   "justic",
-   "paris",
-   "remigr",
-   "tags"
-  ],
-  "date": "2026-10-31T21:33:10.699072+00:00",
-  "titre": "Paris saisit la justice après des tags « remigration »"
- },
- {
-  "sig": [
-   "attent",
-   "credib",
-   "etats",
-   "menace",
-   "moscou",
-   "ripost",
-   "russie",
-   "unis"
-  ],
-  "date": "2026-10-31T21:33:10.699081+00:00",
-  "titre": "L'Iran menace les États-Unis d'une riposte sans limite"
- },
- {
-  "sig": [
-   "allema",
-   "argent",
-   "doit",
-   "fin",
-   "jeunes",
-   "manife",
-   "trenta",
-   "villes"
-  ],
-  "date": "2026-10-31T21:33:10.699084+00:00",
-  "titre": "Des milliers de jeunes Allemands manifestent dans une trentaine de villes"
- },
- {
-  "sig": [
-   "consti",
-   "crise",
-   "declar",
-   "donald",
-   "politi",
-   "pologn",
-   "tribun",
-   "tusk"
-  ],
-  "date": "2026-10-31T21:33:10.699086+00:00",
-  "titre": "Pologne : Nawrocki et Tusk s'affrontent sur le Tribunal"
- },
- {
-  "sig": [
-   "catast",
-   "collis",
-   "decede",
-   "espagn",
-   "franca",
-   "orsay",
-   "quai",
-   "trains"
-  ],
-  "date": "2026-10-31T21:33:10.699088+00:00",
-  "titre": "Collision de trains en Espagne : au moins 69 morts"
- },
- {
-  "sig": [
-   "2026",
-   "affirm",
-   "defait",
-   "donald",
-   "electi",
-   "genera",
-   "midter",
-   "trump"
-  ],
-  "date": "2026-10-31T21:33:10.699090+00:00",
-  "titre": "Midterms : Trump admet qu'un président perd souvent ce scrutin"
- },
- {
-  "sig": [
-   "calme",
-   "double",
-   "manife",
-   "mobili",
-   "novemb",
-   "octobr",
-   "quitte",
-   "syndic"
-  ],
-  "date": "2026-11-01T07:51:23.163446+00:00",
-  "titre": "Acte III : 320 000 à 500 000 manifestants en France"
- },
- {
-  "sig": [
-   "baisse",
-   "carbur",
-   "cheres",
-   "gazole",
-   "lecler",
-   "novemb",
-   "prix",
-   "statio"
-  ],
-  "date": "2026-11-01T07:51:23.163456+00:00",
-  "titre": "E. Leclerc baisse le gazole de 21 centimes dimanche"
- },
- {
-  "sig": [
-   "accuse",
-   "binanc",
-   "casse",
-   "coree",
-   "crypto",
-   "fbi",
-   "nord",
-   "pirata"
-  ],
-  "date": "2026-11-01T07:51:23.163459+00:00",
-  "titre": "Le FBI accuse la Corée du Nord du vol chez Binance"
- },
- {
-  "sig": [
-   "donald",
-   "frappe",
-   "guerre",
-   "iran",
-   "menace",
-   "moyen",
-   "nouvel",
-   "trump"
-  ],
-  "date": "2026-11-01T07:51:23.163462+00:00",
-  "titre": "Trump menace l'Iran de frapper un ou deux sites"
- },
- {
-  "sig": [
-   "000",
-   "defile",
-   "dispos",
-   "interp",
-   "manife",
-   "marsei",
-   "octobr",
-   "prefec"
-  ],
-  "date": "2026-11-01T07:51:23.163464+00:00",
-  "titre": "Marseille : cinq interpellations après un cambriolage"
- },
- {
-  "sig": [
-   "entrep",
-   "frappe",
-   "guerre",
-   "import",
-   "moscou",
-   "raffin",
-   "russe",
-   "ukrain"
-  ],
-  "date": "2026-11-01T07:51:23.163466+00:00",
-  "titre": "Kiev frappe une raffinerie russe, Moscou dément"
- },
- {
-  "sig": [
    "779",
    "commer",
    "degrad",
@@ -346,7 +10,7 @@
    "mobili",
    "octobr"
   ],
-  "date": "2026-11-01T15:31:01.384707+00:00",
+  "date": "2026-11-01T16:15:34.824563+00:00",
   "titre": "Paris ouvre une enquête pour tentative d'homicide après une attaque contre des gendarmes"
  },
  {
@@ -360,7 +24,7 @@
    "organi",
    "social"
   ],
-  "date": "2026-11-01T15:31:01.384717+00:00",
+  "date": "2026-11-01T16:15:34.824575+00:00",
   "titre": "Les Lycéens ! appellent au blocus des lycées dès lundi"
  },
  {
@@ -374,7 +38,7 @@
    "nord",
    "vol"
   ],
-  "date": "2026-11-01T15:31:01.384720+00:00",
+  "date": "2026-11-01T16:15:34.824578+00:00",
   "titre": "Binance victime d'un vol record, le FBI accuse la Corée du Nord"
  },
  {
@@ -388,7 +52,7 @@
    "presid",
    "primai"
   ],
-  "date": "2026-11-01T15:31:01.384723+00:00",
+  "date": "2026-11-01T16:15:34.824581+00:00",
   "titre": "Copé exclut une primaire de la droite pour la présidentielle"
  },
  {
@@ -402,7 +66,7 @@
    "parait",
    "ultrad"
   ],
-  "date": "2026-11-01T15:31:01.384725+00:00",
+  "date": "2026-11-01T16:15:34.824584+00:00",
   "titre": "Cinq militants britanniques d'ultradroite interdits dans le Nord"
  },
  {
@@ -416,7 +80,7 @@
    "presid",
    "tribun"
   ],
-  "date": "2026-11-01T15:31:01.384727+00:00",
+  "date": "2026-11-01T16:15:34.824632+00:00",
   "titre": "Bruxelles soutient Donald Tusk face au président Nawrocki"
  }
 ]
