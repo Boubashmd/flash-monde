@@ -1026,5 +1026,844 @@
   "semaine": false,
   "cree": "2026-11-01T07:51:23.159911+00:00",
   "decision": null
+ },
+ {
+  "type": "edition",
+  "jeton": "fc06e4",
+  "messages": {
+   "0": 1027,
+   "1": 1028,
+   "2": 1029,
+   "3": 1030,
+   "4": 1031,
+   "5": 1032
+  },
+  "id_fin": 1033,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "France: une enquête pour «tentative d'homicide» et 779 interpellations après les mobilisations du 31 octobre",
+      "resume": "Une enquête a été ouverte pour « tentative d'homicide sur personnes dépositaires de l'autorité publique » après le jet de cocktail Molotov sur des gendarmes, à Paris, le samedi 31 octobre, en marge de manifestations contre la vie chère, a indiqué le parquet de Paris sollicité par l'AFP. Si aucun autre incident majeur n’a été signalé en seconde partie de soirée, les forces de l’ordre ont interpellé 779 personnes.",
+      "lien": "https://www.rfi.fr/fr/france/20261101-france-une-enqu%C3%AAte-pour-tentative-d-homicide-et-779-interpellations-apr%C3%A8s-les-mobilisations-du-31-octobre",
+      "date": "2026-11-01T12:33:21+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/8ad2b0f8-d5ee-11f1-b578-a575454bc579/w:1024/p:16x9/000-D4ZZ8FG.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Près de 10 000 manifestants, des affrontements, une tentative de cambriolage... Le bilan de la mobilisation du 31 octobre à Marseille",
+      "resume": "La journée de mobilisation lancée à l'appel d'anciens gilets jaunes, syndicats, lycéens et étudiants s'est globalement bien déroulée malgré \"la violence inouïe\" de certains casseurs, selon le ministre de l'Intérieur Laurent Nunez. A Marseille, 19 policiers ont été légèrement blessés.",
+      "lien": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/pres-de-10-000-manifestants-des-affrontements-une-tentative-de-cambriolage-le-bilan-de-la-mobilisation-du-31-octobre-a-marseille-3442287.html",
+      "date": "2026-11-01T12:56:12+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/ge9YJwtUKsw_hblsi6Oubbr3IAw/930x620/filters:format(webp)/regions/2026/11/01/6ae6fbc8b329b632726333.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Mobilisation du 31 octobre : affrontements, interpellations… Des incidents en marge de la manifestation à Chambéry",
+      "resume": "Quelques centaines de manifestants se sont rassemblés dans le centre-ville de Chambéry à l'occasion de la mobilisation du 31 octobre, malgré l'interdiction des rassemblements par la préfecture. Si la manifestation s'est déroulée dans une ambiance festive, des débordements ont eu lieu en fin de journée.",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/savoie/chambery/mobilisation-du-31-octobre-affrontements-interpellations-des-incidents-en-marge-de-la-manifestation-a-chambery-3442290.html",
+      "date": "2026-11-01T10:10:55+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/lg0ADcmFjltV00qxGT2XhXo8SJ8/930x620/filters:format(webp)/regions/2026/11/01/6ae7015411825964453822.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Manifestations du 31 octobre : revendications, manifestant blessé... ce qu'il faut retenir de la mobilisation à Dijon",
+      "resume": "La manifestation \"contre la vie chère\" du 31 octobre à Dijon (Côte-d'Or) s'est déroulée dans le calme, malgré les agissements d'\"individus hostiles\", selon l'expression de la préfecture.",
+      "lien": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/manifestations-du-31-octobre-revendications-manifestant-blesse-ce-qu-il-faut-retenir-de-la-mobilisation-a-dijon-3442314.html",
+      "date": "2026-11-01T09:48:01+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/RsT8TdWHzADhhWxpebPa-y2IjGY/930x620/filters:format(webp)/regions/2026/11/01/6ae70953c8200044011384.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Mobilisation du 31 octobre à Nice : 4 200 personnes ont manifesté sans heurt, des interpellations et des tirs de mortier en début de soirée",
+      "resume": "Plusieurs manifestations organisés dans les Alpes-Maritimes et le Var ce samed. Lycéens, Gilets jaunes et syndicats appelaient à manifester notamment contre la vie chère et Parcoursup. Des slogans antifascistes y ont été entendus. En tout, treize interpellations ont eu lieu à Nice, 8 également à Toulon. Revivez la journée grâce à nos informations, photos et vidéos.",
+      "lien": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/direct-mobilisation-du-31-octobre-a-nice-et-toulon-les-parcours-prevus-des-manifestations-3442020.html",
+      "date": "2026-11-01T09:22:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/7jVBqbv67LqwautYfjYbT0hJ36E/930x620/filters:format(webp)/regions/2026/10/31/6ae61516dec21806886793.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Mobilisation du 31 octobre: le constat des pillages et dégâts à Marseille au lendemain de la manifestation",
+      "resume": "10.000 personnes ont manifesté ce samedi à Marseille. Tout s'est déroulé dans le calme. Cas particulier de la cité phocéenne: la manifestation n'était pas autorisée, le parcours était improvisé. C'est à la nuit tombée que l'ambiance a changé : tentatives d'intrusion dans des lieux publics, tentative de cambriolage dans un magasin, affrontements avec les forces de l'ordre.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-mobilisation-du-31-octobre-le-constat-des-pillages-et-degats-a-marseille-au-lendemain-de-la-manifestation_VN-202611010274.html",
+      "date": "2026-11-01T13:25:17+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Oz16Uz17UnkrK-xp7ASOj1rqexQ=/0x0:1280x720/800x0/images/Mobilisation-du-31-octobre-le-constat-des-pillages-et-degats-a-Marseille-au-lendemain-de-la-manifestation-2375802.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestations du 31 octobre: 779 interpellations en France, \"sans incident majeur en seconde partie de soirée\"",
+      "resume": "Selon le ministère de l'Intérieur, 779 interpellations ont eu lieu en France sur la journée de mobilisation du samedi 31 octobre et la nuit qui a suivi.",
+      "lien": "https://www.bfmtv.com/police-justice/manifestations-du-31-octobre-779-interpellations-en-france-sans-incident-majeur-en-seconde-partie-de-soiree_AD-202611010262.html",
+      "date": "2026-11-01T12:36:08+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/RuYgV2Gxe8E1leot7xAA_mJU97M=/0x106:2048x1258/800x0/images/manifestation-24-octobre-Grenoble-2372485.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Manifestations de 31 octobre : 20 commerces dégradés samedi, un bilan bien moins lourd que les week-ends précédents",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/manifestations-de-31-octobre-20-commerces-degrades-samedi-un-bilan-bien-moins-lourd-que-les-week-ends-precedents-01-11-2026-DXERBDAINBFFBCQOLEWBU77RGU.php",
+      "date": "2026-11-01T15:30:20.644432+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« Une interpellation brutale » : à Nice, la CGT dénonce l’arrestation d’un militant « plaqué sur le capot d’un fourgon » après la manifestation ce samedi",
+      "resume": "Un militant de la CGT Spectacles a été interpellé à l’issue de la manifestation organisée samedi à Nice.",
+      "lien": "https://www.nicematin.com/societe/securite/une-interpellation-brutale-a-nice-la-cgt-denonce-l-arrestation-d-un-militant-plaque-sur-le-capot-d-un-fourgon-apres-la-manifestation-ce-samedi-10750986",
+      "date": "2026-11-01T11:57:54+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/09/86/OG-10750986-1200-800-7431ca4_ftp-1-njwzplmlrsjv-20261031nim7414.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Manifestations du 31 octobre : CCI France comptabilise 20 commerces dégradés samedi lors de la mobilisation et une baisse de 80 % du chiffre d’affaires",
+      "resume": "Le nombre de dégradations de commerces en marge des manifestations de samedi en France a été sensiblement moins élevé que lors des précédents week-ends, avec 20 établissements touchés selon CCI France.",
+      "lien": "https://www.nicematin.com/societe/manifestations-du-31-octobre-cci-france-comptabilise-20-commerces-degrades-samedi-lors-de-la-mobilisation-et-une-baisse-de-80-du-chiffre-d-affaires-10750920",
+      "date": "2026-11-01T10:28:21+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/09/20/OG-10750920-1200-800-6053d24_ftp-1-qz3m4thuxik3-rcaxxq45-fbt-apres-manif-commercants-nice.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestations du 31 octobre : 20 commerces dégradés ce samedi selon CCI France, il y en avait 2 488 il y a deux semaines",
+      "resume": "D'après CCI France, 20 commerces ont été dégradés lors des manifestations du samedi 31 octobre. Un bilan bien plus léger que les week-ends précédents.",
+      "lien": "https://www.ladepeche.fr/2026/11/01/manifestations-du-31-octobre-20-commerces-degrades-ce-samedi-selon-cci-france-il-y-en-avait-2-488-il-y-a-deux-semaines-13630867.php",
+      "date": "2026-11-01T15:16:31+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae75783a03e7b15830b86dc/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DÉCRYPTAGE. Manifestations du 31 octobre : recul de la mobilisation, moins de débordements... le gouvernement peut-il pour autant crier victoire ?",
+      "resume": "Les manifestations d'hier se sont déroulées dans le calme et les débordements qui les ont suivies ont été contenus. Avec 320 000 manifestants, selon le ministère de l'Intérieur, le gouvernement peut espérer un reflux...",
+      "lien": "https://www.ladepeche.fr/2026/11/01/decryptage-manifestations-du-31-octobre-recul-de-la-mobilisation-moins-de-debordements-le-gouvernement-peut-il-pour-autant-crier-victoire-13630083.php",
+      "date": "2026-11-01T08:05:37+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae6476e6f1ae98b710e1ccc/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DÉCRYPTAGE. Manifestations du 31 octobre à Toulouse : qui sont ces policiers à moto, ressemblant à la Brav-M, qui interpellent les casseurs les plus virulents ?",
+      "resume": "L'un pilote la moto banalisée. L'autre en gicle pour interpeller les fauteurs de trouble. Inspiré de la Brav-M (Brigade de répression des actions violentes motorisée), un dispositif expérimental a été testé lors des...",
+      "lien": "https://www.ladepeche.fr/2026/11/01/decryptage-manifestations-du-31-octobre-a-toulouse-qui-sont-ces-policiers-a-moto-ressemblant-a-la-brav-m-qui-interpellent-les-casseurs-les-plus-13630520.php",
+      "date": "2026-11-01T09:24:01+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae6ccd6145a4a9a4c08b11a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestation du 31 octobre à Toulouse : des déguisements, des heurts et 45 interpellations lors du rassemblement non autorisé",
+      "resume": "Une manifestation non autorisée, considérée comme une \"Acte III\", a rassemblé plus de 2 000 personnes ce samedi à Toulouse selon la préfecture. Les manifestants, pour certains déguisés à l'occasion de Halloween, ont...",
+      "lien": "https://www.ladepeche.fr/2026/11/01/manifestation-du-31-octobre-a-toulouse-des-deguisements-des-heurts-et-45-interpellations-lors-du-rassemblement-non-autorise-13630060.php",
+      "date": "2026-11-01T08:10:52+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae65366040eadc8f9033a1f/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Manifestation du 31 octobre : à Nîmes les commerces sont restés ouverts, le dispositif sécurité a fonctionné",
+      "resume": "Cortège bonne ambiance, service d’ordre des syndicats, organisation des forces de police renforcées par la gendarmerie… le plan sécurité a été efficace.",
+      "lien": "https://www.midilibre.fr/2026/11/01/manifestation-du-31-octobre-a-nimes-les-commerces-sont-restes-ouverts-le-dispositif-securite-a-fonctionne-13630065.php",
+      "date": "2026-11-01T08:47:33+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae644168088588b4c09b0ce/standard/image.png?v=1"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "France 3 Régions",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "RFI"
+    ],
+    "sig": [
+     "779",
+     "commer",
+     "degrad",
+     "france",
+     "interp",
+     "manife",
+     "mobili",
+     "octobr"
+    ],
+    "score": 107.9946501911111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Paris ouvre une enquête pour tentative d'homicide après une attaque contre des gendarmes",
+    "texte": "À Paris, une enquête pour tentative d'homicide a été ouverte après le jet d'un cocktail Molotov sur des gendarmes, samedi 31 octobre, en marge de manifestations contre la vie chère. Au total, 779 interpellations ont été recensées en France.",
+    "texte_long": "À Paris, une enquête pour tentative d'homicide a été ouverte après le jet d'un cocktail Molotov sur des gendarmes, samedi 31 octobre, en marge de manifestations contre la vie chère. Au total, 779 interpellations ont été recensées en France.",
+    "flash": "À Paris, une enquête pour tentative d'homicide vise un jet de cocktail Molotov sur des gendarmes, en marge des manifestations du 31 octobre, avec 779 interpellations.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "779",
+     "legende": "interpellations en France"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "779",
+     "legende": "interpellations en France"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Manifestation",
+     "#VieChere"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-mobilisation-du-31-octobre-le-constat-des-pillages-et-degats-a-marseille-au-lendemain-de-la-manifestation_VN-202611010274.html",
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/pres-de-10-000-manifestants-des-affrontements-une-tentative-de-cambriolage-le-bilan-de-la-mobilisation-du-31-octobre-a-marseille-3442287.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/01/manifestations-du-31-octobre-20-commerces-degrades-ce-samedi-selon-cci-france-il-y-en-avait-2-488-il-y-a-deux-semaines-13630867.php",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/manifestations-de-31-octobre-20-commerces-degrades-samedi-un-bilan-bien-moins-lourd-que-les-week-ends-precedents-01-11-2026-DXERBDAINBFFBCQOLEWBU77RGU.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/01/manifestation-du-31-octobre-a-nimes-les-commerces-sont-restes-ouverts-le-dispositif-securite-a-fonctionne-13630065.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/securite/une-interpellation-brutale-a-nice-la-cgt-denonce-l-arrestation-d-un-militant-plaque-sur-le-capot-d-un-fourgon-apres-la-manifestation-ce-samedi-10750986",
+     "RFI": "https://www.rfi.fr/fr/france/20261101-france-une-enqu%C3%AAte-pour-tentative-d-homicide-et-779-interpellations-apr%C3%A8s-les-mobilisations-du-31-octobre"
+    },
+    "date_affichee": "1er novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "\"Les lycées seront bloqués\" : le mouvement Les Lycéens ! appelle à la mobilisation dès lundi",
+      "resume": "Le président du mouvement Les Lycéens !, Pierre Sourzat, a appelé dimanche à la reprise des blocus des lycées dès la rentrée des vacances scolaires, jugeant insuffisantes les mesures annoncées par le gouvernement. Il a notamment regretté que ce dernier ne s'attaque pas à plusieurs problèmes de fonds comme le manque de places dans l'enseignement supérieur ou la réduction des effectifs dans toutes les classes.",
+      "lien": "https://www.france24.com/fr/france/20261101-lyc%C3%A9es-seront-bloqu%C3%A9s-pour-rentr%C3%A9e-mouvement-lyc%C3%A9ens-appelle-mobilisation",
+      "date": "2026-11-01T14:39:46+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/4a6963f2-d5ff-11f1-a635-d18c5759e759/w:1024/p:16x9/000-D3KE3G7.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Blocus des lycées : L’organisation Les Lycéens ! appelle à de nouvelles mobilisations « dès lundi »",
+      "resume": "À la tête de l’organisation Les lycéens !, Pierre Sourzat a appelé dimanche matin sur RMC à un blocus des établissements dès lundi",
+      "lien": "https://www.20minutes.fr/societe/4259300-20261101-blocus-lycees-organisation-lyceens-appelle-nouvelles-mobilisations-lundi?at_medium=display&at_campaign=149",
+      "date": "2026-11-01T10:07:59+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/UVbtztl3Tji3kDhy-c8qgSk/1200x768_placards-bearing-slogans-outside-the-saint-sernin-high-school-in-downtown-toulouse-on-october-13-2026-during-a-student-blockade-protesting-conditions-in-certain-french-high-schools-specifically-issues-regarding-resources-and-organization-pancartes-avec-des-slogans-devant-le-lycee-saint-sernin-le-13-octobre-2026-dans-le-centre-ville-de-toulouse-lors-du-blocage-du-lycee-par-les-eleves-qui-manifestent-contre-les-conditions-dans-certains-lycees-francais-notamment-des-problemes-de-moyens-et-d-organisation-dans-les-lycees-scheiber-blocage-lycee-saint-sernin-10-credit-fred-scheiber-sipa-2610141452"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Colère sociale: nouvelle semaine de mobilisation à venir, entre lycées bloqués et appel à la grève",
+      "resume": "Après la mobilisation du 31 octobre, la semaine sociale s’annonce chargée. Dès mardi, avec de nouveaux blocus dans les lycées et universités mais aussi avec le 5 novembre ou un appel à la grève générale a été lancé.",
+      "lien": "https://www.bfmtv.com/societe/video-colere-sociale-nouvelle-semaine-de-mobilisation-a-venir-entre-lycees-bloques-et-appel-a-la-greve_VN-202611010269.html",
+      "date": "2026-11-01T13:03:26+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/jIMFLqQH7Bj767sK2cs4-5G7KSM=/0x0:1280x720/800x0/images/Colere-sociale-nouvelle-semaine-de-mobilisation-a-venir-entre-lycees-bloques-et-appel-a-la-greve-2375798.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Blocus des lycées dès lundi, grève le 5 novembre, six-seven… à quelles mobilisations s’attendre cette semaine ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/societe/blocus-des-lycees-des-lundi-greve-le-5-novembre-six-seven-a-quelles-mobilisations-sattendre-cette-semaine-01-11-2026-HXXOLR22EZFG5KUVMDKB36XDHI.php",
+      "date": "2026-11-01T15:30:20.644503+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Colère sociale : grève le 5 novembre, acte IV… À quoi faut-il s’attendre cette semaine ?",
+      "resume": "La contestation sociale ne désemplit pas et plusieurs rendez-vous sont annoncés pour la semaine du 2 au 8 novembre 2026. Jeudi 5 notamment, de nombreux syndicats du public comme du privé appellent à la grève générale pour protester contre la vie chère.",
+      "lien": "https://www.ouest-france.fr/societe/manifestation/colere-sociale-greve-le-5-novembre-acte-iv-a-quoi-faut-il-sattendre-cette-semaine-e445ef7e-d5f3-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-11-01T14:24:25+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjExNGQ4ZDkzMTBhNjFjYmI3MzAyMTNjMDc2MzkxMGMwYjI?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=f2f4d6f7c00f872ea3076827a59d3e51fde701a8aaae1539c3decc83e1edd9c4"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« C’est un sacrifice » : l’organisation Les Lycéens ! appelle au blocus des lycées « dès lundi » estimant qu’Emmanuel Macron ne les « a pas entendus […] »",
+      "resume": "Pierre Sourzat, à la tête des Lycéens !, a appelé dimanche au blocus des lycées « dès lundi », dénonçant la « politique de comptoir » du gouvernement qui a dévoilé en début de semaine plusieurs mesures pour tenter d’éteindre la colère des jeunes.",
+      "lien": "https://www.nicematin.com/societe/blocage-des-lycees/c-est-un-sacrifice-l-organisation-les-lyceens-appelle-au-blocus-des-lycees-des-lundi-estimant-qu-emmanuel-macron-ne-les-a-pas-entendus-10750892",
+      "date": "2026-11-01T09:16:17+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/08/92/OG-10750892-1200-800-0791103_ftp-1-pwql9bpsp6eu-20260929nim1581.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Mobilisation des lycéens : \"Un sacrifice pour les générations futures\"… ils ne se sentent pas entendus, les jeunes vont reprendre dès lundi les blocus",
+      "resume": "Les organisations lycéennes sont unanimes : les blocus doivent et vont reprendre le temps qu’il faudra, jusqu’à ce que toutes leurs revendications soient entendues. Ce dimanche 1er novembre, le responsable des Lycéens...",
+      "lien": "https://www.midilibre.fr/2026/11/01/mobilisation-des-lyceens-un-sacrifice-pour-les-generations-futures-ils-ne-se-sentent-pas-entendus-les-jeunes-vont-reprendre-des-lundi-les-blocus-13630685.php",
+      "date": "2026-11-01T11:18:30+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae71d3f12ef61b07b09e27c/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Social. Colère lycéenne : l'organisation Les Lycéens ! appelle au blocus « dès lundi »",
+      "resume": "Après 15 jours de vacances, « bien sûr qu'on appelle au blocus » et « les lycées seront bloqués, et ce dès lundi », a affirmé Pierre Sourzat, à la tête des Lycéens!, ce dimanche sur RMC.",
+      "lien": "https://www.leprogres.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
+      "date": "2026-11-01T09:22:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "DNA",
+      "titre": "Social. Colère lycéenne : l'organisation Les Lycéens! appelle au blocus « dès lundi »",
+      "resume": "Après 15 jours de vacances, « bien sûr qu'on appelle au blocus » et « les lycées seront bloqués, et ce dès lundi », a affirmé Pierre Sourzat, à la tête des Lycéens!, ce dimanche sur RMC.",
+      "lien": "https://www.dna.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
+      "date": "2026-11-01T09:22:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "DNA",
+     "France 24",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "Ouest-France"
+    ],
+    "sig": [
+     "appell",
+     "blocus",
+     "colere",
+     "lyceen",
+     "lycees",
+     "mobili",
+     "organi",
+     "social"
+    ],
+    "score": 102.99465021083333,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Les Lycéens ! appellent au blocus des lycées dès lundi",
+    "texte": "Le président du mouvement Les Lycéens !, Pierre Sourzat, a appelé à bloquer les lycées dès lundi. Il juge insuffisantes les mesures annoncées par le gouvernement. Une grève générale est également prévue jeudi 5 novembre.",
+    "texte_long": "Le président du mouvement Les Lycéens !, Pierre Sourzat, a appelé à bloquer les lycées dès lundi. Il juge insuffisantes les mesures annoncées par le gouvernement. Une grève générale est également prévue jeudi 5 novembre.",
+    "flash": "Le mouvement Les Lycéens ! appelle à bloquer les lycées dès lundi, jugeant insuffisantes les mesures annoncées par le gouvernement.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Pierre Sourzat",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Lyceens",
+     "#Greve"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/societe/4259300-20261101-blocus-lycees-organisation-lyceens-appelle-nouvelles-mobilisations-lundi?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/societe/video-colere-sociale-nouvelle-semaine-de-mobilisation-a-venir-entre-lycees-bloques-et-appel-a-la-greve_VN-202611010269.html",
+     "DNA": "https://www.dna.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
+     "France 24": "https://www.france24.com/fr/france/20261101-lyc%C3%A9es-seront-bloqu%C3%A9s-pour-rentr%C3%A9e-mouvement-lyc%C3%A9ens-appelle-mobilisation",
+     "Le Parisien": "https://www.leparisien.fr/societe/blocus-des-lycees-des-lundi-greve-le-5-novembre-six-seven-a-quelles-mobilisations-sattendre-cette-semaine-01-11-2026-HXXOLR22EZFG5KUVMDKB36XDHI.php",
+     "Le Progrès": "https://www.leprogres.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/01/mobilisation-des-lyceens-un-sacrifice-pour-les-generations-futures-ils-ne-se-sentent-pas-entendus-les-jeunes-vont-reprendre-des-lundi-les-blocus-13630685.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/blocage-des-lycees/c-est-un-sacrifice-l-organisation-les-lyceens-appelle-au-blocus-des-lycees-des-lundi-estimant-qu-emmanuel-macron-ne-les-a-pas-entendus-10750892",
+     "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/colere-sociale-greve-le-5-novembre-acte-iv-a-quoi-faut-il-sattendre-cette-semaine-e445ef7e-d5f3-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu"
+    },
+    "date_affichee": "1er novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "RFI",
+      "titre": "Cryptomonnaies: qui sont les hackers nord-coréens soupçonnés d'avoir piraté Binance?",
+      "resume": "C’est le plus gros braquage de cryptomonnaies de l’histoire : 6 milliards de dollars dérobés à Binance, la plus grande plateforme d'échange de crypto-monnaies au monde, le 29 octobre. La Corée du Nord et ses équipes de hackers, qui ont dérobé des milliards de dollars ces dernières années, sont pointés du doigt par le FBI.",
+      "lien": "https://www.rfi.fr/fr/asie-pacifique/20261101-cryptomonnaies-qui-sont-les-hackers-nord-cor%C3%A9ens-soup%C3%A7onn%C3%A9s-d-avoir-pirat%C3%A9-binance",
+      "date": "2026-11-01T13:38:36+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/4c79f68c-a0de-11ef-8e78-005056bfb2b6/w:1024/p:16x9/Hacker-photo-illustration.JPG"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Piratage de la plateforme de cryptomonnaies Binance : la plateforme annonce rouvrir les retraits, le FBI accuse la Corée du Nord du « casse du siècle »",
+      "resume": "La plateforme mondiale a annoncé, dimanche, avoir ouvert « la première série de retraits » à ses utilisateurs, procédant « par étapes » après le plus grand vol de cryptomonnaies jamais enregistré, pour lequel la police fédérale américaine accuse des pirates informatiques nord-coréens.",
+      "lien": "https://www.lemonde.fr/pixels/article/2026/11/01/piratage-de-la-plateforme-de-cryptomonnaies-binance-la-plateforme-annonce-rouvrir-les-retraits-le-fbi-accuse-la-coree-du-nord-du-casse-du-siecle_6803867_4408997.html",
+      "date": "2026-11-01T10:04:17+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/30/342/0/4000/2000/644/322/60/0/2be4f59_ftp-1-pajpzgomupyl-2026-10-30t080034z-1706611026-rc2jdoa5uy82-rtrmadp-3-fintech-crypto-binance-hack.JPG"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« WannaCry », Bybit… avant la cyberattaque de Binance, la Corée du Nord déjà accusée du vol de milliards de dollars en cryptomonnaies",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/wannacry-bybit-avant-la-cyberattaque-de-binance-la-coree-du-nord-deja-accusee-du-vol-de-milliards-de-dollars-en-cryptomonnaies-01-11-2026-GSCUWCD3FZBPPCQGSVY4ZDGQ5E.php",
+      "date": "2026-11-01T15:30:20.644196+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Casse du siècle » chez Binance : le FBI accuse la Corée du Nord du vol record de 6,3 milliards de dollars",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/casse-du-siecle-chez-binance-le-fbi-accuse-la-coree-du-nord-du-vol-record-de-63-milliards-de-dollars-01-11-2026-I3BN6NBSKJBENHBB2TMW62VAKY.php",
+      "date": "2026-11-01T15:30:20.645404+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Corée du Nord : ce qu’il faut savoir sur TraderTraitor, le groupe de pirates informatiques derrière le vol de milliards de dollars en cryptomonnaies",
+      "resume": "Accusé par le FBI du vol historique de 6,3 milliards de dollars à la plateforme Binance, le groupe de cybercriminels nord-coréens TraderTraitor est devenu l’un des piliers financiers du régime de Pyongyang",
+      "lien": "https://www.sudouest.fr/international/asie/coree-du-nord/coree-du-nord-ce-qu-il-faut-savoir-sur-tradertraitor-le-groupe-de-pirates-informatiques-derriere-le-vol-de-milliards-de-dollars-en-cryptomonnaies-31331649.php",
+      "date": "2026-11-01T15:25:31+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31331649/1200x-1/20261030084305-33321912.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Cryptomonnaies : le FBI accuse la Corée du Nord du vol historique de 6,3 milliards de dollars chez Binance",
+      "resume": "La police fédérale américaine attribue le piratage record de la plateforme Binance à un groupe de hackers lié aux services de renseignement nord-coréens",
+      "lien": "https://www.sudouest.fr/economie/cryptomonnaies-le-fbi-accuse-la-coree-du-nord-du-vol-historique-de-6-3-milliards-de-dollars-chez-binance-31331407.php",
+      "date": "2026-11-01T10:30:17+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31331407/1200x-1/20261030084305-33321812.jpg"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Binance victime d’un braquage à 6,3 milliards de dollars : les retraits reprennent après un vol sans précédent commis par des pirates nord-coréens",
+      "resume": "Binance, la principale plateforme d’échanges de cryptomonnaies, a repris dimanche 1er novembre les retraits après un piratage de 6,3 milliards de dollars attribué par le FBI à des hackers nord-coréens. Binance assure...",
+      "lien": "https://www.midilibre.fr/2026/11/01/binance-victime-dun-braquage-a-63-milliards-de-dollars-les-retraits-reprennent-apres-un-vol-sans-precedent-commis-par-des-pirates-nord-coreens-13630872.php",
+      "date": "2026-11-01T14:31:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6ae74a0d9205a3a812013170/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "Le Monde",
+     "Le Parisien",
+     "Midi Libre",
+     "RFI",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "accuse",
+     "binanc",
+     "coree",
+     "crypto",
+     "dollar",
+     "millia",
+     "nord",
+     "vol"
+    ],
+    "score": 82.99465046111112,
+    "suite": null,
+    "pays": "Corée du Nord",
+    "requete": "Korea mountains",
+    "prioritaire": true,
+    "titre": "Binance victime d'un vol record, le FBI accuse la Corée du Nord",
+    "texte": "La plateforme de cryptomonnaies Binance a subi le plus gros vol de son histoire, le 29 octobre. Le FBI accuse des pirates nord-coréens d'être à l'origine de ce vol, évalué à 6,3 milliards de dollars. Binance a commencé à rouvrir les retraits.",
+    "texte_long": "La plateforme de cryptomonnaies Binance a subi le plus gros vol de son histoire, le 29 octobre. Le FBI accuse des pirates nord-coréens d'être à l'origine de ce vol, évalué à 6,3 milliards de dollars. Binance a commencé à rouvrir les retraits.",
+    "flash": "Le FBI accuse la Corée du Nord d'avoir dérobé 6,3 milliards de dollars à la plateforme de cryptomonnaies Binance.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "6,3",
+     "legende": "milliards de dollars dérobés"
+    },
+    "iso": [
+     "PRK",
+     "USA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": {
+     "nombre": "6,3",
+     "legende": "milliards de dollars dérobés"
+    },
+    "lien": {
+     "de": "PRK",
+     "vers": "USA",
+     "type": "action"
+    },
+    "hashtags": [
+     "#Cybercriminalite",
+     "#Cryptomonnaies"
+    ],
+    "liens": {
+     "Le Monde": "https://www.lemonde.fr/pixels/article/2026/11/01/piratage-de-la-plateforme-de-cryptomonnaies-binance-la-plateforme-annonce-rouvrir-les-retraits-le-fbi-accuse-la-coree-du-nord-du-casse-du-siecle_6803867_4408997.html",
+     "Le Parisien": "https://www.leparisien.fr/international/wannacry-bybit-avant-la-cyberattaque-de-binance-la-coree-du-nord-deja-accusee-du-vol-de-milliards-de-dollars-en-cryptomonnaies-01-11-2026-GSCUWCD3FZBPPCQGSVY4ZDGQ5E.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/01/binance-victime-dun-braquage-a-63-milliards-de-dollars-les-retraits-reprennent-apres-un-vol-sans-precedent-commis-par-des-pirates-nord-coreens-13630872.php",
+     "RFI": "https://www.rfi.fr/fr/asie-pacifique/20261101-cryptomonnaies-qui-sont-les-hackers-nord-cor%C3%A9ens-soup%C3%A7onn%C3%A9s-d-avoir-pirat%C3%A9-binance",
+     "Sud Ouest": "https://www.sudouest.fr/international/asie/coree-du-nord/coree-du-nord-ce-qu-il-faut-savoir-sur-tradertraitor-le-groupe-de-pirates-informatiques-derriere-le-vol-de-milliards-de-dollars-en-cryptomonnaies-31331649.php"
+    },
+    "date_affichee": "1er novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "Albert Zennou : « Présidentielle 2027, le moment David Lisnard, le doute Bruno Retailleau »",
+      "resume": "CHRONIQUE - À six mois de la présidentielle, le maire de Cannes conteste au Vendéen son statut de candidat naturel de la droite. Porté par une dynamique nouvelle dans les sondages, il séduit au-delà de l’électorat traditionnel de LR. Entre libéralisme et conservatisme, deux incarnations de la droite s’affrontent désormais.",
+      "lien": "https://www.lefigaro.fr/vox/politique/albert-zennou-presidentielle-2027-le-moment-david-lisnard-le-doute-bruno-retailleau-20261030",
+      "date": "2026-11-01T11:14:56+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1910x1075_crop/2026/10/30/8489f4471b1d71b00fa6335975871b2132f38dd42610bd20334a35817d8961b1.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Présidentielle 2027 : Fesneau veut une primaire « des sociaux-démocrates à la droite républicaine », mais sans Lisnard",
+      "resume": "Dans une interview publiée dans La Tribune Dimanche, le patron des députés MoDem plaide pour une primaire allant des « sociaux-démocrates à la droite républicaine » tout en excluant le maire de Cannes",
+      "lien": "https://www.20minutes.fr/politique/4259296-20261101-presidentielle-2027-fesneau-veut-primaire-sociaux-democrates-droite-republicaine-lisnard?at_medium=display&at_campaign=149",
+      "date": "2026-11-01T09:40:52+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/xHDxhKrvSBGtqiwn4m1rtik/1200x768_le-president-du-groupe-parlementaire-les-democrates-marc-fesneau-prend-la-parole-lors-d-une-seance-de-vote-sur-une-motion-de-censure-deposee-par-le-parti-ecologiste-francais-les-ecologistes-a-l-assemblee-nationale-a-paris-le-6-juillet-2026-stephane-lemouton-sipa-lemouton-stephane-260706a028-credit-stephane-lemouton-sipa-2607062009"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Présidentielle: \"Il n'y aura pas de primaire\" de la droite et du centre, selon Jean-François Copé",
+      "resume": "Jean François Copé, maire LR de Meaux, auteur de « Quand les populistes trahissent le peuple » (Ed. Plon), était l'invité de BFM Politique ce dimanche 1er novembre. Il est notamment revenu sur une potentielle primaire de la droite et du centre en vue de l'élection présidentielle.",
+      "lien": "https://www.bfmtv.com/politique/video-presidentielle-il-n-y-aura-pas-de-primaire-de-la-droite-et-du-centre-selon-jean-francois-cope_VN-202611010295.html",
+      "date": "2026-11-01T14:41:23+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/9IhB9Ka8p06rku6KBTj9UyXLKOk=/0x0:1280x720/800x0/images/Presidentielle-Il-n-y-aura-pas-de-primaire-de-la-droite-et-du-centre-selon-Jean-Francois-Cope-2375819.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Positionnement vis-à-vis du RN: \"David Lisnard n'est pas très clair là-dessus\", accuse Jean-François Copé, maire LR de Meaux",
+      "resume": "Jean-François Copé, maire LR de Meaux et auteur de « Quand les populistes trahissent le peuple » (Ed. Plon), est l'invité de BFM Politique.",
+      "lien": "https://www.bfmtv.com/politique/elections/presidentielle/video-positionnement-vis-a-vis-du-rn-david-lisnard-n-est-pas-tres-clair-la-dessus-accuse-jean-francois-cope-maire-lr-de-meaux_VN-202611010264.html",
+      "date": "2026-11-01T12:44:39+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Fb3vyHoTGdWO4_--61kzt8pZEcY=/0x0:1280x720/800x0/images/Positionnement-vis-a-vis-du-RN-David-Lisnard-n-est-pas-tres-clair-la-dessus-accuse-Jean-Francois-Cope-maire-LR-de-Meaux-2375793.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Primaire de la droite et du centre: \"Personne n'est d'accord\", affirme Jean-François Copé (LR)",
+      "resume": "Jean-François Copé, maire LR de Meaux et auteur de « Quand les populistes trahissent le peuple » (Ed. Plon), est l'invité de BFM Politique.",
+      "lien": "https://www.bfmtv.com/politique/elections/presidentielle/video-primaire-de-la-droite-et-du-centre-personne-n-est-d-accord-affirme-jean-francois-cope-lr_VN-202611010261.html",
+      "date": "2026-11-01T12:21:51+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ypJAgD4Ll-uHNJBpfjfa2b1hQ-Y=/0x0:1280x720/800x0/images/Primaire-de-la-droite-et-du-centre-Personne-n-est-d-accord-affirme-Jean-Francois-Cope-LR-2375792.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Présidentielle: \"David Lisnard est le candidat de l'automne\", pointe Jean-François Copé, maire LR de Meaux",
+      "resume": "Jean-François Copé, maire LR de Meaux et auteur de « Quand les populistes trahissent le peuple » (Ed. Plon), est l'invité de BFM Politique.",
+      "lien": "https://www.bfmtv.com/politique/elections/presidentielle/video-presidentielle-david-lisnard-est-le-candidat-de-l-automne-pointe-jean-francois-cope-maire-lr-de-meaux_VN-202611010254.html",
+      "date": "2026-11-01T12:13:26+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/XZmQtck2NpWov0l0eUwTjtzxTw0=/0x0:1280x720/800x0/images/Presidentielle-David-Lisnard-est-le-candidat-de-l-automne-pointe-Jean-Francois-Cope-maire-LR-de-Meaux-2375784.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Jean-François Copé accuse David Lisnard de ne pas être « très clair » sur sa ligne vis-à-vis du RN",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/presidentielle-2027-jean-francois-cope-accuse-david-lisnard-de-ne-pas-etre-tres-clair-sur-sa-ligne-vis-a-vis-du-rn-01-11-2026-F3KPHEL6ZBGENJMH72VAQEZAEA.php",
+      "date": "2026-11-01T15:30:20.643492+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Natacha Polony dit avoir reçu le soutien de l’ex-ministre Jean-Pierre Chevènement, et 174 parrainages de maires",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-natacha-polony-dit-avoir-recu-le-soutien-de-lex-ministre-jean-pierre-chevenement-et-174-parrainages-de-maires-01-11-2026-VOYQJ65WTVDRZCG3DVNXU4B2PM.php",
+      "date": "2026-11-01T15:30:20.644025+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Présidentielle 2027 : Édouard Philippe attendu ce dimanche au 20 heures de TF1 face à l’hypothèse d’une primaire à droite et au centre",
+      "resume": "Le débat sur une candidature unique du bloc central est relancé après la proposition de Gabriel Attal, alors que les sondages bousculent les positions des favoris",
+      "lien": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-attendu-ce-dimanche-au-20-heures-de-tf1-face-a-l-hypothese-d-une-primaire-a-droite-et-au-centre-31333239.php",
+      "date": "2026-11-01T12:59:09+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31333239/1200x-1/20261029213107-3356812.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DIRECT. Présidentielle 2027 : Edouard Philippe veut-il une primaire de la droite et du centre ? Il donnera sa réponse au 20h de TF1",
+      "resume": "Retrouvez l'actualité politique, toute la journée en direct, ce dimanche 1er novembre 2026 sur ladepeche.fr",
+      "lien": "https://www.ladepeche.fr/2026/11/01/direct-presidentielle-2027-si-la-jeunesse-vote-massivement-nous-gagnerons-assure-la-deputee-lfi-mathilde-panot-13629604.php",
+      "date": "2026-11-01T14:07:28+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae7265163a594715e0ba72c/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "La Dépêche",
+     "Le Figaro France",
+     "Le Parisien",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "2027",
+     "cope",
+     "droite",
+     "franco",
+     "jean",
+     "lisnar",
+     "presid",
+     "primai"
+    ],
+    "score": 82.99465007805556,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Copé exclut une primaire de la droite pour la présidentielle",
+    "texte": "Sur BFM, Jean-François Copé a affirmé qu'il n'y aurait pas de primaire de la droite et du centre pour la présidentielle. Il a aussi critiqué la position de David Lisnard vis-à-vis du RN.",
+    "texte_long": "Sur BFM, Jean-François Copé a affirmé qu'il n'y aurait pas de primaire de la droite et du centre pour la présidentielle. Il a aussi critiqué la position de David Lisnard vis-à-vis du RN.",
+    "flash": "Jean-François Copé affirme qu'il n'y aura pas de primaire de la droite et du centre pour la présidentielle de 2027.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Jean-François Copé",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Presidentielle",
+     "#Droite"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/politique/4259296-20261101-presidentielle-2027-fesneau-veut-primaire-sociaux-democrates-droite-republicaine-lisnard?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/politique/video-presidentielle-il-n-y-aura-pas-de-primaire-de-la-droite-et-du-centre-selon-jean-francois-cope_VN-202611010295.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/01/direct-presidentielle-2027-si-la-jeunesse-vote-massivement-nous-gagnerons-assure-la-deputee-lfi-mathilde-panot-13629604.php",
+     "Le Figaro France": "https://www.lefigaro.fr/vox/politique/albert-zennou-presidentielle-2027-le-moment-david-lisnard-le-doute-bruno-retailleau-20261030",
+     "Le Parisien": "https://www.leparisien.fr/politique/presidentielle-2027-jean-francois-cope-accuse-david-lisnard-de-ne-pas-etre-tres-clair-sur-sa-ligne-vis-a-vis-du-rn-01-11-2026-F3KPHEL6ZBGENJMH72VAQEZAEA.php",
+     "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-attendu-ce-dimanche-au-20-heures-de-tf1-face-a-l-hypothese-d-une-primaire-a-droite-et-au-centre-31333239.php"
+    },
+    "date_affichee": "1er novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Monde",
+      "titre": "Cinq Britanniques interdits de paraître dans le Nord et le Pas-de-Calais après des « actions d’intimidation » contre des migrants",
+      "resume": "Lors de leur interpellation, les cinq hommes étaient en possession de bombes lacrymogènes et au poivre, d’un bâton et d’une matraque notamment, des armes de catégorie D dont le transport est illégal.",
+      "lien": "https://www.lemonde.fr/societe/article/2026/11/01/cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-apres-des-actions-d-intimidation-contre-des-migrants_6804511_3224.html",
+      "date": "2026-11-01T15:24:25+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/06/16/231/0/3000/1500/644/322/60/0/cabaade_upload-1-yyclbmzye3cs-frame-1160.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Cinq Britanniques antimigrants interdits de paraître dans le Nord et le Pas-de-Calais",
+      "resume": "Cinq hommes appartenant à « la mouvance d’ultra-droite » ont été interpellés jeudi à Dunkerque en possession d’armes de catégorie D. Un juge a prononcé des mesures d’alternatives aux poursuites à leur encontre",
+      "lien": "https://www.20minutes.fr/justice/4259324-20261101-cinq-britanniques-antimigrants-interdits-paraitre-nord-calais?at_medium=display&at_campaign=149",
+      "date": "2026-11-01T13:31:14+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/xJv7CGuiSGSg_sdujkcP1ik/1200x768_le-prefet-du-departement-du-nord-bertrand-gaume-visite-une-nouvelle-unite-de-police-de-80-membres-au-port-ouest-de-dunkerque-a-loon-plage-dans-le-nord-de-la-france-le-mardi-1er-septembre-2026-l-unite-rattachee-au-service-de-police-des-frontieres-du-port-spafp-a-ete-deployee-le-long-de-la-cote-nord-de-la-france-a-loon-plage-et-coquelles-pour-lutter-contre-les-reseaux-d-immigration-clandestine-et-de-contrebande-son-deploiement-est-soutenu-par-un-financement-britannique-dans-le-cadre-des-accords-de-sandhurst-des-equipements-dedies-a-la-lutte-contre-les-reseaux-de-contrebande-ainsi-que-les-logos-de-frontex-de-l-agence-europeenne-de-garde-frontieres-et-de-la-police-des-frontieres-francaise-paf-sont-egalement-representes-loon-plage-france-fievez-nicolas-0832-credit-nicolas-fievez-sipa-2609020905"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« The battle bus » : cinq Britanniques d’ultradroite interdits de paraître dans le Nord et le Pas-de-Calais",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/nord-59/the-battle-bus-cinq-britanniques-dultradroite-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-01-11-2026-AS6V6ZYVQNBXVMHAWOISLHHVC4.php",
+      "date": "2026-11-01T15:30:20.643814+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Actes antimigrants : cinq Britanniques interdits de paraître dans le Nord et le Pas-de-Calais",
+      "resume": "Les cinq individus appartiennent à « la mouvance d’ultradroite ». Ils circulaient sur le littoral à bord d’un minibus qu’ils avaient surnommé « The battle bus » et diffusaient en direct sur un réseau social",
+      "lien": "https://www.sudouest.fr/international/migrants-et-refugies/actes-antimigrants-cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-31333967.php",
+      "date": "2026-11-01T14:10:31+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31333967/1200x-1/20261014162521-22332112.jpg"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Nord. Interpellés pour des actions anti-migrants, cinq Britanniques d'ultradroite interdits de séjour",
+      "resume": "Cinq Britanniques d'ultradroite ont été arrêtés jeudi à Dunkerque et sont soupçonnés de violences contre des migrants.",
+      "lien": "https://www.leprogres.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+      "date": "2026-11-01T13:34:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Nord. Interpellés pour des actions anti-migrants, cinq Britanniques d'ultradroite interdits de séjour",
+      "resume": "Cinq Britanniques d'ultradroite ont été arrêtés jeudi à Dunkerque et sont soupçonnés de violences contre des migrants.",
+      "lien": "https://www.ledauphine.com/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+      "date": "2026-11-01T13:34:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/A63CAC47-DADA-4553-92BF-43AACF5137CE/NW_listB/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour-1793540098.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Nord. Interpellés pour des actions anti-migrants, cinq Britanniques d'ultradroite interdits de séjour",
+      "resume": "Cinq Britanniques d'ultradroite ont été arrêtés jeudi à Dunkerque et sont soupçonnés de violences contre des migrants.",
+      "lien": "https://www.estrepublicain.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+      "date": "2026-11-01T13:34:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "L'Est Républicain",
+     "Le Dauphiné",
+     "Le Monde",
+     "Le Parisien",
+     "Le Progrès",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "action",
+     "britan",
+     "calais",
+     "interd",
+     "migran",
+     "nord",
+     "parait",
+     "ultrad"
+    ],
+    "score": 74.99465001944444,
+    "suite": null,
+    "pays": "Royaume-Uni",
+    "requete": "London United Kingdom",
+    "prioritaire": true,
+    "titre": "Cinq militants britanniques d'ultradroite interdits dans le Nord",
+    "texte": "À Dunkerque, cinq Britanniques appartenant à la mouvance d'ultradroite ont été interpellés jeudi. Soupçonnés d'actions d'intimidation contre des migrants, ils ont été frappés d'une interdiction de paraître dans le Nord et le Pas-de-Calais.",
+    "texte_long": "À Dunkerque, cinq Britanniques appartenant à la mouvance d'ultradroite ont été interpellés jeudi. Soupçonnés d'actions d'intimidation contre des migrants, ils ont été frappés d'une interdiction de paraître dans le Nord et le Pas-de-Calais.",
+    "flash": "À Dunkerque, cinq Britanniques d'ultradroite soupçonnés d'intimidations contre des migrants sont interdits de paraître dans le Nord et le Pas-de-Calais.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "5",
+     "legende": "Britanniques interdits de paraître"
+    },
+    "iso": [
+     "GBR",
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Migrants",
+     "#Ultradroite"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/justice/4259324-20261101-cinq-britanniques-antimigrants-interdits-paraitre-nord-calais?at_medium=display&at_campaign=149",
+     "L'Est Républicain": "https://www.estrepublicain.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+     "Le Dauphiné": "https://www.ledauphine.com/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+     "Le Monde": "https://www.lemonde.fr/societe/article/2026/11/01/cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-apres-des-actions-d-intimidation-contre-des-migrants_6804511_3224.html",
+     "Le Parisien": "https://www.leparisien.fr/nord-59/the-battle-bus-cinq-britanniques-dultradroite-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-01-11-2026-AS6V6ZYVQNBXVMHAWOISLHHVC4.php",
+     "Le Progrès": "https://www.leprogres.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
+     "Sud Ouest": "https://www.sudouest.fr/international/migrants-et-refugies/actes-antimigrants-cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-31333967.php"
+    },
+    "date_affichee": "1er novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Crise politique en Pologne : Bruxelles exprime son soutien au premier ministre Donald Tusk",
+      "resume": "Cette déclaration intervient après une confrontation, vendredi soir, devant le bâtiment du Tribunal constitutionnel, diffusée en direct à la télévision, qui a propulsé un différend vieux de dix ans dans le débat politique européen.",
+      "lien": "https://fr.euronews.com/2026/11/01/crise-politique-en-pologne-bruxelles-exprime-son-soutien-au-premier-ministre-donald-tusk",
+      "date": "2026-11-01T09:04:08+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "France 24",
+      "titre": "Crise politique en Pologne : Bruxelles fait pression sur le président polonais",
+      "resume": "La Commission européenne a pris le parti du Premier ministre polonais Donald Tusk samedi 31 octobre en appelant le président polonais Karol Nawrocki à valider la nomination de juges pour dénouer une profonde crise politique à Varsovie.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261101-crise-politique-en-pologne-bruxelles-fait-pression-sur-le-pr%C3%A9sident-polonais",
+      "date": "2026-11-01T12:26:23+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/3fa7cdbe-d5eb-11f1-bcf2-695cb59fade5/w:1024/p:16x9/FR-20261101-110254-110524-CS.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Pologne : les six choses à savoir pour comprendre la crise politique majeure autour du Tribunal constitutionnel",
+      "resume": "La confrontation directe entre le gouvernement de Donald Tusk et le président Karol Nawrocki plonge la Pologne dans une crise institutionnelle profonde",
+      "lien": "https://www.sudouest.fr/politique/pologne-les-six-choses-a-savoir-pour-comprendre-la-crise-politique-majeure-autour-du-tribunal-constitutionnel-31333647.php",
+      "date": "2026-11-01T14:44:31+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31333647/1200x-1/20261031125705-3491712.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Crise en Pologne : suspension du président du Tribunal constitutionnel, mobilisations massives, tentative de \"coup d'État\"... On vous explique le conflit qui secoue le pays",
+      "resume": "En Pologne, la crise autour du Tribunal constitutionnel s'est grandement intensifiée depuis le vendredi 30 octobre. En cause : des juges ouvertement engagés politiquement, protégés par le président nationaliste Karol...",
+      "lien": "https://www.ladepeche.fr/2026/11/01/crise-en-pologne-suspension-du-president-du-tribunal-constitutionnel-mobilisations-massives-tentative-de-coup-detat-on-vous-explique-le-conflit-qui-13630754.php",
+      "date": "2026-11-01T12:40:41+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae726796a6297cadc00659c/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "Euronews",
+     "France 24",
+     "La Dépêche",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "autour",
+     "bruxel",
+     "consti",
+     "crise",
+     "politi",
+     "pologn",
+     "presid",
+     "tribun"
+    ],
+    "score": 72.23086007111111,
+    "suite": null,
+    "pays": "Pologne",
+    "requete": "Warsaw Poland",
+    "prioritaire": true,
+    "titre": "Bruxelles soutient Donald Tusk face au président Nawrocki",
+    "texte": "En Pologne, la Commission européenne a appelé samedi le président Karol Nawrocki à valider la nomination de juges. Elle a ainsi pris le parti du Premier ministre Donald Tusk, dans une crise politique autour du Tribunal constitutionnel.",
+    "texte_long": "En Pologne, la Commission européenne a appelé samedi le président Karol Nawrocki à valider la nomination de juges. Elle a ainsi pris le parti du Premier ministre Donald Tusk, dans une crise politique autour du Tribunal constitutionnel.",
+    "flash": "En Pologne, la Commission européenne soutient le Premier ministre Donald Tusk et appelle le président Nawrocki à valider des nominations de juges.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "POL",
+     "UE"
+    ],
+    "personne": "Donald Tusk",
+    "avec": "Karol Nawrocki",
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Pologne",
+     "#Justice"
+    ],
+    "liens": {
+     "Euronews": "https://fr.euronews.com/2026/11/01/crise-politique-en-pologne-bruxelles-exprime-son-soutien-au-premier-ministre-donald-tusk",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261101-crise-politique-en-pologne-bruxelles-fait-pression-sur-le-pr%C3%A9sident-polonais",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/01/crise-en-pologne-suspension-du-president-du-tribunal-constitutionnel-mobilisations-massives-tentative-de-coup-detat-on-vous-explique-le-conflit-qui-13630754.php",
+     "Sud Ouest": "https://www.sudouest.fr/politique/pologne-les-six-choses-a-savoir-pour-comprendre-la-crise-politique-majeure-autour-du-tribunal-constitutionnel-31333647.php"
+    },
+    "date_affichee": "1er novembre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-11-01T15:31:01.381407+00:00",
+  "decision": null
  }
 ]
