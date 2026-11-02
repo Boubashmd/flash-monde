@@ -12829,5 +12829,282 @@
   ],
   "youtube": "X1GSXD_nk6g",
   "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123685+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Midterms : Trump finit sa campagne, démocrates divisés au Michigan",
+  "texte": "Aux États-Unis, Donald Trump a achevé ses déplacements de campagne dans l'Iowa et le Kansas. Dans le Michigan, la démocrate Haley Stevens soutient le républicain Mike Rogers, rompant avec son parti.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "Courrier international",
+   "DNA",
+   "Euronews",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259408-20261102-guerre-moyen-orient-disant-jusqu-present-gentil-trump-veut-donner-coup-massue-iran?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4258859-20261102-midterms-etats-unis-hasan-piker-streameur-gauche-met-pave-mare-democrate-avant-elections?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/geopolitique-l-iran-met-en-garde-les-etats-unis-contre-une-reprise-des-hostilites_284001",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/01/une-tragedie-horrible-neuf-morts-dans-l-accident-d-un-jet-prive",
+   "Euronews": "https://fr.euronews.com/2026/11/02/elections-de-mi-mandat-aux-etats-unis-derniers-deplacement-de-trump-les-democrates-divises",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/on-va-secraser-au-sol-la-pilote-comprend-que-son-avion-est-perdu-quelques-secondes-avant-un-crash-spectaculaire-qui-a-fait-neuf-morts-dans-une-rue-de-13631842.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/01/une-tragedie-horrible-neuf-morts-dans-l-accident-d-un-jet-prive",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/02/midterms-2026-les-reniements-de-donald-trump-l-exposent-a-un-vote-sanction-de-la-part-des-electeurs-americains_6804843_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/02/midterms-2026-les-reniements-de-donald-trump-l-exposent-a-un-vote-sanction-de-la-part-des-electeurs-americains_6804843_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/midterms-2026-un-dernier-sondage-qui-avait-vu-juste-en-2024-annonce-une-large-majorite-democrate-au-senat-02-11-2026-NGEWNZHZ4NHE7JNWRILH6X3ZCQ.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/02/nous-allons-nous-ecraser-neuf-personnes-meurent-dans-le-crash-de-leur-jet-prive-a-palm-beach-13631799.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/nous-n-avons-plus-le-temps-on-va-s-ecraser-au-sol-le-crash-d-un-avion-d-affaires-fait-neuf-morts-en-floride-une-enquete-ouverte-par-les-autorites-10752306",
+   "RFI": "https://www.rfi.fr/fr/podcasts/reportage-international/20261102-midterms-2026-la-candidature-du-d%C3%A9mocrate-abdul-el-sayed-divise-la-communaut%C3%A9-juive-du-michigan",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/midterms-2026-les-democrates-se-dechirent-dans-le-michigan-29402350.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/donald-trump-avertit-que-les-etats-unis-devront-a-un-moment-donner-un-coup-de-massue-a-l-iran_8263538.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 137.99857864333333,
+  "personne": "Donald Trump",
+  "sig": [
+   "2026",
+   "democr",
+   "donald",
+   "ecrase",
+   "etats",
+   "midter",
+   "trump",
+   "unis"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123708+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Ukraine et Russie accusées de piratage d'applis d'alerte",
+  "texte": "En Ukraine, l'armée de l'air dit que son application d'alerte aérienne a probablement subi une ingérence hostile. Moscou affirme de son côté que l'application du ministère des Situations d'urgence a été piratée.",
+  "iso": [
+   "UKR",
+   "RUS"
+  ],
+  "pays": "Ukraine",
+  "sources": [
+   "France 24",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "RFI",
+   "RTS",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/europe/20261102-ukraine-et-russie-s-accusent-mutuellement-de-cyberattaques-contre-leurs-applications-d-alerte",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/direct-guerre-en-ukraine-ca-va-etre-lenfer-la-treve-qui-a-permis-levacuation-dhabitants-dolechky-a-pris-fin-dimanche-soir-13630905.php",
+   "Le Dauphiné": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/02/les-applications-d-alerte-a-la-population-ukrainienne-et-russe-visees-par-des-cyberattaques",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/lapplication-utilisee-par-les-ukrainiens-pour-etre-informe-des-attaques-russes-a-ete-piratee-02-11-2026-JIY2HKIH3RA23HVPBXYHTGEEKA.php",
+   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/11/02/les-applications-d-alerte-a-la-population-ukrainienne-et-russe-visees-par-des-cyberattaques",
+   "RFI": "https://www.rfi.fr/fr/europe/20261101-ukraine-l-application-d-alerte-aux-attaques-a%C3%A9riennes-pirat%C3%A9e-indique-l-arm%C3%A9e-de-l-air",
+   "RTS": "https://www.rts.ch/info/dossiers/2022/guerre-en-ukraine/2026/article/cyberattaques-les-applications-d-alerte-visees-en-ukraine-et-en-russie-29402324.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/ukraine-et-russie-touchees-par-des-cyberattaques-apres-la-fin-de-la-treve-zelensky-demande-des-missiles-patriot-a-trump-31343413.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ukraine-et-la-russie-touchees-par-des-cyberattaques-apres-la-fin-d-un-cessez-le-feu-dans-la-region-de-kherson_8263511.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 112.99857858722223,
+  "personne": null,
+  "sig": [
+   "alerte",
+   "applic",
+   "cybera",
+   "guerre",
+   "popula",
+   "russie",
+   "ukrain",
+   "visees"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123717+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Des lycées bloqués à la reprise, le mouvement lycéen se poursuit",
+  "texte": "En France, la rentrée des vacances de la Toussaint s'ouvre sous tension. Des lycées sont bloqués à Paris, Marseille et Lyon, les organisations lycéennes poursuivant leur mouvement malgré les concessions du gouvernement.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/societe/video-mouvement-lyceen-des-etablissements-bloques-en-ce-jour-de-rentree-scolaire_VN-202611020238.html",
+   "DNA": "https://www.dna.fr/elections/2026/11/01/edouard-philippe-decline-la-primaire-des-democrates-proposee-par-gabriel-attal",
+   "France 24": "https://www.france24.com/fr/france/20261102-blocages-des-lyc%C3%A9es-et-manifestations-%C3%A9tudiantes-annonc%C3%A9s-d%C3%A8s-la-reprise-des-cours",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/direct-blocage-des-lycees-a-toulouse-des-mobilisations-annoncees-ce-lundi-dans-de-nombreux-etablissements-toulousains-a-lappel-de-lunion-syndicale-13631360.php",
+   "Le Dauphiné": "https://www.ledauphine.com/elections/2026/11/01/edouard-philippe-decline-la-primaire-des-democrates-proposee-par-gabriel-attal",
+   "Le Parisien": "https://www.leparisien.fr/societe/direct-colere-des-lyceens-des-appels-aux-blocages-lances-ce-lundi-de-reprise-des-cours-avant-une-journee-de-greve-generale-jeudi-02-11-2026-OHINEQTPLFARDKVHE2EAP3XQIE.php",
+   "Le Progrès": "https://www.leprogres.fr/social/2026/11/02/rentree-scolaire-blocages-manifestations-ce-qui-nous-attend-cette-semaine",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/01/a-quoi-sattendre-cette-semaine-retour-de-la-bise-et-de-la-pluie-dans-le-sud-une-rentree-des-classes-portee-sous-le-signe-de-la-fraicheur-13631208.php",
+   "Sud Ouest": "https://www.sudouest.fr/france/direct-colere-des-lyceens-nouveaux-blocages-prevus-quelle-mobilisation-en-ce-jour-de-rentree-toutes-les-infos-de-ce-lundi-2-novembre-31343590.php"
+  },
+  "score": 107.99857839027777,
+  "personne": null,
+  "sig": [
+   "blocag",
+   "blocus",
+   "cours",
+   "direct",
+   "edouar",
+   "lyceen",
+   "lycees",
+   "rentre"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123725+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Édouard Philippe rejette la primaire de la droite et du centre",
+  "texte": "Édouard Philippe refuse la primaire de la droite et du centre proposée par Gabriel Attal pour la présidentielle de 2027.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "France 24",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Nice-Matin",
+   "actu.fr"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4259410-20261102-presidentielle-2027-accusant-tf1-menager-edouard-philippe-racisme-melenchon-annule-20h?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261101-pr%C3%A9sidentielle-2027-la-primaire-de-la-droite-et-du-centre-n-aura-pas-lieu-1",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/presidentielle-2027-il-deroule-son-discours-degoutant-sans-etre-interrompu-jean-luc-melenchon-sen-prend-a-edouard-philippe-et-claque-la-porte-du-20-13631817.php",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-edouard-philippe-rejette-la-primaire-des-democrates-proposee-par-gabriel-attal-20261101",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-au-final-la-primaire-aura-lieu-estime-gabriel-attal-apres-le-refus-dedouard-philippe-02-11-2026-4CB5PH7LEZDDDABTFTFJOTTHUE.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/fache-contre-tf1-et-l-interview-de-philippe-melenchon-annule-un-passage-au-20h-10752042",
+   "actu.fr": "https://actu.fr/politique/edouard-philippe-ne-veut-pas-de-primaire-gabriel-attal-lui-repond-qu-elle-aura-quand-meme-bien-lieu_65001941.html"
+  },
+  "score": 87.998578655,
+  "personne": "Édouard Philippe",
+  "sig": [
+   "2027",
+   "centre",
+   "divisi",
+   "edouar",
+   "philip",
+   "presid",
+   "primai",
+   "refuse"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123731+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Près de Marseille, un sapeur-pompier grièvement blessé par balle",
+  "texte": "Près de Marseille, un sapeur-pompier a été grièvement blessé par balle lors d'une intervention, un suspect de 51 ans a été interpellé.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "Le Parisien",
+   "Nice-Matin",
+   "actu.fr",
+   "franceinfo France",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/victime-tres-grievement-blessee-suspect-au-profil-psy-interpelle-ce-que-lon-sait-de-lattaque-par-balles-de-pompiers-pres-de-marseille-01-11-2026-GGFDHSXW6ZDR7D2JOELBOBAVKM.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/le-pompier-touche-par-des-tirs-est-grievement-blesse-pres-de-marseille-un-homme-interpelle-10751910",
+   "actu.fr": "https://actu.fr/hauts-de-france/givenchy-en-gohelle_62371/pres-de-lens-deux-jeunes-femmes-gravement-blessees-dans-un-accident-de-la-route-ce-dimanche-soir_65001949.html",
+   "franceinfo France": "https://www.franceinfo.fr/faits-divers/incendie-volontaire-suspect-connu-des-autorites-ce-que-l-on-sait-de-l-attaque-d-un-sapeur-pompier-pres-de-marseille_8263586.html#xtor=RSS-3-%5Bgeneral%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/incendie-volontaire-suspect-connu-des-autorites-ce-que-l-on-sait-de-l-attaque-d-un-sapeur-pompier-pres-de-marseille_8263586.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 82.99857885027778,
+  "personne": null,
+  "sig": [
+   "balle",
+   "blesse",
+   "grieve",
+   "interp",
+   "interv",
+   "marsei",
+   "pompie",
+   "pres"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-02T08:13:30.123738+00:00",
+  "edition": "2026-11-02T08:51:07.277446+01:00",
+  "semaine": false,
+  "titre": "Inégalités salariales : les femmes travaillent gratuitement dès le 19 novembre",
+  "texte": "Selon Les Glorieuses, les femmes en France travailleront « gratuitement » à partir du 19 novembre, en raison de l'écart salarial de 11,8 pour cent.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "Le Dauphiné": "https://www.ledauphine.com/societe/2026/11/02/inegalites-salariales-les-femmes-travailleront-gratuitement-a-partir-du-19-novembre-a-10h51",
+   "Le Parisien": "https://www.leparisien.fr/societe/inegalites-salariales-decouvrez-a-partir-de-quand-les-femmes-vont-commencer-a-travailler-gratuitement-cette-annee-02-11-2026-SPW25XOLJNBZ5ELN7C6H7JFJ3I.php",
+   "Le Progrès": "https://www.leprogres.fr/societe/2026/11/02/inegalites-salariales-les-femmes-travailleront-gratuitement-a-partir-du-19-novembre-a-10h51",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/02/cest-un-ecart-de-liberte-voici-la-date-a-partir-de-laquelle-les-femmes-vont-commencer-a-travailler-gratuitement-jusquen-fin-dannee-13631815.php",
+   "Nice-Matin": "https://www.nicematin.com/economie/inegalite-salariale-les-femmes-travailleront-gratuitement-a-partir-du-19-novembre-2026-en-france-10752108",
+   "Sud Ouest": "https://www.sudouest.fr/societe/egalite-femmes-hommes/inegalites-salariales-les-femmes-travailleront-gratuitement-a-partir-du-19-novembre-31343326.php"
+  },
+  "score": 79.99857842138888,
+  "personne": null,
+  "sig": [
+   "commen",
+   "femmes",
+   "gratui",
+   "inegal",
+   "novemb",
+   "partir",
+   "salari",
+   "travai"
+  ],
+  "youtube": "Ixza5Hi9aYM",
+  "yt_attente": null
  }
 ]
