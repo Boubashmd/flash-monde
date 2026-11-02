@@ -304,17 +304,27 @@ class Edition:
         print("4/6 Voix")
         v_cfg = cfg["voix"]
         fournisseur = voix.choisir_fournisseur(v_cfg)
-        utilises, precedent = set(), None
-        for i, s in enumerate(sujets):
-            a = self.travail / f"voix_{i}.mp3"
-            f, mots = voix.dire(s["texte"], a, v_cfg, fournisseur, precedent)
-            if fournisseur in ("azure", "elevenlabs") and f == "silence" and not args.demo:
-                nom = "Azure" if fournisseur == "azure" else "ElevenLabs"
-                raise RuntimeError(f"la voix {nom} a échoué ({voix.derniere_erreur}). Vérifie ton crédit "
-                                   f"{nom}, ta clé ou le nom de la voix. Vidéo non fabriquée.")
-            utilises.add(f)
-            precedent = s["texte"]
-            s["_audio"], s["_mots"], s["_duree"] = a, mots, voix.duree(a)
+        while True:
+            utilises, precedent, echec = set(), None, False
+            for i, s in enumerate(sujets):
+                a = self.travail / f"voix_{i}.mp3"
+                f, mots = voix.dire(s["texte"], a, v_cfg, fournisseur, precedent)
+                if fournisseur in ("azure", "elevenlabs") and f == "silence" and not args.demo:
+                    echec = True
+                    break
+                utilises.add(f)
+                precedent = s["texte"]
+                s["_audio"], s["_mots"], s["_duree"] = a, mots, voix.duree(a)
+            if not echec:
+                break
+            if fournisseur == "elevenlabs" and voix._azure_pret(v_cfg):
+                # ElevenLabs refuse en cours de route (credits, cle...) : toute l'edition est relue avec Azure
+                self.info(f"ℹ️ ElevenLabs a échoué ({voix.derniere_erreur[:120]}) : édition lue avec la voix Azure.")
+                fournisseur = "azure"
+                continue
+            nom = "Azure" if fournisseur == "azure" else "ElevenLabs"
+            raise RuntimeError(f"la voix {nom} a échoué ({voix.derniere_erreur}). Vérifie ton crédit "
+                               f"{nom}, ta clé ou le nom de la voix. Vidéo non fabriquée.")
         print(f"  voix : {', '.join(sorted(utilises))}")
         for a in voix.avertissements:
             self.info("ℹ️ " + a)
@@ -624,6 +634,7 @@ def main() -> int:
     cfg = yaml.safe_load((RACINE / "config.yaml").read_text(encoding="utf-8"))
     if args.voix:
         cfg["voix"]["fournisseur"] = args.voix
+        os.environ["VOIX_FOURNISSEUR"] = args.voix  # l'option --voix passe avant la variable GitHub
     if args.verifier_sources:
         verifier_sources(cfg)
         return 0

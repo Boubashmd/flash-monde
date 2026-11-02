@@ -6,10 +6,10 @@ chaine:
   fuseau: "Europe/Paris"
 
 edition:
-  nb_titres: 6            # nombre maximum d'infos par video (plus d'une minute : condition de remuneration TikTok)
+  nb_titres: 5            # une seule video par jour (18h) : le journal du soir, 4-5 infos, plus d'une minute
   nb_developpes: 3        # les N premieres en 2-3 phrases, les suivantes en flash d'une phrase
-  fenetre_heures: 10      # on ne regarde que les articles publies depuis X heures (2 editions par jour : 9h et 18h)
-  fenetre_matin_heures: 15  # le matin (avant midi, heure de Paris), on remonte jusqu'a l'edition de la veille au soir
+  fenetre_heures: 24      # une seule edition par jour : on lit les articles des dernieres 24 h
+  fenetre_matin_heures: 24  # (edition lancee a la main le matin : meme fenetre)
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
   oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures...
   suites: true            # ...sauf comme « suite » s'il y a du nouveau (au moins min_sources medias)
@@ -232,7 +232,11 @@ voix:
   # Voix HD (Dragon HD) : plus naturelle. Voix feminine : "fr-FR-Vivienne:DragonHDLatestNeural"
   azure_voix: "fr-FR-Remy:DragonHDLatestNeural"
   azure_voix_secours: "fr-FR-RemyMultilingualNeural"  # si la voix HD ne repond pas
-  azure_vitesse: "+6%"    # "-10%" = plus pose, "+10%" = plus rapide
+  azure_vitesse: "+6%"
+  # Le fournisseur se change aussi sans toucher au code : variable GitHub VOIX_FOURNISSEUR (azure / elevenlabs)
+  # Abonnement ElevenLabs partage avec Dossiers Classes : sous ce nombre de credits restants, l'edition
+  # passe sur Azure pour garder une reserve. Si ElevenLabs refuse en cours de route : Azure aussi.
+  elevenlabs_reserve: 25000    # "-10%" = plus pose, "+10%" = plus rapide
   elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
   # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
   # Settings > Secrets and variables > Actions > onglet Variables : ELEVENLABS_VOICE_ID, ELEVENLABS_MODELE
@@ -283,6 +287,6 @@ video:
   son_transitions: true   # souffle discret pendant les deplacements de camera
   fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
   # appel a s'abonner sous le logo de fin (2 lignes, la 2e en jaune). [] pour l'enlever
-  appel_abonnement: ["Abonne-toi pour l'info", "matin et soir"]
+  appel_abonnement: ["Abonne-toi pour l'info", "tous les soirs"]
   musique: true           # musique de fond discrete : fichier libre depose dans assets/musique/, sinon composee
   volume_musique: 0.5     # 1.0 = niveau d origine ; 0.5 = deux fois plus discrete (baisse le 25/10/2026 a la demande des abonnes)

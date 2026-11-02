@@ -196,6 +196,9 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
     fournisseur = voix.choisir_fournisseur(v_cfg)
     audio = travail / "voix.mp3"
     utilise, mots = voix.dire(texte, audio, v_cfg, fournisseur)
+    if fournisseur == "elevenlabs" and utilise == "silence" and voix._azure_pret(v_cfg):
+        utilise, mots = voix.dire(texte, audio, v_cfg, "azure")  # secours : voix Azure
+        fournisseur = "azure"
     if fournisseur in ("azure", "elevenlabs") and utilise == "silence":
         raise RuntimeError(f"la voix a échoué ({voix.derniere_erreur})")
     duree_voix = voix.duree(audio)

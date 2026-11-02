@@ -4,11 +4,9 @@ name: Flash Monde
 # qui appelle « workflow_dispatch » avec planifie=true.
 # Les horaires ci-dessous (en UTC) sont des SECOURS si cron-job.org ne passe pas : GitHub les lance
 # souvent en retard. Une edition planifiee ne fait rien si une autre a deja tourne dans les 2 h.
-# Editions a 9h et 18h (heure de Paris) ; secours environ 1 h apres (2 h en ete).
+# Une edition par jour a 18h (heure de Paris) ; secours environ 1 h apres (2 h en ete).
 on:
   schedule:
-    - cron: "45 8 * * *"
-    - cron: "5 9 * * *"
     - cron: "45 17 * * *"
     - cron: "5 18 * * *"
   workflow_dispatch:
@@ -42,6 +40,7 @@ jobs:
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
       ELEVENLABS_MODELE: ${{ vars.ELEVENLABS_MODELE }}
+      VOIX_FOURNISSEUR: ${{ vars.VOIX_FOURNISSEUR }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GITHUB_TOKEN: ${{ github.token }}

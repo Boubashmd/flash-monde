@@ -358,16 +358,44 @@ def _silence(texte: str, sortie: Path) -> None:
     )
 
 
+def credits_restants() -> int | None:
+    """Credits ElevenLabs restants ce mois-ci (abonnement partage avec Dossiers Classes). None si illisible
+    (la cle n'a pas le droit « User : Read », ou ElevenLabs ne repond pas)."""
+    try:
+        r = requests.get("https://api.elevenlabs.io/v1/user/subscription",
+                         headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"]}, timeout=20)
+        if r.status_code >= 400:
+            print(f"  ! crédits ElevenLabs illisibles ({r.status_code})")
+            return None
+        d = r.json()
+        return int(d.get("character_limit", 0)) - int(d.get("character_count", 0))
+    except Exception as err:
+        print(f"  ! crédits ElevenLabs illisibles ({str(err)[:80]})")
+        return None
+
+
 def choisir_fournisseur(cfg: dict) -> str:
-    """Determine une fois pour toutes la voix de l'edition (pas de melange de voix)."""
-    f = cfg.get("fournisseur", "elevenlabs")
-    if f == "azure" and not _azure_pret(cfg):
-        f = "elevenlabs"
+    """Determine une fois pour toutes la voix de l'edition (pas de melange de voix).
+    La variable GitHub VOIX_FOURNISSEUR (azure / elevenlabs) remplace le reglage de config.yaml."""
+    f = (os.getenv("VOIX_FOURNISSEUR") or cfg.get("fournisseur", "elevenlabs")).strip().lower()
     if f == "elevenlabs":
         if not os.getenv("ELEVENLABS_API_KEY") or "REMPLACE" in (os.getenv("ELEVENLABS_VOICE_ID")
                                                                  or cfg.get("elevenlabs_voice_id", "REMPLACE")):
-            print("  ! ElevenLabs non configuré : passage à la voix gratuite Edge")
-            f = "edge"
+            print("  ! ElevenLabs non configuré : passage à Azure")
+            f = "azure"
+        else:
+            reste, reserve = credits_restants(), int(cfg.get("elevenlabs_reserve", 25000))
+            if reste is not None:
+                print(f"  crédits ElevenLabs restants : {reste}")
+            if reste is not None and reste < reserve:
+                # la reserve est gardee pour Dossiers Classes (meme abonnement)
+                avertissements.append(f"Crédits ElevenLabs bas ({reste} restants, réserve {reserve} gardée pour "
+                                      f"Dossiers Classés) : édition lue avec la voix Azure.")
+                f = "azure"
+    if f == "azure" and not _azure_pret(cfg):
+        f = "elevenlabs" if os.getenv("ELEVENLABS_API_KEY") else "edge"
+    if f == "elevenlabs" and not os.getenv("ELEVENLABS_API_KEY"):
+        f = "edge"
     if f == "edge":
         try:
             import edge_tts  # noqa: F401
