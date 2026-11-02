@@ -50,7 +50,7 @@ def main() -> int:
     gh = {"Authorization": f"Bearer {jeton_gh}", "Accept": "application/vnd.github+json"}
 
     # 1. une edition ou un traitement tourne deja : on repassera dans 5 minutes
-    recent = datetime.now(timezone.utc) - timedelta(minutes=100)  # une tache plus vieille est bloquee : on l'ignore
+    recent = datetime.now(timezone.utc) - timedelta(minutes=190)  # une tache plus vieille est bloquee : on l'ignore
     for statut in ("in_progress", "queued"):
         runs = _json(f"https://api.github.com/repos/{depot}/actions/runs?status={statut}&per_page=50",
                      entetes=gh).get("workflow_runs", [])

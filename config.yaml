@@ -8,8 +8,8 @@ chaine:
 edition:
   nb_titres: 6            # nombre maximum d'infos par video (plus d'une minute : condition de remuneration TikTok)
   nb_developpes: 3        # les N premieres en 2-3 phrases, les suivantes en flash d'une phrase
-  fenetre_heures: 8       # on ne regarde que les articles publies depuis X heures
-  fenetre_matin_heures: 12  # le matin (avant midi, heure de Paris), on remonte plus loin : la nuit est calme
+  fenetre_heures: 10      # on ne regarde que les articles publies depuis X heures (2 editions par jour : 9h et 18h)
+  fenetre_matin_heures: 15  # le matin (avant midi, heure de Paris), on remonte jusqu'a l'edition de la veille au soir
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
   oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures...
   suites: true            # ...sauf comme « suite » s'il y a du nouveau (au moins min_sources medias)
@@ -209,7 +209,7 @@ validation:
   active: true
   # Plus de delai : les boutons restent valables 24 h. L'edition t'attend quelques minutes (au cas ou
   # tu es la), puis les sujets restent en attente ; la video est faite ~10 min apres ton clic.
-  attente_minutes: 5
+  attente_minutes: 60      # l'edition t'attend 1 h ; apres, les sujets restent en attente 24 h (video ~10 min apres ton clic)
 
 redaction:
   # "anthropic" : reformulation par Claude (recommande, necessite ANTHROPIC_API_KEY)
@@ -270,7 +270,7 @@ youtube:
   # "auto" : publication directe sans demander | "non" : jamais
   # Necessite les secrets YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
   publication: "bouton"
-  attente_minutes: 10       # attente rapide ; ensuite le bouton reste valable 24 h
+  attente_minutes: 60       # le bouton YouTube est attendu 1 h ; ensuite il reste valable 24 h
   confidentialite: "public" # "public" | "unlisted" (non repertoriee) | "private"
 
 video:
@@ -283,6 +283,6 @@ video:
   son_transitions: true   # souffle discret pendant les deplacements de camera
   fin_marque: true        # fin silencieuse de 3 s : recul sur le globe et nom de la chaine
   # appel a s'abonner sous le logo de fin (2 lignes, la 2e en jaune). [] pour l'enlever
-  appel_abonnement: ["Abonne-toi pour l'info", "3 fois par jour"]
+  appel_abonnement: ["Abonne-toi pour l'info", "matin et soir"]
   musique: true           # musique de fond discrete : fichier libre depose dans assets/musique/, sinon composee
   volume_musique: 0.5     # 1.0 = niveau d origine ; 0.5 = deux fois plus discrete (baisse le 25/10/2026 a la demande des abonnes)

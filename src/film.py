@@ -40,7 +40,7 @@ POLICES = Path(__file__).resolve().parent.parent / "assets" / "fonts"
 MARGE_G, MARGE_D = 70, 130      # a droite : boutons de TikTok et YouTube
 BLANC = (255, 255, 255)
 RYTHME = 1.0  # 1 = pose ; 0.7 = vif (transitions et pauses plus courtes, camera plus vivante). Voir config video.rythme
-APPEL = ("Abonne-toi pour l'info", "3 fois par jour")  # carte de fin, sous le logo. Voir config video.appel_abonnement
+APPEL = ("Abonne-toi pour l'info", "matin et soir")  # carte de fin, sous le logo. Voir config video.appel_abonnement
 LOGO = Path(__file__).resolve().parent.parent / "assets" / "logo" / "C_globe_titre.png"
 
 
