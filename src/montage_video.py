@@ -2,7 +2,7 @@
 
 Ecran 1080x1920, aux couleurs de Flash Monde :
   - la video au centre, sur un fond fait de la meme video, agrandie et floutee ;
-  - en haut : date et titre ; sous la video : le credit (« Images : X · avec autorisation ») ;
+  - en haut : date et titre ; aucun credit affiche (il va dans la legende TikTok) ;
   - la voix de Flash Monde lit le contexte au debut, le son d'origine est baisse pendant ce temps ;
   - sous-titres : la voix mot a mot (mot prononce en jaune), et la traduction des paroles d'origine ;
   - fin : 3 s sur la derniere image assombrie, avec le logo officiel.
@@ -77,6 +77,9 @@ def habillage(titre: str, date: str, credit: str, y_bas_video: int, sortie: Path
         dt.text((MARGE_G + 32, yy), ligne, font=f, fill=(255, 255, 255, 255))
         yy += pas
     img.alpha_composite(_ombre(texte, 8, 0.7, (0, 3)))
+    if not credit:  # pas de credit affiche : il est mis dans la legende au moment de publier
+        img.save(sortie)
+        return sortie
     # credit sous la video, dans une pastille sombre
     fc = police("Medium", 30)
     wc = int(fc.getlength(credit)) + 36

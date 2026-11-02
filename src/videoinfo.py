@@ -1,11 +1,8 @@
 """Mode video : une video envoyee au bot Telegram devient une video Flash Monde.
 
-Envoie la video au bot (le fichier, pas un lien) avec une legende :
-    autorisee            -> « Images : X · avec autorisation » (le nom de l'auteur n'est jamais affiche)
-    autorisee tiktok     -> « Images : TikTok · avec autorisation » (aussi : instagram, facebook, telegram, youtube)
-    officielle Kremlin   -> « Images : Kremlin · vidéo officielle »
-Tout autre mot de la legende sert d'indice sur le sujet (ex. « autorisee frappe sur Kharkiv »).
-Sans « autorisee » ni « officielle », la video est refusee.
+Envoie la video au bot (le fichier, pas un lien). Legende facultative : quelques mots sur le sujet
+(ex. « frappe sur Kharkiv ») pour aider a retrouver l'evenement. Aucun credit n'est affiche sur la video :
+l'autorisation et le credit sont geres par Boubacar dans la legende TikTok, avant de publier.
 
 Etapes : telechargement, transcription des paroles (faster-whisper), verification que l'evenement
 est rapporte par au moins 2 medias de nos flux, texte de contexte et traduction par Claude,
@@ -54,29 +51,14 @@ def _sans_accents(t: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", t) if unicodedata.category(c) != "Mn").lower()
 
 
-def lire_legende(legende: str) -> dict | None:
-    """Type d'autorisation, credit a afficher et indice. None si l'autorisation n'est pas indiquee."""
-    brut = (legende or "").strip()
-    mots = brut.split()
-    nus = [_sans_accents(m).strip(".,:;!") for m in mots]
-    for k, m in enumerate(nus):
-        if m.startswith("autoris") or m == "accord":
-            reseau = next((RESEAUX[n] for n in nus[k + 1:k + 3] if n in RESEAUX), None) or \
-                     next((RESEAUX[n] for n in nus if n in RESEAUX), "X")
-            reste = [w for w, n in zip(mots, nus) if not (n.startswith("autoris") or n in RESEAUX or n == "accord")]
-            return {"type": "autorisee", "credit": f"Images : {reseau} · avec autorisation",
-                    "reseau": reseau, "indice": " ".join(reste)}
-        if m.startswith("officiel"):
-            apres = " ".join(mots[k + 1:])
-            if "," in apres:                        # « officielle Maison-Blanche, discours de Trump »
-                source, indice = apres.split(",", 1)
-            else:                                   # « officielle Kremlin rencontre Poutine Xi » : 1er mot
-                source, indice = (apres.split(" ", 1) + [""])[:2]
-            source = source.strip(" .:;") or "source officielle"
-            indice = " ".join(mots[:k]) + " " + indice
-            return {"type": "officielle", "credit": f"Images : {source} · vidéo officielle",
-                    "reseau": source, "indice": indice.strip()}
-    return None
+def lire_legende(legende: str) -> dict:
+    """La legende sert seulement d'indice sur le sujet (facultatif). Aucun credit n'est affiche :
+    Boubacar gere l'autorisation et le credit lui-meme, dans la legende TikTok, avant de publier.
+    Les anciens mots-cles (« autorisee », « officielle »...) sont ignores s'il les ecrit encore."""
+    mots = (legende or "").split()
+    reste = [w for w in mots if not (_sans_accents(w).strip(".,:;!").startswith(("autoris", "officiel"))
+                                     or _sans_accents(w).strip(".,:;!") in RESEAUX)]
+    return {"credit": "", "indice": " ".join(reste).strip(" ,.;:")}
 
 
 def transcrire(fichier: Path) -> tuple:
@@ -171,13 +153,6 @@ def traiter(cfg: dict, args, publier_youtube, archiver, memoriser_vus) -> int:
 def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -> None:
     mid = v["message_id"]
     lec = lire_legende(v.get("legende", ""))
-    if lec is None:
-        telegram.repondre(mid, "Vidéo non traitée : précise l'autorisation dans la légende, puis renvoie-la.\n"
-                               "• « autorisée » (images d'un réseau social, X par défaut ; ajoute "
-                               "« tiktok », « instagram »… si besoin)\n"
-                               "• « officielle Kremlin » (ou Maison-Blanche, Élysée…)\n"
-                               "Tu peux ajouter quelques mots sur le sujet : « autorisée frappe sur Kharkiv ».")
-        return
     if v.get("taille", 0) > TAILLE_MAX:
         telegram.repondre(mid, "Vidéo trop lourde : Telegram limite les bots à 20 Mo. Envoie-la comme vidéo "
                                "(pas comme fichier), ou une version plus courte.")
@@ -239,7 +214,7 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
     tags = hashtags.construire([sujet], pays.nom_iso, int(cfg.get("publication", {}).get("hashtags", 10)))
     lignes = [f"• {titre}", "", texte, "", "Sources :"]
     lignes += [f"- {s}" + (f" : {sujet['liens'][s]}" if sujet["liens"].get(s) else "") for s in sources]
-    lignes += ["", lec["credit"] + ". Voix et montage générés automatiquement.", " ".join(tags)]
+    lignes += ["", "Voix et montage générés automatiquement.", " ".join(tags)]
     legende = "\n".join(lignes)
     (dossier / "legende.txt").write_text(legende, encoding="utf-8")
     for f in travail.iterdir():
@@ -247,7 +222,8 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
     travail.rmdir()
 
     # livraison : rien ne part sur YouTube sans ton clic (bouton valable 24 h)
-    telegram.video(video, f"📹 {titre}\n{lec['credit']}\n\nÀ vérifier avant publication.")
+    telegram.video(video, f"📹 {titre}\n\nÀ vérifier avant publication (pense au crédit et à l'autorisation "
+                          "dans ta légende TikTok).")
     try:
         telegram.photo(image, "Couverture, à choisir comme miniature sur TikTok")
     except Exception:
