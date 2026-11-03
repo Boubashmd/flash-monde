@@ -1,174 +1,6 @@
 [
  {
   "sig": [
-   "2026",
-   "democr",
-   "donald",
-   "ecrase",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-02T07:51:34.267096+00:00",
-  "titre": "Midterms : Trump finit sa campagne, démocrates divisés au Michigan"
- },
- {
-  "sig": [
-   "alerte",
-   "applic",
-   "cybera",
-   "guerre",
-   "popula",
-   "russie",
-   "ukrain",
-   "visees"
-  ],
-  "date": "2026-11-02T07:51:34.267108+00:00",
-  "titre": "Ukraine et Russie accusées de piratage d'applis d'alerte"
- },
- {
-  "sig": [
-   "blocag",
-   "blocus",
-   "cours",
-   "direct",
-   "edouar",
-   "lyceen",
-   "lycees",
-   "rentre"
-  ],
-  "date": "2026-11-02T07:51:34.267112+00:00",
-  "titre": "Des lycées bloqués à la reprise, le mouvement lycéen se poursuit"
- },
- {
-  "sig": [
-   "2027",
-   "centre",
-   "divisi",
-   "edouar",
-   "philip",
-   "presid",
-   "primai",
-   "refuse"
-  ],
-  "date": "2026-11-02T07:51:34.267115+00:00",
-  "titre": "Édouard Philippe rejette la primaire de la droite et du centre"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "grieve",
-   "interp",
-   "interv",
-   "marsei",
-   "pompie",
-   "pres"
-  ],
-  "date": "2026-11-02T07:51:34.267117+00:00",
-  "titre": "Près de Marseille, un sapeur-pompier grièvement blessé par balle"
- },
- {
-  "sig": [
-   "commen",
-   "femmes",
-   "gratui",
-   "inegal",
-   "novemb",
-   "partir",
-   "salari",
-   "travai"
-  ],
-  "date": "2026-11-02T07:51:34.267120+00:00",
-  "titre": "Inégalités salariales : les femmes travaillent gratuitement dès le 19 novembre"
- },
- {
-  "sig": [
-   "2026",
-   "democr",
-   "donald",
-   "ecrase",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-02T08:12:46.704480+00:00",
-  "titre": "Midterms : Trump finit sa campagne, démocrates divisés au Michigan"
- },
- {
-  "sig": [
-   "alerte",
-   "applic",
-   "cybera",
-   "guerre",
-   "popula",
-   "russie",
-   "ukrain",
-   "visees"
-  ],
-  "date": "2026-11-02T08:12:46.704493+00:00",
-  "titre": "Ukraine et Russie accusées de piratage d'applis d'alerte"
- },
- {
-  "sig": [
-   "blocag",
-   "blocus",
-   "cours",
-   "direct",
-   "edouar",
-   "lyceen",
-   "lycees",
-   "rentre"
-  ],
-  "date": "2026-11-02T08:12:46.704496+00:00",
-  "titre": "Des lycées bloqués à la reprise, le mouvement lycéen se poursuit"
- },
- {
-  "sig": [
-   "2027",
-   "centre",
-   "divisi",
-   "edouar",
-   "philip",
-   "presid",
-   "primai",
-   "refuse"
-  ],
-  "date": "2026-11-02T08:12:46.704499+00:00",
-  "titre": "Édouard Philippe rejette la primaire de la droite et du centre"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "grieve",
-   "interp",
-   "interv",
-   "marsei",
-   "pompie",
-   "pres"
-  ],
-  "date": "2026-11-02T08:12:46.704501+00:00",
-  "titre": "Près de Marseille, un sapeur-pompier grièvement blessé par balle"
- },
- {
-  "sig": [
-   "commen",
-   "femmes",
-   "gratui",
-   "inegal",
-   "novemb",
-   "partir",
-   "salari",
-   "travai"
-  ],
-  "date": "2026-11-02T08:12:46.704505+00:00",
-  "titre": "Inégalités salariales : les femmes travaillent gratuitement dès le 19 novembre"
- },
- {
-  "sig": [
    "blocag",
    "bloque",
    "colere",
@@ -712,5 +544,145 @@
   ],
   "date": "2026-11-03T17:12:04.610495+00:00",
   "titre": "Kiev dénonce des frappes russes massives sur l'énergie"
+ },
+ {
+  "sig": [
+   "2026",
+   "donald",
+   "electi",
+   "etats",
+   "midter",
+   "presid",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-11-03T22:31:42.634610+00:00",
+  "titre": "Trump annonce la fin de l'aide militaire à Israël"
+ },
+ {
+  "sig": [
+   "2027",
+   "bruno",
+   "candid",
+   "melenc",
+   "pen",
+   "presid",
+   "retail",
+   "sondag"
+  ],
+  "date": "2026-11-03T22:31:42.634625+00:00",
+  "titre": "Les démocrates favoris pour la Chambre, le Sénat incertain"
+ },
+ {
+  "sig": [
+   "appell",
+   "associ",
+   "chere",
+   "europe",
+   "fin",
+   "manife",
+   "novemb",
+   "syndic"
+  ],
+  "date": "2026-11-03T22:31:42.634628+00:00",
+  "titre": "Pretoria exclue de l'accord commercial AGOA par Washington"
+ },
+ {
+  "sig": [
+   "attent",
+   "kevin",
+   "prison",
+   "racist",
+   "suicid",
+   "suspec",
+   "tente",
+   "trappe"
+  ],
+  "date": "2026-11-03T22:31:42.634629+00:00",
+  "titre": "Le suspect de Trappes tente de se suicider en détention"
+ },
+ {
+  "sig": [
+   "france",
+   "greve",
+   "novemb",
+   "pertur",
+   "prevoi",
+   "sncf",
+   "tgv",
+   "trafic"
+  ],
+  "date": "2026-11-03T22:31:42.634631+00:00",
+  "titre": "La SNCF prévoit un trafic perturbé pour la grève du 5 novembre"
+ },
+ {
+  "sig": [
+   "2026",
+   "donald",
+   "electi",
+   "etats",
+   "midter",
+   "presid",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-11-03T23:00:58.017901+00:00",
+  "titre": "Trump annonce la fin de l'aide militaire à Israël"
+ },
+ {
+  "sig": [
+   "2027",
+   "bruno",
+   "candid",
+   "melenc",
+   "pen",
+   "presid",
+   "retail",
+   "sondag"
+  ],
+  "date": "2026-11-03T23:00:58.017912+00:00",
+  "titre": "Les démocrates favoris pour la Chambre, le Sénat incertain"
+ },
+ {
+  "sig": [
+   "appell",
+   "associ",
+   "chere",
+   "europe",
+   "fin",
+   "manife",
+   "novemb",
+   "syndic"
+  ],
+  "date": "2026-11-03T23:00:58.017914+00:00",
+  "titre": "Pretoria exclue de l'accord commercial AGOA par Washington"
+ },
+ {
+  "sig": [
+   "attent",
+   "kevin",
+   "prison",
+   "racist",
+   "suicid",
+   "suspec",
+   "tente",
+   "trappe"
+  ],
+  "date": "2026-11-03T23:00:58.017916+00:00",
+  "titre": "Le suspect de Trappes tente de se suicider en détention"
+ },
+ {
+  "sig": [
+   "france",
+   "greve",
+   "novemb",
+   "pertur",
+   "prevoi",
+   "sncf",
+   "tgv",
+   "trafic"
+  ],
+  "date": "2026-11-03T23:00:58.017918+00:00",
+  "titre": "La SNCF prévoit un trafic perturbé pour la grève du 5 novembre"
  }
 ]
