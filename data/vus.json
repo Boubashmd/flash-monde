@@ -1,356 +1,6 @@
 [
  {
   "sig": [
-   "779",
-   "commer",
-   "degrad",
-   "france",
-   "interp",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "date": "2026-11-01T16:15:34.824563+00:00",
-  "titre": "Paris ouvre une enquête pour tentative d'homicide après une attaque contre des gendarmes"
- },
- {
-  "sig": [
-   "appell",
-   "blocus",
-   "colere",
-   "lyceen",
-   "lycees",
-   "mobili",
-   "organi",
-   "social"
-  ],
-  "date": "2026-11-01T16:15:34.824575+00:00",
-  "titre": "Les Lycéens ! appellent au blocus des lycées dès lundi"
- },
- {
-  "sig": [
-   "accuse",
-   "binanc",
-   "coree",
-   "crypto",
-   "dollar",
-   "millia",
-   "nord",
-   "vol"
-  ],
-  "date": "2026-11-01T16:15:34.824578+00:00",
-  "titre": "Binance victime d'un vol record, le FBI accuse la Corée du Nord"
- },
- {
-  "sig": [
-   "2027",
-   "cope",
-   "droite",
-   "franco",
-   "jean",
-   "lisnar",
-   "presid",
-   "primai"
-  ],
-  "date": "2026-11-01T16:15:34.824581+00:00",
-  "titre": "Copé exclut une primaire de la droite pour la présidentielle"
- },
- {
-  "sig": [
-   "action",
-   "britan",
-   "calais",
-   "interd",
-   "migran",
-   "nord",
-   "parait",
-   "ultrad"
-  ],
-  "date": "2026-11-01T16:15:34.824584+00:00",
-  "titre": "Cinq militants britanniques d'ultradroite interdits dans le Nord"
- },
- {
-  "sig": [
-   "autour",
-   "bruxel",
-   "consti",
-   "crise",
-   "politi",
-   "pologn",
-   "presid",
-   "tribun"
-  ],
-  "date": "2026-11-01T16:15:34.824632+00:00",
-  "titre": "Bruxelles soutient Donald Tusk face au président Nawrocki"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "interp",
-   "interv",
-   "marsei",
-   "pompie",
-   "pres",
-   "sapeur"
-  ],
-  "date": "2026-11-01T19:14:10.684996+00:00",
-  "titre": "Un pompier grièvement blessé par balle près de Marseille"
- },
- {
-  "sig": [
-   "donald",
-   "guerre",
-   "moyen",
-   "olechk",
-   "orient",
-   "treve",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-11-01T19:14:10.685008+00:00",
-  "titre": "Olechky : la trêve prend fin ce dimanche soir"
- },
- {
-  "sig": [
-   "blesse",
-   "engin",
-   "gendar",
-   "hostil",
-   "incend",
-   "paris",
-   "racont",
-   "violen"
-  ],
-  "date": "2026-11-01T19:14:10.685012+00:00",
-  "titre": "Paris : un gendarme blessé par un engin incendiaire"
- },
- {
-  "sig": [
-   "clermo",
-   "ecroue",
-   "examen",
-   "ferran",
-   "homme",
-   "immeub",
-   "incend",
-   "mis"
-  ],
-  "date": "2026-11-01T19:14:10.685014+00:00",
-  "titre": "Clermont-Ferrand : un incendie criminel fait quatre morts"
- },
- {
-  "sig": [
-   "2026",
-   "americ",
-   "campag",
-   "donald",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-01T19:14:10.685017+00:00",
-  "titre": "Midterms : le coût de la vie au cœur de la campagne"
- },
- {
-  "sig": [
-   "assign",
-   "avocat",
-   "denonc",
-   "empech",
-   "manife",
-   "milita",
-   "octobr",
-   "reside"
-  ],
-  "date": "2026-11-01T19:14:10.685019+00:00",
-  "titre": "Des avocats dénoncent des assignations à résidence de militants"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "interp",
-   "interv",
-   "marsei",
-   "pompie",
-   "pres",
-   "sapeur"
-  ],
-  "date": "2026-11-01T19:18:06.214167+00:00",
-  "titre": "Un pompier grièvement blessé par balle près de Marseille"
- },
- {
-  "sig": [
-   "donald",
-   "guerre",
-   "moyen",
-   "olechk",
-   "orient",
-   "treve",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-11-01T19:18:06.214177+00:00",
-  "titre": "Olechky : la trêve prend fin ce dimanche soir"
- },
- {
-  "sig": [
-   "blesse",
-   "engin",
-   "gendar",
-   "hostil",
-   "incend",
-   "paris",
-   "racont",
-   "violen"
-  ],
-  "date": "2026-11-01T19:18:06.214180+00:00",
-  "titre": "Paris : un gendarme blessé par un engin incendiaire"
- },
- {
-  "sig": [
-   "clermo",
-   "ecroue",
-   "examen",
-   "ferran",
-   "homme",
-   "immeub",
-   "incend",
-   "mis"
-  ],
-  "date": "2026-11-01T19:18:06.214183+00:00",
-  "titre": "Clermont-Ferrand : un incendie criminel fait quatre morts"
- },
- {
-  "sig": [
-   "2026",
-   "americ",
-   "campag",
-   "donald",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-01T19:18:06.214185+00:00",
-  "titre": "Midterms : le coût de la vie au cœur de la campagne"
- },
- {
-  "sig": [
-   "assign",
-   "avocat",
-   "denonc",
-   "empech",
-   "manife",
-   "milita",
-   "octobr",
-   "reside"
-  ],
-  "date": "2026-11-01T19:18:06.214188+00:00",
-  "titre": "Des avocats dénoncent des assignations à résidence de militants"
- },
- {
-  "sig": [
-   "2027",
-   "divisi",
-   "droite",
-   "edouar",
-   "philip",
-   "presid",
-   "primai",
-   "refuse"
-  ],
-  "date": "2026-11-01T21:23:17.246641+00:00",
-  "titre": "Philippe rejette la primaire de droite et du centre"
- },
- {
-  "sig": [
-   "2026",
-   "accide",
-   "etats",
-   "jet",
-   "midter",
-   "neuf",
-   "prive",
-   "unis"
-  ],
-  "date": "2026-11-01T21:23:17.246652+00:00",
-  "titre": "Midterms : Trump fait de l'élection un référendum"
- },
- {
-  "sig": [
-   "emmanu",
-   "gregoi",
-   "maire",
-   "octobr",
-   "paris",
-   "racist",
-   "trappe",
-   "violen"
-  ],
-  "date": "2026-11-01T21:23:17.246655+00:00",
-  "titre": "Paris saisit la justice après des tags racistes"
- },
- {
-  "sig": [
-   "bezier",
-   "bouamr",
-   "dvd",
-   "gouver",
-   "maire",
-   "menard",
-   "presid",
-   "robert"
-  ],
-  "date": "2026-11-01T21:23:17.246657+00:00",
-  "titre": "Ménard et Bouamrane s'affrontent sur l'école et le mépris"
- },
- {
-  "sig": [
-   "artifi",
-   "attaqu",
-   "blesse",
-   "brule",
-   "engin",
-   "gendar",
-   "incend",
-   "paris"
-  ],
-  "date": "2026-11-01T21:23:17.246659+00:00",
-  "titre": "Paris : des gendarmes blessés par un engin incendiaire"
- },
- {
-  "sig": [
-   "adoles",
-   "armes",
-   "arrete",
-   "attent",
-   "averti",
-   "jeune",
-   "moscou",
-   "russe"
-  ],
-  "date": "2026-11-01T21:23:17.246660+00:00",
-  "titre": "Moscou arrête un mineur après une menace d'attentat"
- },
- {
-  "sig": [
-   "avion",
-   "crash",
-   "etats",
-   "florid",
-   "morts",
-   "neuf",
-   "petit",
-   "prive"
-  ],
-  "date": "2026-11-02T00:32:42.650754+00:00",
-  "titre": "Neuf morts dans le crash d'un jet privé en Floride"
- },
- {
-  "sig": [
    "2026",
    "democr",
    "donald",
@@ -922,5 +572,145 @@
   ],
   "date": "2026-11-03T00:03:21.888021+00:00",
   "titre": "Israël : l'opposition se réunit, Netanyahu revendique la coalition"
+ },
+ {
+  "sig": [
+   "2026",
+   "americ",
+   "donald",
+   "electi",
+   "etats",
+   "midter",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-11-03T16:51:50.034932+00:00",
+  "titre": "Les Américains votent aux midterms, Trump en ligne de mire"
+ },
+ {
+  "sig": [
+   "2026",
+   "goncou",
+   "inconn",
+   "jaenad",
+   "javel",
+   "philip",
+   "prix",
+   "quai"
+  ],
+  "date": "2026-11-03T16:51:50.034942+00:00",
+  "titre": "Philippe Jaenada décroche le prix Goncourt 2026"
+ },
+ {
+  "sig": [
+   "bilan",
+   "frappe",
+   "guerre",
+   "morts",
+   "russe",
+   "russes",
+   "sud",
+   "ukrain"
+  ],
+  "date": "2026-11-03T16:51:50.034946+00:00",
+  "titre": "Les États-Unis frappent l'île iranienne de Qeshm"
+ },
+ {
+  "sig": [
+   "agress",
+   "direct",
+   "ecole",
+   "enseig",
+   "mere",
+   "nice",
+   "oqtf",
+   "radica"
+  ],
+  "date": "2026-11-03T16:51:50.034949+00:00",
+  "titre": "Une frappe russe tue au moins 29 personnes près de Zaporijjia"
+ },
+ {
+  "sig": [
+   "attend",
+   "greve",
+   "novemb",
+   "pertur",
+   "quoi",
+   "rer",
+   "tgv",
+   "trafic"
+  ],
+  "date": "2026-11-03T16:51:50.034951+00:00",
+  "titre": "Kiev dénonce des frappes russes massives sur l'énergie"
+ },
+ {
+  "sig": [
+   "2026",
+   "americ",
+   "donald",
+   "electi",
+   "etats",
+   "midter",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-11-03T17:12:04.610472+00:00",
+  "titre": "Les Américains votent aux midterms, Trump en ligne de mire"
+ },
+ {
+  "sig": [
+   "2026",
+   "goncou",
+   "inconn",
+   "jaenad",
+   "javel",
+   "philip",
+   "prix",
+   "quai"
+  ],
+  "date": "2026-11-03T17:12:04.610485+00:00",
+  "titre": "Philippe Jaenada décroche le prix Goncourt 2026"
+ },
+ {
+  "sig": [
+   "bilan",
+   "frappe",
+   "guerre",
+   "morts",
+   "russe",
+   "russes",
+   "sud",
+   "ukrain"
+  ],
+  "date": "2026-11-03T17:12:04.610488+00:00",
+  "titre": "Les États-Unis frappent l'île iranienne de Qeshm"
+ },
+ {
+  "sig": [
+   "agress",
+   "direct",
+   "ecole",
+   "enseig",
+   "mere",
+   "nice",
+   "oqtf",
+   "radica"
+  ],
+  "date": "2026-11-03T17:12:04.610491+00:00",
+  "titre": "Une frappe russe tue au moins 29 personnes près de Zaporijjia"
+ },
+ {
+  "sig": [
+   "attend",
+   "greve",
+   "novemb",
+   "pertur",
+   "quoi",
+   "rer",
+   "tgv",
+   "trafic"
+  ],
+  "date": "2026-11-03T17:12:04.610495+00:00",
+  "titre": "Kiev dénonce des frappes russes massives sur l'énergie"
  }
 ]
