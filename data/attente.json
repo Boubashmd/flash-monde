@@ -1,1 +1,1751 @@
-[]
+[
+ {
+  "type": "edition",
+  "jeton": "434971",
+  "messages": {
+   "0": 1155,
+   "1": 1156,
+   "2": 1157,
+   "3": 1158,
+   "4": 1159
+  },
+  "id_fin": 1160,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Midterms : une vague de premières historiques pour les minorités",
+      "resume": "La première gouverneure noire, le premier sénateur ouvertement homosexuel et la première gouverneure amérindienne ont tous remporté des élections historiques lors d'un scrutin qui a enregistré des victoires éclatantes pour les démocrates.",
+      "lien": "https://fr.euronews.com/2026/11/04/midterms-une-vague-de-premieres-historiques-pour-les-minorites",
+      "date": "2026-11-04T08:49:07+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "France 24",
+      "titre": "Midterms : des premières historiques pour des élus issus de minorités",
+      "resume": "Lors des midterms du mardi 3 novembre les démocrates vainqueurs représentent de nombreuses premières historiques pour celles et ceux issus de minorités. Ces élections inédites concernent par exemple Abdul El-Sayed, premier sénateur musulman, Chris Pappas, premier sénateur ouvertement gay ou encore Keisha Lance Bottoms, première femme noire élue gouverneure. Les précisions de Gauthier Rybinski, chroniqueur international à France 24.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-des-premi%C3%A8res-historiques-pour-des-%C3%A9lus-issus-de-minorit%C3%A9s",
+      "date": "2026-11-04T13:09:38+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/00ed0c1c-d846-11f1-abc8-d18c5759e759/w:1024/p:16x9/FR-20261104-120927-121248-CS.jpg"
+     },
+     {
+      "source": "RFI",
+      "titre": "Midterms 2026: ces premières historiques qui ont marqué le scrutin",
+      "resume": "Les démocrates américains ont réalisé, mardi 3 novembre, une performance majeure en reprenant le contrôle de la Chambre des représentants et du Sénat lors des élections de mi-mandat. Un scrutin en forme de réprimande cinglante à Donald Trump. De nouveaux responsables politiques vont donc prendre part à l'avenir du pays. Dans certains cas, il s'agit même de premières fois historiques, notamment pour plusieurs femmes noires, amérindiennes ou des figures ouvertement LGBTQ+.",
+      "lien": "https://www.rfi.fr/fr/am%C3%A9riques/20261104-midterms-2026-aux-%C3%A9tats-unis-nouvelles-figures-et-premi%C3%A8res-historiques",
+      "date": "2026-11-04T10:02:56+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/af358ec6-d827-11f1-a6e0-1beafce15fea/w:1024/p:16x9/000-D6D433C.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Midterms 2026 : premier sénateur musulman, premier homme ouvertement gay au Sénat… plusieurs candidats issus de minorités ont remporté des sièges",
+      "resume": "A l’image d’Abdul El-Sayed, devenu premier sénateur musulman aux Etats-Unis, plusieurs candidats issus de minorités ont remporté pour la première fois des postes de premier rang lors des élections de mi-mandat, le 3 novembre 2026.",
+      "lien": "https://www.lemonde.fr/international/video/2026/11/04/midterms-2026-premier-senateur-musulman-premier-homme-ouvertement-gay-au-senat-plusieurs-candidats-issus-de-minorites-ont-remporte-des-sieges_6806236_3210.html",
+      "date": "2026-11-04T13:57:37+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/04/202/0/2426/1213/644/322/60/0/80d4d14_ftp-1-wc6mwp5sprdb-4e7ac57ba50349ab84285f1824e31427-1-b6c7a5dab1344178bdb6b5b09a46efce.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Midterms 2026 : visualisez en cartes et en graphiques les premiers enseignements du scrutin",
+      "resume": "Les démocrates remportent à la fois la Chambre des représentants et le Sénat. Visualisez l’ampleur de la bascule, le recul du camp républicain et les effets du redécoupage électoral lors de ces élections de mi-mandat.",
+      "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/midterms-2026-visualisez-en-cartes-et-en-graphiques-les-premiers-enseignements-du-scrutin_6806235_4355770.html",
+      "date": "2026-11-04T13:48:07+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/04/30/0/2198/1099/644/322/60/0/79a366f_upload-1-kthp0rvwe3wo-capture-d-e-cran-2026-11-04-a-14-08-53.png"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Résultats des Midterms 2026 : les élections américaines de mi-mandat en cartes et en temps réel",
+      "resume": "Les électeurs américains sont appelés aux urnes, mardi 3 novembre, afin de renouveler la totalité de la Chambre des représentants et un tiers du Sénat. Le Parti républicain de Donald Trump est menacé de perdre sa majorité dans les deux Chambres formant le Congrès.",
+      "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/les-resultats-des-midterms-2026-en-cartes-et-en-temps-reel_6805570_4355771.html",
+      "date": "2026-11-04T11:36:23+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/03/76/0/1630/815/644/322/60/0/860efd6_upload-1-hrfhixq0fsah-capture-d-e-cran-2026-11-03-a-10-32-54.png"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Midterms 2026 : les démocrates remportent aussi des victoires sans précédent aux postes de gouverneur",
+      "resume": "Le gouverneur républicain du Texas a été battu, le protégé du vice-président, J. D. Vance, aussi, dans l’Ohio, tandis que, pour la première fois, une Amérindienne va diriger le Nouveau-Mexique. Les républicains sauvent la Floride.",
+      "lien": "https://www.lemonde.fr/international/article/2026/11/04/midterms-2026-les-democrates-remportent-aussi-des-victoires-sans-precedent-aux-postes-de-gouverneur_6806144_3210.html",
+      "date": "2026-11-04T10:30:06+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/04/506/0/6072/3036/644/322/60/0/ac541f4_ftp-1-yvngwtqpbb3w-73ede4fddc90490cb09ca055ba61ce38-0-41a3cd1a98f342fbb1680ca7521f4687.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Midterms 2026 : au lendemain du scrutin, la menace d’une reprise de la guerre américaine contre l’Iran",
+      "resume": "Malgré la défaite cuisante de son camp, le président républicain a réaffirmé, durant la nuit de mardi à mercredi, qu’il envisageait d’infliger un « coup dur » à Téhéran. Durant la campagne, il n’avait cessé d’évoquer la République islamique, la menaçant de nouvelles frappes ou en minimisant la menace.",
+      "lien": "https://www.lemonde.fr/international/article/2026/11/04/midterms-2026-au-lendemain-du-scrutin-la-menace-d-une-reprise-de-la-guerre-americaine-contre-l-iran_6806138_3210.html",
+      "date": "2026-11-04T09:42:45+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/03/570/0/6846/3423/644/322/60/0/7d110e7_ftp-1-aeanoawz3ljv-afp-d68w7vz.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
+      "resume": "A l'issue d'élections de mi-mandat particulièrement scrutées, le parti républicain a cédé mardi le contrôle du Congrès américain, en perdant la majorité au Sénat et à la Chambre des représentants.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T16:33:55+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/7-Kqd1di3XM_3FbrPnlaxlPZC0U/0x0:4569x2570/432x243/filters:format(jpg)/2026/11/04/6aeb039487ca0927006612.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Le résultat des midterms est \"une raclée\" pour Donald Trump, analyse Amy Greene, politologue spécialiste des Etats-Unis",
+      "resume": "Les élections de mi-mandat américaines ont été marquées par une large victoire des démocrates. Selon la politologue et spécialiste des Etats-Unis Amy Greene, \"les Américains sont épuisés et attendent les résultats du changement\", deux ans après le retour de Donald Trump à la tête du pays. Concernant les conséquences de cette déroute pour le président républicain, elle estime qu'\"avec un niveau de défaite aussi important, ignorer le Congrès va à l'encontre de ce qu'a demandé le peuple américain\". Elle apporte toutefois une nuance en rappelant qu' \"à l'international, cela lui laisse une marge de",
+      "lien": "https://www.franceinfo.fr/monde/usa/le-resultat-des-midterms-pour-donald-trump-une-raclee-on-ne-peut-pas-le-dire-autrement-analyse-amy-greene-politologue-specialiste-des-etats-unis_8267783.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T14:48:12+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/FtlLa4GcrvSj4VZPm9qrGkV7GuQ/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/04/6aeb3509299ad833708409.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "\"Les Américains ont dit non à la guerre\" : l'Iran se réjouit de la déroute électorale de Donald Trump aux midterms 2026",
+      "resume": "Quel est le poids de la guerre en Iran dans la déroute du camp républicain aux Etats-Unis ? Le président américain admet mercredi que le conflit déclenché en février contre Téhéran lui a sans doute coûté des sièges au Sénat.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/les-americains-ont-dit-non-a-la-guerre-l-iran-se-rejouit-de-la-deroute-electorale-de-donald-trump-aux-midterms-2026_8267435.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T13:08:36+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/AFeR3PW7Yw262e2qRumbD8tZnD4/0x53:1024x629/432x243/filters:format(jpg)/2026/11/04/6aeb169c7dd85746142952.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Texas, Kansas, Caroline du Sud… De nombreux États basculent démocrates avec les midterms, confirmant la déroute de Donald Trump",
+      "resume": "À l'issue des élections de mi-mandat aux États-Unis, tous les bastions républicains susceptibles de basculer sont passés démocrates. Après l'implication de Donald Trump dans la campagne, ces midterms sont une défaite pour le président.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/texas-kansas-caroline-du-sud-de-nombreux-etats-basculent-democrates-avec-les-midterms-confirmant-la-deroute-de-donald-trump_8267708.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T16:20:08+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/-NsjIkyA3YnWVjGVKIU7Gi6F0VM/0x0:1504x846/432x243/filters:format(jpg)/2026/11/04/6aeb2a7a31e40591717482.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Donald Trump peut-il être visé par une procédure de destitution après la victoire des démocrates aux midterms ?",
+      "resume": "Le Parti démocrate a obtenu mardi la majorité à la Chambre des représentants, mais également au Sénat, à l'occasion des élections de mi-mandat américaines. Mais la perspective même d'un \"impeachment\" du chef de l'Etat divise le camp progressiste.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/donald-trump-peut-il-etre-vise-par-une-procedure-de-destitution-apres-la-victoire-des-democrates-aux-midterms_8267429.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T11:51:53+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/gon-nU16u2QpcnrnFX2pbJbIdSY/0x0:1024x576/432x243/filters:format(jpg)/2026/11/04/6aeb0ad9bcaff852209178.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "James Talarico au Texas, Abdul el-Sayed au Michigan, Jon Ossoff en Géorgie… Ces figures démocrates qui vont compter après leurs victoires aux midterms 2026",
+      "resume": "Visages du triomphe de l'opposition à Donald Trump lors des élections de mi-mandat, ces personnalités entendent peser sur les débats nationaux d'ici l'élection présidentielle de 2028.",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/james-talarico-au-texas-abdul-el-sayed-au-michigan-jon-ossoff-en-georgie-ces-figures-democrates-qui-vont-compter-apres-leurs-victoires-aux-midterms-2026_8267432.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T11:19:56+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/qdmnQJLLDN2m6QQnhIJr0zPVofI/0x0:5727x3221/432x243/filters:format(jpg)/2026/11/04/6aeb08e9707fc629905217.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Vue d'Asie, que peut changer la victoire des démocrates américains aux élections de mi-mandat ?",
+      "resume": "En Asie, tous les gouvernements ont suivi de très près les résultats des élections américaines de mi-mandat. Ils se demandent dans quelle mesure la victoire des démocrates peut modifier certains des choix politiques de Donald Trump.",
+      "lien": "https://www.franceinfo.fr/replay-radio/bientot-chez-vous/vue-d-asie-que-peut-changer-la-victoire-des-democrates-americains-aux-elections-de-mi-mandat_8246461.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T10:21:16+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/neFyPR4DuWdFYR8UoEZdHLC6kQI/0x175:3377x2075/432x243/filters:format(jpg)/2026/11/04/6aeaf11633869928480498.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "\"Un message d’espoir pour tous\" : en France, la gauche salue le revers infligé à Donald Trump lors des midterms 2026",
+      "resume": "La défaite est totale pour Donald Trump, après les élections de mi-mandat américaines. En France, plusieurs personnalités de gauche réagissent, comme Marine Tondelier : \"Puisse cette leçon nous servir\".",
+      "lien": "https://www.franceinfo.fr/monde/usa/midterms-2018/un-message-d-espoir-pour-tous-en-france-la-gauche-salue-le-revers-inflige-a-donald-trump-lors-des-midterms-2026_8267498.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T10:31:51+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/8AMrkqVAvlyva9K1oKcmym_O4PY/0x160:2738x1700/432x243/filters:format(jpg)/2026/11/03/6ae999c6f0c1a497703640.jpg"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Pouvoir d'achat, prix du carburant... Ces Américains expliquent le \"Blue-nami\", cette \"vague bleue\" aux midterms 2026 qui déstabilise Donald Trump",
+      "resume": "Au lendemain des élections de mi-mandat, mercredi, la défaite est totale pour Donald Trump. Les démocrates ont remporté tous les scrutins serrés et indécis, avec des percées dans des territoires largement acquis au président, il y a deux ans. En cause, son incompétence à relever le pouvoir d'achat des Américains moyens.",
+      "lien": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/pouvoir-d-achat-prix-du-carburant-ces-americains-expliquent-le-blunami-cette-vague-bleue-aux-midterms-2026-qui-destabilise-donald-trump_8246506.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T14:00:45+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/AkYh3weX8R2nkJ3a7FbsGXaL2ls/0x285:5472x3363/432x243/filters:format(jpg)/2026/11/04/6aeaeff3e2db7183174731.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : revirement des Latinos et des ménages modestes, mobilisation des jeunes et des banlieues… Comment expliquer la vague démocrate ?",
+      "resume": "DÉCRYPTAGE - La déroute des républicains peut être lue à la lumière du changement drastique de vote chez certaines catégories de population par rapport à l’élection présidentielle de 2024, qui avait porté Donald Trump au pouvoir. Le Figaro s’est penché sur les sondages de sortie des urnes.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-revirement-des-latinos-et-des-menages-modestes-mobilisation-des-jeunes-et-des-banlieues-comment-expliquer-la-vague-democrate-20261104",
+      "date": "2026-11-04T16:23:21+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/11/04/db18a2c2677ea9e418bf64fdacfa6e6d799468ae8d5851c0c32d9110b842d8be.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : comment les démocrates ont conquis le Texas, bastion historique des républicains",
+      "resume": "DÉCRYPTAGE - Les démocrates ont remporté une grande victoire dans cet État acquis au parti républicain depuis près de 40 ans.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-comment-les-democrates-ont-conquis-le-texas-bastion-historique-des-republicains-20261104",
+      "date": "2026-11-04T16:00:00+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2998x1686_crop/2026/11/04/071bf8cb143ed95b27725158ba490d20227da8caa839243294e986c6c49c36df.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : la première victime de la vague démocrate pourrait être Pete Hegseth",
+      "resume": "Le secrétaire de la Défense est sur la sellette après la victoire des démocrates. Plusieurs d’entre eux indiquent vouloir destituer le militaire, fervent défenseur de la guerre en Iran et à l’origine de limogeages en cascade au sein des armées américaines.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-la-premiere-victime-de-la-vague-democrate-pourrait-etre-pete-hegseth-20261104",
+      "date": "2026-11-04T15:33:49+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/04/ce8e6cf03df28d0a1be315dcc03fa9c253adf55b1aa7902ce45d5ae2ad7a2e02.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : pourquoi les démocrates sont-ils représentés en bleu et les républicains en rouge ?",
+      "resume": "Le choix des couleurs pour représenter les partis politiques est souvent source de débat en Europe. Aux États-Unis, le consensus est net, mais ce n’était pas le cas il y a encore quelques dizaines d’années.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-pourquoi-les-democrates-sont-ils-representes-en-bleu-et-les-republicains-en-rouge-20261104",
+      "date": "2026-11-04T16:25:15+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/11/04/80b72b11f509d97538e3401f4836a7e08b0a10de4782d3ce41f214864313b8c6.JPG"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : Donald Trump risque-t-il une troisième procédure de destitution après la victoire des démocrates ?",
+      "resume": "DÉCRYPTAGE - Après leur victoire, les démocrates pourraient engager une troisième procédure d’impeachment contre Donald Trump. Mais cette perspective divise le parti, dont certains élus préfèrent privilégier les enquêtes parlementaires, voire cibler des membres de son administration.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-donald-trump-risque-t-il-une-troisieme-procedure-de-destitution-apres-la-victoire-des-democrates-20261104",
+      "date": "2026-11-04T12:25:17+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1568x882_crop/2026/11/04/e461029ac49c8a381e385738c0f8acaf2968c70d66bc783d087e622f484825ac.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "«Canard boiteux», «vague bleue», «désaveu total» : la presse internationale analyse la défaite de Donald Trump aux midterms 2026",
+      "resume": "REVUE DE PRESSE - Si les électeurs ont exprimé un net rejet de la politique du président américain, les lendemains qui chantent ne sont pas pour autant à espérer tout de suite, estiment les journaux du monde entier.",
+      "lien": "https://www.lefigaro.fr/international/canard-boiteux-vague-bleue-desaveu-total-la-presse-internationale-analyse-la-defaite-de-donald-trump-aux-midterms-2026-20261104",
+      "date": "2026-11-04T15:39:57+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1564x880_crop/2026/11/04/d548434d6bd420c35fbf1b765b911bf2f16c4fc061f941710fa245adf6a2e761.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : au cœur de l’Amérique conservatrice, le pasteur démocrate Adam Hamilton fait basculer le bastion républicain du Kansas",
+      "resume": "DÉCRYPTAGE - Pour la première fois depuis 1932, les électeurs de cet État ultraconservateur ont choisi une personnalité de gauche pour les représenter au Sénat.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-le-pasteur-democrate-adam-hamilton-s-impose-dans-le-bastion-republicain-du-kansas-20261104",
+      "date": "2026-11-04T11:23:29+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/04/e68fc262ef3b2893c5609f228b377fffaffcfce03c45f3e84446898997eedadd.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "« C’est l’économie qui compte, idiot ! » : la victoire des démocrates aux midterms, un revers économique pour Donald Trump",
+      "resume": "DÉCRYPTAGE - La flambée des prix des carburants et des produits de consommation courante a incontestablement pesé lourd dans le choix des électeurs américains.",
+      "lien": "https://www.lefigaro.fr/international/c-est-l-economie-qui-compte-idiot-la-victoire-des-democrates-aux-midterms-un-revers-economique-pour-donald-trump-20261104",
+      "date": "2026-11-04T09:38:22+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/04/6a722b05e891d7e011202ab438d99b1c2de985b4639ea3c8a125893adcd0f0b3.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "«Tout coûte entre 20 et 30% plus cher» : en Géorgie, le pouvoir d’achat au cœur du vote des électeurs aux midterms",
+      "resume": "REPORTAGE - À Atlanta, la flambée des prix alimentaires, des carburants et des loyers nourrit les inquiétudes des habitants. Comme partout ailleurs aux États-Unis, ils ont sanctionné les républicains dans les urnes lors des élections de mi-mandat, mardi 3 novembre.",
+      "lien": "https://www.lefigaro.fr/conjoncture/tout-coute-entre-20-et-30-plus-cher-en-georgie-le-pouvoir-d-achat-au-coeur-du-vote-des-electeurs-aux-midterms-20261104",
+      "date": "2026-11-04T15:39:58+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/04/18bf11dd9e4a92498a6d55f7c063b1037b3ffed28b946cb91fdc9fdc23e75094.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : comment fonctionne le droit de veto, que Donald Trump promet d’utiliser contre certains textes démocrates ?",
+      "resume": "DÉCRYPTAGE - Alors que les républicains viennent d’essuyer une véritable déroute, le 47e président des États-Unis a affirmé qu’il mettrait «son veto à tout».",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-comment-fonctionne-le-droit-de-veto-que-donald-trump-promet-d-utiliser-contre-certains-textes-democrates-20261104",
+      "date": "2026-11-04T16:03:26+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x1688_crop/2026/11/04/4ddf80cfff47b549bf5c20a8791e9a1187be25891375245a173a9711771e798f.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Raz-de-marée démocrate aux Midterms 2026 : retrouvez tous les résultats, État par État",
+      "resume": "CARTE – Le Parti démocrate prend le contrôle du Sénat et s’empare aussi de la Chambre des représentants dans ce qui ressemble à une vague bleue déferlant sur le pays.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-donald-trump-va-t-il-conserver-sa-majorite-au-congres-suivez-les-resultats-et-la-carte-en-direct-20261104",
+      "date": "2026-11-04T07:49:32+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/11/03/4fa0ff3635fc2575aac5f8b1455ba4350130fead937eb1ea7c37f4982b7c4f02.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "Midterms 2026 : dans l’Ohio, une défaite retentissante pour le milliardaire Vivek Ramaswamy et les républicains",
+      "resume": "PORTRAIT - La démocrate Amy Acton a remporté le poste de gouverneur de l’Ohio en battant l’entrepreneur proche de la Maison-Blanche.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-dans-l-ohio-une-defaite-retentissante-pour-le-milliardaire-vivek-ramaswamy-et-les-republicains-20261104",
+      "date": "2026-11-04T07:49:35+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2691x1513_crop/2026/11/04/2669746d28d31a541acf6d1e6bad5378cfb4563adf4f057c7c320f508c89b3c3.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "États-Unis : la campagne des élections de mi-mandat 2026 devrait battre des records de dépenses",
+      "resume": "La campagne des élections de mi-mandat de 2026 est en passe de devenir la plus coûteuse de l’histoire des États-Unis avec des dépenses totales projetées à près de 12 milliards de dollars, avec une percée majeure dans les investissements extérieurs.",
+      "lien": "https://www.lefigaro.fr/flash-actu/etats-unis-la-campagne-des-elections-de-mi-mandat-2026-devrait-battre-des-records-de-depenses-20261103",
+      "date": "2026-11-04T04:45:21+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/03/057c23500580fb38eea318530a71d540829eb8e032489bbd7aceb9de961924ef.jpg"
+     },
+     {
+      "source": "Radio-Canada",
+      "titre": "Élections de mi-mandat aux États-Unis : le coût de la vie au cœur des enjeux",
+      "resume": "La guerre en Iran a poussé les prix du pétrole à plus de 100 $ le baril, entraînant une hausse du prix de l'essence et du diesel. À cela s'ajoute la politique tarifaire, qui accentue davantage la pression inflationniste. Analyse de l'état de l'économie américaine avec les économistes Sébastien McMahon et Mathieu Taschereau-Dumouchel.",
+      "lien": "https://ici.radio-canada.ca/info/videos/1-10800932/elections-mi-mandat-aux-etats-unis-cout-vie-au-coeur-enjeux",
+      "date": "2026-11-04T13:17:32+00:00",
+      "groupe": "Radio-Canada",
+      "image": "https://rcavstaticstreaming.akamaized.net/img/356090a3-40ce-4b28-adbe-0c83b27f2355/HR/2026-1103-2025_01.jpeg"
+     },
+     {
+      "source": "RTS",
+      "titre": "Les midterms sont-elles le début de la fin pour Donald Trump?",
+      "resume": "Les démocrates américains ont repris le contrôle des deux chambres du Congrès lors des élections de mi-mandat. Cette défaite historique pour Donald Trump rebat les cartes à Washington. Le président devra composer avec un Parlement hostile pour ses deux dernières années de mandat.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/midterms-2026-defaite-historique-pour-donald-trump-29405950.html?rts_source=rss_t",
+      "date": "2026-11-04T16:49:56+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/513b7a98-29405953.image?w=320&h=180"
+     },
+     {
+      "source": "RTS",
+      "titre": "Donald Trump reconnaît la défaite des siens et félicite les démocrates, qui se sont \"bien battus\"",
+      "resume": "Donald Trump a reconnu mercredi la défaite de son camp aux élections de mi-mandat. Il a estimé que la guerre en Iran était \"en partie\" responsable de la déroute du Parti républicain face aux démocrates.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/elections-de-mi-mandat-donald-trump-reconnait-sa-defaite-29405107.html?rts_source=rss_t",
+      "date": "2026-11-04T05:46:26+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/97c15dc3-29405101.image?w=320&h=180"
+     },
+     {
+      "source": "RTS",
+      "titre": "Enquêtes, nominations: les conséquences de l'écrasante victoire des démocrates aux élections de mi-mandat",
+      "resume": "L'éclatante victoire démocrate mardi lors des élections de mi-mandat, face à un Parti républicain en déroute, livre le contrôle du Congrès à la gauche américaine, synonyme de sérieux coup de frein pour Donald Trump lors de ses deux années restantes à la Maison Blanche.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/elections-de-mi-mandat-la-victoire-democrate-freine-trump-29405096.html?rts_source=rss_t",
+      "date": "2026-11-04T05:27:33+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/71c7e6f7-29405097.image?w=320&h=180"
+     },
+     {
+      "source": "RTS",
+      "titre": "Le raz-de-marée démocrate aux élections de mi-mandat est \"très clairement un rejet du président Trump\"",
+      "resume": "",
+      "lien": "https://www.rts.ch/info/monde/2026/minute-par-minute/29402944.html?rts_source=rss_t",
+      "date": "2026-11-04T04:40:00+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/170da93d-29405949.image?w=320&h=180"
+     },
+     {
+      "source": "RTS",
+      "titre": "Les résultats détaillés des élections de mi-mandat aux Etats-Unis",
+      "resume": "Les démocrates ont signé une victoire sans appel mardi avec une majorité acquise aux deux chambres du Congrès américain lors des élections de mi-mandat. Un scrutin qui a tourné au désastre pour Donald Trump et les républicains: découvrez les résultats Etat par Etat.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/midterms-2026-les-resultats-detailles-des-elections-aux-usa-29405066.html?rts_source=rss_t",
+      "date": "2026-11-04T04:09:55+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/1595ecc6-29405065.image?w=320&h=180"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms 2026 : Les marchés financiers optimistes après la défaite de Trump et des républicains",
+      "resume": "Les démocrates ont enregistré mardi une victoire sans appel, avec une majorité acquise dans les deux chambres du Congrès, lors d’élections qui ont tourné au désastre pour Donald Trump et les républicains",
+      "lien": "https://www.20minutes.fr/monde/4260420-20261104-midterms-2026-marches-financiers-optimistes-apres-defaite-trump-republicains?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T16:26:10+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/dpgHw_VlTvCaFZ4jCJ_9LSk/1200x768_illustration-photographique-du-marche-boursier-dow-jones-down-07allil-images-0g4a7031-credit-francois-greuez-sipa-2510141718"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms 2026 : Après la défaite des républicains, le gros donateur Elon Musk rit jaune",
+      "resume": "Elon Musk a réagi avec humour (jaune) sur les réseaux sociaux après la défaite des candidats républicains qu’il avait soutenus aux élections de mi-mandat",
+      "lien": "https://www.20minutes.fr/monde/4260340-20261104-midterms-2026-apres-defaite-republicains-gros-donateur-elon-musk-rit-jaune?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T12:44:34+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/DnBBB0dFTCmHqXpryhu_9yk/1200x768_dossier-elon-musk-ecoute-le-discours-du-president-donald-trump-lors-d-un-evenement-a-l-institut-americain-pour-la-paix-le-8-octobre-2026-a-washington-ap-photo-julia-demaree-nikhinson-dossier-dcwp206-26281662471891-photo-d-archive-2610131711"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms : Le Congrès américain peut-il obliger Trump à mettre fin à sa guerre contre l’Iran ?",
+      "resume": "Alors que Donald Trump et le camp républicain ont subi une lourde défaite électorale aux midterms et que le président des États-Unis menace de bombarder à nouveau l’Iran, le Congrès a-t-il le pouvoir de faire la paix ?",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260279-20261104-midterms-congres-americain-peut-obliger-trump-mettre-fin-guerre-contre-iran?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T16:33:23+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/s8chttCsQ-u3A_gFt0F9-Sk/1200x768_le-president-donald-trump-prend-la-parole-lors-d-une-session-conjointe-du-congres-au-capitole-americain-a-washington-dc-le-mardi-4-mars-2025-photo-de-piscine-prise-par-win-mc-namee-upi-photo-via-newscom-upi-photos-three060136-upi-newscom-sipa-2503050420"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms 2026 : Veto, décrets… Quels pouvoirs pour Donald Trump maintenant ?",
+      "resume": "Les démocrates vont reprendre en janvier le contrôle du Congrès américain, et ainsi du pouvoir législatif, grâce à leur percée aux Midterms. Donald Trump conserve toutefois une partie du pouvoir exécutif",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260261-20261104-midterms-2026-veto-decrets-pouvoirs-trump-maintenant?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T10:07:01+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/8DXFga6ARBe_jgevCQl2hSk/1200x768_2-novembre-2026-joint-base-andrews-maryland-etats-unis-d-amerique-le-president-americain-donald-trump-fait-un-geste-alors-qu-il-s-adresse-aux-journalistes-avant-de-monter-a-bord-d-air-force-one-a-la-base-interarmees-andrews-le-29-octobre-2026-a-la-base-interarmees-andrews-dans-le-maryland-trump-s-est-envole-pour-rock-hill-en-caroline-du-sud-pour-un-rassemblement-de-mi-mandat-au-rock-hill-sports-events-center-en-soutien-a-la-candidate-republicaine-au-senat-americain-darline-graham-image-de-credit-joyce-n-boghosian-maison-blanche-planet-pix-via-zuma-press-wire-20261102-zaa-p138-044-zeus-2611022307"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms 2026 : Gouverneure noire, sénateur musulman… Le point sur la percée inédite des minorités",
+      "resume": "Ces élections de mi-mandat ont permis à plusieurs démocrates issus de minorités d’accéder de manière inédite à diverses positions de pouvoir",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260253-20261104-midterms-2026-gouverneure-noire-senateur-musulman-point-percee-inedite-minorites?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T09:07:12+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/wCQxEH7pS46i5H2wxLJMLik/1200x768_credit-obligatoire-photo-de-exclusive-access-net-shutterstock-17259402t-la-gouverneure-elue-de-georgie-keisha-lance-bottoms-s-adresse-a-ses-partisans-apres-sa-victoire-aux-elections-a-atlanta-en-georgie-le-3-novembre-2026-la-gouverneure-elue-de-georgie-keisha-lance-bottoms-s-adresse-a-ses-partisans-apres-sa-victoire-electorale-atlanta-georgie-etats-unis-03-novembre-2026-shutterstock-editorial-georgia-governor-elect-keisha-17259402t-2611040708"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Midterms 2026 : Qui est James Talarico, le nouveau sénateur presbytérien du Texas ?",
+      "resume": "Le démocrate de 37 ans a fait basculer un bastion républicain en remportant un siège de sénateur au Texas, le deuxième État le plus peuplé du pays",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260240-20261104-midterms-2026-james-talarico-nouveau-senateur-presbyterien-texas?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T08:07:53+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/RRqqWteZS_W2uHf99i_ddik/1200x768_le-candidat-democrate-au-senat-le-representant-de-l-etat-du-texas-james-talarico-prend-la-parole-lors-d-une-soiree-electorale-a-austin-au-texas-le-mardi-3-novembre-2026-ap-photo-eric-gay-elnpu581-26308206054446-2611040645"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "États-Unis : « Ils sont CONTRE moi »… Trump sur les nerfs avant l’issue des midterms",
+      "resume": "En pleine soirée électorale aux États-Unis – cruciale pour la fin de son mandat à la Maison-Blanche – Donald Trump enchaîne les critiques contre Fox News",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260205-20261104-etats-unis-contre-trump-nerfs-avant-issue-midterms?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T01:51:06+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/g1Hfsz18TWmQbvIPfixLsik/1200x768_le-president-donald-trump-sourit-apres-avoir-pris-la-parole-lors-d-un-rassemblement-de-campagne-a-l-aeroport-regional-de-salina-le-dimanche-1er-novembre-2026-a-salina-kan-ap-photo-charlie-riedel-ksje402-26306146258055-2611020505"
+     },
+     {
+      "source": "BBC Afrique",
+      "titre": "Trump s'en prend aux républicains mais affirme que les démocrates ont fait du « bon travail ».",
+      "resume": "Il a écrit sur Truth Social que les républicains auraient gagné « haut la main » si son nom avait figuré sur le bulletin de vote.",
+      "lien": "https://www.bbc.com/afrique/articles/ckm23q5gdnz7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T14:55:27+00:00",
+      "groupe": "BBC Afrique",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e6e2/live/3deac2d0-d81e-11f1-a9b6-0f4245e849b7.jpg"
+     },
+     {
+      "source": "BBC Afrique",
+      "titre": "Scènes d'euphorie et résultats historiques : les moments clés des élections de mi-mandat aux États-Unis",
+      "resume": "Les démocrates ont pris le contrôle du Congrès pour le reste de la présidence de Donald Trump, ce qui est source de réjouissances.",
+      "lien": "https://www.bbc.com/afrique/articles/cw7vp4dd5pl8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T07:39:08+00:00",
+      "groupe": "BBC Afrique",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/878f/live/f3346690-d810-11f1-bc0e-b5a9e0785e4b.jpg"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "L’Iran se targue d’avoir provoqué la défaite de Donald Trump aux midterms",
+      "resume": "À Téhéran, on attribue la déroute des républicains aux élections de mi-mandat à l’échec de sa guerre contre la République islamique, dont les Américains paient le prix. Cependant, certains craignent que le président américain, vexé, ne relance le conflit.",
+      "lien": "https://www.courrierinternational.com/article/vu-de-teheran-l-iran-se-targue-d-avoir-provoque-la-defaite-de-donald-trump-aux-midterms_285164",
+      "date": "2026-11-04T16:33:41+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/04/0/0/7471/4981/644/0/60/0/b23cd6f_ftp-1-rtdeiqldqhwg-afp-d6d68e8.jpg"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Midterms : “Le raz de marée démocrate est aussi une victoire pour le Canada”",
+      "resume": "La nette victoire des démocrates lors des élections de mi-mandat américaines du 3 novembre est saluée par la presse canadienne qui espère désormais que la reprise des négociations commerciales avec les États-Unis se fasse dans une ambiance moins hostile qu’alors.",
+      "lien": "https://www.courrierinternational.com/article/vu-d-ottawa-midterms-le-raz-de-maree-democrate-est-aussi-une-victoire-pour-le-canada_285162",
+      "date": "2026-11-04T16:09:07+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/10/27/0/0/3840/2560/644/0/60/0/55c67ba_ftp-1-7sawxiumtv1q-2026-10-27t203147z-1865925082-rc2sboagls7z-rtrmadp-3-usa-election-ohio.JPG"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "La vague bleue des midterms, une bonne nouvelle pour le climat",
+      "resume": "La victoire du camp démocrate aux élections américaines de mi-mandat, mardi 3 novembre, est de bon augure pour le climat. Il s’agit, au niveau fédéral, d’arrêter le démantèlement des programmes en faveur de la transition énergétique et de mettre en place des politiques ambitieuses. Partout dans le pays, des scrutins locaux comportaient aussi des enjeux climatiques.",
+      "lien": "https://www.courrierinternational.com/article/etats-unis-la-vague-bleue-des-midterms-une-bonne-nouvelle-pour-le-climat_285134",
+      "date": "2026-11-04T15:47:38+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/04/0/0/6000/4000/644/0/60/0/9112f6d_upload-1-cses4k5iaxgd-058-2629828.jpg"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Les élections de mi-mandat vues d’Europe : “Trump restera Trump, peut-être même en pire”",
+      "resume": "Les relations entre l’Europe et les États-Unis se sont énormément détériorées depuis l’arrivée de Donald Trump au pouvoir. L’écrasante défaite de son parti aux élections de mi-mandat américaines peut-elle inverser cette dynamique ? La presse du Vieux Continent en doute fortement.",
+      "lien": "https://www.courrierinternational.com/article/etats-unis-les-elections-de-mi-mandat-vues-d-europe-trump-restera-trump-peut-etre-meme-en-pire_285130",
+      "date": "2026-11-04T11:28:54+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/03/0/0/1600/1072/644/0/60/0/9020c19_ftp-1-3shxwgg0hry3-afp-d64h2w8.jpg"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Après la défaite de Trump aux midterms, Israël redoute de perdre son principal allié",
+      "resume": "L’échec des républicains aux élections américaines de mi-mandat suscite une vive inquiétude en Israël. Alors que les démocrates ont repris le contrôle du Congrès, la presse israélienne s’interroge sur les conséquences de ce revers pour l’État hébreu et pour Benyamin Nétanyahou, déjà engagé dans une difficile bataille pour conserver le pouvoir.",
+      "lien": "https://www.courrierinternational.com/article/vu-de-tel-aviv-apres-la-defaite-de-trump-aux-midterms-israel-redoute-de-perdre-son-principal-allie_285135",
+      "date": "2026-11-04T11:11:58+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/03/0/0/2754/1872/644/0/60/0/60b8ee8_ftp-1-fbeoijjmffpo-2026-11-03t150942z-1570666144-rc2kqiaijnnp-rtrmadp-3-usa-trump-israel.JPG"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Midterms 2026 : visualisez en cartes et en graphiques les premiers enseignements du scrutin",
+      "resume": "Les démocrates remportent à la fois la Chambre des représentants et le Sénat. Visualisez l’ampleur de la bascule, le recul du camp républicain et les effets du redécoupage électoral lors de ces élections de mi-mandat.",
+      "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/midterms-2026-visualisez-en-cartes-et-en-graphiques-les-premiers-enseignements-du-scrutin_6806235_4355770.html",
+      "date": "2026-11-04T13:48:07+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/04/30/0/2198/1099/644/322/60/0/79a366f_upload-1-kthp0rvwe3wo-capture-d-e-cran-2026-11-04-a-14-08-53.png"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Présidentielle 2027 : les résultats des midterms aux Etats-Unis gênent le RN et réjouissent la gauche",
+      "resume": "Gauche française et bloc central ont analysé la défaite du parti de Donald Trump à l’aune des prochaines échéances électorales françaises, y percevant un espoir, alors que le Rassemblement national continue de prendre ses distances avec le « canard boiteux » américain.",
+      "lien": "https://www.lemonde.fr/politique/article/2026/11/04/presidentielle-2027-les-resultats-des-midterms-americains-genent-le-rn-et-rejouissent-la-gauche_6806278_823448.html",
+      "date": "2026-11-04T15:12:41+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/10/21/886/0/5838/2919/644/322/60/0/ca1d938_upload-1-foe2m0ood5lk-cbi1348008.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Midterms 2026 : cinq graphiques pour comprendre la déroute de Donald Trump",
+      "resume": "INFOGRAPHIE – Chambre, Sénat, Texas… Les démocrates infligent à Donald Trump une défaite plus large que prévu. Les faits saillants de la soirée électorale en graphiques.",
+      "lien": "https://www.lefigaro.fr/elections-americaines/midterms-2026-cinq-graphiques-pour-comprendre-la-deroute-de-donald-trump-20261104",
+      "date": "2026-11-04T09:38:26+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/11/04/1ef1a8b877727deb2c5313c55a4a7da8596663ed5a9eb5596bd152cd53a9de82.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Midterms 2026 : revirement des Latinos et des ménages modestes, mobilisation des jeunes et des banlieues… Comment expliquer la vague démocrate ?",
+      "resume": "DÉCRYPTAGE - La déroute des républicains peut être lue à la lumière du changement drastique de vote chez certaines catégories de population par rapport à l’élection présidentielle de 2024, qui avait porté Donald Trump au pouvoir. Le Figaro s’est penché sur les sondages de sortie des urnes.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-revirement-des-latinos-et-des-menages-modestes-mobilisation-des-jeunes-et-des-banlieues-comment-expliquer-la-vague-democrate-20261104",
+      "date": "2026-11-04T16:23:21+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/11/04/db18a2c2677ea9e418bf64fdacfa6e6d799468ae8d5851c0c32d9110b842d8be.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Raz-de-marée démocrate aux Midterms 2026 : retrouvez tous les résultats, État par État",
+      "resume": "CARTE – Le Parti démocrate prend le contrôle du Sénat et s’empare aussi de la Chambre des représentants dans ce qui ressemble à une vague bleue déferlant sur le pays.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-donald-trump-va-t-il-conserver-sa-majorite-au-congres-suivez-les-resultats-et-la-carte-en-direct-20261104",
+      "date": "2026-11-04T07:49:32+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/11/03/4fa0ff3635fc2575aac5f8b1455ba4350130fead937eb1ea7c37f4982b7c4f02.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Midterms 2026 : le Quai d’Orsay salue une «très bonne nouvelle pour la démocratie américaine»",
+      "resume": "«Les résultats ne sont ni contestables, ni contestés. Le président des États-Unis lui-même a admis et reconnu la surperformance des candidats démocrates», a déclaré Jean-Noël Barrot lors de la séance de questions hebdomadaire à l’Assemblée nationale.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-le-quai-d-orsay-salue-une-tres-bonne-nouvelle-pour-la-democratie-americaine-20261104",
+      "date": "2026-11-04T14:48:42+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/11/04/e8dfc0ae7a1a5d1d894e58a3f142f399e22d965d7c9ffa1321dc200124cb4ae5.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Estimez-vous que la défaite de Donald Trump aux midterms est une bonne nouvelle pour les Européens ?",
+      "resume": "",
+      "lien": "https://www.lefigaro.fr/international/estimez-vous-que-la-defaite-de-donald-trump-aux-midterms-est-une-bonne-nouvelle-pour-les-europeens-20261104",
+      "date": "2026-11-04T09:50:46+00:00",
+      "groupe": "Le Figaro",
+      "image": ""
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Midterms 2026 : «Tout le monde sait pourquoi nous avons perdu», JD Vance met la gifle électorale sur le compte de la guerre en Iran",
+      "resume": "La défaite majeure des républicains à l’issue des élections de mi-mandat aux États-Unis fait l’objet de nombreux débats quant aux causes d’une telle gifle électorale.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-tout-le-monde-sait-pourquoi-nous-avons-perdu-jd-vance-met-la-gifle-electorale-sur-le-compte-de-la-guerre-en-iran-20261104",
+      "date": "2026-11-04T17:06:04+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/04/f14e60165a5e0f9d9809b8c8c3a7e65d0d3b7ce0f44262df17992f8102b0cc0e.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Midterms 2026 : la première victime de la vague démocrate pourrait être Pete Hegseth",
+      "resume": "Le secrétaire de la Défense est sur la sellette après la victoire des démocrates. Plusieurs d’entre eux indiquent vouloir destituer le militaire, fervent défenseur de la guerre en Iran et à l’origine de limogeages en cascade au sein des armées américaines.",
+      "lien": "https://www.lefigaro.fr/international/midterms-2026-la-premiere-victime-de-la-vague-democrate-pourrait-etre-pete-hegseth-20261104",
+      "date": "2026-11-04T15:33:49+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/04/ce8e6cf03df28d0a1be315dcc03fa9c253adf55b1aa7902ce45d5ae2ad7a2e02.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Midterms : Le Congrès américain peut-il obliger Trump à mettre fin à sa guerre contre l’Iran ?",
+      "resume": "Alors que Donald Trump et le camp républicain ont subi une lourde défaite électorale aux midterms et que le président des États-Unis menace de bombarder à nouveau l’Iran, le Congrès a-t-il le pouvoir de faire la paix ?",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260279-20261104-midterms-congres-americain-peut-obliger-trump-mettre-fin-guerre-contre-iran?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T16:33:23+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/s8chttCsQ-u3A_gFt0F9-Sk/1200x768_le-president-donald-trump-prend-la-parole-lors-d-une-session-conjointe-du-congres-au-capitole-americain-a-washington-dc-le-mardi-4-mars-2025-photo-de-piscine-prise-par-win-mc-namee-upi-photo-via-newscom-upi-photos-three060136-upi-newscom-sipa-2503050420"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "En images - Midterms : El-Sayed, Ossoff, Talarico… Ces étoiles montantes du parti démocrate américain",
+      "resume": "Ils ont emporté les midterms face aux Républicains, infligeant une importante défaite au camp Trump. Mais qui sont ces étoiles montantes du parti démocrates, mis en lumière mardi ?",
+      "lien": "https://www.20minutes.fr/diaporama/diaporama-4260275-images-midterms-al-sayed-ossoff-talarico-etoiles-montantes-parti-democrate-americain?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T11:48:42+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/0x72zNgaRtSMYWoRPlk_gyk/1200x768_le-candidat-democrate-au-senat-du-michigan-abdul-el-sayed-prend-la-parole-lors-d-une-soiree-electorale-tot-le-mercredi-4-novembre-2026-a-detroit-photo-ap-julia-demaree-nikhinson-mije420-26308252089682-2611040833"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Midterms 2026 : Défait, Donald Trump trouve que les démocrates ont fait du « bon boulot »",
+      "resume": "Le président des États-Unis a estimé que ses adversaires démocrates ont fait du « bon boulot » et se sont « bien battus », sans assumer la défaite de son camp aux élections de mi-mandat",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4260224-20261104-midterms-2026-defait-donald-trump-trouve-democrates-fait-bon-boulot?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T07:07:02+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/6D6QGu-cQZ-bbpeYb5Vz4yk/1200x768_le-president-donald-trump-prononce-un-discours-au-lincoln-memorial-reflecting-pool-a-washington-dc-le-2-novembre-2026-trump-prononce-un-message-de-cloture-a-la-veille-des-elections-de-mi-mandat-exhortant-les-electeurs-a-garder-les-republicains-aux-commandes-du-congres-photo-de-matt-kaminsky-sipa-usa-74716070-2611022216"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Midterms: \"La bonne nouvelle et la grande surprise, c'est que très rapidement, Donald Trump a reconnu la victoire des Démocrates. La feuille de route est donc dégagée\", indique Olivier Malteste ,directeur des Investissements de Altheis by Yomoni",
+      "resume": "La Bourse de New York a ouvert en nette hausse mercredi, après la victoire démocrate sans appel lors des élections de mi-mandat aux États-Unis, qui réduit une partie des incertitudes politiques mais laisse planer des interrogations sur l'encadrement de l'intelligence artificielle (IA).",
+      "lien": "https://www.bfmtv.com/economie/international/video-midterms-la-bonne-nouvelle-et-la-grande-surprise-c-est-que-tres-rapidement-donald-trump-a-reconnu-la-victoire-des-democrates-la-feuille-de-route-est-donc-degagee-indique-olivier-malteste-directeur-des-investissements-de-altheis-by-yomoni_VN-202611040740.html",
+      "date": "2026-11-04T16:58:50+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LUEt5UUDlbw5X2PH9Ddc6_zN5FI=/0x0:1280x720/800x0/images/Midterms-La-bonne-nouvelle-et-la-grande-surprise-c-est-que-tres-rapidement-Donald-Trump-a-reconnu-la-victoire-des-Democrates-La-feuille-de-route-est-donc-degagee-indique-Olivier-Malteste-directeur-des-Investissements-de-Altheis-by-Yomoni-2378024.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "La Data Room : 11,6 mds $ = le montant des dépenses publicitaires électorales aux Etats-Unis pour ces élections Midterms 2026 - 04/11",
+      "resume": "Ce mercredi 4 novembre, retrouvez la data room en replay sur BFM Business.",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-data-room-11-6-mds-le-montant-des-depenses-publicitaires-electorales-aux-etats-unis-pour-ces-elections-midterms-2026-04-11_VN-202611040723.html",
+      "date": "2026-11-04T16:44:02+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/j0Lt1oTAC34zMDmbstlvpVFKn6c=/0x0:1280x720/800x0/images/La-Data-Room-11-6-mds-le-montant-des-depenses-publicitaires-electorales-aux-Etats-Unis-pour-ces-elections-Midterms-2026-04-11-2378015.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Le baril repasse sous les 100 dollars: les cours du pétrole s'effondrent de 5% après la déroute de Donald Trump aux élections",
+      "resume": "Suivant un mouvement entamé en début de semaine, les cours du pétrole ont nettement baissé mardi après la très large victoire des démocrates aux élections de mi-mandat. Si la nouvelle composition du Congrès entretient des espoirs de désescalade au Moyen-Orient, les analystes restent prudents. Aucun accord de paix n’est proche et Donald Trump conserve une large influence sur la politique étrangère américaine.",
+      "lien": "https://www.bfmtv.com/economie/entreprises/energie/le-baril-repasse-sous-les-100-dollars-les-cours-du-petrole-s-effondrent-de-5-apres-la-deroute-de-donald-trump-aux-elections_AV-202611040715.html",
+      "date": "2026-11-04T16:35:40+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LluoybhXyxXKLFAAEbCBduDT9JA=/0x106:2048x1258/800x0/images/Donald-Trump-2333001.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Mythomètre : \"L'inflation est la première raison de la défaite républicaine aux midterms\", FAUX répond Charles Monot - 04/11",
+      "resume": "Mythomètre : \"L'inflation est la première raison de la défaite républicaine aux midterms\"",
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-mythometre-l-inflation-est-la-premiere-raison-de-la-defaite-republicaine-aux-midterms-faux-repond-charles-monot-04-11_VN-202611040706.html",
+      "date": "2026-11-04T16:15:42+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/eJJbFDY0ELXFWOP9uwi2ToJAK8A=/0x0:1280x720/800x0/images/Mythometre-L-inflation-est-la-premiere-raison-de-la-defaite-republicaine-aux-midterms-FAUX-repond-Charles-Monot-04-11-2378004.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Midterms aux États-Unis: qui est Abdul El-Sayed, premier sénateur américain musulman?",
+      "resume": "À 42 ans Abdul El-Sayed devient sénateur démocrate. Médecin de formation, ses idées politiques le placent à l’aile gauche du parti. Depuis 10 ans, il milite notamment pour un système de santé public gratuit aux États-Unis.",
+      "lien": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-midterms-aux-etats-unis-qui-est-abdul-el-sayed-premier-senateur-americain-musulman_VN-202611040692.html",
+      "date": "2026-11-04T16:06:06+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EMo95NkyZzU1_u0sKWIZbxOL1ug=/0x0:1280x720/800x0/images/Midterms-aux-Etats-Unis-qui-est-Abdul-El-Sayed-premier-senateur-americain-musulman-2377996.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« C’est une très bonne nouvelle » : après la défaite de Trump aux midterms, un petit sentiment de revanche dans le camp Macron",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/cest-une-tres-bonne-nouvelle-apres-la-defaite-de-trump-aux-midterms-un-petit-sentiment-de-revanche-dans-le-camp-macron-04-11-2026-WMDUWCKT4BAFDOPHO43XKVAA2I.php",
+      "date": "2026-11-04T17:20:07.477771+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Droits de douane : pourquoi le revers électoral de Trump aux midterms n’est pas une bonne nouvelle pour les Européens",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/droits-de-douane-pourquoi-le-revers-electoral-de-trump-aux-midterms-nest-pas-une-bonne-nouvelle-pour-les-europeens-04-11-2026-NUMQYY7O5VDBREDLMTULCC7IMQ.php",
+      "date": "2026-11-04T17:20:07.478322+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Midterms : raz-de-marée démocrate, les Américains sanctionnent Donald Trump",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/podcasts/code-source/midterms-raz-de-maree-democrate-les-americains-sanctionnent-donald-trump-04-11-2026-TLHQFH22FJEPLIP5XWOGWJGXOA.php",
+      "date": "2026-11-04T17:20:07.478445+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Non à la guerre » : Ukraine, Iran, Israël… Ce que la défaite de Trump aux midterms peut changer",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/non-a-la-guerre-ukraine-iran-israel-ce-que-la-defaite-de-trump-aux-midterms-peut-changer-04-11-2026-P65FHJQO6ZGJHHDRFLULSQ6RYU.php",
+      "date": "2026-11-04T17:20:07.479194+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : qui sont les invités de Melania Trump à la Maison Blanche pour un événement autour du cessez-le-feu d’Olechky ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-qui-sont-les-invites-de-melania-trump-a-la-maison-blanche-pour-un-evenement-autour-du-cessez-le-feu-dolechky-04-11-2026-O5PLEM2OFZBXTOOR24WLJBJXRU.php",
+      "date": "2026-11-04T17:20:07.479701+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« La marque Trump est toxique en ce moment » : après la déroute des républicains aux midterms, la colère des partisans du président américain",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/la-marque-trump-est-toxique-en-ce-moment-apres-la-deroute-des-republicains-aux-midterms-la-colere-des-partisans-du-president-americain-04-11-2026-U6WVDA2WUZBMDFEJRJBZZRKHIM.php",
+      "date": "2026-11-04T17:20:07.480176+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "Midterms 2026 : pourquoi la défaite des républicains pourrait rebattre les cartes entre Israël et les États-Unis",
+      "resume": "La prise de contrôle du Congrès américain par les démocrates, après les élections de mi-mandat du 3 novembre, va remettre la question israélienne au centre du débat politique. Et ce alors qu’une partie de l’opinion publique rejette la relation historique entre les deux pays.",
+      "lien": "https://www.ouest-france.fr/monde/etats-unis/elections-americaines/midterms-2026-pourquoi-la-defaite-des-republicains-pourrait-rebattre-les-cartes-entre-israel-et-les-etats-unis-e357e50e-d855-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-11-04T17:08:47+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjExYTM0NGFjMmY5ZTZkODU2YTM4MTlkMTJkN2Q0YjJkZDY?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=688daf9f602c6c2ae3f94752802c216ea750e330d8ab35255f5b6c89d9ae2faa"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Une « seconde guerre froide » : pourquoi fiasco franco‑britannique de Suez il y a 70 ans peut servir de leçon pour Washington face à l’Iran",
+      "resume": "Alors que le détroit d’Ormuz reste bloqué et que l’inflation menace l’économie mondiale, le parallèle historique avec l’échec franco-britannique de 1956 montre comment les contraintes financières peuvent",
+      "lien": "https://www.sudouest.fr/international/iran/une-seconde-guerre-froide-pourquoi-fiasco-franco-britannique-de-suez-il-y-a-70-ans-peut-servir-de-lecon-pour-washington-face-a-l-iran-31378597.php",
+      "date": "2026-11-04T14:40:11+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31378597/1200x-1/tconvfimg-une-lecon-pour-washington-face-a-liran-le-fiasco-franco-britannique-de-suez.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Midterms 2026 aux États-Unis : malgré près d’un demi-milliard de dollars injectés pour soutenir les républicains, la fortune de Musk n’aura finalement servi à rien",
+      "resume": "En dépit des dépenses records investies pour soutenir les candidats républicains lors des élections de mi-mandat, le milliardaire essuie un revers historique face aux victoires démocrates",
+      "lien": "https://www.sudouest.fr/international/etats-unis/midterms-2026-aux-etats-unis-pres-d-un-demi-milliard-de-dollars-pour-soutenir-des-candidats-republicains-la-fortune-de-musk-n-aura-finalement-servi-a-rien-31380506.php",
+      "date": "2026-11-04T14:33:50+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31380506/1200x-1/20260930055905-12551712.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Donald Trump : \"J’ai le pouvoir ultime...\" pourquoi le président américain se surnomme maintenant \"Mister Veto\"",
+      "resume": "Donald Trump a affirmé, avant les élections de mi-mandat, qu'il utiliserait son veto en cas de victoire démocrate. Avec les démocrates désormais majoritaires au Congrès, à partir de janvier 2027, ils pourront bloquer...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/donald-trump-jai-le-pouvoir-ultime-pourquoi-le-president-americain-se-surnomme-maintenant-mister-veto-13635501.php",
+      "date": "2026-11-04T16:21:59+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeb5b4a0b5b9de4730f6070/standard/image.jpg?v=5"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Midterms 2026 : en opposition à Trump, ils collent symboliquement leur autocollant \"j’ai voté\" sur les mémoriaux d’Alex Pretti et Renee Good, tués par des agents de l’ICE à Minneapolis",
+      "resume": "Après avoir voté (démocrate), de nombreux Américains ont rendu hommage à Alex Pretti et Renee Good, deux civils tués en début d'année par la police de l'immigration ICE de Donald Trump. Ils sont venus coller leurs...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/midterms-2026-en-opposition-a-trump-ils-collent-symboliquement-leur-autocollant-jai-vote-sur-les-memoriaux-dalex-pretti-et-renee-good-tues-par-des-13636079.php",
+      "date": "2026-11-04T16:25:32+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeb484d53e8d600b5050cb4/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Donald Trump : \"Je n’ai pas à me sentir coupable\", le président américain a une explication face à l’échec républicain aux Midterms 2026",
+      "resume": "Au lendemain de la victoire démocrate aux élections de mi-mandat du 3 novembre, Donald Trump, président américain, a déclaré accepter les résultats tout en minimisant leur impact sur son bilan. Il a reconnu le \"bon...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/midterms-2026-je-nai-pas-a-me-sentir-coupable-face-a-lechec-republicain-donald-trump-a-une-explication-et-agite-la-menace-du-veto-13635256.php",
+      "date": "2026-11-04T12:08:19+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeaeff1c400d15e5b042c40/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Midterms 2026 : Texas, Kansas, Caroline du Sud, Maine… ces bastions historiques des Républicains qui ont tourné le dos à Donald Trump",
+      "resume": "Les démocrates ont réalisé une percée spectaculaire lors des élections américaines de mi-mandat, ce mardi 3 novembre. Du Texas au Kansas, plusieurs États historiquement conservateurs ont basculé dans leur camp. Un...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/midterms-2026-texas-kansas-caroline-du-sud-maine-ces-bastions-historiques-des-republicains-qui-ont-tourne-le-dos-a-donald-trump-13635208.php",
+      "date": "2026-11-04T10:36:05+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeae1a1b4704aab4109b6c3/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "ENTRETIEN. Midterms 2026 : \"Donald Trump risque une destitution, ce serait une première dans l'histoire des États-Unis\", assure Wanda Mastor",
+      "resume": "Les élections de mi-mandat aux États-Unis ont infligé un revers significatif à Donald Trump, avec une perte de la majorité à la Chambre des représentants et au Sénat. Ce changement complique sa gouvernance, notamment...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/entretien-midterms-2026-donald-trump-risque-une-destitution-ce-serait-une-premiere-dans-lhistoire-des-etats-unis-assure-wanda-mastor-13635232.php",
+      "date": "2026-11-04T09:07:22+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeaebe30cd6c2be28027d70/standard/image.jpg?v=2"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Midterms 2026 : Donald Trump emporté par une vague démocrate d’une ampleur inédite, les Républicains perdent largement le Congrès",
+      "resume": "Le parti démocrate a largement remporté les élections de mi-mandat aux États-Unis. Il retrouve la majorité à la fois au Sénat et à la Chambre des Représentants. Le coup est rude pour Donald Trump.",
+      "lien": "https://www.ladepeche.fr/2026/11/04/midterms-2026-donald-trump-violemment-sanctionne-un-tsunami-dune-ampleur-inedite-offre-le-congres-aux-democrates-13635176.php",
+      "date": "2026-11-04T07:02:50+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeac2af7558254d9a07c5be/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Midterms aux États-Unis : \"Je n’ai pas à me sentir coupable\"… pourquoi Donald Trump estime qu’il n’est pas responsable de la défaite des républicains",
+      "resume": "Donald Trump a reconnu mardi 4 novembre la victoire démocrate aux élections de mi-mandat (midterms), sans pour autant y voir un aveu de faiblesse. Tout en félicitant ses opposants, le président américain a décliné...",
+      "lien": "https://www.midilibre.fr/2026/11/04/midterms-aux-etats-unis-je-nai-pas-a-me-sentir-coupable-pourquoi-donald-trump-estime-quil-nest-pas-responsable-de-la-defaite-des-republicains-13635758.php",
+      "date": "2026-11-04T13:40:04+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeb33985ac08dddbb06e665/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Midterms aux États-Unis : raz-de-marée démocrate, revers cinglant pour Donald Trump… Ce qu’il faut retenir des premiers résultats",
+      "resume": "Les démocrates ont remporté une victoire décisive lors des élections de mi-mandat aux États-Unis, obtenant la majorité dans les deux chambres du Congrès. Ce basculement, inattendu il y a un an, affaiblit Donald Trump,...",
+      "lien": "https://www.midilibre.fr/2026/11/04/midterms-aux-etats-unis-raz-de-maree-democrate-revers-cinglant-pour-donald-trump-ce-quil-faut-retenir-des-premiers-resultats-13635188.php",
+      "date": "2026-11-04T08:37:30+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeace4e7e059c5d860d37ae/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "États-Unis. Midterms 2026 : le vice-président JD Vance attribue la défaite électorale à la guerre en Iran",
+      "resume": "Les Américains ont voté mardi pour les élections de mi-mandat permettant de renouveler la Chambre des représentants et le Sénat. Suivez l'annonce des résultats en direct.",
+      "lien": "https://www.leprogres.fr/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+      "date": "2026-11-04T15:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "États-Unis. Midterms 2026 : le vice-président JD Vance attribue la défaite électorale à la guerre en Iran",
+      "resume": "Les Américains ont voté mardi pour les élections de mi-mandat permettant de renouveler la Chambre des représentants et le Sénat. Suivez l'annonce des résultats en direct.",
+      "lien": "https://www.ledauphine.com/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+      "date": "2026-11-04T15:59:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/AB7707DA-832E-4B48-86F4-EB999E2C522A/NW_listB/midterms-2026-le-vice-president-jd-vance-attribue-la-defaite-electorale-a-la-guerre-en-iran-1793807954.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Alsace. « Une bouffée d’oxygène » : comment les Américains expatriés réagissent à la victoire démocrate aux Midterms",
+      "resume": "Les démocrates américains expatriés en Alsace ont fêté ce mercredi la victoire écrasante de leur parti aux élections de Midterms. Ils voient dans ce scrutin un désaveu de la politique menée par Donald Trump, mais aussi le début d’un bras de fer politique qui s’annonce compliqué. L’analyse est partagée par des Franco-Américains installés aux États-Unis.",
+      "lien": "https://www.dna.fr/politique/2026/11/04/la-victoire-democrate-celebree-a-strasbourg-comme-aux-etats-unis",
+      "date": "2026-11-04T16:32:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "DNA",
+      "titre": "États-Unis. Midterms 2026 : le vice-président JD Vance attribue la défaite électorale à la guerre en Iran",
+      "resume": "Les Américains ont voté mardi pour les élections de mi-mandat permettant de renouveler la Chambre des représentants et le Sénat. Suivez l'annonce des résultats en direct.",
+      "lien": "https://www.dna.fr/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+      "date": "2026-11-04T15:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "États-Unis. Midterms 2026 : le vice-président JD Vance attribue la défaite électorale à la guerre en Iran",
+      "resume": "Les Américains ont voté mardi pour les élections de mi-mandat permettant de renouveler la Chambre des représentants et le Sénat. Suivez l'annonce des résultats en direct.",
+      "lien": "https://www.estrepublicain.fr/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+      "date": "2026-11-04T15:59:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "BBC Afrique",
+     "BFMTV",
+     "Courrier international",
+     "DNA",
+     "Euronews",
+     "France 24",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro",
+     "Le Figaro France",
+     "Le Monde",
+     "Le Monde France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Ouest-France",
+     "RFI",
+     "RTS",
+     "Radio-Canada",
+     "Sud Ouest",
+     "franceinfo"
+    ],
+    "sig": [
+     "2026",
+     "defait",
+     "democr",
+     "donald",
+     "etats",
+     "midter",
+     "trump",
+     "unis"
+    ],
+    "score": 197.9990489938889,
+    "suite": "Trump annonce la fin de l'aide militaire à Israël",
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Les démocrates reprennent les deux chambres du Congrès",
+    "texte": "Aux États-Unis, les démocrates remportent les élections de mi-mandat. Plusieurs élus issus de minorités accèdent à des postes inédits, dont un premier sénateur musulman.",
+    "texte_long": "Aux États-Unis, les démocrates remportent les élections de mi-mandat. Plusieurs élus issus de minorités accèdent à des postes inédits, dont un premier sénateur musulman.",
+    "flash": "Aux États-Unis, les démocrates reprennent la Chambre et le Sénat, et plusieurs élus issus de minorités entrent dans l'histoire.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "USA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Midterms",
+     "#Elections"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/4260420-20261104-midterms-2026-marches-financiers-optimistes-apres-defaite-trump-republicains?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4260279-20261104-midterms-congres-americain-peut-obliger-trump-mettre-fin-guerre-contre-iran?at_medium=display&at_campaign=149",
+     "BBC Afrique": "https://www.bbc.com/afrique/articles/ckm23q5gdnz7o?at_medium=RSS&at_campaign=rss",
+     "BFMTV": "https://www.bfmtv.com/economie/international/video-midterms-la-bonne-nouvelle-et-la-grande-surprise-c-est-que-tres-rapidement-donald-trump-a-reconnu-la-victoire-des-democrates-la-feuille-de-route-est-donc-degagee-indique-olivier-malteste-directeur-des-investissements-de-altheis-by-yomoni_VN-202611040740.html",
+     "Courrier international": "https://www.courrierinternational.com/article/vu-de-teheran-l-iran-se-targue-d-avoir-provoque-la-defaite-de-donald-trump-aux-midterms_285164",
+     "DNA": "https://www.dna.fr/politique/2026/11/04/la-victoire-democrate-celebree-a-strasbourg-comme-aux-etats-unis",
+     "Euronews": "https://fr.euronews.com/2026/11/04/midterms-une-vague-de-premieres-historiques-pour-les-minorites",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-des-premi%C3%A8res-historiques-pour-des-%C3%A9lus-issus-de-minorit%C3%A9s",
+     "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/04/donald-trump-jai-le-pouvoir-ultime-pourquoi-le-president-americain-se-surnomme-maintenant-mister-veto-13635501.php",
+     "Le Dauphiné": "https://www.ledauphine.com/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+     "Le Figaro": "https://www.lefigaro.fr/international/midterms-2026-revirement-des-latinos-et-des-menages-modestes-mobilisation-des-jeunes-et-des-banlieues-comment-expliquer-la-vague-democrate-20261104",
+     "Le Figaro France": "https://www.lefigaro.fr/elections-americaines/midterms-2026-cinq-graphiques-pour-comprendre-la-deroute-de-donald-trump-20261104",
+     "Le Monde": "https://www.lemonde.fr/international/video/2026/11/04/midterms-2026-premier-senateur-musulman-premier-homme-ouvertement-gay-au-senat-plusieurs-candidats-issus-de-minorites-ont-remporte-des-sieges_6806236_3210.html",
+     "Le Monde France": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/midterms-2026-visualisez-en-cartes-et-en-graphiques-les-premiers-enseignements-du-scrutin_6806235_4355770.html",
+     "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/cest-une-tres-bonne-nouvelle-apres-la-defaite-de-trump-aux-midterms-un-petit-sentiment-de-revanche-dans-le-camp-macron-04-11-2026-WMDUWCKT4BAFDOPHO43XKVAA2I.php",
+     "Le Progrès": "https://www.leprogres.fr/politique/2026/11/04/midterms-2026-victoire-ecrasante-des-democrates-aux-elections-donald-trump-salue-leur-bon-boulot",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/04/midterms-aux-etats-unis-je-nai-pas-a-me-sentir-coupable-pourquoi-donald-trump-estime-quil-nest-pas-responsable-de-la-defaite-des-republicains-13635758.php",
+     "Ouest-France": "https://www.ouest-france.fr/monde/etats-unis/elections-americaines/midterms-2026-pourquoi-la-defaite-des-republicains-pourrait-rebattre-les-cartes-entre-israel-et-les-etats-unis-e357e50e-d855-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261104-midterms-2026-aux-%C3%A9tats-unis-nouvelles-figures-et-premi%C3%A8res-historiques",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/midterms-2026-defaite-historique-pour-donald-trump-29405950.html?rts_source=rss_t",
+     "Radio-Canada": "https://ici.radio-canada.ca/info/videos/1-10800932/elections-mi-mandat-aux-etats-unis-cout-vie-au-coeur-enjeux",
+     "Sud Ouest": "https://www.sudouest.fr/international/iran/une-seconde-guerre-froide-pourquoi-fiasco-franco-britannique-de-suez-il-y-a-70-ans-peut-servir-de-lecon-pour-washington-face-a-l-iran-31378597.php",
+     "franceinfo": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "4 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Éducation, transports, santé... à quoi s'attendre pour la journée de mobilisation de jeudi ?",
+      "resume": "Les organisations syndicales ont appelé les secteurs public et privé à se mobiliser, jeudi, pour la journée interprofessionnelle de grèves et de manifestations pour les salaires. France 24 fait le point sur les perturbations attendues dans les différents secteurs, notamment à l'Éducation nationale et dans les transports.",
+      "lien": "https://www.france24.com/fr/france/20261104-%C3%A9ducation-transports-sant%C3%A9-%C3%A0-quoi-s-attendre-journ%C3%A9e-mobilisation-jeudi",
+      "date": "2026-11-04T15:35:55+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/6a3a2698-d862-11f1-be81-bf1914cabd52/w:1024/p:16x9/000-D6AP8QF.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Grève du 5 novembre à Paris : manifestation de République à Nation, transports, services publics, à quoi faut-il s'attendre ?",
+      "resume": "Transports, aéroports, écoles, hôpitaux, administrations et services publics : la grève interprofessionnelle du 5 novembre 2026 s'annonce comme une journée de forte mobilisation. Elle devrait entraîner des perturbations dans de nombreux secteurs à Paris et en Île-de-France. On fait le point.",
+      "lien": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/manifestation-du-5-novembre-a-paris-parcours-de-republique-a-nation-transports-services-publics-a-quoi-faut-il-s-attendre-3444207.html",
+      "date": "2026-11-04T16:38:31+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/V7K6GD3hOlVKgx18a2DLtBQ4Bxw/930x620/filters:format(webp)/regions/2026/11/04/6aeb527cd4138052532063.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Grève du 5 novembre : à quoi s'attendre à Clermont-Ferrand ?",
+      "resume": "Jeudi 5 novembre, les syndicats appellent les salariés du privé et du public à descendre dans la rue. Après des semaines de mobilisation de la jeunesse et de manifestations contre la vie chère, à quoi s'attendre à Clermont-Ferrand ?",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/greve-du-5-novembre-a-quoi-s-attendre-a-clermont-ferrand-3444513.html",
+      "date": "2026-11-04T16:57:25+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/9mtr3bedkCi5duPt6jdW2aS0RvI/930x620/filters:format(webp)/regions/2026/11/04/6aeb5302c395e475196912.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Grève dans les transports : d'importantes perturbations prévues à Lyon ce vendredi 5 novembre",
+      "resume": "La majorité des transports en commun de Lyon sera à l'arrêt ou fortement perturbé ce jeudi 5 novembre. Pour des raisons de sécurité, le centre-ville sera également bouclé. La ville fonctionnera donc à nouveau au ralenti, malgré les polémiques sur l'impact de ces mesures à répétition.",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/manifestations-du-5-novembre-de-tres-fortes-perturbations-attendues-a-lyon-3444033.html",
+      "date": "2026-11-04T16:30:14+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/gA7tJQ9AFOHer3EH1VlxM82tRU4/930x620/filters:format(webp)/regions/2026/11/04/6aeafa5fc0835324897859.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Grève du 5 novembre : TGV, TER, RER… À quoi faut-il s’attendre dans les transports ?",
+      "resume": "Après trois journées de mobilisation les 17, 24 et 31 octobre, les syndicats veulent accentuer la pression sur le gouvernement. Ils appellent à une nouvelle journée de grève et de manifestations jeudi 5 novembre. Les transports seront notamment perturbés, notamment en Île-de-France.",
+      "lien": "https://www.lefigaro.fr/social/greve-intersyndicale-du-5-novembre-transports-education-sante-quels-sont-les-secteurs-mobilises-20261025",
+      "date": "2026-11-04T16:33:47+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/11/03/1863b06b0e8d48cb3c8e024837ec3f023d40070e9de742e45d33f1ca4615cc4d.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Transports, écoles, administration… À quoi s’attendre pour la grève du 5 novembre ?",
+      "resume": "Des appels à la grève et aux manifestations ont été lancés pour le jeudi 5 novembre. Un mouvement qui devrait entraîner des perturbations, notamment dans les transports",
+      "lien": "https://www.20minutes.fr/societe/greve/4260270-20261104-transports-ecoles-administration-quoi-attendre-greve-5-novembre?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T12:56:45+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/aVcNj_X9TpeI34zq_YHeLCk/1200x768_illustration-du-rer-b-en-gare-du-nord-a-paris-10eme-benayacheadil-sipa-0275-credit-adil-benayache-sipa-2505151830"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Trafic SNCF perturbé sur les TER et RER, écoles fermées... À quoi s'attendre pour la journée de grève et de mobilisation de jeudi 5 novembre?",
+      "resume": "La journée interprofessionnelle de grèves et de manifestations pour les salaires de ce jeudi 5 novembre va-t-elle faire tourner le pays au ralenti? Tour d'horizon des principaux impacts attendus, alors que les syndicats, rejoints par les jeunes et les gilets jaunes, appellent secteurs publics et privés à se mobiliser.",
+      "lien": "https://www.bfmtv.com/economie/economie-social/trafic-sncf-perturbe-sur-les-ter-et-rer-ecoles-fermees-a-quoi-s-attendre-pour-la-journee-de-greve-et-de-mobilisation-de-jeudi-5-novembre_AD-202611040753.html",
+      "date": "2026-11-04T17:14:24+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/JFp5FVE7N3ODkt70Gu8krdxyPt8=/0x106:2048x1258/800x0/images/Greve-2378002.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "DIRECT. Manifestation du 5 novembre: le parcours Bastille-Concorde interdit par la préfecture de police de Paris, République-Nation autorisé",
+      "resume": "Les lycéens et les étudiants se préparent à une nouvelle journée de mobilisation ce mercredi 4 novembre, à la veille d'une grève générale portée par les syndicats qui espèrent obtenir des réponses à leurs revendications sur les salaires, nouvelle étape d'un automne social tumultueux.",
+      "lien": "https://www.bfmtv.com/politique/direct-la-colere-des-lyceens-et-etudiants-ne-redescend-pas-a-la-veille-de-la-journee-de-mobilisation-massive-du-5-novembre_LN-202611040176.html",
+      "date": "2026-11-04T06:22:02+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/vxREUEYNAFTlRvhBbqiZ6NmVCLQ=/7x111:2039x1254/800x0/images/La-manifestation-contre-la-vie-chere-le-31-octobre-2026-a-Paris-2375559.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestation du 5 novembre: écoles, services publics, transports… Quelles perturbations dans le Val-de-Marne?",
+      "resume": "Une grève nationale est prévue ce jeudi 5 novembre à l’appel de plusieurs syndicats, qui réclament notamment davantage de moyens pour les services publics. Dans le Val-de-Marne, plusieurs écoles et certaines administrations connaîtront des perturbations.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/manifestation-du-5-novembre-ecoles-services-publics-transports-quelles-perturbations-dans-le-val-de-marne_AN-202611040729.html",
+      "date": "2026-11-04T16:51:53+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Q80ILix0uu499yVjoOrR3-1IxFg=/0x40:768x472/800x0/images/Des-manifestants-defilent-a-Marseille-dans-le-cadre-du-mouvement-lyceen-le-3-novembre-2026-2377111.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Manifestation du 5 novembre: le parcours Bastille-Concorde interdit par la préfecture de police de Paris, République-Nation autorisé",
+      "resume": "Les lycéens et les étudiants se préparent à une nouvelle journée de mobilisation ce mercredi 4 novembre, à la veille d'une grève générale portée par les syndicats qui espèrent obtenir des réponses à leurs revendications sur les salaires, nouvelle étape d'un automne social tumultueux.",
+      "lien": "https://www.bfmtv.com/societe/manifestations/video-manifestation-du-5-novembre-le-parcours-bastille-concorde-interdit-par-la-prefecture-de-police-de-paris-republique-nation-autorise_VN-202611040709.html",
+      "date": "2026-11-04T16:24:03+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/mO1jBwpHpDVb7BNsifaOE6BK5Io=/0x0:1280x720/800x0/images/Manifestation-du-5-novembre-le-parcours-Bastille-Concorde-interdit-par-la-prefecture-de-police-de-Paris-Republique-Nation-autorise-2378006.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Marschall Truchot : La préfecture propose un tracé République/Nation - 04/11",
+      "resume": "Marschall Truchot, du lundi au jeudi de 17h à 18h45 avec Olivier Truchot & Alain Marschall. Deux heures pour faire un tour complet de l’actualité en présence d’invités pour expliquer et débattre sur les grands sujets qui ont marqué la journée.",
+      "lien": "https://www.bfmtv.com/replay-emissions/bfm-story/video-marschall-truchot-la-prefecture-propose-un-trace-republique-nation-04-11_VN-202611040711.html",
+      "date": "2026-11-04T16:20:11+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/hjWscFHDHSaiPgvvVhvN4Joq-3s=/0x0:1280x720/800x0/images/Marschall-Truchot-La-prefecture-propose-un-trace-Republique-Nation-04-11-2378008.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Grève du 5 novembre à Paris : la préfecture interdit le parcours Bastille-Concorde déposé par les syndicats et propose République-Nation",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-la-prefecture-interdit-le-parcours-bastille-concorde-pour-la-manifestation-de-jeudi-04-11-2026-TEU4DRL4QBB4PCWQAH6WKAAZBI.php",
+      "date": "2026-11-04T17:20:07.478539+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Grève du 5 novembre : Métro, RER, Transilien… Les prévisions de trafic ligne par ligne pour jeudi en Île-de-France",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/greve-du-5-novembre-metro-rer-transilien-les-previsions-de-trafic-ligne-par-ligne-pour-jeudi-en-ile-de-france-04-11-2026-EH7LCWTO4FCMRBDP7GIVSDDT3A.php",
+      "date": "2026-11-04T17:20:07.478636+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Ouest-France",
+      "titre": "« Nous nous attendons à une mobilisation importante » : l’enseignement privé bascule dans la grève, une première",
+      "resume": "Pour la première fois, le privé sous contrat et le privé indépendant font cause commune, ce jeudi 5 novembre, pour la défense du pouvoir d’achat. Un récent amendement au projet de loi de finances attise aussi la colère de l’enseignement catholique, qui parle d’une « déclaration de guerre ».",
+      "lien": "https://www.ouest-france.fr/education/nous-nous-attendons-a-une-mobilisation-importante-lenseignement-prive-bascule-dans-la-greve-une-premiere-31c5fb02-d835-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "date": "2026-11-04T17:00:51+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyNjExYzgzOTExNGNiMzZmZTkxMjdiZGQxZGM2Y2IzYmJiZGM?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=62b50336f7025262f93d6e0cd37e5e56f11eabfb6a8a65f358f9212fe7d75a4f"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Manifestation du 5 novembre : cortège, fermetures, transports perturbés... A quoi faut-il s'attendre à Toulouse ?",
+      "resume": "Une nouvelle grande journée de mobilisation se profile à Toulouse, comme ailleurs en France, jeudi 5 novembre 2026. Services fermés, transports perturbés... Ce qui s'annonce.",
+      "lien": "https://actu.fr/occitanie/toulouse_31555/manifestation-du-5-novembre-cortege-fermetures-transports-perturbes-a-quoi-faut-il-s-attendre-a-toulouse_65014664.html",
+      "date": "2026-11-04T17:07:00+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/11/manif-toulouse-5novembre-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Grève du 5 novembre : manifestations, perturbations... à quoi s'attendre ce jeudi dans l'Oise ?",
+      "resume": "Une importante journée de mobilisation et de grève est prévue partout en France ce jeudi 5 novembre 2026 à l'appel des syndicats. Dans l'Oise, trois manifestations sont prévues.",
+      "lien": "https://actu.fr/societe/greve-du-5-novembre-manifestations-perturbations-a-quoi-s-attendre-ce-jeudi-dans-l-oise_65011428.html",
+      "date": "2026-11-04T17:02:01+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2025/09/greve-18-septembre-rassemblement-beauvais-cgt-oise-1024x557.jpeg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Grève du 5 novembre : RER, tramway, bus… les prévisions de trafic dans les transports pour jeudi en Essonne",
+      "resume": "La RATP et la SNCF ont dévoilé ce mercredi leurs prévisions pour la journée du jeudi 5 novembre marquée par une importante grève qui perturbera les transports en Essonne.",
+      "lien": "https://actu.fr/societe/greve-du-5-novembre-rer-tramway-bus-les-previsions-de-trafic-dans-les-transports-pour-jeudi-en-essonne_65011262.html",
+      "date": "2026-11-04T16:59:34+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/11/rerc-bretigny-gare-essonne-train-quai-1024x557.jpg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "La manifestation du jeudi 5 novembre finalement déclarée et autorisée par la préfecture à Rennes : voici le parcours",
+      "resume": "La préfecture a annoncé en fin d'après-midi, avoir reçu une déclaration de manifestation de la part de l'intersyndicale. Elle a homologué le parcours choisi à Rennes.",
+      "lien": "https://actu.fr/bretagne/rennes_35238/la-manifestation-du-jeudi-5-novembre-finalement-declaree-et-autorisee-par-la-prefecture-a-rennes-voici-le-parcours_65015664.html",
+      "date": "2026-11-04T16:58:03+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/10/8-barricade-manifestants-rennes-manifestation-samedi-31-octobre-2026-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Grève et manifestations du jeudi 5 novembre : quelle mobilisation et quelles perturbations attendues dans le Var ?",
+      "resume": "Une augmentation des salaires, une meilleure répartition des richesses, des services publics à la hauteur. À Toulon, Draguignan, Saint-Raphaël et Brignoles, les revendications communes des salariés du privé et des fonctionnaires, de retraités et des jeunes s’exprimeront de nouveau ce jeudi. Mais avec quelle force seront-elles portées ? C’est la question que nous avons posée à plusieurs organisations syndicales qui appellent à la mobilisation.",
+      "lien": "https://www.nicematin.com/societe/greves/greve-et-manifestations-du-jeudi-5-novembre-quelle-mobilisation-et-quelles-perturbations-attendues-dans-le-var-10753254",
+      "date": "2026-11-04T17:10:06+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/32/54/OG-10753254-1200-800-f3aaea0_upload-1-xj47lm8ezzwi-maxmatinarchtwo266676.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Grève du 5 novembre 2026 : trains, bus, avions, écoles… À quoi faut-il s’attendre ce jeudi dans les Alpes-Maritimes ?",
+      "resume": "La journée de mobilisation interprofessionnelle organisée ce jeudi 5 novembre 2026 aura quelques conséquences sur les transports dans les Alpes-Maritimes. Les réseaux de bus et de tramway fonctionneront normalement mais le trafic TER pourrait être fortement perturbé sur plusieurs axes.",
+      "lien": "https://www.nicematin.com/societe/transports/greve-du-5-novembre-2026-trains-bus-avions-ecoles-a-quoi-faut-il-s-attendre-ce-jeudi-dans-les-alpes-maritimes-10753691",
+      "date": "2026-11-04T16:43:05+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/91/OG-10753691-1200-800-55d2250_upload-1-yys5b6eagehi-maxmatinarchtwo212686.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Grève du 5 novembre : quelles conséquences dans les écoles de l’est des Alpes-Maritimes ce jeudi ?",
+      "resume": "Cantines, accueils périscolaires, service minimum ou fermeture complète des établissements… Plusieurs communes du territoire ont détaillé les dispositions prises pour faire face au mouvement de grève annoncé ce jeudi. Voici ce qui attend les familles.",
+      "lien": "https://www.nicematin.com/societe/greves/greve-du-5-novembre-quelles-consequences-dans-les-ecoles-de-l-est-des-alpes-maritimes-ce-jeudi-10753686",
+      "date": "2026-11-04T16:37:04+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/86/OG-10753686-1200-800-e82cf64_upload-1-xsblhyqshrll-maxmatinarchtwo250403.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Avec 51 % de conducteurs en grève, le réseau de bus sera fortement perturbé dans la métropole toulonnaise ce jeudi, jour de grève nationale",
+      "resume": "Alors que ce jeudi 5 novembre, les salariés du public et du privé manifestent contre la vie chère et le maintien de services publics, des perturbations sont à prévoir sur les transports en commun. À Toulon, Réseau Mistral annonce ce mercredi après-midi que 51 % des conducteurs seront en grève.",
+      "lien": "https://www.nicematin.com/societe/transports/avec-51-de-conducteurs-en-greve-le-reseau-de-bus-sera-fortement-perturbe-dans-la-metropole-toulonnaise-ce-jeudi-jour-de-greve-nationale-10753681",
+      "date": "2026-11-04T16:04:39+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/81/OG-10753681-1200-800-f064d13_upload-1-h611lcwfztkm-maxmatinarch534096.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Manifestations de ce jeudi 5 novembre : voici les parcours déclarés à Nice et Cannes et le dispositif de sécurité prévu",
+      "resume": "Deux manifestations syndicales sont déclarées dans les Alpes-Maritimes ce jeudi 5 novembre 2026. À Nice comme à Cannes, les rassemblements débuteront à 10 heures. La préfecture détaille les itinéraires retenus et les mesures de sécurité prévues pour encadrer les cortèges.",
+      "lien": "https://www.nicematin.com/societe/greves/manifestations-de-ce-jeudi-5-novembre-voici-les-parcours-declares-a-nice-et-cannes-et-le-dispositif-de-securite-prevu-10753682",
+      "date": "2026-11-04T15:52:08+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/82/OG-10753682-1200-800-348cc16_upload-1-7zgtrgsnsdq8-maxmatinarchtwo266706.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Grève du 5 novembre : éducation, transports, santé… Quels sont les secteurs qui se mobilisent ?",
+      "resume": "De fortes perturbations dans l'Education nationale, les transports et la santé sont attendues lors de la journée de grève interprofessionnelle du jeudi 5 novembre",
+      "lien": "https://www.sudouest.fr/societe/greves-et-manifestations/greve-du-5-novembre-education-transports-sante-quels-sont-les-secteurs-qui-se-mobilisent-31381810.php",
+      "date": "2026-11-04T16:33:23+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31381810/1200x-1/20261013202632-a14a135.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Grève SNCF du 5 novembre : votre TER circule-t-il ce jeudi en Occitanie ? Tous les horaires ligne par ligne",
+      "resume": "La SNCF prévoit un trafic perturbé, ce jeudi 5 novembre, à l'occasion de l'appel national à la grève pour défendre les salaires et l'emploi. Retrouvez la grille horaire de chaque ligne régionale en Occitanie.",
+      "lien": "https://www.ladepeche.fr/2026/11/04/greve-sncf-du-5-novembre-votre-ter-circule-t-il-ce-jeudi-en-occitanie-tous-les-horaires-ligne-par-ligne-13635790.php",
+      "date": "2026-11-04T16:30:14+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeb527379d955a82d056eea/standard/image.png?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestation du 5 novembre à Toulouse : les syndicats bravent l'interdiction de la préfecture et maintiennent leur parcours dans le centre-ville",
+      "resume": "À Toulouse, les syndicats qui appellent à la mobilisation ce jeudi 5 novembre ont décidé de braver l'interdiction de manifester en centre-ville décidée par le préfet. Ils maintiennent leur itinéraire via les...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/manifestation-du-5-novembre-a-toulouse-les-syndicats-bravent-linterdiction-de-la-prefecture-et-maintiennent-leur-parcours-dans-le-centre-ville-13635334.php",
+      "date": "2026-11-04T14:30:27+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeafc1baf442a136f026913/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "DECRYPTAGE. Manifestations du 5 novembre : comment les syndicats vont faire leur retour en première ligne de la colère sociale",
+      "resume": "Après les lycéens, les étudiants et les Gilets jaunes, les syndicats entrent à leur tour dans la bataille sociale jeudi. Unis pour réclamer des hausses de salaires, la défense des services publics et davantage de...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/decryptage-manifestations-du-5-novembre-comment-les-syndicats-vont-faire-leur-retour-en-premiere-ligne-de-la-colere-sociale-13634038.php",
+      "date": "2026-11-04T05:40:43+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae9ea831d7b5b093c0ded24/standard/image.png?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Manifestation du 5 novembre : comment la bataille des parcours a tourné au bras de fer entre préfets et syndicats",
+      "resume": "Après les violences qui ont émaillé plusieurs mobilisations, les préfectures cherchent à éloigner les cortèges des centres-villes. Une stratégie contestée par les syndicats, qui multiplient les recours devant la...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/manifestation-du-5-novembre-comment-la-bataille-des-parcours-a-tourne-au-bras-de-fer-entre-prefets-et-syndicats-13634107.php",
+      "date": "2026-11-04T07:31:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae9f0760fd3e80dbe0c92af/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Ain. Grève du 5 novembre : forte mobilisation attendue ce jeudi à Bourg, « grand flou » du côté des lycéens",
+      "resume": "La manifestation intersyndicale départementale devrait dépasser le millier de participants cet après-midi au départ du Champ de foire à Bourg-en-Bresse. Le cortège empruntera les grands axes extérieurs en direction de la préfecture, mais pas les rues du centre-ville qui lui sont interdites.",
+      "lien": "https://www.leprogres.fr/social/2026/11/04/greve-du-5-novembre-forte-mobilisation-attendue-ce-jeudi-a-bourg-grand-flou-du-cote-des-lyceens",
+      "date": "2026-11-04T16:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Paris. Grève du 5 novembre : le parcours République-Nation autorisé par la préfecture",
+      "resume": "L'intersyndicale et les organisations lycéennes et étudiantes avaient initialement proposé un parcours allant de la place de la Bastille jusqu'à la place de la Concorde, non loin de l'Assemblée nationale.",
+      "lien": "https://www.leprogres.fr/social/2026/11/04/greve-du-5-novembre-le-parcours-republique-nation-autorise-par-la-prefecture",
+      "date": "2026-11-04T16:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Social. Grève du 5 novembre : écoles, santé, transports... Quelles perturbations sont à prévoir jeudi ?",
+      "resume": "Environ 250 actions sont déjà prévues dans tout le pays. À la veille de la mobilisation massive attendue ce jeudi 5 novembre, voici les prévisions secteur par secteur.",
+      "lien": "https://www.leprogres.fr/social/2026/11/04/greve-du-5-novembre-ecoles-sante-transports-quelles-perturbations-sont-a-prevoir-jeudi",
+      "date": "2026-11-04T15:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Crise sociale. Grenoble, Chambéry, Annecy... À quoi faut-il s'attendre ce jeudi 5 novembre ?",
+      "resume": "L'heure est à nouveau à la mobilisation ce jeudi 5 novembre. Et c'est désormais au tour des travailleurs de rejoindre le mouvement. Manifestations et appels à la grève sont annoncés nombreux par l'intersyndicale dans l'ensemble du pays. Retrouvez un point sur les actions prévues et leur impact dans les différents secteurs couverts par votre journal.",
+      "lien": "https://www.ledauphine.com/social/2026/11/04/grenoble-chambery-annecy-a-quoi-faut-il-s-attendre-ce-jeudi-5-novembre",
+      "date": "2026-11-04T13:55:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/37C126B7-239E-41CE-BB01-FFE141933BD8/NW_listB/grenoble-chambery-annecy-a-quoi-faut-il-s-attendre-ce-jeudi-5-novembre-1793799160.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Paris. Grève du 5 novembre : le parcours République-Nation autorisé par la préfecture",
+      "resume": "L'intersyndicale et les organisations lycéennes et étudiantes avaient initialement proposé un parcours allant de la place de la Bastille jusqu'à la place de la Concorde, non loin de l'Assemblée nationale.",
+      "lien": "https://www.ledauphine.com/social/2026/11/04/greve-du-5-novembre-le-parcours-republique-nation-autorise-par-la-prefecture",
+      "date": "2026-11-04T16:10:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/328E7E0D-E1C1-4F6C-8457-78336133573D/NW_listB/greve-du-5-novembre-le-parcours-republique-nation-autorise-par-la-prefecture-1793808505.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Alsace. Grève du 5 novembre : les syndicats tablent sur une forte mobilisation",
+      "resume": "L’appel national à la grève lancé pour jeudi 5 novembre par l’intersyndicale CFDT, CGT, FO, Unsa et FSU contre l’augmentation des prix et pour une revalorisation des salaires concernera le secteur public comme le secteur privé. Des manifestations seront organisées à Strasbourg et Mulhouse.",
+      "lien": "https://www.dna.fr/social/2026/11/04/greve-du-5-novembre-confiants-les-syndicats-tablent-sur-une-forte-mobilisation",
+      "date": "2026-11-04T05:28:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Social. Grève du 5 novembre : écoles, santé, transports... Quelles perturbations sont à prévoir jeudi ?",
+      "resume": "Environ 250 actions sont déjà prévues dans tout le pays. À la veille de la mobilisation massive attendue ce jeudi 5 novembre, voici les prévisions secteur par secteur.",
+      "lien": "https://www.estrepublicain.fr/social/2026/11/04/greve-du-5-novembre-ecoles-sante-transports-quelles-perturbations-sont-a-prevoir-jeudi",
+      "date": "2026-11-04T15:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Paris. Grève du 5 novembre : le parcours République-Nation autorisé par la préfecture",
+      "resume": "L'intersyndicale et les organisations lycéennes et étudiantes avaient initialement proposé un parcours allant de la place de la Bastille jusqu'à la place de la Concorde, non loin de l'Assemblée nationale.",
+      "lien": "https://www.estrepublicain.fr/social/2026/11/04/greve-du-5-novembre-le-parcours-republique-nation-autorise-par-la-prefecture",
+      "date": "2026-11-04T16:10:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "DNA",
+     "France 24",
+     "France 3 Régions",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès",
+     "Nice-Matin",
+     "Ouest-France",
+     "Sud Ouest",
+     "actu.fr"
+    ],
+    "sig": [
+     "attend",
+     "greve",
+     "manife",
+     "nation",
+     "novemb",
+     "parcou",
+     "quoi",
+     "transp"
+    ],
+    "score": 147.99904856611113,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Grève du 5 novembre : transports et services publics perturbés",
+    "texte": "En France, les syndicats appellent les secteurs public et privé à se mobiliser jeudi. Des perturbations sont attendues dans les transports, à l'école et dans les administrations.",
+    "texte_long": "En France, les syndicats appellent les secteurs public et privé à se mobiliser jeudi. Des perturbations sont attendues dans les transports, à l'école et dans les administrations.",
+    "flash": "En France, la grève interprofessionnelle de jeudi doit perturber les transports, les écoles et les services publics.",
+    "politique": false,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Greve",
+     "#Salaires"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/societe/greve/4260270-20261104-transports-ecoles-administration-quoi-attendre-greve-5-novembre?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/economie/economie-social/trafic-sncf-perturbe-sur-les-ter-et-rer-ecoles-fermees-a-quoi-s-attendre-pour-la-journee-de-greve-et-de-mobilisation-de-jeudi-5-novembre_AD-202611040753.html",
+     "DNA": "https://www.dna.fr/social/2026/11/04/greve-du-5-novembre-confiants-les-syndicats-tablent-sur-une-forte-mobilisation",
+     "France 24": "https://www.france24.com/fr/france/20261104-%C3%A9ducation-transports-sant%C3%A9-%C3%A0-quoi-s-attendre-journ%C3%A9e-mobilisation-jeudi",
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/manifestation-du-5-novembre-a-paris-parcours-de-republique-a-nation-transports-services-publics-a-quoi-faut-il-s-attendre-3444207.html",
+     "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/11/04/greve-du-5-novembre-ecoles-sante-transports-quelles-perturbations-sont-a-prevoir-jeudi",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/04/greve-sncf-du-5-novembre-votre-ter-circule-t-il-ce-jeudi-en-occitanie-tous-les-horaires-ligne-par-ligne-13635790.php",
+     "Le Dauphiné": "https://www.ledauphine.com/social/2026/11/04/grenoble-chambery-annecy-a-quoi-faut-il-s-attendre-ce-jeudi-5-novembre",
+     "Le Figaro France": "https://www.lefigaro.fr/social/greve-intersyndicale-du-5-novembre-transports-education-sante-quels-sont-les-secteurs-mobilises-20261025",
+     "Le Parisien": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-la-prefecture-interdit-le-parcours-bastille-concorde-pour-la-manifestation-de-jeudi-04-11-2026-TEU4DRL4QBB4PCWQAH6WKAAZBI.php",
+     "Le Progrès": "https://www.leprogres.fr/social/2026/11/04/greve-du-5-novembre-forte-mobilisation-attendue-ce-jeudi-a-bourg-grand-flou-du-cote-des-lyceens",
+     "Nice-Matin": "https://www.nicematin.com/societe/greves/greve-et-manifestations-du-jeudi-5-novembre-quelle-mobilisation-et-quelles-perturbations-attendues-dans-le-var-10753254",
+     "Ouest-France": "https://www.ouest-france.fr/education/nous-nous-attendons-a-une-mobilisation-importante-lenseignement-prive-bascule-dans-la-greve-une-premiere-31c5fb02-d835-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+     "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/greve-du-5-novembre-education-transports-sante-quels-sont-les-secteurs-qui-se-mobilisent-31381810.php",
+     "actu.fr": "https://actu.fr/occitanie/toulouse_31555/manifestation-du-5-novembre-cortege-fermetures-transports-perturbes-a-quoi-faut-il-s-attendre-a-toulouse_65014664.html"
+    },
+    "date_affichee": "4 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Procès de l'assassinat du frère d'Amine Kessaci : menacé de mort après ses aveux, l'un des accusés placé à l'isolement renforcé",
+      "resume": "Mercredi, Ahmed Zakaria Bensaci a réitéré devant la cour d'assises d'Aix-en-Provence ses déclarations à charge contre deux de ses coaccusés, présentés comme des barons de la drogue. Il leur impute l'entière responsabilité du triple narchomicide pour lequel cinq hommes sont jugés.",
+      "lien": "https://www.franceinfo.fr/faits-divers/justice-proces/proces-de-l-assassinat-du-frere-d-amine-kessaci-menace-de-mort-apres-ses-aveux-l-un-des-accuses-place-a-l-isolement-renforce_8267906.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T15:23:46+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/e4W2YkYVvnkhDgHyrV8kcKu9mMg/0x31:2635x1514/432x243/filters:format(jpg)/2026/11/04/6aeb4dd609f45248504003.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "L'accusé de l'assassinat terroriste du professeur Dominique Bernard renvoyé aux assises, non-lieu pour son frère et son cousin",
+      "resume": "Le Parquet national antiterroriste avait demandé le renvoi en procès non seulement de Mohammed Mogouchkov, mais aussi de ce frère et ce cousin, qui connaissaient sa radicalisation islamiste mais nient avoir été informés de son projet d'attentat.",
+      "lien": "https://www.franceinfo.fr/faits-divers/attaque-au-couteau-dans-un-lycee-a-arras/le-principal-suspect-dans-le-meurtre-du-professeur-dominique-bernard-renvoye-aux-assises-non-lieu-pour-son-frere-et-son-cousin_8267462.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T10:49:34+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/c-4H6Y1Y_SeyexJ6LXgkHuAI8T4/0x106:1024x682/432x243/filters:format(jpg)/2026/11/04/6aeb08d64c564035767202.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Assassinat de Dominique Bernard : les avocats du frère de l’assaillant font part de leur \"immense soulagement\" après le non-lieu prononcé",
+      "resume": "Devant la cour d'assises spéciale, les juges d'instruction ont prononcé mercredi un non-lieu pour le frère et le cousin de l'assassin présumé du professeur de français Dominique Bernard, trois ans après cette attaque jihadiste à Arras.",
+      "lien": "https://www.franceinfo.fr/faits-divers/attaque-au-couteau-dans-un-lycee-a-arras/assassinat-de-dominique-bernard-les-avocats-du-frere-de-l-assaillant-font-part-de-leur-immense-soulagement-apres-le-non-lieu-prononce_8267468.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-04T10:07:01+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/2C2_Bpn_R1SJ5Cr6UntWedlu8mU/0x224:4300x2643/432x243/filters:format(jpg)/2024/04/02/maxbestof277152-660b9370121a1806436253.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Pourquoi les juges d’instruction ont décidé de renvoyer devant la cour d’assises spéciale l’assassin de Dominique Bernard",
+      "resume": "Par ordonnance en date du 4 novembre, les juges d’instruction antiterroristes ont mis en accusation Mohammed Mogouchkov, Russe de 23 ans, devant la cour d’assises spécialement composée pour être jugé pour son implication dans l’attentat, à Arras. Des faits qu’il a revendiqués tout au long de l’instruction.",
+      "lien": "https://www.lemonde.fr/societe/article/2026/11/04/pourquoi-les-juges-d-instructions-ont-decide-de-renvoyer-devant-la-cour-d-assises-speciale-l-assassin-de-dominique-bernard_6806323_3224.html",
+      "date": "2026-11-04T16:00:14+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/04/887/0/4252/2126/644/322/60/0/5149518_upload-1-zrlwit3udfas-02.JPG"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Attentat d’Arras : L’assassin de Dominique Bernard renvoyé aux assises, non-lieu pour son frère et son cousin",
+      "resume": "Son frère et son cousin mis hors de cause par l’instruction, seul Mohammed Mogouchkov comparaîtra devant la cour d’Assises pour l’attentat qui a coûté la vie à Dominique Bernard",
+      "lien": "https://www.20minutes.fr/justice/4260277-20261104-attentat-arras-assassin-dominique-bernard-renvoye-assises-non-lieu-frere-cousin?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T10:34:44+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/n83YLJUVSHunvPvmbt2IwCk/1200x768_le-portrait-du-regrette-professeur-de-francais-dominique-bernard-57-ans-poignarde-a-mort-a-l-ecole-par-un-extremiste-islamiste-presume-est-expose-a-arras-dans-le-nord-de-la-france-le-jeudi-19-octobre-2023-photo-ap-michel-spingler-xtc102-23292294788560-2310191016"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Accident de car de Puisseguin en 2015: le non-lieu général confirmé en cassation, le collectif des victimes fait part de son \"immense colère\"",
+      "resume": "Un semi-remorque avait percuté un autocar qui transportait des retraités le 23 octobre 2015. Prises au piège des flammes et des fumées toxiques, 41 personnes à bord étaient mortes, huit en ayant réchappé. Le chauffeur du camion et son fils âgé de trois ans sont aussi décédés.",
+      "lien": "https://www.bfmtv.com/police-justice/accident-de-car-de-puisseguin-en-2015-le-non-lieu-general-confirme-en-cassation-le-collectif-des-victimes-fait-part-de-son-immense-colere_AD-202611040697.html",
+      "date": "2026-11-04T16:11:25+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/GIXup_4_x3o4FN5NBUohPXUAVl4=/0x40:768x472/800x0/images/Un-camion-passe-le-18-octobre-2016-sur-le-site-de-l-accident-de-Puisseguin-en-Gironde-qui-avait-fait-43-morts-en-2015-2099674.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "L’influenceuse Aurélie Preston renvoyée devant les assises dans l’affaire du homejacking visant son ex-mari",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/linfluenceuse-aurelie-preston-renvoyee-devant-les-assises-dans-laffaire-du-homejacking-visant-son-ex-mari-04-11-2026-AHOCDY62PJHG3LXYPSOYZ4CJIE.php",
+      "date": "2026-11-04T17:20:07.480417+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Attentat d’Arras : pour les juges, Mogouchkov a voulu frapper « la démocratie » à travers l’école",
+      "resume": "Trois juges d’instruction ont ordonné mercredi le renvoi devant la cour d’assises spéciale de l’assassin présumé du professeur de français Dominique Bernard, son ancien élève Mohammed Mogouchkov, trois ans après cette attaque jihadiste à Arras (Pas-de-Calais) qui avait aussi fait trois blessés, a appris l’AFP de sources proches du dossier.",
+      "lien": "https://www.nicematin.com/societe/attentat-d-arras-pour-les-juges-mogouchkov-a-voulu-frapper-la-democratie-a-travers-l-ecole-10753621",
+      "date": "2026-11-04T10:58:07+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/21/OG-10753621-1200-800-0301f9f_upload-from-url-1-nf739xtzundl-195a1ecd993c21e2bc74c96d15698dc0d32bee04-7vemox3b.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Assassinat de Dominique Bernard à Arras : l'assaillant Mohammed Mogouchkov renvoyé devant une cour d'assises spéciale, non-lieu pour son frère et son cousin",
+      "resume": "Trois ans après l'assassinat du professeur Dominique Bernard à Arras (Pas-de-Calais), les juges d'instruction ont ordonné le renvoi de son assaillant devant la cour d'assises. Le frère et le cousin de l'assassin...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/assassinat-de-dominique-bernard-a-arras-lassaillant-mohammed-mogouchkov-renvoye-devant-une-cour-dassises-speciale-non-lieu-pour-son-frere-et-son-13635406.php",
+      "date": "2026-11-04T10:39:23+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeb0572acf0fbd2880d44e5/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Assassinat de Dominique Bernard : pourquoi le petit frère et le cousin de Mohammed Mogouchkov ont-ils bénéficié d’un non-lieu ?",
+      "resume": "Mohammed Mogouchkov, accusé de l’assassinat du professeur Dominique Bernard à Arras en octobre 2023, sera jugé par la cour d’assises spéciale. L’attaque, revendiquée au nom de l’État islamique, avait fait trois...",
+      "lien": "https://www.midilibre.fr/2026/11/04/assassinat-de-dominique-bernard-pourquoi-le-petit-frere-et-le-cousin-de-mohammed-mogouchkov-ont-ils-beneficie-dun-non-lieu-13635707.php",
+      "date": "2026-11-04T12:45:27+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeb27ac6e11c644f5039148/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Grenoble. Mort de Lilian Dejean : le parquet requiert le renvoi d’Abdoul Diallo devant la cour d’assises pour meurtre",
+      "resume": "Le procureur de Grenoble a donné une conférence de presse ce mercredi 8 octobre pour annoncer la décision du parquet dans l’affaire du meurtre de l’ancien chef du service propreté de la Ville de Grenoble. Ce dernier avait été tué par balle le 8 septembre alors qu’il tentait d’empêcher un chauffard de prendre la fuite après avoir provoqué un accident.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/11/04/meurtre-de-lilian-dejean-le-parquet-requiert-le-renvoi-d-abdoul-diallo-devant-la-cour-d-assises-pour-meurtre",
+      "date": "2026-11-04T15:32:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/780BD650-5C17-43E6-B70A-8308EBD476EF/NW_listB/mort-de-lilian-dejean-le-parquet-requiert-le-renvoi-d-abdoul-diallo-devant-la-cour-d-assises-pour-meurtre-1793806671.jpg"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Monde France",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "assass",
+     "assise",
+     "bernar",
+     "domini",
+     "frere",
+     "lieu",
+     "non",
+     "renvoy"
+    ],
+    "score": 102.99904906083333,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Arras : l'assassin de Dominique Bernard renvoyé aux assises",
+    "texte": "À Arras, les juges antiterroristes renvoient Mohammed Mogouchkov devant la cour d'assises spéciale. Son frère et son cousin bénéficient d'un non-lieu, trois ans après l'attaque qui a tué le professeur Dominique Bernard.",
+    "texte_long": "À Arras, les juges antiterroristes renvoient Mohammed Mogouchkov devant la cour d'assises spéciale. Son frère et son cousin bénéficient d'un non-lieu, trois ans après l'attaque qui a tué le professeur Dominique Bernard.",
+    "flash": "À Arras, l'assaillant du professeur Dominique Bernard sera jugé devant la cour d'assises spéciale, son frère et son cousin bénéficiant d'un non-lieu.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Terrorisme",
+     "#Justice"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/justice/4260277-20261104-attentat-arras-assassin-dominique-bernard-renvoye-assises-non-lieu-frere-cousin?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/police-justice/accident-de-car-de-puisseguin-en-2015-le-non-lieu-general-confirme-en-cassation-le-collectif-des-victimes-fait-part-de-son-immense-colere_AD-202611040697.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/04/assassinat-de-dominique-bernard-a-arras-lassaillant-mohammed-mogouchkov-renvoye-devant-une-cour-dassises-speciale-non-lieu-pour-son-frere-et-son-13635406.php",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/04/meurtre-de-lilian-dejean-le-parquet-requiert-le-renvoi-d-abdoul-diallo-devant-la-cour-d-assises-pour-meurtre",
+     "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/04/pourquoi-les-juges-d-instructions-ont-decide-de-renvoyer-devant-la-cour-d-assises-speciale-l-assassin-de-dominique-bernard_6806323_3224.html",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/linfluenceuse-aurelie-preston-renvoyee-devant-les-assises-dans-laffaire-du-homejacking-visant-son-ex-mari-04-11-2026-AHOCDY62PJHG3LXYPSOYZ4CJIE.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/04/assassinat-de-dominique-bernard-pourquoi-le-petit-frere-et-le-cousin-de-mohammed-mogouchkov-ont-ils-beneficie-dun-non-lieu-13635707.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/attentat-d-arras-pour-les-juges-mogouchkov-a-voulu-frapper-la-democratie-a-travers-l-ecole-10753621",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/justice-proces/proces-de-l-assassinat-du-frere-d-amine-kessaci-menace-de-mort-apres-ses-aveux-l-un-des-accuses-place-a-l-isolement-renforce_8267906.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "4 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "20 Minutes France",
+      "titre": "« Démissionner ? jamais ! »… Des messages confidentiels de Macron dévoilés dans un livre",
+      "resume": "L’éditorialiste Françoise Degois révèle, dans un ouvrage qui paraîtra jeudi, des échanges confidentiels avec le président de la République",
+      "lien": "https://www.20minutes.fr/politique/4260410-20261104-demissionner-jamais-messages-confidentiels-macron-devoiles-livre?at_medium=display&at_campaign=149",
+      "date": "2026-11-04T16:08:50+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/5m8SFprAS0mnfVr8-HbuUSk/1200x768_le-president-francais-emmanuel-macron-rencontre-des-proprietaires-d-entreprises-dont-les-entreprises-ont-ete-endommagees-lors-des-recents-troubles-a-marseille-en-france-le-lundi-26-octobre-2026-ap-photo-aurelien-morissard-piscine-xdb122-26299456424319-photo-de-piscine-2610261344"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "SMS d'Emmanuel Macron dévoilés dans un livre: \"Ce n'est pas une trahison, c'est pire\", estime Sabrina Roubache, ministre déléguée à l'Enseignement et à la Formation",
+      "resume": "Deux ans d'échanges et de SMS avec le président de la République sont publiés dans le livre de Françoise Degois \"Vous êtes tous trop durs avec moi\".",
+      "lien": "https://www.bfmtv.com/politique/elysee/video-sms-d-emmanuel-macron-devoiles-dans-un-livre-ce-n-est-pas-une-trahison-c-est-pire-estime-sabrina-roubache-ministre-deleguee-a-l-enseignement-et-a-la-formation_VN-202611040755.html",
+      "date": "2026-11-04T17:16:03+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/HjAbc9MWwqZ8fpD90nTu97phrhk=/0x0:1280x720/800x0/images/SMS-d-Emmanuel-Macron-devoiles-dans-un-livre-Ce-n-est-pas-une-trahison-c-est-pire-estime-Sabrina-Roubache-ministre-deleguee-a-l-Enseignement-et-a-la-Formation-2378039.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Marschall Truchot : Une journaliste dévoile ses échanges de SMS avec Macron - 04/11",
+      "resume": "Marschall Truchot, du lundi au jeudi de 17h à 18h45 avec Olivier Truchot & Alain Marschall. Deux heures pour faire un tour complet de l’actualité en présence d’invités pour expliquer et débattre sur les grands sujets qui ont marqué la journée.",
+      "lien": "https://www.bfmtv.com/replay-emissions/bfm-story/video-marschall-truchot-une-journaliste-devoile-ses-echanges-de-sms-avec-macron-04-11_VN-202611040752.html",
+      "date": "2026-11-04T17:06:31+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EXsK8gd9zD8yQYUaiiBP38jiuvA=/0x0:1280x720/800x0/images/Marschall-Truchot-Une-journaliste-devoile-ses-echanges-de-SMS-avec-Macron-04-11-2378037.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "SMS d'Emmanuel Macron dévoilés dans un livre: l'Élysée assure que \"le Président ne fait que dire en privé ce qu'il a dit en public\"",
+      "resume": "Deux ans d'échanges et de SMS avec le président de la République sont publiés dans le livre de Françoise Degois \"Vous êtes tous trop durs avec moi\".",
+      "lien": "https://www.bfmtv.com/politique/elysee/video-sms-d-emmanuel-macron-devoiles-dans-un-livre-l-elysee-assure-que-le-president-ne-fait-que-dire-en-prive-ce-qu-il-a-dit-en-public_VN-202611040743.html",
+      "date": "2026-11-04T17:02:20+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/7QVnpMuZnW7RIRXlElbwSeUQoAY=/0x0:1280x720/800x0/images/SMS-d-Emmanuel-Macron-devoiles-dans-un-livre-l-Elysee-assure-que-le-President-ne-fait-que-dire-en-prive-ce-qu-il-a-dit-en-public-2378028.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Marschall Truchot : Grève générale, baroud d'honneur ou nouvel élan ? - 04/11",
+      "resume": "Marschall Truchot, du lundi au jeudi de 17h à 18h45 avec Olivier Truchot & Alain Marschall. Deux heures pour faire un tour complet de l’actualité en présence d’invités pour expliquer et débattre sur les grands sujets qui ont marqué la journée.",
+      "lien": "https://www.bfmtv.com/replay-emissions/bfm-story/video-marschall-truchot-greve-generale-baroud-d-honneur-ou-nouvel-elan-04-11_VN-202611040737.html",
+      "date": "2026-11-04T16:43:02+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ov_gmFksoAps0ELp4r7NSWzcx1A=/0x0:1280x720/800x0/images/Marschall-Truchot-Greve-generale-baroud-d-honneur-ou-nouvel-elan-04-11-2378021.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Quelle imprudence ! » : la macronie atterrée par les textos du président révélés dans un livre choc",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/politique/quelle-imprudence-la-macronie-atterree-par-les-textos-du-president-reveles-dans-un-livre-choc-04-11-2026-GKKDHC2HBJEZVFTYJZEQ4HLGS4.php",
+      "date": "2026-11-04T17:20:07.478585+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« On les aura ! », « Démissionner ? Jamais ! », « On lui a trop donné » : des messages privés d’Emmanuel Macron dévoilés dans un livre",
+      "resume": "Emmanuel Macron a découvert trois jours avant leur publication que ses échanges privés par messagerie avec la journaliste Françoise Degois allaient être divulgués dans un livre. Si la méthode est « contestable », et le ton souvent très libre, il n’en ressort aucun « scoop », relativise toutefois un proche.",
+      "lien": "https://www.nicematin.com/societe/politique/on-les-aura-demissionner-jamais-on-lui-a-trop-donne-des-messages-prives-d-emmanuel-macron-devoiles-dans-un-livre-10753683",
+      "date": "2026-11-04T15:50:01+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/36/83/OG-10753683-1200-800-c7f511f_ftp-1-dcpeb5xohpk9-00776229-000006.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Emmanuel Macron : \"Tous des salopards\", \"tous mabouls\", \"des nazes\" : les confidences explosives du président de la République dévoilées dans un livre",
+      "resume": "Pendant deux ans, Emmanuel Macron a échangé des centaines de messages privés avec la journaliste Françoise Degois. Dans un livre à paraître ce jeudi 5 novembre, elle dévoile les colères, les inquiétudes et les...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/emmanuel-macron-tous-des-salopards-tous-mabouls-des-nazes-les-confidences-explosives-du-president-de-la-republique-devoilees-dans-un-livre-13635196.php",
+      "date": "2026-11-04T06:45:24+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aead3b95487e9e14e0ff74c/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Présidentielle 2027 : que va devenir Emmanuel Macron après le scrutin ? Les réflexions du Président quant à son avenir",
+      "resume": "Emmanuel Macron, après dix ans à l’Élysée, s’apprête à quitter la présidence en mai 2027. Dans Vous êtes tous trop durs avec moi, à paraître le 5 novembre 2026, Françoise Degois dévoile ses réflexions quant à son...",
+      "lien": "https://www.midilibre.fr/2026/11/04/plutot-hors-de-france-que-va-devenir-emmanuel-macron-apres-la-presidentielle-2027-13635660.php",
+      "date": "2026-11-04T15:14:14+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeb32c4fcb06ab1df0eea88/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "\"Tous des nazes\" : Emmanuel Macron dézingue alliés, adversaires politiques et journalistes… des conversations privées du Président dévoilées dans un livre",
+      "resume": "Emmanuel Macron voit ses confidences révélées dans \"Vous êtes tous trop durs avec moi\", un livre de Françoise Degois à paraître le 5 novembre. Basé sur deux ans d’échanges sur Telegram, l’ouvrage dévoile ses...",
+      "lien": "https://www.midilibre.fr/2026/11/04/tous-des-nazes-emmanuel-macron-dezingue-allies-adversaires-politiques-et-journalistes-des-conversations-privees-du-president-devoilees-dans-un-livre-13635663.php",
+      "date": "2026-11-04T13:09:25+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeb2aaa09f35499ef0c4b33/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "Nice-Matin"
+    ],
+    "sig": [
+     "confid",
+     "demiss",
+     "devoil",
+     "emmanu",
+     "livre",
+     "macron",
+     "presid",
+     "sms"
+    ],
+    "score": 97.99904855194444,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Un livre publie des SMS entre Macron et une journaliste",
+    "texte": "Françoise Degois publie dans un livre deux ans d'échanges de SMS avec le président de la République. L'Élysée affirme que le chef de l'État dit en privé ce qu'il dit en public.",
+    "texte_long": "Françoise Degois publie dans un livre deux ans d'échanges de SMS avec le président de la République. L'Élysée affirme que le chef de l'État dit en privé ce qu'il dit en public.",
+    "flash": "Un livre de Françoise Degois publie des SMS échangés avec Emmanuel Macron, l'Élysée assurant qu'il dit en privé ce qu'il dit en public.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Emmanuel Macron",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Politique",
+     "#Elysee"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/politique/4260410-20261104-demissionner-jamais-messages-confidentiels-macron-devoiles-livre?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/politique/elysee/video-sms-d-emmanuel-macron-devoiles-dans-un-livre-ce-n-est-pas-une-trahison-c-est-pire-estime-sabrina-roubache-ministre-deleguee-a-l-enseignement-et-a-la-formation_VN-202611040755.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/04/emmanuel-macron-tous-des-salopards-tous-mabouls-des-nazes-les-confidences-explosives-du-president-de-la-republique-devoilees-dans-un-livre-13635196.php",
+     "Le Parisien": "https://www.leparisien.fr/politique/quelle-imprudence-la-macronie-atterree-par-les-textos-du-president-reveles-dans-un-livre-choc-04-11-2026-GKKDHC2HBJEZVFTYJZEQ4HLGS4.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/04/plutot-hors-de-france-que-va-devenir-emmanuel-macron-apres-la-presidentielle-2027-13635660.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/politique/on-les-aura-demissionner-jamais-on-lui-a-trop-donne-des-messages-prives-d-emmanuel-macron-devoiles-dans-un-livre-10753683"
+    },
+    "date_affichee": "4 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Le Figaro France",
+      "titre": "Sondage : Sébastien Lecornu à son plus bas historique, spectaculaire percée pour David Lisnard",
+      "resume": "BAROMÈTRE FIGARO MAGAZINE - À la suite des émeutes du 17 octobre, la cote de confiance du premier ministre est descendue à 19%. Une baisse qui ne cesse de se poursuivre pour le locataire de Matignon.",
+      "lien": "https://www.lefigaro.fr/elections/presidentielles/sondages/sondage-sebastien-lecornu-a-son-plus-bas-historique-spectaculaire-percee-pour-david-lisnard-20261104",
+      "date": "2026-11-04T17:08:16+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2217x1478_crop/2026/11/04/b15daa549691c58db6c503757abfd21ad6ea9888b0308814131cdebf8406c470.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : David Lisnard confirme son avance sur Bruno Retailleau au premier tour dans un nouveau sondage",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-david-lisnard-confirme-son-avance-sur-bruno-retailleau-au-premier-tour-dans-un-nouveau-sondage-04-11-2026-YKEKQGHOIRHFTECQSBHUT2IW64.php",
+      "date": "2026-11-04T17:20:07.479490+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Bruno Retailleau glisse quelques pistes concernant son gouvernement en cas d’élection",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-bruno-retailleau-glisse-quelques-pistes-concernant-son-gouvernement-en-cas-delection-04-11-2026-67GEOVDIUVFJLKVSJPNGPSTC4E.php",
+      "date": "2026-11-04T17:20:07.480202+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Élection présidentielle 2027 : Bretagne, Marseille, Le Mans… François Hollande multiplie les déplacements en vue d’une potentielle candidature",
+      "resume": "L’ancien président de la République suit de près la dynamique de Raphaël Glucksmann, espérant toujours incarner la gauche sociale-démocrate à la prochaine élection présidentielle. Il devrait annoncer sa",
+      "lien": "https://www.sudouest.fr/elections/presidentielle/election-presidentielle-2027-bretagne-marseille-le-mans-francois-hollande-multiplie-les-deplacements-en-vue-d-une-potentielle-candidature-31382786.php",
+      "date": "2026-11-04T16:43:11+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31382786/1200x-1/20261028142306-3217612.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Présidentielle 2027 : le cinéma français interpelle les candidats pour faire de son modèle une « priorité stratégique »",
+      "resume": "Inquiètes pour leur avenir face aux menaces politiques et budgétaires, quatre organisations majeures du septième art demandent que la culture devienne un « actif stratégique pour la France »",
+      "lien": "https://www.sudouest.fr/culture/cinema/presidentielle-2027-le-cinema-francais-interpelle-les-candidats-pour-faire-de-son-modele-une-priorite-strategique-31381204.php",
+      "date": "2026-11-04T15:11:38+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31381204/1200x-1/20251111151549-a14a445.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : un sondage XXL plutôt qu'une primaire, cette solution peut-elle départager les candidats de la droite et du centre ?",
+      "resume": "La primaire voulue par Gabriel Attal n'est pas encore enterrée, mais ses chances d'aboutir s'amenuisent peu à peu. Pour départager les candidats de la droite et du centre, deux députés macronistes avancent l'idée d'un...",
+      "lien": "https://www.ladepeche.fr/2026/11/04/presidentielle-2027-un-sondage-xxl-plutot-quune-primaire-cette-solution-peut-elle-departager-les-candidats-de-la-droite-et-du-centre-13634159.php",
+      "date": "2026-11-04T16:33:02+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6ae9ffc9037df5900007d8be/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 - Sondage : Le Pen domine toujours, Mélenchon progresse encore, Glucksmann peine à décoller",
+      "resume": "Un sondage Ifop pour LCI publié ce mardi 3 novembre place Marine Le Pen et Jean-Luc Mélenchon en position de se qualifier pour le second tour. Derrière, les candidats, qu'ils soient à droite, au centre ou à gauche,...",
+      "lien": "https://www.ladepeche.fr/2026/11/03/presidentielle-2027-sondage-le-pen-domine-toujours-melenchon-progresse-encore-glucksmann-peine-a-decoller-13634459.php",
+      "date": "2026-11-04T05:54:45+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aea297e377783849106d2f2/standard/image.png?v=3"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "SONDAGE Présidentielle 2027 : Marine Le Pen et Jean-Luc Mélenchon creusent l’écart, Édouard Philippe au plus bas… Les enseignements de cette dernière étude",
+      "resume": "À six mois de la présidentielle, un sondage Ifop pour \"LCI\" publié le 3 novembre 2026 place Marine Le Pen en tête avec 35 à 37 % des intentions de vote, suivie de Jean-Luc Mélenchon à 17,5-18 %. Édouard Philippe,...",
+      "lien": "https://www.midilibre.fr/2026/11/04/sondage-presidentielle-2027-marine-le-pen-et-jean-luc-melenchon-creusent-lecart-edouard-philippe-au-plus-bas-les-enseignements-de-cette-derniere-etude-13635287.php",
+      "date": "2026-11-04T09:31:35+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aeaf82624395b4de20f16a2/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Présidentielle 2027 : David Lisnard assure avoir obtenu les 500 parrainages et invite Éric Ciotti \"à se séparer du RN\"",
+      "resume": "Invité sur le plateau de BFMTV ce mardi 3 novembre, le maire de Cannes et candidat Nouvelle Énergie David Lisnard a confirmé sa candidature à la présidentielle 2027. Une candidature qui se renforce puisque l’intéressé...",
+      "lien": "https://www.midilibre.fr/2026/11/03/presidentielle-2027-david-lisnard-assure-avoir-obtenu-les-500-parrainages-et-invite-eric-ciotti-a-se-separer-du-rn-13634496.php",
+      "date": "2026-11-03T20:25:25+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6aea426f79ed5723240ebaec/standard/image.png?v=1"
+     }
+    ],
+    "sources": [
+     "La Dépêche",
+     "Le Figaro France",
+     "Le Parisien",
+     "Midi Libre",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "2027",
+     "bas",
+     "bruno",
+     "candid",
+     "david",
+     "lisnar",
+     "presid",
+     "sondag"
+    ],
+    "score": 87.9990490011111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Sébastien Lecornu au plus bas dans un sondage Figaro Magazine",
+    "texte": "Selon le baromètre du Figaro Magazine, Sébastien Lecornu atteint son plus bas niveau de confiance, à 19 pour cent. David Lisnard progresse nettement dans les intentions de vote pour la présidentielle.",
+    "texte_long": "Selon le baromètre du Figaro Magazine, Sébastien Lecornu atteint son plus bas niveau de confiance, à 19 pour cent. David Lisnard progresse nettement dans les intentions de vote pour la présidentielle.",
+    "flash": "Selon un sondage du Figaro Magazine, Sébastien Lecornu recueille 19 pour cent de confiance, son plus bas niveau.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "19",
+     "legende": "pour cent de confiance"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Sébastien Lecornu",
+    "avec": null,
+    "chiffre": {
+     "nombre": "19",
+     "legende": "pour cent de confiance"
+    },
+    "lien": null,
+    "hashtags": [
+     "#Sondage",
+     "#Presidentielle"
+    ],
+    "liens": {
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/04/presidentielle-2027-un-sondage-xxl-plutot-quune-primaire-cette-solution-peut-elle-departager-les-candidats-de-la-droite-et-du-centre-13634159.php",
+     "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/sondages/sondage-sebastien-lecornu-a-son-plus-bas-historique-spectaculaire-percee-pour-david-lisnard-20261104",
+     "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-david-lisnard-confirme-son-avance-sur-bruno-retailleau-au-premier-tour-dans-un-nouveau-sondage-04-11-2026-YKEKQGHOIRHFTECQSBHUT2IW64.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/04/sondage-presidentielle-2027-marine-le-pen-et-jean-luc-melenchon-creusent-lecart-edouard-philippe-au-plus-bas-les-enseignements-de-cette-derniere-etude-13635287.php",
+     "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/election-presidentielle-2027-bretagne-marseille-le-mans-francois-hollande-multiplie-les-deplacements-en-vue-d-une-potentielle-candidature-31382786.php"
+    },
+    "date_affichee": "4 novembre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-11-04T17:20:31.027390+00:00",
+  "decision": null
+ }
+]

@@ -1,412 +1,6 @@
 [
  {
   "sig": [
-   "blocag",
-   "bloque",
-   "colere",
-   "france",
-   "lyceen",
-   "lycees",
-   "mobili",
-   "rentre"
-  ],
-  "date": "2026-11-02T16:51:48.594422+00:00",
-  "titre": "Lycéens mobilisés en France, rentrée sous tension"
- },
- {
-  "sig": [
-   "agress",
-   "direct",
-   "ecole",
-   "eleve",
-   "enseig",
-   "matern",
-   "mere",
-   "nice"
-  ],
-  "date": "2026-11-02T16:51:48.594443+00:00",
-  "titre": "À Nice, une mère d'élève agresse une directrice d'école"
- },
- {
-  "sig": [
-   "bhv",
-   "grand",
-   "judici",
-   "magasi",
-   "marais",
-   "paris",
-   "place",
-   "redres"
-  ],
-  "date": "2026-11-02T16:51:48.594447+00:00",
-  "titre": "Le BHV Marais placé en redressement judiciaire"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "grieve",
-   "marsei",
-   "pompie",
-   "pres",
-   "sait",
-   "suspec"
-  ],
-  "date": "2026-11-02T16:51:48.594449+00:00",
-  "titre": "Un pompier grièvement blessé par balle près de Marseille"
- },
- {
-  "sig": [
-   "2026",
-   "donald",
-   "electi",
-   "etats",
-   "midter",
-   "trump",
-   "unis",
-   "vote"
-  ],
-  "date": "2026-11-02T16:51:48.594452+00:00",
-  "titre": "Midterms : plus de 50 millions d'Américains ont déjà voté"
- },
- {
-  "sig": [
-   "2027",
-   "anne",
-   "claire",
-   "coudra",
-   "edouar",
-   "jean",
-   "luc",
-   "melenc"
-  ],
-  "date": "2026-11-02T16:51:48.594454+00:00",
-  "titre": "Darmanin juge que Mélenchon et Le Pen tueraient l'Europe"
- },
- {
-  "sig": [
-   "blocag",
-   "bloque",
-   "colere",
-   "france",
-   "lyceen",
-   "lycees",
-   "mobili",
-   "rentre"
-  ],
-  "date": "2026-11-02T16:56:23.430650+00:00",
-  "titre": "Lycéens mobilisés en France, rentrée sous tension"
- },
- {
-  "sig": [
-   "agress",
-   "direct",
-   "ecole",
-   "eleve",
-   "enseig",
-   "matern",
-   "mere",
-   "nice"
-  ],
-  "date": "2026-11-02T16:56:23.430663+00:00",
-  "titre": "À Nice, une mère d'élève agresse une directrice d'école"
- },
- {
-  "sig": [
-   "bhv",
-   "grand",
-   "judici",
-   "magasi",
-   "marais",
-   "paris",
-   "place",
-   "redres"
-  ],
-  "date": "2026-11-02T16:56:23.430667+00:00",
-  "titre": "Le BHV Marais placé en redressement judiciaire"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "grieve",
-   "marsei",
-   "pompie",
-   "pres",
-   "sait",
-   "suspec"
-  ],
-  "date": "2026-11-02T16:56:23.430670+00:00",
-  "titre": "Un pompier grièvement blessé par balle près de Marseille"
- },
- {
-  "sig": [
-   "2026",
-   "donald",
-   "electi",
-   "etats",
-   "midter",
-   "trump",
-   "unis",
-   "vote"
-  ],
-  "date": "2026-11-02T16:56:23.430672+00:00",
-  "titre": "Midterms : plus de 50 millions d'Américains ont déjà voté"
- },
- {
-  "sig": [
-   "2027",
-   "anne",
-   "claire",
-   "coudra",
-   "edouar",
-   "jean",
-   "luc",
-   "melenc"
-  ],
-  "date": "2026-11-02T16:56:23.430674+00:00",
-  "titre": "Darmanin juge que Mélenchon et Le Pen tueraient l'Europe"
- },
- {
-  "sig": [
-   "cibles",
-   "congel",
-   "cybera",
-   "denonc",
-   "europe",
-   "plusie",
-   "refrig",
-   "superm"
-  ],
-  "date": "2026-11-02T18:52:47.715437+00:00",
-  "titre": "Cyberattaques : des supermarchés européens touchés"
- },
- {
-  "sig": [
-   "france",
-   "interd",
-   "lyceen",
-   "manife",
-   "paris",
-   "police",
-   "prefec",
-   "syndic"
-  ],
-  "date": "2026-11-02T18:52:47.715446+00:00",
-  "titre": "Paris interdit le parcours de la manifestation étudiante"
- },
- {
-  "sig": [
-   "2026",
-   "democr",
-   "electi",
-   "elue",
-   "etats",
-   "michig",
-   "midter",
-   "unis"
-  ],
-  "date": "2026-11-02T18:52:47.715448+00:00",
-  "titre": "Michigan : une élue démocrate rallie le républicain Mike Rogers"
- },
- {
-  "sig": [
-   "aneant",
-   "font",
-   "frappe",
-   "guerre",
-   "morts",
-   "russes",
-   "ukrain",
-   "zelens"
-  ],
-  "date": "2026-11-02T18:52:47.715451+00:00",
-  "titre": "Des frappes russes font au moins dix-huit morts en Ukraine"
- },
- {
-  "sig": [
-   "000",
-   "500",
-   "assemb",
-   "cnews",
-   "depass",
-   "fermer",
-   "petiti",
-   "signat"
-  ],
-  "date": "2026-11-02T18:52:47.715453+00:00",
-  "titre": "Une pétition pour fermer CNews dépasse 600 000 signatures"
- },
- {
-  "sig": [
-   "a10",
-   "inass",
-   "martyr",
-   "mere",
-   "parent",
-   "petite",
-   "proces",
-   "toulou"
-  ],
-  "date": "2026-11-02T18:52:47.715454+00:00",
-  "titre": "Procès des parents d'Inass Touloub, la fillette de l'A10"
- },
- {
-  "sig": [
-   "cibles",
-   "congel",
-   "cybera",
-   "denonc",
-   "europe",
-   "plusie",
-   "refrig",
-   "superm"
-  ],
-  "date": "2026-11-02T19:36:22.701371+00:00",
-  "titre": "Cyberattaques : des supermarchés européens touchés"
- },
- {
-  "sig": [
-   "france",
-   "interd",
-   "lyceen",
-   "manife",
-   "paris",
-   "police",
-   "prefec",
-   "syndic"
-  ],
-  "date": "2026-11-02T19:36:22.701381+00:00",
-  "titre": "Paris interdit le parcours de la manifestation étudiante"
- },
- {
-  "sig": [
-   "2026",
-   "democr",
-   "electi",
-   "elue",
-   "etats",
-   "michig",
-   "midter",
-   "unis"
-  ],
-  "date": "2026-11-02T19:36:22.701384+00:00",
-  "titre": "Michigan : une élue démocrate rallie le républicain Mike Rogers"
- },
- {
-  "sig": [
-   "aneant",
-   "font",
-   "frappe",
-   "guerre",
-   "morts",
-   "russes",
-   "ukrain",
-   "zelens"
-  ],
-  "date": "2026-11-02T19:36:22.701386+00:00",
-  "titre": "Des frappes russes font au moins dix-huit morts en Ukraine"
- },
- {
-  "sig": [
-   "000",
-   "500",
-   "assemb",
-   "cnews",
-   "depass",
-   "fermer",
-   "petiti",
-   "signat"
-  ],
-  "date": "2026-11-02T19:36:22.701388+00:00",
-  "titre": "Une pétition pour fermer CNews dépasse 600 000 signatures"
- },
- {
-  "sig": [
-   "a10",
-   "inass",
-   "martyr",
-   "mere",
-   "parent",
-   "petite",
-   "proces",
-   "toulou"
-  ],
-  "date": "2026-11-02T19:36:22.701390+00:00",
-  "titre": "Procès des parents d'Inass Touloub, la fillette de l'A10"
- },
- {
-  "sig": [
-   "democr",
-   "donald",
-   "etats",
-   "michig",
-   "midter",
-   "pourra",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-03T00:03:21.887999+00:00",
-  "titre": "Trump finit sa campagne, les démocrates divisés au Michigan"
- },
- {
-  "sig": [
-   "balle",
-   "blesse",
-   "fusill",
-   "grieve",
-   "marsei",
-   "pompie",
-   "pres",
-   "sait"
-  ],
-  "date": "2026-11-03T00:03:21.888012+00:00",
-  "titre": "Marseille : un pompier grièvement blessé, son état s'améliore"
- },
- {
-  "sig": [
-   "accord",
-   "assure",
-   "donald",
-   "electi",
-   "etats",
-   "iran",
-   "mandat",
-   "trump"
-  ],
-  "date": "2026-11-03T00:03:21.888016+00:00",
-  "titre": "Trump juge possible un accord avec l'Iran après ses menaces"
- },
- {
-  "sig": [
-   "agress",
-   "baisse",
-   "carbur",
-   "colere",
-   "cours",
-   "direct",
-   "enquet",
-   "prix"
-  ],
-  "date": "2026-11-03T00:03:21.888019+00:00",
-  "titre": "Carburants : le gazole baisse dans plus de la moitié des stations"
- },
- {
-  "sig": [
-   "appell",
-   "arabes",
-   "benyam",
-   "coalit",
-   "gouver",
-   "israel",
-   "netany",
-   "opposi"
-  ],
-  "date": "2026-11-03T00:03:21.888021+00:00",
-  "titre": "Israël : l'opposition se réunit, Netanyahu revendique la coalition"
- },
- {
-  "sig": [
    "2026",
    "americ",
    "donald",
@@ -684,5 +278,75 @@
   ],
   "date": "2026-11-03T23:00:58.017918+00:00",
   "titre": "La SNCF prévoit un trafic perturbé pour la grève du 5 novembre"
+ },
+ {
+  "sig": [
+   "2026",
+   "defait",
+   "democr",
+   "donald",
+   "etats",
+   "midter",
+   "trump",
+   "unis"
+  ],
+  "date": "2026-11-04T17:20:31.030952+00:00",
+  "titre": "Les démocrates reprennent les deux chambres du Congrès"
+ },
+ {
+  "sig": [
+   "attend",
+   "greve",
+   "manife",
+   "nation",
+   "novemb",
+   "parcou",
+   "quoi",
+   "transp"
+  ],
+  "date": "2026-11-04T17:20:31.030961+00:00",
+  "titre": "Grève du 5 novembre : transports et services publics perturbés"
+ },
+ {
+  "sig": [
+   "assass",
+   "assise",
+   "bernar",
+   "domini",
+   "frere",
+   "lieu",
+   "non",
+   "renvoy"
+  ],
+  "date": "2026-11-04T17:20:31.030965+00:00",
+  "titre": "Arras : l'assassin de Dominique Bernard renvoyé aux assises"
+ },
+ {
+  "sig": [
+   "confid",
+   "demiss",
+   "devoil",
+   "emmanu",
+   "livre",
+   "macron",
+   "presid",
+   "sms"
+  ],
+  "date": "2026-11-04T17:20:31.030967+00:00",
+  "titre": "Un livre publie des SMS entre Macron et une journaliste"
+ },
+ {
+  "sig": [
+   "2027",
+   "bas",
+   "bruno",
+   "candid",
+   "david",
+   "lisnar",
+   "presid",
+   "sondag"
+  ],
+  "date": "2026-11-04T17:20:31.030970+00:00",
+  "titre": "Sébastien Lecornu au plus bas dans un sondage Figaro Magazine"
  }
 ]
