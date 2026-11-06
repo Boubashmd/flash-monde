@@ -123,3 +123,29 @@ Mise en place, une seule fois :
 - Le pays est déduit des titres par mots-clés (`src/pays.py`, environ 70 pays). Sans pays reconnu, l'illustration est générique.
 - La publication sur les réseaux reste manuelle.
 - Le montage calcule chaque image (environ 2 à 4 minutes sur GitHub, plus sur un vieil ordinateur).
+
+## API publiques
+
+On pioche les API dans le catalogue [public-apis](https://github.com/public-apis/public-apis#index) (milliers d'API gratuites, classées par thème). Beaucoup de lignes sont anciennes : une API listée peut être morte, devenue payante ou avoir changé d'adresse.
+
+### Règles avant d'en brancher une
+
+1. **Tester d'abord à la main** avec la commande `curl` du tableau. Résultat attendu : du texte JSON ou XML, pas une erreur ni une page vide.
+2. **Lire la licence** : « données gratuites » ne veut pas dire « réutilisables sur une chaîne ». Images et sons : seulement domaine public, CC0, CC BY (avec crédit) ; jamais « NC » (non commercial) dès qu'une chaîne peut être monétisée.
+3. **Clé éventuelle** : dans les secrets GitHub du dépôt et le `.env` du Mac, jamais dans le code ni dans la conversation.
+4. **Toujours un repli** : si l'API ne répond pas, la fabrication continue sans elle (pas d'échec à cause d'un bonus).
+5. **Citer la source** quand on montre une donnée ou une image.
+6. Noter ici chaque API ajoutée, avec sa date et son état (`à brancher`, `branchée`, `abandonnée`).
+
+### API retenues pour Flash Monde (06/11/2026, toutes « à brancher »)
+
+| API | Clé | Sert à | Test |
+|---|---|---|---|
+| **USGS Earthquakes** (séismes, domaine public) | non | Magnitude, lieu et heure exacts d'un séisme : le chiffre clé et le point sur le globe | `curl -s "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=6&limit=1" \| head -c 400` |
+| **GDACS** (alertes catastrophes ONU / Commission européenne) | non | Confirmer une catastrophe (séisme, cyclone, inondation) et son niveau d'alerte ; c'est un flux RSS, il peut entrer directement dans `config.yaml` | `curl -s "https://www.gdacs.org/xml/rss.xml" \| head -c 400` |
+| **REST Countries** | non | Nom français, capitale et population du pays affiché (contexte fiable pour Claude) | `curl -s "https://restcountries.com/v3.1/alpha/NER?fields=name,capital,population,translations"` |
+| **Banque mondiale** | non | Chiffres de contexte (population, PIB, inflation) avec leur année | `curl -s "https://api.worldbank.org/v2/country/NER/indicator/SP.POP.TOTL?format=json&mrv=1"` |
+| **ReliefWeb** (OCHA, ONU) | nom d'appli à demander | Rapports de crise humanitaire. Depuis le 01/11/2025, chaque appli doit demander son propre `appname` : [demande ici](https://reliefweb.int/blogpost/upcoming-changes-reliefweb-api-what-you-need-know) | après accord : `curl -s "https://api.reliefweb.int/v2/reports?appname=<ton-appname>&limit=1"` |
+
+Écartées pour l'instant : **Open-Meteo** (gratuit seulement en usage non commercial), **GDELT** (très volumineux, doublonne nos flux RSS).
+Rappel : une API ne remplace jamais la règle des 2 médias ; elle précise un chiffre ou confirme un fait déjà repris.
