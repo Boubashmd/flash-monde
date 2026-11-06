@@ -1,288 +1,5 @@
 [
  {
-  "date": "2026-10-16T17:55:08.485209+00:00",
-  "edition": "2026-10-16T19:42:03.625614+02:00",
-  "semaine": false,
-  "titre": "Bruxelles réaffirme son soutien à l'Ukraine face à Trump",
-  "texte": "À Bruxelles, l'Union européenne a promis vendredi de ne pas abandonner l'Ukraine. Emmanuel Macron a déclaré que les Européens ne lâcheraient pas Kiev, au terme d'un sommet avec Volodymyr Zelensky. L'UE a réaffirmé son engagement financier malgré les attaques répétées de Donald Trump envers le président ukrainien.",
-  "iso": [
-   "UKR",
-   "UE",
-   "USA",
-   "FRA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "France 24",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261016-zelensky-%C3%A0-bruxelles-l-europe-face-aux-besoins-de-l-ukraine",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/ukraine-l-ue-reaffirme-son-soutien-a-volodymyr-zelensky-29387442.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/nous-ne-lacherons-pas-l-ukraine-promet-emmanuel-macron-a-l-issue-d-un-sommet-europeen-avec-volodymyr-zelensky_8240845.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 62.83391383083333,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "besoin",
-   "bruxel",
-   "emmanu",
-   "europe",
-   "sommet",
-   "ukrain",
-   "volody",
-   "zelens"
-  ],
-  "youtube": "6Qop7SxMYiY"
- },
- {
-  "date": "2026-10-16T17:55:08.485223+00:00",
-  "edition": "2026-10-16T19:42:03.625614+02:00",
-  "semaine": false,
-  "titre": "Zelensky demande 70 milliards d'euros d'aide à l'UE pour 2027",
-  "texte": "Le président ukrainien a demandé vendredi à l'Union européenne 70 milliards d'euros d'aide supplémentaire en 2027. Volodymyr Zelensky a expliqué que l'Ukraine pourrait produire deux ou trois fois plus de drones avec davantage de financements. Le Rassemblement national français critique sa réponse aux questions de Marine Le Pen sur les aides.",
-  "iso": [
-   "UKR",
-   "UE",
-   "FRA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "France 24",
-   "Le Figaro",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/%C3%A9missions/ici-l-europe/20261016-canada-royaume-uni-ukraine-balkans-qui-veut-entrer-union-europenne",
-   "Le Figaro": "https://www.lefigaro.fr/international/rassembles-autour-de-volodymyr-zelensky-les-europeens-apprennent-a-faire-sans-donald-trump-20261016",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymyr-zelensky-reclame-a-l-union-europeenne-70-milliards-d-euros-supplementaires-en-2027_8240332.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 62.381136053055556,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "2027",
-   "donald",
-   "europe",
-   "trump",
-   "ukrain",
-   "union",
-   "volody",
-   "zelens"
-  ],
-  "youtube": "6Qop7SxMYiY"
- },
- {
-  "date": "2026-10-16T17:55:08.485229+00:00",
-  "edition": "2026-10-16T19:42:03.625614+02:00",
-  "semaine": false,
-  "titre": "Trump arrête le partage de renseignements avec l'Ukraine",
-  "texte": "Donald Trump a interrompu le partage de renseignement avec l'Ukraine et s'est accordé avec Vladimir Poutine pour reprendre les exportations de diesel russe. Ces ventes avaient été arrêtées après l'invasion à grande échelle de l'Ukraine en 2022. Le pape demande depuis son hôpital une trêve dans la ville ukrainienne d'Olechky.",
-  "iso": [
-   "USA",
-   "UKR",
-   "RUS"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "France 24",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261016-%C3%A9lections-de-mi-mandat-pourquoi-donald-trump-accentue-la-pression-sur-l-ukraine",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/depuis-son-hopital-le-pape-demande-a-vladimir-poutine-une-treve-a-olechky-en-ukraine_8240761.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 52.82780271972222,
-  "personne": "Donald Trump",
-  "sig": [
-   "abando",
-   "accent",
-   "demand",
-   "donald",
-   "poutin",
-   "trump",
-   "ukrain",
-   "vladim"
-  ],
-  "youtube": "6Qop7SxMYiY"
- },
- {
-  "date": "2026-10-16T17:55:08.485233+00:00",
-  "edition": "2026-10-16T19:42:03.625614+02:00",
-  "semaine": false,
-  "titre": "Photojournaliste du Washington Post agressée en Cisjordanie",
-  "texte": "En Cisjordanie occupée, une photojournaliste du Washington Post, Heidi Levine, a été rouée de coups vendredi par des colons israéliens. L'attaque s'est produite alors qu'elle couvrait la récolte des olives par des agriculteurs palestiniens. Des colons ont également incendié une oliveraie sur le site.",
-  "iso": [
-   "ISR",
-   "PSE"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "20 Minutes",
-   "France 24",
-   "Le Monde"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/israel/4255029-20261016-cisjordanie-journaliste-americaine-rouee-coups-colons?at_medium=display&at_campaign=149",
-   "France 24": "https://www.france24.com/fr/moyen-orient/20261016-cisjordanie-occup%C3%A9e-colons-isra%C3%A9liens-attaquent-oliveraie-journaliste-am%C3%A9ricaine-bless%C3%A9e-agriculteurs-paslestiniens",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/en-cisjordanie-une-journaliste-du-washington-post-rouee-de-coups-par-des-colons_6795552_3210.html"
-  },
-  "score": 52.76835827527778,
-  "personne": null,
-  "sig": [
-   "americ",
-   "cisjor",
-   "colons",
-   "coups",
-   "journa",
-   "post",
-   "rouee",
-   "washin"
-  ],
-  "youtube": "6Qop7SxMYiY"
- },
- {
-  "date": "2026-10-16T22:25:30.065849+00:00",
-  "edition": "2026-10-17T00:13:31.138450+02:00",
-  "semaine": false,
-  "titre": "Katie Zacharia quitte la Maison-Blanche après cinq jours",
-  "texte": "À la Maison Blanche, Katie Zacharia a quitté ses fonctions de porte-parole vendredi, une semaine seulement après sa nomination. Donald Trump l'avait invitée à reconsidérer sa position. Elle est accusée d'avoir menti sur ses qualifications professionnelles.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "20 Minutes",
-   "Euronews",
-   "France 24",
-   "Le Monde",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4255090-20261016-etats-unis-katie-zacharia-evincee-apres-seulement-cinq-jours-comme-porte-parole-donald-trump?at_medium=display&at_campaign=149",
-   "Euronews": "https://fr.euronews.com/2026/10/16/maison-blanche-la-nouvelle-porte-parole-katie-zacharia-se-moque-des-toilettes-en-chine",
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261016-%C3%A9tats-unis-la-press-secretary-katie-zacharia-pouss%C3%A9e-par-donald-trump-vers-la-sortie",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/donald-trump-pousse-sa-toute-nouvelle-porte-parole-katie-zacharia-vers-la-sortie-l-invitant-a-reconsiderer-son-avenir-a-ce-poste_6795634_3210.html",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/donald-trump-sa-nouvelle-porte-parole-prend-la-porte-29388290.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/replay-magazine/franceinfo/avant-le-20h/guerre-en-ukraine-marine-le-pen-s-aligne-sur-les-etats-unis-de-donald-trump-et-sur-la-russie-de-vladimir-poutine-estime-jad-zahab-porte-parole-de-gabriel-attal_8240884.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 92.03884200416667,
-  "personne": "Donald Trump",
-  "sig": [
-   "blanch",
-   "donald",
-   "katie",
-   "parole",
-   "porte",
-   "trump",
-   "ukrain",
-   "zachar"
-  ],
-  "youtube": "PT96TTOBDNI"
- },
- {
-  "date": "2026-10-16T22:25:30.065866+00:00",
-  "edition": "2026-10-17T00:13:31.138450+02:00",
-  "semaine": false,
-  "titre": "Trump interrompt l'aide à l'Ukraine et signe un accord avec Moscou",
-  "texte": "Washington et Moscou se sont accordés sur la reprise des exportations de diesel russe. Donald Trump a ensuite interrompu le partage de renseignement avec l'Ukraine. L'Union européenne affirme maintenir son soutien à Kiev et annonce une accélération des livraisons de missiles.",
-  "iso": [
-   "USA",
-   "RUS",
-   "UKR",
-   "UE"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "France 24",
-   "Le Monde",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261016-%C3%A9lections-de-mi-mandat-pourquoi-donald-trump-accentue-la-pression-sur-l-ukraine",
-   "Le Monde": "https://www.lemonde.fr/politique/article/2026/10/16/aide-a-l-ukraine-emmanuel-macron-temporise-apres-la-demande-de-kiev-d-une-rallonge-de-70-milliards-d-euros_6795632_823448.html",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/nous-ne-lacherons-pas-l-ukraine-assure-emmanuel-macron_8240902.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 59.523564226388885,
-  "personne": "Donald Trump",
-  "sig": [
-   "abando",
-   "assure",
-   "donald",
-   "emmanu",
-   "lacher",
-   "macron",
-   "trump",
-   "ukrain"
-  ],
-  "youtube": "PT96TTOBDNI"
- },
- {
-  "date": "2026-10-16T22:25:30.065873+00:00",
-  "edition": "2026-10-17T00:13:31.138450+02:00",
-  "semaine": false,
-  "titre": "Sommet européen : les 27 divisés sur les migrations et le budget",
-  "texte": "Le Conseil européen s'est achevé vendredi à Bruxelles avec des désaccords sur les migrations et le budget. Les 27 dirigeants de l'Union se sont montrés unis sur le soutien à l'Ukraine.",
-  "iso": [
-   "UE"
-  ],
-  "pays": "Union européenne",
-  "sources": [
-   "France 24",
-   "RFI"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/%C3%A9missions/ici-l-europe/20261016-canada-royaume-uni-ukraine-balkans-qui-veut-entrer-union-europenne",
-   "RFI": "https://www.rfi.fr/fr/europe/20261016-un-conseil-europ%C3%A9en-divis%C3%A9-sur-le-budget-et-les-migrations-mais-uni-sur-l-ukraine"
-  },
-  "score": 52.70828644861111,
-  "personne": null,
-  "sig": [
-   "balkan",
-   "budget",
-   "canada",
-   "consei",
-   "divise",
-   "europe",
-   "ukrain",
-   "uni"
-  ],
-  "youtube": "PT96TTOBDNI"
- },
- {
-  "date": "2026-10-16T22:25:30.065878+00:00",
-  "edition": "2026-10-17T00:13:31.138450+02:00",
-  "semaine": false,
-  "titre": "Moscovici souligne les difficultés à adopter un budget",
-  "texte": "Pierre Moscovici, membre français de la Cour des comptes européenne, estime compliqué d'adopter un budget européen avant des élections majeures.",
-  "iso": [
-   "UE"
-  ],
-  "pays": "Union européenne",
-  "sources": [
-   "France 24",
-   "RFI"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/%C3%A9missions/ici-l-europe/20261016-pierre-moscovici-il-est-compliqu%C3%A9-d-adopter-un-budget-europ%C3%A9en-avant-des-%C3%A9lections-majeures",
-   "RFI": "https://www.rfi.fr/fr/podcasts/ici-l-europe/20261016-pierre-moscovici-l-extr%C3%AAme-droite-veut-r%C3%A9duire-l-ue-%C3%A0-une-union-de-nations-cible-des-pr%C3%A9dateurs"
-  },
-  "score": 50.871619781944446,
-  "personne": "Pierre Moscovici",
-  "sig": [
-   "adopte",
-   "budget",
-   "cible",
-   "compli",
-   "droite",
-   "electi",
-   "moscov",
-   "pierre"
-  ],
-  "youtube": "PT96TTOBDNI"
- },
- {
   "date": "2026-10-17T00:37:28.858829+00:00",
   "edition": "2026-10-17T02:29:56.640031+02:00",
   "semaine": false,
@@ -14701,6 +14418,232 @@
    "victoi"
   ],
   "youtube": "AuZ0WQo6q7c",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T22:48:16.525319+00:00",
+  "edition": "2026-11-06T23:23:19.576223+01:00",
+  "semaine": false,
+  "titre": "Une journaliste de Politis dit avoir été frappée par la police",
+  "texte": "À Paris, lors de la manifestation du 5 novembre, l'hebdomadaire Politis accuse la police d'avoir frappé l'une de ses journalistes à coups de matraque. Le journal annonce porter plainte.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "DNA",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Midi Libre",
+   "Sud Ouest",
+   "actu.fr",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/06/appels-a-manifester-les-prefets-invoquent-des-raisons-de-craindre-des-debordements-ce-samedi-7-novembre",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/attaque-a-lacide-en-pleine-manifestation-a-toulouse-ce-5-novembre-24-crs-asperges-un-policier-touche-aux-yeux-13640086.php",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestation-du-7-novembre-quel-sera-le-parcours-du-cortege-parisien-20261106",
+   "Le Parisien": "https://www.leparisien.fr/paris-75/manifestation-du-5-novembre-deux-journalistes-deposent-plainte-apres-avoir-ete-frappees-par-des-crs-place-de-la-nation-a-paris-06-11-2026-DRHIXEGYFVHSPHAYD5SXE6XF2U.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/manifestation-du-7-novembre-rassemblements-interdits-ou-autorises-traces-des-corteges-a-quoi-sattendre-demain-en-occitanie-13640119.php",
+   "Sud Ouest": "https://www.sudouest.fr/economie/social/manifestation-du-7-novembre-corteges-syndicaux-manifestations-des-gilets-jaunes-dispositif-securitaire-a-quoi-s-attendre-ce-samedi-31418961.php",
+   "actu.fr": "https://actu.fr/ile-de-france/paris_75056/le-maire-de-paris-propose-que-les-noms-de-zyed-et-bouna-morts-en-2005-a-clichy-sous-bois-figurent-place-de-la-nation_65029112.html",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/police/politis-accuse-la-police-d-avoir-roue-de-coups-une-de-ses-journalistes-lors-de-la-manifestation-parisienne-du-5-novembre_8271092.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 117.99930351333333,
+  "personne": null,
+  "sig": [
+   "attend",
+   "corteg",
+   "crs",
+   "journa",
+   "manife",
+   "novemb",
+   "polici",
+   "toulou"
+  ],
+  "youtube": "vbmEO2QIXqQ",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T22:48:16.525336+00:00",
+  "edition": "2026-11-06T23:23:19.576223+01:00",
+  "semaine": false,
+  "titre": "Un accident de car fait au moins deux morts dans l'Ain",
+  "texte": "Dans l'Ain, à Lent, un car scolaire a fait une sortie de route vendredi matin. Au moins deux personnes sont mortes et une vingtaine ont été blessées. Le chauffeur, qui dit s'être assoupi au volant, a été placé en garde à vue.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RTS",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/faits_divers/4261082-20261106-accident-car-ain-bilan-causes-enquete-point-drame-fait-moins-deux-morts?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/police-justice/video-accident-de-car-mortel-dans-l-ain-retour-sur-ce-qu-il-s-est-passe_VN-202611060923.html",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/06/deux-morts-dont-une-fillette-dans-un-accident-de-car-a-lent-le-choc-face-a-un-drame-terrible",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/06/accident-de-car-plusieurs-victimes-annoncees-le-ministre-se-rend-sur-place",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/accident-mortel-dun-car-dans-lain-le-chauffeur-age-de-26-ans-se-serait-assoupi-au-volant-lhomme-encore-hospitalise-a-ete-place-en-garde-a-vue-13640154.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/06/beaune-puisseguin-avant-le-drame-dans-l-ain-ces-accidents-de-car-meurtriers-survenus-en-france",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/on-a-vu-le-bus-deriver-puis-le-choc-scene-de-cauchemar-dans-lain-apres-laccident-mortel-dun-car-06-11-2026-5C24YQVKGJEI3GGDCLFJD2EGI4.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/06/apres-l-accident-mortel-d-un-car-le-maire-de-lent-face-a-une-scene-d-horreur",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/en-direct-accident-de-car-scolaire-dans-lain-deux-morts-dont-un-enfant-16-personnes-blessees-suivez-les-dernieres-informations-13639477.php",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/bourg-en-bresse-un-accident-de-car-fait-plusieurs-victimes-29407669.html?rts_source=rss_t",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/accident/deux-morts-une-enquete-ouverte-ce-que-l-on-sait-de-l-accident-de-car-pres-de-bourg-en-bresse-dans-l-ain_8270546.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 107.99930368416666,
+  "personne": null,
+  "sig": [
+   "accide",
+   "ain",
+   "assoup",
+   "chauff",
+   "drame",
+   "fillet",
+   "morts",
+   "serait"
+  ],
+  "youtube": "vbmEO2QIXqQ",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T22:48:16.525342+00:00",
+  "edition": "2026-11-06T23:23:19.576223+01:00",
+  "semaine": false,
+  "titre": "Trump nomme Stephen Miller directeur de cabinet",
+  "texte": "À Washington, Donald Trump nomme Stephen Miller, un proche conseiller, au poste stratégique de directeur de cabinet. Ce choix intervient après la défaite républicaine aux élections de mi-mandat.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "BFMTV",
+   "Courrier international",
+   "France 24",
+   "L'Est Républicain",
+   "Le Dauphiné",
+   "Le Figaro",
+   "Le Monde France",
+   "Le Parisien",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-nomme-son-proche-conseiller-stephen-miller-au-poste-strategique-de-directeur-de-cabinet_VN-202611060937.html",
+   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-les-marches-boursiers-essores-par-la-victoire-democrate-aux-midterms_285461",
+   "France 24": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20261106-r%C3%A9sultats-des-midterms-cons%C3%A9quences-sur-la-politique-%C3%A9trang%C3%A8re-us-et-mobilisation-sociale-en-france",
+   "L'Est Républicain": "https://www.estrepublicain.fr/societe/2026/11/06/mort-de-rj-mitte-a-34-ans-on-en-sait-plus-sur-le-deces-de-l-acteur-star-de-breaking-bad",
+   "Le Dauphiné": "https://www.ledauphine.com/social/2026/11/06/70-000-policiers-et-gendarmes-de-nouveau-deployes-partout-en-france-samedi-annonce-nunez",
+   "Le Figaro": "https://www.lefigaro.fr/international/la-politique-etrangere-reste-entre-les-mains-de-donald-trump-malgre-sa-defaite-aux-midterms-20261106",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/06/donald-trump-nomme-stephen-miller-representant-de-la-droite-identitaire-au-poste-strategique-de-directeur-de-cabinet_6807861_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/vent-de-panique-a-wall-street-pourquoi-la-victoire-des-democrates-fait-vaciller-le-secteur-de-la-tech-et-de-lia-06-11-2026-CUS5ILP33RA7XIVARMJCO4UYSQ.php",
+   "Sud Ouest": "https://www.sudouest.fr/sciences-et-technologie/wall-street-apres-une-journee-noire-jeudi-la-tech-connait-un-timide-rebond-ce-vendredi-31422121.php"
+  },
+  "score": 107.99930358694445,
+  "personne": "Donald Trump",
+  "sig": [
+   "defait",
+   "democr",
+   "donald",
+   "electi",
+   "etats",
+   "midter",
+   "trump",
+   "unis"
+  ],
+  "youtube": "vbmEO2QIXqQ",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T22:48:16.525346+00:00",
+  "edition": "2026-11-06T23:23:19.576223+01:00",
+  "semaine": false,
+  "titre": "L'Irlande visée par de fausses alertes à la bombe",
+  "texte": "En Irlande, des médias et des vols en Europe visés par de fausses alertes à la bombe, dans une probable campagne coordonnée.",
+  "iso": [
+   "IRL",
+   "UE"
+  ],
+  "pays": "Irlande",
+  "sources": [
+   "20 Minutes",
+   "BFMTV",
+   "France 24",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/4261072-20261106-serie-alertes-bombe-europe-due-campagne-coordonnee-denonce-irlande?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/international/europe/irlande/video-d-ou-viennent-les-fausses-alertes-a-la-bombe-qui-ont-touche-de-nombreux-pays-d-europe_VN-202611060889.html",
+   "France 24": "https://www.france24.com/fr/europe/20261106-vols-menac%C3%A9s-fausses-alertes-bombe-arme-redoutable-guerre-hybride",
+   "Le Monde": "https://www.lemonde.fr/economie/article/2026/11/06/l-irlande-visee-par-des-alertes-a-la-bombe-une-semaine-avant-la-tenue-de-deux-sommets-europeens-a-dublin_6807865_3234.html",
+   "Le Monde France": "https://www.lemonde.fr/economie/article/2026/11/06/l-irlande-visee-par-des-alertes-a-la-bombe-une-semaine-avant-la-tenue-de-deux-sommets-europeens-a-dublin_6807865_3234.html",
+   "Le Parisien": "https://www.leparisien.fr/international/alertes-a-la-bombe-en-europe-qui-est-letat-masculin-ce-groupe-russe-qui-pourrait-etre-implique-dans-les-menaces-06-11-2026-C4IRCM7FHBHRDGLH6DWTOOMSKI.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/alertes-a-la-bombe-dans-des-avions-en-europe-les-passagers-des-vols-detournes-pourront-ils-etre-rembourses-13639983.php"
+  },
+  "score": 87.99930355694445,
+  "personne": null,
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "europe",
+   "fausse",
+   "irland",
+   "mascul",
+   "menace"
+  ],
+  "youtube": "vbmEO2QIXqQ",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T22:48:16.525350+00:00",
+  "edition": "2026-11-06T23:23:19.576223+01:00",
+  "semaine": false,
+  "titre": "70 000 policiers et gendarmes mobilisés samedi",
+  "texte": "En France, 70 000 policiers et gendarmes seront déployés samedi pour une nouvelle journée de manifestations.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/politique/direct-colere-sociale-organisations-de-jeunesse-et-gilets-jaunes-prevoient-de-nouvelles-actions-avant-la-conference-sociale-organisee-lundi-par-sebastien-lecornu_LN-202611060151.html",
+   "France 24": "https://www.france24.com/fr/france/20261106-manifestations-de-samedi-en-france-70-000-policiers-et-gendarmes-%C3%A0-nouveau-mobilis%C3%A9s",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/ca-fait-presque-4-5-millions-et-jai-touche-400-000-euros-cest-pas-bon-le-rappeur-ninho-regle-ses-comptes-avec-ses-anciens-producteurs-qui-crient-a-la-13639799.php",
+   "Le Parisien": "https://www.leparisien.fr/societe/575-000-manifestants-selon-la-police-15-million-pour-les-syndicats-comment-sont-comptes-les-participants-aux-mobilisations-06-11-2026-2FHKBXZP3ZHWFFPDHP3O3Z3CEE.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/manifestation-du-7-novembre-70-000-forces-de-lordre-reconduites-le-ministre-de-linterieur-annonce-le-dispositif-dencadrement-pour-demain-13640253.php"
+  },
+  "score": 87.99930354972221,
+  "personne": null,
+  "sig": [
+   "000",
+   "compte",
+   "confer",
+   "demain",
+   "manife",
+   "mobili",
+   "novemb",
+   "social"
+  ],
+  "youtube": "vbmEO2QIXqQ",
   "yt_attente": null
  }
 ]
