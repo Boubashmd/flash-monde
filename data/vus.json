@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "2026",
-   "defait",
-   "democr",
-   "donald",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-04T17:20:31.030952+00:00",
-  "titre": "Les démocrates reprennent les deux chambres du Congrès"
- },
- {
-  "sig": [
-   "attend",
-   "greve",
-   "manife",
-   "nation",
-   "novemb",
-   "parcou",
-   "quoi",
-   "transp"
-  ],
-  "date": "2026-11-04T17:20:31.030961+00:00",
-  "titre": "Grève du 5 novembre : transports et services publics perturbés"
- },
- {
-  "sig": [
-   "assass",
-   "assise",
-   "bernar",
-   "domini",
-   "frere",
-   "lieu",
-   "non",
-   "renvoy"
-  ],
-  "date": "2026-11-04T17:20:31.030965+00:00",
-  "titre": "Arras : l'assassin de Dominique Bernard renvoyé aux assises"
- },
- {
-  "sig": [
-   "confid",
-   "demiss",
-   "devoil",
-   "emmanu",
-   "livre",
-   "macron",
-   "presid",
-   "sms"
-  ],
-  "date": "2026-11-04T17:20:31.030967+00:00",
-  "titre": "Un livre publie des SMS entre Macron et une journaliste"
- },
- {
-  "sig": [
-   "2027",
-   "bas",
-   "bruno",
-   "candid",
-   "david",
-   "lisnar",
-   "presid",
-   "sondag"
-  ],
-  "date": "2026-11-04T17:20:31.030970+00:00",
-  "titre": "Sébastien Lecornu au plus bas dans un sondage Figaro Magazine"
- },
- {
-  "sig": [
-   "attend",
-   "greve",
-   "manife",
-   "mobili",
-   "novemb",
-   "parcou",
-   "quoi",
-   "social"
-  ],
-  "date": "2026-11-04T22:53:06.318516+00:00",
-  "titre": "Grève du 5 novembre : 70.000 policiers mobilisés"
- },
- {
-  "sig": [
-   "110",
-   "chambr",
-   "cybera",
-   "etabli",
-   "franca",
-   "froide",
-   "sang",
-   "victim"
-  ],
-  "date": "2026-11-04T22:53:06.318538+00:00",
-  "titre": "Une cyberattaque vise les chambres froides de l'EFS"
- },
- {
-  "sig": [
-   "agress",
-   "ecole",
-   "ecroue",
-   "examen",
-   "mere",
-   "meurtr",
-   "mise",
-   "nice"
-  ],
-  "date": "2026-11-04T22:53:06.318541+00:00",
-  "titre": "Une mère mise en examen après une agression à Nice"
- },
- {
-  "sig": [
-   "accide",
-   "balle",
-   "homme",
-   "mort",
-   "mortel",
-   "petit",
-   "plage",
-   "retrou"
-  ],
-  "date": "2026-11-04T22:53:06.318544+00:00",
-  "titre": "Un homme tué par balle retrouvé près d'une plage en Loire-Atlantique"
- },
- {
-  "sig": [
-   "2026",
-   "democr",
-   "donald",
-   "etats",
-   "midter",
-   "result",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-04T22:53:06.318546+00:00",
-  "titre": "Le Rwanda exclu de l'accord commercial AGOA par Washington"
- },
- {
-  "sig": [
    "000",
    "greve",
    "lycee",
@@ -348,5 +208,145 @@
   ],
   "date": "2026-11-05T22:51:05.764075+00:00",
   "titre": "Manifestations du 5 novembre : 1,6 million selon la CGT, 600 000 selon l'État"
+ },
+ {
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "etat",
+   "europe",
+   "fausse",
+   "mascul",
+   "russe"
+  ],
+  "date": "2026-11-06T16:51:49.225555+00:00",
+  "titre": "Alertes à la bombe : une vague de fausses alertes touche l'Europe"
+ },
+ {
+  "sig": [
+   "accide",
+   "ain",
+   "blesse",
+   "bourg",
+   "dont",
+   "jeune",
+   "morts",
+   "pres"
+  ],
+  "date": "2026-11-06T16:51:49.225565+00:00",
+  "titre": "Un car sort de la route dans l'Ain, deux morts"
+ },
+ {
+  "sig": [
+   "confer",
+   "manife",
+   "mobili",
+   "novemb",
+   "parcou",
+   "police",
+   "politi",
+   "social"
+  ],
+  "date": "2026-11-06T16:51:49.225569+00:00",
+  "titre": "Manifestation à Paris : une journaliste de Politis frappée"
+ },
+ {
+  "sig": [
+   "2027",
+   "campag",
+   "candid",
+   "jean",
+   "luc",
+   "melenc",
+   "presid",
+   "progra"
+  ],
+  "date": "2026-11-06T16:51:49.225572+00:00",
+  "titre": "La France insoumise publie son programme pour 2027"
+ },
+ {
+  "sig": [
+   "2026",
+   "democr",
+   "donald",
+   "etats",
+   "midter",
+   "trump",
+   "unis",
+   "victoi"
+  ],
+  "date": "2026-11-06T16:51:49.225574+00:00",
+  "titre": "Los Angeles élit Nithya Raman, figure de la gauche démocrate"
+ },
+ {
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "etat",
+   "europe",
+   "fausse",
+   "mascul",
+   "russe"
+  ],
+  "date": "2026-11-06T16:55:23.671277+00:00",
+  "titre": "Alertes à la bombe : une vague de fausses alertes touche l'Europe"
+ },
+ {
+  "sig": [
+   "accide",
+   "ain",
+   "blesse",
+   "bourg",
+   "dont",
+   "jeune",
+   "morts",
+   "pres"
+  ],
+  "date": "2026-11-06T16:55:23.671287+00:00",
+  "titre": "Un car sort de la route dans l'Ain, deux morts"
+ },
+ {
+  "sig": [
+   "confer",
+   "manife",
+   "mobili",
+   "novemb",
+   "parcou",
+   "police",
+   "politi",
+   "social"
+  ],
+  "date": "2026-11-06T16:55:23.671291+00:00",
+  "titre": "Manifestation à Paris : une journaliste de Politis frappée"
+ },
+ {
+  "sig": [
+   "2027",
+   "campag",
+   "candid",
+   "jean",
+   "luc",
+   "melenc",
+   "presid",
+   "progra"
+  ],
+  "date": "2026-11-06T16:55:23.671294+00:00",
+  "titre": "La France insoumise publie son programme pour 2027"
+ },
+ {
+  "sig": [
+   "2026",
+   "democr",
+   "donald",
+   "etats",
+   "midter",
+   "trump",
+   "unis",
+   "victoi"
+  ],
+  "date": "2026-11-06T16:55:23.671296+00:00",
+  "titre": "Los Angeles élit Nithya Raman, figure de la gauche démocrate"
  }
 ]

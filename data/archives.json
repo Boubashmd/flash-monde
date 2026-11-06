@@ -1,39 +1,5 @@
 [
  {
-  "date": "2026-10-16T08:30:33.817298+00:00",
-  "edition": "2026-10-16T10:25:47.410406+02:00",
-  "semaine": false,
-  "titre": "Kiev frappe les raffineries russes malgré Trump",
-  "texte": "Kiev a annoncé la reprise de ses attaques contre les raffineries russes. Donald Trump qualifie cette décision de honte et juge plus difficile de travailler avec Volodymyr Zelensky qu'avec Vladimir Poutine.",
-  "iso": [
-   "UKR",
-   "RUS",
-   "USA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "Le Monde",
-   "franceinfo"
-  ],
-  "liens": {
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/16/guerre-en-ukraine-volodymyr-zelensky-acte-la-reprise-des-frappes-contre-les-raffineries-russes-une-honte-selon-donald-trump_6795219_3210.html",
-   "franceinfo": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/mise-en-difficulte-par-donald-trump-sur-la-scene-diplomatique-l-ukraine-fait-une-progression-spectaculaire-sur-le-front-face-a-la-russie_8219011.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 52.27404023277778,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "donald",
-   "frappe",
-   "honte",
-   "raffin",
-   "repris",
-   "russes",
-   "trump",
-   "ukrain"
-  ],
-  "youtube": "QBbWuLyw3Vg"
- },
- {
   "date": "2026-10-16T17:55:08.485209+00:00",
   "edition": "2026-10-16T19:42:03.625614+02:00",
   "semaine": false,
@@ -14480,6 +14446,261 @@
    "quenti"
   ],
   "youtube": "_EWBVYo89PI",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T17:18:11.632442+00:00",
+  "edition": "2026-11-06T17:51:28.596999+01:00",
+  "semaine": false,
+  "titre": "Alertes à la bombe : une vague de fausses alertes touche l'Europe",
+  "texte": "En Europe, une nouvelle série de fausses alertes à la bombe perturbe le trafic aérien. Au moins vingt vols ont été visés jeudi, selon plusieurs médias.",
+  "iso": [
+   "MONDE"
+  ],
+  "pays": "Monde",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "BFMTV",
+   "Courrier international",
+   "France 24",
+   "La Dépêche",
+   "Le Figaro",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "RFI",
+   "RTS",
+   "franceinfo",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/russie/4260993-20261106-france-irlande-republique-tcheque-nouvelle-vague-alertes-bombe-vols-commerciaux?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/russie/4260876-20261106-quoi-male-state-group-masculinistes-russes-peut-etre-lies-alertes-bombe?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/international/asie/russie/mysogine-raciste-et-homophoque-qu-est-ce-que-l-etat-masculin-groupe-masculiniste-russe-qui-dement-etre-a-l-origine-de-fausses-alertes-a-la-bombe-contre-des-aeroports-europeens_AV-202611060644.html",
+   "Courrier international": "https://www.courrierinternational.com/article/destabilisation-une-nouvelle-vague-d-e-mails-malveillants-perturbe-le-trafic-aerien-europeen_285486",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261106-alertes-%C3%A0-la-bombe-le-ciel-europ%C3%A9en-sous-tension",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/alertes-a-la-bombe-dans-une-vingtaine-davions-en-europe-quest-ce-que-letat-masculin-ce-mouvement-russe-dultra-droite-qui-serait-a-lorigine-de-ces-13639177.php",
+   "Le Figaro": "https://www.lefigaro.fr/international/alertes-a-la-bombe-attaques-cyber-survols-de-drones-la-guerre-hybride-s-intensifie-en-europe-20261105",
+   "Le Figaro France": "https://www.lefigaro.fr/conjoncture/une-nouvelle-fausse-alerte-a-la-bombe-vise-un-vol-ryanair-au-depart-de-lisbonne-20261106",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/06/alertes-a-la-bombe-quatre-vols-commerciaux-survolant-la-france-se-sont-poses-sans-encombre_6807787_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/alertes-a-la-bombe-en-europe-qui-est-letat-masculin-ce-groupe-russe-qui-pourrait-etre-implique-dans-les-menaces-06-11-2026-C4IRCM7FHBHRDGLH6DWTOOMSKI.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/06/une-campagne-coordonnee-apres-les-avions-plusieurs-medias-evacues-pour-des-alertes-a-la-bombe",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/alertes-a-la-bombe-au-lycee-clemenceau-a-montpellier-les-deux-lyceennes-placees-en-garde-a-vue-ont-ete-liberees-une-enquete-preliminaire-ouverte-13640077.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/transports/lisbonne-prague-rome-une-nouvelle-vague-de-fausses-alertes-a-la-bombe-agite-l-europe-ce-vendredi-10754652",
+   "Ouest-France": "https://www.ouest-france.fr/gaming/pokemon/cartes-pokemon/coffret-collector-pokemon-30-ans-des-fans-passent-la-nuit-dehors-pour-obtenir-les-fameux-boosters-df761f7e-d9cb-11f1-a45f-49114163a350?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "RFI": "https://www.rfi.fr/fr/%C3%A9conomie/20261106-fausses-alertes-%C3%A0-la-bombe-l-europe-vis%C3%A9e-par-une-s%C3%A9rie-de-menaces-une-enqu%C3%AAte-en-cours",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/11-vols-a-nouveau-vises-par-des-alertes-a-la-bombe-en-europe-29407850.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/russie/fausse-alerte-a-la-bombe-un-groupuscule-russe-en-cause_8270486.html#xtor=RSS-3-%5Bgeneral%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/alertes-a-la-bombe-qui-menace-les-avions-europeens_8271035.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 162.99922894583332,
+  "personne": null,
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "etat",
+   "europe",
+   "fausse",
+   "mascul",
+   "russe"
+  ],
+  "youtube": "AuZ0WQo6q7c",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T17:18:11.632475+00:00",
+  "edition": "2026-11-06T17:51:28.596999+01:00",
+  "semaine": false,
+  "titre": "Un car sort de la route dans l'Ain, deux morts",
+  "texte": "Dans l'Ain, un car régional est sorti de route vendredi matin, près de Bourg-en-Bresse. L'accident a fait deux morts, une fillette de sept ans et un jeune homme de dix-huit ans, selon le ministre des Transports.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Sud Ouest",
+   "franceinfo France",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/faits_divers/4260851-20261106-bourg-bresse-accident-car-fait-plusieurs-victimes?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elysee/la-nation-est-a-leurs-cotes-emmanuel-macron-adresse-ses-pensees-aux-victimes-et-a-leurs-proches-apres-le-terrible-accident-de-car-dans-l-ain_AN-202611060652.html",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/06/accident-de-car-dans-l-ain-plusieurs-victimes-a-deplorer-suivez-notre-direct",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261106-accident-de-car-dans-l-ain-deux-morts-dont-une-enfant-de-7-ans",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/ain/bourg-bresse/grave-accident-de-car-pres-de-bourg-en-bresse-de-nombreux-blesses-un-plan-de-crise-active-par-la-prefecture-3445206.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/06/accident-de-car-dans-l-ain-plusieurs-victimes-a-deplorer-suivez-notre-direct",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/accident-mortel-dun-car-dans-lain-deux-morts-chauffeur-hospitalise-ce-que-lon-sait-du-drame-survenu-pres-de-bourg-en-bresse-13639805.php",
+   "Le Figaro France": "https://www.lefigaro.fr/lyon/attention-accrochez-vous-les-bouleversants-recits-de-l-accident-de-car-mortel-dans-l-ain-20261106",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/06/un-accident-de-car-pres-de-bourg-en-bresse-fait-plusieurs-victimes_6807748_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/il-a-commence-a-accelerer-puis-a-freiner-il-netait-pas-bien-le-chauffeur-du-car-accidente-dans-lain-victime-dun-malaise-06-11-2026-WBDQQPY6KRCKTEQH67I5LVS7VQ.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/06/un-grave-accident-de-car-s-est-produit-ce-matin",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/accident-de-car-dans-lain-depistages-ethylotest-de-demarrage-quelles-sont-les-mesures-de-controle-des-conducteurs-de-transports-en-commun-13640062.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/un-grand-traumatisme-le-bilan-de-l-accident-de-car-dans-l-ain-s-eleve-a-deux-morts-dont-une-enfant-de-7-ans-une-enquete-ouverte-pour-homicide-routier-10754666",
+   "Sud Ouest": "https://www.sudouest.fr/faits-divers/accident-de-car-dans-l-ain-un-coup-de-volant-tres-fort-avant-la-chute-dans-un-fosse-une-passagere-raconte-31415806.php",
+   "franceinfo France": "https://www.franceinfo.fr/faits-divers/accident/direct-accident-d-un-car-scolaire-dans-l-ain-deux-enfants-sont-morts-le-ministre-des-transports-attendu-sur-place_8270534.html#xtor=RSS-3-%5Bgeneral%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/accident-de-car-2-morts-et-16-blesses_8271047.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 122.99922875277778,
+  "personne": null,
+  "sig": [
+   "accide",
+   "ain",
+   "blesse",
+   "bourg",
+   "dont",
+   "jeune",
+   "morts",
+   "pres"
+  ],
+  "youtube": "AuZ0WQo6q7c",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T17:18:11.632484+00:00",
+  "edition": "2026-11-06T17:51:28.596999+01:00",
+  "semaine": false,
+  "titre": "Manifestation à Paris : une journaliste de Politis frappée",
+  "texte": "À Paris, le journal Politis accuse la police d'avoir frappé l'une de ses journalistes lors de la manifestation du 5 novembre. Selon l'hebdomadaire, qui annonce porter plainte, elle portait un brassard presse.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Midi Libre",
+   "Sud Ouest",
+   "actu.fr",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/direct-presidentielle-2027-pourle-lfi-manuel-bompard-le-gouvernement-va-devoir-sortir-du-mepris-du-deni-et-apporter-des-reponses-concretes-13637890.php",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestation-du-7-novembre-quel-sera-le-parcours-du-cortege-parisien-20261106",
+   "Le Parisien": "https://www.leparisien.fr/societe/colere-sociale-manifestations-parcours-a-paris-a-quoi-sattendre-pour-la-mobilisation-du-samedi-7-novembre-06-11-2026-YZHWGVJLYZHO3DCWRNBLJVPZPU.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/06/mobilisation-du-5-novembre-lampleur-du-mouvement-loblige-sebastien-lecornu-prevoit-une-conference-sociale-avec-les-syndicats-et-le-patronat-lundi-13639210.php",
+   "Sud Ouest": "https://www.sudouest.fr/culture/medias/ils-veulent-que-je-me-taise-qui-est-yoani-sanchez-la-journaliste-arretee-a-cuba-et-qui-denonce-la-censure-de-la-police-politique-31415748.php",
+   "actu.fr": "https://actu.fr/auvergne-rhone-alpes/lyon_69123/un-commandant-de-police-roue-de-coups-devant-ce-lycee-de-lyon-ce-qu-il-s-est-il-passe_65026910.html",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/police/politis-accuse-la-police-d-avoir-roue-de-coups-une-de-ses-journalistes-lors-de-la-manifestation-parisienne-du-5-novembre_8271092.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 107.9992290625,
+  "personne": null,
+  "sig": [
+   "confer",
+   "manife",
+   "mobili",
+   "novemb",
+   "parcou",
+   "police",
+   "politi",
+   "social"
+  ],
+  "youtube": "AuZ0WQo6q7c",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T17:18:11.632490+00:00",
+  "edition": "2026-11-06T17:51:28.596999+01:00",
+  "semaine": false,
+  "titre": "La France insoumise publie son programme pour 2027",
+  "texte": "La France insoumise publie son programme pour la présidentielle 2027, comportant 1 069 mesures.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/economie/entreprises/energie/jean-luc-melenchon-balaie-le-programme-epr2-la-france-insoumise-veut-sortir-des-energies-fossiles-avant-2050-mais-aussi-du-nucleaire-pour-passer-au-100-renouvelables_AV-202611060653.html",
+   "France 24": "https://www.france24.com/fr/france/20261106-france-insoumise-jean-luc-melenchon-presente-programme-presidentielle-2027-fidele-volonte-rupture-lfi",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/06/presidentielle-2027-de-la-retraite-a-60-ans-au-smic-a-1-700-euros-que-propose-jean-luc-melenchon-dans-son-programme-13639985.php",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-liberte-egalite-solidarite-jean-luc-melenchon-devoile-une-nouvelle-affiche-de-campagne-06-11-2026-B6WRBL2BNNHSPFP7JVDPYCLSNI.php",
+   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/info-sud-ouest-jean-lassalle-a-collecte-50-000-euros-et-lance-son-operation-parrainages-pour-etre-candidat-a-la-presidentielle-2027-31383653.php"
+  },
+  "score": 97.99922903694444,
+  "personne": "Jean-Luc Mélenchon",
+  "sig": [
+   "2027",
+   "campag",
+   "candid",
+   "jean",
+   "luc",
+   "melenc",
+   "presid",
+   "progra"
+  ],
+  "youtube": "AuZ0WQo6q7c",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-06T17:18:11.632497+00:00",
+  "edition": "2026-11-06T17:51:28.596999+01:00",
+  "semaine": false,
+  "titre": "Los Angeles élit Nithya Raman, figure de la gauche démocrate",
+  "texte": "À Los Angeles, Nithya Raman, issue de l'aile gauche démocrate, a été élue maire, battant la sortante Karen Bass.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "Courrier international",
+   "France 24",
+   "Le Monde",
+   "Le Monde France",
+   "RFI",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4260805-20261106-etats-unis-elections-truquees-trump-furax-crie-scandale?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4260658-20261106-midterms-quoi-millennial-optimism-revivifie-defaite-donald-trump?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-la-socialiste-nithya-raman-elue-maire-de-los-angeles-dans-les-pas-de-zohran-mamdani_285472",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261106-%C3%A9tats-unis-apr%C3%A8s-les-midterms-quel-candidat-pour-unir-les-d%C3%A9mocrates",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/06/midterms-2026-l-espoir-ravive-des-gauches-latino-americaines-apres-la-victoire-des-democrates_6807788_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/06/midterms-2026-le-droit-a-l-avortement-conforte-dans-plusieurs-etats-sauf-en-idaho_6807813_3210.html",
+   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261106-%C3%A9tats-unis-nithya-raman-la-nouvelle-maire-de-los-angeles-issue-de-l-aile-gauche-du-parti-d%C3%A9mocrate",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/midterms-2026-donald-trump-denonce-des-elections-truquees-29407527.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/il-y-a-donc-maintenant-de-l-espoir-que-pourrait-changer-pour-l-ukraine-la-victoire-des-democrates-aux-midterms-2026-aux-etats-unis_8269337.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 97.31043006666667,
+  "personne": "Nithya Raman",
+  "sig": [
+   "2026",
+   "democr",
+   "donald",
+   "etats",
+   "midter",
+   "trump",
+   "unis",
+   "victoi"
+  ],
+  "youtube": "AuZ0WQo6q7c",
   "yt_attente": null
  }
 ]
