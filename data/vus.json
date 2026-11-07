@@ -1,216 +1,6 @@
 [
  {
   "sig": [
-   "000",
-   "greve",
-   "lycee",
-   "manife",
-   "mobili",
-   "novemb",
-   "pres",
-   "social"
-  ],
-  "date": "2026-11-05T16:52:31.017322+00:00",
-  "titre": "Manifestations pour les salaires : 270 000 personnes dans les rues"
- },
- {
-  "sig": [
-   "alerte",
-   "avion",
-   "bombe",
-   "derout",
-   "dublin",
-   "europe",
-   "evreux",
-   "rome"
-  ],
-  "date": "2026-11-05T16:52:31.017336+00:00",
-  "titre": "Fausses alertes à la bombe perturbant le trafic aérien européen"
- },
- {
-  "sig": [
-   "2026",
-   "americ",
-   "defait",
-   "democr",
-   "donald",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-05T16:52:31.017340+00:00",
-  "titre": "Zelensky à Madrid, Trump affaibli après les midterms"
- },
- {
-  "sig": [
-   "alerte",
-   "avion",
-   "bombe",
-   "derout",
-   "europe",
-   "midter",
-   "trump",
-   "vols"
-  ],
-  "date": "2026-11-05T16:52:31.017342+00:00",
-  "titre": "Vance prend ses distances avec la guerre en Iran"
- },
- {
-  "sig": [
-   "arnaul",
-   "confer",
-   "denonc",
-   "depute",
-   "deranq",
-   "famill",
-   "lfi",
-   "quenti"
-  ],
-  "date": "2026-11-05T16:52:31.017345+00:00",
-  "titre": "La famille de Quentin Deranque dénonce une conférence à Villeurbanne"
- },
- {
-  "sig": [
-   "000",
-   "greve",
-   "lycee",
-   "manife",
-   "mobili",
-   "novemb",
-   "pres",
-   "social"
-  ],
-  "date": "2026-11-05T17:20:00.983819+00:00",
-  "titre": "Manifestations pour les salaires : 270 000 personnes dans les rues"
- },
- {
-  "sig": [
-   "alerte",
-   "avion",
-   "bombe",
-   "derout",
-   "dublin",
-   "europe",
-   "evreux",
-   "rome"
-  ],
-  "date": "2026-11-05T17:20:00.983833+00:00",
-  "titre": "Fausses alertes à la bombe perturbant le trafic aérien européen"
- },
- {
-  "sig": [
-   "2026",
-   "americ",
-   "defait",
-   "democr",
-   "donald",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-05T17:20:00.983836+00:00",
-  "titre": "Zelensky à Madrid, Trump affaibli après les midterms"
- },
- {
-  "sig": [
-   "alerte",
-   "avion",
-   "bombe",
-   "derout",
-   "europe",
-   "midter",
-   "trump",
-   "vols"
-  ],
-  "date": "2026-11-05T17:20:00.983839+00:00",
-  "titre": "Vance prend ses distances avec la guerre en Iran"
- },
- {
-  "sig": [
-   "arnaul",
-   "confer",
-   "denonc",
-   "depute",
-   "deranq",
-   "famill",
-   "lfi",
-   "quenti"
-  ],
-  "date": "2026-11-05T17:20:00.983841+00:00",
-  "titre": "La famille de Quentin Deranque dénonce une conférence à Villeurbanne"
- },
- {
-  "sig": [
-   "2026",
-   "defait",
-   "donald",
-   "guerre",
-   "midter",
-   "presid",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-11-05T22:51:05.764056+00:00",
-  "titre": "Zelensky à Madrid pour voir Sánchez et les dirigeants ibéro-américains"
- },
- {
-  "sig": [
-   "chere",
-   "eisenk",
-   "incend",
-   "lycee",
-   "manife",
-   "mobili",
-   "novemb",
-   "person"
-  ],
-  "date": "2026-11-05T22:51:05.764067+00:00",
-  "titre": "Midterms : les dirigeants mondiaux s'interrogent sur Trump"
- },
- {
-  "sig": [
-   "achat",
-   "bal",
-   "blanch",
-   "defait",
-   "donald",
-   "midter",
-   "pouvoi",
-   "trump"
-  ],
-  "date": "2026-11-05T22:51:05.764071+00:00",
-  "titre": "Californie : Gavin Newsom commue la peine de 548 condamnés à mort"
- },
- {
-  "sig": [
-   "bancai",
-   "crise",
-   "demiss",
-   "destit",
-   "paragu",
-   "pena",
-   "presid",
-   "santia"
-  ],
-  "date": "2026-11-05T22:51:05.764073+00:00",
-  "titre": "À Los Angeles, Nithya Raman bat la maire sortante Karen Bass"
- },
- {
-  "sig": [
-   "000",
-   "homme",
-   "hotel",
-   "isere",
-   "jamais",
-   "mort",
-   "politi",
-   "retrou"
-  ],
-  "date": "2026-11-05T22:51:05.764075+00:00",
-  "titre": "Manifestations du 5 novembre : 1,6 million selon la CGT, 600 000 selon l'État"
- },
- {
-  "sig": [
    "alerte",
    "avions",
    "bombe",
@@ -488,5 +278,145 @@
   ],
   "date": "2026-11-06T22:41:14.157031+00:00",
   "titre": "70 000 policiers et gendarmes mobilisés samedi"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "electi",
+   "jean",
+   "lfi",
+   "luc",
+   "melenc",
+   "presid"
+  ],
+  "date": "2026-11-07T16:51:25.949677+00:00",
+  "titre": "Mélenchon présente au Bourget son programme pour 2027"
+ },
+ {
+  "sig": [
+   "000",
+   "250",
+   "france",
+   "inters",
+   "manife",
+   "mobili",
+   "novemb",
+   "paris"
+  ],
+  "date": "2026-11-07T16:51:25.949707+00:00",
+  "titre": "Colère sociale : 46 000 manifestants à Paris selon la préfecture"
+ },
+ {
+  "sig": [
+   "blesse",
+   "cracov",
+   "dizain",
+   "fusill",
+   "interp",
+   "morts",
+   "pologn",
+   "tireur"
+  ],
+  "date": "2026-11-07T16:51:25.949710+00:00",
+  "titre": "Une fusillade fait au moins cinq morts à Cracovie"
+ },
+ {
+  "sig": [
+   "energe",
+   "frappe",
+   "guerre",
+   "kiev",
+   "noctur",
+   "region",
+   "russes",
+   "ukrain"
+  ],
+  "date": "2026-11-07T16:51:25.949713+00:00",
+  "titre": "Des frappes russes massives visent l'énergie en Ukraine"
+ },
+ {
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "enquet",
+   "etrang",
+   "eventu",
+   "lien",
+   "puissa"
+  ],
+  "date": "2026-11-07T16:51:25.949714+00:00",
+  "titre": "Le parquet de Paris enquête sur les fausses alertes à la bombe"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "electi",
+   "jean",
+   "lfi",
+   "luc",
+   "melenc",
+   "presid"
+  ],
+  "date": "2026-11-07T17:15:03.244879+00:00",
+  "titre": "Mélenchon présente au Bourget son programme pour 2027"
+ },
+ {
+  "sig": [
+   "000",
+   "250",
+   "france",
+   "inters",
+   "manife",
+   "mobili",
+   "novemb",
+   "paris"
+  ],
+  "date": "2026-11-07T17:15:03.244894+00:00",
+  "titre": "Colère sociale : 46 000 manifestants à Paris selon la préfecture"
+ },
+ {
+  "sig": [
+   "blesse",
+   "cracov",
+   "dizain",
+   "fusill",
+   "interp",
+   "morts",
+   "pologn",
+   "tireur"
+  ],
+  "date": "2026-11-07T17:15:03.244896+00:00",
+  "titre": "Une fusillade fait au moins cinq morts à Cracovie"
+ },
+ {
+  "sig": [
+   "energe",
+   "frappe",
+   "guerre",
+   "kiev",
+   "noctur",
+   "region",
+   "russes",
+   "ukrain"
+  ],
+  "date": "2026-11-07T17:15:03.244897+00:00",
+  "titre": "Des frappes russes massives visent l'énergie en Ukraine"
+ },
+ {
+  "sig": [
+   "alerte",
+   "avions",
+   "bombe",
+   "enquet",
+   "etrang",
+   "eventu",
+   "lien",
+   "puissa"
+  ],
+  "date": "2026-11-07T17:15:03.244899+00:00",
+  "titre": "Le parquet de Paris enquête sur les fausses alertes à la bombe"
  }
 ]
