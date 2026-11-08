@@ -1,1 +1,1440 @@
-[]
+[
+ {
+  "type": "edition",
+  "jeton": "473620",
+  "messages": {
+   "0": 1264,
+   "1": 1265,
+   "2": 1266,
+   "3": 1267,
+   "4": 1268
+  },
+  "id_fin": 1269,
+  "etat": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true
+  },
+  "sujets": [
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Pologne : scènes de panique à Cracovie lors d'une fusillade qui a fait six morts",
+      "resume": "Des images montrent des passants courant se mettre à l'abri tandis que des voitures circulent à vive allure dans les rues de Cracovie, en Pologne, où une fusillade a fait au moins six morts.",
+      "lien": "https://fr.euronews.com/video/2026/11/07/krakow-une-fusillade-fait-6-morts-et-16-blesses-sur-la-place-du-marche",
+      "date": "2026-11-07T22:11:22+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "France 24",
+      "titre": "Pologne : un tireur \"fasciné par l'extrême droite\" abat six personnes à Cracovie",
+      "resume": "Un homme \"fasciné par les idéologies d'extrême droite\" a ouvert le feu sur des passants samedi à Cracovie, vitrine touristique de la Pologne, faisant six morts et une quinzaine de blessés, un acte qualifié de \"terrorisme\" par le Premier ministre Donald Tusk.",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261108-pologne-un-tireur-fascin%C3%A9-par-l-extr%C3%AAme-droite-abat-six-personnes-%C3%A0-cracovie-1",
+      "date": "2026-11-08T10:02:58+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/19fd8442-db58-11f1-bc54-a575454bc579/w:1024/p:16x9/FR-20261108-080230-080420-CS.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Après l’attentat de Cracovie, la Pologne en état de choc",
+      "resume": "Six personnes ont été tuées et quinze autres ont été blessées, samedi, dans le centre historique de Cracovie, par un Polonais de 24 ans « fasciné par l’extrême droite », selon les termes du ministre de l’intérieur. Le parquet a ouvert dimanche une enquête pour acte à « caractère terroriste ».",
+      "lien": "https://www.lemonde.fr/international/article/2026/11/08/la-pologne-en-etat-de-choc-apres-la-fusillade-de-cracovie_6808422_3210.html",
+      "date": "2026-11-08T11:03:01+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/08/348/0/4208/2104/644/322/60/0/6861549_ftp-1-kssg5bfr6fu0-2026-11-08t070518z-727863256-rc2ijoak2exr-rtrmadp-3-poland-shooting.JPG"
+     },
+     {
+      "source": "franceinfo",
+      "titre": "Six personnes abattues dans la rue, un suspect aux idées \"ultranationalistes\", trois corps retrouvés chez lui... Ce que l'on sait de l'attentat en Pologne",
+      "resume": "En plus des six victimes tuées par l'assaillant dans le centre de Cracovie, trois personnes ont été retrouvées mortes à son domicile. Le suspect est un jeune homme \"fasciné\" par les idées d'extrême droite, selon les autorités.",
+      "lien": "https://www.franceinfo.fr/monde/europe/ce-que-l-on-sait-de-l-attentat-en-pologne-qui-a-fait-six-morts-et-quinze-blesses-dans-le-centre-de-cracovie_8273087.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T14:09:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/pnaNfaLlUJw20QZShLj2Ku5do4s/0x410:7880x4842/432x243/filters:format(jpg)/2026/11/08/6af0408e9c290691697674.jpg"
+     },
+     {
+      "source": "Le Figaro",
+      "titre": "«Nous n’avions jamais connu d’actes de terrorisme aussi brutaux» : la Pologne sous le choc après une fusillade meurtrière à Cracovie",
+      "resume": "RÉCIT - Le pays s’interroge sur les motivations du tireur de 24 ans, qui a fait six morts et seize blessés samedi dans le centre historique de la ville.",
+      "lien": "https://www.lefigaro.fr/international/la-pologne-sous-le-choc-apres-une-fusillade-meurtriere-a-cracovie-20261108",
+      "date": "2026-11-08T17:39:41+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/08/33c38e6b84751b76280cd10dbde363d7972819c2e5f52ae04e82ad08a014d32d.jpg"
+     },
+     {
+      "source": "RTS",
+      "titre": "Une enquête pour terrorisme ouverte après la tuerie de Cracovie, deuil national décrété en Pologne",
+      "resume": "Le Parquet polonais a annoncé dimanche avoir ouvert une enquête pour acte à \"caractère terroriste\" à la suite de la tuerie perpétrée à Cracovie par un jeune d'extrême droite. La Pologne observe deux jours de deuil national après ce drame qui a fait au total neuf morts et une quinzaine de blessés.",
+      "lien": "https://www.rts.ch/info/monde/2026/article/tuerie-de-cracovie-enquete-pour-terrorisme-ouverte-29409349.html?rts_source=rss_t",
+      "date": "2026-11-08T11:48:18+00:00",
+      "groupe": "RTS",
+      "image": "https://img.rts.ch/articles/2026/image/939074fa-29409371.image?w=320&h=180"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "Fusillade en Pologne : Trois corps à son domicile, « fasciné par l’extrême droite »… Ce que l’on sait sur le tireur",
+      "resume": "Un homme a ouvert le feu samedi sur la place du marché de Cracovie, faisant six morts et une quinzaine de blessés. Une enquête a été ouverte ce dimanche pour acte à « caractère terroriste »",
+      "lien": "https://www.20minutes.fr/monde/pologne/4261256-20261108-fusillade-pologne-trois-corps-domicile-fascine-extreme-droite-sait-tireur?at_medium=display&at_campaign=149",
+      "date": "2026-11-08T08:57:13+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/365zcsB3ThuGxiTGRUl9YCk/1200x768_des-policiers-se-tiennent-pres-de-la-place-du-marche-de-cracovie-en-pologne-le-dimanche-8-novembre-2026-ou-plusieurs-personnes-ont-ete-abattues-la-veille-ap-photo-beata-zawrzel-mas101-26312280127811-2611080859"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "En Pologne, après l’attentat de Cracovie, “plus rien ne sera comme avant”",
+      "resume": "Après la fusillade qui a fait six morts et quinze blessés sur la grande place de Cracovie, les médias en Pologne estiment qu’une page se tourne dans ce pays épargné par le terrorisme au XXIᵉ siècle.",
+      "lien": "https://www.courrierinternational.com/article/terrorisme-en-pologne-apres-l-attentat-de-cracovie-plus-rien-ne-sera-comme-avant_285750",
+      "date": "2026-11-08T14:51:59+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/08/0/0/5500/3667/644/0/60/0/dc04a63_ftp-1-5txnaj8usqzr-2026-11-08t111200z-743299596-rc2ljoa2uusg-rtrmadp-3-poland-shooting.JPG"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Attentat en Pologne : \"J'ai vu des personnes tomber à un mètre de moi\", une témoin raconte",
+      "resume": "Samedi 7 novembre, un homme a ouvert le feu à Cracovie en Pologne. Six personnes ont été tuées et 15 autres blessées. Parmi les victimes se trouvent plusieurs touristes étrangers. L'enquête a révélé plusieurs éléments sur le parcours du tueur.",
+      "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/attentat-en-pologne-j-ai-vu-des-personnes-tomber-a-un-metre-de-moi-une-temoin-raconte_8273690.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T19:59:01+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/eyhFt2XWoVAwlBvSCLbsWYUmPV4/0x0:1920x1080/432x243/filters:format(jpg)/2026/11/08/6af0cdf89f6b8111463247.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Attentat en Pologne : le tireur était “fasciné par l’extrême droite”",
+      "resume": "Une fusillade a fait au moins six morts et une quinzaine de blessés dans le centre-ville de Cracovie (Pologne), samedi 7 novembre. Selon les premiers éléments de l’enquête, l’assaillant est “fasciné par les idéologies d’extrême droite”.",
+      "lien": "https://www.franceinfo.fr/faits-divers/attentat-en-pologne-le-tireur-etait-fascine-par-l-extreme-droite_8273414.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T14:08:50+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/ZrlvywYBFuH7cRSuX4pw1lfMvXM/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/08/6af082554a07c144020551.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Six personnes abattues dans la rue, un suspect aux idées \"ultranationalistes\", trois corps retrouvés chez lui... Ce que l'on sait de l'attentat en Pologne",
+      "resume": "En plus des six victimes tuées par l'assaillant dans le centre de Cracovie, trois personnes ont été retrouvées mortes à son domicile. Le suspect est un jeune homme \"fasciné\" par les idées d'extrême droite, selon les autorités.",
+      "lien": "https://www.franceinfo.fr/monde/europe/ce-que-l-on-sait-de-l-attentat-en-pologne-qui-a-fait-six-morts-et-quinze-blesses-dans-le-centre-de-cracovie_8273087.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T14:09:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/pnaNfaLlUJw20QZShLj2Ku5do4s/0x410:7880x4842/432x243/filters:format(jpg)/2026/11/08/6af0408e9c290691697674.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Fusillade à Cracovie : le tireur polonais \"fasciné par l'extrême droite\", trois corps découverts à son domicile",
+      "resume": "Au lendemain de la fusillade qui a fait six morts à Cracovie, l’enquête se poursuit autour du terroriste, présenté par les autorités comme fasciné par les idées d’extrême droite. Lors de la perquisition de son domicile, la police a également découvert trois corps, ceux de ses parents et de sa sœur.",
+      "lien": "https://www.franceinfo.fr/faits-divers/fusillade-a-cracovie-le-tireur-polonais-fascine-par-l-extreme-droite-trois-corps-decouverts-a-son-domicile_8273345.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T12:39:09+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/OmpBeursBQrwe9AcMNY9I-YHes0/0x61:1510x910/432x243/filters:format(jpg)/2026/11/08/6af06d4745876876840148.png"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "\"Nous n'avons pas connu de cas de terrorisme aussi radicaux\" : une fusillade fait au moins six morts à Cracovie",
+      "resume": "Au moins six personnes ont été tuées, samedi 7 novembre, dans le centre de Cracovie, deuxième ville de Pologne, par un homme qui a ouvert le feu au hasard sur des passants et qui a été interpellé. Il s'agit, selon le Premier ministre polonais, Donald Tusk, d'un acte de \"terrorisme\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/nous-n-avons-pas-connu-de-cas-de-terrorisme-aussi-radicaux-une-fusillade-fait-au-moins-six-morts-a-cracovie_8273279.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T11:15:31+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/jWIKaRKDrGBt0k_ZVPX8dEs1tiI/0x0:900x1600/fit-in/432x243/filters:upscale():fill(blur):format(jpg)/2026/11/08/6af059ad90513747181178.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Fusillade à Cracovie : Donald Tusk dénonce un acte de \"terrorisme\"",
+      "resume": "Une fusillade a fait au moins six morts et une quinzaine de blessés dans le centre-ville de Cracovie (Pologne), samedi 7 novembre. Selon les premiers éléments de l'enquête, l'assaillant est \"fasciné par les idéologies d’extrême droite\".",
+      "lien": "https://www.franceinfo.fr/faits-divers/police/fusillade-a-cracovie-donald-tusk-denonce-un-acte-de-terrorisme_8273030.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T06:41:58+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/yK8qx1Nubele5p4_DfAUPPEP2fI/37x0:1498x822/432x243/filters:format(jpg)/2026/11/08/6af019b0435cf840035193.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Braquage d'une entreprise de joaillerie à Besançon : huit personnes mises en examen et le butin, estimé à \"plus de six millions d'euros\", retrouvé",
+      "resume": "Ce dimanche 8 novembre, le parquet anticriminalité organisée a annoncé que huit personnes ayant notamment participé au braquage d'une joaillerie le 3 novembre à Besançon avaient été mises en examen. Les braqueurs présumés avaient notamment dérobé plusieurs dizaines de kilos d'or.",
+      "lien": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/doubs/besancon/braquage-d-une-entreprise-de-joaillerie-a-besancon-huit-personnes-mises-en-examen-et-le-butin-estime-a-plus-de-six-millions-d-euros-retrouve-3446454.html",
+      "date": "2026-11-08T18:14:26+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/ao_SmeRCEHVQw8LdBppmBsTYnoY/930x620/filters:format(webp)/regions/2026/11/03/6ae9b604731e5845697174.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Six personnes mises en examen après le cambriolage d'une gendarmerie de Brest en octobre",
+      "resume": "Suspectées d'avoir cambriolé une gendarmerie brestoise il y a un mois, six personnes, dont trois adolescents, ont été mises en examen après avoir été interpellées le 5 novembre.",
+      "lien": "https://france3-regions.franceinfo.fr/bretagne/finistere/six-personnes-mises-en-examen-apres-le-cambriolage-d-une-gendarmerie-de-brest-en-octobre-3446436.html",
+      "date": "2026-11-08T17:17:57+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/K3YHOZlQKXHewkI28omLViHdtq4/930x620/filters:format(webp)/regions/2026/11/04/6aeaf264ebc90626921718.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "«Nous n’avions jamais connu d’actes de terrorisme aussi brutaux» : la Pologne sous le choc après une fusillade meurtrière à Cracovie",
+      "resume": "RÉCIT - Le pays s’interroge sur les motivations du tireur de 24 ans, qui a fait six morts et seize blessés samedi dans le centre historique de la ville.",
+      "lien": "https://www.lefigaro.fr/international/la-pologne-sous-le-choc-apres-une-fusillade-meurtriere-a-cracovie-20261108",
+      "date": "2026-11-08T17:39:41+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/08/33c38e6b84751b76280cd10dbde363d7972819c2e5f52ae04e82ad08a014d32d.jpg"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Fusillade en Pologne : le parquet annonce ouvrir une enquête pour «terrorisme»",
+      "resume": "L’enquête portera sur les circonstances de la fusillade ayant fait six morts à Cracovie, ainsi que sur les décès de trois autres personnes dont les corps ont été retrouvés au domicile du tueur.",
+      "lien": "https://www.lefigaro.fr/international/fusillade-en-pologne-le-parquet-annonce-ouvrir-une-enquete-pour-terrorisme-20261108",
+      "date": "2026-11-08T11:33:25+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/11/08/d3e6be0bc8872034e91cb37b8808caa0976ccb6a94261f2d6bfdae229f4cc581.JPG"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Fusillade en Pologne : Trois corps à son domicile, « fasciné par l’extrême droite »… Ce que l’on sait sur le tireur",
+      "resume": "Un homme a ouvert le feu samedi sur la place du marché de Cracovie, faisant six morts et une quinzaine de blessés. Une enquête a été ouverte ce dimanche pour acte à « caractère terroriste »",
+      "lien": "https://www.20minutes.fr/monde/pologne/4261256-20261108-fusillade-pologne-trois-corps-domicile-fascine-extreme-droite-sait-tireur?at_medium=display&at_campaign=149",
+      "date": "2026-11-08T08:57:13+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/365zcsB3ThuGxiTGRUl9YCk/1200x768_des-policiers-se-tiennent-pres-de-la-place-du-marche-de-cracovie-en-pologne-le-dimanche-8-novembre-2026-ou-plusieurs-personnes-ont-ete-abattues-la-veille-ap-photo-beata-zawrzel-mas101-26312280127811-2611080859"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Six personnes, dont trois mineures, mises en examen après le cambriolage d'une gendarmerie à Brest",
+      "resume": "Six personnes âgées de 15 à 34 ans ont été interpellées et mises en examen pour avoir cambriolé une gendarmerie à Brest, annonce le parquet ce dimanche. La \"quasi-totalité\" du matériel dérobé a été retrouvé.",
+      "lien": "https://www.bfmtv.com/finistere/six-personnes-dont-trois-mineures-mises-en-examen-apres-le-cambriolage-d-une-gendarmerie-a-brest_AD-202611080412.html",
+      "date": "2026-11-08T20:49:50+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/nzTM5Ni5r7AF32JFaykNN81wzcM=/0x105:2048x1257/800x0/images/GENDARMERIE-2199687.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« On lui avait dit de faire attention à qui il ramenait chez lui » : qui a tué Jimmy, retrouvé mort égorgé dans son appartement à Paris ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/on-lui-avait-dit-de-faire-attention-a-qui-il-ramenait-chez-lui-qui-a-tue-jimmy-retrouve-mort-egorge-dans-son-appartement-a-paris-08-11-2026-PRZCWOTT2BELHDWMKNAUWVYRPE.php",
+      "date": "2026-11-08T21:21:50.960630+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Usine de joaillerie braquée à Besançon : la totalité du butin de six millions d’euros retrouvée, huit personnes mises en examen",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/usine-de-joaillerie-braquee-a-besancon-la-totalite-du-butin-de-six-millions-deuros-retrouvee-huit-personnes-mises-en-examen-08-11-2026-2BMARO54YJFZRGK6WSMA5TYM3E.php",
+      "date": "2026-11-08T21:21:50.960655+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Casques et gilets pare-balles volés à la gendarmerie de Brest : six suspects mis en examen, dont trois mineurs",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/finistere-29/casques-et-gilets-pare-balles-voles-a-la-gendarmerie-de-brest-six-suspects-mis-en-examen-dont-trois-mineurs-08-11-2026-35QGOE3MM5FDRGMTWQ4W6SCP2M.php",
+      "date": "2026-11-08T21:21:50.960885+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Tuerie en Pologne : qui est Michal O., l’assaillant soupçonné d’avoir fait six morts et quinze blessés à Cracovie ?",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/tuerie-en-pologne-qui-est-michal-o-lassaillant-soupconne-davoir-fait-six-morts-et-quinze-blesses-a-cracovie-08-11-2026-Y32TOQ7VDJGWTPVRYPEEDKO4K4.php",
+      "date": "2026-11-08T21:21:50.961777+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Attaque à Cracovie : policiers, cochers, ressortissants étrangers… Ce que l’on sait des victimes de l’assaillant en Pologne",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/attaque-a-cracovie-policiers-cochers-ressortissants-etrangers-ce-que-lon-sait-des-victimes-de-lassaillant-en-pologne-08-11-2026-ZGK4WDBMHZBPNI5WGBFGRCIMQE.php",
+      "date": "2026-11-08T21:21:50.961946+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Pologne : le parquet annonce ouvrir une enquête pour « terrorisme » après la tuerie à Cracovie",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/attaque-en-pologne-le-parquet-annonce-ouvrir-une-enquete-pour-terrorisme-08-11-2026-EEZFFY4TPJAHVM6JZDGK7GV6UY.php",
+      "date": "2026-11-08T21:21:50.962400+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Un homme retrouvé mort dans un appartement à Paris, la gorge en partie tranchée",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/paris-75/un-homme-retrouve-mort-dans-un-appartement-a-paris-la-gorge-en-partie-tranchee-08-11-2026-ACYPMGNS35FJVOU65EWURD2KIQ.php",
+      "date": "2026-11-08T21:21:50.962580+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "\"Notre ville ne sera plus jamais la même\" : sidération et deuil à Cracovie après l'attaque qui a fait au moins six morts",
+      "resume": "Des Polonais se sont rendus sur les lieux du drame à Cracovie après qu'un tireur fasciné par les idées d'extrême droite ait fait feu sur la foule en plein centre historique.",
+      "lien": "https://actu.fr/monde/notre-ville-ne-sera-plus-jamais-la-meme-sideration-et-deuil-a-cracovie-apres-l-attaque-qui-a-fait-au-moins-six-morts_65032134.html",
+      "date": "2026-11-08T20:12:01+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/11/newsmlafp-com-20261108t132040zpartners-080-hl-bfurst-3380730-1024x557.jpg"
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Besançon. 54 kg d'or, 6 millions d'euros : gros coup de filet après deux braquages d'usines de joaillerie de luxe",
+      "resume": "Près de 54 kg d'or ont été retrouvés après l'arrestation de huit personnes dans le Doubs. Une affaire qui remonte à près d'un an.",
+      "lien": "https://actu.fr/bourgogne-franche-comte/besancon_25056/besancon-54-kg-d-or-6-millions-d-euros-gros-coup-de-filet-apres-deux-braquages-d-usines-de-joaillerie-de-luxe_65032039.html",
+      "date": "2026-11-08T18:40:41+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/11/newsmlafp-com-20260218t132723zdoc-97zr9et-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Le butin de 54 kilos d’or retrouvé, valeur estimée 6 millions d’euros, 8 mises en examen... Ce que l’on sait des braquages d’usines de métaux précieux à Besançon",
+      "resume": "Huit personnes ont été mises en examen dans le cadre de l’enquête sur des braquages d’usines de métaux précieux en décembre 2025 et novembre 2026 à Besançon, a annoncé dimanche la procureure anticriminalité organisée.",
+      "lien": "https://www.nicematin.com/faits-divers/le-butin-de-54-kilos-d-or-retrouve-valeur-estimee-6-millions-d-euros-8-mises-en-examen-ce-que-l-on-sait-des-braquages-d-usines-de-metaux-precieux-a-besancon-10756266",
+      "date": "2026-11-08T18:41:06+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/62/66/OG-10756266-1200-800-2e9e258_ftp-1-lhu9ews9wg2v-20261103ncy7668.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Le corps sans vie d’une femme âgée de 89 ans découvert à son domicile à La Seyne-sur-Mer, sa fille placée en garde à vue",
+      "resume": "Une quinquagénaire a été interpellée dans la nuit au domicile qu’elle partageait avec la victime. Une enquête pour « meurtre sur ascendant » est ouverte.",
+      "lien": "https://www.nicematin.com/faits-divers/le-corps-sans-vie-d-une-femme-agee-de-89-ans-decouvert-a-son-domicile-a-la-seyne-sur-mer-sa-fille-placee-en-garde-a-vue-10755903",
+      "date": "2026-11-08T15:01:00+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/59/03/OG-10755903-1200-800-369d4af_upload-1-el55xwnaicfy-archive-photo-1-44865308.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Braquages d’usines de métaux précieux à Besançon : huit personnes mises en examen et six millions d’euros d’or retrouvés",
+      "resume": "Un important coup de filet policier a permis d’interpeller huit suspects et de récupérer l’intégralité du butin ainsi qu’un arsenal d’armes de guerre",
+      "lien": "https://www.sudouest.fr/faits-divers/braquages-d-usines-de-metaux-precieux-a-besancon-huit-personnes-mises-en-examen-et-six-millions-d-euros-d-or-retrouves-31449104.php",
+      "date": "2026-11-08T18:50:17+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31449104/1200x-1/archive-quay-a1-36058017.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Gendarmerie cambriolée à Brest, des gilets pare-balles volés : six personnes mises en examen",
+      "resume": "Six suspects, dont trois adolescents, ont été mis en examen pour le cambriolage d’une gendarmerie de du Finistère où ils avaient dérobé du matériel, notamment des gilets pare-balles",
+      "lien": "https://www.sudouest.fr/france/gendarmerie-cambriolee-a-brest-des-gilets-pare-balles-voles-six-personnes-mises-en-examen-31446589.php",
+      "date": "2026-11-08T16:57:46+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31446589/1200x-1/sudouest-photo-1-35262388.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Fusillade en Pologne : touristes étrangers, cochers, policiers… Qui sont les victimes de l'attaque meurtrière à Cracovie ?",
+      "resume": "Six personnes ont été tuées et seize ont été blessées samedi 7 novembre dans une fusillade en plein centre historique de Cracovie, en Pologne. Parmi les victimes figurent plusieurs ressortissants étrangers et des...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/fusillade-en-pologne-touristes-etrangers-cochers-policiers-qui-sont-les-victimes-de-lattaque-meurtriere-a-cracovie-13642565.php",
+      "date": "2026-11-08T13:43:31+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af07200d51a211b6e0355d4/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Fusillade en Pologne : le parquet annonce ouvrir une enquête pour terrorisme après la mort de six personnes à Cracovie",
+      "resume": "Un homme soupçonné d’être \"fasciné par les idéologies d’extrême droite\" a ouvert le feu sur des passants, samedi 7 novembre, en plein cœur de Cracovie, en Pologne, faisant six morts et une quinzaine de blessés.",
+      "lien": "https://www.ladepeche.fr/2026/11/08/fusillade-en-pologne-le-parquet-annonce-ouvrir-une-enquete-pour-terrorisme-apres-la-mort-de-six-personnes-a-cracovie-13642456.php",
+      "date": "2026-11-08T10:29:43+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af04eb9176a54748a0f90f2/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Fusillade en Pologne : \"fasciné\" par l'extrême droite, inconnu de la justice, trois corps retrouvés chez lui... Que sait-on du tireur présumé ?",
+      "resume": "Six personnes ont été tuées et quinze autres blessées samedi 7 novembre dans une fusillade à Cracovie, en Pologne. Alors que trois corps ont également été retrouvés au domicile du suspect, les autorités ont dévoilé de...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/fusillade-en-pologne-fascine-par-lextreme-droite-inconnu-de-la-justice-trois-corps-retrouves-chez-lui-que-sait-on-du-tireur-presume-13642323.php",
+      "date": "2026-11-08T07:35:41+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af02575359773099a041b5a/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Fusillade en Pologne : suspect \"fasciné\" par l’extrême droite, famille décimée… Ce que l’on sait au lendemain de l’attaque qui a fait six morts",
+      "resume": "La Pologne est en deuil après la fusillade meurtrière survenue à Cracovie samedi 7 novembre, durant laquelle un jeune homme fasciné par l’extrême droite a tué six personnes et blessé quinze autres. Le suspect, Michal...",
+      "lien": "https://www.midilibre.fr/2026/11/08/fusillade-en-pologne-suspect-fascine-par-lextreme-droite-famille-decimee-ce-que-lon-sait-au-lendemain-de-lattaque-qui-a-fait-six-morts-13642567.php",
+      "date": "2026-11-08T13:41:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af079b27724ea3c3b0a5663/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Il est retrouvé mort en pleine rue : à l’aube, un homme de 38 ans découvert sans vie sur la voie publique",
+      "resume": "Un homme a été retrouvé mort, le 8 novembre 2026, sur la voie publique à Blanzy, en Saône-et-Loire. Une enquête a été ouverte par les forces de l’ordre.",
+      "lien": "https://www.midilibre.fr/2026/11/08/il-est-retrouve-mort-en-pleine-rue-a-laube-un-homme-de-38-ans-decouvert-sans-vie-sur-la-voie-publique-13642408.php",
+      "date": "2026-11-08T09:53:36+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af046140b284fa9f901b361/standard/image.png?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Doubs. Braquages d’usines de métaux précieux à Besançon : 54 kg d’or retrouvés, huit mises en examen",
+      "resume": "Les deux attaques, commises en décembre 2025 et début novembre par un commando lourdement armé, visaient des sociétés travaillant pour la joaillerie de luxe.",
+      "lien": "https://www.leprogres.fr/faits-divers-justice/2026/11/08/braquages-d-usines-de-metaux-precieux-a-besancon-54-kg-d-or-retrouves-huit-mises-en-examen",
+      "date": "2026-11-08T20:12:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Pologne. Attentat de Cracovie, trois Ardéchois au milieu de la tragédie : « On a entendu entre quatre et six coups de feu »",
+      "resume": "Depuis une semaine, trois Ardéchois passaient des vacances entre amis à Cracovie, en Pologne. Ce samedi 7 novembre, deux d’entre eux étaient dans une rue adjacente de la place du marché, lorsqu’un terroriste a ouvert le feu au hasard sur les passants. Ils sont sains et saufs. Ils racontent.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/11/08/a-quelques-minutes-pres-on-etait-dans-le-bar-ou-il-a-fait-un-carton-trois-ardechois-a-cracovie-lors-de-l-attentat",
+      "date": "2026-11-08T20:56:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/92EA8AFB-0C5C-4D0D-AB29-CF08C8366FF7/NW_listB/attentat-de-cracovie-trois-ardechois-au-milieu-de-la-tragedie-on-a-entendu-entre-quatre-et-six-coups-de-feu-1794170017.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Savoie. Un homme de 52 ans retrouvé mort au bout d’une corde de 30 mètres dans l’Isère",
+      "resume": "Il était aux alentours de 11 heures, ce dimanche 8 novembre, quand les sapeurs-pompiers de la Savoie ont été appelés sur une situation pour le moins étrange.",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/11/08/un-homme-de-52-ans-retrouve-mort-au-bout-d-une-corde-de-30-metres-dans-l-isere",
+      "date": "2026-11-08T18:30:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/C7C16E61-08CE-48BB-B245-1AD5A4449F44/NW_listB/un-homme-de-52-ans-retrouve-mort-au-bout-d-une-corde-de-30-metres-dans-l-isere-1794168688.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Doubs. Braquage de 54 kg d’or à Besançon : sept personnes en prison",
+      "resume": "Suspectées d’avoir pris part ou d’être liés au braquage de 54 kg d’or chez un sous-traitant en horlogerie à Besançon le 3 novembre, sept personnes ont été incarcérées en fin de semaine, a indiqué ce dimanche le parquet national anti-criminalité organisée. Moins de 24 heures après les faits, les enquêteurs avaient procédé à un total de 16 interpellations et retrouvé le butin.",
+      "lien": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/08/braquage-de-54-kg-d-or-a-besancon-sept-personnes-en-prison",
+      "date": "2026-11-08T19:44:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "BFMTV",
+     "Courrier international",
+     "Euronews",
+     "France 24",
+     "France 3 Régions",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro",
+     "Le Figaro France",
+     "Le Monde",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "RTS",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "attent",
+     "cracov",
+     "examen",
+     "fusill",
+     "person",
+     "pologn",
+     "retrou",
+     "six"
+    ],
+    "score": 182.99935117722222,
+    "suite": null,
+    "pays": "Pologne",
+    "requete": "Warsaw Poland",
+    "prioritaire": true,
+    "titre": "Cracovie : une fusillade fait au moins neuf morts en Pologne",
+    "texte": "En Pologne, une fusillade à Cracovie a fait au moins six morts samedi. Le suspect, un jeune homme de 24 ans, aurait été fasciné par l'extrême droite, selon les autorités. Trois corps ont également été retrouvés à son domicile.",
+    "texte_long": "En Pologne, une fusillade à Cracovie a fait au moins six morts samedi. Le suspect, un jeune homme de 24 ans, aurait été fasciné par l'extrême droite, selon les autorités. Trois corps ont également été retrouvés à son domicile.",
+    "flash": "En Pologne, une fusillade à Cracovie fait au moins six morts samedi, un suspect de 24 ans interpellé, selon les autorités.",
+    "politique": true,
+    "_chiffre_brut": {
+     "nombre": "six",
+     "legende": "morts à Cracovie"
+    },
+    "iso": [
+     "POL"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Terrorisme",
+     "#Securite"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/pologne/4261256-20261108-fusillade-pologne-trois-corps-domicile-fascine-extreme-droite-sait-tireur?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/pologne/4261256-20261108-fusillade-pologne-trois-corps-domicile-fascine-extreme-droite-sait-tireur?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/finistere/six-personnes-dont-trois-mineures-mises-en-examen-apres-le-cambriolage-d-une-gendarmerie-a-brest_AD-202611080412.html",
+     "Courrier international": "https://www.courrierinternational.com/article/terrorisme-en-pologne-apres-l-attentat-de-cracovie-plus-rien-ne-sera-comme-avant_285750",
+     "Euronews": "https://fr.euronews.com/video/2026/11/07/krakow-une-fusillade-fait-6-morts-et-16-blesses-sur-la-place-du-marche",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261108-pologne-un-tireur-fascin%C3%A9-par-l-extr%C3%AAme-droite-abat-six-personnes-%C3%A0-cracovie-1",
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/doubs/besancon/braquage-d-une-entreprise-de-joaillerie-a-besancon-huit-personnes-mises-en-examen-et-le-butin-estime-a-plus-de-six-millions-d-euros-retrouve-3446454.html",
+     "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/08/braquage-de-54-kg-d-or-a-besancon-sept-personnes-en-prison",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/08/fusillade-en-pologne-touristes-etrangers-cochers-policiers-qui-sont-les-victimes-de-lattaque-meurtriere-a-cracovie-13642565.php",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/08/a-quelques-minutes-pres-on-etait-dans-le-bar-ou-il-a-fait-un-carton-trois-ardechois-a-cracovie-lors-de-l-attentat",
+     "Le Figaro": "https://www.lefigaro.fr/international/la-pologne-sous-le-choc-apres-une-fusillade-meurtriere-a-cracovie-20261108",
+     "Le Figaro France": "https://www.lefigaro.fr/international/la-pologne-sous-le-choc-apres-une-fusillade-meurtriere-a-cracovie-20261108",
+     "Le Monde": "https://www.lemonde.fr/international/article/2026/11/08/la-pologne-en-etat-de-choc-apres-la-fusillade-de-cracovie_6808422_3210.html",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/on-lui-avait-dit-de-faire-attention-a-qui-il-ramenait-chez-lui-qui-a-tue-jimmy-retrouve-mort-egorge-dans-son-appartement-a-paris-08-11-2026-PRZCWOTT2BELHDWMKNAUWVYRPE.php",
+     "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/08/braquages-d-usines-de-metaux-precieux-a-besancon-54-kg-d-or-retrouves-huit-mises-en-examen",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/08/fusillade-en-pologne-suspect-fascine-par-lextreme-droite-famille-decimee-ce-que-lon-sait-au-lendemain-de-lattaque-qui-a-fait-six-morts-13642567.php",
+     "Nice-Matin": "https://www.nicematin.com/faits-divers/le-butin-de-54-kilos-d-or-retrouve-valeur-estimee-6-millions-d-euros-8-mises-en-examen-ce-que-l-on-sait-des-braquages-d-usines-de-metaux-precieux-a-besancon-10756266",
+     "RTS": "https://www.rts.ch/info/monde/2026/article/tuerie-de-cracovie-enquete-pour-terrorisme-ouverte-29409349.html?rts_source=rss_t",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/braquages-d-usines-de-metaux-precieux-a-besancon-huit-personnes-mises-en-examen-et-six-millions-d-euros-d-or-retrouves-31449104.php",
+     "actu.fr": "https://actu.fr/monde/notre-ville-ne-sera-plus-jamais-la-meme-sideration-et-deuil-a-cracovie-apres-l-attaque-qui-a-fait-au-moins-six-morts_65032134.html",
+     "franceinfo": "https://www.franceinfo.fr/monde/europe/ce-que-l-on-sait-de-l-attentat-en-pologne-qui-a-fait-six-morts-et-quinze-blesses-dans-le-centre-de-cracovie_8273087.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/attentat-en-pologne-j-ai-vu-des-personnes-tomber-a-un-metre-de-moi-une-temoin-raconte_8273690.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "8 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "France 24",
+      "titre": "Présidentielle : \"Il faut tout changer\" lance Mélenchon à son meeting au Bourget",
+      "resume": "Le candidat insoumis Jean-Luc Mélenchon a proposé samedi à ses partisans de \"tout changer\", une position \"raisonnable\", a-t-il dit lors d'un meeting de campagne pour la présentation du programme présidentiel de La France insoumise (LFI) au Bourget (Seine-Saint-Denis).",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261108-pr%C3%A9sidentielle-il-faut-tout-changer-lance-m%C3%A9lenchon-%C3%A0-son-meeting-au-bourget",
+      "date": "2026-11-08T10:37:15+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/b8eaa336-db5e-11f1-8ed3-a575454bc579/w:1024/p:16x9/FR-20261108-091119-091320-CS.jpg"
+     },
+     {
+      "source": "RFI",
+      "titre": "Présidentielle en France: Jean-Luc Mélenchon présente son programme lors d'un grand meeting au Bourget",
+      "resume": "Au lendemain de la publication de son programme sous la forme d'une nouvelle version de « L'Avenir en commun », le candidat insoumis à l'Élysée a rassemblée plusieurs milliers de personnes au parc des expositions du Bourget, près de Paris, samedi 7 novembre. Un rendez-vous au cours duquel celui-ci s'est largement adressé à la jeunesse et a évacué les appels à se montrer « moins clivant ».",
+      "lien": "https://www.rfi.fr/fr/france/20261108-pr%C3%A9sidentielle-en-france-jean-luc-m%C3%A9lenchon-pr%C3%A9sente-son-programme-lors-d-un-grand-meeting-au-bourget",
+      "date": "2026-11-08T03:58:20+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/cba27e7c-db18-11f1-ba8d-d18c5759e759/w:1024/p:16x9/2026-11-07T213342Z-1611469985-RC24JOAO9X8X-RTRMADP-3-FRANCE-POLITICS-MELENCHON.jpg"
+     },
+     {
+      "source": "RFI",
+      "titre": "Présidentielle en France: Édouard Philippe débute son «Grand Tour» pour relancer sa campagne",
+      "resume": "En déplacement dans le sud-est de la France depuis vendredi 6 novembre, le candidat Horizons à la présidentielle, Édouard Philippe, a lancé samedi 7 novembre à La Ciotat (Bouches-du-Rhône) son « Grand Tour ». Cette tournée doit le conduire dans toutes les régions du pays, à la rencontre de 200 à 300 Français à chaque étape. Le candidat espère ainsi relancer une campagne qui patine, en misant sur les échanges et la proximité, loin de la démonstration de force du candidat insoumis Jean-Luc Mélenchon au Bourget, au nord-est de Paris.",
+      "lien": "https://www.rfi.fr/fr/france/20261107-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-d%C3%A9bute-son-grand-tour-pour-relancer-sa-campagne",
+      "date": "2026-11-07T23:36:49+00:00",
+      "groupe": "RFI",
+      "image": "https://s.rfi.fr/media/display/e7c2fe88-daf0-11f1-b6bf-1beafce15fea/w:1024/p:16x9/000-D6QY99B.jpg"
+     },
+     {
+      "source": "Le Monde",
+      "titre": "Jean-Luc Mélenchon « s’est fait le porte-parole du Kremlin » sur le Donbass, tance Jean-Noël Barrot",
+      "resume": "Le candidat « insoumis » à l’élection présidentielle a affirmé, samedi, que le règlement de la guerre en Ukraine pourrait passer par des concessions territoriales, en particulier au Donbass, où, selon lui, la population doit être consultée.",
+      "lien": "https://www.lemonde.fr/politique/article/2026/11/08/jean-luc-melenchon-accuse-de-relayer-le-discours-du-kremlin-sur-le-donbass-il-s-est-fait-porte-parole-du-kremlin-tance-jean-noel-barrot_6808430_823448.html",
+      "date": "2026-11-08T13:04:32+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/07/338/0/4072/2036/644/322/60/0/05c651e_upload-1-u7xnbv2lmrtp-l1020095.JPG"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Raphaël Glucksmann veut \"mettre fin à l’hégémonie de Jean-Luc Mélenchon sur la gauche française\"",
+      "resume": "Le candidat social-démocrate à la présidentielle avance sur BFTMV ce dimanche 8 novembre que \"l'hostilité\" exprimée à son égard lors de la manifestation du 5 novembre dernier s'explique par sa volonté de \"mettre fin à l’hégémonie de Jean-Luc Mélenchon sur la gauche française\".",
+      "lien": "https://www.bfmtv.com/politique/elections/presidentielle/raphael-glucksmann-veut-mettre-fin-a-l-hegemonie-de-jean-luc-melenchon-sur-la-gauche-francaise_AV-202611080383.html",
+      "date": "2026-11-08T18:48:28+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/jVnBOf50_X5YuzwhQpaiTebxlSg=/0x0:1920x1080/800x0/images/Raphael-Glucksmann-PS-Place-publique-invite-du-Grand-Oral-de-BFMTV-le-8-novembre-2026-2380360.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Guerre en Ukraine: \"Jean-Luc Mélenchon récite les éléments de langage fournis par le Kremlin\", dénonce Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-guerre-en-ukraine-jean-luc-melenchon-recite-les-elements-de-langage-fournis-par-le-kremlin-denonce-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle_VN-202611080373.html",
+      "date": "2026-11-08T18:26:20+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/N1NzqGN1pUSC8pjztnl_tlJRwhE=/0x0:1280x720/800x0/images/Guerre-en-Ukraine-Jean-Luc-Melenchon-recite-les-elements-de-langage-fournis-par-le-Kremlin-denonce-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-2380377.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Attentat raciste de Trappes: “On a vécu un drame national qui n'a pas suscité suffisamment l'unité nationale\", dénonce Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-attentat-raciste-de-trappes-on-a-vecu-un-drame-national-qui-n-a-pas-suscite-suffisamment-l-unite-nationale-denonce-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle_VN-202611080371.html",
+      "date": "2026-11-08T18:24:12+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/2bWvbbXH9GvCtuOeFMr1oCQScn8=/0x0:1280x720/800x0/images/Attentat-raciste-de-Trappes-On-a-vecu-un-drame-national-qui-n-a-pas-suscite-suffisamment-l-unite-nationale-denonce-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-2380375.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Propos d’Édouard Philippe sur les Français “issus de l’immigration”: “Il a commis une faute politique grave”, juge Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-propos-d-edouard-philippe-sur-les-francais-issus-de-l-immigration-il-a-commis-une-faute-politique-grave-juge-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle_VN-202611080369.html",
+      "date": "2026-11-08T18:21:37+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ObcT3LL1ySjrlu8KbM3ex_2x5XU=/0x0:1280x720/800x0/images/Propos-d-Edouard-Philippe-sur-les-Francais-issus-de-l-immigration-Il-a-commis-une-faute-politique-grave-juge-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-2380374.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "“La sincérité peut gagner en politique”: Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, revient sur son interview à la sortie d'une éolienne",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-la-sincerite-peut-gagner-en-politique-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle-revient-sur-son-interview-a-la-sortie-d-une-eolienne_VN-202611080368.html",
+      "date": "2026-11-08T18:20:10+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/dIVaq1pQXsK4hQEywW3LA8UEdYU=/0x0:1280x720/800x0/images/La-sincerite-peut-gagner-en-politique-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-revient-sur-son-interview-a-la-sortie-d-une-eolienne-2380373.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "“Nous sommes les seuls à pouvoir battre l’extrême droite”, estime Raphaël Glucksmann",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-nous-sommes-les-seuls-a-pouvoir-battre-l-extreme-droite-estime-raphael-glucksmann_VN-202611080380.html",
+      "date": "2026-11-08T18:18:36+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/rahVP2-dJ-DqQK9Hz2Fi9V_ksH4=/0x0:1280x720/800x0/images/Nous-sommes-les-seuls-a-pouvoir-battre-l-extreme-droite-estime-Raphael-Glucksmann-2380383.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "“On ne peut pas faire la retraite à 60 ans” mais “on peut faire une réforme plus juste”, estime Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-on-ne-peut-pas-faire-la-retraite-a-60-ans-mais-on-peut-faire-une-reforme-plus-juste-estime-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle_VN-202611080366.html",
+      "date": "2026-11-08T18:07:15+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0hCTswdxW0tDq6V5kEHa_FE1-uY=/0x0:1280x720/800x0/images/On-ne-peut-pas-faire-la-retraite-a-60-ans-mais-on-peut-faire-une-reforme-plus-juste-estime-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-2380371.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "“Depuis le début j'ai refusé les offres, elles ont été nombreuses\": Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, déclare avoir refusé plusieurs postes de ministre sous Emmanuel Macron",
+      "resume": "Raphaël Glucksmann, candidat PS - Place Publique à la présidentielle, était l’invité du Grand Oral 2027 ce dimanche 8 novembre sur BFMTV",
+      "lien": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-depuis-le-debut-j-ai-refuse-les-offres-elles-ont-ete-nombreuses-raphael-glucksmann-candidat-ps-place-publique-a-la-presidentielle-declare-avoir-refuse-plusieurs-postes-de-ministre-sous-emmanuel-macron_VN-202611080365.html",
+      "date": "2026-11-08T18:05:33+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ePRR6mfJ4YqMHVGaK8yzS2aKRpo=/0x0:1280x720/800x0/images/Depuis-le-debut-j-ai-refuse-les-offres-elles-ont-ete-nombreuses-Raphael-Glucksmann-candidat-PS-Place-Publique-a-la-presidentielle-declare-avoir-refuse-plusieurs-postes-de-ministre-sous-Emmanuel-Macron-2380370.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Raphaël Glucksmann affirme avoir refusé d’être le Premier ministre d’Emmanuel Macron après la dissolution",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-raphael-glucksmann-affirme-avoir-refuse-detre-le-premier-ministre-demmanuel-macron-apres-la-dissolution-08-11-2026-4HIMT65N3VASZHG2UXNAKTDLGU.php",
+      "date": "2026-11-08T21:21:50.960319+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : Raphaël Glucksmann estime que Jean-Luc Mélenchon et Marine Le Pen reprennent « la propagande de Moscou »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-raphael-glucksmann-estime-que-jean-luc-melenchon-et-marine-le-pen-reprennent-la-propagande-de-moscou-08-11-2026-TCRHYWF7LFGTFPEGAGHJ3BV3ZI.php",
+      "date": "2026-11-08T21:21:50.960455+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Guerre en Ukraine : Jean-Luc Mélenchon est le « porte-parole du Kremlin », selon le ministre des Affaires étrangères",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/guerre-en-ukraine-jean-luc-melenchon-est-le-porte-parole-du-kremlin-selon-le-ministre-des-affaires-etrangeres-08-11-2026-YNC3FXHFYNEMFIMXI4Y6PRF6VU.php",
+      "date": "2026-11-08T21:21:50.961607+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Présidentielle 2027 : « État d’urgence sociale »… les Insoumis justifient les mesures juridiques voulues par Mélenchon en cas de victoire",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-etat-durgence-sociale-les-insoumis-justifient-les-mesures-juridiques-voulues-par-melenchon-en-cas-de-victoire-08-11-2026-Y5VGFAH4PRCSJPO4W7L7B2TNBI.php",
+      "date": "2026-11-08T21:21:50.961704+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« Cette primaire aura lieu, j’en suis absolument convaincu » : à Saint-Raphaël, Gabriel Attal répond à Édouard Philippe",
+      "resume": "« Si la force ne fait pas l’union, il faut que l’union fasse la force » : face au risque des extrêmes, Gabriel Attal pousse pour un rassemblement du bloc central.",
+      "lien": "https://www.nicematin.com/societe/politique/cette-primaire-aura-lieu-j-en-suis-absolument-convaincu-a-saint-raphael-gabriel-attal-repond-a-edouard-philippe-10755910",
+      "date": "2026-11-08T17:15:32+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/59/10/OG-10755910-1200-800-fe89761_upload-1-eyicqzpvr3bh-varxxq106-fe-gabriel-attal-aux-rencontres-de-l-avenir.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Présidentielle 2027 : Raphaël Glucksmann affirme avoir refusé d’être Premier ministre en 2024",
+      "resume": "Le fondateur de Place publique et candidat à l’élection présidentielle Raphaël Glucksmann assure avoir décliné Matignon après la dissolution pour marquer sa distance avec Emmanuel Macron",
+      "lien": "https://www.sudouest.fr/politique/presidentielle-2027-raphael-glucksmann-affirme-avoir-refuse-d-etre-premier-ministre-en-2024-31451048.php",
+      "date": "2026-11-08T20:59:21+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31451048/1200x-1/20261008193905-18394212.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : \"Il n'y a qu'elle qui peut nous sauver\" Michel Sardou parle cash sur la politique et révèle pour qui il voterait",
+      "resume": "Michel Sardou, retraité à Bormes-les-Mimosas, s'exprime sur la présidentielle de 2027 dans une interview à La Tribune dimanche. Déçu par Emmanuel Macron, il critique Jean-Luc Mélenchon et Marine Le Pen, et révèle son...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/presidentielle-2027-il-ny-a-quelle-quelle-qui-peut-nous-sauver-michel-sardou-parle-cash-sur-la-politique-et-revele-pour-qui-il-voterait-13642406.php",
+      "date": "2026-11-08T14:32:15+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af0465b22d877159002fde5/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Politique. Raphaël Glucksmann affirme avoir refusé le poste de Premier ministre après la dissolution",
+      "resume": "Le candidat à la présidentielle a affirmé dans une interview sur BFMTV avoir toujours été « très net » vis-à-vis de son refus de rejoindre Emmanuel Macron.",
+      "lien": "https://www.leprogres.fr/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+      "date": "2026-11-08T18:45:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Politique. Raphaël Glucksmann affirme avoir refusé le poste de Premier ministre après la dissolution",
+      "resume": "Le candidat à la présidentielle a affirmé dans une interview sur BFMTV avoir toujours été « très net » vis-à-vis de son refus de rejoindre Emmanuel Macron.",
+      "lien": "https://www.ledauphine.com/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+      "date": "2026-11-08T18:45:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/A6649F74-C9BB-4151-8115-867D288AC663/NW_listB/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution-1794163407.jpg"
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Politique. Raphaël Glucksmann affirme avoir refusé le poste de Premier ministre après la dissolution",
+      "resume": "Le candidat à la présidentielle a affirmé dans une interview sur BFMTV avoir toujours été « très net » vis-à-vis de son refus de rejoindre Emmanuel Macron.",
+      "lien": "https://www.estrepublicain.fr/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+      "date": "2026-11-08T18:45:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "France 24",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Monde",
+     "Le Parisien",
+     "Le Progrès",
+     "Nice-Matin",
+     "RFI",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "candid",
+     "glucks",
+     "jean",
+     "luc",
+     "melenc",
+     "minist",
+     "presid",
+     "raphae"
+    ],
+    "score": 137.99935093388888,
+    "suite": null,
+    "pays": "Russie",
+    "requete": "Moscow Russia",
+    "prioritaire": true,
+    "titre": "Mélenchon promet de « tout changer » au Bourget",
+    "texte": "Jean-Luc Mélenchon a présenté samedi son programme au Bourget, en Seine-Saint-Denis, lors d'un meeting rassemblant plusieurs milliers de personnes. Il a proposé à ses partisans de « tout changer ». Il a aussi évoqué une possible concession territoriale au Donbass dans le règlement de la guerre en Ukraine.",
+    "texte_long": "Jean-Luc Mélenchon a présenté samedi son programme au Bourget, en Seine-Saint-Denis, lors d'un meeting rassemblant plusieurs milliers de personnes. Il a proposé à ses partisans de « tout changer ». Il a aussi évoqué une possible concession territoriale au Donbass dans le règlement de la guerre en Ukraine.",
+    "flash": "Jean-Luc Mélenchon présente son programme au Bourget devant plusieurs milliers de partisans, samedi.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Jean-Luc Mélenchon",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Presidentielle2027",
+     "#Campagne"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/raphael-glucksmann-veut-mettre-fin-a-l-hegemonie-de-jean-luc-melenchon-sur-la-gauche-francaise_AV-202611080383.html",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261108-pr%C3%A9sidentielle-il-faut-tout-changer-lance-m%C3%A9lenchon-%C3%A0-son-meeting-au-bourget",
+     "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/08/presidentielle-2027-il-ny-a-quelle-quelle-qui-peut-nous-sauver-michel-sardou-parle-cash-sur-la-politique-et-revele-pour-qui-il-voterait-13642406.php",
+     "Le Dauphiné": "https://www.ledauphine.com/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+     "Le Monde": "https://www.lemonde.fr/politique/article/2026/11/08/jean-luc-melenchon-accuse-de-relayer-le-discours-du-kremlin-sur-le-donbass-il-s-est-fait-porte-parole-du-kremlin-tance-jean-noel-barrot_6808430_823448.html",
+     "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-raphael-glucksmann-affirme-avoir-refuse-detre-le-premier-ministre-demmanuel-macron-apres-la-dissolution-08-11-2026-4HIMT65N3VASZHG2UXNAKTDLGU.php",
+     "Le Progrès": "https://www.leprogres.fr/politique/2026/11/08/raphael-glucksmann-affirme-avoir-refuse-le-poste-de-premier-ministre-apres-la-dissolution",
+     "Nice-Matin": "https://www.nicematin.com/societe/politique/cette-primaire-aura-lieu-j-en-suis-absolument-convaincu-a-saint-raphael-gabriel-attal-repond-a-edouard-philippe-10755910",
+     "RFI": "https://www.rfi.fr/fr/france/20261108-pr%C3%A9sidentielle-en-france-jean-luc-m%C3%A9lenchon-pr%C3%A9sente-son-programme-lors-d-un-grand-meeting-au-bourget",
+     "Sud Ouest": "https://www.sudouest.fr/politique/presidentielle-2027-raphael-glucksmann-affirme-avoir-refuse-d-etre-premier-ministre-en-2024-31451048.php"
+    },
+    "date_affichee": "8 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "Euronews",
+      "titre": "Trump propose à Dana White, patron d'une fédération de MMA, de devenir porte-parole de la Maison-Blanche",
+      "resume": "Donald Trump et Dana White se connaissent bien depuis plusieurs années. Le président assiste régulièrement aux événements de l'UFC, tandis que son patron a participé à plusieurs de ses meetings de campagne.",
+      "lien": "https://fr.euronews.com/2026/11/08/trump-propose-a-dana-white-patron-dune-federation-de-mma-de-devenir-porte-parole-de-la-mai",
+      "date": "2026-11-08T08:15:24+00:00",
+      "groupe": "Euronews",
+      "image": ""
+     },
+     {
+      "source": "France 24",
+      "titre": "Trump veut Dana White, patron de la fédération de MMA, comme porte-parole",
+      "resume": "Donald Trump a annoncé samedi avoir proposé le poste de porte-parole de la Maison Blanche à Dana White, un de ses proches qui dirige l'UFC, principale organisation mondiale d'arts martiaux mixtes (MMA).",
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261108-trump-veut-dana-white-patron-de-la-f%C3%A9d%C3%A9ration-de-mma-comme-porte-parole",
+      "date": "2026-11-08T11:30:40+00:00",
+      "groupe": "France 24",
+      "image": "https://s.france24.com/media/display/6b735158-db67-11f1-9693-1beafce15fea/w:1024/p:16x9/2026-11-07T185814Z-773770422-RC2MSMA1HHQJ-RTRMADP-3-USA-TRUMP-PRESS-SECRETARY.jpg"
+     },
+     {
+      "source": "20 Minutes",
+      "titre": "États-Unis : Trump veut un patron de MMA comme porte-parole de la Maison-Blanche",
+      "resume": "Donald Trump a proposé au président de l’UFC Dana White de le rejoindre pour l’aider à se « défendre contre la gauche cinglée », après la défaite des républicains aux midterms",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4261229-20261108-trump-veut-patron-mma-comme-porte-parole-maison-blanche?at_medium=display&at_campaign=149",
+      "date": "2026-11-08T01:27:57+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/SJcDwPbfSBCnz8k3XY1jxik/1200x768_le-president-donald-trump-s-entretient-avec-le-president-directeur-general-de-l-ufc-dana-white-lors-d-un-evenement-au-red-rock-casino-resort-and-spa-de-las-vegas-le-mercredi-5-aout-2026-ap-photo-mark-schiefelbein-nvje349-26217781804947-2608052344"
+     },
+     {
+      "source": "Courrier international",
+      "titre": "Trump propose à Dana White, l’influent patron de l’UFC, de devenir le porte-parole de la Maison Blanche",
+      "resume": "Le président américain et le boss de la plus grande organisation internationale de MMA (arts martiaux mixtes) se côtoient depuis plus de vingt ans. White a été un soutien de poids dans le parcours politique de Trump, rappelle la presse aux États-Unis.",
+      "lien": "https://www.courrierinternational.com/article/politique-trump-propose-a-dana-white-l-influent-patron-de-l-ufc-de-devenir-le-porte-parole-de-la-maison-blanche_285684",
+      "date": "2026-11-08T10:07:46+00:00",
+      "groupe": "Courrier international",
+      "image": "https://focus.courrierinternational.com/2026/11/07/0/0/4798/3199/644/0/60/0/6ed2f96_ftp-1-fdcntewlhxyo-2026-11-07t185807z-1652094977-rc2k4na1zxvx-rtrmadp-3-usa-trump-press-secretary.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "États-Unis : face à Donald Trump, les démocrates en ordre de bataille pour la présidentielle 2028",
+      "resume": "RÉCIT - Portée par la victoire de leur parti aux élections de mi-mandat, la nouvelle génération de démocrates commence à envisager une candidature pour la présidentielle de 2028.",
+      "lien": "https://www.lefigaro.fr/international/etats-unis-face-a-donald-trump-les-democrates-en-ordre-de-bataille-pour-la-presidentielle-2028-20261108",
+      "date": "2026-11-08T20:08:28+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/11/08/dac68bef8dc4cf3430298110cc715fe2dc9c92f348cb24af2b6ce602756ba666.jpg"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "États-Unis : Trump veut un patron de MMA comme porte-parole de la Maison-Blanche",
+      "resume": "Donald Trump a proposé au président de l’UFC Dana White de le rejoindre pour l’aider à se « défendre contre la gauche cinglée », après la défaite des républicains aux midterms",
+      "lien": "https://www.20minutes.fr/monde/etats-unis/4261229-20261108-trump-veut-patron-mma-comme-porte-parole-maison-blanche?at_medium=display&at_campaign=149",
+      "date": "2026-11-08T01:27:57+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/SJcDwPbfSBCnz8k3XY1jxik/1200x768_le-president-donald-trump-s-entretient-avec-le-president-directeur-general-de-l-ufc-dana-white-lors-d-un-evenement-au-red-rock-casino-resort-and-spa-de-las-vegas-le-mercredi-5-aout-2026-ap-photo-mark-schiefelbein-nvje349-26217781804947-2608052344"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "États-Unis : Donald Trump reconnaît une politique d’expulsions d’immigrés « trop dure »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/etats-unis-donald-trump-reconnait-une-politique-dexpulsions-dimmigres-trop-dure-08-11-2026-QIKZAVYB6ZCWZM6IPBQ47EUNPY.php",
+      "date": "2026-11-08T21:21:50.960213+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Un gigantesque pas en arrière dans l’Histoire » : Donald Trump ne digère pas la victoire démocrate aux Midterms 2026",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/un-gigantesque-pas-en-arriere-dans-lhistoire-donald-trump-ne-digere-pas-la-victoire-democrate-aux-midterms-2026-08-11-2026-RWGDJIRFGZHUZFE7T4U6F2VJ5U.php",
+      "date": "2026-11-08T21:21:50.961301+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "« L’Amérique a fait un gigantesque pas en arrière » : Face aux enquêtes sur la « corruption » promises par les démocrates, Donald Trump veut rendre coup pour coup",
+      "resume": "Donald Trump a promis dimanche un retour en force sur la scène politique américaine, face à la volonté affichée des démocrates d’utiliser leur nouvelle majorité parlementaire pour enquêter sur la « corruption » de son administration pendant les deux premières années de son second mandat.",
+      "lien": "https://www.nicematin.com/societe/politique/l-amerique-a-fait-un-gigantesque-pas-en-arriere-face-aux-enquetes-sur-la-corruption-promises-par-les-democrates-donald-trump-veut-rendre-coup-pour-coup-10756167",
+      "date": "2026-11-08T17:55:01+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/61/67/OG-10756167-1200-800-aaf6aba_ftp-1-udu6e3onttay-00776805-000043.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Midterms 2026 aux États-Unis : qu’est-ce que le « Millennial optimism » ravivé par la victoire démocrate ?",
+      "resume": "Après la victoire des démocrates au Congrès, la jeune génération américaine oscille entre nostalgie optimiste et exigences concrètes pour l’avenir",
+      "lien": "https://www.sudouest.fr/etudiant/midterms-2026-aux-etats-unis-qu-est-ce-que-le-millennial-optimism-ravive-par-la-victoire-democrate-31445782.php",
+      "date": "2026-11-08T17:11:55+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31445782/1200x-1/20261104092912-3729412.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "États-Unis : le ministre de la Justice Todd Blanche prêt à défendre l’administration Trump face aux démocrates",
+      "resume": "Le ministre américain de la Justice Todd Blanche affirme qu’il défendra les membres de l’administration de Donald Trump visés par les futures enquêtes de la nouvelle majorité démocrate au Congrès",
+      "lien": "https://www.sudouest.fr/international/etats-unis-le-ministre-de-la-justice-todd-blanche-pret-a-defendre-l-administration-trump-face-aux-democrates-31445654.php",
+      "date": "2026-11-08T16:14:28+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31445654/1200x-1/20261031021519-3392312.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : Jean-Noël Barrot accuse Jean-Luc Mélenchon de s’être fait \"le porte-parole du Kremlin\" après ses propos sur le Donbass",
+      "resume": "Dimanche 8 novembre, le ministre des Affaires étrangères Jean-Noël Barrot a vivement répondu à Jean-Luc Mélenchon. Le chef de la diplomatie française estime que les déclarations du leader de La France insoumise sur le...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/presidentielle-2027-jean-noel-barrot-accuse-jean-luc-melenchon-de-setre-fait-le-porte-parole-du-kremlin-apres-ses-propos-sur-le-donbass-13642810.php",
+      "date": "2026-11-08T17:16:28+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af0ad1a00da98a6130159fe/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Donald Trump s’est-il trompé de Dana White ? Une journaliste évoque une confusion entre le patron de l'UFC et une homonyme pour devenir le porte-parole de la Maison-Blanche",
+      "resume": "Selon les informations de Laurence Haïm, une journaliste politique franco-américaine, la Maison-Blanche aurait confondu Dana White, le patron de la principale fédération de MMA aux États-Unis, avec une homonyme,...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/donald-trump-sest-il-trompe-de-dana-white-une-journaliste-evoque-une-confusion-entre-le-patron-de-lufc-et-une-homonyme-pour-devenir-le-porte-parole-de-13642496.php",
+      "date": "2026-11-08T12:19:11+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af062050c1df687ec073882/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Donald Trump : furieux face à la victoire démocrate aux midterms, le président américain dénonce \"un gigantesque pas en arrière dans l'Histoire\"... mais ne s'avoue pas vaincu",
+      "resume": "Quelques jours après la déroute du camp républicain aux élections de mi-mandat aux États-Unis, Donald Trump a déclaré sur son réseau social Truth Social que la victoire démocrate était \"un gigantesque pas en arrière...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/donald-trump-furieux-face-a-la-victoire-democrate-aux-midterms-le-president-americain-denonce-un-gigantesque-pas-en-arriere-dans-lhistoire-mais-ne-13642653.php",
+      "date": "2026-11-08T15:53:24+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af091f206a4117bc9092440/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Présidentielle 2027 : jamais deux sans trois ? Jean Lassalle veut retenter sa chance et part à la chasse aux 500 parrainages",
+      "resume": "Après deux tentatives en 2017 et 2022, Jean Lassalle envisage une nouvelle candidature à l’élection présidentielle de 2027. Entre tournée de spectacles et ambitions politiques, le Béarnais prépare son retour et compte...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/presidentielle-2027-jamais-deux-sans-trois-jean-lassalle-veut-retenter-sa-chance-et-part-a-la-chasse-aux-500-parrainages-13642432.php",
+      "date": "2026-11-08T10:50:03+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af0482c934b0195020fd2f8/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "REPLAY. Présidentielle 2027 : suivez le meeting de Jean-Luc Mélenchon au Bourget durant lequel le leader Insoumis présentera son programme",
+      "resume": "Revivez les dernières informations sur la campagne présidentielle de 2027, les déclarations des candidats et les réactions politiques, ce samedi 7 novembre 2026, sur ladepeche.fr.",
+      "lien": "https://www.ladepeche.fr/2026/11/07/direct-presidentielle-2027-jean-luc-melenchon-le-leader-de-la-france-insoumise-attendu-au-bourget-pour-un-grand-meeting-13641089.php",
+      "date": "2026-11-07T21:46:37+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6aeedcf86e2889ba620d03bc/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Présidentielle 2027 : vers un \"candidat unique\" avant Noël ? Les partis de droite et du centre de plus en plus tentés par une primaire",
+      "resume": "À moins de six mois de l’élection présidentielle, Laurent Wauquiez, chef des députés LR, a appelé le 8 novembre 2026 à l’union des candidats de droite pour désigner un \"candidat unique\" avant Noël. Cette initiative...",
+      "lien": "https://www.midilibre.fr/2026/11/08/presidentielle-2027-vers-un-candidat-unique-avant-noel-les-partis-de-droite-et-du-centre-de-plus-en-plus-tentes-par-une-primaire-13642623.php",
+      "date": "2026-11-08T15:28:40+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af091e36eae9fe7050e0d71/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Présidentielle 2027. Hausse du brut, baisse des charges... ce que proposent les candidats pour augmenter les salaires",
+      "resume": "Pour améliorer le pouvoir d’achat des actifs, les principaux prétendants à l’Élysée ont chacun leur méthode. À droite, on préfère jouer sur les cotisations pour augmenter le salaire net, tandis qu’à gauche, on privilégie une revalorisation du brut. Tour d’horizon des propositions.",
+      "lien": "https://www.leprogres.fr/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+      "date": "2026-11-08T17:15:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "États-Unis. Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure »",
+      "resume": "Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure ».",
+      "lien": "https://www.leprogres.fr/politique/2026/11/08/apres-la-defaite-aux-midterms-trump-juge-sa-politique-d-expulsions-d-immigres-trop-dure",
+      "date": "2026-11-08T21:14:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Politique. Jean-Noël Barrot accuse Jean-Luc Mélenchon de s’être fait le « porte-parole du Kremlin »",
+      "resume": "Le candidat insoumis veut consulter les habitants du Donbass en cas de concessions territoriales. Glucksmann l’accuse de « valider la propagande de Poutine ».",
+      "lien": "https://www.leprogres.fr/politique/2026/11/08/jean-noel-barrot-accuse-jean-luc-melenchon-de-s-etre-fait-le-porte-parole-du-kremlin",
+      "date": "2026-11-08T19:22:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Présidentielle 2027. Augmentation des salaires : quelles sont les propositions des candidats ?",
+      "resume": "Pour améliorer le pouvoir d’achat des actifs, les principaux prétendants à l’Élysée ont chacun leur méthode. À droite, on préfère jouer sur les cotisations pour augmenter le salaire net, tandis qu’à gauche, on privilégie une revalorisation du brut. Tour d’horizon des propositions.",
+      "lien": "https://www.ledauphine.com/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+      "date": "2026-11-08T17:15:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/232E3424-0959-4E03-AB98-6D659141C408/NW_listB/augmentation-des-salaires-quelles-sont-les-propositions-des-candidats-1794155694.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Présidentielle 2027. Primaire : Attal répond à Philippe, Wauquiez veut un candidat « avant Noël »",
+      "resume": "En désaccord avec Édouard Philippe, l'ancien Premier ministre Gabriel Attal estime que seule une primaire permettra de faire émerger un candidat crédible pour 2027. De son côté, Laurent Wauquiez (LR) réclame « un candidat unique » avant Noël pour la droite.",
+      "lien": "https://www.ledauphine.com/elections/2026/11/08/gabriel-attal-repond-a-edouard-philippe-et-juge-la-primaire-ineluctable",
+      "date": "2026-11-08T13:55:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/1E500A35-901C-422B-9BA7-E4C2C580189D/NW_listB/primaire-a-droite-et-au-centre-attal-repond-a-philippe-wauquiez-veut-un-candidat-avant-noel-1794144224.jpg"
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "États-Unis. Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure »",
+      "resume": "Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure ».",
+      "lien": "https://www.ledauphine.com/politique/2026/11/08/apres-la-defaite-aux-midterms-trump-juge-sa-politique-d-expulsions-d-immigres-trop-dure",
+      "date": "2026-11-08T21:14:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/3C5DFB29-6E9F-43CB-8526-2995D8E25E00/NW_listB/apres-la-defaite-aux-midterms-trump-juge-sa-politique-d-expulsions-d-immigres-trop-dure-1794172494.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Présidentielle 2027. Hausse du brut, baisse des charges... ce que proposent les candidats pour augmenter les salaires",
+      "resume": "Pour améliorer le pouvoir d’achat des actifs, les principaux prétendants à l’Élysée ont chacun leur méthode. À droite, on préfère jouer sur les cotisations pour augmenter le salaire net, tandis qu’à gauche, on privilégie une revalorisation du brut. Tour d’horizon des propositions.",
+      "lien": "https://www.dna.fr/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+      "date": "2026-11-08T17:15:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "États-Unis. Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure »",
+      "resume": "Après la défaite aux midterms, Trump juge sa politique d’expulsions d’immigrés « trop dure ».",
+      "lien": "https://www.estrepublicain.fr/politique/2026/11/08/apres-la-defaite-aux-midterms-trump-juge-sa-politique-d-expulsions-d-immigres-trop-dure",
+      "date": "2026-11-08T21:14:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "L'Est Républicain",
+      "titre": "Politique. Jean-Noël Barrot accuse Jean-Luc Mélenchon de s’être fait le « porte-parole du Kremlin »",
+      "resume": "Le candidat insoumis veut consulter les habitants du Donbass en cas de concessions territoriales. Glucksmann l’accuse de « valider la propagande de Poutine ».",
+      "lien": "https://www.estrepublicain.fr/politique/2026/11/08/jean-noel-barrot-accuse-jean-luc-melenchon-de-s-etre-fait-le-porte-parole-du-kremlin",
+      "date": "2026-11-08T19:22:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes",
+     "20 Minutes France",
+     "Courrier international",
+     "DNA",
+     "Euronews",
+     "France 24",
+     "L'Est Républicain",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "Sud Ouest"
+    ],
+    "sig": [
+     "2027",
+     "blanch",
+     "etats",
+     "parole",
+     "porte",
+     "presid",
+     "trump",
+     "unis"
+    ],
+    "score": 132.99935082194446,
+    "suite": null,
+    "pays": "États-Unis",
+    "requete": "United States city skyline",
+    "prioritaire": true,
+    "titre": "Trump propose à Dana White un poste de porte-parole",
+    "texte": "Donald Trump a proposé à Dana White, patron de l'UFC, de devenir porte-parole de la Maison-Blanche. Les deux hommes se connaissent depuis plusieurs années. Dana White a notamment soutenu Donald Trump lors de sa campagne.",
+    "texte_long": "Donald Trump a proposé à Dana White, patron de l'UFC, de devenir porte-parole de la Maison-Blanche. Les deux hommes se connaissent depuis plusieurs années. Dana White a notamment soutenu Donald Trump lors de sa campagne.",
+    "flash": "Donald Trump propose à Dana White, patron de l'UFC, le poste de porte-parole de la Maison-Blanche.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "USA"
+    ],
+    "personne": "Donald Trump",
+    "avec": "Dana White",
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Maisonblanche",
+     "#Politique"
+    ],
+    "liens": {
+     "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4261229-20261108-trump-veut-patron-mma-comme-porte-parole-maison-blanche?at_medium=display&at_campaign=149",
+     "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4261229-20261108-trump-veut-patron-mma-comme-porte-parole-maison-blanche?at_medium=display&at_campaign=149",
+     "Courrier international": "https://www.courrierinternational.com/article/politique-trump-propose-a-dana-white-l-influent-patron-de-l-ufc-de-devenir-le-porte-parole-de-la-maison-blanche_285684",
+     "DNA": "https://www.dna.fr/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+     "Euronews": "https://fr.euronews.com/2026/11/08/trump-propose-a-dana-white-patron-dune-federation-de-mma-de-devenir-porte-parole-de-la-mai",
+     "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261108-trump-veut-dana-white-patron-de-la-f%C3%A9d%C3%A9ration-de-mma-comme-porte-parole",
+     "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/08/apres-la-defaite-aux-midterms-trump-juge-sa-politique-d-expulsions-d-immigres-trop-dure",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/08/presidentielle-2027-jean-noel-barrot-accuse-jean-luc-melenchon-de-setre-fait-le-porte-parole-du-kremlin-apres-ses-propos-sur-le-donbass-13642810.php",
+     "Le Dauphiné": "https://www.ledauphine.com/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+     "Le Figaro France": "https://www.lefigaro.fr/international/etats-unis-face-a-donald-trump-les-democrates-en-ordre-de-bataille-pour-la-presidentielle-2028-20261108",
+     "Le Parisien": "https://www.leparisien.fr/international/etats-unis/etats-unis-donald-trump-reconnait-une-politique-dexpulsions-dimmigres-trop-dure-08-11-2026-QIKZAVYB6ZCWZM6IPBQ47EUNPY.php",
+     "Le Progrès": "https://www.leprogres.fr/economie/2026/11/08/baisse-des-prelevements-ou-hausse-du-brut-que-proposent-les-candidats-pour-augmenter-les-salaires",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/08/presidentielle-2027-vers-un-candidat-unique-avant-noel-les-partis-de-droite-et-du-centre-de-plus-en-plus-tentes-par-une-primaire-13642623.php",
+     "Nice-Matin": "https://www.nicematin.com/societe/politique/l-amerique-a-fait-un-gigantesque-pas-en-arriere-face-aux-enquetes-sur-la-corruption-promises-par-les-democrates-donald-trump-veut-rendre-coup-pour-coup-10756167",
+     "Sud Ouest": "https://www.sudouest.fr/etudiant/midterms-2026-aux-etats-unis-qu-est-ce-que-le-millennial-optimism-ravive-par-la-victoire-democrate-31445782.php"
+    },
+    "date_affichee": "8 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo France",
+      "titre": "Accident mortel dans l'Ain :le chauffeur mis en examen pour \"homicide involontaire\", annonce le parquet",
+      "resume": "Le chauffeur du car, âgé de 26 ans, avait déclaré s'être \"assoupi\" au volant. Une enfant de 7 ans et un jeune homme de 18 ans sont morts dans cet accident de ca.",
+      "lien": "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T18:27:07+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/ahpVGbJt_vC9XFkm66JEo6LCNH8/0x0:1024x576/432x243/filters:format(jpg)/2026/11/08/6af0c15085a10631137588.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Accident mortel dans l'Ain :le chauffeur mis en examen pour \"homicide involontaire\", annonce le parquet",
+      "resume": "Le chauffeur du car, âgé de 26 ans, avait déclaré s'être \"assoupi\" au volant. Une enfant de 7 ans et un jeune homme de 18 ans sont morts dans cet accident de ca.",
+      "lien": "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T18:27:07+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/ahpVGbJt_vC9XFkm66JEo6LCNH8/0x0:1024x576/432x243/filters:format(jpg)/2026/11/08/6af0c15085a10631137588.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Accident mortel dans l'Ain : quelles sont les obligations des conducteurs et des passagers à bord des autocars ?",
+      "resume": "Pour limiter les risques de somnolence, il est notamment interdit pour les chauffeurs de cars de conduire plus de quatre heures et demie sans pause.",
+      "lien": "https://www.franceinfo.fr/faits-divers/accident/accident-mortel-dans-l-ain-quelles-sont-les-obligations-des-conducteurs-et-des-passagers-a-bord-des-autocars_8272445.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T11:07:04+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/bbobLbfk0tpDkFMpJrgJsvzq8QE/0x208:4000x2458/432x243/filters:format(jpg)/2026/11/07/6aef590f9119e648169524.jpg"
+     },
+     {
+      "source": "France 3 Régions",
+      "titre": "Accident mortel de car dans l'Ain : le chauffeur mis en examen pour \"homicide involontaire\"",
+      "resume": "Le chauffeur du car accidenté vendredi à Lent, dans l'Ain, vient d'être mis en examen ce dimanche soir pour \"homicide involontaire\". Il avait expliqué s'être assoupi et a renversé son bus dans le fossé causant la mort d'une fillette de 7 ans et d'un étudiant de 18 ans.",
+      "lien": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/ain/bourg-bresse/accident-mortel-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-3446469.html",
+      "date": "2026-11-08T19:50:40+00:00",
+      "groupe": "franceinfo",
+      "image": "https://france3-regions.franceinfo.fr/image/mBF5x0TwI7WFt5yz9dvT33Ax4V4/930x620/filters:format(webp)/regions/2026/11/08/6af0cd1a2a0e0688262981.jpg"
+     },
+     {
+      "source": "Le Monde France",
+      "titre": "Accident de car dans l’Ain : le chauffeur mis en examen pour « homicide involontaire », annonce le parquet",
+      "resume": "L’accident, qui s’est produit vendredi matin à Lent, au sud de Bourg-en-Bresse, a fait deux morts, une fillette de 7 ans et un jeune homme de 18 ans.",
+      "lien": "https://www.lemonde.fr/societe/article/2026/11/08/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_6808464_3224.html",
+      "date": "2026-11-08T18:32:24+00:00",
+      "groupe": "Le Monde",
+      "image": "https://img.lemde.fr/2026/11/06/416/0/2491/1245/644/322/60/0/f68cf1e_ftp-1-dde4rw1bygvy-2026-11-06t101954z-1038616692-rc2aioacwe68-rtrmadp-3-france-accident.JPG"
+     },
+     {
+      "source": "Le Figaro France",
+      "titre": "Accident de car dans l’Ain : le chauffeur mis en examen pour «homicide involontaire»",
+      "resume": "Âgé de 26 ans, le chauffeur n’a aucun antécédent judiciaire. Une fillette de sept ans et un jeune majeur ont perdu la vie dans l’accident survenu vendredi 6 novembre.",
+      "lien": "https://www.lefigaro.fr/faits-divers/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-20261108",
+      "date": "2026-11-08T18:53:17+00:00",
+      "groupe": "Le Figaro",
+      "image": "https://i.f1g.fr/media/cms/orig/2026/11/08/b0863722d8dce6d7b8f36f80fe9275cf3ceabca3222be53280565473d28907b1.JPG"
+     },
+     {
+      "source": "20 Minutes France",
+      "titre": "Accident de car dans l’Ain : Le chauffeur mis en examen pour homicide involontaire",
+      "resume": "Le chauffeur se serait assoupi au volant. Il n’avait pas d’antécédent judiciaire",
+      "lien": "https://www.20minutes.fr/societe/4261344-20261108-accident-car-ain-chauffeur-mis-examen-homicide-involontaire?at_medium=display&at_campaign=149",
+      "date": "2026-11-08T18:52:22+00:00",
+      "groupe": "20 Minutes",
+      "image": "https://img.20mn.fr/FBnqJ6zBQHeKCe5hbuqHkCk/1200x768_une-ambulance-des-pompiers-en-intervention-son-giyrophare-en-action-siccolipatrick-7u6a3093-credit-siccoli-patrick-sipa-2609300957"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Accident de car dans l'Ain: le chauffeur mis en examen pour \"homicide involontaire\"",
+      "resume": "Le véhicule transportait 49 personnes dont 23 mineurs. Deux passagers, une fillette de sept ans et un jeune homme de 18 ans, sont morts.",
+      "lien": "https://www.bfmtv.com/police-justice/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire_AD-202611080370.html",
+      "date": "2026-11-08T18:24:46+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3shau88-ryeaifmlCdL-ePfiut8=/0x230:1200x905/800x0/images/Un-car-accidente-dans-l-Ain-le-6-novembre-2026-2379096.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "Accident de car dans l’Ain : le chauffeur mis en examen pour « homicide involontaire »",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/faits-divers/accident-de-car-dans-lain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-08-11-2026-5OJFY4IQ7BC3DPY5JUWGESKRJY.php",
+      "date": "2026-11-08T21:21:50.960531+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "actu.fr",
+      "titre": "Accident de car dans l’Ain : le chauffeur mis en examen pour homicide involontaire, l’homicide routier écarté",
+      "resume": "Après l’accident de car de Lent (Ain), le conducteur de 26 ans, qui dit s’être assoupi, est interdit de conduire. Le parquet de Bourg-en-Bresse a écarté l’homicide routier.",
+      "lien": "https://actu.fr/auvergne-rhone-alpes/lent_01211/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-l-homicide-routier-ecarte_65032055.html",
+      "date": "2026-11-08T18:51:38+00:00",
+      "groupe": "Ouest-France",
+      "image": "https://static.actu.fr/uploads/2026/11/accident-car-ain-1080x720-1-1024x557.jpg"
+     },
+     {
+      "source": "Nice-Matin",
+      "titre": "Après l’accident de car dans l’Ain qui a fait deux morts, le chauffeur mis en examen pour « homicide involontaire »",
+      "resume": "Le chauffeur du car dont la sortie de route a provoqué la mort d’une fillette de sept ans et d’un jeune homme, vendredi dans l’Ain, a été mis en examen dimanche pour « homicide involontaire » et confirmé s’être « endormi » au volant.",
+      "lien": "https://www.nicematin.com/faits-divers/apres-l-accident-de-car-dans-l-ain-qui-a-fait-deux-morts-le-chauffeur-mis-en-examen-pour-homicide-involontaire-10756332",
+      "date": "2026-11-08T19:06:45+00:00",
+      "groupe": "Nice-Matin",
+      "image": "https://assets.nicematin.com/articles/10/75/63/32/OG-10756332-1200-800-b4873e3_ftp-1-1axwvztaunwi-20261106lpl8254.jpg"
+     },
+     {
+      "source": "Sud Ouest",
+      "titre": "Accident de car dans l’Ain : le chauffeur mis en examen pour homicide involontaire",
+      "resume": "Le conducteur du bus impliqué dans l’accident mortel qui a coûté la vie à une fillette et un jeune majeur a été mis en examen",
+      "lien": "https://www.sudouest.fr/faits-divers/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-31449102.php",
+      "date": "2026-11-08T18:29:21+00:00",
+      "groupe": "Sud Ouest",
+      "image": "https://media.sudouest.fr/31449102/1200x-1/20261106111905-3857212.jpg"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Accident mortel d'un car dans l'Ain : le jeune chauffeur mis en examen pour \"homicide involontaire\"",
+      "resume": "Après la terrible sortie de route d'un car survenue vendredi dernier à Lent (Ain), le jeune conducteur a été mis en examen ce dimanche 8 novembre des chefs d’homicide involontaire par conducteur de véhicule terrestre...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/accident-mortel-dun-car-dans-lain-le-jeune-chauffeur-mis-en-examen-pour-homicide-involontaire-13642919.php",
+      "date": "2026-11-08T18:54:53+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af0c49426efdeb97907f7ec/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Accident de car dans l’Ain : le chauffeur a été mis en examen pour \"homicides involontaires\" après la mort d’une fille de 7 ans et d’un homme de 18 ans",
+      "resume": "Le chauffeur du car accidenté à Lent, dans l’Ain, a été mis en examen pour \"homicides involontaires\" après l’accident du 6 novembre 2026 qui a coûté la vie à une fillette de 7 ans et un jeune homme de 18 ans.",
+      "lien": "https://www.midilibre.fr/2026/11/08/accident-de-car-dans-lain-le-chauffeur-a-ete-mis-en-examen-pour-homicide-involontaire-apres-la-mort-dune-fille-de-7-ans-et-dun-homme-de-18-ans-13642900.php",
+      "date": "2026-11-08T20:13:01+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af0bee5d4c16bbc0f011f6d/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Le Progrès",
+      "titre": "Ain. Accident de car mortel : le chauffeur mis en examen pour « homicide involontaire »",
+      "resume": "Une fillette de 7 ans et un jeune homme de 18 ans sont morts dans l’accident du car Lyon/Bourg-en-Bresse le 6 novembre. Une enquête était initialement ouverte pour « homicide routier » mais le chauffeur du car a été mis en examen pour « homicide involontaire », aucune circonstance aggravante n’étant constatée.",
+      "lien": "https://www.leprogres.fr/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-mis-en-examen-pour-homicide-involontaire",
+      "date": "2026-11-08T18:46:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     },
+     {
+      "source": "Le Dauphiné",
+      "titre": "Ain. Accident de car mortel : le chauffeur mis en examen pour « homicide involontaire »",
+      "resume": "Initialement visé par une enquête pour « homicide routier », le chauffeur du car accidenté dans l'Ain a finalement été mis en examen pour « homicide involontaire ».",
+      "lien": "https://www.ledauphine.com/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-poursuivi-pour-homicide-involontaire-et-non-homicide-routier",
+      "date": "2026-11-08T13:40:00+00:00",
+      "groupe": "EBRA",
+      "image": "https://cdn-s-www.ledauphine.com/images/719DB652-A681-4F19-9281-1B17D7B937B9/NW_listB/accident-de-car-mortel-le-chauffeur-mis-en-examen-pour-homicide-involontaire-1794154706.jpg"
+     },
+     {
+      "source": "DNA",
+      "titre": "Ain. Accident de car mortel : le chauffeur mis en examen pour « homicide involontaire »",
+      "resume": "Initialement visé par une enquête pour « homicide routier », le chauffeur du car accidenté dans l'Ain a finalement été mis en examen pour « homicide involontaire ».",
+      "lien": "https://www.dna.fr/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-poursuivi-pour-homicide-involontaire-et-non-homicide-routier",
+      "date": "2026-11-08T13:40:00+00:00",
+      "groupe": "EBRA",
+      "image": ""
+     }
+    ],
+    "sources": [
+     "20 Minutes France",
+     "BFMTV",
+     "DNA",
+     "France 3 Régions",
+     "La Dépêche",
+     "Le Dauphiné",
+     "Le Figaro France",
+     "Le Monde France",
+     "Le Parisien",
+     "Le Progrès",
+     "Midi Libre",
+     "Nice-Matin",
+     "Sud Ouest",
+     "actu.fr",
+     "franceinfo France",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "accide",
+     "ain",
+     "chauff",
+     "examen",
+     "homici",
+     "involo",
+     "mis",
+     "mortel"
+    ],
+    "score": 114.99935060805555,
+    "suite": null,
+    "pays": "Monde",
+    "requete": "world map globe",
+    "prioritaire": false,
+    "titre": "Accident de car dans l'Ain : le chauffeur mis en examen",
+    "texte": "Dans l'Ain, le chauffeur d'un car accidenté vendredi à Lent a été mis en examen pour homicide involontaire. Il a expliqué s'être assoupi au volant. L'accident a fait deux morts, une fillette de sept ans et un jeune homme de 18 ans.",
+    "texte_long": "Dans l'Ain, le chauffeur d'un car accidenté vendredi à Lent a été mis en examen pour homicide involontaire. Il a expliqué s'être assoupi au volant. L'accident a fait deux morts, une fillette de sept ans et un jeune homme de 18 ans.",
+    "flash": "À Lent, dans l'Ain, le chauffeur d'un car accidenté vendredi est mis en examen pour homicide involontaire.",
+    "politique": false,
+    "_chiffre_brut": {
+     "nombre": "deux",
+     "legende": "morts dans l'accident"
+    },
+    "iso": [
+     "FRA"
+    ],
+    "personne": null,
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Accident",
+     "#Securiteroutiere"
+    ],
+    "liens": {
+     "20 Minutes France": "https://www.20minutes.fr/societe/4261344-20261108-accident-car-ain-chauffeur-mis-examen-homicide-involontaire?at_medium=display&at_campaign=149",
+     "BFMTV": "https://www.bfmtv.com/police-justice/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire_AD-202611080370.html",
+     "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-poursuivi-pour-homicide-involontaire-et-non-homicide-routier",
+     "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/ain/bourg-bresse/accident-mortel-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-3446469.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/08/accident-mortel-dun-car-dans-lain-le-jeune-chauffeur-mis-en-examen-pour-homicide-involontaire-13642919.php",
+     "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-poursuivi-pour-homicide-involontaire-et-non-homicide-routier",
+     "Le Figaro France": "https://www.lefigaro.fr/faits-divers/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-20261108",
+     "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/08/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_6808464_3224.html",
+     "Le Parisien": "https://www.leparisien.fr/faits-divers/accident-de-car-dans-lain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-08-11-2026-5OJFY4IQ7BC3DPY5JUWGESKRJY.php",
+     "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/08/accident-de-car-mortel-le-chauffeur-mis-en-examen-pour-homicide-involontaire",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/08/accident-de-car-dans-lain-le-chauffeur-a-ete-mis-en-examen-pour-homicide-involontaire-apres-la-mort-dune-fille-de-7-ans-et-dun-homme-de-18-ans-13642900.php",
+     "Nice-Matin": "https://www.nicematin.com/faits-divers/apres-l-accident-de-car-dans-l-ain-qui-a-fait-deux-morts-le-chauffeur-mis-en-examen-pour-homicide-involontaire-10756332",
+     "Sud Ouest": "https://www.sudouest.fr/faits-divers/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-31449102.php",
+     "actu.fr": "https://actu.fr/auvergne-rhone-alpes/lent_01211/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-l-homicide-routier-ecarte_65032055.html",
+     "franceinfo France": "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "8 novembre 2026"
+   },
+   {
+    "articles": [
+     {
+      "source": "franceinfo France",
+      "titre": "Le domicile d'un policier visé par un incendie dans le Gers",
+      "resume": "Une enquête a été ouverte après l’incendie du domicile d’un policier dans le Gers. Le ministre de l’Intérieur Laurent Nuñez évoque un \"acte criminel\" en raison de la profession du propriétaire. S’agit-il de représailles liées à des contrôles ciblant le narcotrafic ?",
+      "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/le-domicile-d-un-policier-vise-par-un-incendie-dans-le-gers_8273714.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T20:00:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/nwwjFhDu-V4wo9pZ2JD3DUUEvA8/0x0:1920x1080/432x243/filters:format(jpg)/2026/11/08/6af0d1d1df9d3986682679.jpg"
+     },
+     {
+      "source": "franceinfo faits divers",
+      "titre": "Le domicile d'un policier visé par un incendie dans le Gers",
+      "resume": "Une enquête a été ouverte après l’incendie du domicile d’un policier dans le Gers. Le ministre de l’Intérieur Laurent Nuñez évoque un \"acte criminel\" en raison de la profession du propriétaire. S’agit-il de représailles liées à des contrôles ciblant le narcotrafic ?",
+      "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/le-domicile-d-un-policier-vise-par-un-incendie-dans-le-gers_8273714.html#xtor=RSS-3-%5Bgeneral%5D",
+      "date": "2026-11-08T20:00:54+00:00",
+      "groupe": "franceinfo",
+      "image": "https://www.franceinfo.fr/pictures/nwwjFhDu-V4wo9pZ2JD3DUUEvA8/0x0:1920x1080/432x243/filters:format(jpg)/2026/11/08/6af0d1d1df9d3986682679.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Domicile d'un policier incendié dans le Gers: \"Les policiers ont légitimement peur\", observe Robert Ménard, maire DVD de Béziers",
+      "resume": "Le domicile d'un policier d'Auch, a été incendié samedi 7 novembre, selon le ministre de l'Intérieur Laurent Nuñez, pour qui cet agent a été visé en raison de sa profession. \"Tout laisse à penser que cet acte criminel intolérable a été commis en raison de la profession de ce policier\", a écrit M. Nuñez sur X samedi soir.",
+      "lien": "https://www.bfmtv.com/replay-emissions/100-mabrouk/video-domicile-d-un-policier-incendie-dans-le-gers-les-policiers-ont-legitimement-peur-observe-robert-menard-maire-dvd-de-beziers_VN-202611080378.html",
+      "date": "2026-11-08T18:32:44+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/ua2bKLiaTXU_GZIii-nJBTkT0CU=/0x0:1280x720/800x0/images/Domicile-d-un-policier-incendie-dans-le-Gers-Les-policiers-ont-legitimement-peur-observe-Robert-Menard-maire-DVD-de-Beziers-2380381.jpg"
+     },
+     {
+      "source": "BFMTV",
+      "titre": "Smic revalorisé: \"On ne dit pas la vérité aux Français\", dénonce Robert Ménard, maire DVD de Béziers",
+      "resume": "Le Smic va être revalorisé de façon anticipée au 1er décembre, au-delà de 1.500 nets par mois, a appris BFMTV ce dimanche.",
+      "lien": "https://www.bfmtv.com/replay-emissions/100-mabrouk/video-smic-revalorise-on-ne-dit-pas-la-verite-aux-francais-denonce-robert-menard-maire-dvd-de-beziers_VN-202611080379.html",
+      "date": "2026-11-08T18:31:01+00:00",
+      "groupe": "BFMTV",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/dIHQVcdaS0hovmDdvKp73qT-jc0=/0x0:1280x720/800x0/images/Smic-revalorise-On-ne-dit-pas-la-verite-aux-Francais-denonce-Robert-Menard-maire-DVD-de-Beziers-2380382.jpg"
+     },
+     {
+      "source": "Le Parisien",
+      "titre": "« Un acte criminel intolérable » : le domicile d’un policier incendié dans le Gers",
+      "resume": "",
+      "lien": "https://www.leparisien.fr/gers-32/un-acte-criminel-intolerable-le-domicile-dun-policier-incendie-dans-le-gers-08-11-2026-H3NI4XGF4NCXJAKHB5CYHNRSX4.php",
+      "date": "2026-11-08T21:21:50.961919+00:00",
+      "groupe": "Le Parisien",
+      "image": ""
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Le SMIC va bénéficier d'une revalorisation anticipée au 1er décembre pour dépasser le seuil des 1 500 euros nets par mois",
+      "resume": "Le SMIC devrait être revalorisé de façon anticipée au 1er décembre, au-delà de 1 500 euros nets par mois, annonce BFMTV. Une décision qui devrait être officialisée lundi 9 novembre à l'issue de la conférence sociale à...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/le-smic-va-beneficier-dune-revalorisation-anticipee-au-1er-decembre-pour-depasser-le-seuil-des-1-500-euros-nets-par-mois-13642898.php",
+      "date": "2026-11-08T19:28:43+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af0bcf6975316ff5c0f3d9c/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Incendie au domicile d'un policier à Auch : bidons de fioul retrouvés dans la maison, menaces sur le fonctionnaire... Ce que l'on sait sur l'affaire",
+      "resume": "Un policier d'Auch (Gers) a vu sa maison détruite par un incendie ce samedi 7 novembre. La piste criminelle est privilégiée par les enquêteurs du commissariat d'Auch et de la police judiciaire de Toulouse. Le membre...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/incendie-au-domicile-dun-policier-enquete-ouverte-menaces-ce-que-lon-sait-de-laffaire-13642592.php",
+      "date": "2026-11-08T16:03:11+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af086abf0e9b438bb0ec600/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Incendie au domicile d'un policier à Auch : \"extrême gravité\", \"limite inacceptable\"… Les événements suscitent l'indignation dans le Gers",
+      "resume": "Un incendie criminel a ravagé, samedi 7 novembre, la maison d'un policier à Auch, dans le Gers. Cet acte, qualifié \"d'intolérable\" par le ministre de l'Intérieur, suscite une vive indignation. Plusieurs élus locaux...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/incendie-au-domicile-dun-policier-a-auch-extreme-gravite-limite-inacceptable-les-evenements-suscitent-lindignation-dans-le-gers-13642526.php",
+      "date": "2026-11-08T18:18:31+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af09e37358dad0b390011de/standard/image.jpg?v=1"
+     },
+     {
+      "source": "La Dépêche",
+      "titre": "Incendie au domicile d'un policier à Auch : le ministre de l'Intérieur Laurent Nuñez dénonce un \"acte criminel intolérable\"",
+      "resume": "Un incendie criminel a ravagé, samedi 7 novembre, la maison d'un policier à Auch (Gers). Les occupants étaient absents et aucun blessé n'est à déplorer. Le ministre de l'Intérieur, Laurent Nuñez, a évoqué un acte lié...",
+      "lien": "https://www.ladepeche.fr/2026/11/08/incendie-au-domicile-dun-policier-le-ministre-de-linterieur-laurent-nunez-denonce-un-acte-criminel-intolerable-13642439.php",
+      "date": "2026-11-08T15:00:11+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.ladepeche.fr/api/v1/images/view/6af059f008378617460c7434/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Le gouvernement pourrait annoncer une revalorisation anticipée du Smic au 1er décembre : voici à quelle augmentation s’attendre",
+      "resume": "Le gouvernement prévoit une revalorisation anticipée du Smic à 1 500 euros nets dès le 1er décembre, soit une hausse de 30 euros. Un décret réformant le calcul des exonérations patronales, basé sur le salaire minimum...",
+      "lien": "https://www.midilibre.fr/2026/11/08/le-gouvernement-pourrait-annoncer-une-revalorisation-anticipee-du-smic-au-1er-decembre-voici-a-quelle-augmentation-sattendre-13642896.php",
+      "date": "2026-11-08T19:53:50+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af0d2e203bd7d1fc10fd9c1/standard/image.jpg?v=1"
+     },
+     {
+      "source": "Midi Libre",
+      "titre": "Il a été ciblé en raison de sa profession : la maison d’un policier entièrement ravagée par un incendie criminel en Occitanie",
+      "resume": "Dans le Gers, le domicile d’un policier a été incendié samedi 7 novembre 2026, a annoncé le ministre de l’Intérieur Laurent Nuñez. L’enquête, confiée à la police nationale et au service interdépartemental de la police...",
+      "lien": "https://www.midilibre.fr/2026/11/08/il-a-ete-cible-en-raison-de-sa-profession-la-maison-dun-policier-entierement-ravagee-par-un-incendie-criminel-en-occitanie-13642584.php",
+      "date": "2026-11-08T14:11:19+00:00",
+      "groupe": "La Dépêche",
+      "image": "https://images.midilibre.fr/api/v1/images/view/6af082654e9cc9bce10365a0/standard/image.jpg?v=1"
+     }
+    ],
+    "sources": [
+     "BFMTV",
+     "La Dépêche",
+     "Le Parisien",
+     "Midi Libre",
+     "franceinfo France",
+     "franceinfo faits divers"
+    ],
+    "sig": [
+     "auch",
+     "crimin",
+     "domici",
+     "gers",
+     "incend",
+     "polici",
+     "revalo",
+     "smic"
+    ],
+    "score": 87.9993509936111,
+    "suite": null,
+    "pays": "France",
+    "requete": "Paris France",
+    "prioritaire": true,
+    "titre": "Gers : le domicile d'un policier incendié, une enquête ouverte",
+    "texte": "Dans le Gers, le domicile d'un policier d'Auch a été incendié samedi. Selon le ministre de l'Intérieur, Laurent Nuñez, cet agent a été visé en raison de sa profession. Une enquête a été ouverte.",
+    "texte_long": "Dans le Gers, le domicile d'un policier d'Auch a été incendié samedi. Selon le ministre de l'Intérieur, Laurent Nuñez, cet agent a été visé en raison de sa profession. Une enquête a été ouverte.",
+    "flash": "Dans le Gers, le domicile d'un policier d'Auch est incendié samedi, une enquête est ouverte.",
+    "politique": true,
+    "_chiffre_brut": null,
+    "iso": [
+     "FRA"
+    ],
+    "personne": "Laurent Nuñez",
+    "avec": null,
+    "chiffre": null,
+    "lien": null,
+    "hashtags": [
+     "#Police",
+     "#Securite"
+    ],
+    "liens": {
+     "BFMTV": "https://www.bfmtv.com/replay-emissions/100-mabrouk/video-domicile-d-un-policier-incendie-dans-le-gers-les-policiers-ont-legitimement-peur-observe-robert-menard-maire-dvd-de-beziers_VN-202611080378.html",
+     "La Dépêche": "https://www.ladepeche.fr/2026/11/08/le-smic-va-beneficier-dune-revalorisation-anticipee-au-1er-decembre-pour-depasser-le-seuil-des-1-500-euros-nets-par-mois-13642898.php",
+     "Le Parisien": "https://www.leparisien.fr/gers-32/un-acte-criminel-intolerable-le-domicile-dun-policier-incendie-dans-le-gers-08-11-2026-H3NI4XGF4NCXJAKHB5CYHNRSX4.php",
+     "Midi Libre": "https://www.midilibre.fr/2026/11/08/le-gouvernement-pourrait-annoncer-une-revalorisation-anticipee-du-smic-au-1er-decembre-voici-a-quelle-augmentation-sattendre-13642896.php",
+     "franceinfo France": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/le-domicile-d-un-policier-vise-par-un-incendie-dans-le-gers_8273714.html#xtor=RSS-3-%5Bgeneral%5D",
+     "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/le-domicile-d-un-policier-vise-par-un-incendie-dans-le-gers_8273714.html#xtor=RSS-3-%5Bgeneral%5D"
+    },
+    "date_affichee": "8 novembre 2026"
+   }
+  ],
+  "mode": "anthropic",
+  "semaine": false,
+  "cree": "2026-11-08T21:22:12.508054+00:00",
+  "decision": null
+ }
+]
