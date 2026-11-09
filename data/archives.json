@@ -1,733 +1,5 @@
 [
  {
-  "date": "2026-10-18T17:07:15.133924+00:00",
-  "edition": "2026-10-18T18:54:11.521315+02:00",
-  "semaine": false,
-  "titre": "France : plus de 2 000 interpellations après violences",
-  "texte": "Au lendemain des manifestations du 17 octobre, le gouvernement fait face à de fortes critiques sur sa gestion du maintien de l'ordre. Plus de 2 000 personnes ont été interpellées en France, dont 855 à Paris, un chiffre record. À Marseille, la préfecture dénombre plus de 30 000 pilleurs et 118 policiers blessés.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 24",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Nice-Matin",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/police-justice/des-centaines-de-commerces-attaques-plus-de-30-000-pilleurs-denombres-a-marseille-lors-des-manifestations-du-17-octobre_AV-202610180297.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261018-17-octobre-au-lendemain-des-violences-le-gouvernement-sous-forte-pression",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/direct-manifestations-du-17-octobre-lincendie-de-la-mairie-de-limoges-est-circonscrit-855-personnes-interpellees-a-paris-13608154.php",
-   "Le Figaro France": "https://www.lefigaro.fr/marseille/violences-du-17-octobre-plus-de-30-000-pilleurs-a-marseille-selon-la-prefecture-de-police-20261018",
-   "Le Parisien": "https://www.leparisien.fr/politique/17-octobre-yael-braun-pivet-favorable-a-une-commission-denquete-parlementaire-sur-les-violences-et-la-strategie-de-maintien-de-lordre-18-10-2026-NLDDUPT2VNCT7BJAIB66SGHC7M.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/a-toulon-vingt-personnes-ont-ete-placees-en-garde-a-vue-dans-le-cadre-des-violences-urbaines-commises-lors-de-la-manifestation-du-17-octobre-10743132",
-   "franceinfo faits divers": "https://www.franceinfo.fr/economie/greve/laurent-nunez-etait-completement-depasse-les-appels-a-demission-du-ministre-de-l-interieur-se-multiplient-apres-les-violences-du-17-octobre_8242828.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 102.99916002833334,
-  "personne": null,
-  "sig": [
-   "000",
-   "commis",
-   "enquet",
-   "gouver",
-   "lendem",
-   "mainti",
-   "octobr",
-   "violen"
-  ],
-  "youtube": "ZNT2KTZCiJM"
- },
- {
-  "date": "2026-10-18T17:07:15.133938+00:00",
-  "edition": "2026-10-18T18:54:11.521315+02:00",
-  "semaine": false,
-  "titre": "IGPN ouvre enquêtes après blessés graves aux violences",
-  "texte": "Trois enquêtes ont été confiées à l'inspection générale de la police après les incidents du 17 octobre. Une manifestante mineure a perdu l'usage d'un œil à Mulhouse. À Saint-Étienne, un adolescent de 17 ans a eu la main arrachée par une grenade.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "Le Figaro France",
-   "Le Parisien",
-   "RFI",
-   "actu.fr",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "Le Figaro France": "https://www.lefigaro.fr/conjoncture/j-invite-chacun-a-venir-nous-aider-au-lendemain-des-saccages-du-17-octobre-le-maire-de-paris-appelle-les-habitants-a-nettoyer-les-rues-20261018",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/mobilisation-du-17-octobre-une-adolescente-de-17-ans-perd-un-oeil-a-mulhouse-ligpn-saisie-18-10-2026-O7DZPG42AFB45OEGQOCKGCZFNM.php",
-   "RFI": "https://www.rfi.fr/fr/france/20261018-direct-mobilisation-du-17-octobre-la-france-se-r%C3%A9veille-groggy-au-lendemain-d-une-journ%C3%A9e-de-col%C3%A8re-et-de-chaos",
-   "actu.fr": "https://actu.fr/faits-divers/une-adolescente-perd-un-oeil-a-mulhouse-apres-la-manifestation-du-17-octobre-une-enquete-de-l-igpn-ouverte_64941859.html",
-   "franceinfo France": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/une-enquete-ouverte-et-l-igpn-saisie-apres-la-plainte-d-un-manifestant-blesse-au-crane-a-paris-lors-de-la-mobilisation-du-17-octobre_8242621.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/a-mulhouse-l-igpn-saisie-apres-qu-une-manifestante-mineure-a-perdu-l-usage-d-un-il_8242996.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.99916008277778,
-  "personne": null,
-  "sig": [
-   "enquet",
-   "igpn",
-   "lendem",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "saisie"
-  ],
-  "youtube": "ZNT2KTZCiJM"
- },
- {
-  "date": "2026-10-18T17:07:15.133955+00:00",
-  "edition": "2026-10-18T18:54:11.521315+02:00",
-  "semaine": false,
-  "titre": "Ukraine frappe deux sites pétroliers russes près de SPb",
-  "texte": "Une attaque massive de drones ukrainiens a visé deux sites pétroliers dans le sud de Saint-Pétersbourg dans la nuit de samedi à dimanche. L'attaque a fait au moins un mort et cinq blessés. Moscou affirme avoir neutralisé plus de mille engins ukrainiens.",
-  "iso": [
-   "UKR",
-   "RUS"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4255320-20261018-guerre-ukraine-mort-deux-sites-petroliers-russes-incendies-apres-attaque-massive-drones?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4255320-20261018-guerre-ukraine-mort-deux-sites-petroliers-russes-incendies-apres-attaque-massive-drones?at_medium=display&at_campaign=149",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/direct-guerre-en-ukraine-vladimir-poutine-veut-deployer-des-missiles-balistiques-au-belarus-pour-attaquer-louest-de-lukraine-selon-volodymyr-zelensky-13607189.php",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-des-f-16-roumains-abattent-deux-drones-russes-geran-au-dessus-de-la-mer-noire-18-10-2026-4ZFYN34AFRDJ7DQJVM4WSECRSE.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/18/guerre-en-ukraine-ils-frappent-nous-frappons-entre-kiev-et-moscou-les-attaques-se-multiplient-sur-les-systemes-energetiques-13608465.php",
-   "Sud Ouest": "https://www.sudouest.fr/international/guerre-au-yemen-en-arabie-saoudite-riyad-vit-au-ralenti-face-aux-attaques-houthies-et-deplore-la-mort-de-deux-pilotes-31131413.php"
-  },
-  "score": 72.99916004055555,
-  "personne": null,
-  "sig": [
-   "attaqu",
-   "drones",
-   "guerre",
-   "incend",
-   "kiev",
-   "mort",
-   "russes",
-   "ukrain"
-  ],
-  "youtube": "ZNT2KTZCiJM"
- },
- {
-  "date": "2026-10-18T17:07:15.133960+00:00",
-  "edition": "2026-10-18T18:54:11.521315+02:00",
-  "semaine": false,
-  "titre": "Violences : environ 1 500 magasins touchés en France",
-  "texte": "Les dégâts causés par les violences en marge des manifestations du 17 octobre s'élèvent à plusieurs centaines de millions d'euros. Environ 1 500 commerces ont été touchés en France. Donald Trump a critiqué le bilan sur les réseaux sociaux.",
-  "iso": [
-   "FRA",
-   "USA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 24",
-   "La Dépêche",
-   "Le Parisien",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261018-17-octobre-la-france-face-aux-stigmates-de-violences-in%C3%A9dites",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/la-france-brule-donald-trump-sen-donne-a-coeur-joie-apres-les-manifestations-du-17-octobre-et-dezingue-la-politique-migratoire-13608514.php",
-   "Le Parisien": "https://www.leparisien.fr/politique/la-france-brule-apres-les-violences-du-17-octobre-donald-trump-critique-limmigration-18-10-2026-KWMAHIYGSVFB5PEYUALT4ATESY.php",
-   "franceinfo France": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/paris-apres-les-violences-du-17-octobre-manque-de-moyens-policiers-recuperation-politique-le-8h30-franceinfo-de-lamia-el-aaraje_8201186.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/paris-apres-les-violences-du-17-octobre-manque-de-moyens-policiers-recuperation-politique-le-8h30-franceinfo-de-lamia-el-aaraje_8201186.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 72.99915998,
-  "personne": null,
-  "sig": [
-   "8h30",
-   "aaraje",
-   "brule",
-   "donald",
-   "france",
-   "octobr",
-   "politi",
-   "violen"
-  ],
-  "youtube": "ZNT2KTZCiJM"
- },
- {
-  "date": "2026-10-18T21:58:39.891748+00:00",
-  "edition": "2026-10-18T23:54:55.201877+02:00",
-  "semaine": false,
-  "titre": "Macron promet fermeté contre les casseurs et transparence",
-  "texte": "Emmanuel Macron s'est adressé aux Français dimanche soir au lendemain des violences en marge des manifestations du 17 octobre. Le président a promis de se montrer intraitable face aux auteurs de pillages et d'affrontements, tout en appelant à distinguer les manifestants aux revendications légitimes des casseurs. Il a également annoncé que l'exécutif ferait preuve de transparence sur le maintien de l'ordre.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4255375-20261018-violences-17-octobre-macron-promet-fermete-contre-auteurs-transparence-dispositif-securitaire?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/politique/video-prise-de-parole-d-emmanuel-macron-ce-qu-il-a-fait-ce-soir-est-une-desinvolture-consternante-declare-sebastien-chenu-vice-president-du-rn_VN-202610180381.html",
-   "France 24": "https://www.france24.com/fr/france/20261018-col%C3%A8re-et-honte-transparence-attendue-ce-qu-il-faut-retenir-de-l-allocution-d-emmanuel-macron",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/18/apres-les-violences-du-17-octobre-le-gouvernement-somme-de-rendre-des-comptes",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/la-france-brule-donald-trump-sen-donne-a-coeur-joie-apres-les-manifestations-du-17-octobre-et-dezingue-la-politique-migratoire-13608514.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/18/apres-les-violences-du-17-octobre-le-gouvernement-somme-de-rendre-des-comptes",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/totalement-depasse-artisan-du-chaos-de-lfi-au-rn-la-classe-politique-etrille-l-allocution-d-emmanuel-macron-jugee-pas-a-la-hauteur-de-la-crise-20261018",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/marseille-le-maire-benoit-payan-trouve-farfelu-le-chiffre-de-30-000-pilleurs-avance-par-la-prefecture-de-police-18-10-2026-A7GHYDDKPVE2LJGORVESGXTGSQ.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/18/apres-les-violences-du-17-octobre-le-gouvernement-somme-de-rendre-des-comptes",
-   "RFI": "https://www.rfi.fr/fr/france/20261018-honte-et-col%C3%A8re-apr%C3%A8s-les-violences-du-17-octobre-en-france-macron-promet-fermet%C3%A9-et-dialogue",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/violences-en-france-emmanuel-macron-denonce-les-casseurs-29389458.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/haute-vienne/limoges/mobilisation-du-17-octobre-c-est-tellement-a-pleurer-apres-l-incendie-de-l-hotel-de-ville-limoges-entre-colere-et-tristesse-31135265.php",
-   "actu.fr": "https://actu.fr/politique/lamentable-indigne-parler-pour-ne-rien-dire-la-droite-et-la-gauche-descendent-le-discours-d-emmanuel-macron_64942141.html"
-  },
-  "score": 142.99922483944442,
-  "personne": "Emmanuel Macron",
-  "sig": [
-   "allocu",
-   "colere",
-   "declar",
-   "emmanu",
-   "france",
-   "macron",
-   "octobr",
-   "violen"
-  ],
-  "youtube": "jJy4FgSUq48"
- },
- {
-  "date": "2026-10-18T21:58:39.891761+00:00",
-  "edition": "2026-10-18T23:54:55.201877+02:00",
-  "semaine": false,
-  "titre": "Pillages massifs et dégâts dans plusieurs villes françaises",
-  "texte": "À Paris, Lyon et Marseille, les violences du 17 octobre ont laissé des traces profondes. Vitrines fracassées, commerces pillés et bâtiments incendiés marquent le paysage urbain. À Marseille, environ 500 commerces ont été vandalisés dans le centre-ville. Les habitants et agents municipaux s'activent pour nettoyer les rues.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "DNA",
-   "Euronews",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "DNA": "https://www.dna.fr/actualite/2026/10/18/les-manifestants-ne-veulent-pas-que-les-affrontements-effacent-leur-mobilisation",
-   "Euronews": "https://fr.euronews.com/video/2026/10/18/france-paris-lyon-et-marseille-pansent-leurs-plaies-apres-les-violentes-manifestations",
-   "France 24": "https://www.france24.com/fr/france/20261018-pillages-affrontements-gaz-lacrymog%C3%A8nes-de-nouvelles-violences-%C3%A0-paris-lyon-et-marseille",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/18/mobilisation-du-17-octobre-1-200-interpellations-l-heure-du-bilan-apres-une-nuit-encore-sous-haute-tension",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/direct-manifestations-du-17-octobre-lincendie-de-la-mairie-de-limoges-est-circonscrit-855-personnes-interpellees-a-paris-13608154.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/18/mobilisation-du-17-octobre-1-200-interpellations-l-heure-du-bilan-apres-une-nuit-encore-sous-haute-tension",
-   "Le Figaro France": "https://www.lefigaro.fr/marseille/c-etait-la-guerre-a-marseille-les-commercants-ecoeures-par-les-pillages-et-les-violences-du-17-octobre-20261018",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/les-champs-elysees-veulent-etre-proteges-la-colere-des-commercants-de-lavenue-parisienne-apres-les-violences-du-17-octobre-18-10-2026-K7KPSW7SHNBC3DJT7DPU4CUZ7M.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/18/mobilisation-du-17-octobre-1-200-interpellations-l-heure-du-bilan-apres-une-nuit-encore-sous-haute-tension",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/18/en-direct-mobilisation-du-17-octobre-1-200-interpellations-un-adolescent-mutile-des-mairies-saccagees-suivez-les-reactions-et-les-derniers-bilans-13607678.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/politique/violences-en-manifestations-emmanuel-macron-repond-les-oppositions-fustigent-l-allocution-10743363",
-   "Ouest-France": "https://www.ouest-france.fr/politique/emmanuel-macron/violences-du-17-octobre-debordements-reponses-judiciaires-ce-quil-faut-retenir-de-lallocution-demmanuel-macron-c176b488-caef-11f1-b8bc-a46147b584ed?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/societe/mobilisation-du-17-octobre-de-nouvelles-tensions-et-des-pillages-a-paris-et-lyon-apres-une-journee-de-chaos-31136046.php",
-   "actu.fr": "https://actu.fr/ile-de-france/paris_75056/apres-le-chaos-du-samedi-17-octobre-a-paris-le-week-end-se-termine-par-des-pillages-dans-la-capitale_64942204.html"
-  },
-  "score": 122.99922490416667,
-  "personne": null,
-  "sig": [
-   "allocu",
-   "commer",
-   "emmanu",
-   "macron",
-   "manife",
-   "octobr",
-   "pillag",
-   "violen"
-  ],
-  "youtube": "jJy4FgSUq48"
- },
- {
-  "date": "2026-10-18T21:58:39.891766+00:00",
-  "edition": "2026-10-18T23:54:55.201877+02:00",
-  "semaine": false,
-  "titre": "Zelensky échange avec émissaires de Trump, renseignements partagés",
-  "texte": "Le président ukrainien Volodymyr Zelensky s'est entretenu avec des représentants de Donald Trump. Ces discussions interviennent dans un contexte d'intensification des frappes russes et ukrainiennes contre les infrastructures énergétiques respectives. Zelensky a annoncé la reprise du partage de renseignements avec Washington.",
-  "iso": [
-   "UKR",
-   "USA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BFMTV",
-   "Le Parisien",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4255362-20261018-guerre-ukraine-nouvelles-frappes-croisees-zelensky-reconnaissant-reprise-partage-renseignement?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4255362-20261018-guerre-ukraine-nouvelles-frappes-croisees-zelensky-reconnaissant-reprise-partage-renseignement?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/guerre-en-ukraine-donald-trump-accuse-volodymyr-zelensky-de-ne-pas-vouloir-mettre-fin-au-conflit-avec-la-russie_AD-202610180392.html",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/ukraine-donald-trump-accuse-volodymyr-zelensky-de-ne-pas-vouloir-mettre-fin-a-la-guerre-avec-la-russie-18-10-2026-TPWGG2TEOVGZ3AZ3PNFZ52SJAU.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/volodymyr-zelensky-s-entretient-avec-des-emissaires-de-donald-trump-pour-apaiser-les-tensions-avec-washington-et-annonce-la-reprise-du-partage-de-renseignements_8243200.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 72.9992246825,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "donald",
-   "guerre",
-   "partag",
-   "rensei",
-   "repris",
-   "trump",
-   "ukrain",
-   "zelens"
-  ],
-  "youtube": "jJy4FgSUq48"
- },
- {
-  "date": "2026-10-18T21:58:39.891771+00:00",
-  "edition": "2026-10-18T23:54:55.201877+02:00",
-  "semaine": false,
-  "titre": "Drones massifs sur Saint-Pétersbourg, incendie spectaculaire",
-  "texte": "Une attaque ukrainienne à la drones a visé Saint-Pétersbourg dans la nuit de samedi à dimanche. Un terminal pétrolier et un centre logistique ont été touchés, provoquant un spectaculaire incendie. La Russie affirme avoir abattu au moins 126 drones.",
-  "iso": [
-   "RUS",
-   "UKR"
-  ],
-  "pays": "Russie",
-  "sources": [
-   "DNA",
-   "Euronews",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Progrès"
-  ],
-  "liens": {
-   "DNA": "https://www.dna.fr/defense-guerre-conflit/2026/10/18/nouvelles-frappes-sur-des-cibles-energetiques-spectaculaire-incendie-a-saint-petersbourg",
-   "Euronews": "https://fr.euronews.com/video/2026/10/18/russie-dimmenses-flammes-et-fumees-au-dessus-de-saint-petersbourg-apres-des-frappes-de-dro",
-   "L'Est Républicain": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/10/18/nouvelles-frappes-sur-des-cibles-energetiques-spectaculaire-incendie-a-saint-petersbourg",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/18/guerre-en-ukraine-un-mort-des-incendies-et-145-drones-abattus-lors-dune-attaque-massive-pres-de-saint-petersbourg-13608739.php",
-   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/10/18/nouvelles-frappes-sur-des-cibles-energetiques-spectaculaire-incendie-a-saint-petersbourg"
-  },
-  "score": 59.57990751194444,
-  "personne": null,
-  "sig": [
-   "cibles",
-   "energe",
-   "frappe",
-   "guerre",
-   "incend",
-   "peters",
-   "saint",
-   "ukrain"
-  ],
-  "youtube": "jJy4FgSUq48"
- },
- {
-  "date": "2026-10-19T06:57:37.324085+00:00",
-  "edition": "2026-10-19T08:51:04.283626+02:00",
-  "semaine": false,
-  "titre": "Macron refuse la démission de Nuñez mais reconnaît des défaillances",
-  "texte": "Emmanuel Macron a refusé lundi la démission de son ministre de l'Intérieur Laurent Nuñez, malgré les violences du week-end en France. Le président a reconnu des défaillances d'anticipation et de renseignement dans la gestion des manifestations.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Ouest-France",
-   "RFI",
-   "RTS",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/politique/4255557-20261019-violences-urbaines-macron-refuse-demission-laurent-nunez-pointe-defaillances-renseignement?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/direct-violences-du-17-octobre-au-moins-117-interpellations-a-paris-ce-dimanche-apres-de-nouveaux-incidents-laurent-nunez-attendu-a-marseille-au-lendemain-de-l-allocution-d-emmanuel-macron_LN-202610190067.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-la-mairie-de-limoges-detruite-par-les-flammes-comment-des-membres-de-lultragauche-ont-incendie-ce-batiment-classe-au-13609497.php",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/violences-du-17-octobre-laurent-nunez-a-presente-dimanche-sa-demission-a-emmanuel-macron-qui-l-a-refusee-20261019",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/les-champs-elysees-veulent-etre-proteges-la-colere-des-commercants-de-lavenue-parisienne-apres-les-violences-du-17-octobre-18-10-2026-K7KPSW7SHNBC3DJT7DPU4CUZ7M.php",
-   "Ouest-France": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-les-violences-du-17-octobre-et-la-mairie-de-limoges-en-partie-detruite-par-un-incendie-32f42980-cb0c-11f1-ad87-e24a1a2986e9?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RFI": "https://www.rfi.fr/fr/france/20261019-mobilisation-en-france-emmanuel-macron-reconna%C3%AEt-d%C3%A9faillances-mais-refuse-la-d%C3%A9mission-du-ministre-de-l-int%C3%A9rieur",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/violences-en-france-macron-refuse-la-demission-de-laurent-nunez-29389818.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/haute-vienne/limoges/mobilisation-du-17-octobre-c-est-tellement-a-pleurer-apres-l-incendie-de-l-hotel-de-ville-limoges-entre-colere-et-tristesse-31135265.php"
-  },
-  "score": 122.99930484111111,
-  "personne": "Emmanuel Macron",
-  "sig": [
-   "emmanu",
-   "lauren",
-   "limoge",
-   "macron",
-   "nunez",
-   "octobr",
-   "refuse",
-   "violen"
-  ],
-  "youtube": "C5PByzot6jA",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-19T06:57:37.324105+00:00",
-  "edition": "2026-10-19T08:51:04.283626+02:00",
-  "semaine": false,
-  "titre": "Paris, Lyon, Marseille: violences et 350 interpellations à Paris",
-  "texte": "Dimanche, de nouveaux affrontements et pillages ont éclaté à Paris, Lyon et Marseille. À Paris, 350 personnes ont été interpellées dimanche et dans la nuit. Le ministre de l'Intérieur Laurent Nuñez a admis une perte de contrôle de la police dans certaines villes.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4255405-20261019-violences-urbaines-slogans-antipoliciers-vitrines-brisees-paris-fait-encore-face-pillages?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/police-justice/video-violences-et-pillages-350-personnes-interpellees-a-paris-dimanche-et-cette-nuit_VN-202610190189.html",
-   "DNA": "https://www.dna.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "France 24": "https://www.france24.com/fr/france/20261018-pillages-affrontements-gaz-lacrymog%C3%A8nes-de-nouvelles-violences-%C3%A0-paris-lyon-et-marseille",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-laurent-nunez-a-presente-sa-demission-a-emmanuel-macron-le-president-la-refusee-13609454.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/violences-a-paris-350-interpellations-a-paris-dimanche-et-dans-la-nuit-des-deferements-attendus-ce-lundi-19-10-2026-FBOFK535CNFHHDZR57C23BFEW4.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/19/violences-du-17-octobre-on-se-sent-impuissant-on-a-eu-tres-peur-apres-les-pillages-en-centre-ville-des-commercants-a-montpellier-en-etat-de-choc-13608790.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/justice/83-personnes-interpellees-dont-38-mineurs-detentions-provisoires-gardes-a-vue-prolongees-le-procureur-de-la-republique-dresse-le-bilan-du-week-end-de-violences-et-de-chaos-a-nice-10743343",
-   "Sud Ouest": "https://www.sudouest.fr/politique/emmanuel-macron/malgre-la-crise-et-les-critiques-en-france-emmanuel-macron-a-entame-ce-lundi-une-tournee-dans-le-golfe-31139347.php",
-   "actu.fr": "https://actu.fr/occitanie/toulouse_31555/violences-du-17-octobre-au-moins-15-personnes-interpellees-seront-jugees-des-ce-lundi-au-tribunal-de-toulouse_64942336.html"
-  },
-  "score": 122.99930441416667,
-  "personne": null,
-  "sig": [
-   "interp",
-   "lauren",
-   "macron",
-   "octobr",
-   "paris",
-   "pillag",
-   "social",
-   "violen"
-  ],
-  "youtube": "C5PByzot6jA",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-19T06:57:37.324114+00:00",
-  "edition": "2026-10-19T08:51:04.283626+02:00",
-  "semaine": false,
-  "titre": "Rubio appelle Zelensky à se concentrer sur la fin de la guerre",
-  "texte": "Le secrétaire d'État américain Marco Rubio a appelé lundi le président ukrainien Volodymyr Zelensky à se concentrer pour mettre fin à la guerre avec la Russie. Rubio a affirmé qu'il n'y avait eu aucune pause dans le partage de renseignements avec Kiev.",
-  "iso": [
-   "UKR",
-   "RUS",
-   "USA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "France 24",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4255411-20261019-guerre-ukraine-penchant-plus-plus-vers-poutine-trump-emporte-encore-contre-zelensky?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4255411-20261019-guerre-ukraine-penchant-plus-plus-vers-poutine-trump-emporte-encore-contre-zelensky?at_medium=display&at_campaign=149",
-   "France 24": "https://www.france24.com/fr/europe/20261019-en-direct-ukraine-rubio-appelle-zelensky-se-concentrer-mettre-fin-guerre",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/guerre-en-ukraine-donald-trump-sen-prend-a-nouveau-a-volodymyr-zelensky-il-ne-veut-pas-y-mettre-fin-au-conflit-et-na-probablement-jamais-voulu-13609468.php",
-   "Le Figaro France": "https://www.lefigaro.fr/international/guerre-en-ukraine-marco-rubio-dement-toute-pause-dans-le-partage-de-renseignements-avec-kiev-20261019",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-la-russie-veut-envoyer-des-missiles-balistiques-depuis-la-bielorussie-selon-zelensky-19-10-2026-IQODBSD2YRFORL3AXT4B7LQFR4.php",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-donald-trump-attaque-de-nouveau-volodymyr-zelensky-qu-il-accuse-de-ne-pas-vouloir-mettre-fin-au-conflit-avec-la-russie-31138568.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-secretaire-d-etat-americain-marco-rubio-affirme-qu-il-n-y-a-eu-aucune-pause-dans-le-partage-de-renseignements-avec-kiev_8243575.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 102.99930463722222,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "donald",
-   "fin",
-   "guerre",
-   "mettre",
-   "trump",
-   "ukrain",
-   "volody",
-   "zelens"
-  ],
-  "youtube": "C5PByzot6jA",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-19T06:57:37.324120+00:00",
-  "edition": "2026-10-19T08:51:04.283626+02:00",
-  "semaine": false,
-  "titre": "Rima Hassan jugée pour apologie du terrorisme à Paris",
-  "texte": "L'eurodéputée insoumise Rima Hassan comparaît lundi et mardi devant le tribunal correctionnel de Paris pour apologie du terrorisme. Elle est poursuivie pour avoir publié sur X une citation attribuée à un combattant palestinien japonais, Kozo Okamoto, auteur d'un attentat.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Progrès",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/19/l-eurodeputee-lfi-rima-hassan-jugee-pour-apologie-du-terrorisme-ce-lundi",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/rima-hassan-jugee-pour-apologie-de-terrorisme-4-questions-sur-le-proces-de-la-deputee-europeenne-lfi-qui-avait-cite-lauteur-dun-attentat-a-tel-aviv-13608601.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/19/l-eurodeputee-lfi-rima-hassan-jugee-pour-apologie-du-terrorisme-ce-lundi",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/19/l-eurodeputee-lfi-rima-hassan-jugee-pour-apologie-du-terrorisme-ce-lundi",
-   "RFI": "https://www.rfi.fr/fr/france/20261019-france-le-proc%C3%A8s-pour-apologie-du-terrorisme-de-l-eurod%C3%A9put%C3%A9e-insoumise-rima-hassan-s-ouvre-%C3%A0-paris",
-   "Sud Ouest": "https://www.sudouest.fr/justice/rima-hassan-l-eurodeputee-insoumise-est-jugee-ce-lundi-et-mardi-a-paris-pour-apologie-du-terrorisme-31138709.php"
-  },
-  "score": 71.53004234166667,
-  "personne": "Rima Hassan",
-  "sig": [
-   "apolog",
-   "eurode",
-   "hassan",
-   "jugee",
-   "lfi",
-   "paris",
-   "rima",
-   "terror"
-  ],
-  "youtube": "C5PByzot6jA",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-19T13:07:46.334074+00:00",
-  "edition": "2026-10-19T14:51:07.548133+02:00",
-  "semaine": false,
-  "titre": "Lecornu annonce des couvre-feux après violences du 17 octobre",
-  "texte": "Le Premier ministre a demandé aux préfets d'instaurer des couvre-feux partiels et localisés à partir de lundi soir. Ces mesures visent à protéger les commerces après un week-end de manifestations marqué par des violences en plusieurs villes de France.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "RFI",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/economie/entreprises/info-bfmtv-bercy-reunit-ce-lundi-soir-les-vinted-leboncoin-et-autre-cdiscount-pour-empecher-la-revente-de-produits-pilles-lors-du-week-end_AV-202610190511.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261019-crise-politique-que-se-passe-t-il-en-france",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/19/gilets-jaunes-un-acte-ii-annonce-pour-les-samedis-24-et-31-octobre",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/un-acte-ii-des-samedi-prochain-on-va-suivre-cette-poussee-la-coordination-des-gilets-jaunes-du-17-octobre-appelle-a-un-nouveau-rassemblement-13609704.php",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/couvre-feux-localises-etat-d-urgence-ce-qu-il-faut-retenir-des-annonces-de-sebastien-lecornu-pour-repondre-aux-violences-du-17-octobre-20261019",
-   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/10/19/des-couvre-feux-partiels-et-localises-annonces-par-sebastien-lecornu-pour-lundi-soir-apres-un-week-end-marque-par-des-scenes-de-chaos-dans-plusieurs-villes_6797524_823448.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/violences-urbaines-sebastien-lecornu-annonce-le-lancement-dun-fonds-de-soutien-specifique-pour-les-3-000-commerces-touches-19-10-2026-BG2ZT4VFNREP5DXZWKHYZ62KLI.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/19/gilets-jaunes-un-acte-ii-annonce-pour-les-samedis-24-et-31-octobre",
-   "RFI": "https://www.rfi.fr/fr/france/20261019-direct-mobilisation-sociale-en-france-l-acc%C3%A8s-au-mus%C3%A9e-du-louvre-bloqu%C3%A9-par-des-manifestants",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/affrontements-violents-batiments-incendies-les-violences-des-manifestations-du-17-octobre-vues-et-vecues-depuis-l-etranger-31139822.php",
-   "actu.fr": "https://actu.fr/occitanie/toulouse_31555/nous-ne-les-laisserons-pas-faire-scande-jean-luc-moudenc-lors-d-un-rassemblement-contre-les-violences-a-toulouse_64943445.html"
-  },
-  "score": 132.99902764277778,
-  "personne": "Sébastien Lecornu",
-  "sig": [
-   "appell",
-   "carbur",
-   "couvre",
-   "lecorn",
-   "octobr",
-   "rassem",
-   "sebast",
-   "violen"
-  ],
-  "youtube": null,
-  "yt_attente": "1072a3"
- },
- {
-  "date": "2026-10-19T13:07:46.334093+00:00",
-  "edition": "2026-10-19T14:51:07.548133+02:00",
-  "semaine": false,
-  "titre": "Hôtel de ville de Limoges ravagé par incendie",
-  "texte": "L'hôtel de ville du dix-neuvième siècle de Limoges a été gravement endommagé par un incendie durant les manifestations du week-end. Des images aériennes montrent l'ampleur des dégâts à ce bâtiment historique.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "DNA",
-   "Euronews",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "DNA": "https://www.dna.fr/social/2026/10/19/manifestations-du-17-octobre-apres-un-week-end-de-violences-les-maires-et-elus-locaux-manifestent-a-leur-tour-ce-lundi",
-   "Euronews": "https://fr.euronews.com/video/2026/10/19/des-images-de-drone-montrent-lampleur-des-degats-a-lhotel-de-ville-de-limoges-apres-les-vi",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-laurent-nunez-a-presente-sa-demission-a-emmanuel-macron-le-president-la-refusee-13609454.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/violence-du-17-octobre-a-paris-des-rassemblements-organises-devant-lhotel-de-ville-et-les-mairies-darrondissement-pour-denoncer-les-pillages-19-10-2026-ZU2WZQT5CREUJEWFS7F2J4TXOM.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/19/violences-du-17-octobre-cellule-de-crise-a-matignon-et-rassemblements-devant-les-mairies-l-executif-sous-pression",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/19/cherche-produit-du-17-octobre-des-pilleurs-revendent-sur-vinted-ce-quils-ont-vole-en-marge-des-manifestations-13609524.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/violences-du-17-octobre-emmanuel-macron-a-refuse-la-demission-de-laurent-nuez-nouvelle-soiree-de-tensions-dans-le-centre-de-nice-suivez-notre-direct-10743462",
-   "Ouest-France": "https://www.ouest-france.fr/tourisme/violences-du-17-octobre-des-touristes-effrayes-et-choques-par-les-degradations-ce-week-end-a-paris-41d44982-cbaf-11f1-af3e-be5615cfd679?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/pyrenees-atlantiques/orthez/orthez-un-rassemblement-contre-les-violences-et-un-appel-au-dialogue-31143286.php",
-   "actu.fr": "https://actu.fr/societe/en-images-violences-du-17-octobre-des-centaines-de-personnes-rassemblees-devant-les-mairies-du-cotentin_64944773.html"
-  },
-  "score": 102.99902744,
-  "personne": null,
-  "sig": [
-   "couvre",
-   "feux",
-   "lecorn",
-   "locali",
-   "octobr",
-   "pillag",
-   "sebast",
-   "violen"
-  ],
-  "youtube": null,
-  "yt_attente": "1072a3"
- },
- {
-  "date": "2026-10-19T13:07:46.334101+00:00",
-  "edition": "2026-10-19T14:51:07.548133+02:00",
-  "semaine": false,
-  "titre": "Lecornu annonce une aide pour au moins 3 000 commerces endommagés",
-  "texte": "Le Premier ministre a déclaré que trois mille commerces au minimum avaient subi des dégradations ou des pillages lors du week-end. Il a annoncé qu'ils pourraient bénéficier de chômage partiel dès mardi et d'un fonds de soutien spécifique.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 24",
-   "La Dépêche",
-   "Le Parisien",
-   "Ouest-France",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261019-17-octobre-le-premier-ministre-annonce-d%C3%A9clencher-le-ch%C3%B4mage-partiel-pour-les-commer%C3%A7ants-touch%C3%A9s",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-jai-envie-de-descendre-et-de-me-friter-avec-ces-petits-cons-la-colere-demmanuel-petit-contre-les-casseurs-les-pilleurs-et-les-13609737.php",
-   "Le Parisien": "https://www.leparisien.fr/societe/violences-en-france-le-premier-ministre-a-demande-de-declencher-un-certain-nombre-de-couvre-feux-19-10-2026-WMQ74BODLNG57CWN5MVSA4PFTE.php",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/violences-du-17-octobre-couvre-feu-chomage-partiel-ce-quil-faut-retenir-des-annonces-de-sebastien-lecornu-5a700f38-cbac-11f1-b8bc-a46147b584ed?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/politique/sebastien-lecornu/violences-urbaines-sebastien-lecornu-annonce-des-couvre-feux-localises-et-des-aides-pour-les-au-moins-3-000-commerces-touches-31143121.php"
-  },
-  "score": 82.99902756611111,
-  "personne": "Sébastien Lecornu",
-  "sig": [
-   "casseu",
-   "chomag",
-   "commer",
-   "couvre",
-   "declen",
-   "octobr",
-   "touche",
-   "violen"
-  ],
-  "youtube": null,
-  "yt_attente": "1072a3"
- },
- {
-  "date": "2026-10-19T13:07:46.334107+00:00",
-  "edition": "2026-10-19T14:51:07.548133+02:00",
-  "semaine": false,
-  "titre": "Violences du 17 octobre relayées mondialement",
-  "texte": "Les images des violences en France font la une de médias asiatiques, du Japon à la Corée du Sud. Donald Trump et JD Vance les instrumentalisent dans leur campagne. L'Allemagne a appelé ses ressortissants à la prudence en France.",
-  "iso": [
-   "FRA",
-   "USA",
-   "DEU",
-   "JPN",
-   "KOR"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "BFMTV",
-   "France 24",
-   "Le Figaro",
-   "franceinfo",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/allemagne/4255608-20261019-violences-17-octobre-allemagne-appelle-ressortissants-prudence-france?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/violences-du-17-octobre-le-pays-basque-se-mobilise-apres-l-appel-de-l-association-des-maires-de-france_AN-202610190512.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261019-17-octobre-les-violences-en-marge-des-manifestations-font-le-lit-du-rassemblement-national",
-   "Le Figaro": "https://www.lefigaro.fr/international/la-grandeur-de-la-france-ne-demande-qu-a-renaitre-apres-les-violences-du-17-octobre-le-president-du-salvador-nayib-bukele-propose-d-appliquer-sa-methode-securitaire-20261019",
-   "franceinfo": "https://www.franceinfo.fr/replay-radio/bientot-chez-vous/les-images-des-violences-du-17-octobre-en-france-font-le-tour-des-medias-asiatiques_8222728.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/un-manifestant-est-mort-apres-un-malaise-en-marge-du-cortege-parisien-le-17-octobre_8243704.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.59874513416668,
-  "personne": null,
-  "sig": [
-   "allema",
-   "appel",
-   "font",
-   "france",
-   "manife",
-   "marge",
-   "octobr",
-   "violen"
-  ],
-  "youtube": null,
-  "yt_attente": "1072a3"
- },
- {
   "date": "2026-10-19T18:58:35.438197+00:00",
   "edition": "2026-10-19T20:51:06.785015+02:00",
   "semaine": false,
@@ -14380,5 +13652,274 @@
   ],
   "youtube": "hxa3SP5RC4s",
   "yt_attente": null
+ },
+ {
+  "date": "2026-11-09T18:06:44.417181+00:00",
+  "edition": "2026-11-09T18:01:06.784666+01:00",
+  "semaine": false,
+  "titre": "Nvidia ouvre une enquête interne sur son patron Jensen Huang",
+  "texte": "Aux États-Unis, le géant des puces Nvidia ouvre une enquête interne visant son directeur général. Jensen Huang a reconnu une relation avec une femme soupçonnée par Washington d'espionnage au profit de Pékin.",
+  "iso": [
+   "USA",
+   "CHN"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "BFMTV",
+   "Courrier international",
+   "DNA",
+   "Euronews",
+   "La Dépêche",
+   "Le Monde",
+   "Le Parisien",
+   "Midi Libre",
+   "RFI",
+   "RTS",
+   "Radio-Canada",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/chine/4261554-20261109-nvidia-quoi-histoire-espionnage-chinois-ia-americaine-fond-adultere?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/chine/4261554-20261109-nvidia-quoi-histoire-espionnage-chinois-ia-americaine-fond-adultere?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-le-club-nvidia-pourrait-il-se-passer-de-jensen-huang-09-11_VN-202611090718.html",
+   "Courrier international": "https://www.courrierinternational.com/article/geopolitique-entre-batifolage-et-espionnage-le-patron-de-nvidia-se-retrouve-dans-de-beaux-draps_285981",
+   "DNA": "https://www.dna.fr/science-et-technologie/2026/11/09/le-patron-de-nvidia-a-t-il-trompe-sa-femme-avec-une-espionne-chinoise-jensen-huang-vise-par-une-enquete",
+   "Euronews": "https://fr.euronews.com/2026/11/09/nvidia-ouvre-une-enquete-sur-son-patron-apres-des-soupcons-despionnage-chinois",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/09/piege-par-pekin-la-maitresse-du-pdg-du-geant-americain-nvidia-qui-vaut-4-500-milliards-de-dollars-pourrait-etre-une-espionne-chinoise-13643666.php",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/09/operation-d-espionnage-visant-le-patron-de-nvidia-la-chine-dement-toute-tentative-de-pieger-jensen-huang_6808638_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/high-tech/qui-est-alice-huang-soupconnee-davoir-entretenu-une-relation-avec-le-pdg-de-nvidia-et-accusee-despionnage-pour-pekin-09-11-2026-WKQBRKZRRJAYZKIHB5JH55GYJQ.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/09/jai-ete-infidele-a-ma-femme-le-patron-de-nvidia-au-coeur-dune-polemique-sa-maitresse-est-soupconnee-detre-une-espionne-chinoise-13643570.php",
+   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261109-nvidia-ouverture-d-une-enqu%C3%AAte-interne-apr%C3%A8s-des-accusations-d-espionnage-visant-son-patron",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/nvidia-ouvre-une-enquete-sur-son-patron-vise-par-un-espionnage-29410090.html?rts_source=rss_t",
+   "Radio-Canada": "https://ici.radio-canada.ca/info/videos/1-10805163/nvidia-infidelite-et-soupcons-espionnage-chinois-avis-pierre-yves-mcsween",
+   "franceinfo": "https://www.franceinfo.fr/internet/le-patron-de-nvidia-piege-par-une-espionne-chinoise_8274608.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 152.9993164986111,
+  "personne": "Jensen Huang",
+  "sig": [
+   "americ",
+   "chinoi",
+   "espion",
+   "huang",
+   "jensen",
+   "nvidia",
+   "patron",
+   "soupco"
+  ],
+  "youtube": null,
+  "yt_attente": "a6835a"
+ },
+ {
+  "date": "2026-11-09T18:06:44.417218+00:00",
+  "edition": "2026-11-09T18:01:06.784666+01:00",
+  "semaine": false,
+  "titre": "Trump reconnaît une politique d'expulsions trop dure",
+  "texte": "À Washington, Donald Trump juge « trop dure » la politique d'expulsions d'immigrés de son administration. Il s'exprime après la défaite de son camp aux élections de mi-mandat.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "Courrier international",
+   "Euronews",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Figaro",
+   "Le Monde",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RFI",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/4261547-20261109-etats-unis-apres-midterms-trump-reconnait-politique-expulsions-immigres-trop-dure?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-dana-white-de-l-ufc-a-la-maison-blanche-juste-une-blague-assure-trump_285970",
+   "Euronews": "https://fr.euronews.com/2026/11/09/donald-trump-affirme-que-les-etats-unis-ont-gagne-la-guerre-contre-liran",
+   "L'Est Républicain": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/11/09/kiev-recadre-sechement-melenchon-sur-la-question-deja-resolue-du-donbass",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/09/je-merite-un-2020-pour-avoir-ferme-la-frontiere-mais-donald-trump-concede-une-erreur-dans-sa-politique-migratoire-13644101.php",
+   "Le Figaro": "https://www.lefigaro.fr/international/nous-avons-expulse-des-personnes-qui-occupaient-de-bons-emplois-donald-trump-emet-quelques-regrets-mais-ecarte-tout-mea-culpa-apres-les-midterms-20261109",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/09/donald-trump-estime-maintenant-que-la-politique-americaine-d-expulsions-d-immigres-a-ete-trop-dure_6808473_3211.html",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-lafd-veut-organiser-un-sommet-entre-lallemagne-la-russie-et-les-etats-unis-sans-lukraine-09-11-2026-TMO4KXY4KRAVFFBFAD4CV6JNIE.php",
+   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/11/09/kiev-recadre-sechement-melenchon-sur-la-question-deja-resolue-du-donbass",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/09/guerre-en-ukraine-prives-delectricite-ils-utilisent-un-generateur-au-un-sous-sol-trois-morts-dont-un-enfant-intoxiquees-au-monoxyde-de-carbone-13643547.php",
+   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261109-%C3%A9tats-unis-dans-une-interview-donald-trump-reconna%C3%AEt-une-politique-d-immigration-trop-s%C3%A9v%C3%A8re",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-washington-moscou-et-kiev-negociant-a-abu-dhabi-29410406.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/le-patron-d-une-federation-de-mma-porte-parole-de-washington-donald-trump-ironise_8274584.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 142.9993163975,
+  "personne": "Donald Trump",
+  "sig": [
+   "donald",
+   "etats",
+   "expuls",
+   "guerre",
+   "politi",
+   "trump",
+   "ukrain",
+   "unis"
+  ],
+  "youtube": null,
+  "yt_attente": "a6835a"
+ },
+ {
+  "date": "2026-11-09T18:06:44.417226+00:00",
+  "edition": "2026-11-09T18:01:06.784666+01:00",
+  "semaine": false,
+  "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027",
+  "texte": "En France, le judoka Teddy Riner annonce sa candidature à l'élection présidentielle de 2027. Il l'a fait lundi dans une vidéo postée sur ses réseaux sociaux.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "RTS"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4261743-20261109-mal-voir-discuter-poutine-trump-pourquoi-candidature-teddy-riner-laisse-sceptique?at_medium=display&at_campaign=149",
+   "BFMTV": "https://rmcsport.bfmtv.com/judo/famille-entraineurs-politiques-qui-sont-les-proches-de-teddy-riner-candidat-a-la-presidentielle_AV-202611090720.html",
+   "DNA": "https://www.dna.fr/elections/2026/11/09/le-champion-olympique-de-judo-teddy-riner-annonce-etre-candidat",
+   "L'Est Républicain": "https://www.estrepublicain.fr/elections/2026/11/09/le-champion-olympique-de-judo-teddy-riner-annonce-etre-candidat",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/09/presidentielle-2027-pourquoi-teddy-riner-quintuple-champion-olympique-veut-desormais-conquerir-lelysee-13643879.php",
+   "Le Dauphiné": "https://www.ledauphine.com/elections/2026/11/09/le-champion-olympique-de-judo-teddy-riner-annonce-etre-candidat",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/ca-bouscule-un-peu-la-campagne-candidat-a-la-presidentielle-teddy-riner-peut-il-transformer-sa-popularite-en-bulletins-de-vote-20261109",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-teddy-riner-candidat-a-lelection-a-combien-est-il-dans-les-sondages-09-11-2026-BXTJ2W3UARDEJIE6AKTSB6Z3VI.php",
+   "Le Progrès": "https://www.leprogres.fr/elections/2026/11/09/le-champion-olympique-de-judo-teddy-riner-annonce-etre-candidat",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/09/sondage-presidentielle-2027-qui-est-le-favori-du-scrutin-selon-les-francais-voici-ce-quils-pronostiquent-en-fonction-de-leur-bord-politique-13643826.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/la-france-qu-on-veut-le-champion-de-judo-teddy-riner-se-lance-dans-la-course-a-la-presidentielle-et-annonce-sa-candidature-10756953",
+   "RFI": "https://www.rfi.fr/fr/france/20261109-france-le-champion-olympique-de-judo-teddy-riner-annonce-sa-candidature-%C3%A0-l-%C3%A9lection-pr%C3%A9sidentielle",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/presidentielle-2027-teddy-riner-annonce-sa-candidature-29410550.html?rts_source=rss_t"
+  },
+  "score": 137.99931672138888,
+  "personne": null,
+  "sig": [
+   "2027",
+   "candid",
+   "champi",
+   "electi",
+   "france",
+   "presid",
+   "riner",
+   "teddy"
+  ],
+  "youtube": null,
+  "yt_attente": "a6835a"
+ },
+ {
+  "date": "2026-11-09T18:06:44.417233+00:00",
+  "edition": "2026-11-09T18:01:06.784666+01:00",
+  "semaine": false,
+  "titre": "Cracovie : l'auteur de la tuerie est mort de ses blessures",
+  "texte": "En Pologne, l'auteur de la fusillade de Cracovie, qui a fait au moins six morts, est mort de ses blessures.",
+  "iso": [
+   "POL"
+  ],
+  "pays": "Pologne",
+  "sources": [
+   "20 Minutes",
+   "DNA",
+   "La Dépêche",
+   "Le Figaro",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "RFI",
+   "RTS",
+   "Sud Ouest",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/pologne/4261541-20261109-fusillade-pologne-atteint-tirs-policiers-auteur-tuerie-fait-six-morts-decede?at_medium=display&at_campaign=149",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/09/tuerie-de-cracovie-l-assaillant-michal-o-un-jeune-polonais-de-24-ans-est-mort",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/09/fusillade-en-pologne-le-suspect-de-la-tuerie-de-cracovie-qui-a-fait-six-morts-est-decede-a-lhopital-annonce-la-police-13643526.php",
+   "Le Figaro": "https://www.lefigaro.fr/international/marginal-aucune-ideologie-particuliere-fascine-par-la-violence-qui-etait-michal-oksinski-l-auteur-de-la-fusillade-meurtriere-de-cracovie-20261109",
+   "Le Monde France": "https://www.lemonde.fr/international/video/2026/11/09/attentat-a-cracovie-les-polonais-rendent-hommage-aux-victimes_6808665_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/de-veritables-heros-entre-la-vie-et-la-mort-ces-deux-policiers-ont-neutralise-lauteur-de-la-fusillade-de-cracovie-09-11-2026-OBHMYRDRXVAUBFZ6AYWZGGT3Q4.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/09/fusillade-en-pologne-le-suspect-de-lattaque-qui-a-fait-six-morts-et-quinze-blesses-est-mort-13643525.php",
+   "RFI": "https://www.rfi.fr/fr/europe/20261109-pologne-apr%C3%A8s-l-attentat-de-cracovie-l-ia-favorise-la-d%C3%A9sinformation",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/cracovie-l-auteur-de-la-tuerie-succombe-a-ses-blessures-29410131.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/justice/terrorisme/attentat-a-cracovie-neuf-morts-quinze-blesses-deux-jours-de-deuil-national-un-tireur-aux-opinions-tres-radicales-ce-que-l-on-sait-de-la-tuerie-en-pologne-ce-lundi-31457761.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/l-auteur-de-l-attentat-en-pologne-qui-a-tue-au-moins-six-personnes-a-cracovie-est-mort_8274182.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  "score": 132.99931622583335,
+  "personne": null,
+  "sig": [
+   "attent",
+   "auteur",
+   "cracov",
+   "fusill",
+   "mort",
+   "morts",
+   "pologn",
+   "six"
+  ],
+  "youtube": null,
+  "yt_attente": "a6835a"
+ },
+ {
+  "date": "2026-11-09T18:06:44.417239+00:00",
+  "edition": "2026-11-09T18:01:06.784666+01:00",
+  "semaine": false,
+  "titre": "Cyberattaque de frigos : Paris soupçonne l'Iran",
+  "texte": "En France, le parquet de Paris ouvre une information judiciaire, soupçonnant l'Iran dans une cyberattaque contre plus de 700 supermarchés.",
+  "iso": [
+   "FRA",
+   "IRN"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Ouest-France",
+   "actu.fr"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/international/moyen-orient/iran/video-cyberattaques-contre-des-frigos-la-responsabilite-de-cette-attaque-revient-au-corps-des-gardiens-de-la-revolution-de-la-republique-islamique-d-iran-accuse-jean-noel-barrot_VN-202611090707.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/09/cyberattaque-des-frigos-de-supermarches-une-enquete-ouverte-l-iran-suspecte",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/09/cyberattaques-contre-des-frigos-de-supermarches-en-france-les-services-francais-creusent-la-piste-iranienne-des-gardiens-de-la-revolution-13644381.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/09/cyberattaque-des-frigos-de-supermarches-une-enquete-ouverte-l-iran-suspecte",
+   "Le Monde France": "https://www.lemonde.fr/pixels/article/2026/11/09/cyberattaque-des-refrigerateurs-de-supermarche-la-justice-ouvre-une-enquete-contre-un-groupe-iranien-jean-noel-barrot-souhaite-des-sanctions-a-l-echelle-europeenne_6808673_4408996.html",
+   "Le Parisien": "https://www.leparisien.fr/international/iran/cyberattaque-contre-des-frigos-en-europe-les-enqueteurs-francais-soupconnent-liran-une-information-judiciaire-ouverte-09-11-2026-S7O2C2425RFVJEA7JP6OGMYU7A.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/09/cyberattaque-des-frigos-de-supermarches-une-enquete-ouverte-l-iran-suspecte",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/09/refrigerateurs-de-supermarches-pirates-une-enquete-ouverte-liran-dans-le-viseur-de-la-justice-apres-les-cyberattaques-doctobre-13644390.php",
+   "Ouest-France": "https://www.ouest-france.fr/societe/cyberattaque/cyberattaques-visant-des-frigos-de-supermarches-en-france-des-juges-enquetent-sur-un-groupe-iranien-6a6338ba-dc56-11f1-81f5-8e32b0872d76?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "actu.fr": "https://actu.fr/economie/cyberattaques-de-frigos-des-milliers-d-aliments-ont-du-etre-jetes-et-c-est-peut-etre-la-faute-de-l-iran_65036096.html"
+  },
+  "score": 107.99931618027779,
+  "personne": null,
+  "sig": [
+   "barrot",
+   "cybera",
+   "enquet",
+   "frigos",
+   "iran",
+   "pointe",
+   "respon",
+   "superm"
+  ],
+  "youtube": null,
+  "yt_attente": "a6835a"
  }
 ]

@@ -1,286 +1,6 @@
 [
  {
   "sig": [
-   "2027",
-   "candid",
-   "electi",
-   "jean",
-   "lfi",
-   "luc",
-   "melenc",
-   "presid"
-  ],
-  "date": "2026-11-07T16:51:25.949677+00:00",
-  "titre": "Mélenchon présente au Bourget son programme pour 2027"
- },
- {
-  "sig": [
-   "000",
-   "250",
-   "france",
-   "inters",
-   "manife",
-   "mobili",
-   "novemb",
-   "paris"
-  ],
-  "date": "2026-11-07T16:51:25.949707+00:00",
-  "titre": "Colère sociale : 46 000 manifestants à Paris selon la préfecture"
- },
- {
-  "sig": [
-   "blesse",
-   "cracov",
-   "dizain",
-   "fusill",
-   "interp",
-   "morts",
-   "pologn",
-   "tireur"
-  ],
-  "date": "2026-11-07T16:51:25.949710+00:00",
-  "titre": "Une fusillade fait au moins cinq morts à Cracovie"
- },
- {
-  "sig": [
-   "energe",
-   "frappe",
-   "guerre",
-   "kiev",
-   "noctur",
-   "region",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-07T16:51:25.949713+00:00",
-  "titre": "Des frappes russes massives visent l'énergie en Ukraine"
- },
- {
-  "sig": [
-   "alerte",
-   "avions",
-   "bombe",
-   "enquet",
-   "etrang",
-   "eventu",
-   "lien",
-   "puissa"
-  ],
-  "date": "2026-11-07T16:51:25.949714+00:00",
-  "titre": "Le parquet de Paris enquête sur les fausses alertes à la bombe"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "electi",
-   "jean",
-   "lfi",
-   "luc",
-   "melenc",
-   "presid"
-  ],
-  "date": "2026-11-07T17:15:03.244879+00:00",
-  "titre": "Mélenchon présente au Bourget son programme pour 2027"
- },
- {
-  "sig": [
-   "000",
-   "250",
-   "france",
-   "inters",
-   "manife",
-   "mobili",
-   "novemb",
-   "paris"
-  ],
-  "date": "2026-11-07T17:15:03.244894+00:00",
-  "titre": "Colère sociale : 46 000 manifestants à Paris selon la préfecture"
- },
- {
-  "sig": [
-   "blesse",
-   "cracov",
-   "dizain",
-   "fusill",
-   "interp",
-   "morts",
-   "pologn",
-   "tireur"
-  ],
-  "date": "2026-11-07T17:15:03.244896+00:00",
-  "titre": "Une fusillade fait au moins cinq morts à Cracovie"
- },
- {
-  "sig": [
-   "energe",
-   "frappe",
-   "guerre",
-   "kiev",
-   "noctur",
-   "region",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-07T17:15:03.244897+00:00",
-  "titre": "Des frappes russes massives visent l'énergie en Ukraine"
- },
- {
-  "sig": [
-   "alerte",
-   "avions",
-   "bombe",
-   "enquet",
-   "etrang",
-   "eventu",
-   "lien",
-   "puissa"
-  ],
-  "date": "2026-11-07T17:15:03.244899+00:00",
-  "titre": "Le parquet de Paris enquête sur les fausses alertes à la bombe"
- },
- {
-  "sig": [
-   "2027",
-   "bourge",
-   "jean",
-   "luc",
-   "meetin",
-   "melenc",
-   "presid",
-   "progra"
-  ],
-  "date": "2026-11-07T21:06:05.838037+00:00",
-  "titre": "Mélenchon présente son programme devant 20 000 personnes"
- },
- {
-  "sig": [
-   "000",
-   "acte",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "person",
-   "social"
-  ],
-  "date": "2026-11-07T21:06:05.838046+00:00",
-  "titre": "Des dizaines de milliers de manifestants contre la vie chère"
- },
- {
-  "sig": [
-   "benyam",
-   "charge",
-   "eisenk",
-   "former",
-   "gadi",
-   "gouver",
-   "israel",
-   "netany"
-  ],
-  "date": "2026-11-07T21:06:05.838050+00:00",
-  "titre": "Israël : Gadi Eisenkot chargé de former un gouvernement"
- },
- {
-  "sig": [
-   "blanch",
-   "dana",
-   "donald",
-   "maison",
-   "parole",
-   "patron",
-   "porte",
-   "trump"
-  ],
-  "date": "2026-11-07T21:06:05.838052+00:00",
-  "titre": "Trump nomme Stephen Miller chef de cabinet de la Maison Blanche"
- },
- {
-  "sig": [
-   "abri",
-   "deplac",
-   "diluvi",
-   "dizain",
-   "gaza",
-   "millie",
-   "pluies",
-   "priven"
-  ],
-  "date": "2026-11-07T21:06:05.838055+00:00",
-  "titre": "À Gaza, des pluies privent d'abri des dizaines de milliers de déplacés"
- },
- {
-  "sig": [
-   "2027",
-   "bourge",
-   "jean",
-   "luc",
-   "meetin",
-   "melenc",
-   "presid",
-   "progra"
-  ],
-  "date": "2026-11-07T21:12:47.119280+00:00",
-  "titre": "Mélenchon présente son programme devant 20 000 personnes"
- },
- {
-  "sig": [
-   "000",
-   "acte",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "person",
-   "social"
-  ],
-  "date": "2026-11-07T21:12:47.119291+00:00",
-  "titre": "Des dizaines de milliers de manifestants contre la vie chère"
- },
- {
-  "sig": [
-   "benyam",
-   "charge",
-   "eisenk",
-   "former",
-   "gadi",
-   "gouver",
-   "israel",
-   "netany"
-  ],
-  "date": "2026-11-07T21:12:47.119295+00:00",
-  "titre": "Israël : Gadi Eisenkot chargé de former un gouvernement"
- },
- {
-  "sig": [
-   "blanch",
-   "dana",
-   "donald",
-   "maison",
-   "parole",
-   "patron",
-   "porte",
-   "trump"
-  ],
-  "date": "2026-11-07T21:12:47.119297+00:00",
-  "titre": "Trump nomme Stephen Miller chef de cabinet de la Maison Blanche"
- },
- {
-  "sig": [
-   "abri",
-   "deplac",
-   "diluvi",
-   "dizain",
-   "gaza",
-   "millie",
-   "pluies",
-   "priven"
-  ],
-  "date": "2026-11-07T21:12:47.119300+00:00",
-  "titre": "À Gaza, des pluies privent d'abri des dizaines de milliers de déplacés"
- },
- {
-  "sig": [
    "cracov",
    "droite",
    "extrem",
@@ -488,5 +208,145 @@
   ],
   "date": "2026-11-08T21:22:12.521096+00:00",
   "titre": "Gers : le domicile d'un policier incendié, une enquête ouverte"
+ },
+ {
+  "sig": [
+   "americ",
+   "chinoi",
+   "espion",
+   "huang",
+   "jensen",
+   "nvidia",
+   "patron",
+   "soupco"
+  ],
+  "date": "2026-11-09T17:01:28.575685+00:00",
+  "titre": "Nvidia ouvre une enquête interne sur son patron Jensen Huang"
+ },
+ {
+  "sig": [
+   "donald",
+   "etats",
+   "expuls",
+   "guerre",
+   "politi",
+   "trump",
+   "ukrain",
+   "unis"
+  ],
+  "date": "2026-11-09T17:01:28.575702+00:00",
+  "titre": "Trump reconnaît une politique d'expulsions trop dure"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "champi",
+   "electi",
+   "france",
+   "presid",
+   "riner",
+   "teddy"
+  ],
+  "date": "2026-11-09T17:01:28.575706+00:00",
+  "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027"
+ },
+ {
+  "sig": [
+   "attent",
+   "auteur",
+   "cracov",
+   "fusill",
+   "mort",
+   "morts",
+   "pologn",
+   "six"
+  ],
+  "date": "2026-11-09T17:01:28.575708+00:00",
+  "titre": "Cracovie : l'auteur de la tuerie est mort de ses blessures"
+ },
+ {
+  "sig": [
+   "barrot",
+   "cybera",
+   "enquet",
+   "frigos",
+   "iran",
+   "pointe",
+   "respon",
+   "superm"
+  ],
+  "date": "2026-11-09T17:01:28.575711+00:00",
+  "titre": "Cyberattaque de frigos : Paris soupçonne l'Iran"
+ },
+ {
+  "sig": [
+   "americ",
+   "chinoi",
+   "espion",
+   "huang",
+   "jensen",
+   "nvidia",
+   "patron",
+   "soupco"
+  ],
+  "date": "2026-11-09T17:06:37.220260+00:00",
+  "titre": "Nvidia ouvre une enquête interne sur son patron Jensen Huang"
+ },
+ {
+  "sig": [
+   "donald",
+   "etats",
+   "expuls",
+   "guerre",
+   "politi",
+   "trump",
+   "ukrain",
+   "unis"
+  ],
+  "date": "2026-11-09T17:06:37.220273+00:00",
+  "titre": "Trump reconnaît une politique d'expulsions trop dure"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "champi",
+   "electi",
+   "france",
+   "presid",
+   "riner",
+   "teddy"
+  ],
+  "date": "2026-11-09T17:06:37.220276+00:00",
+  "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027"
+ },
+ {
+  "sig": [
+   "attent",
+   "auteur",
+   "cracov",
+   "fusill",
+   "mort",
+   "morts",
+   "pologn",
+   "six"
+  ],
+  "date": "2026-11-09T17:06:37.220278+00:00",
+  "titre": "Cracovie : l'auteur de la tuerie est mort de ses blessures"
+ },
+ {
+  "sig": [
+   "barrot",
+   "cybera",
+   "enquet",
+   "frigos",
+   "iran",
+   "pointe",
+   "respon",
+   "superm"
+  ],
+  "date": "2026-11-09T17:06:37.220281+00:00",
+  "titre": "Cyberattaque de frigos : Paris soupçonne l'Iran"
  }
 ]
