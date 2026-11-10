@@ -10,6 +10,11 @@ edition:
   nb_developpes: 3        # les N premieres en 2-3 phrases, les suivantes en flash d'une phrase
   fenetre_heures: 24      # une seule edition par jour : on lit les articles des dernieres 24 h
   fenetre_matin_heures: 24  # (edition lancee a la main le matin : meme fenetre)
+  # Editions PLANIFIEES (cron-job.org, secours GitHub) : une seule par jour, et seulement dans ce creneau
+  # (heure de Paris). Les secours GitHub partent parfois en retard : hors creneau, ils ne font rien.
+  # Le bouton « Run workflow » (lancement a la main) n'est jamais bloque.
+  delai_doublon_heures: 20
+  creneau_planifie: [17, 21]
   min_sources: 2          # une info n'est retenue que si X medias differents en parlent
   oubli_heures: 36        # une info deja publiee n'est pas reprise pendant X heures...
   suites: true            # ...sauf comme « suite » s'il y a du nouveau (au moins min_sources medias)

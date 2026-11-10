@@ -29,7 +29,8 @@ F_VUS = RACINE / "data" / "vus.json"
 F_ARCHIVES = RACINE / "data" / "archives.json"
 F_STATS = RACINE / "data" / "stats.json"
 F_DERNIERE = RACINE / "data" / "derniere_edition.json"
-DELAI_DOUBLON_H = 2   # une edition planifiee est sautee si une autre a deja tourne dans ces 2 h (15h -> 18h : 3 h)
+DELAI_DOUBLON_H = 20  # par defaut : une edition planifiee est sautee si une autre a deja tourne dans ces 20 h
+CRENEAU_PLANIFIE = (17, 21)  # par defaut : une edition planifiee ne tourne qu'entre 17h et 21h (heure de Paris)
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
@@ -376,15 +377,19 @@ class Edition:
         self.etape = "livraison"
         print("6/6 Livraison")
         tags = hashtags.construire(sujets, pays.nom_iso, int(cfg.get("publication", {}).get("hashtags", 10)))
-        # 1re ligne = phrase d'accroche (lue par la recherche TikTok), puis les hashtags, puis le detail
+        # Legende TikTok au format liste (06/11/2026) : « Les X infos a retenir ce soir : » + 1er titre,
+        # les titres numerotes, l'appel a enregistrer, puis les hashtags ; sources et credits tout en bas.
+        # Les titres restent ceux de la redaction (style agence) : rien de racoleur n'est ajoute.
         def phrase(t):
             t = t.strip().rstrip(".")
             return t if t.endswith(("…", "!", "?")) else t + "."
-        lignes = [phrase(sujets[0]["titre"])]
-        if len(sujets) > 1:
-            lignes.append("Aussi dans ce flash : " + phrase(" · ".join(s["titre"].strip().rstrip(".") for s in sujets[1:4])))
-        lignes += [" ".join(tags), "", "Au programme :"]
-        lignes += [f"• {s['titre']}" for s in sujets] + ["", "Sources :"]
+        moment = "ce soir" if self.ici.hour >= 15 else "aujourd'hui"
+        n = len(sujets)
+        entete = f"L'info à retenir {moment} : " if n == 1 else f"Les {n} infos à retenir {moment} : "
+        lignes = [entete + phrase(sujets[0]["titre"]), ""]
+        if n > 1:
+            lignes += [f"{i}. {phrase(s['titre'])}" for i, s in enumerate(sujets, 1)] + [""]
+        lignes += ["Enregistre pour suivre la suite demain", " ".join(tags), "", "Sources :"]
         for s in sujets:
             for src in s["sources"]:
                 lien = (s.get("liens") or {}).get(src) or ""
@@ -599,13 +604,22 @@ def memoriser_vus(sujets: list) -> None:
     ecrire_json(F_VUS, vus)
 
 
-def deja_faite() -> bool:
+def deja_faite(heures: float = DELAI_DOUBLON_H) -> bool:
     """Vrai si une edition a deja tourne recemment (pour que le creneau de rattrapage ne refasse rien)."""
     try:
         d = datetime.fromisoformat(json.loads(F_DERNIERE.read_text(encoding="utf-8"))["date"])
-        return datetime.now(timezone.utc) - d < timedelta(hours=DELAI_DOUBLON_H)
+        return datetime.now(timezone.utc) - d < timedelta(hours=heures)
     except Exception:
         return False
+
+
+def hors_creneau(cfg: dict) -> str:
+    """Message si l'heure de Paris est hors du creneau des editions planifiees, sinon chaine vide.
+    Les secours GitHub partent parfois avec des heures de retard (ou attendent la fin de l'edition de 18h) :
+    sans ce garde-fou, ils lancaient une edition en pleine nuit."""
+    debut, fin = cfg["edition"].get("creneau_planifie", CRENEAU_PLANIFIE)
+    h = datetime.now(ZoneInfo(cfg["chaine"]["fuseau"])).hour
+    return "" if debut <= h < fin else f"il est {h}h, hors du créneau {debut}h-{fin}h"
 
 
 def marquer_faite() -> None:
@@ -624,7 +638,7 @@ def main() -> int:
     p.add_argument("--voix", choices=["azure", "elevenlabs", "edge", "silence"])
     p.add_argument("--sans-telegram", action="store_true")
     p.add_argument("--si-pas-faite", action="store_true",
-                   help="ne fait rien si une edition a deja tourne dans les 3 dernieres heures (taches planifiees)")
+                   help="taches planifiees : ne fait rien si une edition a deja tourne recemment ou hors du creneau du soir")
     p.add_argument("--sans-validation", action="store_true",
                    help="fabrique la video sans attendre ta validation sur Telegram")
     args = p.parse_args()
@@ -658,9 +672,15 @@ def main() -> int:
             raise
 
     edition_normale = not (args.demo or args.semaine or args.bilan)
-    if edition_normale and args.si_pas_faite and deja_faite():
-        print(f"Une édition a déjà tourné il y a moins de {DELAI_DOUBLON_H} h : rien à faire (créneau de secours).")
-        return 0
+    if edition_normale and args.si_pas_faite:
+        delai = float(cfg["edition"].get("delai_doublon_heures", DELAI_DOUBLON_H))
+        if deja_faite(delai):
+            print(f"Une édition a déjà tourné il y a moins de {delai:g} h : rien à faire (créneau de secours).")
+            return 0
+        motif = hors_creneau(cfg)
+        if motif:
+            print(f"Édition planifiée ignorée : {motif} (secours parti trop tard). Lancement à la main : toujours possible.")
+            return 0
     if edition_normale:
         marquer_faite()
 
