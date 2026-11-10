@@ -29,7 +29,7 @@ F_VUS = RACINE / "data" / "vus.json"
 F_ARCHIVES = RACINE / "data" / "archives.json"
 F_STATS = RACINE / "data" / "stats.json"
 F_DERNIERE = RACINE / "data" / "derniere_edition.json"
-DELAI_DOUBLON_H = 20  # par defaut : une edition planifiee est sautee si une autre a deja tourne dans ces 20 h
+DELAI_DOUBLON_H = 20  # (ancien reglage, plus utilise : voir deja_faite_ce_soir)
 CRENEAU_PLANIFIE = (17, 21)  # par defaut : une edition planifiee ne tourne qu'entre 17h et 21h (heure de Paris)
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
@@ -613,6 +613,20 @@ def deja_faite(heures: float = DELAI_DOUBLON_H) -> bool:
         return False
 
 
+def deja_faite_ce_soir(cfg: dict) -> bool:
+    """Vrai si une edition a deja demarre depuis le debut du creneau du jour (ex. 17h, heure de Paris).
+    Une edition lancee a une autre heure (a la main, ou un ancien secours de nuit) ne bloque donc jamais
+    celle du soir : c'est ce qui avait fait sauter l'edition du 10/11/2026 (regle des 20 h)."""
+    debut, _ = cfg["edition"].get("creneau_planifie", CRENEAU_PLANIFIE)
+    fuseau = ZoneInfo(cfg["chaine"]["fuseau"])
+    try:
+        d = datetime.fromisoformat(json.loads(F_DERNIERE.read_text(encoding="utf-8"))["date"])
+    except Exception:
+        return False
+    ouverture = datetime.now(fuseau).replace(hour=int(debut), minute=0, second=0, microsecond=0)
+    return d.astimezone(fuseau) >= ouverture
+
+
 def hors_creneau(cfg: dict) -> str:
     """Message si l'heure de Paris est hors du creneau des editions planifiees, sinon chaine vide.
     Les secours GitHub partent parfois avec des heures de retard (ou attendent la fin de l'edition de 18h) :
@@ -673,13 +687,12 @@ def main() -> int:
 
     edition_normale = not (args.demo or args.semaine or args.bilan)
     if edition_normale and args.si_pas_faite:
-        delai = float(cfg["edition"].get("delai_doublon_heures", DELAI_DOUBLON_H))
-        if deja_faite(delai):
-            print(f"Une édition a déjà tourné il y a moins de {delai:g} h : rien à faire (créneau de secours).")
-            return 0
         motif = hors_creneau(cfg)
         if motif:
             print(f"Édition planifiée ignorée : {motif} (secours parti trop tard). Lancement à la main : toujours possible.")
+            return 0
+        if deja_faite_ce_soir(cfg):
+            print("L'édition du soir a déjà tourné : rien à faire (créneau de secours).")
             return 0
     if edition_normale:
         marquer_faite()
