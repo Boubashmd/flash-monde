@@ -1,422 +1,142 @@
 [
  {
   "sig": [
-   "cracov",
-   "droite",
-   "extrem",
-   "fascin",
-   "fusill",
-   "morts",
-   "pologn",
-   "six"
+   "alerte",
+   "bombe",
+   "ecoles",
+   "evacue",
+   "irland",
+   "italie",
+   "royaum",
+   "uni"
   ],
-  "date": "2026-11-08T16:51:35.158944+00:00",
-  "titre": "Une fusillade fait au moins six morts à Cracovie, en Pologne"
- },
- {
-  "sig": [
-   "2027",
-   "bourge",
-   "france",
-   "jean",
-   "luc",
-   "melenc",
-   "presid",
-   "primai"
-  ],
-  "date": "2026-11-08T16:51:35.158950+00:00",
-  "titre": "Mélenchon promet de « tout changer » au Bourget"
- },
- {
-  "sig": [
-   "charge",
-   "eisenk",
-   "former",
-   "gadi",
-   "gouver",
-   "israel",
-   "netany",
-   "procha"
-  ],
-  "date": "2026-11-08T16:51:35.158952+00:00",
-  "titre": "Herzog confie à Gadi Eisenkot la formation du gouvernement"
- },
- {
-  "sig": [
-   "arabie",
-   "aramco",
-   "attaqu",
-   "financ",
-   "houthi",
-   "quarti",
-   "riyad",
-   "saoudi"
-  ],
-  "date": "2026-11-08T16:51:35.158954+00:00",
-  "titre": "Les Houthis tirent des missiles sur Riyad"
- },
- {
-  "sig": [
-   "000",
-   "centai",
-   "electr",
-   "frappe",
-   "guerre",
-   "millie",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-08T16:51:35.158955+00:00",
-  "titre": "Des frappes russes privent des Ukrainiens d'électricité"
- },
- {
-  "sig": [
-   "cracov",
-   "droite",
-   "extrem",
-   "fascin",
-   "fusill",
-   "morts",
-   "pologn",
-   "six"
-  ],
-  "date": "2026-11-08T16:54:22.155909+00:00",
-  "titre": "Une fusillade fait au moins six morts à Cracovie, en Pologne"
- },
- {
-  "sig": [
-   "2027",
-   "bourge",
-   "france",
-   "jean",
-   "luc",
-   "melenc",
-   "presid",
-   "primai"
-  ],
-  "date": "2026-11-08T16:54:22.155920+00:00",
-  "titre": "Mélenchon promet de « tout changer » au Bourget"
- },
- {
-  "sig": [
-   "charge",
-   "eisenk",
-   "former",
-   "gadi",
-   "gouver",
-   "israel",
-   "netany",
-   "procha"
-  ],
-  "date": "2026-11-08T16:54:22.155922+00:00",
-  "titre": "Herzog confie à Gadi Eisenkot la formation du gouvernement"
- },
- {
-  "sig": [
-   "arabie",
-   "aramco",
-   "attaqu",
-   "financ",
-   "houthi",
-   "quarti",
-   "riyad",
-   "saoudi"
-  ],
-  "date": "2026-11-08T16:54:22.155924+00:00",
-  "titre": "Les Houthis tirent des missiles sur Riyad"
- },
- {
-  "sig": [
-   "000",
-   "centai",
-   "electr",
-   "frappe",
-   "guerre",
-   "millie",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-08T16:54:22.155925+00:00",
-  "titre": "Des frappes russes privent des Ukrainiens d'électricité"
+  "date": "2026-11-11T16:56:58.650771+00:00",
+  "titre": "L'Italie évacue des centaines d'écoles après de fausses alertes"
  },
  {
   "sig": [
    "attent",
-   "cracov",
-   "examen",
-   "fusill",
+   "avait",
+   "gauche",
+   "kevin",
+   "liste",
    "person",
-   "pologn",
-   "retrou",
-   "six"
+   "racist",
+   "trappe"
   ],
-  "date": "2026-11-08T21:22:12.521066+00:00",
-  "titre": "Cracovie : une fusillade fait au moins neuf morts en Pologne"
+  "date": "2026-11-11T16:56:58.650780+00:00",
+  "titre": "Trappes : le suspect d'un attentat raciste assume ses actes"
  },
  {
   "sig": [
+   "depute",
+   "entree",
+   "fedoro",
+   "franca",
+   "interd",
+   "journa",
+   "russie",
+   "territ"
+  ],
+  "date": "2026-11-11T16:56:58.650784+00:00",
+  "titre": "Moscou interdit d'entrée deux députés et deux journalistes"
+ },
+ {
+  "sig": [
+   "000",
+   "2027",
    "candid",
-   "glucks",
+   "eric",
    "jean",
-   "luc",
-   "melenc",
-   "minist",
-   "presid",
-   "raphae"
-  ],
-  "date": "2026-11-08T21:22:12.521085+00:00",
-  "titre": "Mélenchon promet de « tout changer » au Bourget"
- },
- {
-  "sig": [
-   "2027",
-   "blanch",
-   "etats",
-   "parole",
-   "porte",
-   "presid",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-08T21:22:12.521089+00:00",
-  "titre": "Trump propose à Dana White un poste de porte-parole"
- },
- {
-  "sig": [
-   "accide",
-   "ain",
-   "chauff",
-   "examen",
-   "homici",
-   "involo",
-   "mis",
-   "mortel"
-  ],
-  "date": "2026-11-08T21:22:12.521092+00:00",
-  "titre": "Accident de car dans l'Ain : le chauffeur mis en examen"
- },
- {
-  "sig": [
-   "auch",
-   "crimin",
-   "domici",
-   "gers",
-   "incend",
-   "polici",
-   "revalo",
-   "smic"
-  ],
-  "date": "2026-11-08T21:22:12.521096+00:00",
-  "titre": "Gers : le domicile d'un policier incendié, une enquête ouverte"
- },
- {
-  "sig": [
-   "americ",
-   "chinoi",
-   "espion",
-   "huang",
-   "jensen",
-   "nvidia",
-   "patron",
-   "soupco"
-  ],
-  "date": "2026-11-09T17:01:28.575685+00:00",
-  "titre": "Nvidia ouvre une enquête interne sur son patron Jensen Huang"
- },
- {
-  "sig": [
-   "donald",
-   "etats",
-   "expuls",
-   "guerre",
-   "politi",
-   "trump",
-   "ukrain",
-   "unis"
-  ],
-  "date": "2026-11-09T17:01:28.575702+00:00",
-  "titre": "Trump reconnaît une politique d'expulsions trop dure"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "champi",
-   "electi",
-   "france",
    "presid",
    "riner",
    "teddy"
   ],
-  "date": "2026-11-09T17:01:28.575706+00:00",
+  "date": "2026-11-11T16:56:58.650786+00:00",
   "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027"
+ },
+ {
+  "sig": [
+   "500",
+   "algeri",
+   "bien",
+   "christ",
+   "detenu",
+   "gleize",
+   "journa",
+   "libera"
+  ],
+  "date": "2026-11-11T16:56:58.650789+00:00",
+  "titre": "Christophe Gleizes détenu en Algérie depuis 500 jours"
+ },
+ {
+  "sig": [
+   "alerte",
+   "bombe",
+   "ecoles",
+   "evacue",
+   "irland",
+   "italie",
+   "royaum",
+   "uni"
+  ],
+  "date": "2026-11-11T17:05:46.195708+00:00",
+  "titre": "L'Italie évacue des centaines d'écoles après de fausses alertes"
  },
  {
   "sig": [
    "attent",
-   "auteur",
-   "cracov",
-   "fusill",
-   "mort",
-   "morts",
-   "pologn",
-   "six"
+   "avait",
+   "gauche",
+   "kevin",
+   "liste",
+   "person",
+   "racist",
+   "trappe"
   ],
-  "date": "2026-11-09T17:01:28.575708+00:00",
-  "titre": "Cracovie : l'auteur de la tuerie est mort de ses blessures"
+  "date": "2026-11-11T17:05:46.195722+00:00",
+  "titre": "Trappes : le suspect d'un attentat raciste assume ses actes"
  },
  {
   "sig": [
-   "barrot",
-   "cybera",
-   "enquet",
-   "frigos",
-   "iran",
-   "pointe",
-   "respon",
-   "superm"
+   "depute",
+   "entree",
+   "fedoro",
+   "franca",
+   "interd",
+   "journa",
+   "russie",
+   "territ"
   ],
-  "date": "2026-11-09T17:01:28.575711+00:00",
-  "titre": "Cyberattaque de frigos : Paris soupçonne l'Iran"
+  "date": "2026-11-11T17:05:46.195727+00:00",
+  "titre": "Moscou interdit d'entrée deux députés et deux journalistes"
  },
  {
   "sig": [
-   "americ",
-   "chinoi",
-   "espion",
-   "huang",
-   "jensen",
-   "nvidia",
-   "patron",
-   "soupco"
-  ],
-  "date": "2026-11-09T17:06:37.220260+00:00",
-  "titre": "Nvidia ouvre une enquête interne sur son patron Jensen Huang"
- },
- {
-  "sig": [
-   "donald",
-   "etats",
-   "expuls",
-   "guerre",
-   "politi",
-   "trump",
-   "ukrain",
-   "unis"
-  ],
-  "date": "2026-11-09T17:06:37.220273+00:00",
-  "titre": "Trump reconnaît une politique d'expulsions trop dure"
- },
- {
-  "sig": [
+   "000",
    "2027",
    "candid",
-   "champi",
-   "electi",
-   "france",
+   "eric",
+   "jean",
    "presid",
    "riner",
    "teddy"
   ],
-  "date": "2026-11-09T17:06:37.220276+00:00",
+  "date": "2026-11-11T17:05:46.195730+00:00",
   "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027"
  },
  {
   "sig": [
-   "attent",
-   "auteur",
-   "cracov",
-   "fusill",
-   "mort",
-   "morts",
-   "pologn",
-   "six"
+   "500",
+   "algeri",
+   "bien",
+   "christ",
+   "detenu",
+   "gleize",
+   "journa",
+   "libera"
   ],
-  "date": "2026-11-09T17:06:37.220278+00:00",
-  "titre": "Cracovie : l'auteur de la tuerie est mort de ses blessures"
- },
- {
-  "sig": [
-   "barrot",
-   "cybera",
-   "enquet",
-   "frigos",
-   "iran",
-   "pointe",
-   "respon",
-   "superm"
-  ],
-  "date": "2026-11-09T17:06:37.220281+00:00",
-  "titre": "Cyberattaque de frigos : Paris soupçonne l'Iran"
- },
- {
-  "sig": [
-   "agress",
-   "brand",
-   "britan",
-   "condam",
-   "prison",
-   "russel",
-   "sexuel",
-   "viol"
-  ],
-  "date": "2026-11-10T00:52:11.479727+00:00",
-  "titre": "Russell Brand condamné à dix ans et demi de prison à Londres"
- },
- {
-  "sig": [
-   "accuse",
-   "cybera",
-   "enquet",
-   "france",
-   "frigos",
-   "gardie",
-   "iran",
-   "superm"
-  ],
-  "date": "2026-11-10T00:52:11.479735+00:00",
-  "titre": "La France accuse l'Iran d'une cyberattaque contre des frigos"
- },
- {
-  "sig": [
-   "accuse",
-   "affair",
-   "agress",
-   "michel",
-   "polici",
-   "proces",
-   "violen",
-   "zecler"
-  ],
-  "date": "2026-11-10T00:52:11.479737+00:00",
-  "titre": "Procès de trois policiers pour le passage à tabac de Zecler"
- },
- {
-  "sig": [
-   "accord",
-   "donald",
-   "elan",
-   "etats",
-   "guerre",
-   "iran",
-   "trump",
-   "unis"
-  ],
-  "date": "2026-11-10T00:52:11.479739+00:00",
-  "titre": "Trump dit que les États-Unis ont « gagné » la guerre"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "electi",
-   "macron",
-   "politi",
-   "presid",
-   "riner",
-   "teddy"
-  ],
-  "date": "2026-11-10T00:52:11.479741+00:00",
-  "titre": "Teddy Riner annonce sa candidature à la présidentielle de 2027"
+  "date": "2026-11-11T17:05:46.195732+00:00",
+  "titre": "Christophe Gleizes détenu en Algérie depuis 500 jours"
  }
 ]
