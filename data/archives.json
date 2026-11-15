@@ -1,555 +1,5 @@
 [
  {
-  "date": "2026-10-24T22:08:56.547473+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "Manifestations en France : heurts à Lyon et ailleurs",
-  "texte": "En France, des manifestations ont eu lieu samedi dans plusieurs villes. Des heurts ont éclaté à Lyon, Lille, Toulouse et Nantes, tandis que le cortège parisien s'est déroulé dans le calme.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 24",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Nice-Matin",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4257242-20261024-manifestation-24-octobre-normal-avoir-peur-manifestants-mobilises-cortege-parisien?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/mobilisation-toujours-forte-peu-de-debordements-la-manifestation-du-24-octobre-une-grande-reussite-pour-ses-organisateurs_AV-202610240461.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261024-en-france-des-heurts-en-marge-des-manifestations-du-24-octobre",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/grand-est/champagne-ardenne/mobilisation-du-24-octobre-contre-la-vie-chere-le-point-a-reims-troyes-et-charleville-mezieres-3438606.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/24/les-gilets-jaunes-annoncent-une-nouvelle-mobilisation-le-31-octobre-partout-en-france-pour-denoncer-la-derive-autoritaire-du-gouvernement-13618883.php",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/des-corteges-calmes-moins-de-casse-des-heurts-contenus-une-nouvelle-journee-de-mobilisation-sous-haute-surveillance-partout-en-france-20261024",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/on-joue-au-chat-du-chat-et-de-la-souris-pluie-lacrymo-master-poulet-une-etrange-fin-de-manifestation-a-paris-24-10-2026-JUQPWBWUZJEPVL7JG5EBFSFBJA.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/24/face-a-un-dispositif-de-securite-xxl-a-saint-etienne-les-manifestants-ont-pris-l-autoroute",
-   "Nice-Matin": "https://www.nicematin.com/societe/securite/je-condamne-avec-la-plus-grande-fermete-les-agressions-commises-a-nice-par-des-militants-d-ultradroite-contre-les-manifestants-du-cortege-pacifique-le-maire-eric-ciotti-denonce-les-violences-intervenues-en-fin-de-manifestation-10745670",
-   "Ouest-France": "https://www.ouest-france.fr/europe/italie/italie-des-manifestations-contre-la-vie-chere-et-neuf-interpellations-272da5e6-cfe8-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/france-70-000-policiers-pour-la-journee-de-mobilisation-29395161.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/mobilisation-du-24-octobre-apres-cet-acte-2-mobilisateur-le-bras-de-fer-appele-a-durer-31222722.php",
-   "actu.fr": "https://actu.fr/occitanie/montpellier_34172/huit-personnes-interpellees-deux-policiers-blesses-en-marge-des-manifestations-a-montpellier_64972969.html"
-  },
-  "score": 152.99934962416665,
-  "personne": null,
-  "sig": [
-   "000",
-   "corteg",
-   "interp",
-   "journe",
-   "manife",
-   "mobili",
-   "octobr",
-   "person"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-24T22:08:56.547490+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "Nuñez recense près de 1 000 interpellations",
-  "texte": "En France, le ministre de l'Intérieur Laurent Nuñez a estimé que les cortèges se sont bien passés. Il recense près de 1 000 interpellations après les manifestations de samedi, qui ont réuni entre 410 000 et 800 000 personnes.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/gouvernement/cortege-calme-1-000-interpellations-batiments-publics-intacts-laurent-nunez-tire-son-bilan-des-manifestations-du-24-octobre_AV-202610240415.html",
-   "DNA": "https://www.dna.fr/economie/2026/10/24/manifestation-du-24-octobre-centre-ville-bunkerise-commerces-desertes",
-   "France 24": "https://www.france24.com/fr/france/20261024-les-cort%C3%A8ges-se-sont-bien-pass%C3%A9s-d%C3%A9clare-nu%C3%B1ez-qui-comptabilise-pr%C3%A8s-de-1-000-interpellations",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/24/mobilisation-du-24-octobre-une-nouvelle-journee-de-manifestations-sous-haute-tension",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/24/direct-manifestations-du-24-octobre-quelle-sera-lampleur-de-la-mobilisation-en-france-pres-de-70-000-policiers-et-gendarmes-sont-mobilises-suivez-la-13618222.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/24/mobilisation-du-24-octobre-grenoble-a-nouveau-victime-des-heurts-et-des-pillages",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/mobilisation-du-24-octobre-entre-400-000-et-800-000-manifestants-ce-samedi-le-point-ville-par-ville-24-10-2026-TM7UP5SJJ5H5LBXV4FIFYQCFGM.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/24/mobilisation-du-24-octobre-une-nouvelle-journee-de-manifestations-sous-haute-tension",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/24/mobilisation-du-24-octobre-en-occitanie-une-journee-entre-manifestations-interdites-gilets-jaunes-de-sortie-defile-officiel-et-echauffourees-13618964.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/social/au-plus-fort-de-la-journee-2-300-manifestants-etaient-presents-a-nice-la-prefecture-dresse-le-bilan-de-la-mobilisation-du-24-octobre-dans-les-alpes-maritimes-10745667",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestations-du-24-octobre-des-defiles-dans-le-calme-mais-des-dispersions-sous-tension-8332c260-cfcd-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/mobilisation-du-24-octobre-un-manifestant-grievement-blesse-a-la-main-a-toulouse-un-autre-touche-a-un-oeil-a-poitiers-31227917.php",
-   "actu.fr": "https://actu.fr/societe/manifestations-du-24-octobre-tensions-dans-certaines-villes-corteges-calmes-dans-d-autres-le-recap-de-l-acte-ii_64973028.html"
-  },
-  "score": 112.99934969583333,
-  "personne": "Laurent Nuñez",
-  "sig": [
-   "000",
-   "blesse",
-   "heurts",
-   "interd",
-   "manife",
-   "mobili",
-   "octobr",
-   "toulou"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-24T22:08:56.547498+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "Jordan Bardella réélu à la tête du RN avec 98,98 % des voix",
-  "texte": "En France, Jordan Bardella a été réélu samedi président du Rassemblement national, seul candidat, lors du congrès du parti à Orléans. Dans la même ville, un rassemblement d'opposition a réuni des milliers de personnes.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RTS",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "DNA": "https://www.dna.fr/politique/2026/10/24/seul-a-se-presenter-jordan-bardella-est-reelu-a-la-tete-du-rassemblement-national",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261024-au-congr%C3%A8s-du-rn-marine-le-pen-lance-sa-campagne-pour-l-%C3%A9lys%C3%A9e-bardella-vise-matignon",
-   "L'Est Républicain": "https://www.estrepublicain.fr/elections/2026/10/24/congres-du-rn-et-contre-manifestation-deux-camps-face-a-face-a-orleans",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/24/direct-presidentielle-2027-un-congres-du-rn-sous-haute-surveillance-ce-week-end-a-orleans-ou-un-rassemblement-contre-le-racisme-le-fascisme-et-13618227.php",
-   "Le Dauphiné": "https://www.ledauphine.com/elections/2026/10/24/congres-du-rn-et-contre-manifestation-deux-camps-face-a-face-a-orleans",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/seul-candidat-jordan-bardella-reelu-president-du-rn-avec-98-98-des-voix-20261024",
-   "Le Parisien": "https://www.leparisien.fr/politique/rassemblement-national-seul-candidat-jordan-bardella-reelu-president-du-parti-avec-9898-des-voix-24-10-2026-GLAUPKZHWRFQTEDBP6HQARLQHQ.php",
-   "Le Progrès": "https://www.leprogres.fr/elections/2026/10/24/congres-du-rn-et-contre-manifestation-deux-camps-face-a-face-a-orleans",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/24/candidat-a-sa-propre-succession-jordan-bardella-reelu-president-du-rassemblement-national-avec-pres-de-99-des-suffrages-13618702.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/rn-jordan-bardella-reelu-president-avec-99-des-voix-29395402.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/politique/au-congres-du-rn-a-orleans-jordan-bardella-seul-en-lice-est-reelu-president-du-parti-avec-98-98-des-voix-31220672.php"
-  },
-  "score": 102.99934957694444,
-  "personne": "Jordan Bardella",
-  "sig": [
-   "bardel",
-   "candid",
-   "congre",
-   "jordan",
-   "manife",
-   "orlean",
-   "presid",
-   "reelu"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-24T22:08:56.547504+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "En Italie, manifestations modestes sous forte présence policière",
-  "texte": "En Italie, quelques milliers de personnes ont manifesté samedi à Rome et à Milan, sous un important dispositif de sécurité.",
-  "iso": [
-   "ITA"
-  ],
-  "pays": "Italie",
-  "sources": [
-   "BFMTV",
-   "Le Monde",
-   "Le Parisien",
-   "RTS"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/europe/italie/video-italie-un-important-dispositif-de-securite-deploye-pour-assurer-le-maintien-de-l-ordre-pendant-les-manifestations-dans-8-villes-du-pays_VN-202610240458.html",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/24/en-italie-des-manifestations-a-l-ampleur-limitee-contre-la-hausse-du-cout-de-la-vie-apres-un-massif-deploiement-de-forces-de-l-ordre_6799731_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/haute-vienne-87/javais-la-boule-au-ventre-avant-darriver-a-limoges-dispositif-ultra-securise-et-interdiction-ont-dissuade-nombre-de-manifestants-24-10-2026-HOOGJ26W2RFDPMIUFVSXGTFONY.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/italie-manifestations-modestes-face-au-deploiement-policier-29395579.html?rts_source=rss_t"
-  },
-  "score": 72.99934944916666,
-  "personne": "Giorgia Meloni",
-  "sig": [
-   "ampleu",
-   "deploy",
-   "dispos",
-   "forces",
-   "italie",
-   "manife",
-   "ordre",
-   "securi"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-24T22:08:56.547508+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "Les Houthis revendiquent des attaques en Arabie saoudite",
-  "texte": "Au Yémen, les Houthis ont revendiqué samedi des attaques en Arabie saoudite et à Aden, après des frappes ayant fait au moins seize morts selon eux.",
-  "iso": [
-   "YEM",
-   "SAU"
-  ],
-  "pays": "Yémen",
-  "sources": [
-   "France 24",
-   "RFI",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/moyen-orient/20261024-cisjordanie-l-arm%C3%A9e-isra%C3%A9lienne-d%C3%A9place-des-palestiniens-%C3%A0-h%C3%A9bron-apr%C3%A8s-une-attaque-meurtri%C3%A8re",
-   "RFI": "https://www.rfi.fr/fr/moyen-orient/20261024-y%C3%A9men-les-combattants-houthis-revendiquent-une-nouvelle-attaque-%C3%A0-aden",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/yemen-les-houthis-frappent-aden-et-l-arabie-saoudite-29395598.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/proche-orient/yemen/les-houthis-du-yemen-disent-avoir-cible-trois-aeroports-et-des-installations-petrolieres-en-arabie-saoudite_8252248.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 71.30376977361111,
-  "personne": null,
-  "sig": [
-   "aden",
-   "aeropo",
-   "arabie",
-   "attaqu",
-   "houthi",
-   "revend",
-   "saoudi",
-   "yemen"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-24T22:08:56.547512+00:00",
-  "edition": "2026-10-24T23:56:19.809041+02:00",
-  "semaine": false,
-  "titre": "En Israël, des milliers de manifestants contre Netanyahou",
-  "texte": "En Israël, des milliers de personnes ont manifesté samedi à Tel-Aviv contre Benjamin Netanyahu, à trois jours des législatives.",
-  "iso": [
-   "ISR"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "France 24"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4257240-20261024-legislatives-israel-milliers-personnes-defilent-contre-netanyahou-avant-elections?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4257240-20261024-legislatives-israel-milliers-personnes-defilent-contre-netanyahou-avant-elections?at_medium=display&at_campaign=149",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261024-l%C3%A9gislatives-en-isra%C3%ABl-manifestations-contre-netanyahu"
-  },
-  "score": 50.938214218055556,
-  "personne": "Benjamin Netanyahu",
-  "sig": [
-   "aviv",
-   "defile",
-   "electi",
-   "israel",
-   "legisl",
-   "millie",
-   "netany",
-   "person"
-  ],
-  "youtube": "KvOWFl7DzQE",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T08:05:58.747292+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Israël boucle la Cisjordanie le jour des législatives",
-  "texte": "En Cisjordanie occupée, l'armée israélienne annonce un bouclage du territoire mardi, jour des élections législatives. Quelque 2 000 Palestiniens ont été chassés de chez eux à Hébron, après la mort de deux soldats.",
-  "iso": [
-   "ISR",
-   "PSE"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Progrès",
-   "Midi Libre",
-   "RFI",
-   "RTS",
-   "franceinfo",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4257240-20261024-legislatives-israel-milliers-personnes-defilent-contre-netanyahou-avant-elections?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4257240-20261024-legislatives-israel-milliers-personnes-defilent-contre-netanyahou-avant-elections?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/moyen-orient/israel/israel-annonce-un-bouclage-des-frontieres-de-la-cisjordanie-pour-les-elections-mardi_AV-202610250059.html",
-   "DNA": "https://www.dna.fr/social/2026/10/24/mobilisation-du-24-octobre-une-nouvelle-journee-de-manifestations-sous-haute-tension",
-   "France 24": "https://www.france24.com/fr/moyen-orient/20261025-israel-bouclage-cisjordanie-occupee-fermeture-points-de-passage-elections-legislatives-netanyahu-hebron-palestiniens",
-   "L'Est Républicain": "https://www.estrepublicain.fr/economie/2026/10/24/mobilisation-du-24-octobre-plus-de-4000-manifestants-repousses-hors-de-la-boucle",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/24/direct-manifestations-du-24-octobre-quelle-sera-lampleur-de-la-mobilisation-en-france-pres-de-70-000-policiers-et-gendarmes-sont-mobilises-suivez-la-13618222.php",
-   "Le Figaro France": "https://www.lefigaro.fr/international/israel-impose-un-bouclage-de-la-cisjordanie-mardi-jour-des-elections-20261025",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/en-cisjordanie-environ-2-000-palestiniens-deplaces-par-l-armee-israelienne-apres-la-mort-de-deux-soldats-l-etat-hebreu-annonce-un-bouclage-du-territoire-mardi_6799712_3211.html",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/25/apres-le-17-octobre-10-000-manifestants-sans-chaos-mais-dans-le-gaz",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/24/en-direct-mobilisation-du-24-octobre-jusqua-500-000-personnes-attendues-par-le-gouvernement-suivez-les-manifestations-13617618.php",
-   "RFI": "https://www.rfi.fr/fr/moyen-orient/20261024-cisjordanie-occup%C3%A9e-2-000-palestiniens-chass%C3%A9s-de-chez-eux-par-l-arm%C3%A9e-isra%C3%A9lienne-apr%C3%A8s-une-attaque-%C3%A0-h%C3%A9bron",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/cisjordanie-2-000-palestiniens-chasses-d-hebron-par-l-armee-29395714.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/israel/a-hebron-2-000-palestiniens-chasses-de-chez-eux_8252818.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/monde/israel/videos-ni-pardon-ni-excuses-avant-des-elections-cruciales-pour-benyamin-netanyahou-un-documentaire-donne-la-parole-aux-israeliens-qui-le-tiennent-en-partie-responsable-du-7-octobre_8219710.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 132.60657856944445,
-  "personne": "Benyamin Nétanyahou",
-  "sig": [
-   "000",
-   "cisjor",
-   "defile",
-   "electi",
-   "israel",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
-  "date": "2026-10-25T08:05:58.747311+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Manifestations du 24 octobre : 1 000 interpellations",
-  "texte": "En France, la mobilisation sociale de samedi a réuni entre 410 000 et 800 000 personnes selon les sources. Le ministre de l'Intérieur, Laurent Nuñez, a recensé près de 1 000 interpellations.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Nice-Matin",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4257242-20261024-manifestation-24-octobre-normal-avoir-peur-manifestants-mobilises-cortege-parisien?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/video-apres-les-manifestations-du-24-octobre-de-nouvelles-journees-de-mobilisation-annoncees_VN-202610250075.html",
-   "DNA": "https://www.dna.fr/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "France 24": "https://www.france24.com/fr/france/20261024-les-cort%C3%A8ges-se-sont-bien-pass%C3%A9s-d%C3%A9clare-nu%C3%B1ez-qui-comptabilise-pr%C3%A8s-de-1-000-interpellations",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/direct-manifestations-du-24-octobre-la-cgt-a-comptabilise-800-000-participants-linterieur-410-000-quelle-suite-sera-donnee-au-mouvement-13619513.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/en-direct-mobilisation-manifestations-24-octobre-etudiants-lyceens-acte-ii-gilets-jaunes-orleans-congres-du-rn-20261024",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/manifestation-du-24-octobre-142-interpellations-a-paris-six-fois-moins-que-samedi-dernier-25-10-2026-KMCE3UGLANFIJC3EPY2IRU3KMY.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "Nice-Matin": "https://www.nicematin.com/societe/social/au-plus-fort-de-la-journee-2-300-manifestants-etaient-presents-a-nice-la-prefecture-dresse-le-bilan-de-la-mobilisation-du-24-octobre-dans-les-alpes-maritimes-10745667",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/mobilisation-du-24-octobre-un-manifestant-grievement-blesse-a-la-main-a-toulouse-un-autre-touche-a-un-oeil-a-poitiers-31227917.php"
-  },
-  "score": 122.99949177305555,
-  "personne": "Laurent Nuñez",
-  "sig": [
-   "142",
-   "dernie",
-   "interp",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "person"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
-  "date": "2026-10-25T08:05:58.747319+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Brésil : Flavio Bolsonaro devance Lula à la veille du second tour",
-  "texte": "Au Brésil, le conservateur Flavio Bolsonaro est crédité de 51 pour cent des intentions de vote, contre 49 pour cent pour le président sortant Lula, selon deux enquêtes d'opinion publiées samedi. Environ 160 millions d'électeurs votent dimanche.",
-  "iso": [
-   "BRA"
-  ],
-  "pays": "Brésil",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Ouest-France",
-   "RFI",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/monde/bresil/4256266-20261025-presidentielle-bresil-amazonie-politique-lula-deforestation-porte-fruits?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-latine/bresil/presidentielle-au-bresil-flavio-bolsonaro-et-lula-donnes-au-coude-a-coude-dans-les-derniers-sondages-avant-le-second-tour_AV-202610250094.html",
-   "DNA": "https://www.dna.fr/politique/2026/10/25/presidentielle-lula-en-danger-face-a-la-menace-flavio-bolsonaro",
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261025-presidentielle-bresil-lula-flavio-bolsonaro-choix-decisif-avenir-pays-election-vote",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/25/presidentielle-lula-en-danger-face-a-la-menace-flavio-bolsonaro",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/24/presidentielle-2027-sondage-philippe-et-attal-decrochent-marine-le-pen-toujours-devant-mais-pas-deffet-17-octobre-13618808.php",
-   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/10/25/presidentielle-lula-en-danger-face-a-la-menace-flavio-bolsonaro",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/au-bresil-lula-et-flavio-bolsonaro-sont-au-coude-a-coude-apres-une-campagne-de-l-entre-deux-tours-a-couteaux-tires_6799995_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/25/au-bresil-lula-et-flavio-bolsonaro-sont-au-coude-a-coude-apres-une-campagne-de-l-entre-deux-tours-a-couteaux-tires_6799995_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/un-des-derniers-petits-cailloux-dans-sa-chaussure-au-bresil-le-second-tour-de-la-presidentielle-dans-le-viseur-de-trump-25-10-2026-ZDTIZIJ2ERGT3L3I5BAZZINU4I.php",
-   "Ouest-France": "https://www.ouest-france.fr/monde/bresil/presidentielle-au-bresil-promesse-securitaire-ou-programmes-sociaux-les-enjeux-dun-duel-lula-bolsonaro-sous-tension-34a7397c-cf88-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261025-br%C3%A9sil-ultimes-d%C3%A9monstrations-de-force-dans-la-rue-pour-bolsonaro-et-lula",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/presidentielle-au-bresil-flavio-bolsonaro-devance-lula-29395693.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/bresil/qui-est-flavio-bolsonaro-le-candidat-d-extreme-droite-qui-peut-remporter-l-election-presidentielle-au-bresil_8223358.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 112.99949185777778,
-  "personne": "Luiz Inácio Lula da Silva",
-  "sig": [
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "presid",
-   "second",
-   "sondag",
-   "tour"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
-  "date": "2026-10-25T08:05:58.747327+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Obama appelle à voter démocrate aux midterms à Cleveland",
-  "texte": "Aux États-Unis, Barack Obama a soutenu les démocrates samedi à Cleveland, avant les élections de mi-mandat du 3 novembre.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Monde France",
-   "Le Parisien"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/grand-est/champagne-ardenne/mobilisation-du-24-octobre-contre-la-vie-chere-le-point-a-reims-troyes-et-charleville-mezieres-3438606.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/manifestations-du-24-octobre-moins-de-tensions-mais-lexecutif-sous-pression-pour-apporter-des-reponses-politiques-aux-revendications-13618998.php",
-   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/10/25/une-journee-de-forte-mobilisation-sans-incidents-majeurs-le-droit-de-manifester-est-aussi-important-que-le-droit-de-vote_6799929_823448.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/des-heurts-mais-une-journee-sans-incident-majeur-pourquoi-le-dispositif-de-securite-a-fonctionne-ce-24-octobre-24-10-2026-UIC44VJPXVBMBADTGFTJHZY46Q.php"
-  },
-  "score": 72.99949160583333,
-  "personne": "Barack Obama",
-  "sig": [
-   "import",
-   "incide",
-   "journe",
-   "majeur",
-   "manife",
-   "mobili",
-   "octobr",
-   "tensio"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
-  "date": "2026-10-25T08:05:58.747333+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Congrès du RN à Orléans : Bardella reconduit à la présidence",
-  "texte": "À Orléans, Jordan Bardella a été reconduit à la présidence du Rassemblement national, pendant qu'une manifestation réunissait 13 000 opposants.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "Le Parisien",
-   "RFI"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4257282-20261025-etats-unis-trump-deja-vote-floride-midterms-3-novembre?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-aux-etats-unis-a-quelques-jours-des-midterms-barack-obama-entre-en-campagne-frontale-contre-donald-trump_VN-202610250049.html",
-   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/deux-annees-de-chaos-de-cruaute-de-corruption-barack-obama-se-paie-donald-trump-a-une-semaine-des-midterms-25-10-2026-YT5A6OOUNJGTJA2M72L3OFVHGA.php",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261025-midterms-aux-%C3%A9tats-unis-%C3%A0-cleveland-l-ex-pr%C3%A9sident-barack-obama-galvanise-le-camp-d%C3%A9mocrate"
-  },
-  "score": 72.99949130472223,
-  "personne": "Jordan Bardella",
-  "sig": [
-   "barack",
-   "camp",
-   "donald",
-   "etats",
-   "midter",
-   "obama",
-   "trump",
-   "unis"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
-  "date": "2026-10-25T08:05:58.747338+00:00",
-  "edition": "2026-10-25T08:51:01.742826+01:00",
-  "semaine": false,
-  "titre": "Elon Musk accuse l'Ukraine de détourner Starlink",
-  "texte": "Elon Musk accuse l'Ukraine d'avoir violé les conditions d'utilisation de Starlink, après la relance officielle du service dans le pays.",
-  "iso": [
-   "UKR"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "BFMTV",
-   "Le Parisien",
-   "RFI"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/police-justice/video-les-manifestations-interdites-a-orleans-au-dernier-jour-du-congres-du-rn_VN-202610250090.html",
-   "Le Parisien": "https://www.leparisien.fr/politique/direct-congres-du-rn-apres-un-samedi-de-manifestations-calmes-orleans-au-centre-de-lattention-ce-dimanche-25-10-2026-P2WAJXX6AVDV7DLGPIA4VLTHHE.php",
-   "RFI": "https://www.rfi.fr/fr/france/20261024-france-%C3%A0-orl%C3%A9ans-le-congr%C3%A8s-du-rn-s-ouvre-sous-cloche-13-000-personnes-manifestent-contre-l-extr%C3%AAme-droite"
-  },
-  "score": 62.99949190222222,
-  "personne": "Elon Musk",
-  "sig": [
-   "000",
-   "congre",
-   "direct",
-   "manife",
-   "nation",
-   "orlean",
-   "parti",
-   "rassem"
-  ],
-  "youtube": null,
-  "yt_attente": "78834b"
- },
- {
   "date": "2026-10-25T17:23:50.110590+00:00",
   "edition": "2026-10-25T18:13:45.829067+01:00",
   "semaine": false,
@@ -10753,6 +10203,257 @@
    "tensio"
   ],
   "youtube": "ctXHuHM1jiA",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-15T17:22:11.894198+00:00",
+  "edition": "2026-11-15T17:51:06.695693+01:00",
+  "semaine": false,
+  "titre": "Teddy Riner crédité de 4,5 % dans un premier sondage",
+  "texte": "Teddy Riner, candidat déclaré à la présidentielle, obtient 4,5 pour cent des intentions de vote dans un sondage. David Lisnard progresse de quatre points, Marine Le Pen reste en tête.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4262961-20261115-presidentielle-2027-primaire-participerai-point-edouard-philippe-balaye-encore-idee?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/video-jean-luc-melenchon-candidat-lfi-a-la-presidentielle-au-second-tour-on-va-renverser-la-table-declare-eric-coquerel-depute-lfi_VN-202611150316.html",
+   "DNA": "https://www.dna.fr/elections/2026/11/15/si-c-est-pour-reparler-d-une-primaire-philippe-repond-a-la-proposition-de-reunion-de-larcher",
+   "France 24": "https://www.france24.com/fr/france/20261115-pr%C3%A9sidentielle-2027-teddy-riner-cr%C3%A9dit%C3%A9-de-4-5-dans-un-sondage-david-lisnard-gagne-des-points",
+   "L'Est Républicain": "https://www.estrepublicain.fr/elections/2026/11/15/si-c-est-pour-reparler-d-une-primaire-philippe-repond-a-la-proposition-de-reunion-de-larcher",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/15/presidentielle-2027-patrick-sebastien-donne-son-avis-sur-la-candidature-de-teddy-riner-pour-lui-cest-13653893.php",
+   "Le Dauphiné": "https://www.ledauphine.com/elections/2026/11/15/si-c-est-pour-reparler-d-une-primaire-philippe-repond-a-la-proposition-de-reunion-de-larcher",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/candidats/debat-primaire-irruption-de-teddy-riner-et-david-lisnard-la-campagne-en-defense-d-edouard-philippe-20261115",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/si-cest-pour-reparler-dune-primaire-je-ne-vois-pas-linteret-edouard-philippe-repond-a-la-main-tendue-de-gerard-larcher-15-11-2026-QJM7DPPZKFDK5AAVOTLGTBJ4RE.php",
+   "Le Progrès": "https://www.leprogres.fr/elections/2026/11/15/si-c-est-pour-reparler-d-une-primaire-philippe-repond-a-la-proposition-de-reunion-de-larcher",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/15/presidentielle-2027-discuter-oui-mais-pas-plus-apres-lappel-de-gerard-larcher-edouard-philippe-renouvelle-son-refus-dune-primaire-13653913.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/je-pense-que-je-vais-devenir-president-de-la-republique-du-var-le-candidat-eric-zemmour-deambule-en-terrain-conquis-sur-le-marche-de-la-croix-valmer-10761711",
+   "RFI": "https://www.rfi.fr/fr/france/20261114-pr%C3%A9sidentielle-en-france-teddy-riner-attire-les-foules-mais-ne-d%C3%A9voile-encore-rien-de-son-programme",
+   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-je-n-y-participerai-pas-point-edouard-phillipe-ne-veut-toujours-pas-entendre-parler-d-une-primaire-31537443.php",
+   "actu.fr": "https://actu.fr/politique/election-presidentielle/presidentielle-2027-edouard-philippe-d-accord-pour-parler-avec-les-candidats-du-centre-mais-pas-d-une-primaire_65057692.html"
+  },
+  "score": 157.99921040277778,
+  "personne": null,
+  "sig": [
+   "2027",
+   "candid",
+   "edouar",
+   "philip",
+   "presid",
+   "primai",
+   "riner",
+   "teddy"
+  ],
+  "youtube": "NvBs7KTsacg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-15T17:22:11.894220+00:00",
+  "edition": "2026-11-15T17:51:06.695693+01:00",
+  "semaine": false,
+  "titre": "Maileva : les données de 22 millions de personnes dérobées",
+  "texte": "Une filiale de La Poste, Maileva, a été victime d'une cyberattaque mi-septembre. Selon La Poste, les coordonnées de 22 millions de personnes ont été volées. Une enquête a été ouverte.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes",
+   "20 Minutes France",
+   "Jeune Afrique",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RTS",
+   "franceinfo",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4262938-20261115-etats-unis-cables-cuivre-vetustes-origine-arret-trafic-aerien?at_medium=display&at_campaign=149",
+   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4262938-20261115-etats-unis-cables-cuivre-vetustes-origine-arret-trafic-aerien?at_medium=display&at_campaign=149",
+   "Jeune Afrique": "https://www.jeuneafrique.com/1861424/politique/brouille-avec-donald-trump-cyril-ramaphosa-en-visite-aux-etats-unis-pour-tenter-de-seduire-les-geants-de-la-tech/",
+   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/15/trump-veut-fermer-un-parc-public-pour-en-faire-un-golf-de-luxe-la-justice-le-contrarie",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/14/chaos-dans-le-ciel-americain-un-trafic-paralyse-des-milliers-de-vols-annules-pourquoi-les-etats-unis-restent-vulnerables-a-une-panne-geante-de-leur-13652932.php",
+   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/11/15/trump-veut-fermer-un-parc-public-pour-en-faire-un-golf-de-luxe-la-justice-le-contrarie",
+   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/vols-suspendus-aux-etats-unis-le-remplacement-de-cables-en-cuivre-vetustes-a-lorigine-des-perturbations-15-11-2026-GG4CXEHL2NFGNOPFIITY73IBWM.php",
+   "Le Progrès": "https://www.leprogres.fr/politique/2026/11/15/trump-veut-fermer-un-parc-public-pour-en-faire-un-golf-de-luxe-la-justice-le-contrarie",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/15/apres-la-panne-geante-alerte-a-la-bombe-et-collision-entre-deux-avions-aux-etats-unis-retour-sur-un-week-end-catastrophique-dans-les-aeroports-13653745.php",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/panne-geante-aux-etats-unis-des-milliers-de-vols-annules-29416122.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/usa/des-cables-en-cuivre-vetustes-a-l-origine-des-perturbations-de-milliers-de-vols-aux-etats-unis-selon-l-administration-trump_8283218.html#xtor=RSS-3-%5Bmonde%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/etats-unis-des-milliers-de-vols-cloues-au-sol-apres-une-panne-du-systeme-de-supervision-aerienne_8282807.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 107.99921055333333,
+  "personne": null,
+  "sig": [
+   "aerien",
+   "cables",
+   "cuivre",
+   "etats",
+   "panne",
+   "trump",
+   "unis",
+   "vols"
+  ],
+  "youtube": "NvBs7KTsacg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-15T17:22:11.894228+00:00",
+  "edition": "2026-11-15T17:51:06.695693+01:00",
+  "semaine": false,
+  "titre": "Meta condamné à 805 millions d'euros d'amende en Italie",
+  "texte": "En Italie, le groupe Meta écope d'une amende record de 805 millions d'euros pour avoir utilisé des images d'utilisateurs. Il s'agit d'un nouveau revers pour le groupe.",
+  "iso": [
+   "ITA"
+  ],
+  "pays": "Italie",
+  "sources": [
+   "20 Minutes France",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RTS",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/societe/4262975-20261115-poste-millions-coordonnees-volees-enquete-point-vaste-cyberattaque-vise-filiales?at_medium=display&at_campaign=149",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/hauts-de-france/on-est-face-a-une-situation-sensible-cyberattaque-chez-maileva-une-entite-de-la-poste-des-locataires-des-hauts-de-france-potentiellement-concernes-3450015.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/15/une-filiale-de-la-poste-victime-dune-importante-cyberattaque-les-donnees-personnelles-de-22-millions-de-francais-ont-ete-derobees-13653524.php",
+   "Le Monde France": "https://www.lemonde.fr/pixels/article/2026/11/15/cyberattaque-contre-maileva-filiale-du-groupe-la-poste-une-enquete-ouverte-et-confiee-a-la-brigade-de-lutte-contre-la-cybercriminalite_6811036_4408996.html",
+   "Le Parisien": "https://www.leparisien.fr/economie/cyberattaque-dune-filiale-de-la-poste-ne-cedez-jamais-a-lurgence-nos-conseils-pour-eviter-les-arnaques-15-11-2026-LZ2ZK3FJCJEFNABGKVAZTQ2QPU.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/15/une-filiale-de-la-poste-dediee-aux-entreprises-victime-dune-cyberattaque-qui-sont-les-22-millions-de-francais-concernes-par-le-vol-de-donnees-13653550.php",
+   "Nice-Matin": "https://www.nicematin.com/faits-divers/l-une-des-plus-importantes-cyberattaques-commises-en-france-une-filiale-de-la-poste-victime-d-un-vol-de-donnees-massif-22-millions-de-personnes-concernees-10761117",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/cyberattaque-22-millions-de-donnees-volees-chez-une-filiale-de-la-poste-29416312.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/economie/cybersecurite/cyberattaque-d-une-filiale-de-la-poste-l-enquete-confiee-a-la-brigade-cybercriminalite-31535861.php",
+   "franceinfo": "https://www.franceinfo.fr/internet/reseaux-sociaux/facebook/donnees-personnelles-meta-ecope-d-une-amende-de-805-millions-d-euros-en-italie_8283257.html#xtor=RSS-3-%5Bmonde%5D"
+  },
+  "score": 102.99921016972222,
+  "personne": null,
+  "sig": [
+   "cybera",
+   "donnee",
+   "filial",
+   "france",
+   "millio",
+   "person",
+   "poste",
+   "victim"
+  ],
+  "youtube": "NvBs7KTsacg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-15T17:22:11.894235+00:00",
+  "edition": "2026-11-15T17:51:06.695693+01:00",
+  "semaine": false,
+  "titre": "Journalistes de BFMTV agressés à Lyon, une enquête ouverte",
+  "texte": "À Lyon, une équipe de BFMTV agressée en marge d'une manifestation, une enquête est ouverte.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "L'Est Républicain",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Ouest-France",
+   "Sud Ouest",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4262950-20261115-attentat-trappes-sandrine-rousseau-accuse-gouvernement-sous-estimer-menace-venant-extreme-droite?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/police-justice/video-justice-pour-pengo-justice-pour-toutes-les-victimes-une-marche-en-hommage-a-pengo-bossio-wangi-et-a-toutes-les-victimes-de-l-attentat-de-trappes-organisee-a-cergy-val-d-oise_VN-202611150284.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/15/stop-a-la-haine-une-marche-pour-pengo-bossio-wangi-tue-dans-l-attentat-raciste-de-trappes",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/15/stop-a-la-haine-une-marche-pour-pengo-bossio-wangi-tue-dans-l-attentat-raciste-de-trappes",
+   "Le Figaro France": "https://www.lefigaro.fr/flash-actu/dans-le-val-d-oise-marche-blanche-en-hommage-a-pengo-bossio-wangi-victime-de-l-attentat-raciste-de-trappes-20261115",
+   "Le Parisien": "https://www.leparisien.fr/politique/attentat-raciste-de-trappes-sandrine-rousseau-accuse-le-gouvernement-de-sous-estimer-la-menace-venant-de-lextreme-droite-15-11-2026-QAHYKB6SWJA3DB3U5HEOBYLIDU.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/15/stop-a-la-haine-une-marche-pour-pengo-bossio-wangi-tue-dans-l-attentat-raciste-de-trappes",
+   "Ouest-France": "https://www.ouest-france.fr/faits-divers/attentat/en-images-val-doise-marche-blanche-en-hommage-a-pengo-bossio-wangi-tue-dans-lattaque-raciste-de-trappes-3b23073e-e10a-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "Sud Ouest": "https://www.sudouest.fr/societe/racisme/meme-en-rentrant-chez-soi-on-a-peur-une-marche-blanche-en-hommage-a-pengo-bossio-wangi-tue-dans-l-attentat-raciste-de-trappes-31537245.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/une-centaine-de-personnes-reunies-pour-une-marche-blanche-en-hommage-a-pengo-bossio-wangi-tue-dans-l-attaque-raciste-de-trappes_8283689.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 102.99920995805556,
+  "personne": null,
+  "sig": [
+   "attent",
+   "bossio",
+   "marche",
+   "oise",
+   "pengo",
+   "racist",
+   "trappe",
+   "wangi"
+  ],
+  "youtube": "NvBs7KTsacg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-15T17:22:11.894241+00:00",
+  "edition": "2026-11-15T17:51:06.695693+01:00",
+  "semaine": false,
+  "titre": "Trappes : une marche blanche en hommage à Pengo Bossio Wangi",
+  "texte": "À Cergy, une centaine de personnes participent à une marche blanche en hommage à une victime de l'attentat de Trappes.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "DNA",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "DNA": "https://www.dna.fr/politique/2026/11/15/la-vente-de-mortiers-d-artifice-interdite-en-france-jusqu-au-27-novembre",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/15/ils-ne-servent-plus-a-faire-la-fete-le-gouvernement-annonce-linterdiction-de-la-vente-de-mortiers-dartifice-jusquau-27-novembre-13653574.php",
+   "Le Parisien": "https://www.leparisien.fr/societe/ils-servent-a-blesser-le-gouvernement-interdit-la-vente-de-mortiers-dartifice-jusquau-27-novembre-15-11-2026-76VKVJPD3VERVD7E6QYCSGY2NI.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/15/ces-engins-servent-a-blesser-le-gouvernement-frappe-fort-et-interdit-la-vente-des-mortiers-dartifice-apres-de-graves-incidents-13653616.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/securite/ces-engins-ne-servent-plus-a-faire-la-fete-ils-servent-a-blesser-le-gouvernement-interdit-la-vente-de-mortiers-d-artifice-jusqu-au-27-novembre-10761084",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/le-gouvernement-interdit-temporairement-la-vente-de-mortiers-d-artifice_8283545.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 97.99921055972223,
+  "personne": "Sandrine Rousseau",
+  "sig": [
+   "artifi",
+   "gouver",
+   "interd",
+   "jusqu",
+   "mortie",
+   "novemb",
+   "serven",
+   "vente"
+  ],
+  "youtube": "NvBs7KTsacg",
   "yt_attente": null
  }
 ]
