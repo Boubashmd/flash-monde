@@ -1,1142 +1,5 @@
 [
  {
-  "date": "2026-10-25T17:23:50.110590+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "Marine Le Pen se réclame de Jeanne d'Arc au congrès du RN",
-  "texte": "Au congrès du Rassemblement national à Orléans, Marine Le Pen a promis une « Renaissance » pour la France. Elle a aussi appelé ses militants à être « au rendez-vous de l'histoire ».",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 24",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/front-national/je-ne-vous-propose-pas-de-refaire-la-france-d-avant-marine-le-pen-plaide-pour-une-renaissance-du-pays_AD-202610250302.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261025-marine-le-pen-appelle-ses-militants-%C3%A0-%C3%AAtre-au-rendez-vous-de-l-histoire",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/direct-presidentielle-2027-marine-le-pen-va-tenir-son-premier-grand-meeting-de-campagne-au-congres-du-rn-a-orleans-ce-dimanche-13619521.php",
-   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-jordan-bardella-confirme-comme-premier-ministre-en-cas-de-victoire-du-rassemblement-national-25-10-2026-F72REPORYVCV5JHJNHFQSAT6JY.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/presidentielle-2027-priorite-nationale-jordan-bardella-premier-ministre-referendum-que-retenir-du-premier-meeting-de-marine-le-pen-13619984.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/congres-du-rn-a-orleans-une-centaine-de-militants-antifascites-rassembles-malgre-les-interdictions-10746234",
-   "Ouest-France": "https://www.ouest-france.fr/politique/rassemblement-national/reportage-notre-seule-boussole-cest-la-france-marine-le-pen-officiellement-en-campagne-presidentielle-c98e05be-d043-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/politique/congres-du-rn-a-orleans-une-centaine-de-militants-antifascistes-rassembles-malgre-les-interdictions-31237169.php",
-   "actu.fr": "https://actu.fr/politique/marine-le-pen-a-t-elle-fait-son-discours-bracelet-electronique-au-pied-lors-du-premier-grand-meeting-de-campagne-du-rn_64974158.html"
-  },
-  "score": 102.99935343972223,
-  "personne": "Marine Le Pen",
-  "sig": [
-   "bardel",
-   "candid",
-   "congre",
-   "electi",
-   "marine",
-   "nous",
-   "pen",
-   "presid"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T17:23:50.110614+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "Midterms : Barack Obama entre en campagne contre Donald Trump",
-  "texte": "À une dizaine de jours des élections de mi-mandat, Barack Obama multiplie les meetings en faveur des démocrates. Il critique l'administration Trump et appelle les électeurs à se mobiliser.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "BBC Afrique",
-   "France 24",
-   "La Dépêche",
-   "Le Monde",
-   "Le Parisien",
-   "franceinfo"
-  ],
-  "liens": {
-   "BBC Afrique": "https://www.bbc.com/afrique/articles/ck9dzvx4j9npo?at_medium=RSS&at_campaign=rss",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261025-midterms-2026-barack-obama-en-campagne-pour-les-d%C3%A9mocrates",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/donald-trump-pourquoi-devons-nous-toujours-prendre-des-gens-venant-de-pays-de-merde-pourquoi-pas-des-gens-de-norvege-ou-du-danemark-a-quelques-jours-13619644.php",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/midterms-2026-pour-les-democrates-la-reconquete-du-senat-passe-par-le-maine_6800076_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/deux-annees-de-chaos-de-cruaute-de-corruption-barack-obama-se-paie-donald-trump-a-une-semaine-des-midterms-25-10-2026-YT5A6OOUNJGTJA2M72L3OFVHGA.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/usa/midterms-2018/ca-fait-du-bien-de-revenir-a-dix-jours-des-elections-de-mi-mandat-aux-etats-unis-barack-obama-entre-en-campagne-contre-donald-trump_8252905.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 92.9993538625,
-  "personne": "Barack Obama",
-  "sig": [
-   "2026",
-   "barack",
-   "campag",
-   "democr",
-   "donald",
-   "midter",
-   "obama",
-   "trump"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T17:23:50.110623+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "Israël bouclage de la Cisjordanie avant les législatives",
-  "texte": "Israël va boucler la Cisjordanie mardi, jour des élections législatives. Cette mesure suit la mort de deux soldats israéliens tués à Hébron par des hommes armés palestiniens.",
-  "iso": [
-   "ISR",
-   "PSE"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "BFMTV",
-   "Courrier international",
-   "Euronews",
-   "Le Figaro",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/moyen-orient/israel/vous-subirez-des-represailles-benjamin-netanyahu-avertit-l-iran-de-ne-pas-tenter-de-perturber-les-elections-legislatives-en-israel_AD-202610250300.html",
-   "Courrier international": "https://www.courrierinternational.com/explainer/elections-legislatives-en-israel-comment-ca-marche_278928",
-   "Euronews": "https://fr.euronews.com/2026/10/25/israel-annonce-un-bouclage-des-frontieres-de-la-cisjordanie-pour-les-elections-apres-une-f",
-   "Le Figaro": "https://www.lefigaro.fr/international/la-cisjordanie-theatre-d-une-vaste-operation-militaire-a-deux-jours-des-elections-en-israel-20261025",
-   "Sud Ouest": "https://www.sudouest.fr/international/israel-benjamin-netanyahu-met-en-garde-l-iran-contre-toute-tentative-de-perturber-les-elections-legislatives-31238972.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/israel/israel-imposera-un-bouclage-de-la-cisjordanie-mardi-en-raison-des-elections-legislatives_8252737.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 92.90188736166667,
-  "personne": "Benjamin Netanyahu",
-  "sig": [
-   "benjam",
-   "boucla",
-   "cisjor",
-   "electi",
-   "iran",
-   "israel",
-   "legisl",
-   "netany"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T17:23:50.110629+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "Brésil : Lula et Flavio Bolsonaro se disputent le second tour",
-  "texte": "Au Brésil, environ 160 millions d'électeurs votent pour un second tour serré entre Lula et Flavio Bolsonaro.",
-  "iso": [
-   "BRA"
-  ],
-  "pays": "Brésil",
-  "sources": [
-   "France 24",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Parisien",
-   "RFI",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261025-au-br%C3%A9sil-159-millions-d-%C3%A9lecteurs-appel%C3%A9s-%C3%A0-trancher-un-scrutin-pr%C3%A9sidentiel-ind%C3%A9cis",
-   "Le Figaro France": "https://www.lefigaro.fr/international/presidentielle-au-bresil-ouverture-des-bureaux-de-vote-pour-le-second-tour-entre-lula-et-bolsonaro-20261025",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/au-bresil-les-soutiens-de-lula-et-bolsonaro-mobilises-jusqu-au-bout-mon-pere-ne-votait-plus-je-l-ai-convaincu-que-cette-election-etait-la-plus-importante-de-notre-vie_6800063_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/sports/football/neymar-rai-raphinha-pour-le-second-tour-de-la-presidentielle-au-bresil-entre-lula-et-bolsonaro-ou-se-sont-rangees-les-stars-du-foot-25-10-2026-GCU6OJNUGNAK3JPCFANORG5MFU.php",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261025-pr%C3%A9sidentielle-au-br%C3%A9sil-160-millions-d-%C3%A9lecteurs-aux-urnes-pour-un-duel-serr%C3%A9-entre-lula-et-flavio-bolsonaro",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/lula-et-flavio-bolsonaro-s-affrontent-dans-un-scrutin-serre-mais-decisif-29396057.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/bresil/reportage-des-raisons-pour-que-lula-reste-il-n-y-en-a-pas-au-bresil-un-scrutin-presidentiel-incertain-dans-un-pays-profondement-divise_8252848.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 72.9993539336111,
-  "personne": "Lula da Silva",
-  "sig": [
-   "bolson",
-   "bresil",
-   "electe",
-   "lula",
-   "presid",
-   "scruti",
-   "second",
-   "tour"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T17:23:50.110635+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "Gilets jaunes appellent à des casserolades avant le 31 octobre",
-  "texte": "Après les manifestations du 24 octobre, les gilets jaunes appellent à des casserolades vendredi, avant une nouvelle mobilisation le 31 octobre.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 3 Régions",
-   "La Dépêche",
-   "Midi Libre",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/il-faut-avoir-la-ref-a-marseille-les-jeunes-manifestants-detournent-tiktok-le-rap-et-la-politique-sur-leurs-pancartes-lors-de-la-mobilisation-du-24-octobre-3439032.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/manifestations-du-24-octobre-la-chaine-cnews-sexcuse-apres-avoir-diffuse-des-images-de-la-mobilisation-en-albanie-13618881.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/derive-autoritaire-les-gilet-jaunes-appellent-a-des-casserolades-devant-lassemblee-avant-une-nouvelle-journee-de-mobilisation-13619776.php",
-   "Sud Ouest": "https://www.sudouest.fr/societe/mobilisation-sociale-les-gilets-jaunes-appellent-a-des-casserolades-vendredi-avant-une-nouvelle-journee-de-manifestations-samedi-31-octobre-31235277.php",
-   "actu.fr": "https://actu.fr/bretagne/vitre_35360/manifestation-a-vitre-nous-appelons-a-amplifier-la-mobilisation-la-prochaine-prevue-le-samedi-31-octobre_64974332.html"
-  },
-  "score": 72.94966513944445,
-  "personne": null,
-  "sig": [
-   "appell",
-   "casser",
-   "jaunes",
-   "jeunes",
-   "journe",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T17:23:50.110641+00:00",
-  "edition": "2026-10-25T18:13:45.829067+01:00",
-  "semaine": false,
-  "titre": "À Nice, 63 interpellations lors de la manifestation du 24 octobre",
-  "texte": "À Nice, 63 personnes ont été interpellées après la manifestation du 24 octobre, dont une dizaine de militants d'ultradroite.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Midi Libre",
-   "Ouest-France",
-   "actu.fr"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/une-milice-d-extreme-droite-qui-est-ce-groupe-mobilise-pendant-la-manifestation-du-24-octobre-3438933.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/manifestations-du-24-octobre-le-parquet-de-clermont-ferrand-ouvre-une-enquete-apres-la-grave-blessure-a-la-main-dun-manifestant-13619914.php",
-   "Le Figaro France": "https://www.lefigaro.fr/nice/a-nice-une-enquete-ouverte-apres-des-violences-de-l-ultra-droite-contre-des-manifestants-20261025",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/25/manifestations-du-24-octobre-enquete-ouverte-a-nice-contre-des-membres-de-la-mouvance-d-ultradroite-apres-des-agressions-de-manifestants_6800088_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/manifestation-du-24-octobre-enquete-ouverte-apres-la-blessure-a-la-main-dun-manifestant-vraisemblablement-due-a-une-grenade-de-la-police-25-10-2026-A3BKJU4RXZAXREWLLB4TNXAY2A.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/ce-groupe-dultradroite-dont-la-presence-a-mis-le-feu-aux-poudres-lors-de-la-manifestation-du-24-octobre-13619758.php",
-   "Ouest-France": "https://www.ouest-france.fr/faits-divers/accidents/un-vehicule-prend-feu-apres-une-sortie-de-route-en-finistere-une-personne-est-decedee-une-autre-est-gravement-blessee-0de966cc-d08a-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "actu.fr": "https://actu.fr/ile-de-france/trappes_78621/nouveau-coup-de-feu-a-trappes-une-personne-blessee-par-balle-devant-lhopital_64974352.html"
-  },
-  "score": 67.99935364111111,
-  "personne": null,
-  "sig": [
-   "blesse",
-   "blessu",
-   "droite",
-   "enquet",
-   "manife",
-   "nice",
-   "octobr",
-   "person"
-  ],
-  "youtube": "MjJZFuVcqmY",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826223+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Marine Le Pen lance sa campagne présidentielle à Orléans",
-  "texte": "À Orléans, Marine Le Pen a lancé sa campagne pour la présidentielle lors d'un meeting réunissant plus de 8 000 soutiens. Elle y a développé le thème de la « renaissance ».",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/politique/4257330-20261025-congres-rn-orleans-marine-pen-lance-campagne-france-apaisee-ville-barricadee?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/politique/video-c-est-au-gouvernement-et-ceux-qui-dirigent-que-j-ai-envie-de-demander-des-comptes-lance-nathalie-arthaud-porte-parole-de-lutte-ouvriere-et-candidate-a-l-election-presidentielle_VN-202610250407.html",
-   "Courrier international": "https://www.courrierinternational.com/article/vu-de-l-etranger-a-orleans-marine-le-pen-lance-sa-campagne-en-tirant-profit-des-emeutes-du-17-octobre_281196",
-   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/25/manifestation-sauvage-qui-mene-la-danse-des-profils-varies-a-strasbourg",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261025-marine-le-pen-lance-sa-campagne-pour-l-%C3%A9lection-pr%C3%A9sidentielle-%C3%A0-orl%C3%A9ans",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/manifestation-du-24-octobre-a-toulouse-un-blesse-grave-avec-une-main-delabree-des-incidents-limites-mais-un-centre-ville-en-berne-bilan-contraste-13620013.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-marine-le-pen-reorganise-son-parti-et-lance-sa-campagne-a-orleans-20261025",
-   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/10/25/presidentielle-2027-a-orleans-marine-le-pen-lance-sa-campagne-entre-radicalite-et-optimisme-dans-une-ville-en-etat-de-siege_6800113_823448.html",
-   "Le Parisien": "https://www.leparisien.fr/societe/parcoursup-remplacement-des-professeurs-les-organisations-lyceennes-et-etudiantes-recues-lundi-a-matignon-avant-les-annonces-du-gouvernement-25-10-2026-NZKAUEZI4FAI5DOJPZEFZHZJLM.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/25/des-manifestations-massives-et-plutot-calmes-samedi-macron-promet-aux-lyceens-des-reponses-lundi",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/presidentielle-2027-priorite-nationale-jordan-bardella-premier-ministre-referendum-que-retenir-du-premier-meeting-de-marine-le-pen-13619984.php",
-   "Ouest-France": "https://www.ouest-france.fr/education/ecole/mobilisation-des-lyceens-et-etudiants-les-organisations-recues-a-matignon-ce-lundi-une-conference-de-presse-attendue-1440cd5c-d0b3-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/marine-le-pen-a-donne-son-premier-grand-meeting-presidentiel-a-orleans-29396094.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/politique/presidentielle-2027-marine-le-pen-souhaite-abolir-la-loi-hulot-sur-la-fin-de-l-exploitation-des-hydrocarbures-en-france-31243148.php"
-  },
-  "score": 152.99932303361112,
-  "personne": "Marine Le Pen",
-  "sig": [
-   "2027",
-   "colere",
-   "lyceen",
-   "marine",
-   "orlean",
-   "pen",
-   "presid",
-   "social"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826244+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Garde à vue du tireur de Trappes levée, raisons psychiatriques",
-  "texte": "À Trappes, le parquet antiterroriste a levé la garde à vue du suspect dans l'attaque qui a fait un mort, pour des raisons psychiatriques. Des traces de drogue ont été décelées dans son organisme.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "actu.fr",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/sport/4257341-20261025-attentat-raciste-trappes-aubervilliers-rend-hommage-combattant-pengo-bossio-wangi-homme-bien?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/police-justice/attentat-raciste-dans-les-yvelines-associations-et-syndicats-appellent-a-des-rassemblements-lundi-partout-en-france_AD-202610250354.html",
-   "DNA": "https://www.dna.fr/societe/2026/10/25/attentat-raciste-de-trappes-la-garde-a-vue-levee-temporairement-le-suspect-envoye-en-psychiatrie",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261025-hommage-%C3%A0-aubervilliers-%C3%A0-pengo-bossio-wangi-la-garde-%C3%A0-vue-du-tireur-lev%C3%A9e",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/attentat-raciste-a-trappes-c-etait-une-bonne-personne-souriante-avec-l-esprit-d-equipe-aubervilliers-rend-un-vibrant-hommage-a-pengo-bossio-wangi-26-ans-3438972.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/societe/2026/10/25/apres-l-attaque-raciste-a-trappes-une-marche-en-hommage-a-pengo-et-contre-le-racisme-qui-tue",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/attentat-raciste-dans-les-yvelines-cetait-un-jeune-homme-tres-apprecie-plusieurs-centaines-de-personnes-reunies-pour-rendre-hommage-a-pengo-bossio-13619877.php",
-   "Le Dauphiné": "https://www.ledauphine.com/societe/2026/10/25/apres-l-attaque-raciste-a-trappes-une-marche-en-hommage-a-pengo-et-contre-le-racisme-qui-tue",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/il-est-mort-parce-qu-il-est-noir-c-est-tout-a-la-marche-en-memoire-de-pengo-bossio-wangi-tue-par-kevin-t-a-trappes-20261025",
-   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/10/25/apres-l-attentat-raciste-de-trappes-le-maire-ali-rabeh-le-president-de-la-republique-n-a-pas-ete-le-protecteur-qu-il-aurait-du-etre_6800093_823448.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/attentat-raciste-dans-les-yvelines-paris-bordeaux-roubaix-des-rassemblements-lundi-dans-plusieurs-villes-25-10-2026-PCQ3VJW3XZBJJLMC7YZU47X5CQ.php",
-   "Le Progrès": "https://www.leprogres.fr/societe/2026/10/25/attentat-raciste-de-trappes-la-garde-a-vue-levee-temporairement-le-suspect-envoye-en-psychiatrie",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/attentat-raciste-de-trappes-la-garde-a-vue-du-suspect-a-ete-levee-kevin-t-va-etre-soumis-a-une-expertise-psychiatrique-13619601.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/tireur-victimes-gardes-a-vue-ce-que-l-on-sait-de-l-attentat-raciste-dans-les-yvelines-10746466",
-   "Sud Ouest": "https://www.sudouest.fr/societe/tuerie-dans-les-yvelines-des-rassemblements-lundi-dans-plusieurs-villes-dont-bordeaux-pour-denoncer-la-banalisation-de-la-haine-raciste-31241524.php",
-   "actu.fr": "https://actu.fr/occitanie/montpellier_34172/appel-a-un-rassemblement-contre-le-racisme-a-montpellier-apres-l-attentat-dans-les-yvelines_64973803.html",
-   "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/tirs-dans-les-yvelines-la-garde-a-vue-du-suspect-levee-pour-raisons-psychiatriques_8253484.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 147.99932301416666,
-  "personne": null,
-  "sig": [
-   "attent",
-   "bossio",
-   "hommag",
-   "pengo",
-   "racist",
-   "trappe",
-   "wangi",
-   "yvelin"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826252+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Zelensky confirme une réunion Moscou-Washington en novembre",
-  "texte": "En Ukraine, Volodymyr Zelensky a confirmé qu'une réunion entre Russes et Ukrainiens se tiendra en novembre, sous médiation américaine. Elle doit relancer des négociations de paix au point mort.",
-  "iso": [
-   "UKR",
-   "RUS",
-   "USA"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RTS",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4257375-20261025-guerre-ukraine-zelensky-confirme-reunion-entre-russes-ukrainiens-americains-lieu-novembre?at_medium=display&at_campaign=149",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/25/guerre-en-ukraine-une-reunion-entre-russes-ukrainiens-et-americains-aura-lieu-en-novembre-affirme-volodymyr-zelensky-13620192.php",
-   "Le Dauphiné": "https://www.ledauphine.com/defense-guerre-conflit/2026/10/25/une-reunion-entre-russes-ukrainiens-et-americains-aura-lieu-en-novembre-confirme-zelensky",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/nous-sommes-prets-a-discuter-volodymyr-zelensky-confirme-quune-reunion-entre-russes-ukrainiens-et-americains-aura-lieu-en-novembre-25-10-2026-HC67ERCMNNC5XE7LVY23BXKX3A.php",
-   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/10/25/une-reunion-entre-russes-ukrainiens-et-americains-aura-lieu-en-novembre-confirme-zelensky",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/guerre-en-ukraine-nous-sommes-prets-a-discuter-volodymyr-zelensky-daccord-pour-echanger-avec-la-russie-dun-accord-de-paix-13620160.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/ukraine-kiev-confirme-une-reunion-avec-moscou-et-washington-29396290.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/guerre-en-ukraine-nous-sommes-prets-a-discuter-zelensky-confirme-qu-une-reunion-entre-russes-ukrainiens-et-americains-aura-lieu-en-novembre-31242415.php"
-  },
-  "score": 92.99932243194445,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "americ",
-   "aura",
-   "lieu",
-   "novemb",
-   "reunio",
-   "russes",
-   "ukrain",
-   "zelens"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826258+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Élections en Israël : Netanyahou met en garde l'Iran",
-  "texte": "En Israël, Benyamin Netanyahou menace l'Iran de représailles disproportionnées s'il tente de perturber les législatives du 27 octobre.",
-  "iso": [
-   "ISR",
-   "IRN"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "20 Minutes",
-   "BFMTV",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/israel/4257357-20261025-legislatives-israel-netanyahou-avertit-iran-tenter-perturber-elections?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/moyen-orient/israel/video-legislatives-en-israel-le-principal-rival-de-benjamin-netanyahu-en-tete-dans-les-sondages_VN-202610250379.html",
-   "Le Figaro France": "https://www.lefigaro.fr/international/israel-netanyahou-avertit-l-iran-de-ne-pas-tenter-de-perturber-les-legislatives-20261025",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/l-enjeu-est-existentiel-des-milliers-d-israeliens-etablis-a-l-etranger-affluent-dans-le-pays-pour-voter-aux-elections-legislatives-du-27-octobre_6800108_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/25/l-enjeu-est-existentiel-des-milliers-d-israeliens-etablis-a-l-etranger-affluent-dans-le-pays-pour-voter-aux-elections-legislatives-du-27-octobre_6800108_3210.html",
-   "RFI": "https://www.rfi.fr/fr/moyen-orient/20261025-%C3%A9lections-en-isra%C3%ABl-les-cl%C3%A9s-pour-comprendre-le-scrutin-du-27-octobre-2026",
-   "Sud Ouest": "https://www.sudouest.fr/international/israel-benjamin-netanyahu-met-en-garde-l-iran-contre-toute-tentative-de-perturber-les-elections-legislatives-31238972.php"
-  },
-  "score": 92.18204767611111,
-  "personne": "Benyamin Netanyahou",
-  "sig": [
-   "afflue",
-   "electi",
-   "iran",
-   "israel",
-   "legisl",
-   "netany",
-   "octobr",
-   "pertur"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826264+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Maria Corina Machado de retour au Venezuela après un an d'exil",
-  "texte": "Au Venezuela, l'opposante et prix Nobel de la paix Maria Corina Machado annonce son retour après près d'un an d'exil.",
-  "iso": [
-   "VEN"
-  ],
-  "pays": "Venezuela",
-  "sources": [
-   "20 Minutes",
-   "BFMTV",
-   "France 24",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4257360-20261025-venezuela-opposante-machado-prix-nobel-paix-annonce-etre-retour-pays?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-latine/venezuela-maria-corina-machado-cheffe-de-l-opposition-et-prix-nobel-de-la-paix-de-retour-dans-le-pays_AD-202610250338.html",
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261025-la-prix-nobel-maria-corina-machado-de-retour-au-venezuela-apr%C3%A8s-pr%C3%A8s-d-un-an-d-exil",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/l-opposante-maria-corina-machado-annonce-etre-de-retour-au-venezuela_6800104_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/25/l-opposante-maria-corina-machado-annonce-etre-de-retour-au-venezuela_6800104_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/venezuela/je-suis-ici-avec-vous-maria-corina-machado-de-retour-au-venezuela-pour-prendre-la-tete-du-pays-25-10-2026-TRBQJG42HFEKFAC7RV42TKJOTE.php",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261025-l-opposante-exil%C3%A9e-maria-corina-machado-annonce-%C3%AAtre-de-retour-au-venezuela",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/venezuela-l-opposante-maria-corina-machado-est-de-retour-29396125.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/venezuela/venezuela-l-opposante-maria-corina-machado-annonce-son-retour-dans-le-pays-31238838.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/venezuela/l-opposante-et-prix-nobel-de-la-paix-maria-corina-machado-annonce-etre-de-retour-au-venezuela_8253460.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 89.99932260277778,
-  "personne": "María Corina Machado",
-  "sig": [
-   "corina",
-   "machad",
-   "maria",
-   "nobel",
-   "opposa",
-   "prix",
-   "retour",
-   "venezu"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-25T22:10:38.826270+00:00",
-  "edition": "2026-10-25T23:05:17.769954+01:00",
-  "semaine": false,
-  "titre": "Serbie : Aleksandar Vucic reconnaît sa défaite aux législatives",
-  "texte": "En Serbie, Aleksandar Vucic reconnaît sa défaite aux législatives anticipées, après quatorze ans au pouvoir.",
-  "iso": [
-   "SRB"
-  ],
-  "pays": "Serbie",
-  "sources": [
-   "France 24",
-   "L'Est Républicain",
-   "Le Dauphiné",
-   "Le Monde",
-   "Le Monde France",
-   "Le Progrès",
-   "Ouest-France",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/europe/20261025-serbie-aleksandar-vucic-conc%C3%A8de-sa-d%C3%A9faite-aux-l%C3%A9gislatives-anticip%C3%A9es",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/25/le-nationaliste-aleksandar-vucic-reconnait-sa-defaite-aux-legislatives-face-a-un-puissant-mouvement-etudiant",
-   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/10/25/le-nationaliste-aleksandar-vucic-reconnait-sa-defaite-aux-legislatives-face-a-un-puissant-mouvement-etudiant",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/25/serbie-aleksandar-vucic-reconnait-sa-defaite-aux-elections-legislatives-anticipees_6800116_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/25/serbie-aleksandar-vucic-reconnait-sa-defaite-aux-elections-legislatives-anticipees_6800116_3210.html",
-   "Le Progrès": "https://www.leprogres.fr/politique/2026/10/25/le-nationaliste-aleksandar-vucic-reconnait-sa-defaite-aux-legislatives-face-a-un-puissant-mouvement-etudiant",
-   "Ouest-France": "https://www.ouest-france.fr/economie/service-personne/elections-legislatives-en-serbie-le-president-aleksandar-vucic-reconnait-sa-defaite-f65adac2-d0bb-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RFI": "https://www.rfi.fr/fr/europe/20261025-serbie-l-ancien-pr%C3%A9sident-aleksandar-vucic-reconna%C3%AEt-sa-d%C3%A9faite-aux-l%C3%A9gislatives-anticip%C3%A9es",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/serbie-forte-mobilisation-pour-les-elections-legislatives-29396023.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/legislatives-en-serbie-le-nationaliste-aleksandar-vucic-reconnait-sa-defaite-31243433.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/le-premier-ministre-serbe-aleksandar-vucic-reconnait-sa-defaite-aux-elections-legislatives-anticipees-apres-14-ans-au-pouvoir_8253550.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 87.75065878722222,
-  "personne": "Aleksandar Vucic",
-  "sig": [
-   "aleksa",
-   "antici",
-   "defait",
-   "legisl",
-   "nation",
-   "reconn",
-   "serbie",
-   "vucic"
-  ],
-  "youtube": "2vdJj4Zc3Fc",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-26T08:54:44.378245+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Lula réélu au Brésil, Bolsonaro demande l'annulation du scrutin",
-  "texte": "Au Brésil, Lula remporte un quatrième mandat avec 51,8 pour cent des voix. Son rival Flávio Bolsonaro annonce qu'il va demander l'annulation de l'élection. Des milliers de partisans ont célébré dans les rues.",
-  "iso": [
-   "BRA"
-  ],
-  "pays": "Brésil",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BBC Afrique",
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "Euronews",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/bresil/4257402-20261026-bresil-victoire-lula-presidentielle-contre-bolsonaro-pays-reste-gauche?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/bresil/4257402-20261026-bresil-victoire-lula-presidentielle-contre-bolsonaro-pays-reste-gauche?at_medium=display&at_campaign=149",
-   "BBC Afrique": "https://www.bbc.com/afrique/articles/cm3vqegn994po?at_medium=RSS&at_campaign=rss",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-latine/bresil/la-france-et-le-bresil-ont-beaucoup-a-construire-ensemble-emmanuel-macron-fecilite-le-president-bresilien-de-gauche-lula-apres-sa-reelection_AD-202610260185.html",
-   "Courrier international": "https://www.courrierinternational.com/article/election-une-remontada-historique-au-bresil-lula-dejoue-les-pronostics-en-battant-flavio-bolsonaro_281295",
-   "DNA": "https://www.dna.fr/politique/2026/10/26/presidentielle-lula-decroche-un-quatrieme-mandat-contre-toute-attente",
-   "Euronews": "https://fr.euronews.com/video/2026/10/26/bresil-des-milliers-de-personnes-dans-la-rue-pour-feter-la-victoire-de-lula",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/26/presidentielle-lula-decroche-un-quatrieme-mandat-contre-toute-attente",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/presidentielle-au-bresil-lula-decroche-un-quatrieme-mandat-son-rival-conservateur-flavio-bolsonaro-souhaite-annuler-le-scrutin-13620642.php",
-   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/10/26/presidentielle-lula-decroche-un-quatrieme-mandat-contre-toute-attente",
-   "Le Figaro France": "https://www.lefigaro.fr/international/contre-toute-attente-lula-decroche-un-quatrieme-mandat-inedit-le-bresil-reste-a-gauche-20261026",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/26/bresil-lula-reelu-president-a-la-surprise-generale-au-terme-d-une-mobilisation-massive-et-d-un-scrutin-chaotique_6800431_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/presidentielle-au-bresil-les-images-de-la-joie-intense-des-partisans-de-lula-reelu-face-a-bolsonaro-26-10-2026-MGOUSNAC2ZH6ZAWT3EOFXHVMYU.php",
-   "Le Progrès": "https://www.leprogres.fr/politique/2026/10/26/presidentielle-lula-decroche-un-quatrieme-mandat-contre-toute-attente",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/26/election-presidentielle-au-bresil-lula-reelu-contre-toute-attente-flavio-bolsonaro-annonce-demander-lannulation-du-scrutin-13620645.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/politique/bresil-lula-decroche-un-quatrieme-mandat-bolsonaro-reclame-l-annulation-du-scrutin-10746762",
-   "Ouest-France": "https://www.ouest-france.fr/monde/bresil/analyse-comment-lula-a-reussi-a-decrocher-un-quatrieme-mandat-au-bresil-4fc2b9d0-d0cc-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/bresil-lula-reelu-pour-un-quatrieme-mandat-inedit-29396448.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/bresil/presidentielle-au-bresil-lula-reelu-pour-un-quatrieme-mandat-flavio-bolsonaro-conteste-le-scrutin-31245693.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/bresil/reportage-j-ai-eu-du-mal-a-y-croire-je-suis-hyper-contente-au-bresil-les-partisans-de-lula-sont-en-liesses-apres-sa-victoire-a-la-presidentielle_8253853.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 157.99937528944446,
-  "personne": "Luiz Inácio Lula da Silva",
-  "sig": [
-   "bolson",
-   "bresil",
-   "decroc",
-   "flavio",
-   "lula",
-   "mandat",
-   "presid",
-   "quatri"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T08:54:44.378269+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Le gouvernement annonce des mesures pour la crise lycéenne",
-  "texte": "En France, le gouvernement doit présenter lundi des réponses à la mobilisation lycéenne et étudiante. Les annonces concerneraient Parcoursup, l'état des bâtiments et le nombre de places à l'université.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Nice-Matin",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "DNA": "https://www.dna.fr/social/2026/10/26/les-organisations-lyceennes-recues-par-le-premier-ministre-ce-lundi-des-annonces-attendues",
-   "France 24": "https://www.france24.com/fr/france/20261026-le-gouvernement-promet-lundi-r%C3%A9ponses-tr%C3%A8s-concr%C3%A8tes-mobilisation-lyc%C3%A9enne",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/26/les-organisations-lyceennes-recues-par-le-premier-ministre-ce-lundi-des-annonces-attendues",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/direct-colere-sociale-le-gouvernement-promet-des-reponses-tres-concretes-ce-lundi-apres-un-mois-de-crise-lyceenne-les-organisations-lyceennes-et-13620644.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/26/les-organisations-lyceennes-recues-par-le-premier-ministre-ce-lundi-des-annonces-attendues",
-   "Le Parisien": "https://www.leparisien.fr/societe/parcoursup-remplacement-des-professeurs-les-organisations-lyceennes-et-etudiantes-recues-lundi-a-matignon-avant-les-annonces-du-gouvernement-25-10-2026-NZKAUEZI4FAI5DOJPZEFZHZJLM.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/26/les-organisations-lyceennes-recues-par-le-premier-ministre-ce-lundi-des-annonces-attendues",
-   "Nice-Matin": "https://www.nicematin.com/societe/blocage-des-lycees/parcoursup-etat-des-batiments-apres-un-mois-de-crise-lyceenne-le-gouvernement-devrait-donner-ce-lundi-des-reponses-tres-concretes-10746765",
-   "Sud Ouest": "https://www.sudouest.fr/politique/mobilisation-des-lyceens-apres-un-mois-de-crise-place-enfin-aux-reponses-concretes-ce-lundi-31245963.php"
-  },
-  "score": 92.99937534277777,
-  "personne": "Sébastien Lecornu",
-  "sig": [
-   "435",
-   "attend",
-   "concre",
-   "lyceen",
-   "macron",
-   "marsei",
-   "repons",
-   "social"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T08:54:44.378277+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Glucksmann accuse LFI d'une campagne de harcèlement",
-  "texte": "En France, Raphaël Glucksmann affirme être victime d'une campagne de harcèlement de La France insoumise. Il dit ne pas pouvoir participer aux manifestations sans faire face à une hostilité organisée.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Nice-Matin",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/direct-presidentielle-2027-pas-un-pas-que-je-puisse-faire-sans-rencontrer-de-lhostilite-raphael-glucksmann-pointe-du-doigt-la-campagne-de-harcelement-13620682.php",
-   "Le Dauphiné": "https://www.ledauphine.com/societe/2026/10/25/la-france-insoumise-accuse-bfmtv-de-propager-des-propos-racistes-la-chaine-monte-au-creneau",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/raphael-glucksmann-se-declare-victime-d-une-campagne-de-harcelement-menee-par-la-france-insoumise-20261026",
-   "Nice-Matin": "https://www.nicematin.com/societe/politique/pourquoi-moi-pourquoi-ils-me-ciblent-moi-raphael-glucksmann-dit-etre-victime-d-une-campagne-de-harcelement-de-la-part-de-lfi-10746828",
-   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-raphael-glucksmann-accuse-la-france-insoumise-de-mener-une-campagne-de-harcelement-contre-lui-31246652.php"
-  },
-  "score": 82.93306194305555,
-  "personne": "Raphaël Glucksmann",
-  "sig": [
-   "2027",
-   "accuse",
-   "campag",
-   "france",
-   "glucks",
-   "harcel",
-   "insoum",
-   "raphae"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T08:54:44.378282+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Israël vote mardi, Nétanyahou et Eisenkot au coude-à-coude",
-  "texte": "En Israël, les élections législatives de mardi opposent Benyamin Nétanyahou à Gadi Eisenkot, au coude-à-coude dans les sondages.",
-  "iso": [
-   "ISR"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "La Dépêche",
-   "Le Monde",
-   "RFI",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/decryptage-elections-legislatives-du-27-octobre-en-israel-le-grand-saut-dans-linconnu-13619804.php",
-   "Le Monde": "https://www.lemonde.fr/m-le-mag/article/2026/10/26/elections-legislatives-en-israel-la-guerre-d-influence-de-yair-netanyahou-le-tres-a-droite-fils-de-son-pere_6800429_4500055.html",
-   "RFI": "https://www.rfi.fr/fr/podcasts/reportage-international/20261025-elections-l%C3%A9gislatives-en-israel-le-vote-des-colons-isra%C3%A9liens-en-cisjordanie-occup%C3%A9e",
-   "Sud Ouest": "https://www.sudouest.fr/international/moyen-orient/israel/elections-en-israel-gadi-eisenkot-prone-l-unite-nationale-au-coude-a-coude-avec-un-benjamin-netanyahou-offensif-31246310.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/israel/l-article-a-lire-pour-comprendre-les-enjeux-des-elections-legislatives-cruciales-en-israel_8228218.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.80028416527779,
-  "personne": "Benyamin Nétanyahou",
-  "sig": [
-   "articl",
-   "attaqu",
-   "benjam",
-   "electi",
-   "israel",
-   "legisl",
-   "netany",
-   "octobr"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T08:54:44.378286+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Marine Le Pen lance sa campagne à Orléans",
-  "texte": "En France, Marine Le Pen lance sa campagne présidentielle à Orléans et promet une renaissance sans rupture brutale.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "La Dépêche",
-   "Le Parisien",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/presidentielle-2027-bunkerisee-a-orleans-marine-le-pen-promet-une-renaissance-de-la-france-sans-rupture-brutale-13620097.php",
-   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/la-fin-dun-monde-de-leur-monde-a-orleans-loptimisme-force-de-marine-le-pen-25-10-2026-WL3JGMY5XRAKFCLSJISCE6VXTI.php",
-   "RFI": "https://www.rfi.fr/fr/france/20261026-france-au-congr%C3%A8s-du-rn-%C3%A0-orl%C3%A9ans-marine-le-pen-lance-sa-campagne-et-promet-une-renaissance",
-   "Sud Ouest": "https://www.sudouest.fr/politique/presidentielle-2027-marine-le-pen-souhaite-abolir-la-loi-hulot-sur-la-fin-de-l-exploitation-des-hydrocarbures-en-france-31243148.php"
-  },
-  "score": 72.99937542444445,
-  "personne": "Marine Le Pen",
-  "sig": [
-   "2027",
-   "congre",
-   "france",
-   "marine",
-   "orlean",
-   "pen",
-   "presid",
-   "renais"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T08:54:44.378292+00:00",
-  "edition": "2026-10-26T09:41:21.081406+01:00",
-  "semaine": false,
-  "titre": "Vučić reconnaît sa défaite face au mouvement étudiant",
-  "texte": "En Serbie, Aleksandar Vučić reconnaît sa défaite aux législatives face au mouvement étudiant, après quatorze ans au pouvoir.",
-  "iso": [
-   "SRB"
-  ],
-  "pays": "Serbie",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "Euronews",
-   "La Dépêche",
-   "Le Figaro",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Midi Libre",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4257389-20261026-serbie-defaite-dirigeant-nationaliste-aleksandar-vucic-legislatives?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4257389-20261026-serbie-defaite-dirigeant-nationaliste-aleksandar-vucic-legislatives?at_medium=display&at_campaign=149",
-   "Euronews": "https://fr.euronews.com/video/2026/10/25/serbie-la-foule-celebre-a-belgrade-apres-la-defaite-reconnue-par-vucic",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/elections-legislatives-en-israel-benyamin-netanyahou-de-soldat-delite-a-premier-ministre-poursuivi-par-la-justice-linsubmersible-homme-politique-veut-13614893.php",
-   "Le Figaro": "https://www.lefigaro.fr/international/serbie-vucic-balaye-aux-legislatives-par-un-mouvement-mene-par-des-etudiants-20261026",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/26/en-serbie-le-mouvement-des-etudiants-remporte-les-legislatives-face-au-dirigeant-populiste-aleksandar-vucic_6800348_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/26/en-serbie-le-mouvement-des-etudiants-remporte-les-legislatives-face-au-dirigeant-populiste-aleksandar-vucic_6800348_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/jai-limpression-de-vivre-enfin-dans-un-pays-libre-en-serbie-belgrade-fete-la-defaite-aux-elections-du-tyran-vucic-26-10-2026-RWA4MRZQS5AAXGDTCICTVYYLVI.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/26/meme-affaibli-benjamin-netanyahou-peut-il-etre-renverse-lors-des-elections-legislatives-organisees-en-israel-le-27-octobre-13620162.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/le-premier-ministre-serbe-aleksandar-vucic-reconnait-sa-defaite-aux-elections-legislatives-anticipees-apres-14-ans-au-pouvoir_8253550.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 72.99937529555555,
-  "personne": "Aleksandar Vučić",
-  "sig": [
-   "aleksa",
-   "defait",
-   "electi",
-   "etudia",
-   "legisl",
-   "nation",
-   "serbie",
-   "vucic"
-  ],
-  "youtube": null,
-  "yt_attente": "e029d6"
- },
- {
-  "date": "2026-10-26T14:07:02.609982+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Trappes : rassemblements contre le racisme en France",
-  "texte": "À Trappes et à La Verrière, dans les Yvelines, un homme a été tué par balles et cinq personnes blessées vendredi. Selon « Le Monde », le suspect était animé d'une motivation raciste, selon ses proches.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/faits_divers/4257547-20261026-attentat-trappes-verriere-rassemblements-lundi-plusieurs-villes-dont-paris?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/police-justice/attentat-raciste-de-trappes-des-rassemblements-organises-en-loire-atlantique-pour-mesurer-la-gravite-de-la-situation_AN-202610260483.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/parce-que-le-racisme-tue-apres-l-attentat-terroriste-de-trappes-plusieurs-rassemblements-organises-dans-le-nord-et-le-pas-de-calais-3439170.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/26/attentat-de-trappes-des-elus-rassembles-a-besancon-pour-un-moment-d-unite-republicaine",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/attentat-de-trappes-la-fillette-de-12-ans-est-desormais-consciente-un-blesse-toujours-dans-un-etat-critique-ce-que-lon-sait-de-letat-de-sante-des-13620981.php",
-   "Le Figaro France": "https://www.lefigaro.fr/faits-divers/on-a-appris-qu-il-avait-tourne-extreme-droite-kevin-t-le-suspect-de-l-attentat-de-trappes-a-t-il-ete-identifie-sur-la-photo-d-un-groupe-propalestinien-20261026",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/26/attentat-de-trappes-des-tracts-du-rassemblement-national-retrouves-dans-la-voiture-du-suspect-decrit-par-ses-proches-comme-raciste_6800776_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/attentat-raciste-dans-les-yvelines-le-recit-des-images-glacantes-de-kevin-t-captees-dans-la-station-essence-de-trappes-26-10-2026-BQ27VXTD7ZEJVI5RQLLUJ72CS4.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/terrorisme/c-est-un-attentat-terroriste-raciste-le-profil-psychiatrique-du-suspect-de-l-attaque-de-trappes-ne-change-rien-au-mobile-selon-laurent-nuez-10747027",
-   "Ouest-France": "https://www.ouest-france.fr/faits-divers/attentat/nous-devons-rester-unis-apres-lattentat-dans-les-yvelines-un-rassemblement-devant-la-mairie-des-ponts-de-ce-37947f84-d139-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/justice/terrorisme/tuerie-de-trappes-apres-celle-du-suspect-les-gardes-a-vue-des-proches-de-l-assaillant-levees-a-leur-tour-31249453.php",
-   "actu.fr": "https://actu.fr/occitanie/toulouse_31555/attentat-terroriste-de-trappes-deux-rassemblements-organises-a-toulouse-en-soutien-aux-victimes_64976360.html",
-   "franceinfo France": "https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/attaque-terroriste-dans-les-yvelines-l-emouvant-hommage-a-la-victime-de-trappes_8253868.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/attaque-terroriste-dans-les-yvelines-l-emouvant-hommage-a-la-victime-de-trappes_8253868.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 142.9993661963889,
-  "personne": null,
-  "sig": [
-   "attent",
-   "hommag",
-   "racist",
-   "rassem",
-   "suspec",
-   "trappe",
-   "victim",
-   "yvelin"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
-  "date": "2026-10-26T14:07:02.610013+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Michèle Barzach, ex-ministre de la Santé, est morte à 83 ans",
-  "texte": "Michèle Barzach, ancienne ministre de la Santé dans le gouvernement de Jacques Chirac, est morte lundi à l'âge de 83 ans. Sa fille a indiqué qu'elle est décédée des suites d'un AVC.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "L'Est Républicain",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/l-ancienne-ministre-et-ex-presidente-de-l-unicef-france-michele-barzach-est-morte-a-l-age-de-83-ans_AD-202610260465.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/10/26/l-ancienne-ministre-de-la-sante-michele-barzach-est-decedee-a-l-age-de-83-ans",
-   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/10/26/l-ancienne-ministre-de-la-sante-michele-barzach-est-decedee-a-l-age-de-83-ans",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/michele-barzach-ancienne-ministre-de-la-sante-sous-le-gouvernement-chirac-est-morte-20261026",
-   "Le Monde France": "https://www.lemonde.fr/disparitions/article/2026/10/26/michele-barzach-ancienne-ministre-de-la-sante-de-jacques-chirac-est-morte_6800783_3382.html",
-   "Le Parisien": "https://www.leparisien.fr/politique/lancienne-ministre-de-la-sante-michele-barzach-est-morte-a-lage-de-83-ans-26-10-2026-SJ44IACECRBLDMX2MS7P3AQO3I.php",
-   "Le Progrès": "https://www.leprogres.fr/politique/2026/10/26/l-ancienne-ministre-de-la-sante-michele-barzach-est-decedee-a-l-age-de-83-ans",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/26/mort-de-michele-barzach-lancienne-ministre-de-la-sante-et-de-la-famille-sous-jacques-chirac-est-decedee-des-suites-dun-avc-13620987.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/politique/victime-d-un-avc-l-ancienne-ministre-de-la-sante-michele-barzach-est-morte-a-l-age-de-83-ans-10747032",
-   "Ouest-France": "https://www.ouest-france.fr/politique/lancienne-ministre-de-la-sante-michele-barzach-est-morte-a-83-ans-79df6286-d13a-11f1-95ba-26d2045f6620?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/michele-barzach-ex-ministre-de-la-sante-est-morte-a-83-ans-29396904.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/sante/ancienne-ministre-de-la-sante-michele-barzach-est-morte-a-l-age-de-83-ans-31250505.php",
-   "actu.fr": "https://actu.fr/societe/pionniere-des-politiques-contre-le-sida-michele-barzach-ancienne-ministre-de-la-sante-de-jacques-chirac-est-morte_64976507.html"
-  },
-  "score": 132.99936597083334,
-  "personne": "Michèle Barzach",
-  "sig": [
-   "age",
-   "ancien",
-   "barzac",
-   "chirac",
-   "michel",
-   "minist",
-   "morte",
-   "sante"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
-  "date": "2026-10-26T14:07:02.610020+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Emmanuel Macron en visite surprise à Marseille après les pillages",
-  "texte": "À Marseille, Emmanuel Macron a rencontré le maire Benoît Payan, des policiers et des commerçants. Il a reconnu que les violences du 17 octobre n'avaient pas été anticipées par l'exécutif.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo France"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/politique/4257577-20261026-macron-visite-surprise-lundi-marseille-constater-retour-ordre-apres-violences-17-octobre?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/politique/video-ce-n-est-pas-normal-qu-a-six-mois-d-une-election-presidentielle-notre-pays-soit-dans-cet-etat-d-ebullition-affirme-emmanuel-macron_VN-202610260496.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/emmanuel-macron-a-marseille-policiers-pompiers-marianne-vandalisee-le-president-de-la-republique-s-entretient-avec-benoit-payan-en-prive-3439281.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/26/manifestations-du-24-octobre-comment-le-gouvernement-lecornu-a-envisage-la-coupure-des-reseaux-sociaux-pour-endiguer-les-emeutes-13620677.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/26/une-suspecte-en-garde-a-vue-pour-meurtre-apres-la-decouverte-d-un-homme-tue-a-l-arme-blanche",
-   "Le Figaro France": "https://www.lefigaro.fr/politique/17-octobre-futur-de-la-mobilisation-role-des-reseaux-sociaux-ce-qu-il-faut-retenir-de-l-intervention-d-emmanuel-macron-a-marseille-20261026",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/manifestations-du-samedi-24-octobre-267-membres-des-forces-de-lordre-et-150-manifestants-ont-ete-blesses-annonce-laurent-nunez-26-10-2026-MHSP3XA3QBEM7GR4JUZL77Z54I.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/25/attentat-raciste-de-trappes-la-garde-a-vue-du-suspect-a-ete-levee-kevin-t-va-etre-soumis-a-une-expertise-psychiatrique-13619601.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/social/presence-de-l-ultradroite-lors-de-manifestations-a-nice-la-police-ne-protege-pas-ces-militants-en-marge-des-corteges-assure-laurent-nuez-10746991",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/manifestation-du-24-octobre-sebastien-lecornu-a-envisage-une-suspension-temporaire-des-reseaux-sociaux-dans-une-lettre-rendue-publique-31247971.php",
-   "franceinfo France": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/apres-les-pillages-du-17-octobre-emmanuel-macron-en-deplacement-a-marseille_8254273.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 122.99936621666667,
-  "personne": "Emmanuel Macron",
-  "sig": [
-   "emmanu",
-   "forces",
-   "garde",
-   "macron",
-   "manife",
-   "marsei",
-   "octobr",
-   "ordre"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
-  "date": "2026-10-26T14:07:02.610025+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Bulgarie : la présidente sortante en tête du premier tour",
-  "texte": "En Bulgarie, la présidente sortante Iliana Iotova, favorable au dialogue avec Moscou, est en tête du premier tour devant Andreï Guiourov.",
-  "iso": [
-   "BGR"
-  ],
-  "pays": "Bulgarie",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/russie/4257551-20261026-presidentielle-bulgarie-partisane-dialogue-russie-presidente-sortante-sort-peu-tete?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/russie/4257551-20261026-presidentielle-bulgarie-partisane-dialogue-russie-presidente-sortante-sort-peu-tete?at_medium=display&at_campaign=149",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/26/bulgarie-vers-un-second-tour-serre-entre-la-presidente-sortante-iliana-iotova-favorable-au-dialogue-avec-la-russie-et-son-adversaire-pro-europeen-andrei-giourov_6800532_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/26/bulgarie-vers-un-second-tour-serre-entre-la-presidente-sortante-iliana-iotova-favorable-au-dialogue-avec-la-russie-et-son-adversaire-pro-europeen-andrei-giourov_6800532_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-double-par-jean-luc-melenchon-qualifie-pour-un-second-tour-avec-marine-le-pen-selon-un-nouveau-sondage-26-10-2026-H3MMNQ4PABEDVO4TC4OYKNTQIQ.php",
-   "actu.fr": "https://actu.fr/politique/election-presidentielle/marine-tondelier-n-exclut-pas-retirer-sa-candidature-mais-ne-tranche-pas-entre-jean-luc-melenchon-et-raphael-glucksmann_64975920.html"
-  },
-  "score": 72.99936610333333,
-  "personne": null,
-  "sig": [
-   "advers",
-   "bulgar",
-   "dialog",
-   "presid",
-   "russie",
-   "second",
-   "sortan",
-   "tour"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
-  "date": "2026-10-26T14:07:02.610030+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Hébron : l'armée israélienne poursuit son opération",
-  "texte": "À Hébron, en Cisjordanie occupée, plus de 2 000 Palestiniens ont été déplacés lors de l'opération de l'armée israélienne.",
-  "iso": [
-   "ISR",
-   "PSE"
-  ],
-  "pays": "Israël",
-  "sources": [
-   "Le Monde",
-   "Le Monde France",
-   "RFI",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/26/cisjordanie-a-hebron-entre-les-barricades-erigees-par-l-armee-israelienne-l-amer-sentiment-de-subir-une-punition-collective_6800779_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/26/cisjordanie-a-hebron-entre-les-barricades-erigees-par-l-armee-israelienne-l-amer-sentiment-de-subir-une-punition-collective_6800779_3210.html",
-   "RFI": "https://www.rfi.fr/fr/moyen-orient/20261026-je-suis-pr%C3%AAt-%C3%A0-creuser-un-tunnel-en-cisjordanie-occup%C3%A9e-un-palestinien-veut-regagner-sa-maison-%C3%A0-h%C3%A9bron-%C3%A0-tout-prix",
-   "Sud Ouest": "https://www.sudouest.fr/international/moyen-orient/israel/cisjordanie-plus-de-3-000-personnes-deplacees-acceleration-sans-precedent-de-la-colonisation-israelienne-sous-netanyahou-31249438.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/israel/nous-ne-partirons-pas-l-armee-israelienne-poursuit-son-operation-militaire-a-hebron-pendant-que-les-ong-mettent-en-garde-contre-une-campagne-de-nettoyage-ethnique_8254210.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 72.68500526722222,
-  "personne": "Benyamin Netanyahou",
-  "sig": [
-   "amer",
-   "armee",
-   "barric",
-   "cisjor",
-   "collec",
-   "erigee",
-   "hebron",
-   "israel"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
-  "date": "2026-10-26T14:07:02.610036+00:00",
-  "edition": "2026-10-26T14:51:15.498492+01:00",
-  "semaine": false,
-  "titre": "Brésil : Lula réélu, Flávio Bolsonaro demande l'annulation",
-  "texte": "Au Brésil, Lula est réélu, tandis que Flávio Bolsonaro demande l'annulation du scrutin.",
-  "iso": [
-   "BRA"
-  ],
-  "pays": "Brésil",
-  "sources": [
-   "France 24",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Parisien",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/am%C3%A9riques/20261026-revers-trump-climat-num%C3%A9rique-pourquoi-victoire-lula-porte-del%C3%A0-br%C3%A9sil",
-   "Le Figaro France": "https://www.lefigaro.fr/international/lula-la-vie-hors-du-commun-de-l-infatigable-champion-de-la-gauche-bresilienne-20221031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/26/la-victoire-de-lula-au-bresil-dans-la-presse-internationale-l-apogee-d-une-carriere-politique-incroyable_6800777_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/presidentielle-au-bresil-comment-lula-a-dejoue-tous-les-pronostics-pour-remporter-lelection-face-a-flavio-bolsonaro-26-10-2026-DM2H2HYJDFGANEWQOTB5RW7XZU.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/presidentielle-au-bresil-les-raisons-de-la-victoire-de-lula-29396672.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/bresil/presidentielle-au-bresil-lula-celebre-son-succes-bolsonaro-reclame-l-annulation-du-scrutin_8254054.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 62.99936628527778,
-  "personne": "Lula",
-  "sig": [
-   "bolson",
-   "bresil",
-   "flavio",
-   "lula",
-   "mandat",
-   "presid",
-   "quatri",
-   "victoi"
-  ],
-  "youtube": null,
-  "yt_attente": "c4c824"
- },
- {
   "date": "2026-10-26T19:39:09.097081+00:00",
   "edition": "2026-10-26T20:33:48.909627+01:00",
   "semaine": false,
@@ -10454,6 +9317,251 @@
    "vente"
   ],
   "youtube": "NvBs7KTsacg",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-16T16:57:54.556813+00:00",
+  "edition": "2026-11-16T17:51:18.165169+01:00",
+  "semaine": false,
+  "titre": "La cour d'assises d'Aix condamne deux hommes à perpétuité",
+  "texte": "À Aix-en-Provence, la cour d'assises a condamné à la perpétuité deux figures du narcobanditisme marseillais. Ils sont jugés pour le triple homicide de décembre 2020, dont une victime est le demi-frère d'Amine Kessaci.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "France 24",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4262982-20261116-triple-assassinat-marseille-condamnation-perpetuite-deux-principaux-accuses-figure-narcobanditisme?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/replay-emissions/bfm-story/video-marschall-truchot-kessaci-deux-accuses-condamnes-a-la-perpetuite-16-11_VN-202611160667.html",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261116-triple-narchomicide-en-france-l-heure-du-verdict-pour-la-dz-mafia",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/proces-du-meurtre-du-frere-d-amine-kessaci-deux-des-cinq-accuses-condamnes-a-la-perpetuite-pour-un-triple-narchomicide-3450732.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/16/triple-narchomicide-perpetuite-pour-deux-barons-marseillais-du-narcobanditisme",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/16/assassinat-du-frere-damine-kessaci-pres-de-marseille-deux-figures-du-narcotrafic-condamnees-a-la-prison-a-perpetuite-13655604.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/16/triple-narchomicide-perpetuite-pour-deux-barons-marseillais-du-narcobanditisme",
+   "Le Figaro France": "https://www.lefigaro.fr/marseille/prison-a-perpetuite-pour-amine-oualane-et-karim-harrat-au-proces-de-l-assassinat-du-frere-aine-d-amine-kessaci-20261116",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/16/deux-figures-du-narcobanditisme-marseillais-condamnes-a-la-perpetuite-pour-le-triple-narchomicide-de-2020-dont-l-une-des-victimes-est-le-demi-frere-d-amine-kessaci_6812173_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/triple-narchomicide-pres-de-marseille-en-2020-amine-oualane-et-karim-harrat-condamnes-a-la-perpetuite-16-11-2026-ILQUR3TA6BH7XO32XBPNS3ADPA.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/16/triple-narchomicide-perpetuite-pour-deux-barons-marseillais-du-narcobanditisme",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/16/meurtre-du-frere-damine-kessaci-deux-figures-du-narcobanditisme-marseillais-condamnees-a-la-prison-a-perpetuite-13655625.php"
+  },
+  "score": 129.99924565972222,
+  "personne": null,
+  "sig": [
+   "amine",
+   "condam",
+   "frere",
+   "kessac",
+   "marsei",
+   "narcho",
+   "perpet",
+   "triple"
+  ],
+  "youtube": "BYybBv19Hvk",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-16T16:57:54.556834+00:00",
+  "edition": "2026-11-16T17:51:18.165169+01:00",
+  "semaine": false,
+  "titre": "Des militaires français opèrent en Ukraine, selon RFI",
+  "texte": "De petits contingents de militaires français assurent des rotations en Ukraine, pour la formation et la réparation de matériel. Une source proche du dossier a confirmé ces informations au Monde. Selon RFI, cette mission porte le nom de Volia.",
+  "iso": [
+   "FRA",
+   "UKR"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes",
+   "France 24",
+   "La Dépêche",
+   "Le Figaro",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4263230-20261116-guerre-ukraine-soldats-francais-deployes-missions-soutien?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261116-guerre-en-ukraine-l-arm%C3%A9e-fran%C3%A7aise-joue-t-elle-un-r%C3%B4le-actif-dans-le-pays",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/16/guerre-en-ukraine-comment-des-militaires-francais-interviennent-secretement-sur-place-au-sein-de-la-mission-volia-sans-laval-du-parlement-13655319.php",
+   "Le Figaro": "https://www.lefigaro.fr/international/des-soldats-francais-presents-sur-le-sol-ukrainien-dans-le-cadre-de-l-operation-volia-20261116",
+   "Le Figaro France": "https://www.lefigaro.fr/international/des-soldats-francais-presents-sur-le-sol-ukrainien-dans-le-cadre-de-l-operation-volia-20261116",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/16/des-militaires-francais-operent-desormais-en-ukraine_6811865_3210.html",
+   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/16/des-militaires-francais-operent-desormais-en-ukraine_6811865_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-des-soldats-francais-participent-en-ukraine-a-une-mission-confidentielle-baptisee-volia-16-11-2026-2CZOAWUYDRBRLMOCQWVP2KBEHY.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/16/guerre-en-ukraine-600-drones-lances-vers-moscou-a-trois-jours-dune-rencontre-inedite-entre-vladimir-poutine-xi-jinping-et-donald-trump-13654822.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/conflits/de-petits-effectifs-pour-des-missions-courtes-depuis-plusieurs-mois-des-soldats-francais-sont-deployes-en-ukraine-pour-des-missions-de-soutien-10762375",
+   "RFI": "https://www.rfi.fr/fr/europe/20261116-mission-volia-comment-l-arm%C3%A9e-fran%C3%A7aise-op%C3%A8re-en-ukraine"
+  },
+  "score": 127.99924545166667,
+  "personne": null,
+  "sig": [
+   "armee",
+   "franca",
+   "guerre",
+   "milita",
+   "missio",
+   "soldat",
+   "ukrain",
+   "volia"
+  ],
+  "youtube": "BYybBv19Hvk",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-16T16:57:54.556841+00:00",
+  "edition": "2026-11-16T17:51:18.165169+01:00",
+  "semaine": false,
+  "titre": "Manifestations du 17 novembre : grève et cortèges en France",
+  "texte": "Une intersyndicale appelle à la grève et à la manifestation ce mardi 17 novembre, pour réclamer des hausses de salaires. À Besançon, le cortège est autorisé dans le centre-ville après un mois d'interdiction.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "DNA",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Figaro France",
+   "Nice-Matin",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/politique/direct-presidentielle-2027-edouard-philippe-refuse-toujours-une-primaire-mais-est-ouvert-au-rassemblement-plusieurs-candidats-a-l-elysee-debattent-ce-lundi-soir_LN-202611160145.html",
+   "DNA": "https://www.dna.fr/social/2026/11/16/pourquoi-a-fonction-publique-appelle-a-nouveau-a-la-greve-le-17-novembre",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/doubs/besancon/apres-un-mois-d-interdiction-la-manifestation-passera-par-le-centre-ville-de-besancon-le-17-novembre-on-est-encore-loin-de-la-normalite-denoncent-les-syndicats-3450780.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/16/greve-sncf-du-17-novembre-votre-ter-circule-t-il-ce-mardi-en-occitanie-tous-les-horaires-ligne-par-ligne-13655255.php",
+   "Le Figaro France": "https://www.lefigaro.fr/social/greve-du-17-novembre-transports-manifestations-a-quoi-faut-il-s-attendre-pour-cette-nouvelle-journee-de-mobilisation-20261116",
+   "Nice-Matin": "https://www.nicematin.com/societe/greves/greve-du-17-novembre-ecoles-transports-des-mobilisations-dans-les-alpes-maritimes-et-le-var-voici-ce-qui-est-prevu-10762387",
+   "Sud Ouest": "https://www.sudouest.fr/societe/greve-du-17-novembre-de-nouveaux-rassemblements-partout-en-france-ce-mardi-voici-les-points-de-rendez-vous-dans-le-sud-ouest-31550193.php",
+   "actu.fr": "https://actu.fr/auvergne-rhone-alpes/lyon_69123/greve-du-17-novembre-a-lyon-sncf-ecoles-voici-les-perturbations-attendues_65060424.html"
+  },
+  "score": 127.89588192888888,
+  "personne": null,
+  "sig": [
+   "attend",
+   "centre",
+   "ecoles",
+   "greve",
+   "manife",
+   "mobili",
+   "novemb",
+   "voici"
+  ],
+  "youtube": "BYybBv19Hvk",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-16T16:57:54.556847+00:00",
+  "edition": "2026-11-16T17:51:18.165169+01:00",
+  "semaine": false,
+  "titre": "Gérard Depardieu renonce à son appel et présente des excuses",
+  "texte": "Gérard Depardieu renonce à son procès en appel pour agressions sexuelles, sa condamnation devient définitive.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "DNA",
+   "France 24",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RTS",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4263170-20261116-gerard-depardieu-desiste-appel-condamnation-presente-excuses-victimes?at_medium=display&at_campaign=149",
+   "DNA": "https://www.dna.fr/social/2026/11/16/geffray-responsable-le-ministre-hue-lors-de-la-reouverture-du-lycee-nelson-mandela-incendie-en-octobre",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261116-france-depardieu-condamn%C3%A9-pour-agressions-sexuelles-les-victimes-soulag%C3%A9es-mais-perplexes",
+   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/11/16/geffray-responsable-le-ministre-hue-lors-de-la-reouverture-du-lycee-nelson-mandela-incendie-en-octobre",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/16/il-avait-souleve-la-jupe-de-marie-portolano-en-pleine-emission-sur-canal-lex-journaliste-star-pierre-menes-juge-ce-lundi-13652850.php",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/16/le-proces-de-pierre-menes-pour-agressions-et-harcelements-sexuels-s-est-ouvert-a-nanterre_6812030_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/culture-loisirs/cinema/monsieur-depardieu-aurait-pu-venir-pour-assumer-ses-excuses-les-victimes-regrettent-labsence-de-lacteur-au-tribunal-16-11-2026-6I2LBZCVY5EMDN24LMRBTEZCOY.php",
+   "Le Progrès": "https://www.leprogres.fr/social/2026/11/16/geffray-responsable-le-ministre-hue-lors-de-la-reouverture-du-lycee-nelson-mandela-incendie-en-octobre",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/16/il-ne-se-serait-pas-permis-avec-mme-zidane-le-recit-glacial-dune-habilleuse-de-canal-face-a-pierre-menes-juge-pour-agressions-sexuelles-13655685.php",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/gerard-depardieu-j-ai-ete-reconnu-coupable-j-assume-29417118.html?rts_source=rss_t",
+   "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/les-excuses-profondes-et-sinceres-de-gerard-depardieu-apres-avoir-renonce-a-son-proces-en-appel-pour-agressions-sexuelles_8284877.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 117.99924581472222,
+  "personne": "Gérard Depardieu",
+  "sig": [
+   "agress",
+   "appel",
+   "assume",
+   "condam",
+   "depard",
+   "excuse",
+   "gerard",
+   "sexuel"
+  ],
+  "youtube": "BYybBv19Hvk",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-16T16:57:54.556852+00:00",
+  "edition": "2026-11-16T17:51:18.165169+01:00",
+  "semaine": false,
+  "titre": "Le Pen dit que la France ne pourra plus aider l'Ukraine",
+  "texte": "Marine Le Pen affirme que la France ne pourra plus aider financièrement l'Ukraine si elle est élue en 2027.",
+  "iso": [
+   "FRA",
+   "UKR"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Nice-Matin",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/international/europe/ukraine/presidentielle-2027-marine-le-pen-affirme-que-la-france-continuerait-a-soutenir-l-ukraine-si-elle-est-elue-mais-que-paris-ne-pourra-plus-aider-financierement_AV-202611160670.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/16/direct-presidentielle-2027-si-on-est-amene-a-defendre-le-meme-candidat-a-la-presidentielle-dit-marine-tondelier-ce-sera-sous-nos-couleurs-ecologistes-13653911.php",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/arrets-maladie-auto-declares-la-france-pourrait-elle-vraiment-s-inspirer-de-ses-voisins-europeens-comme-l-affirme-lfi-20261116",
+   "Le Parisien": "https://www.leparisien.fr/societe/sante/parkinson-pres-de-20-de-nouveaux-cas-en-dix-ans-en-ile-de-france-dans-quels-departements-la-maladie-est-elle-la-plus-frequente-16-11-2026-OWCPZS5FXRDABLJWCF2RMQSO3A.php",
+   "Le Progrès": "https://www.leprogres.fr/elections/2026/11/16/le-temps-presse-1000-elus-locaux-reclament-une-primaire-de-la-droite-et-du-centre",
+   "Nice-Matin": "https://www.nicematin.com/culture/people/qui-sera-elue-miss-france-2027-decouvrez-les-portraits-officiels-des-31-pretendantes-a-la-couronne-10762422",
+   "Sud Ouest": "https://www.sudouest.fr/culture/programmes-tv/miss-france/miss-france-2027-les-portraits-officiels-des-31-candidates-devoiles-31550235.php"
+  },
+  "score": 117.99924567916666,
+  "personne": "Marine Le Pen",
+  "sig": [
+   "2027",
+   "elle",
+   "elue",
+   "france",
+   "marine",
+   "pen",
+   "pourra",
+   "presid"
+  ],
+  "youtube": "BYybBv19Hvk",
   "yt_attente": null
  }
 ]

@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "000",
-   "aerien",
-   "annula",
-   "annule",
-   "etats",
-   "suspen",
-   "unis",
-   "vols"
-  ],
-  "date": "2026-11-14T16:51:27.659350+00:00",
-  "titre": "Les États-Unis rétablissent le trafic aérien après une panne"
- },
- {
-  "sig": [
-   "adhesi",
-   "echang",
-   "guerre",
-   "kiev",
-   "otan",
-   "propos",
-   "ukrain",
-   "zelens"
-  ],
-  "date": "2026-11-14T16:51:27.659357+00:00",
-  "titre": "Kiev affirme que Washington propose de céder le Donbass"
- },
- {
-  "sig": [
-   "agress",
-   "arme",
-   "blanch",
-   "presid",
-   "quenti",
-   "univer",
-   "versai",
-   "vice"
-  ],
-  "date": "2026-11-14T16:51:27.659359+00:00",
-  "titre": "Un vice-président de l'université de Versailles agressé au cutter"
- },
- {
-  "sig": [
-   "2027",
-   "campag",
-   "candid",
-   "nos",
-   "presid",
-   "region",
-   "riner",
-   "teddy"
-  ],
-  "date": "2026-11-14T16:51:27.659360+00:00",
-  "titre": "Teddy Riner rejette les félicitations de Macron"
- },
- {
-  "sig": [
-   "000",
-   "corteg",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "social",
-   "tensio"
-  ],
-  "date": "2026-11-14T16:51:27.659361+00:00",
-  "titre": "Plus de 100 000 manifestants en France contre la vie chère"
- },
- {
-  "sig": [
-   "000",
-   "aerien",
-   "annula",
-   "annule",
-   "etats",
-   "suspen",
-   "unis",
-   "vols"
-  ],
-  "date": "2026-11-14T17:05:24.820418+00:00",
-  "titre": "Les États-Unis rétablissent le trafic aérien après une panne"
- },
- {
-  "sig": [
-   "adhesi",
-   "echang",
-   "guerre",
-   "kiev",
-   "otan",
-   "propos",
-   "ukrain",
-   "zelens"
-  ],
-  "date": "2026-11-14T17:05:24.820430+00:00",
-  "titre": "Kiev affirme que Washington propose de céder le Donbass"
- },
- {
-  "sig": [
-   "agress",
-   "arme",
-   "blanch",
-   "presid",
-   "quenti",
-   "univer",
-   "versai",
-   "vice"
-  ],
-  "date": "2026-11-14T17:05:24.820432+00:00",
-  "titre": "Un vice-président de l'université de Versailles agressé au cutter"
- },
- {
-  "sig": [
-   "2027",
-   "campag",
-   "candid",
-   "nos",
-   "presid",
-   "region",
-   "riner",
-   "teddy"
-  ],
-  "date": "2026-11-14T17:05:24.820433+00:00",
-  "titre": "Teddy Riner rejette les félicitations de Macron"
- },
- {
-  "sig": [
-   "000",
-   "corteg",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "social",
-   "tensio"
-  ],
-  "date": "2026-11-14T17:05:24.820435+00:00",
-  "titre": "Plus de 100 000 manifestants en France contre la vie chère"
- },
- {
-  "sig": [
    "2027",
    "candid",
    "edouar",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-15T17:04:27.844093+00:00",
   "titre": "Trappes : une marche blanche en hommage à Pengo Bossio Wangi"
+ },
+ {
+  "sig": [
+   "amine",
+   "condam",
+   "frere",
+   "kessac",
+   "marsei",
+   "narcho",
+   "perpet",
+   "triple"
+  ],
+  "date": "2026-11-16T16:51:39.388597+00:00",
+  "titre": "La cour d'assises d'Aix condamne deux hommes à perpétuité"
+ },
+ {
+  "sig": [
+   "armee",
+   "franca",
+   "guerre",
+   "milita",
+   "missio",
+   "soldat",
+   "ukrain",
+   "volia"
+  ],
+  "date": "2026-11-16T16:51:39.388607+00:00",
+  "titre": "Des militaires français opèrent en Ukraine, selon RFI"
+ },
+ {
+  "sig": [
+   "attend",
+   "centre",
+   "ecoles",
+   "greve",
+   "manife",
+   "mobili",
+   "novemb",
+   "voici"
+  ],
+  "date": "2026-11-16T16:51:39.388610+00:00",
+  "titre": "Manifestations du 17 novembre : grève et cortèges en France"
+ },
+ {
+  "sig": [
+   "agress",
+   "appel",
+   "assume",
+   "condam",
+   "depard",
+   "excuse",
+   "gerard",
+   "sexuel"
+  ],
+  "date": "2026-11-16T16:51:39.388613+00:00",
+  "titre": "Gérard Depardieu renonce à son appel et présente des excuses"
+ },
+ {
+  "sig": [
+   "2027",
+   "elle",
+   "elue",
+   "france",
+   "marine",
+   "pen",
+   "pourra",
+   "presid"
+  ],
+  "date": "2026-11-16T16:51:39.388615+00:00",
+  "titre": "Le Pen dit que la France ne pourra plus aider l'Ukraine"
+ },
+ {
+  "sig": [
+   "amine",
+   "condam",
+   "frere",
+   "kessac",
+   "marsei",
+   "narcho",
+   "perpet",
+   "triple"
+  ],
+  "date": "2026-11-16T16:57:36.880388+00:00",
+  "titre": "La cour d'assises d'Aix condamne deux hommes à perpétuité"
+ },
+ {
+  "sig": [
+   "armee",
+   "franca",
+   "guerre",
+   "milita",
+   "missio",
+   "soldat",
+   "ukrain",
+   "volia"
+  ],
+  "date": "2026-11-16T16:57:36.880400+00:00",
+  "titre": "Des militaires français opèrent en Ukraine, selon RFI"
+ },
+ {
+  "sig": [
+   "attend",
+   "centre",
+   "ecoles",
+   "greve",
+   "manife",
+   "mobili",
+   "novemb",
+   "voici"
+  ],
+  "date": "2026-11-16T16:57:36.880403+00:00",
+  "titre": "Manifestations du 17 novembre : grève et cortèges en France"
+ },
+ {
+  "sig": [
+   "agress",
+   "appel",
+   "assume",
+   "condam",
+   "depard",
+   "excuse",
+   "gerard",
+   "sexuel"
+  ],
+  "date": "2026-11-16T16:57:36.880406+00:00",
+  "titre": "Gérard Depardieu renonce à son appel et présente des excuses"
+ },
+ {
+  "sig": [
+   "2027",
+   "elle",
+   "elue",
+   "france",
+   "marine",
+   "pen",
+   "pourra",
+   "presid"
+  ],
+  "date": "2026-11-16T16:57:36.880409+00:00",
+  "titre": "Le Pen dit que la France ne pourra plus aider l'Ukraine"
  }
 ]
