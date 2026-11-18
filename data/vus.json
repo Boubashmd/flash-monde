@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "amine",
-   "condam",
-   "frere",
-   "kessac",
-   "marsei",
-   "narcho",
-   "perpet",
-   "triple"
-  ],
-  "date": "2026-11-16T16:51:39.388597+00:00",
-  "titre": "La cour d'assises d'Aix condamne deux hommes à perpétuité"
- },
- {
-  "sig": [
-   "armee",
-   "franca",
-   "guerre",
-   "milita",
-   "missio",
-   "soldat",
-   "ukrain",
-   "volia"
-  ],
-  "date": "2026-11-16T16:51:39.388607+00:00",
-  "titre": "Des militaires français opèrent en Ukraine, selon RFI"
- },
- {
-  "sig": [
-   "attend",
-   "centre",
-   "ecoles",
-   "greve",
-   "manife",
-   "mobili",
-   "novemb",
-   "voici"
-  ],
-  "date": "2026-11-16T16:51:39.388610+00:00",
-  "titre": "Manifestations du 17 novembre : grève et cortèges en France"
- },
- {
-  "sig": [
-   "agress",
-   "appel",
-   "assume",
-   "condam",
-   "depard",
-   "excuse",
-   "gerard",
-   "sexuel"
-  ],
-  "date": "2026-11-16T16:51:39.388613+00:00",
-  "titre": "Gérard Depardieu renonce à son appel et présente des excuses"
- },
- {
-  "sig": [
-   "2027",
-   "elle",
-   "elue",
-   "france",
-   "marine",
-   "pen",
-   "pourra",
-   "presid"
-  ],
-  "date": "2026-11-16T16:51:39.388615+00:00",
-  "titre": "Le Pen dit que la France ne pourra plus aider l'Ukraine"
- },
- {
-  "sig": [
-   "amine",
-   "condam",
-   "frere",
-   "kessac",
-   "marsei",
-   "narcho",
-   "perpet",
-   "triple"
-  ],
-  "date": "2026-11-16T16:57:36.880388+00:00",
-  "titre": "La cour d'assises d'Aix condamne deux hommes à perpétuité"
- },
- {
-  "sig": [
-   "armee",
-   "franca",
-   "guerre",
-   "milita",
-   "missio",
-   "soldat",
-   "ukrain",
-   "volia"
-  ],
-  "date": "2026-11-16T16:57:36.880400+00:00",
-  "titre": "Des militaires français opèrent en Ukraine, selon RFI"
- },
- {
-  "sig": [
-   "attend",
-   "centre",
-   "ecoles",
-   "greve",
-   "manife",
-   "mobili",
-   "novemb",
-   "voici"
-  ],
-  "date": "2026-11-16T16:57:36.880403+00:00",
-  "titre": "Manifestations du 17 novembre : grève et cortèges en France"
- },
- {
-  "sig": [
-   "agress",
-   "appel",
-   "assume",
-   "condam",
-   "depard",
-   "excuse",
-   "gerard",
-   "sexuel"
-  ],
-  "date": "2026-11-16T16:57:36.880406+00:00",
-  "titre": "Gérard Depardieu renonce à son appel et présente des excuses"
- },
- {
-  "sig": [
-   "2027",
-   "elle",
-   "elue",
-   "france",
-   "marine",
-   "pen",
-   "pourra",
-   "presid"
-  ],
-  "date": "2026-11-16T16:57:36.880409+00:00",
-  "titre": "Le Pen dit que la France ne pourra plus aider l'Ukraine"
- },
- {
-  "sig": [
    "2027",
    "jean",
    "marine",
@@ -278,5 +138,75 @@
   ],
   "date": "2026-11-17T17:04:05.294927+00:00",
   "titre": "La Deutsche Bank visée par une enquête internationale"
+ },
+ {
+  "sig": [
+   "donald",
+   "jinpin",
+   "poutin",
+   "rencon",
+   "shenzh",
+   "sommet",
+   "trump",
+   "vladim"
+  ],
+  "date": "2026-11-18T17:05:37.519905+00:00",
+  "titre": "Trump, Xi et Poutine réunis à Shenzhen pour un sommet inédit"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "droite",
+   "edouar",
+   "jean",
+   "melenc",
+   "philip",
+   "presid"
+  ],
+  "date": "2026-11-18T17:05:37.519917+00:00",
+  "titre": "Présidentielle 2027 : Marine Le Pen en tête des sondages"
+ },
+ {
+  "sig": [
+   "barnou",
+   "condam",
+   "djihad",
+   "dont",
+   "franca",
+   "irak",
+   "perpet",
+   "six"
+  ],
+  "date": "2026-11-18T17:05:37.519938+00:00",
+  "titre": "Laurent Nuñez et LFI s'opposent sur le mouvement lycéen"
+ },
+ {
+  "sig": [
+   "accuse",
+   "agress",
+   "chante",
+   "enquet",
+   "espagn",
+   "iglesi",
+   "julio",
+   "sexuel"
+  ],
+  "date": "2026-11-18T17:05:37.519940+00:00",
+  "titre": "Les démocrates décrochent le Sénat américain en Alaska"
+ },
+ {
+  "sig": [
+   "000",
+   "accuse",
+   "chienl",
+   "lauren",
+   "lyceen",
+   "mouvem",
+   "nunez",
+   "organi"
+  ],
+  "date": "2026-11-18T17:05:37.519942+00:00",
+  "titre": "Hakeem Jeffries désigné pour présider la Chambre américaine"
  }
 ]
