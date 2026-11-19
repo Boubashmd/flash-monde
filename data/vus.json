@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "2027",
-   "jean",
-   "marine",
-   "melenc",
-   "pen",
-   "presid",
-   "reform",
-   "retrai"
-  ],
-  "date": "2026-11-17T16:51:41.993735+00:00",
-  "titre": "Marine Le Pen propose de baisser l'âge de départ à la retraite"
- },
- {
-  "sig": [
-   "confli",
-   "crimee",
-   "direct",
-   "guerre",
-   "operat",
-   "pont",
-   "russie",
-   "ukrain"
-  ],
-  "date": "2026-11-17T16:51:41.993745+00:00",
-  "titre": "Kiev affirme avoir endommagé le pont de Crimée"
- },
- {
-  "sig": [
-   "asile",
-   "centre",
-   "debout",
-   "europe",
-   "expuls",
-   "migran",
-   "retour",
-   "rwanda"
-  ],
-  "date": "2026-11-17T16:51:41.993749+00:00",
-  "titre": "Cinq pays européens projettent un centre de retour au Rwanda"
- },
- {
-  "sig": [
-   "confli",
-   "direct",
-   "franca",
-   "guerre",
-   "partic",
-   "russie",
-   "soldat",
-   "ukrain"
-  ],
-  "date": "2026-11-17T16:51:41.993752+00:00",
-  "titre": "Moscou dénonce la présence de soldats français en Ukraine"
- },
- {
-  "sig": [
-   "allema",
-   "bank",
-   "deutsc",
-   "docume",
-   "epstei",
-   "fuite",
-   "liens",
-   "trump"
-  ],
-  "date": "2026-11-17T16:51:41.993755+00:00",
-  "titre": "La Deutsche Bank visée par une enquête internationale"
- },
- {
-  "sig": [
-   "2027",
-   "jean",
-   "marine",
-   "melenc",
-   "pen",
-   "presid",
-   "reform",
-   "retrai"
-  ],
-  "date": "2026-11-17T17:04:05.294902+00:00",
-  "titre": "Marine Le Pen propose de baisser l'âge de départ à la retraite"
- },
- {
-  "sig": [
-   "confli",
-   "crimee",
-   "direct",
-   "guerre",
-   "operat",
-   "pont",
-   "russie",
-   "ukrain"
-  ],
-  "date": "2026-11-17T17:04:05.294918+00:00",
-  "titre": "Kiev affirme avoir endommagé le pont de Crimée"
- },
- {
-  "sig": [
-   "asile",
-   "centre",
-   "debout",
-   "europe",
-   "expuls",
-   "migran",
-   "retour",
-   "rwanda"
-  ],
-  "date": "2026-11-17T17:04:05.294922+00:00",
-  "titre": "Cinq pays européens projettent un centre de retour au Rwanda"
- },
- {
-  "sig": [
-   "confli",
-   "direct",
-   "franca",
-   "guerre",
-   "partic",
-   "russie",
-   "soldat",
-   "ukrain"
-  ],
-  "date": "2026-11-17T17:04:05.294924+00:00",
-  "titre": "Moscou dénonce la présence de soldats français en Ukraine"
- },
- {
-  "sig": [
-   "allema",
-   "bank",
-   "deutsc",
-   "docume",
-   "epstei",
-   "fuite",
-   "liens",
-   "trump"
-  ],
-  "date": "2026-11-17T17:04:05.294927+00:00",
-  "titre": "La Deutsche Bank visée par une enquête internationale"
- },
- {
-  "sig": [
    "donald",
    "jinpin",
    "poutin",
@@ -208,5 +68,145 @@
   ],
   "date": "2026-11-18T17:05:37.519942+00:00",
   "titre": "Hakeem Jeffries désigné pour présider la Chambre américaine"
+ },
+ {
+  "sig": [
+   "declar",
+   "donald",
+   "jinpin",
+   "poutin",
+   "shenzh",
+   "sommet",
+   "trump",
+   "vladim"
+  ],
+  "date": "2026-11-19T16:51:39.194260+00:00",
+  "titre": "Trump, Xi et Poutine adoptent une déclaration de paix à Shenzhen"
+ },
+ {
+  "sig": [
+   "fuites",
+   "interi",
+   "minist",
+   "perqui",
+   "profes",
+   "secret",
+   "siege",
+   "soupco"
+  ],
+  "date": "2026-11-19T16:51:39.194269+00:00",
+  "titre": "Une enquête sur des fuites du ministère de l'Intérieur vers le RN"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "jean",
+   "luc",
+   "marine",
+   "melenc",
+   "presid",
+   "riner"
+  ],
+  "date": "2026-11-19T16:51:39.194272+00:00",
+  "titre": "Édouard Philippe refuse toujours de participer à la primaire"
+ },
+ {
+  "sig": [
+   "amiens",
+   "artifi",
+   "blesse",
+   "devant",
+   "eleves",
+   "lycees",
+   "mortie",
+   "tirs"
+  ],
+  "date": "2026-11-19T16:51:39.194274+00:00",
+  "titre": "Des tirs de mortiers blessent dix-sept personnes à Lyon et Amiens"
+ },
+ {
+  "sig": [
+   "birman",
+   "commis",
+   "cour",
+   "encont",
+   "genoci",
+   "intern",
+   "justic",
+   "rohing"
+  ],
+  "date": "2026-11-19T16:51:39.194277+00:00",
+  "titre": "La CIJ juge la Birmanie coupable de génocide contre les Rohingyas"
+ },
+ {
+  "sig": [
+   "declar",
+   "donald",
+   "jinpin",
+   "poutin",
+   "shenzh",
+   "sommet",
+   "trump",
+   "vladim"
+  ],
+  "date": "2026-11-19T16:59:19.626475+00:00",
+  "titre": "Trump, Xi et Poutine adoptent une déclaration de paix à Shenzhen"
+ },
+ {
+  "sig": [
+   "fuites",
+   "interi",
+   "minist",
+   "perqui",
+   "profes",
+   "secret",
+   "siege",
+   "soupco"
+  ],
+  "date": "2026-11-19T16:59:19.626486+00:00",
+  "titre": "Une enquête sur des fuites du ministère de l'Intérieur vers le RN"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "jean",
+   "luc",
+   "marine",
+   "melenc",
+   "presid",
+   "riner"
+  ],
+  "date": "2026-11-19T16:59:19.626490+00:00",
+  "titre": "Édouard Philippe refuse toujours de participer à la primaire"
+ },
+ {
+  "sig": [
+   "amiens",
+   "artifi",
+   "blesse",
+   "devant",
+   "eleves",
+   "lycees",
+   "mortie",
+   "tirs"
+  ],
+  "date": "2026-11-19T16:59:19.626492+00:00",
+  "titre": "Des tirs de mortiers blessent dix-sept personnes à Lyon et Amiens"
+ },
+ {
+  "sig": [
+   "birman",
+   "commis",
+   "cour",
+   "encont",
+   "genoci",
+   "intern",
+   "justic",
+   "rohing"
+  ],
+  "date": "2026-11-19T16:59:19.626494+00:00",
+  "titre": "La CIJ juge la Birmanie coupable de génocide contre les Rohingyas"
  }
 ]
