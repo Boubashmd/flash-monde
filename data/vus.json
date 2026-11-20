@@ -1,76 +1,6 @@
 [
  {
   "sig": [
-   "donald",
-   "jinpin",
-   "poutin",
-   "rencon",
-   "shenzh",
-   "sommet",
-   "trump",
-   "vladim"
-  ],
-  "date": "2026-11-18T17:05:37.519905+00:00",
-  "titre": "Trump, Xi et Poutine réunis à Shenzhen pour un sommet inédit"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "droite",
-   "edouar",
-   "jean",
-   "melenc",
-   "philip",
-   "presid"
-  ],
-  "date": "2026-11-18T17:05:37.519917+00:00",
-  "titre": "Présidentielle 2027 : Marine Le Pen en tête des sondages"
- },
- {
-  "sig": [
-   "barnou",
-   "condam",
-   "djihad",
-   "dont",
-   "franca",
-   "irak",
-   "perpet",
-   "six"
-  ],
-  "date": "2026-11-18T17:05:37.519938+00:00",
-  "titre": "Laurent Nuñez et LFI s'opposent sur le mouvement lycéen"
- },
- {
-  "sig": [
-   "accuse",
-   "agress",
-   "chante",
-   "enquet",
-   "espagn",
-   "iglesi",
-   "julio",
-   "sexuel"
-  ],
-  "date": "2026-11-18T17:05:37.519940+00:00",
-  "titre": "Les démocrates décrochent le Sénat américain en Alaska"
- },
- {
-  "sig": [
-   "000",
-   "accuse",
-   "chienl",
-   "lauren",
-   "lyceen",
-   "mouvem",
-   "nunez",
-   "organi"
-  ],
-  "date": "2026-11-18T17:05:37.519942+00:00",
-  "titre": "Hakeem Jeffries désigné pour présider la Chambre américaine"
- },
- {
-  "sig": [
    "declar",
    "donald",
    "jinpin",
@@ -208,5 +138,145 @@
   ],
   "date": "2026-11-19T16:59:19.626494+00:00",
   "titre": "La CIJ juge la Birmanie coupable de génocide contre les Rohingyas"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "guerre",
+   "jean",
+   "luc",
+   "melenc",
+   "presid",
+   "ukrain"
+  ],
+  "date": "2026-11-20T16:52:02.726268+00:00",
+  "titre": "Moscou frappe l'Ukraine, au moins neuf morts à Kiev"
+ },
+ {
+  "sig": [
+   "accord",
+   "brexit",
+   "burnha",
+   "europe",
+   "histor",
+   "retour",
+   "royaum",
+   "uni"
+  ],
+  "date": "2026-11-20T16:52:02.726282+00:00",
+  "titre": "Missiles russes en Pologne, Varsovie dénonce une provocation"
+ },
+ {
+  "sig": [
+   "americ",
+   "ancien",
+   "donald",
+   "grand",
+   "jinpin",
+   "joueur",
+   "sommet",
+   "trump"
+  ],
+  "date": "2026-11-20T16:52:02.726286+00:00",
+  "titre": "Des syndicats européens appellent à manifester contre la vie chère"
+ },
+ {
+  "sig": [
+   "acte",
+   "attend",
+   "chere",
+   "europe",
+   "manife",
+   "mobili",
+   "novemb",
+   "vie"
+  ],
+  "date": "2026-11-20T16:52:02.726288+00:00",
+  "titre": "Andy Burnham et l'UE scellent un accord post-Brexit"
+ },
+ {
+  "sig": [
+   "bleus",
+   "espagn",
+   "finale",
+   "france",
+   "ligue",
+   "nation",
+   "quarts",
+   "zidane"
+  ],
+  "date": "2026-11-20T16:52:02.726291+00:00",
+  "titre": "Depardieu et Houellebecq visés par une enquête pour viol"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "guerre",
+   "jean",
+   "luc",
+   "melenc",
+   "presid",
+   "ukrain"
+  ],
+  "date": "2026-11-20T16:56:08.602521+00:00",
+  "titre": "Moscou frappe l'Ukraine, au moins neuf morts à Kiev"
+ },
+ {
+  "sig": [
+   "accord",
+   "brexit",
+   "burnha",
+   "europe",
+   "histor",
+   "retour",
+   "royaum",
+   "uni"
+  ],
+  "date": "2026-11-20T16:56:08.602534+00:00",
+  "titre": "Missiles russes en Pologne, Varsovie dénonce une provocation"
+ },
+ {
+  "sig": [
+   "americ",
+   "ancien",
+   "donald",
+   "grand",
+   "jinpin",
+   "joueur",
+   "sommet",
+   "trump"
+  ],
+  "date": "2026-11-20T16:56:08.602537+00:00",
+  "titre": "Des syndicats européens appellent à manifester contre la vie chère"
+ },
+ {
+  "sig": [
+   "acte",
+   "attend",
+   "chere",
+   "europe",
+   "manife",
+   "mobili",
+   "novemb",
+   "vie"
+  ],
+  "date": "2026-11-20T16:56:08.602539+00:00",
+  "titre": "Andy Burnham et l'UE scellent un accord post-Brexit"
+ },
+ {
+  "sig": [
+   "bleus",
+   "espagn",
+   "finale",
+   "france",
+   "ligue",
+   "nation",
+   "quarts",
+   "zidane"
+  ],
+  "date": "2026-11-20T16:56:08.602541+00:00",
+  "titre": "Depardieu et Houellebecq visés par une enquête pour viol"
  }
 ]
