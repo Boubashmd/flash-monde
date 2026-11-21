@@ -1,585 +1,5 @@
 [
  {
-  "date": "2026-10-30T19:58:12.523187+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Plus de 70 000 policiers mobilisés pour le 31 octobre",
-  "texte": "En France, les autorités mobilisent 70 000 policiers et gendarmes pour la journée de manifestation de samedi. Des rassemblements sont prévus à l'occasion d'Halloween, et des violences attribuées à l'ultradroite inquiètent.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 24",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "actu.fr",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4259037-20261030-manifestations-31-octobre-parcours-probables-annonces-onze-plus-grandes-villes-francaises?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-manifestation-du-31-octobre-il-y-a-un-probleme-de-maintien-de-l-ordre-denonce-philippe-martinez-ancien-secretaire-general-de-la-cgt_VN-202610300858.html",
-   "France 24": "https://www.france24.com/fr/france/20261030-manifestations-milices-ultradroite-halloween-week-end-sous-haute-tension-france",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/manifestation-du-31-octobre-a-paris-parcours-declares-interdictions-dispositif-de-securite-ce-que-l-on-sait-sur-la-mobilisation-contre-la-vie-chere-3441171.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/30/manifestation-du-31-octobre-le-prefet-refuse-tout-cortege-dans-le-centre-ville-de-besancon",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/30/manifestations-du-31-octobre-70-000-policiers-pour-un-samedi-sous-haute-tension-lexecutif-redoute-de-nouveaux-derapages-13627736.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/30/on-veut-savoir-si-les-lacrymos-ont-tue-christophe-la-famille-du-manifestant-mort-le-17-octobre-en-quete-de-verite",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/nuit-des-tenebres-sit-in-devant-l-assemblee-imbroglio-autour-du-cortege-parisien-a-quoi-faut-il-s-attendre-pour-l-acte-iii-des-mobilisations-20261030",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/30/manifestation-du-31-octobre-a-paris-le-tribunal-administratif-suspend-l-arrete-de-la-prefecture-de-police-interdisant-la-manifestation-entre-bastille-et-nation-souhaite-par-l-intersyndicale_6803066_3225.html",
-   "Le Parisien": "https://www.leparisien.fr/societe/31-octobre-rennes-bordeaux-lyon-nice-manifestation-ou-interdiction-a-quoi-faut-il-sattendre-pour-les-corteges-30-10-2026-QPUBW3J54RBA3DZDP2DZCTXF4A.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/30/manifestations-du-31-octobre-les-parcours-de-la-cgt-et-des-gilets-jaunes-interdits",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/30/manifestation-du-31-octobre-pourquoi-porter-un-masque-dhalloween-ce-samedi-peut-vous-envoyer-en-prison-13628407.php",
-   "Nice-Matin": "https://www.nicematin.com/economie/classement-choiseul-sud-2026-qui-sont-les-jeunes-leaders-economiques-des-alpes-maritimes-et-du-var-10749448",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/mobilisation-du-31-octobre-des-episodes-de-violences-comparables-a-ceux-du-17-octobre-sont-attendus-31307808.php",
-   "actu.fr": "https://actu.fr/normandie/flers_61169/gilets-jaunes-acte-iii-dans-lorne-aucune-manifestation-declaree-le-prefet-prend-des-mesures_64997989.html",
-   "franceinfo faits divers": "https://www.franceinfo.fr/societe/manifestations/enquete-franceinfo-la-police-a-t-elle-coopere-avec-des-militants-d-ultradroite-a-montpellier-lors-de-la-manifestation-du-samedi-24-octobre_8257252.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 167.99923561444444,
-  "personne": null,
-  "sig": [
-   "attend",
-   "interd",
-   "manife",
-   "mobili",
-   "octobr",
-   "parcou",
-   "paris",
-   "rassem"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-30T19:58:12.523214+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Montpellier : des soupçons de complicité police-ultradroite",
-  "texte": "À Montpellier, des publications sur les réseaux sociaux accusent des policiers d'avoir laissé agir des militants d'ultradroite lors d'une manifestation. Le pouvoir nie toute complicité, mais des témoignages et des images sont recueillis.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "Courrier international",
-   "France 24",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4259081-20261030-guerre-ukraine-kiev-reprend-tirs-raffineries-russes-photo-famille-annulee?at_medium=display&at_campaign=149",
-   "Courrier international": "https://www.courrierinternational.com/article/guerre-en-ukraine-des-evacuations-sans-incident-a-olechky-ou-le-cessez-le-feu-perdure_283507",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261030-guerre-en-ukraine-la-ville-d-olechky-isol%C3%A9e-en-proie-%C3%A0-une-crise-humanitaire",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/30/direct-guerre-en-ukraine-vladimir-poutine-affirme-etre-pret-a-partir-en-guerre-avec-leurope-tout-en-soutenant-ne-pas-vouloir-en-arriver-jusque-la-13627513.php",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-le-bras-droit-de-vladimir-poutine-critique-le-comportement-etrange-de-kiev-et-incite-a-poursuivre-le-conflit-30-10-2026-UAQJCVJZRFCZHA7YMNF6TYAR4A.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/30/que-personne-ne-loublie-vladimir-poutine-assure-que-la-russie-est-prete-pour-une-potentielle-guerre-avec-leurope-dici-2030-13628371.php",
-   "RFI": "https://www.rfi.fr/fr/europe/20261030-ukraine-d%C3%A9but-des-%C3%A9vacuations-humanitaires-%C3%A0-olechky-dans-la-r%C3%A9gion-de-kherson",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/ukraine-les-evacuations-humanitaires-debutent-a-olechky-29400575.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/migrants-et-refugies/guerre-en-ukraine-on-veut-juste-etre-avec-nos-enfants-des-habitants-d-olechky-evacues-apres-des-semaines-de-crise-humanitaire-31307810.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-ukraine-les-habitants-de-la-ville-sous-occupation-russe-d-olechky-en-proie-a-une-crise-humanitaire-ont-ete-evacues_8260574.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 137.99923539611112,
-  "personne": null,
-  "sig": [
-   "crise",
-   "evacue",
-   "guerre",
-   "habita",
-   "humani",
-   "kiev",
-   "olechk",
-   "ukrain"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-30T19:58:12.523221+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Le tribunal autorise le parcours Bastille-Nation à Paris",
-  "texte": "À Paris, le tribunal administratif autorise finalement le parcours Bastille-Nation pour la manifestation du 31 octobre. La préfecture avait interdit les deux trajets déclarés par les Gilets jaunes et les syndicats.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Ouest-France",
-   "Sud Ouest",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/extreme-droite/video-attentat-raciste-dans-les-yvelines-qui-seme-les-mots-de-la-haine-recolte-la-haine-denonce-eric-dupond-moretti-ancien-garde-des-sceaux-et-ministre-de-la-justice_VN-202610300875.html",
-   "France 24": "https://www.france24.com/fr/france/20261030-attentat-raciste-yvelines-centaines-personnes-rassemblement-la-verri%C3%A8re-hommage-victimes-edouard-philippe",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/30/attentat-de-trappes-pengo-bossio-wangi-une-fillette-un-homme-en-trottinette-qui-sont-les-huit-victimes",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/30/decryptage-presidentielle-2027-armee-numerique-mouvement-bloquer-lextreme-droite-comment-lecrasante-victoire-de-lula-au-bresil-inspire-la-strategie-de-13628031.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/30/attentat-de-trappes-pengo-bossio-wangi-une-fillette-un-homme-en-trottinette-qui-sont-les-huit-victimes",
-   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-yannick-jadot-considere-que-la-droite-et-lextreme-droite-ont-arme-ideologiquement-le-terroriste-de-trappes-30-10-2026-NNCBIHL7KBHEJCXHKPYIUUIBSU.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/30/attentat-de-trappes-pengo-bossio-wangi-une-fillette-un-homme-en-trottinette-qui-sont-les-huit-victimes",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/30/attentat-raciste-dans-les-yvelines-sa-haine-ne-vient-pas-de-nulle-part-le-maire-de-trappes-accuse-le-rn-et-cnews-dempoisonner-les-esprits-13628494.php",
-   "Ouest-France": "https://www.ouest-france.fr/faits-divers/attentat/en-images-attaque-raciste-a-trappes-et-la-verriere-des-milliers-de-personnes-ont-rendu-hommage-aux-victimes-cda03bf0-d47f-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/attentat-dans-les-yvelines-des-milliers-de-personnes-rassemblees-a-trappes-contre-le-racisme-et-l-islamophobie-31309279.php",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/des-cellules-psychologiques-deployees-au-college-public-du-mesnil-saint-denis-et-dans-une-ecole-de-la-verriere-a-la-rentree-apres-l-attentat-raciste-dans-les-yvelines_8260622.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 127.99923552194444,
-  "personne": null,
-  "sig": [
-   "ali",
-   "attent",
-   "genera",
-   "hommag",
-   "maire",
-   "racist",
-   "trappe",
-   "yvelin"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-30T19:58:12.523226+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Dole et Lons-le-Saunier : rassemblements encadrés le 31 octobre",
-  "texte": "Dans le Jura, le préfet interdit les rassemblements après 20 heures à Dole et à Lons-le-Saunier pour la journée de samedi.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BBC Afrique",
-   "Courrier international",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "RFI",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259068-20261030-etats-unis-reveillee-confuse-souffrante-christa-pike-exprime-apres-execution-ratee?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4259068-20261030-etats-unis-reveillee-confuse-souffrante-christa-pike-exprime-apres-execution-ratee?at_medium=display&at_campaign=149",
-   "BBC Afrique": "https://www.bbc.com/afrique/articles/cm1wv2lnlxzro?at_medium=RSS&at_campaign=rss",
-   "Courrier international": "https://www.courrierinternational.com/article/peine-de-mort-christa-pike-n-a-pas-passe-un-seul-instant-sans-souffrir-depuis-son-execution-ratee_283482",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/30/execution-ratee-de-christa-pike-il-ny-a-pas-un-instant-ou-je-ne-souffre-pas-un-mois-apres-la-condamnee-a-mort-raconte-pour-la-premiere-fois-son-13628124.php",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/je-navais-pas-envisage-la-vie-apres-cette-nuit-la-christa-pike-lamericaine-qui-a-survecu-a-son-execution-sort-du-silence-30-10-2026-4EE6CM3QOJCYVIF4IVBVJUENZI.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/30/la-soiree-au-restaurant-se-finit-aux-urgences-cinq-personnes-brulees-a-la-bouche-apres-avoir-bu-des-cocktails-13628020.php",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261030-je-m-%C3%A9tais-pr%C3%A9par%C3%A9e-%C3%A0-mourir-apr%C3%A8s-son-ex%C3%A9cution-rat%C3%A9e-aux-%C3%A9tats-unis-christa-pike-confie-ses-souffrances",
-   "franceinfo": "https://www.franceinfo.fr/monde/usa/il-n-y-a-pas-eu-un-seul-moment-depuis-cette-nuit-la-ou-je-n-ai-pas-souffert-temoigne-christa-pike-apres-avoir-survecu-a-son-execution-aux-etats-unis_8260529.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 109.9992355125,
-  "personne": null,
-  "sig": [
-   "christ",
-   "confus",
-   "etats",
-   "execut",
-   "pike",
-   "ratee",
-   "souffr",
-   "unis"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-30T19:58:12.523231+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Limousin : masques interdits à Limoges pour le 31 octobre",
-  "texte": "En Limousin, les masques dissimulant le visage sont interdits samedi à Limoges et dans plusieurs communes de la Creuse.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "DNA",
-   "France 24",
-   "La Dépêche",
-   "Le Figaro",
-   "Le Parisien",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/espagne/4258869-20261030-collisions-trains-espagne-ave-renfe-circulait-vitesse-160-200-km-h-selon-premier-rapport?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/societe/4258951-20261030-collisions-trains-espagne-antonio-daniel-conducteurs-ave-renfe?at_medium=display&at_campaign=149",
-   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/30/accident-a-un-passage-a-niveau-la-circulation-des-ter-interrompue-entre-strasbourg-et-molsheim",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261030-accident-ferroviaire-en-espagne-les-familles-dans-une-attente-angoissante",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/30/collision-mortelle-de-trains-en-espagne-toujours-prete-a-aider-qui-est-marie-audan-cette-francaise-de-50-ans-portee-disparue-depuis-la-catastrophe-13628522.php",
-   "Le Figaro": "https://www.lefigaro.fr/international/ancienne-ministre-membre-de-la-guardia-civil-athlete-qui-sont-les-premieres-victimes-identifiees-de-l-accident-de-train-en-espagne-20261030",
-   "Le Parisien": "https://www.leparisien.fr/international/espagne/une-francaise-de-50-ans-portee-disparue-apres-la-collision-entre-deux-trains-qui-a-fait-69-morts-en-espagne-30-10-2026-NBCOEKPCHFGFLO767D26IOBZSI.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/qui-va-monter-dans-un-train-maintenant-on-y-va-deja-avec-la-peur-apres-la-collision-mortelle-en-espagne-les-familles-des-victimes-entre-desespoir-colere-et-silence-10749465",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/espagne/accident-de-trains-en-espagne-nous-faisons-ce-que-nous-pouvons-l-identification-des-victimes-se-poursuit-face-a-l-angoisse-des-familles-31310098.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/collision-mortelle-de-trains-en-espagne-la-longue-attente-des-familles-de-victimes_8260421.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 107.99923523,
-  "personne": null,
-  "sig": [
-   "accide",
-   "ancien",
-   "collis",
-   "espagn",
-   "famill",
-   "mortel",
-   "trains",
-   "victim"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-30T19:58:12.523235+00:00",
-  "edition": "2026-10-30T20:44:41.161328+01:00",
-  "semaine": false,
-  "titre": "Trappes : rassemblements contre le racisme après l'attentat",
-  "texte": "Dans les Yvelines, des milliers de personnes se sont rassemblées vendredi à Trappes et à La Verrière en hommage aux victimes de l'attentat raciste.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "France 24",
-   "Le Parisien",
-   "Ouest-France",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4258966-20261030-etats-unis-pape-leon-xiv-vote-correspondance-elections-mi-mandat?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4258966-20261030-etats-unis-pape-leon-xiv-vote-correspondance-elections-mi-mandat?at_medium=display&at_campaign=149",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261030-%C3%A9tats-unis-des-profits-financiers-sans-pr%C3%A9c%C3%A9dent-pour-donald-trump",
-   "Le Parisien": "https://www.leparisien.fr/international/le-pape-leon-xiv-a-vote-aux-elections-de-mi-mandat-americaines-confirme-le-vatican-30-10-2026-5GSZVKUPFBDOJGP3JX6Q5RHP2E.php",
-   "Ouest-France": "https://www.ouest-france.fr/monde/etats-unis/elections-americaines/midterms-aux-etats-unis-leon-xiv-annonce-avoir-vote-pour-les-elections-de-mi-mandat-une-premiere-pour-un-pape-e6a4e850-d491-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "franceinfo": "https://www.franceinfo.fr/monde/usa/elections-de-mi-mandat-aux-etats-unis-donald-trump-en-danger_8260457.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 97.99923553138889,
-  "personne": null,
-  "sig": [
-   "electi",
-   "etats",
-   "leon",
-   "mandat",
-   "pape",
-   "unis",
-   "vote",
-   "xiv"
-  ],
-  "youtube": "TnF0WsUucnk",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025502+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Paris : troisième samedi de manifestations contre la vie chère",
-  "texte": "En France, une troisième journée de mobilisation contre la vie chère se tient ce samedi. Les autorités annoncent un dispositif exceptionnel, avec 70 000 policiers et gendarmes mobilisés, et un parcours interdit à Paris.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-manifestation-du-31-octobre-le-cortege-parisien-s-elance-depuis-la-porte-de-bagnolet_VN-202610310264.html",
-   "DNA": "https://www.dna.fr/social/2026/10/31/mobilisation-du-31-octobre-suivez-les-evenements-dans-le-bas-rhin-et-le-haut-rhin",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261031-troisi%C3%A8me-samedi-de-mobilisation-sociale-en-france-%C3%A0-quoi-s-attendre",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/direct-manifestations-du-31-octobre-a-toulouse-pas-de-mobilisation-declaree-officiellement-en-prefecture-70-000-policiers-et-gendarmes-mobilises-dans-13628338.php",
-   "Le Dauphiné": "https://www.ledauphine.com/education/2026/10/31/mobilisation-du-31-octobre-une-centaine-de-personnes-defilent-a-vienne",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/en-allemagne-des-dizaines-de-milliers-de-jeunes-attendus-dans-les-rues-samedi-pour-manifester-contre-le-cout-de-la-vie-et-l-etat-des-etablissements-scolaires_6803597_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/societe/lunion-syndicale-lyceenne-et-lunion-etudiante-appellent-a-bloquer-lycees-et-universites-mardi-et-jeudi-31-10-2026-2PGSTQ7WHFCHLCKLVWZ4X5QCZ4.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-15-000-manifestants-attendus-et-dispositif-de-securite-massif-pour-halloween-a-lyon",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/carte-manifestations-du-31-octobre-barrages-filtrants-blocages-de-stations-service-voici-les-principaux-secteurs-touches-en-occitanie-13628174.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/mobilisation-du-31-octobre-un-dispositif-exceptionnel-des-corteges-partiront-a-14h-a-nice-et-toulon-suivez-notre-direct-10749897",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-pres-de-500-personnes-rassemblees-devant-lhopital-du-mans-le-tramway-t1-interrompu-3e069018-d527-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/france-manifestations-a-risque-tres-eleve-samedi-29401333.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
-   "actu.fr": "https://actu.fr/auvergne-rhone-alpes/lyon_69123/direct-manifestation-et-halloween-a-lyon-cortege-a-14h-centre-ville-interdit-suivez-l-acte-iii-en-direct_64998620.html"
-  },
-  "score": 157.9992746997222,
-  "personne": null,
-  "sig": [
-   "corteg",
-   "defile",
-   "france",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "social"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025529+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Varsovie : Nawrocki convoque les partis après la crise",
-  "texte": "En Pologne, le président Karol Nawrocki reçoit samedi les partis de la majorité et de l'opposition. Il veut trouver une issue à la crise autour du Tribunal constitutionnel, après l'intervention de la police dans l'enceinte de la juridiction.",
-  "iso": [
-   "POL"
-  ],
-  "pays": "Pologne",
-  "sources": [
-   "France 24",
-   "Le Monde",
-   "Le Parisien",
-   "Midi Libre",
-   "Ouest-France",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261031-crise-politique-en-pologne-acc%C3%A8s-bloqu%C3%A9-au-tribunal-constitutionnel",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/en-pologne-le-president-de-la-republique-va-recevoir-les-partis-samedi-apres-la-suspension-du-president-du-tribunal-constitutionnel_6803486_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/tribunal-constitutionnel-assiege-retour-en-urgence-du-president-donald-tusk-accuse-de-coup-detat-que-se-passe-t-il-en-pologne-31-10-2026-V7HBXGLCZZAQRKQU3ER6VCSFA4.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/un-coup-detat-en-pologne-voici-pourquoi-le-president-karol-nawrocki-est-rentre-en-urgence-dun-voyage-diplomatique-vendredi-13629236.php",
-   "Ouest-France": "https://www.ouest-france.fr/europe/pologne/donald-tusk-dans-la-tourmente-intervention-de-la-police-au-tribunal-constitutionnel-que-se-passe-t-il-en-pologne-5e56a81e-d516-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/pologne-la-police-bloque-l-acces-au-tribunal-constitutionnel-en-pleine-crise-politique-31314646.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/pologne-une-crise-politique-eclate-au-tribunal-constitutionnel-de-varsovie-le-premier-ministre-donald-tusk-defie-par-le-president-karol-nawrocki_8261876.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 97.99927446361112,
-  "personne": "Karol Nawrocki",
-  "sig": [
-   "consti",
-   "crise",
-   "donald",
-   "police",
-   "politi",
-   "pologn",
-   "presid",
-   "tribun"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025537+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Trappes : des milliers de personnes rassemblées contre le racisme",
-  "texte": "À Trappes, dans les Yvelines, plusieurs milliers de personnes se sont rassemblées vendredi soir, selon les organisateurs 12 000. Elles rendent hommage à Pengo Bossio Wangi, tué lors d'un attentat raciste survenu une semaine plus tôt.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 24",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261031-attentat-raciste-%C3%A0-trappes-la-france-c-est-nous-dit-ali-rabeh",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/le-maire-de-trappes-ali-rabeh-cible-par-un-courrier-raciste-contenant-une-poudre-blanche-3442125.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/attentat-de-trappes-une-lettre-contenant-des-insultes-racistes-et-une-poudre-blanche-adressee-au-maire-ali-rabeh-interceptee-par-la-police-13629375.php",
-   "Le Figaro France": "https://www.lefigaro.fr/faits-divers/attentat-de-trappes-le-maire-ali-rabeh-recoit-une-lettre-raciste-et-antisemite-contenant-une-poudre-blanche-suspecte-20261031",
-   "Le Parisien": "https://www.leparisien.fr/yvelines-78/trappes-le-maire-ali-rabeh-vise-par-une-lettre-raciste-contenant-une-poudre-blanche-31-10-2026-YCX55W67H5CT7BVCJY26BNLV5I.php",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/une-lettre-au-contenu-raciste-contenant-une-poudre-blanche-a-ete-adressee-au-maire-de-trappes-ali-rabeh_8261744.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 97.99927428805555,
-  "personne": null,
-  "sig": [
-   "ali",
-   "attent",
-   "blanch",
-   "lettre",
-   "maire",
-   "rabeh",
-   "racist",
-   "trappe"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025544+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Mojtaba Khamenei menace les États-Unis d'une riposte sans limite",
-  "texte": "En Iran, Mojtaba Khamenei menace les États-Unis d'une riposte sans limite géographique en cas de nouveaux bombardements.",
-  "iso": [
-   "IRN",
-   "USA",
-   "QAT"
-  ],
-  "pays": "Iran",
-  "sources": [
-   "BFMTV",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/moyen-orient/iran/une-riposte-sans-limite-geographique-le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques_AD-202610310223.html",
-   "Le Figaro France": "https://www.lefigaro.fr/international/iran-le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques-20261031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/en-iran-mojtaba-khamenei-menace-les-etats-unis-d-une-riposte-sans-limite-geographique-en-cas-de-nouveau-bombardement_6803598_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/en-iran-mojtaba-khamenei-menace-les-etats-unis-d-une-riposte-sans-limite-geographique-en-cas-de-nouveau-bombardement_6803598_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/une-riposte-immediate-puissante-et-sans-limite-geographique-liran-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques-31-10-2026-MNQ3JYD625F5LH7S3SZVLATVNI.php",
-   "Sud Ouest": "https://www.sudouest.fr/international/moyen-orient/guerre-au-moyen-orient-l-armee-iranienne-avertit-qu-une-nouvelle-attaque-americaine-elargirait-le-conflit-31315394.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-d-eventuelles-attaques_8261696.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 92.99927419027779,
-  "personne": "Mojtaba Khamenei",
-  "sig": [
-   "attaqu",
-   "etats",
-   "geogra",
-   "iran",
-   "iranie",
-   "limite",
-   "ripost",
-   "unis"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025548+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Lyon : Doucet saisit la justice après un rassemblement d'ultradroite",
-  "texte": "À Lyon, le maire saisit la justice après un rassemblement nocturne et non déclaré de l'ultradroite devant une mairie d'arrondissement.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 3 Régions",
-   "Le Parisien",
-   "Le Progrès",
-   "Nice-Matin",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/rassemblement-d-ultradroite-devant-la-mairie-du-8em-arrondissement-de-lyon-signale-a-la-justice-3442110.html",
-   "Le Parisien": "https://www.leparisien.fr/rhone-69/des-methodes-dintimidation-un-rassemblement-dultradroite-devant-une-mairie-darrondissement-a-lyon-signale-a-la-justice-31-10-2026-5MIONWMUQFCWLMVFTKFMVXSO6I.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/venue-empechee-de-raphael-arnaud-(lfi)-dans-le-8e-arrondissement-l-ultra-droite-manifeste-devant-la-mairie",
-   "Nice-Matin": "https://www.nicematin.com/societe/racisme/de-nuit-et-non-declare-l-ultradroite-se-reunit-devant-une-mairie-d-arrondissement-a-lyon-le-maire-signale-le-rassemblement-a-la-justice-10749831",
-   "Sud Ouest": "https://www.sudouest.fr/politique/lyon-un-rassemblement-d-ultradroite-devant-une-mairie-d-arrondissement-signale-a-la-justice-le-maire-condamne-avec-la-plus-grande-fermete-les-methodes-d-intimidation-31315819.php"
-  },
-  "score": 89.99927420388889,
-  "personne": "Grégory Doucet",
-  "sig": [
-   "arrond",
-   "devant",
-   "justic",
-   "lyon",
-   "mairie",
-   "rassem",
-   "signal",
-   "ultrad"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T15:00:14.025553+00:00",
-  "edition": "2026-10-31T15:56:09.342490+01:00",
-  "semaine": false,
-  "titre": "Clermont-Ferrand : trois morts dans l'incendie d'un immeuble",
-  "texte": "À Clermont-Ferrand, trois corps ont été retrouvés dans les décombres d'un immeuble incendié, une origine criminelle est possible.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/direct-manifestation-du-31-octobre-suivez-la-mobilisation-a-clermont-ferrand-3442044.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/incendie-dans-un-immeuble-de-clermont-ferrand-trois-corps-retrouves-dans-les-decombres-un-suspect-place-en-garde-a-vue-13629309.php",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/31/a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres-d-un-immeuble-apres-un-incendie-la-piste-criminelle-evoquee-par-le-parquet_6803487_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/lentreprise-darmement-suisse-qui-fabrique-les-lbd-de-la-police-francaise-ravagee-par-un-incendie-la-piste-criminelle-privilegiee-31-10-2026-SFCVFZDH7JFZZE7VU7CL7KOFTY.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/les-secours-interviennent-sur-un-violent-incendie-trois-corps-retrouves-dans-les-decombres-de-limmeuble-ravage-par-les-flammes-un-jeune-interpelle-13629311.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/trois-corps-retrouves-dans-les-decombres-d-un-immeuble-incendie-a-clermont-ferrand-la-piste-criminelle-envisagee-10749818",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres-un-homme-en-garde-a-vue-31314766.php",
-   "franceinfo France": "https://www.franceinfo.fr/faits-divers/incendie/incendie-a-clermont-ferrand-trois-morts-plusieurs-blesses-graves-et-une-personne-toujours-disparue-la-piste-criminelle-privilegiee-par-les-enqueteurs_8261828.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/incendie/incendie-a-clermont-ferrand-trois-morts-plusieurs-blesses-graves-et-une-personne-toujours-disparue-la-piste-criminelle-privilegiee-par-les-enqueteurs_8261828.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.99927441861111,
-  "personne": null,
-  "sig": [
-   "clermo",
-   "corps",
-   "decomb",
-   "ferran",
-   "immeub",
-   "incend",
-   "person",
-   "retrou"
-  ],
-  "youtube": "fuCWBPrN4Ws",
-  "yt_attente": null
- },
- {
   "date": "2026-10-31T16:59:10.346751+00:00",
   "edition": "2026-10-31T17:51:11.460740+01:00",
   "semaine": false,
@@ -7459,6 +6879,245 @@
    "zidane"
   ],
   "youtube": "KBPINGl6uWs",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-21T16:58:31.679530+00:00",
+  "edition": "2026-11-21T17:51:11.583961+01:00",
+  "semaine": false,
+  "titre": "Des manifestations contre la vie chère à Paris et Toulouse",
+  "texte": "En France, des milliers de personnes manifestent ce samedi contre la vie chère, pour la sixième semaine d'affilée. À Paris, le cortège part de la place de la République, selon le renseignement, entre 15 000 et 30 000 manifestants.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "RFI",
+   "RTS",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/societe/4264676-20261121-colere-sociale-syndicats-jeunesse-gilets-jaunes-rue-sixieme-samedi-consecutif?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-colere-sociale-150-000-personnes-se-sont-mobilisees-partout-en-france-selon-les-organisateurs_VN-202611210372.html",
+   "DNA": "https://www.dna.fr/social/2026/11/21/syndicats-et-gilets-jaunes-dans-la-rue-pour-un-acte-vi-la-contestation-s-etend-a-l-europe",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261121-manifestations-en-france-col%C3%A8re-contre-la-vie-ch%C3%A8re-et-les-violences-polici%C3%A8res",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/en-images-mobilisation-contre-la-vie-chere-du-21-novembre-un-cortege-repousse-par-les-forces-de-l-ordre-a-toulouse-des-incidents-a-proximite-du-capitole-3453690.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/21/colere-sociale-des-blesses-de-guerre-eborgnes-mutiles-ces-manifestants-grievement-blesses-racontent-comment-leur-vie-a-bascule-13664576.php",
+   "Le Dauphiné": "https://www.ledauphine.com/social/2026/11/21/manifestation-non-declaree-les-forces-de-l-ordre-font-usage-des-gaz-lacrymogenes-les-participants-continuent-d-avancer",
+   "Le Figaro France": "https://www.lefigaro.fr/faits-divers/ca-va-etre-fun-y-a-pas-de-camera-dans-la-bagnole-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-lors-d-une-manifestation-20261121",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
+   "Le Progrès": "https://www.leprogres.fr/social/2026/11/21/mobilisations-contre-la-vie-chere-des-appels-a-manifester-non-declares-a-lyon-et-villeurbanne-ce-samedi-apres-midi",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/21/manifestations-du-21-novembre-70-000-policiers-et-gendarmes-anniversaire-des-gilets-jaunes-a-quoi-sattendre-en-france-ce-samedi-13663653.php",
+   "RFI": "https://www.rfi.fr/fr/france/20261121-mobilisation-en-france-un-acte-vi-sous-l-impulsion-des-syndicats-et-des-gilets-jaunes-qui-f%C3%AAtent-leurs-8-ans",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/france-6e-samedi-de-mobilisation-contre-la-vie-chere-29423109.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/manifestation-du-31-octobre-enquete-ouverte-contre-des-policiers-parisiens-pour-des-violences-et-des-agressions-sexuelles-31604217.php",
+   "actu.fr": "https://actu.fr/normandie/rouen_76540/manifestation-sauvage-gaz-lacrymogenes-a-rouen-un-apres-midi-de-mobilisation-tres-tendu_65085433.html"
+  },
+  "score": 167.9993760425,
+  "personne": null,
+  "sig": [
+   "chere",
+   "colere",
+   "france",
+   "manife",
+   "mobili",
+   "novemb",
+   "social",
+   "vie"
+  ],
+  "youtube": "9F_KrDsOxCo",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-21T16:58:31.679549+00:00",
+  "edition": "2026-11-21T17:51:11.583961+01:00",
+  "semaine": false,
+  "titre": "Trois policiers condamnés à de la prison ferme pour violences racistes",
+  "texte": "À Paris, la cour criminelle a condamné vendredi soir trois policiers à des peines allant d'un à deux ans de prison ferme. Elle a retenu la circonstance aggravante de racisme dans l'agression de Michel Zecler.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "France 24",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4264385-20261120-six-ans-apres-agression-michel-zecler-trois-policiers-condamnes-peines-1-2-ans-prison-ferme?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/normandie/eure/flashe-a-188-km-h-au-lieu-de-130-km-h-il-fait-demi-tour-sur-l-autoroute-pour-echapper-aux-gendarmes-un-automobiliste-condamne-a-3-ans-de-prison-pour-refus-d-obtemperer_AN-202611210343.html",
+   "France 24": "https://www.france24.com/fr/%C3%A9missions/une-semaine-en-france/20261121-verdict-au-proc%C3%A8s-de-michel-zecler-l-espoir-d-une-jurisprudence",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/proces-de-l-agression-de-michel-zecler-pas-la-justice-totale-mais-une-belle-justice-les-reactions-apres-la-decision-du-tribunal-3453513.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/20/affaire-michel-zecler-les-trois-policiers-condamnes-a-de-la-prison-ferme-la-circonstance-aggravante-de-racisme-retenue-13663736.php",
+   "Le Parisien": "https://www.leparisien.fr/seine-saint-denis-93/plus-de-depute-ni-secretaire-federal-seulement-cinq-maires-la-mauvaise-passe-du-ps-en-seine-saint-denis-21-11-2026-Z5SZPHOOBBHBBFN6T4JWV3RYRQ.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/21/t-es-ma-petite-p-te-deux-policiers-accusations-de-violences-et-agression-sexuelle-sur-des-manifestants",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/20/affaire-zecler-les-policiers-qui-ont-passe-a-tabac-le-producteur-de-rap-condamne-a-5-ans-de-prison-la-circonstance-aggravante-de-racisme-retenue-13663661.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/proces-zecler-prison-ferme-pour-agression-raciste-pour-les-trois-policiers_8293742.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 117.99937591861111,
+  "personne": null,
+  "sig": [
+   "agress",
+   "automo",
+   "condam",
+   "ferme",
+   "michel",
+   "polici",
+   "prison",
+   "zecler"
+  ],
+  "youtube": "9F_KrDsOxCo",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-21T16:58:31.679557+00:00",
+  "edition": "2026-11-21T17:51:11.583961+01:00",
+  "semaine": false,
+  "titre": "Helsinki signale une attaque de drone contre un cargo russe",
+  "texte": "La Finlande a détecté une attaque de drone contre un cargo russe dans le golfe de Finlande, selon son ministère de la Défense. Un hélicoptère russe est aussi soupçonné d'avoir violé l'espace aérien finlandais.",
+  "iso": [
+   "FIN",
+   "RUS"
+  ],
+  "pays": "Finlande",
+  "sources": [
+   "BFMTV",
+   "Courrier international",
+   "France 24",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "RTS"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/international/l-ukraine-a-le-droit-de-se-defendre-contre-l-agresseur-la-finlande-a-detecte-une-attaque-de-drone-contre-un-cargo-russe-en-mer-baltique_AD-202611210376.html",
+   "Courrier international": "https://www.courrierinternational.com/article/geopolitique-attaque-par-des-drones-un-cargo-russe-a-derive-dans-les-eaux-territoriales-finlandaises_289050",
+   "France 24": "https://www.france24.com/fr/europe/20261121-une-attaque-de-drone-contre-un-cargo-russe-d%C3%A9tect%C3%A9e-dans-le-golfe-de-finlande",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/21/direct-guerre-en-ukraine-une-pluie-de-missiles-et-de-drones-russes-sabat-sur-kiev-lviv-et-kryvyi-rig-11-morts-dont-un-enfant-de-7-ans-13664376.php",
+   "Le Dauphiné": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/21/un-helicoptere-russe-soupconne-d-avoir-viole-l-espace-aerien-de-la-finlande",
+   "Le Parisien": "https://www.leparisien.fr/international/la-guerre-setend-jusqua-nos-portes-un-helicoptere-russe-soupconne-davoir-viole-lespace-aerien-de-la-finlande-apres-une-attaque-de-drone-21-11-2026-ECB453SKWNHPTODCNKHA7NP6H4.php",
+   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/11/21/un-helicoptere-russe-soupconne-d-avoir-viole-l-espace-aerien-de-la-finlande",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/golfe-de-finlande-un-cargo-russe-touche-par-un-drone-29423084.html?rts_source=rss_t"
+  },
+  "score": 102.9993757361111,
+  "personne": null,
+  "sig": [
+   "aerien",
+   "agress",
+   "attaqu",
+   "cargo",
+   "drone",
+   "finlan",
+   "russe",
+   "soupco"
+  ],
+  "youtube": "9F_KrDsOxCo",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-21T16:58:31.679562+00:00",
+  "edition": "2026-11-21T17:51:11.583961+01:00",
+  "semaine": false,
+  "titre": "Une coalition pour l'Ukraine s'entraîne en Pologne",
+  "texte": "En Pologne, une coalition pilotée par Paris et Londres s'entraîne pour la première fois sur le terrain, en vue d'un futur déploiement en Ukraine.",
+  "iso": [
+   "POL",
+   "UKR",
+   "FRA",
+   "GBR"
+  ],
+  "pays": "Pologne",
+  "sources": [
+   "20 Minutes",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4264576-20261120-guerre-ukraine-missiles-pologne-pluie-drones-kiev-trump-optimiste?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261121-en-pologne-la-coalition-pour-l-ukraine-s-exerce-%C3%A0-l-ombre-de-la-guerre",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/21/direct-presidentielle-2027-dominique-de-villepin-a-officialise-sa-candidature-la-crise-continue-chez-les-ecologistes-suivez-les-dernieres-infos-sur-la-13664360.php",
+   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-volodymyr-zelensky-reaffirme-la-volonte-de-kiev-de-rejoindre-lotan-apres-une-ouverture-americaine-21-11-2026-NSTXOKL545EP7EYNCTFLQJRPXQ.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/21/invitee-grace-au-forfait-de-la-petite-fille-de-donald-trump-une-golfeuse-de-19-ans-se-fait-disqualifier-apres-le-signalement-dune-francaise-13663771.php",
+   "Sud Ouest": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-vladimir-poutine-est-un-assassin-selon-volodymyr-zelensky-reponse-a-donald-trump-qui-considere-le-president-russe-comme-un-ami-31603317.php"
+  },
+  "score": 82.99937593916667,
+  "personne": null,
+  "sig": [
+   "2027",
+   "candid",
+   "donald",
+   "glucks",
+   "guerre",
+   "presid",
+   "trump",
+   "ukrain"
+  ],
+  "youtube": "9F_KrDsOxCo",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-21T16:58:31.679566+00:00",
+  "edition": "2026-11-21T17:51:11.583961+01:00",
+  "semaine": false,
+  "titre": "Costa propose 204 milliards d'euros d'économies pour le budget UE",
+  "texte": "Le président du Conseil européen propose 204 milliards d'euros d'économies sur le budget de l'Union, rejetées par la France et l'Allemagne.",
+  "iso": [
+   "UE",
+   "FRA",
+   "DEU"
+  ],
+  "pays": "Union européenne",
+  "sources": [
+   "France 3 Régions",
+   "Le Monde",
+   "Le Parisien",
+   "RFI",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/championnes-de-france-de-volley-ces-etudiantes-nantaises-cherchent-12-000-euros-pour-disputer-le-championnat-d-europe-3453705.html",
+   "Le Monde": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html",
+   "Le Parisien": "https://www.leparisien.fr/economie/budget-de-lue-204-milliards-deuros-deconomies-et-une-taxe-numerique-proposees-paris-estime-que-le-compte-ny-est-pas-21-11-2026-ACXXOVVKS5DFPDGAGVJW572ZUM.php",
+   "RFI": "https://www.rfi.fr/fr/europe/20261121-budget-ue-plus-de-200-milliards-d-euros-d-%C3%A9conomie-propos%C3%A9es-paris-et-berlin-font-la-moue",
+   "Sud Ouest": "https://www.sudouest.fr/international/europe/budget-de-l-ue-le-president-du-conseil-europeen-antonio-costa-propose-des-coupes-de-204-milliards-d-euros-et-une-taxe-numerique-31603348.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/europe/sommet-de-l-ue/le-president-du-conseil-europeen-propose-un-budget-de-l-ue-en-baisse-de-204-milliards-d-euros-aussitot-rejete-par-la-france_8293637.html#xtor=RSS-3-%5Bmonde%5D"
+  },
+  "score": 82.99937585111111,
+  "personne": "António Costa",
+  "sig": [
+   "204",
+   "budget",
+   "consei",
+   "econom",
+   "europe",
+   "euros",
+   "millia",
+   "propos"
+  ],
+  "youtube": "9F_KrDsOxCo",
   "yt_attente": null
  }
 ]
