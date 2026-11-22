@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "2027",
-   "candid",
-   "guerre",
-   "jean",
-   "luc",
-   "melenc",
-   "presid",
-   "ukrain"
-  ],
-  "date": "2026-11-20T16:52:02.726268+00:00",
-  "titre": "Moscou frappe l'Ukraine, au moins neuf morts à Kiev"
- },
- {
-  "sig": [
-   "accord",
-   "brexit",
-   "burnha",
-   "europe",
-   "histor",
-   "retour",
-   "royaum",
-   "uni"
-  ],
-  "date": "2026-11-20T16:52:02.726282+00:00",
-  "titre": "Missiles russes en Pologne, Varsovie dénonce une provocation"
- },
- {
-  "sig": [
-   "americ",
-   "ancien",
-   "donald",
-   "grand",
-   "jinpin",
-   "joueur",
-   "sommet",
-   "trump"
-  ],
-  "date": "2026-11-20T16:52:02.726286+00:00",
-  "titre": "Des syndicats européens appellent à manifester contre la vie chère"
- },
- {
-  "sig": [
-   "acte",
-   "attend",
-   "chere",
-   "europe",
-   "manife",
-   "mobili",
-   "novemb",
-   "vie"
-  ],
-  "date": "2026-11-20T16:52:02.726288+00:00",
-  "titre": "Andy Burnham et l'UE scellent un accord post-Brexit"
- },
- {
-  "sig": [
-   "bleus",
-   "espagn",
-   "finale",
-   "france",
-   "ligue",
-   "nation",
-   "quarts",
-   "zidane"
-  ],
-  "date": "2026-11-20T16:52:02.726291+00:00",
-  "titre": "Depardieu et Houellebecq visés par une enquête pour viol"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "guerre",
-   "jean",
-   "luc",
-   "melenc",
-   "presid",
-   "ukrain"
-  ],
-  "date": "2026-11-20T16:56:08.602521+00:00",
-  "titre": "Moscou frappe l'Ukraine, au moins neuf morts à Kiev"
- },
- {
-  "sig": [
-   "accord",
-   "brexit",
-   "burnha",
-   "europe",
-   "histor",
-   "retour",
-   "royaum",
-   "uni"
-  ],
-  "date": "2026-11-20T16:56:08.602534+00:00",
-  "titre": "Missiles russes en Pologne, Varsovie dénonce une provocation"
- },
- {
-  "sig": [
-   "americ",
-   "ancien",
-   "donald",
-   "grand",
-   "jinpin",
-   "joueur",
-   "sommet",
-   "trump"
-  ],
-  "date": "2026-11-20T16:56:08.602537+00:00",
-  "titre": "Des syndicats européens appellent à manifester contre la vie chère"
- },
- {
-  "sig": [
-   "acte",
-   "attend",
-   "chere",
-   "europe",
-   "manife",
-   "mobili",
-   "novemb",
-   "vie"
-  ],
-  "date": "2026-11-20T16:56:08.602539+00:00",
-  "titre": "Andy Burnham et l'UE scellent un accord post-Brexit"
- },
- {
-  "sig": [
-   "bleus",
-   "espagn",
-   "finale",
-   "france",
-   "ligue",
-   "nation",
-   "quarts",
-   "zidane"
-  ],
-  "date": "2026-11-20T16:56:08.602541+00:00",
-  "titre": "Depardieu et Houellebecq visés par une enquête pour viol"
- },
- {
-  "sig": [
    "chere",
    "colere",
    "france",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-21T16:54:53.773521+00:00",
   "titre": "Costa propose 204 milliards d'euros d'économies pour le budget UE"
+ },
+ {
+  "sig": [
+   "fuites",
+   "hugues",
+   "mail",
+   "marine",
+   "moutou",
+   "pen",
+   "prefet",
+   "soupco"
+  ],
+  "date": "2026-11-22T16:51:48.521257+00:00",
+  "titre": "Le préfet Moutouh demande à être relevé de ses fonctions"
+ },
+ {
+  "sig": [
+   "accord",
+   "acheve",
+   "climat",
+   "cop31",
+   "decisi",
+   "echec",
+   "energi",
+   "fossil"
+  ],
+  "date": "2026-11-22T16:51:48.521267+00:00",
+  "titre": "La COP31 s'achève sans accord, l'UE rejette le texte final"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "cisjor",
+   "colons",
+   "eisenk",
+   "enquet",
+   "gadi",
+   "israel",
+   "ouvert"
+  ],
+  "date": "2026-11-22T16:51:48.521271+00:00",
+  "titre": "Des colons israéliens incendient des villages en Cisjordanie"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "elysee",
+   "franco",
+   "interr",
+   "lhermi",
+   "presid",
+   "primai"
+  ],
+  "date": "2026-11-22T16:51:48.521273+00:00",
+  "titre": "François Ruffin retire sa candidature à la présidentielle"
+ },
+ {
+  "sig": [
+   "budget",
+   "congre",
+   "consti",
+   "convoq",
+   "emmanu",
+   "inscri",
+   "macron",
+   "regle"
+  ],
+  "date": "2026-11-22T16:51:48.521275+00:00",
+  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
+ },
+ {
+  "sig": [
+   "fuites",
+   "hugues",
+   "mail",
+   "marine",
+   "moutou",
+   "pen",
+   "prefet",
+   "soupco"
+  ],
+  "date": "2026-11-22T16:56:25.065184+00:00",
+  "titre": "Le préfet Moutouh demande à être relevé de ses fonctions"
+ },
+ {
+  "sig": [
+   "accord",
+   "acheve",
+   "climat",
+   "cop31",
+   "decisi",
+   "echec",
+   "energi",
+   "fossil"
+  ],
+  "date": "2026-11-22T16:56:25.065198+00:00",
+  "titre": "La COP31 s'achève sans accord, l'UE rejette le texte final"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "cisjor",
+   "colons",
+   "eisenk",
+   "enquet",
+   "gadi",
+   "israel",
+   "ouvert"
+  ],
+  "date": "2026-11-22T16:56:25.065201+00:00",
+  "titre": "Des colons israéliens incendient des villages en Cisjordanie"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "elysee",
+   "franco",
+   "interr",
+   "lhermi",
+   "presid",
+   "primai"
+  ],
+  "date": "2026-11-22T16:56:25.065204+00:00",
+  "titre": "François Ruffin retire sa candidature à la présidentielle"
+ },
+ {
+  "sig": [
+   "budget",
+   "congre",
+   "consti",
+   "convoq",
+   "emmanu",
+   "inscri",
+   "macron",
+   "regle"
+  ],
+  "date": "2026-11-22T16:56:25.065206+00:00",
+  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
  }
 ]

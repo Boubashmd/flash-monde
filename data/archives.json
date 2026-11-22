@@ -1,1069 +1,5 @@
 [
  {
-  "date": "2026-10-31T16:59:10.346751+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Troisième samedi de mobilisation contre la vie chère en France",
-  "texte": "En France, une troisième journée de mobilisation contre la vie chère est organisée ce samedi. À Paris, les autorités ont interdit le parcours Bastille-Nation, et 70 000 policiers et gendarmes sont mobilisés.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-manifestations-du-31-octobre-70-000-personnes-recensees-a-paris-ce-samedi-annonce-la-prefecture-de-police_VN-202610310303.html",
-   "DNA": "https://www.dna.fr/social/2026/10/31/mobilisation-du-31-octobre-suivez-les-evenements-dans-le-bas-rhin-et-le-haut-rhin",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261031-troisi%C3%A8me-samedi-de-mobilisation-sociale-en-france-%C3%A0-quoi-s-attendre",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/direct-manifestations-du-31-octobre-a-toulouse-pas-de-mobilisation-declaree-officiellement-en-prefecture-70-000-policiers-et-gendarmes-mobilises-dans-13628338.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-des-violences-vont-elles-encore-emailler-les-manifestations-de-ce-samedi",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/en-allemagne-des-dizaines-de-milliers-de-jeunes-attendus-dans-les-rues-samedi-pour-manifester-contre-le-cout-de-la-vie-et-l-etat-des-etablissements-scolaires_6803597_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/societe/sante/coup-de-poignard-dans-luterus-exposees-a-des-gaz-lacrymogenes-lors-des-manifestations-des-femmes-temoignent-de-troubles-gynecologiques-31-10-2026-X3KMKE46Y5GFJNYK6ENHI75VA4.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-suivez-le-deroulement-de-la-journee-dans-la-loire-et-la-haute-loire",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-17-octobre-on-peut-voir-la-vitrine-de-magasin-comme-une-gigantesque-entreprise-de-creation-de-frustration-13627819.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/mobilisation-du-31-octobre-un-dispositif-exceptionnel-des-corteges-partiront-a-14h-a-nice-et-toulon-suivez-notre-direct-10749897",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-pres-de-500-personnes-rassemblees-devant-lhopital-du-mans-le-tramway-t1-interrompu-3e069018-d527-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
-   "actu.fr": "https://actu.fr/hauts-de-france/lille_59350/manifestation-du-31-octobre-a-lille-des-milliers-de-personnes-ont-tente-de-faire-peur-au-gouvernement_64999909.html"
-  },
-  "score": 147.99941727083333,
-  "personne": null,
-  "sig": [
-   "direct",
-   "manife",
-   "mobili",
-   "octobr",
-   "paris",
-   "person",
-   "social",
-   "ville"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T16:59:10.346777+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Collision de trains en Espagne : au moins 69 morts, une Française parmi eux",
-  "texte": "En Espagne, une collision entre deux trains a fait au moins soixante-neuf morts mercredi, près de Tolède. Le ministère français des Affaires étrangères annonce le décès d'une Française dans l'accident.",
-  "iso": [
-   "ESP",
-   "FRA"
-  ],
-  "pays": "Espagne",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/international/europe/espagne/collision-de-trains-en-espagne-les-habitants-d-urda-souffrent-enormement-une-messe-en-hommage-aux-victimes-organisee_AD-202610310295.html",
-   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261031-espagne-la-difficile-identification-des-victimes-de-la-collision-ferroviaire",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/collision-mortelle-de-trains-en-espagne-une-francaise-est-decedee-dans-la-catastrophe-annonce-le-quai-dorsay-13629720.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "Le Figaro France": "https://www.lefigaro.fr/international/collision-de-trains-en-espagne-une-francaise-est-decedee-20261031",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/collision-de-trains-en-espagne-une-francaise-parmi-les-69-morts-le-ministere-des-affaires-etrangeres-dit-sa-tres-vive-emotion_6803714_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/catastrophe-ferroviaire-en-espagne-une-francaise-est-decedee-dans-la-collision-entre-deux-trains-31-10-2026-YDIWXR36OBDKBGHRVO3EPS3GVA.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/collision-entre-deux-trains-en-espagne-nous-sommes-en-lien-constant-avec-sa-famille-une-francaise-decedee-lors-de-laccident-13629716.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/une-francaise-est-decedee-dans-la-collision-de-trains-en-espagne-10750227",
-   "Ouest-France": "https://www.ouest-france.fr/faits-divers/accidents/accident-de-trains-en-espagne-une-francaise-parmi-les-victimes-1c62c9f6-d53e-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/espagne-hommage-aux-69-victimes-de-la-catastrophe-ferroviaire-29401488.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/collision-de-trains-en-espagne-une-francaise-figure-parmi-les-victimes-de-la-catastrophe-ferroviaire-31319441.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/une-francaise-figure-parmi-les-victimes-de-la-collision-de-trains-en-espagne-qui-a-fait-69-morts-annonce-le-ministere-des-affaires-etrangeres_8261951.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 119.99941700194444,
-  "personne": null,
-  "sig": [
-   "collis",
-   "decede",
-   "espagn",
-   "franca",
-   "orsay",
-   "quai",
-   "trains",
-   "victim"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T16:59:10.346784+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Téhéran menace Washington d'une riposte sans limite géographique",
-  "texte": "En Iran, le Guide suprême Mojtaba Khamenei menace les États-Unis d'une riposte sans limite géographique en cas de nouveau bombardement. Une délégation qatarie est arrivée vendredi à Téhéran pour de nouvelles discussions.",
-  "iso": [
-   "IRN",
-   "USA",
-   "QAT"
-  ],
-  "pays": "Iran",
-  "sources": [
-   "BFMTV",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/asie/russie/l-ambassade-americaine-a-moscou-avertit-la-russie-d-une-menace-credible-d-attentat-a-moscou-samedi_AD-202610310298.html",
-   "Le Figaro France": "https://www.lefigaro.fr/international/la-russie-prevenue-par-les-etats-unis-d-une-menace-credible-d-attentat-a-moscou-samedi-20261031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/en-iran-mojtaba-khamenei-menace-les-etats-unis-d-une-riposte-sans-limite-geographique-en-cas-de-nouveau-bombardement_6803598_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/en-iran-mojtaba-khamenei-menace-les-etats-unis-d-une-riposte-sans-limite-geographique-en-cas-de-nouveau-bombardement_6803598_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/une-riposte-immediate-puissante-et-sans-limite-geographique-liran-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques-31-10-2026-MNQ3JYD625F5LH7S3SZVLATVNI.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/moscou-les-etats-unis-avertissent-d-une-menace-d-attentat-29401494.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/moyen-orient/guerre-au-moyen-orient-l-armee-iranienne-avertit-qu-une-nouvelle-attaque-americaine-elargirait-le-conflit-31315394.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-d-eventuelles-attaques_8261696.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 102.99941696472223,
-  "personne": "Mojtaba Khamenei",
-  "sig": [
-   "attent",
-   "averti",
-   "etats",
-   "geogra",
-   "limite",
-   "menace",
-   "ripost",
-   "unis"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T16:59:10.346789+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Paris : Emmanuel Grégoire saisit la justice après des tags « remigration »",
-  "texte": "À Paris, le maire saisit la justice après la découverte de tags racistes appelant à la remigration sur des commerces.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "France 3 Régions",
-   "Le Monde France",
-   "Le Parisien"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4259194-20261031-paris-cedera-rien-face-racisme-emmanuel-gregoire-porte-plainte-apres-decouverte-tags-remigration?at_medium=display&at_campaign=149",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/une-incitation-a-la-haine-raciale-la-mairie-de-paris-supprime-des-tags-racistes-appelant-a-la-remigration-et-saisit-la-justice-3442230.html",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/31/des-tags-remigration-decouverts-a-paris-emmanuel-gregoire-annonce-les-signaler-a-la-justice_6803712_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/paris-des-tags-faisant-la-promotion-de-la-remigration-decouverts-sur-des-facades-de-commerces-emmanuel-gregoire-annonce-porter-plainte-31-10-2026-KRZWVXRCFBGAHHK7ZN4NZUYN2A.php"
-  },
-  "score": 87.99941690361112,
-  "personne": "Emmanuel Grégoire",
-  "sig": [
-   "decouv",
-   "emmanu",
-   "gregoi",
-   "haine",
-   "justic",
-   "paris",
-   "remigr",
-   "tags"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T16:59:10.346794+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Un jeune homme tué par balles dans sa voiture à Mitry-Mory",
-  "texte": "En Seine-et-Marne, un jeune homme a été tué par balles dans sa voiture, à Mitry-Mory, vendredi soir.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "Le Parisien",
-   "Le Progrès",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/faits_divers/4259199-20261031-seine-marne-jeune-homme-tue-bord-voiture-visee-vingtaine-tirs?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/paris/seine-et-marne/vise-par-une-vingtaine-de-tirs-un-homme-tue-a-bord-d-une-voiture-en-seine-et-marne_AD-202610310306.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/seine-et-marne/un-conducteur-tue-a-bord-d-une-voiture-criblee-de-balles-ce-que-l-on-sait-de-la-victime-3442227.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/au-volant-il-avait-tue-un-jeune-cycliste-un-homme-exige-8000-des-parents-pour-reparer-sa-voiture",
-   "Le Parisien": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-un-trafiquant-de-drogue-presume-tue-au-fusil-dassaut-a-mitry-mory-31-10-2026-GCPGGXZNLNELPGQRGANAKI6BQI.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/au-volant-il-avait-tue-un-jeune-cycliste-un-homme-exige-8000-des-parents-pour-reparer-sa-voiture",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/un-jeune-homme-tue-a-bord-d-une-voiture-criblee-de-balles-pres-de-paris-31318471.php"
-  },
-  "score": 74.99941708833333,
-  "personne": null,
-  "sig": [
-   "8000",
-   "bord",
-   "homme",
-   "jeune",
-   "marne",
-   "seine",
-   "tue",
-   "voitur"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T16:59:10.346798+00:00",
-  "edition": "2026-10-31T17:51:11.460740+01:00",
-  "semaine": false,
-  "titre": "Washington alerte Moscou d'une menace crédible d'attentat samedi",
-  "texte": "Les États-Unis alertent la Russie d'une menace crédible d'attentat à Moscou ce samedi, selon l'ambassade américaine.",
-  "iso": [
-   "USA",
-   "RUS"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "BFMTV",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin"
-  ],
-  "liens": {
-   "BFMTV": "https://rmcsport.bfmtv.com/football/liga/la-liga-boycottee-les-deux-premiers-matchs-du-week-end-n-ont-pas-ete-diffuses-par-la-tv-publique-chinoise-apres-la-polemique-mbappe_AV-202610310274.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/ballon-dor-2026-hakimi-vainqueur-pacho-sur-le-podium-mbappe-et-yamal-hors-du-top-10-voici-les-votes-les-plus-absurdes-des-journalistes-du-jury-13629345.php",
-   "Le Parisien": "https://www.leparisien.fr/sports/football/apres-la-polemique-autour-de-kylian-mbappe-la-television-chinoise-na-pas-diffuse-les-deux-premiers-matchs-de-liga-ce-week-end-31-10-2026-2QXWTC7CBFEILBBM5RSOBCJ4E4.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/apres-la-declaration-polemique-de-mbappe-sur-mao-zedong-la-tv-publique-chinoise-na-pas-diffuse-les-deux-premiers-matches-du-week-end-en-liga-13629753.php",
-   "Nice-Matin": "https://www.nicematin.com/sports/football/polemique-mbappe-la-tv-publique-chinoise-n-a-pas-diffuse-les-deux-premiers-matches-du-week-end-en-liga-10750194"
-  },
-  "score": 72.99941707944444,
-  "personne": null,
-  "sig": [
-   "chinoi",
-   "diffus",
-   "end",
-   "kylian",
-   "liga",
-   "mbappe",
-   "polemi",
-   "premie"
-  ],
-  "youtube": "Tr2YD2no_VI",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275106+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Des milliers de jeunes manifestent dans une trentaine de villes allemandes",
-  "texte": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils dénoncent le coût de la vie et réclament de meilleures conditions d'enseignement, sans débordement signalé.",
-  "iso": [
-   "DEU"
-  ],
-  "pays": "Allemagne",
-  "sources": [
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "France 3 Régions",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/video-manifestations-du-31-octobre-on-attend-fermement-ceux-qui-voudraient-en-decoudre-ce-soir-declare-laurent-nunez-ministre-de-l-interieur_VN-202610310349.html",
-   "Courrier international": "https://www.courrierinternational.com/article/mobilisations-des-dizaines-de-milliers-de-manifestants-en-france-et-en-allemagne-avec-ou-sans-masque_283770",
-   "DNA": "https://www.dna.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-31-octobre-3e-vague-de-mobilisation-contre-la-vie-chere-a-quoi-s-attendre-a-toulouse-ou-les-rassemblements-sont-interdits-3442086.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/social/2026/10/31/manifestations-du-31-octobre-suivez-cette-nouvelle-journee-de-mobilisation-des-episodes-de-violences-redoutes",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-jai-cru-mourir-je-nai-pas-compris-un-manifestant-frappe-par-les-policiers-en-plein-coeur-du-quartier-des-carmes-13629926.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/10/31/mobilisation-du-31-octobre-des-violences-vont-elles-encore-emailler-les-manifestations-de-ce-samedi",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-de-320-000-a-pres-de-500-000-manifestants-en-france-296-interpellations-recensees-20261031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/10/31/mobilisation-du-31-octobre-cette-colere-dit-quelque-chose-sur-le-mal-etre-d-une-generation",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-31-octobre-de-nimes-a-montpellier-en-passant-par-ales-des-corteges-clairsemes-et-plus-de-joie-que-de-degats-13629937.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/acte-iii-pres-d-un-demi-million-de-manifestants-en-france-dont-200-000-a-paris-10750305",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/manifestation-du-31-octobre-batman-zorro-et-10-000-personnes-determinees-a-angers-contre-la-vie-chere-et-la-repression-b0f9902c-d548-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RFI": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/europe/allemagne/allemagne-la-police-sur-le-qui-vive-avant-d-importantes-manifestations-de-jeunes-ce-31-octobre-31316701.php",
-   "actu.fr": "https://actu.fr/occitanie/montpellier_34172/manifestation-de-ce-samedi-31-octobre-a-montpellier-jusqu-a-8-000-personnes-dont-200-black-blocs_65000247.html"
-  },
-  "score": 162.9993957136111,
-  "personne": null,
-  "sig": [
-   "000",
-   "allema",
-   "corteg",
-   "lauren",
-   "manife",
-   "mobili",
-   "nunez",
-   "octobr"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275126+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Habitants d'Olechky évacués : retrouvailles en Ukraine",
-  "texte": "En Ukraine, des habitants de la ville d'Olechky, occupée par la Russie, ont été évacués puis accueillis par leurs proches samedi. L'opération s'est déroulée pendant une trêve en vigueur depuis mardi. Ni Moscou ni Kiev n'ont précisé le nombre de personnes évacuées.",
-  "iso": [
-   "UKR",
-   "RUS"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "France 24",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/ukraine/4259210-20261031-guerre-ukraine-washington-approuve-vente-500-missiles-patriot-kiev-habitants-evacues-olechky?at_medium=display&at_campaign=149",
-   "France 24": "https://www.france24.com/fr/europe/20261031-ukraine-habitants-olechky-retrouvent-leurs-proches-apr%C3%A8s-avoir-%C3%A9t%C3%A9-%C3%A9vacu%C3%A9s-cessez-feu-russie-op%C3%A9ration-humanitaire-melania-trump",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/guerre-en-ukraine-une-decision-forte-washington-approuve-la-vente-de-500-missiles-intercepteurs-patriot-a-kiev-mais-volodymyr-zelensky-ne-cache-pas-13629843.php",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-une-decision-forte-ladministration-trump-valide-la-vente-de-500-missiles-patriot-a-kiev-pour-19-milliard-deuros-31-10-2026-NLQ4IWPBARFDFBWLU7F3QBYLSM.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/guerre-en-ukraine-donald-trump-promet-500-missiles-patriot-a-lukraine-pour-21-milliards-de-dollars-mais-kiev-devra-attendre-des-annees-pour-les-13629520.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-habitants-evacues-d-olechky-ville-occupee-par-la-russie-sont-arrives-en-ukraine_8261879.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.99939610638889,
-  "personne": null,
-  "sig": [
-   "500",
-   "approu",
-   "guerre",
-   "kiev",
-   "missil",
-   "patrio",
-   "ukrain",
-   "vente"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275132+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Midterms : votes anticipés record aux États-Unis",
-  "texte": "Aux États-Unis, le vote par anticipation pour les élections de mi-mandat connaît des niveaux records, notamment en Alaska. Dans certains États clés, les électeurs progressistes semblent se mobiliser avant le scrutin de mardi.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "France 3 Régions",
-   "L'Est Républicain",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/direct-manifestation-du-31-octobre-suivez-les-rassemblements-a-nantes-3442098.html",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/incendie-dun-immeuble-a-clermont-ferrand-trois-morts-et-un-quatrieme-corps-recherche-un-homme-interpelle-31-10-2026-UXPWGY26KJC2LBDK2X5SJ6DJEM.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/incendie-d-un-immeuble-a-clermont-ferrand-trois-corps-retrouves-dans-les-decombres",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/manifestation-du-17-octobre-on-peut-voir-la-vitrine-de-magasin-comme-une-gigantesque-entreprise-de-creation-de-frustration-13627819.php",
-   "RFI": "https://www.rfi.fr/fr/europe/20261031-albanie-les-heurts-entre-les-manifestants-et-la-police-lors-d-une-nouvelle-journ%C3%A9e-de-mobilisation",
-   "Sud Ouest": "https://www.sudouest.fr/international/albanie-nouvelles-tensions-et-heurts-avec-la-police-lors-d-une-manifestation-etudiante-a-tirana-31320676.php"
-  },
-  "score": 67.9993962325,
-  "personne": null,
-  "sig": [
-   "clermo",
-   "corps",
-   "ferran",
-   "heurts",
-   "interp",
-   "manife",
-   "octobr",
-   "tensio"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275137+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Cinq Britanniques interpellés près de Dunkerque",
-  "texte": "Près de Dunkerque, cinq Britanniques de l'ultradroite interpellés pour des actions d'intimidation contre des migrants.",
-  "iso": [
-   "FRA",
-   "GBR"
-  ],
-  "pays": "France",
-  "sources": [
-   "France 24",
-   "Le Monde"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/europe/20261031-andy-burnham-royaume-uni-pr%C3%AAt-pr%C3%A9senter-excuses-pour-son-r%C3%B4le-dans-esclavage-traite-transatlantique",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/au-royaume-uni-le-premier-ministre-andy-burnham-se-dit-ouvert-a-des-excuses-officielles-a-propos-de-l-esclavage_6803603_3210.html"
-  },
-  "score": 65.65422454666667,
-  "personne": null,
-  "sig": [
-   "andy",
-   "burnha",
-   "compen",
-   "esclav",
-   "excuse",
-   "offici",
-   "royaum",
-   "uni"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275142+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Aurore Bergé réclame une primaire de la droite et du centre",
-  "texte": "En France, Aurore Bergé réclame une primaire de la droite et du centre avant la présidentielle de 2027.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes",
-   "Le Parisien"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259189-20261031-etats-unis-washington-veut-expulser-migrants-vers-afghanistan-malgre-risques-persecution?at_medium=display&at_campaign=149",
-   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/pas-une-expulsion-mais-une-sentence-les-etats-unis-sappretent-a-renvoyer-des-refugies-vers-lafghanistan-malgre-des-risques-de-persecution-31-10-2026-ZHP6TDNBKVELJNMGPH6EUEVRII.php"
-  },
-  "score": 59.99939584333333,
-  "personne": "Aurore Bergé",
-  "sig": [
-   "afghan",
-   "appret",
-   "etats",
-   "expuls",
-   "malgre",
-   "persec",
-   "risque",
-   "unis"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T20:44:53.275147+00:00",
-  "edition": "2026-10-31T21:36:04.824192+01:00",
-  "semaine": false,
-  "titre": "Albanie : heurts entre manifestants et police à Tirana",
-  "texte": "En Albanie, la police disperse à coups de gaz lacrymogène des manifestants qui réclament la démission d'Edi Rama.",
-  "iso": [
-   "ALB"
-  ],
-  "pays": "Albanie",
-  "sources": [
-   "BFMTV",
-   "Le Figaro France",
-   "RFI"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/nord/cinq-britanniques-proches-de-la-mouvance-d-ultradroite-interpelles-pres-de-dunkerque-pour-des-actions-anti-migrants_AD-202610310337.html",
-   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/pres-de-dunkerque-cinq-britanniques-interpelles-jeudi-pour-des-actions-anti-migrants-20261031",
-   "RFI": "https://www.rfi.fr/fr/europe/20261031-france-cinq-britanniques-interpell%C3%A9s-dans-le-nord-pour-des-actions-anti-migrants"
-  },
-  "score": 54.63811343555555,
-  "personne": "Edi Rama",
-  "sig": [
-   "action",
-   "anti",
-   "britan",
-   "dunker",
-   "france",
-   "interp",
-   "migran",
-   "pres"
-  ],
-  "youtube": "5qfwriiK1Zg",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740501+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "Paris saisit la justice après des tags « remigration »",
-  "texte": "À Paris, des tags racistes appelant à la « remigration » ont été découverts sur des commerces. La mairie a saisi la justice. Une enquête pour provocation à la haine raciale est ouverte par le parquet.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 3 Régions",
-   "Le Monde France",
-   "Le Parisien"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4259194-20261031-paris-cedera-rien-face-racisme-emmanuel-gregoire-porte-plainte-apres-decouverte-tags-remigration?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/police-justice/video-a-paris-des-tags-remigration-ont-ete-decouverts-la-justice-a-ete-saisie_VN-202610310341.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/une-incitation-a-la-haine-raciale-la-mairie-de-paris-supprime-des-tags-racistes-appelant-a-la-remigration-et-saisit-la-justice-3442230.html",
-   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/10/31/le-parquet-de-paris-a-ouvert-une-enquete-pour-provocation-a-la-haine-raciale-en-raison-de-menaces-racistes-visant-des-livreurs-et-chauffeurs-sur-x_6803720_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/paris-des-tags-faisant-la-promotion-de-la-remigration-decouverts-sur-des-facades-de-commerces-emmanuel-gregoire-annonce-porter-plainte-31-10-2026-KRZWVXRCFBGAHHK7ZN4NZUYN2A.php"
-  },
-  "score": 97.99932045666667,
-  "personne": "Emmanuel Grégoire",
-  "sig": [
-   "decouv",
-   "emmanu",
-   "gregoi",
-   "haine",
-   "justic",
-   "paris",
-   "remigr",
-   "tags"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740521+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "L'Iran menace les États-Unis d'une riposte sans limite",
-  "texte": "En Iran, le guide suprême Mojtaba Khamenei menace d'une riposte immédiate et puissante si les États-Unis reprennent les frappes. Téhéran dit ne pas vouloir négocier avec Washington.",
-  "iso": [
-   "IRN",
-   "USA",
-   "ISR"
-  ],
-  "pays": "Iran",
-  "sources": [
-   "France 24",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "France 24": "https://www.france24.com/fr/moyen-orient/20261031-iran-%C3%A9tats-unis-isra%C3%ABl-guere-face-aux-sp%C3%A9culations-de-nouvelles-frappes-mojtaba-khamenei-menace-d-une-riposte-imm%C3%A9diate",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/russie-lambassade-des-etats-unis-alerte-sur-un-risque-dattentat-pouvant-entrainer-de-nombreuses-victimes-dans-un-musee-a-moscou-13629845.php",
-   "Le Figaro France": "https://www.lefigaro.fr/international/la-russie-prevenue-par-les-etats-unis-d-une-menace-credible-d-attentat-a-moscou-samedi-20261031",
-   "Le Parisien": "https://www.leparisien.fr/international/une-riposte-immediate-puissante-et-sans-limite-geographique-liran-met-en-garde-les-etats-unis-contre-une-reprise-des-attaques-31-10-2026-MNQ3JYD625F5LH7S3SZVLATVNI.php",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/moscou-les-etats-unis-avertissent-d-une-menace-d-attentat-29401494.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-d-eventuelles-attaques_8261696.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 92.99932052,
-  "personne": "Mojtaba Khamenei",
-  "sig": [
-   "attent",
-   "credib",
-   "etats",
-   "menace",
-   "moscou",
-   "ripost",
-   "russie",
-   "unis"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740528+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "Des milliers de jeunes Allemands manifestent dans une trentaine de villes",
-  "texte": "En Allemagne, des milliers de jeunes ont manifesté samedi dans une trentaine de villes. Ils réclament de meilleures conditions d'études, dénoncent le coût de la vie et rejettent le service militaire. Les rassemblements se sont déroulés sans débordement.",
-  "iso": [
-   "DEU"
-  ],
-  "pays": "Allemagne",
-  "sources": [
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Nice-Matin",
-   "RFI",
-   "RTS",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/de-l-argent-pour-les-systemes-sociaux-plutot-que-pour-la-guerre-dans-une-trentaine-de-villes-allemandes-des-manifestants-hostiles-au-service-militaire_6803729_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/international/allemagne/merz-doit-partir-en-allemagne-des-milliers-de-jeunes-ont-manifeste-pour-une-existence-accessible-a-tous-des-heurts-en-fin-de-parcours-31-10-2026-3IIJWBXZRJGSHATFM3NNFSTOSY.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/social/maintenant-le-gouvernement-doit-ceder-aux-revendications-a-toulon-le-depute-manuel-bompard-est-venu-soutenir-la-jeunesse-et-les-manifestants-10750307",
-   "RFI": "https://www.rfi.fr/fr/europe/20261031-nous-voulons-un-autre-avenir-la-jeunesse-allemande-manifeste-dans-une-trentaine-de-villes",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/allemagne-plus-de-170-000-jeunes-de-la-gen-z-manifestent-29401472.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/manifestations-en-allemagne-la-gen-z-se-mobilise-des-heurts-en-fin-de-parcours-31326065.php"
-  },
-  "score": 92.99932026527779,
-  "personne": null,
-  "sig": [
-   "allema",
-   "argent",
-   "doit",
-   "fin",
-   "jeunes",
-   "manife",
-   "trenta",
-   "villes"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740533+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "Pologne : Nawrocki et Tusk s'affrontent sur le Tribunal",
-  "texte": "En Pologne, la crise du Tribunal constitutionnel s'aggrave, avec une intervention de la police à Varsovie.",
-  "iso": [
-   "POL"
-  ],
-  "pays": "Pologne",
-  "sources": [
-   "Courrier international",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "RTS",
-   "franceinfo"
-  ],
-  "liens": {
-   "Courrier international": "https://www.courrierinternational.com/article/crise-en-pologne-chaos-autour-du-tribunal-constitutionnel-une-institution-jugee-enterree_283737",
-   "Le Figaro France": "https://www.lefigaro.fr/international/pologne-donald-tusk-denonce-les-responsables-politiques-qui-veulent-detruire-la-democratie-et-l-etat-de-droit-20261031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/la-pologne-ne-s-est-pas-eteinte-et-ne-s-eteindra-pas-declare-donald-tusk-alors-que-le-pays-est-plonge-dans-une-grave-crise-politique-liee-au-tribunal-constitutionnel_6803486_3211.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/la-pologne-ne-s-est-pas-eteinte-et-ne-s-eteindra-pas-declare-donald-tusk-alors-que-le-pays-est-plonge-dans-une-grave-crise-politique-liee-au-tribunal-constitutionnel_6803486_3211.html",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/pologne-le-president-recoit-les-partis-face-a-la-crise-29401501.html?rts_source=rss_t",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/pologne-une-crise-politique-eclate-au-tribunal-constitutionnel-de-varsovie-le-premier-ministre-donald-tusk-defie-par-le-president-karol-nawrocki_8261876.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.74127975916667,
-  "personne": "Donald Tusk",
-  "sig": [
-   "consti",
-   "crise",
-   "declar",
-   "donald",
-   "politi",
-   "pologn",
-   "tribun",
-   "tusk"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740538+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "Collision de trains en Espagne : au moins 69 morts",
-  "texte": "En Espagne, la collision de deux trains près de Tolède fait au moins soixante-neuf morts, dont une Française.",
-  "iso": [
-   "ESP",
-   "FRA"
-  ],
-  "pays": "Espagne",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "DNA",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4259203-20261031-collision-trains-espagne-francaise-decedee-annonce-quai-orsay?at_medium=display&at_campaign=149",
-   "DNA": "https://www.dna.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/collision-mortelle-de-trains-en-espagne-une-francaise-est-decedee-dans-la-catastrophe-annonce-le-quai-dorsay-13629720.php",
-   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "Le Figaro France": "https://www.lefigaro.fr/international/collision-de-trains-en-espagne-une-francaise-est-decedee-20261031",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/10/31/collision-de-trains-en-espagne-une-francaise-parmi-les-69-morts-le-ministere-des-affaires-etrangeres-dit-sa-tres-vive-emotion_6803714_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/10/31/collision-de-trains-en-espagne-une-francaise-parmi-les-69-morts-le-ministere-des-affaires-etrangeres-dit-sa-tres-vive-emotion_6803714_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/catastrophe-ferroviaire-en-espagne-une-francaise-est-decedee-dans-la-collision-entre-deux-trains-31-10-2026-YDIWXR36OBDKBGHRVO3EPS3GVA.php",
-   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/10/31/une-francaise-est-morte-dans-la-collision-de-deux-trains-a-grande-vitesse-selon-le-quai-d-orsay",
-   "Midi Libre": "https://www.midilibre.fr/2026/10/31/collision-entre-deux-trains-en-espagne-nous-sommes-en-lien-constant-avec-sa-famille-une-francaise-decedee-lors-de-laccident-13629716.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/une-francaise-est-decedee-dans-la-collision-de-trains-en-espagne-10750227",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/collision-de-trains-en-espagne-une-francaise-figure-parmi-les-victimes-de-la-catastrophe-ferroviaire-31319441.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/une-francaise-figure-parmi-les-victimes-de-la-collision-de-trains-en-espagne-qui-a-fait-69-morts-annonce-le-ministere-des-affaires-etrangeres_8261951.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 79.99932055861112,
-  "personne": null,
-  "sig": [
-   "catast",
-   "collis",
-   "decede",
-   "espagn",
-   "franca",
-   "orsay",
-   "quai",
-   "trains"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-10-31T21:42:48.740544+00:00",
-  "edition": "2026-10-31T22:27:10.287143+01:00",
-  "semaine": false,
-  "titre": "Midterms : Trump admet qu'un président perd souvent ce scrutin",
-  "texte": "Aux États-Unis, Donald Trump admet que les élections de mi-mandat s'annoncent difficiles pour les républicains.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "La Dépêche",
-   "Le Figaro",
-   "Le Parisien",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "La Dépêche": "https://www.ladepeche.fr/2026/10/31/midterms-2026-donald-trump-admet-quun-president-perd-generalement-les-elections-mais-affirme-que-les-republicains-ont-une-chance-de-lemporter-13629531.php",
-   "Le Figaro": "https://www.lefigaro.fr/international/blocage-enquetes-impeachment-les-scenarios-de-l-apres-midterms-pour-donald-trump-en-cas-de-defaite-20261031",
-   "Le Parisien": "https://www.leparisien.fr/international/midterms-2026-generalement-un-president-bon-ou-mauvais-republicain-ou-democrate-perd-ces-elections-affirme-donald-trump-31-10-2026-5B2WTRP5IJGDBHKL7B4C6AISUE.php",
-   "Sud Ouest": "https://www.sudouest.fr/international/etats-unis/midterms-aux-etats-unis-febrile-donald-trump-entrevoit-une-defaite-aux-elections-de-mi-mandat-31317601.php"
-  },
-  "score": 72.99932062777778,
-  "personne": "Donald Trump",
-  "sig": [
-   "2026",
-   "affirm",
-   "defait",
-   "donald",
-   "electi",
-   "genera",
-   "midter",
-   "trump"
-  ],
-  "youtube": "Wt5WT-Nl0d0",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-01T16:25:42.166687+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Paris ouvre une enquête pour tentative d'homicide après une attaque contre des gendarmes",
-  "texte": "À Paris, une enquête pour tentative d'homicide a été ouverte après le jet d'un cocktail Molotov sur des gendarmes, samedi 31 octobre, en marge de manifestations contre la vie chère. Au total, 779 interpellations ont été recensées en France.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "RFI"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-mobilisation-du-31-octobre-le-constat-des-pillages-et-degats-a-marseille-au-lendemain-de-la-manifestation_VN-202611010274.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/pres-de-10-000-manifestants-des-affrontements-une-tentative-de-cambriolage-le-bilan-de-la-mobilisation-du-31-octobre-a-marseille-3442287.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/01/manifestations-du-31-octobre-20-commerces-degrades-ce-samedi-selon-cci-france-il-y-en-avait-2-488-il-y-a-deux-semaines-13630867.php",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/manifestations-de-31-octobre-20-commerces-degrades-samedi-un-bilan-bien-moins-lourd-que-les-week-ends-precedents-01-11-2026-DXERBDAINBFFBCQOLEWBU77RGU.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/01/manifestation-du-31-octobre-a-nimes-les-commerces-sont-restes-ouverts-le-dispositif-securite-a-fonctionne-13630065.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/securite/une-interpellation-brutale-a-nice-la-cgt-denonce-l-arrestation-d-un-militant-plaque-sur-le-capot-d-un-fourgon-apres-la-manifestation-ce-samedi-10750986",
-   "RFI": "https://www.rfi.fr/fr/france/20261101-france-une-enqu%C3%AAte-pour-tentative-d-homicide-et-779-interpellations-apr%C3%A8s-les-mobilisations-du-31-octobre"
-  },
-  "score": 107.9946501911111,
-  "personne": null,
-  "sig": [
-   "779",
-   "commer",
-   "degrad",
-   "france",
-   "interp",
-   "manife",
-   "mobili",
-   "octobr"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
-  "date": "2026-11-01T16:25:42.166709+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Les Lycéens ! appellent au blocus des lycées dès lundi",
-  "texte": "Le président du mouvement Les Lycéens !, Pierre Sourzat, a appelé à bloquer les lycées dès lundi. Il juge insuffisantes les mesures annoncées par le gouvernement. Une grève générale est également prévue jeudi 5 novembre.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4259300-20261101-blocus-lycees-organisation-lyceens-appelle-nouvelles-mobilisations-lundi?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/societe/video-colere-sociale-nouvelle-semaine-de-mobilisation-a-venir-entre-lycees-bloques-et-appel-a-la-greve_VN-202611010269.html",
-   "DNA": "https://www.dna.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
-   "France 24": "https://www.france24.com/fr/france/20261101-lyc%C3%A9es-seront-bloqu%C3%A9s-pour-rentr%C3%A9e-mouvement-lyc%C3%A9ens-appelle-mobilisation",
-   "Le Parisien": "https://www.leparisien.fr/societe/blocus-des-lycees-des-lundi-greve-le-5-novembre-six-seven-a-quelles-mobilisations-sattendre-cette-semaine-01-11-2026-HXXOLR22EZFG5KUVMDKB36XDHI.php",
-   "Le Progrès": "https://www.leprogres.fr/social/2026/11/01/colere-lyceenne-l-organisation-les-lyceens-appelle-au-blocus-des-lundi",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/01/mobilisation-des-lyceens-un-sacrifice-pour-les-generations-futures-ils-ne-se-sentent-pas-entendus-les-jeunes-vont-reprendre-des-lundi-les-blocus-13630685.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/blocage-des-lycees/c-est-un-sacrifice-l-organisation-les-lyceens-appelle-au-blocus-des-lycees-des-lundi-estimant-qu-emmanuel-macron-ne-les-a-pas-entendus-10750892",
-   "Ouest-France": "https://www.ouest-france.fr/societe/manifestation/colere-sociale-greve-le-5-novembre-acte-iv-a-quoi-faut-il-sattendre-cette-semaine-e445ef7e-d5f3-11f1-84f3-5611f158a658?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu"
-  },
-  "score": 102.99465021083333,
-  "personne": "Pierre Sourzat",
-  "sig": [
-   "appell",
-   "blocus",
-   "colere",
-   "lyceen",
-   "lycees",
-   "mobili",
-   "organi",
-   "social"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
-  "date": "2026-11-01T16:25:42.166717+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Binance victime d'un vol record, le FBI accuse la Corée du Nord",
-  "texte": "La plateforme de cryptomonnaies Binance a subi le plus gros vol de son histoire, le 29 octobre. Le FBI accuse des pirates nord-coréens d'être à l'origine de ce vol, évalué à 6,3 milliards de dollars. Binance a commencé à rouvrir les retraits.",
-  "iso": [
-   "PRK",
-   "USA"
-  ],
-  "pays": "Corée du Nord",
-  "sources": [
-   "Le Monde",
-   "Le Parisien",
-   "Midi Libre",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "Le Monde": "https://www.lemonde.fr/pixels/article/2026/11/01/piratage-de-la-plateforme-de-cryptomonnaies-binance-la-plateforme-annonce-rouvrir-les-retraits-le-fbi-accuse-la-coree-du-nord-du-casse-du-siecle_6803867_4408997.html",
-   "Le Parisien": "https://www.leparisien.fr/international/wannacry-bybit-avant-la-cyberattaque-de-binance-la-coree-du-nord-deja-accusee-du-vol-de-milliards-de-dollars-en-cryptomonnaies-01-11-2026-GSCUWCD3FZBPPCQGSVY4ZDGQ5E.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/01/binance-victime-dun-braquage-a-63-milliards-de-dollars-les-retraits-reprennent-apres-un-vol-sans-precedent-commis-par-des-pirates-nord-coreens-13630872.php",
-   "RFI": "https://www.rfi.fr/fr/asie-pacifique/20261101-cryptomonnaies-qui-sont-les-hackers-nord-cor%C3%A9ens-soup%C3%A7onn%C3%A9s-d-avoir-pirat%C3%A9-binance",
-   "Sud Ouest": "https://www.sudouest.fr/international/asie/coree-du-nord/coree-du-nord-ce-qu-il-faut-savoir-sur-tradertraitor-le-groupe-de-pirates-informatiques-derriere-le-vol-de-milliards-de-dollars-en-cryptomonnaies-31331649.php"
-  },
-  "score": 82.99465046111112,
-  "personne": null,
-  "sig": [
-   "accuse",
-   "binanc",
-   "coree",
-   "crypto",
-   "dollar",
-   "millia",
-   "nord",
-   "vol"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
-  "date": "2026-11-01T16:25:42.166722+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Copé exclut une primaire de la droite pour la présidentielle",
-  "texte": "Jean-François Copé affirme qu'il n'y aura pas de primaire de la droite et du centre pour la présidentielle de 2027.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/politique/4259296-20261101-presidentielle-2027-fesneau-veut-primaire-sociaux-democrates-droite-republicaine-lisnard?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/politique/video-presidentielle-il-n-y-aura-pas-de-primaire-de-la-droite-et-du-centre-selon-jean-francois-cope_VN-202611010295.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/01/direct-presidentielle-2027-si-la-jeunesse-vote-massivement-nous-gagnerons-assure-la-deputee-lfi-mathilde-panot-13629604.php",
-   "Le Figaro France": "https://www.lefigaro.fr/vox/politique/albert-zennou-presidentielle-2027-le-moment-david-lisnard-le-doute-bruno-retailleau-20261030",
-   "Le Parisien": "https://www.leparisien.fr/politique/presidentielle-2027-jean-francois-cope-accuse-david-lisnard-de-ne-pas-etre-tres-clair-sur-sa-ligne-vis-a-vis-du-rn-01-11-2026-F3KPHEL6ZBGENJMH72VAQEZAEA.php",
-   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-attendu-ce-dimanche-au-20-heures-de-tf1-face-a-l-hypothese-d-une-primaire-a-droite-et-au-centre-31333239.php"
-  },
-  "score": 82.99465007805556,
-  "personne": "Jean-François Copé",
-  "sig": [
-   "2027",
-   "cope",
-   "droite",
-   "franco",
-   "jean",
-   "lisnar",
-   "presid",
-   "primai"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
-  "date": "2026-11-01T16:25:42.166728+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Cinq militants britanniques d'ultradroite interdits dans le Nord",
-  "texte": "À Dunkerque, cinq Britanniques d'ultradroite soupçonnés d'intimidations contre des migrants sont interdits de paraître dans le Nord et le Pas-de-Calais.",
-  "iso": [
-   "GBR",
-   "FRA"
-  ],
-  "pays": "Royaume-Uni",
-  "sources": [
-   "20 Minutes France",
-   "L'Est Républicain",
-   "Le Dauphiné",
-   "Le Monde",
-   "Le Parisien",
-   "Le Progrès",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/justice/4259324-20261101-cinq-britanniques-antimigrants-interdits-paraitre-nord-calais?at_medium=display&at_campaign=149",
-   "L'Est Républicain": "https://www.estrepublicain.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
-   "Le Dauphiné": "https://www.ledauphine.com/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
-   "Le Monde": "https://www.lemonde.fr/societe/article/2026/11/01/cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-apres-des-actions-d-intimidation-contre-des-migrants_6804511_3224.html",
-   "Le Parisien": "https://www.leparisien.fr/nord-59/the-battle-bus-cinq-britanniques-dultradroite-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-01-11-2026-AS6V6ZYVQNBXVMHAWOISLHHVC4.php",
-   "Le Progrès": "https://www.leprogres.fr/societe/2026/11/01/interpelles-pour-des-actions-anti-migrants-cinq-britanniques-d-ultradroite-interdits-de-sejour",
-   "Sud Ouest": "https://www.sudouest.fr/international/migrants-et-refugies/actes-antimigrants-cinq-britanniques-interdits-de-paraitre-dans-le-nord-et-le-pas-de-calais-31333967.php"
-  },
-  "score": 74.99465001944444,
-  "personne": null,
-  "sig": [
-   "action",
-   "britan",
-   "calais",
-   "interd",
-   "migran",
-   "nord",
-   "parait",
-   "ultrad"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
-  "date": "2026-11-01T16:25:42.166733+00:00",
-  "edition": "2026-11-01T17:11:18.596582+01:00",
-  "semaine": false,
-  "titre": "Bruxelles soutient Donald Tusk face au président Nawrocki",
-  "texte": "En Pologne, la Commission européenne soutient le Premier ministre Donald Tusk et appelle le président Nawrocki à valider des nominations de juges.",
-  "iso": [
-   "POL",
-   "UE"
-  ],
-  "pays": "Pologne",
-  "sources": [
-   "Euronews",
-   "France 24",
-   "La Dépêche",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "Euronews": "https://fr.euronews.com/2026/11/01/crise-politique-en-pologne-bruxelles-exprime-son-soutien-au-premier-ministre-donald-tusk",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261101-crise-politique-en-pologne-bruxelles-fait-pression-sur-le-pr%C3%A9sident-polonais",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/01/crise-en-pologne-suspension-du-president-du-tribunal-constitutionnel-mobilisations-massives-tentative-de-coup-detat-on-vous-explique-le-conflit-qui-13630754.php",
-   "Sud Ouest": "https://www.sudouest.fr/politique/pologne-les-six-choses-a-savoir-pour-comprendre-la-crise-politique-majeure-autour-du-tribunal-constitutionnel-31333647.php"
-  },
-  "score": 72.23086007111111,
-  "personne": "Donald Tusk",
-  "sig": [
-   "autour",
-   "bruxel",
-   "consti",
-   "crise",
-   "politi",
-   "pologn",
-   "presid",
-   "tribun"
-  ],
-  "youtube": null,
-  "yt_attente": "43edbf"
- },
- {
   "date": "2026-11-01T19:18:37.182827+00:00",
   "edition": "2026-11-01T20:13:48.445380+01:00",
   "semaine": false,
@@ -7118,6 +6054,259 @@
    "propos"
   ],
   "youtube": "9F_KrDsOxCo",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-22T16:56:43.306684+00:00",
+  "edition": "2026-11-22T17:51:26.706408+01:00",
+  "semaine": false,
+  "titre": "Le préfet Moutouh demande à être relevé de ses fonctions",
+  "texte": "Dans le Centre-Val de Loire, le préfet Hugues Moutouh demande à être relevé de ses fonctions. Il est soupçonné d'avoir transmis des informations sur des enquêtes visant le RN. Marine Le Pen affirme n'avoir jamais reçu d'informations confidentielles de sa part.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "France 3 Régions",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "Sud Ouest",
+   "actu.fr",
+   "franceinfo France"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4264731-20261122-suspecte-fuites-rn-prefet-moutouh-demande-partir?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-david-lisnard-voit-une-primaire-de-la-droite-et-du-centre-comme-un-moyen-d-exclure-les-macronistes_LN-202611220111.html",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/22/fuites-a-beauvau-un-mail-decouvert-chez-frederic-chatillon-proche-de-marine-le-pen-a-l-origine-de-l-enquete",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261122-enqu%C3%AAte-rn-le-pr%C3%A9fet-moutouh-demande-%C3%A0-%C3%AAtre-relev%C3%A9-de-ses-fonctions-communiqu%C3%A9",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/marine-le-pen-affirme-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-du-centre-val-de-loire-hugues-moutouh-3453981.html",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/22/fuites-a-beauvau-un-mail-decouvert-chez-frederic-chatillon-proche-de-marine-le-pen-a-l-origine-de-l-enquete",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/22/enquete-rn-un-mail-du-service-du-prefet-moutouh-decouvert-en-perquisition-chez-un-proche-de-marine-le-pen-a-rome-13665698.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/22/super-sherif-deux-claques-et-au-lit-qui-est-le-tres-droitier-prefet-hugues-moutouh-soupconne-de-fuites",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/22/fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-hugues-moutouh_6814216_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/politique/soupcons-de-fuite-vers-le-rn-marine-le-pen-dit-navoir-jamais-recu-dinformation-confidentielle-du-prefet-hugues-moutouh-22-11-2026-PX2WT2FF65HM5MH7W5QBHAOV3A.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/22/fuites-a-beauvau-un-mail-decouvert-chez-frederic-chatillon-proche-de-marine-le-pen-a-l-origine-de-l-enquete",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/22/soupcons-de-fuites-vers-le-rn-marine-le-pen-assure-navoir-jamais-recu-dinformations-confidentielles-du-prefet-hugues-moutouh-13665762.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/presidentielle-2027-marine-le-pen-attaque-david-lisnard-et-son-projet-de-broyer-le-code-du-travail-10766925",
+   "Ouest-France": "https://www.ouest-france.fr/economie/presidentielle-2027-marine-le-pen-est-du-cote-des-oligarques-affirme-gabriel-zucman-55654252-e67c-11f1-afa7-9a0bb82a33d1?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-le-pen-attaque-lisnard-et-son-projet-de-broyer-le-code-du-travail-31613571.php",
+   "actu.fr": "https://actu.fr/politique/election-presidentielle/soupcons-de-fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-information-confidentielle-d-un-prefet_65086664.html",
+   "franceinfo France": "https://www.franceinfo.fr/politique/front-national/soupconne-de-fuites-vers-le-rn-le-prefet-du-loiret-hugues-moutouh-demande-a-etre-demis-de-ses-fonctions_8294663.html#xtor=RSS-3-%5Bfrance%5D"
+  },
+  "score": 157.9990591636111,
+  "personne": "Hugues Moutouh",
+  "sig": [
+   "fuites",
+   "hugues",
+   "mail",
+   "marine",
+   "moutou",
+   "pen",
+   "prefet",
+   "soupco"
+  ],
+  "youtube": "40WOJyUu6qs",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-22T16:56:43.306706+00:00",
+  "edition": "2026-11-22T17:51:26.706408+01:00",
+  "semaine": false,
+  "titre": "La COP31 s'achève sans accord, l'UE rejette le texte final",
+  "texte": "À Antalya, en Turquie, la COP31 s'achève sans accord. Après plus de 49 heures de prolongation, l'Union européenne et d'autres pays rejettent le projet de décision finale, qui omet les énergies fossiles.",
+  "iso": [
+   "TUR",
+   "UE",
+   "MONDE"
+  ],
+  "pays": "Turquie",
+  "sources": [
+   "BFMTV",
+   "Courrier international",
+   "DNA",
+   "France 24",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "RFI",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/environnement/climat/les-49-heures-de-prolongations-n-auront-pas-suffit-la-cop31-se-termine-officiellement-sans-un-accord_AD-202611220346.html",
+   "Courrier international": "https://www.courrierinternational.com/article/climat-echec-a-la-cop31-la-derniere-version-du-projet-d-accord-rejetee-par-nombreux-pays-dont-les-etats-membres-de-l-ue_289215",
+   "DNA": "https://www.dna.fr/environnement/2026/11/22/un-texte-qui-nous-ramene-en-arriere-la-cop31-sur-le-point-de-s-achever-sur-un-echec",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261122-la-cop31-s-ach%C3%A8ve-sur-un-%C3%A9chec-l-ue-rejette-la-proposition-d-accord-final",
+   "L'Est Républicain": "https://www.estrepublicain.fr/environnement/2026/11/22/un-texte-qui-nous-ramene-en-arriere-la-cop31-sur-le-point-de-s-achever-sur-un-echec",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/22/cop31-nous-navons-pas-pu-parvenir-a-un-accord-enorme-deception-aucune-decision-politique-finale-trouvee-a-lissue-de-la-conference-sur-le-climat-13665862.php",
+   "Le Dauphiné": "https://www.ledauphine.com/environnement/2026/11/22/un-texte-qui-nous-ramene-en-arriere-la-cop31-sur-le-point-de-s-achever-sur-un-echec",
+   "Le Parisien": "https://www.leparisien.fr/environnement/climat/le-compte-ny-est-toujours-pas-la-france-estime-que-le-texte-propose-a-la-cop31-nous-ramene-en-arriere-22-11-2026-M4HS642PFNBQ3OV2P7NSNSVXI4.php",
+   "Le Progrès": "https://www.leprogres.fr/environnement/2026/11/22/un-texte-qui-nous-ramene-en-arriere-la-cop31-sur-le-point-de-s-achever-sur-un-echec",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/22/il-ny-aura-pas-daccord-la-cop31-se-cloture-dans-le-chaos-apres-le-rejet-par-les-pays-europeens-a-ladoption-de-la-decision-finale-13665761.php",
+   "Nice-Matin": "https://www.nicematin.com/meteo/climat/accord-sur-le-climat-plus-que-jamais-divise-le-monde-echoue-a-se-mettre-d-accord-a-la-cop31-10766826",
+   "Ouest-France": "https://www.ouest-france.fr/environnement/cop21/la-cop31-sacheve-sans-accord-2009-2024-ces-autres-fois-ou-la-conference-sur-le-climat-a-debouche-sur-une-impasse-89cbc880-e68c-11f1-afa7-9a0bb82a33d1?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "RFI": "https://www.rfi.fr/fr/environnement/20261122-cop31-faute-de-consensus-la-pr%C3%A9sidence-turque-annonce-le-rejet-de-la-proposition-d-accord-final",
+   "Sud Ouest": "https://www.sudouest.fr/environnement/cop31-prise-en-otage-par-des-etats-petroliers-inacceptable-les-reactions-apres-l-echec-d-un-accord-en-turquie-31612989.php"
+  },
+  "score": 132.99905940472223,
+  "personne": null,
+  "sig": [
+   "accord",
+   "acheve",
+   "climat",
+   "cop31",
+   "decisi",
+   "echec",
+   "energi",
+   "fossil"
+  ],
+  "youtube": "40WOJyUu6qs",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-22T16:56:43.306713+00:00",
+  "edition": "2026-11-22T17:51:26.706408+01:00",
+  "semaine": false,
+  "titre": "Des colons israéliens incendient des villages en Cisjordanie",
+  "texte": "En Cisjordanie occupée, des colons israéliens ont incendié et vandalisé des biens palestiniens dans au moins quatre villages. Les autorités israéliennes ont ouvert une enquête. Gadi Eisenkot dénonce un « terrorisme juif ».",
+  "iso": [
+   "ISR"
+  ],
+  "pays": "Israël",
+  "sources": [
+   "20 Minutes",
+   "France 24",
+   "Le Monde",
+   "Le Monde France",
+   "Le Parisien",
+   "Nice-Matin",
+   "RFI",
+   "RTS",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/israel/4264709-20261121-israel-gadi-eisenkot-invite-parti-netanyahu-negociations-coalition?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261122-isra%C3%ABl-eisenkot-condamne-des-attaques-de-colons-juifs-en-cisjordanie",
+   "Le Monde": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/11/22/cisjordanie-enquete-ouverte-par-les-autorites-israeliennes-apres-des-attaques-de-colons-gadi-eisenkot-denonce-un-terrorisme-juif_6814204_6325529.html",
+   "Le Monde France": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/11/22/cisjordanie-enquete-ouverte-par-les-autorites-israeliennes-apres-des-attaques-de-colons-gadi-eisenkot-denonce-un-terrorisme-juif_6814204_6325529.html",
+   "Le Parisien": "https://www.leparisien.fr/international/israel/cisjordanie-enquete-ouverte-apres-des-incendies-imputes-a-des-colons-israeliens-gadi-eisenkot-denonce-un-terrorisme-juif-22-11-2026-4SLQUUKTJZBTZCSRA7XL2RWHZY.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/conflits/du-terrorisme-juif-selon-gadi-eisenkot-en-cisjordanie-une-enquete-ouverte-apres-des-incendies-de-voitures-et-des-graffitis-imputes-a-des-colons-israeliens-10766499",
+   "RFI": "https://www.rfi.fr/fr/moyen-orient/20261122-isra%C3%ABl-une-nouvelle-attaque-de-colons-en-cisjordanie-occup%C3%A9e-provoque-un-toll%C3%A9-politique",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/cisjordanie-enquete-sur-des-incendies-imputes-a-des-colons-29423519.html?rts_source=rss_t",
+   "franceinfo": "https://www.franceinfo.fr/monde/israel/une-enquete-ouverte-apres-des-incendies-imputes-a-des-colons-israeliens-en-cisjordanie-occupee_8294669.html#xtor=RSS-3-%5Bmonde%5D"
+  },
+  "score": 112.99905914333333,
+  "personne": "Gadi Eisenkot",
+  "sig": [
+   "attaqu",
+   "cisjor",
+   "colons",
+   "eisenk",
+   "enquet",
+   "gadi",
+   "israel",
+   "ouvert"
+  ],
+  "youtube": "40WOJyUu6qs",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-22T16:56:43.306719+00:00",
+  "edition": "2026-11-22T17:51:26.706408+01:00",
+  "semaine": false,
+  "titre": "François Ruffin retire sa candidature à la présidentielle",
+  "texte": "François Ruffin retire sa candidature à la présidentielle de 2027, faute de primaire de toute la gauche.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "Le Figaro France",
+   "Le Parisien",
+   "RFI",
+   "RTS"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4263329-20261122-presidentielle-2027-photo-pourquoi-franco-israeliens-preferent-voter-pen-melenchon?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/video-presidentielle-2027-je-n-en-vois-aucun-qui-est-capable-de-remplir-la-fonction-lance-henri-guaino-ancien-conseiller-special-de-nicolas-sarkozy-a-l-elysee-interroge-sur-les-candidats_VN-202611220341.html",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/primaire-de-la-droite-et-du-centre-les-limites-fixees-par-larcher-et-la-ligne-soutenue-par-lisnard-aiguisent-les-craintes-d-une-impasse-20261122",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-controle-continu-horaires-gabriel-attal-veut-modifier-son-pacte-jeunesse-pour-mieux-refleter-les-preoccupations-22-11-2026-37NQJ22MMRGXVHJSVNHGV4T2SY.php",
+   "RFI": "https://www.rfi.fr/fr/france/20261121-pr%C3%A9sidentielle-2027-fran%C3%A7ois-ruffin-jette-l-%C3%A9ponge-faute-de-primaire-de-toute-la-gauche",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/francois-ruffin-retire-sa-candidature-a-la-presidentielle-29423230.html?rts_source=rss_t"
+  },
+  "score": 107.99905952611111,
+  "personne": "François Ruffin",
+  "sig": [
+   "2027",
+   "candid",
+   "elysee",
+   "franco",
+   "interr",
+   "lhermi",
+   "presid",
+   "primai"
+  ],
+  "youtube": "40WOJyUu6qs",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-22T16:56:43.306729+00:00",
+  "edition": "2026-11-22T17:51:26.706408+01:00",
+  "semaine": false,
+  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution",
+  "texte": "Emmanuel Macron envisagerait de réunir le Congrès en janvier pour inscrire une règle d'or budgétaire dans la Constitution.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/economie/economie-social/finances-publiques/qu-est-ce-que-la-regle-d-or-budgetaire-qu-emmanuel-macron-et-plusieurs-candidats-a-l-election-presidentielle-souhaite-faire-inscrire-dans-la-constitution_AV-202611220292.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/22/emmanuel-macron-envisagerait-de-convoquer-le-congres-pour-inscrire-une-regle-dor-budgetaire-dans-la-constitution-13665587.php",
+   "Le Figaro France": "https://www.lefigaro.fr/politique/un-bouclier-qui-protege-les-francais-la-droite-et-le-rn-sont-prets-a-soutenir-un-projet-de-regle-d-or-budgetaire-20261122",
+   "Le Parisien": "https://www.leparisien.fr/politique/budget-2027-cest-quoi-la-regle-dor-quemmanuel-macron-voudrait-inscrire-dans-la-constitution-22-11-2026-L4UL66I4K5G6BCRZ7GV37KXBFE.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/22/quest-ce-quune-regle-dor-budgetaire-quemmanuel-macron-veut-inscrire-dans-la-constitution-13665800.php",
+   "Nice-Matin": "https://www.nicematin.com/economie/ce-president-aura-attendu-d-avoir-vide-le-coffre-pour-se-decider-a-y-mettre-un-verrou-la-droite-et-rn-prets-a-soutenir-un-projet-de-regle-d-or-budgetaire-d-emmanuel-macron-10766562",
+   "RFI": "https://www.rfi.fr/fr/france/20261122-france-emmanuel-macron-pense-%C3%A0-une-r%C3%A8gle-d-or-budg%C3%A9taire-la-droite-et-le-rn-lui-emboitent-le-pas"
+  },
+  "score": 107.99905949361111,
+  "personne": "Emmanuel Macron",
+  "sig": [
+   "budget",
+   "congre",
+   "consti",
+   "convoq",
+   "emmanu",
+   "inscri",
+   "macron",
+   "regle"
+  ],
+  "youtube": "40WOJyUu6qs",
   "yt_attente": null
  }
 ]
