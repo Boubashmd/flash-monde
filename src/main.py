@@ -344,16 +344,23 @@ class Edition:
             codes = [c for c in s.get("iso", []) if c != "MONDE" and (c == "UE" or carte.connu(c))]
             cible = codes[0] if codes else None
             photo, credit_p = None, ""
+            s["_origine_photo"] = "pas de photo (carte seule)"
             if i_cfg.get("photos_medias", False) and s.get("articles") and not args.demo:
-                try:  # photo d'actualite de l'article (interrupteur images.photos_medias)
-                    photo, credit_p = photo_media.chercher(s["articles"])
+                try:  # photo d'actualite d'un article qui correspond vraiment a l'info (images.photos_medias)
+                    photo, credit_p = photo_media.chercher(s["articles"], s)
+                    if photo:
+                        s["_origine_photo"] = photo_media.origine
                 except Exception as err:
                     print(f"  ! photo média : {str(err)[:100]}")
             if not photo and i_cfg.get("portraits", True) and s.get("personne") and not args.demo:
                 if s.get("avec"):  # rencontre entre deux dirigeants : d'abord une photo d'eux ensemble
                     photo, credit_p = portrait.chercher_duo(s["personne"], s["avec"])
+                    if photo:
+                        s["_origine_photo"] = f"portrait libre de {s['personne']} et {s['avec']}"
                 if not photo:
                     photo, credit_p = portrait.chercher(s["personne"])
+                    if photo:
+                        s["_origine_photo"] = f"portrait libre de {s['personne']} (Wikimedia)"
             plans.append(film.Plan(
                 titre=s["titre"], texte=s["texte"], date=s["date_affichee"], sources=s["sources"],
                 credit="Carte : NASA, Natural Earth" + (f" · {credit_p}" if photo else ""),
@@ -432,6 +439,11 @@ class Edition:
                     telegram.photo(image, "Couverture, à choisir comme miniature sur TikTok")
                 except Exception as err:
                     print(f"  ! couverture non envoyée : {err}")
+                try:  # origine de chaque photo, pour verifier d'un coup d'oeil avant de publier
+                    telegram.message("🖼 Photos utilisées :\n" + "\n".join(
+                        f"{i}. {s['titre']} → {s.get('_origine_photo', '?')}" for i, s in enumerate(sujets, 1)))
+                except Exception as err:
+                    print(f"  ! origine des photos non envoyée : {err}")
                 telegram.a_copier(legende_tiktok, "📋 Légende TikTok : appuie sur le bloc pour tout copier")
                 print("  vidéo envoyée sur Telegram")
             self.etape = "publication YouTube"
