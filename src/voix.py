@@ -205,7 +205,8 @@ def _requete(dit: str, modele: str, cfg: dict, precedent: str | None):
             corps["previous_text"] = pour_la_voix(precedent)[-100:]
         r = requests.post(DIALOGUE, params=params, headers=entetes, json=corps, timeout=180)
         if r.status_code == 422:  # reglage refuse : on reessaie sans
-            corps.pop("settings")
+            corps.pop("settings", None)
+            corps.pop("previous_text", None)
             r = requests.post(DIALOGUE, params=params, headers=entetes, json=corps, timeout=180)
         return r
     corps = {"text": dit, "model_id": modele, "voice_settings": _reglages(cfg, modele)}
@@ -232,6 +233,12 @@ def _elevenlabs(texte: str, sortie: Path, cfg: dict, precedent: str | None) -> l
                 print(f"  modèle de voix : {modele}")
             al = d.get("alignment") or d.get("normalized_alignment")
             dits = _depuis_alignement(dit, al) if al else None
+            # v4 et v3 n'ont pas de reglage de vitesse : debit accelere apres coup, sans changer la hauteur
+            vitesse = float((cfg.get("reglages") or {}).get("vitesse", 1.0))
+            if modele.startswith(("eleven_v4", "eleven_v3")) and abs(vitesse - 1.0) > 0.005:
+                _accelerer(sortie, max(0.8, min(1.25, vitesse)))
+                f = max(0.8, min(1.25, vitesse))
+                dits = [(m, a / f, b / f) for m, a, b in dits] if dits else None
             return _associer(texte, dits) if dits else None
         erreur = f"{modele} : {r.status_code} {r.text[:120]}"
         print(f"  ! ElevenLabs {erreur}")
