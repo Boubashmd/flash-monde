@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "chere",
-   "colere",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "social",
-   "vie"
-  ],
-  "date": "2026-11-21T16:51:34.114203+00:00",
-  "titre": "Des manifestations contre la vie chère à Paris et Toulouse"
- },
- {
-  "sig": [
-   "agress",
-   "automo",
-   "condam",
-   "ferme",
-   "michel",
-   "polici",
-   "prison",
-   "zecler"
-  ],
-  "date": "2026-11-21T16:51:34.114211+00:00",
-  "titre": "Trois policiers condamnés à de la prison ferme pour violences racistes"
- },
- {
-  "sig": [
-   "aerien",
-   "agress",
-   "attaqu",
-   "cargo",
-   "drone",
-   "finlan",
-   "russe",
-   "soupco"
-  ],
-  "date": "2026-11-21T16:51:34.114214+00:00",
-  "titre": "Helsinki signale une attaque de drone contre un cargo russe"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "donald",
-   "glucks",
-   "guerre",
-   "presid",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-11-21T16:51:34.114216+00:00",
-  "titre": "Une coalition pour l'Ukraine s'entraîne en Pologne"
- },
- {
-  "sig": [
-   "204",
-   "budget",
-   "consei",
-   "econom",
-   "europe",
-   "euros",
-   "millia",
-   "propos"
-  ],
-  "date": "2026-11-21T16:51:34.114217+00:00",
-  "titre": "Costa propose 204 milliards d'euros d'économies pour le budget UE"
- },
- {
-  "sig": [
-   "chere",
-   "colere",
-   "france",
-   "manife",
-   "mobili",
-   "novemb",
-   "social",
-   "vie"
-  ],
-  "date": "2026-11-21T16:54:53.773501+00:00",
-  "titre": "Des manifestations contre la vie chère à Paris et Toulouse"
- },
- {
-  "sig": [
-   "agress",
-   "automo",
-   "condam",
-   "ferme",
-   "michel",
-   "polici",
-   "prison",
-   "zecler"
-  ],
-  "date": "2026-11-21T16:54:53.773514+00:00",
-  "titre": "Trois policiers condamnés à de la prison ferme pour violences racistes"
- },
- {
-  "sig": [
-   "aerien",
-   "agress",
-   "attaqu",
-   "cargo",
-   "drone",
-   "finlan",
-   "russe",
-   "soupco"
-  ],
-  "date": "2026-11-21T16:54:53.773516+00:00",
-  "titre": "Helsinki signale une attaque de drone contre un cargo russe"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "donald",
-   "glucks",
-   "guerre",
-   "presid",
-   "trump",
-   "ukrain"
-  ],
-  "date": "2026-11-21T16:54:53.773519+00:00",
-  "titre": "Une coalition pour l'Ukraine s'entraîne en Pologne"
- },
- {
-  "sig": [
-   "204",
-   "budget",
-   "consei",
-   "econom",
-   "europe",
-   "euros",
-   "millia",
-   "propos"
-  ],
-  "date": "2026-11-21T16:54:53.773521+00:00",
-  "titre": "Costa propose 204 milliards d'euros d'économies pour le budget UE"
- },
- {
-  "sig": [
    "fuites",
    "hugues",
    "mail",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-22T16:56:25.065206+00:00",
   "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
+ },
+ {
+  "sig": [
+   "demiss",
+   "huang",
+   "jensen",
+   "nvidia",
+   "pdg",
+   "reinte",
+   "retour",
+   "tete"
+  ],
+  "date": "2026-11-23T16:56:38.406737+00:00",
+  "titre": "Nvidia réintègre Jensen Huang comme directeur général"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "guerre",
+   "kiev",
+   "libye",
+   "navire",
+   "russe",
+   "russes",
+   "ukrain"
+  ],
+  "date": "2026-11-23T16:56:38.406746+00:00",
+  "titre": "Kiev revendique l'attaque de deux navires russes en Libye"
+ },
+ {
+  "sig": [
+   "450",
+   "alerte",
+   "allema",
+   "bombe",
+   "concre",
+   "ecoles",
+   "menace",
+   "police"
+  ],
+  "date": "2026-11-23T16:56:38.406750+00:00",
+  "titre": "Le PNF classe sans suite les enquêtes sur Anne Hidalgo"
+ },
+ {
+  "sig": [
+   "antaly",
+   "avenir",
+   "climat",
+   "cop31",
+   "echec",
+   "energi",
+   "fossil",
+   "negoci"
+  ],
+  "date": "2026-11-23T16:56:38.406752+00:00",
+  "titre": "Ukraine : au moins quinze morts dans des frappes russes"
+ },
+ {
+  "sig": [
+   "denude",
+   "elle",
+   "essai",
+   "gisele",
+   "humili",
+   "pelico",
+   "photos",
+   "utilis"
+  ],
+  "date": "2026-11-23T16:56:38.406754+00:00",
+  "titre": "Présidentielle 2027 : des appels à changer la date du second tour"
+ },
+ {
+  "sig": [
+   "demiss",
+   "huang",
+   "jensen",
+   "nvidia",
+   "pdg",
+   "reinte",
+   "retour",
+   "tete"
+  ],
+  "date": "2026-11-23T17:30:53.050908+00:00",
+  "titre": "Nvidia réintègre Jensen Huang comme directeur général"
+ },
+ {
+  "sig": [
+   "attaqu",
+   "guerre",
+   "kiev",
+   "libye",
+   "navire",
+   "russe",
+   "russes",
+   "ukrain"
+  ],
+  "date": "2026-11-23T17:30:53.050922+00:00",
+  "titre": "Kiev revendique l'attaque de deux navires russes en Libye"
+ },
+ {
+  "sig": [
+   "450",
+   "alerte",
+   "allema",
+   "bombe",
+   "concre",
+   "ecoles",
+   "menace",
+   "police"
+  ],
+  "date": "2026-11-23T17:30:53.050925+00:00",
+  "titre": "Le PNF classe sans suite les enquêtes sur Anne Hidalgo"
+ },
+ {
+  "sig": [
+   "antaly",
+   "avenir",
+   "climat",
+   "cop31",
+   "echec",
+   "energi",
+   "fossil",
+   "negoci"
+  ],
+  "date": "2026-11-23T17:30:53.050928+00:00",
+  "titre": "Ukraine : au moins quinze morts dans des frappes russes"
+ },
+ {
+  "sig": [
+   "denude",
+   "elle",
+   "essai",
+   "gisele",
+   "humili",
+   "pelico",
+   "photos",
+   "utilis"
+  ],
+  "date": "2026-11-23T17:30:53.050930+00:00",
+  "titre": "Présidentielle 2027 : des appels à changer la date du second tour"
  }
 ]
