@@ -1,6 +1,7 @@
 """Telegram : validation des sujets avant fabrication, puis envoi de la video."""
 from __future__ import annotations
 
+import html
 import json
 import os
 import secrets
@@ -66,6 +67,21 @@ def message(texte: str) -> None:
         "chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": texte[:4000],
         "disable_web_page_preview": "true",
     })
+
+
+def a_copier(texte: str, titre: str = "") -> None:
+    """Texte dans un seul bloc a copier : sur Telegram, le bloc a un bouton « Copier »
+    (et un appui dessus copie tout). Si la mise en forme est refusee, envoi en texte simple."""
+    corps = (f"{html.escape(titre)}\n" if titre else "") + \
+        f'<pre><code class="language-TikTok">{html.escape(texte[:3500])}</code></pre>'
+    try:
+        _api("sendMessage", data={
+            "chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": corps, "parse_mode": "HTML",
+            "disable_web_page_preview": "true",
+        })
+    except Exception as err:
+        print(f"  ! bloc à copier refusé ({str(err)[:80]}) : envoi en texte simple")
+        message(texte)
 
 
 def photo(fichier: Path, legende: str = "") -> None:
