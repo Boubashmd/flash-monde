@@ -389,7 +389,13 @@ class Edition:
         lignes = [entete + phrase(sujets[0]["titre"]), ""]
         if n > 1:
             lignes += [f"{i}. {phrase(s['titre'])}" for i, s in enumerate(sujets, 1)] + [""]
-        lignes += ["Enregistre pour suivre la suite demain", " ".join(tags), "", "Sources :"]
+        lignes += ["Enregistre pour suivre la suite demain"]
+        # Legende TikTok (23/11/2026) : un seul bloc a copier, le recap + 5 hashtags (limite TikTok),
+        # sans sources ni credits. La description YouTube ci-dessous garde sources et credits.
+        tags_tiktok = hashtags.pour_tiktok(sujets, pays.nom_iso,
+                                           int(cfg.get("publication", {}).get("hashtags_tiktok", 5)))
+        legende_tiktok = "\n".join(lignes + ["", " ".join(tags_tiktok)])
+        lignes += [" ".join(tags), "", "Sources :"]
         for s in sujets:
             for src in s["sources"]:
                 lien = (s.get("liens") or {}).get(src) or ""
@@ -406,6 +412,7 @@ class Edition:
         lignes += ["", "Images : " + ", ".join(credits_img) + ". Voix et montage générés automatiquement."]
         legende = "\n".join(lignes)
         (self.dossier / "legende.txt").write_text(legende, encoding="utf-8")
+        (self.dossier / "legende_tiktok.txt").write_text(legende_tiktok, encoding="utf-8")
         (self.dossier / "script.json").write_text(json.dumps({
             "date": self.ici.isoformat(), "redaction": mode, "voix": sorted(utilises), "hashtags": tags,
             "sujets": [{"titre": s["titre"], "texte": s["texte"], "pays": s.get("pays"), "sources": s["sources"],
@@ -425,7 +432,7 @@ class Edition:
                     telegram.photo(image, "Couverture, à choisir comme miniature sur TikTok")
                 except Exception as err:
                     print(f"  ! couverture non envoyée : {err}")
-                telegram.message(legende)
+                telegram.a_copier(legende_tiktok, "📋 Légende TikTok : appuie sur le bloc pour tout copier")
                 print("  vidéo envoyée sur Telegram")
             self.etape = "publication YouTube"
             id_youtube = publier_youtube(cfg.get("youtube") or {}, video, image, sujets, legende, tags,
