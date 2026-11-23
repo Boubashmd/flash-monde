@@ -83,7 +83,7 @@ Habillage :
 - "lien" : si l'info décrit l'action d'un pays envers un autre (frappe, sanctions, menace, aide, expulsion, attaque), {"de": "USA", "vers": "IRN", "type": "action"} ; si c'est un échange entre deux pays (rencontre, accord, négociation), "type": "echange". Les deux codes doivent figurer dans "pays". null sinon.
 - "hashtags" : 2 hashtags thématiques en français, sans accent ni espace, qui aident à trouver la vidéo, par exemple ["#Sanctions", "#Diplomatie"]. Jamais de nom de pays ni de personne : ils sont ajoutés automatiquement.
 
-Réponds uniquement avec un tableau JSON valide, un objet par sujet, dans le même ordre. Dans les textes, n'utilise jamais de guillemets droits (") : uniquement des guillemets français « ».
+Réponds uniquement avec un tableau JSON valide, un objet par sujet reçu, dans le même ordre, sans en sauter aucun : "id" est le numéro du sujet (« ### Sujet N » donne "id": N). Pour écarter un sujet, garde son objet avec "ecarter": true, "exclu": true ou "doublon_de". Dans les textes, n'utilise jamais de guillemets droits (") : uniquement des guillemets français « ».
 [{"id": 1, "titre": "...", "texte": "...", "flash": "...", "politique": true, "exclu": false, "ecarter": false, "pays": ["FRA"], "personne": null, "avec": null, "doublon_de": null, "chiffre": null, "lien": null, "hashtags": ["#Diplomatie", "#Elections"]}]"""
 
 def _section(entete: str) -> str:
@@ -216,8 +216,11 @@ def _par_claude(sujets: list[dict], modele: str) -> list[dict]:
     if trop_longs:
         try:
             courts = _json(_appeler(RACCOURCIR, json.dumps([b["titre"] for b in trop_longs], ensure_ascii=False), modele))
+            if not isinstance(courts, list) or len(courts) != len(trop_longs):
+                raise ValueError("pas autant de titres que demandé")  # sinon un titre passerait a l'info voisine
             for b, c in zip(trop_longs, courts):
-                if isinstance(c, str) and 0 < len(c) < len(b["titre"]) and not _sans_sujet(c):
+                if isinstance(c, str) and 0 < len(c) < len(b["titre"]) and not _sans_sujet(c) \
+                        and cluster.jetons(c) & cluster.jetons(b["titre"]):
                     b["titre"] = c
         except Exception as err:
             print(f"  ! raccourcissement des titres impossible ({str(err)[:60]})")
@@ -226,12 +229,65 @@ def _par_claude(sujets: list[dict], modele: str) -> list[dict]:
         try:
             dem = [{"titre": b["titre"], "texte": b.get("texte", "")} for b in sans_sujet]
             neufs = _json(_appeler(REPARER, json.dumps(dem, ensure_ascii=False), modele))
+            if not isinstance(neufs, list) or len(neufs) != len(sans_sujet):
+                raise ValueError("pas autant de titres que demandé")
             for b, c in zip(sans_sujet, neufs):
-                if isinstance(c, str) and c.strip() and not _sans_sujet(c):
+                if isinstance(c, str) and c.strip() and not _sans_sujet(c) \
+                        and cluster.jetons(c) & cluster.jetons(b["titre"] + " " + b.get("texte", "")):
                     b["titre"] = c.strip()
         except Exception as err:
             print(f"  ! réparation des titres impossible ({str(err)[:60]})")
     return breves
+
+
+def _numero(b) -> int | None:
+    try:
+        n = b.get("id")
+        return int(n) if not isinstance(n, bool) and str(n).strip().isdigit() else None
+    except (AttributeError, TypeError, ValueError):
+        return None
+
+
+def _concorde(s: dict, b: dict) -> bool:
+    """La breve parle-t-elle bien des articles de son sujet ? (au moins 2 mots significatifs en commun)"""
+    if not s.get("articles"):
+        return True
+    dans_articles = set()
+    for a in s["articles"][:6]:
+        dans_articles |= cluster.jetons(f"{a.titre} {a.resume[:350]}")
+    return len(cluster.jetons(f"{b.get('titre', '')} {b.get('texte', '')}") & dans_articles) >= 2
+
+
+def apparier(sujets: list[dict], breves: list) -> list[tuple]:
+    """Associe chaque breve a SON sujet par son numero (id), jamais par sa place dans la liste.
+    Avant le 23/11/2026, un sujet saute ou deplace par Claude decalait tout : la photo, les sources
+    et l'empreinte d'une info passaient a l'info suivante (ex. titre sur la presidentielle 2027
+    illustre avec les articles d'une autre affaire)."""
+    breves = [b for b in (breves if isinstance(breves, list) else []) if isinstance(b, dict)]
+    paires = []
+    if breves and all(_numero(b) is not None for b in breves):
+        pris = set()
+        for b in breves:
+            i = _numero(b) - 1
+            if 0 <= i < len(sujets) and i not in pris:
+                pris.add(i)
+                paires.append((sujets[i], b))
+            else:
+                print(f"  ! brève ignorée (numéro de sujet {b.get('id')} invalide ou en double) : {b.get('titre')}")
+        if len(pris) < len(sujets):
+            print(f"  ! {len(sujets) - len(pris)} sujet(s) sans brève de Claude : ignorés")
+    elif len(breves) == len(sujets):
+        paires = list(zip(sujets, breves))
+    else:
+        print("  ! brèves sans numéro et en nombre différent des sujets : aucune n'est gardée")
+        avertissements.append("Rédaction : réponse de Claude sans numéros de sujets, aucune info gardée.")
+    out = []
+    for s, b in paires:
+        if not _concorde(s, b):
+            print(f"  - écarté (brève sans rapport avec ses articles) : {b.get('titre')}")
+            continue
+        out.append((s, b))
+    return out
 
 
 def _extractif(sujets: list[dict]) -> list[dict]:
@@ -325,7 +381,7 @@ def rediger(sujets: list[dict], cfg: dict) -> tuple[list[dict], str]:
     seuil_autres = int(cfg.get("min_sources_hors_politique", 3))  # une info hors politique doit etre tres reprise
     breves = _par_claude(sujets, cfg["modele"]) if mode == "anthropic" else _extractif(sujets)
     gardes = []
-    for s, b in zip(sujets, breves):
+    for s, b in apparier(sujets, breves):
         nom = s["articles"][0].titre[:70]
         if b.get("doublon_de"):
             print(f"  - écarté (doublon d'un autre sujet) : {nom}")
