@@ -220,6 +220,10 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
     lignes += ["", "Voix et montage générés automatiquement.", " ".join(tags)]
     legende = "\n".join(lignes)
     (dossier / "legende.txt").write_text(legende, encoding="utf-8")
+    # legende TikTok : un seul bloc a copier, sans sources (le credit et l'autorisation, Boubacar les ajoute)
+    tags_tiktok = hashtags.pour_tiktok([sujet], pays.nom_iso, int(cfg.get("publication", {}).get("hashtags_tiktok", 5)))
+    legende_tiktok = f"{titre}\n\n{texte}\n\n" + " ".join(tags_tiktok)
+    (dossier / "legende_tiktok.txt").write_text(legende_tiktok, encoding="utf-8")
     for f in travail.iterdir():
         f.unlink()
     travail.rmdir()
@@ -231,7 +235,8 @@ def _une_video(cfg, args, v, fuseau, publier_youtube, archiver, memoriser_vus) -
         telegram.photo(image, "Couverture, à choisir comme miniature sur TikTok")
     except Exception:
         pass
-    telegram.message(legende)
+    telegram.a_copier(legende_tiktok, "📋 Légende TikTok : appuie sur le bloc pour tout copier, "
+                                      "puis ajoute le crédit et l'autorisation")
     memoriser_vus([sujet])
     id_yt = publier_youtube(cfg.get("youtube") or {}, video, image, [sujet], legende, tags, False, artefact="video")
     archiver([sujet], id_yt, d, False)
