@@ -26,6 +26,7 @@ PAYS = {
     "AZE": ["#Azerbaidjan"], "GEO": ["#Georgie"], "BLR": ["#Bielorussie"], "SRB": ["#Serbie"],
 }
 GENERAUX = ["#actualite", "#info", "#FlashMonde"]
+MARQUE = ["#FlashMonde", "#actualite"]  # toujours en tete de la legende TikTok
 
 
 def sans_accents(texte: str) -> str:
@@ -70,3 +71,11 @@ def construire(sujets: list, nom_pays, maximum: int = 12) -> list:
             specifiques.append(t)
     generaux = [t for t in GENERAUX if sans_accents(t).lower() not in vus]
     return specifiques[:max(0, maximum - len(generaux))] + generaux
+
+
+def pour_tiktok(sujets: list, nom_pays, maximum: int = 5) -> list:
+    """TikTok n'accepte que 5 hashtags : #FlashMonde et #actualite, puis les plus parlants du jour
+    (pays principal de chaque info d'abord, puis personnalites et themes)."""
+    marque = {sans_accents(t).lower() for t in MARQUE + GENERAUX}
+    specifiques = [t for t in construire(sujets, nom_pays, 30) if sans_accents(t).lower() not in marque]
+    return (MARQUE + specifiques)[:max(1, maximum)]
