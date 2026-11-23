@@ -233,7 +233,9 @@ voix:
   # "azure" (Microsoft, gratuit jusqu'a 500 000 caracteres/mois) | "elevenlabs" (payant, naturel)
   # | "edge" (gratuit, correct) | "silence" (aucune voix, pour tester)
   # Si Azure ne repond pas, l'edition passe a ElevenLabs (s'il est configure), sinon a Edge.
-  fournisseur: "azure"
+  # Depuis le 23/11/2026 : ElevenLabs (voix Liam, plus energique). Si ElevenLabs refuse ou si les
+  # credits passent sous la reserve, toute l'edition est relue avec Azure (Remy HD).
+  fournisseur: "elevenlabs"
   # Voix HD (Dragon HD) : plus naturelle. Voix feminine : "fr-FR-Vivienne:DragonHDLatestNeural"
   azure_voix: "fr-FR-Remy:DragonHDLatestNeural"
   azure_voix_secours: "fr-FR-RemyMultilingualNeural"  # si la voix HD ne repond pas
@@ -241,8 +243,10 @@ voix:
   # Le fournisseur se change aussi sans toucher au code : variable GitHub VOIX_FOURNISSEUR (azure / elevenlabs)
   # Abonnement ElevenLabs partage avec Dossiers Classes : sous ce nombre de credits restants, l'edition
   # passe sur Azure pour garder une reserve. Si ElevenLabs refuse en cours de route : Azure aussi.
-  elevenlabs_reserve: 25000    # "-10%" = plus pose, "+10%" = plus rapide
-  elevenlabs_voice_id: "JBFqnCBsd6RMkjVDRZzb"
+  elevenlabs_reserve: 25000    # credits toujours gardes pour Dossiers Decryptes
+  # Liam - Sharp & Pro (bibliotheque ElevenLabs, francais de Paris), choisie le 23/11/2026.
+  # Avant : George "JBFqnCBsd6RMkjVDRZzb". Jamais la voix de Dossiers Decryptes.
+  elevenlabs_voice_id: "EmZGlxI7QPvCEMOkFhB9"
   # La voix et le modele se changent aussi sans toucher au code, dans GitHub :
   # Settings > Secrets and variables > Actions > onglet Variables : ELEVENLABS_VOICE_ID, ELEVENLABS_MODELE
   # "eleven_v4" : le plus naturel | "eleven_v3" : tres expressif | "eleven_multilingual_v2" : le plus regulier
@@ -253,7 +257,7 @@ voix:
     stabilite: 0.5        # plus bas = plus expressif, plus haut = plus regulier (v3 : 0, 0.5 ou 1)
     similarite: 0.75      # fidelite au timbre de la voix choisie
     style: 0.1            # un peu d'intention, sans theatraliser
-    vitesse: 1.0          # 0.9 = plus pose, 1.1 = plus rapide
+    vitesse: 1.05         # 0.9 = plus pose, 1.1 = plus rapide (v4/v3 : applique apres coup, comme Remy +6 %)
   edge_voix: "fr-FR-HenriNeural"
 
 images:
@@ -273,6 +277,7 @@ semaine:
 
 publication:
   hashtags: 10              # hashtags de la legende (pays, personnalites, themes) ; YouTube en ignore au-dela de 15
+  hashtags_tiktok: 5        # legende TikTok (limite de TikTok) : #FlashMonde #actualite + 3 du jour
 
 youtube:
   # "bouton" : apres la video, Telegram te propose « Publier sur YouTube » (recommande)
