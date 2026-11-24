@@ -1,299 +1,5 @@
 [
  {
-  "date": "2026-11-02T20:11:30.126826+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Cyberattaques : des supermarchés européens touchés",
-  "texte": "En Belgique, en Suède, en Finlande, en Estonie, au Luxembourg et en Irlande, des supermarchés signalent une cyberattaque. Des réfrigérateurs connectés se sont dérégulés, provoquant la perte de denrées.",
-  "iso": [
-   "BEL",
-   "SWE",
-   "FIN",
-   "EST",
-   "LUX",
-   "IRL"
-  ],
-  "pays": "Belgique",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "France 24",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4259702-20261102-suede-belgique-refrigerateurs-vises-nouvelle-cyberattaque?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/4259702-20261102-suede-belgique-refrigerateurs-vises-nouvelle-cyberattaque?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/tech/cybersecurite/apres-la-serie-d-incidents-affectant-des-frigos-de-supermarches-dans-sept-de-ses-pays-l-ue-denonce-des-cyberattaques-repetees-extremement-preoccupantes_AD-202611020755.html",
-   "Courrier international": "https://www.courrierinternational.com/article/criminalite-une-nouvelle-cyberattaque-d-envergure-vise-les-frigos-des-supermarches-europeens_284232",
-   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/02/carrefour-intermarche-ikea-les-refrigerateurs-de-magasins-touches-par-une-cyberattaque",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261102-cyberattaques-des-supermarch%C3%A9s-europ%C3%A9ens-d%C3%A9noncent-des-attaques-informatiques",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/02/des-cyberattaques-contre-des-refrigerateurs-et-des-congelateurs-visent-plusieurs-supermarches-en-europe_6805296_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/02/des-cyberattaques-contre-des-refrigerateurs-et-des-congelateurs-visent-plusieurs-supermarches-en-europe_6805296_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/high-tech/des-refrigerateurs-de-supermarches-victimes-de-hausses-de-temperature-anormales-en-belgique-et-en-suede-02-11-2026-XRBFPTXRIZF4DPJTEZELJTMVSU.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/02/une-nouvelle-cyberattaque-contre-les-refrigerateurs-des-supermarches-des-magasins-carrefour-et-intermarche-cibles-en-belgique-13632208.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/technologie/des-cyberattaques-repetees-extremement-preoccupantes-une-nouvelle-panne-de-refrigerateurs-frappe-les-supermarches-de-plusieurs-pays-europeens-10752570",
-   "RFI": "https://www.rfi.fr/fr/europe/20261102-l-inqui%C3%A9tude-grandit-en-europe-face-aux-cyberattaques-contre-des-supermarch%C3%A9s",
-   "Sud Ouest": "https://www.sudouest.fr/economie/cybersecurite/cyberattaques-contre-des-supermarches-apres-la-france-des-refrigerateurs-cibles-dans-plusieurs-pays-d-europe-31353486.php"
-  },
-  "score": 140.99929924555556,
-  "personne": null,
-  "sig": [
-   "cibles",
-   "congel",
-   "cybera",
-   "denonc",
-   "europe",
-   "plusie",
-   "refrig",
-   "superm"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-02T20:11:30.126845+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Paris interdit le parcours de la manifestation étudiante",
-  "texte": "À Paris, la préfecture de police interdit une manifestation de lycéens et étudiants prévue mardi, du Panthéon vers le siège du Medef. Un parcours alternatif est proposé, que l'Interfac refuse.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Nice-Matin"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/societe/manifestations/video-manifestations-maintenant-on-laisse-les-gendarmes-et-les-policiers-s-exprimer-sur-une-experience-en-service-observe-reda-belhaj-porte-parole-du-syndicat-de-police-un1te-ile-de-france_VN-202611020846.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/manifestation-du-3-novembre-la-prefecture-interdit-le-parcours-pantheon-medef-les-organisateurs-annoncent-qu-ils-braveront-l-interdiction-3442827.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/manifestation-du-5-novembre-a-toulouse-la-prefecture-refuse-aux-syndicats-un-parcours-en-centre-ville-13632541.php",
-   "Le Figaro France": "https://etudiant.lefigaro.fr/article/lycee/en-france-la-plupart-des-lyceens-ont-repris-les-cours-tandis-qu-a-paris-des-blocages-subsistent-20261102/",
-   "Le Monde France": "https://www.lemonde.fr/politique/article/2026/11/02/mouvement-lyceen-et-etudiant-la-prefecture-de-police-de-paris-interdit-la-manifestation-prevue-mardi-par-l-interfac-ile-de-france-au-c-ur-de-la-capitale_6805292_823448.html",
-   "Le Parisien": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/securite/c-est-de-la-haine-pure-assumee-et-affichee-le-coup-de-gueule-d-un-syndicat-policier-apres-les-slogans-anti-police-scandes-lors-de-la-manif-samedi-a-nice-10752546"
-  },
-  "score": 117.99929903361111,
-  "personne": null,
-  "sig": [
-   "france",
-   "interd",
-   "lyceen",
-   "manife",
-   "paris",
-   "police",
-   "prefec",
-   "syndic"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-02T20:11:30.126854+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Michigan : une élue démocrate rallie le républicain Mike Rogers",
-  "texte": "Dans le Michigan, à deux jours des midterms, la députée démocrate Haley Stevens soutient le candidat républicain Mike Rogers. Elle avait perdu la primaire face à Abdul El-Sayed, qui dénonce une trahison.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "20 Minutes",
-   "Courrier international",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4259749-20261102-midterms-etats-unis-pourquoi-republicains-representes-couleur-rouge-democrates-bleu?at_medium=display&at_campaign=149",
-   "Courrier international": "https://www.courrierinternational.com/article/midterms-abdul-el-sayed-trahi-par-une-elue-de-son-camp-les-democrates-se-dechirent-au-sujet-d-israel_284109",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261102-midterms-la-jeunesse-du-michigan-convaincue-par-le-d%C3%A9mocrate-abdul-el-sayed",
-   "L'Est Républicain": "https://www.estrepublicain.fr/economie/2026/11/02/proposition-40-quel-est-ce-projet-de-taxe-sur-les-milliardaires-en-californie-soutenu-par-gabriel-zucman",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/midterms-2026-que-disent-les-sondages-americains-a-la-veille-des-elections-de-mi-mandat-13632287.php",
-   "Le Dauphiné": "https://www.ledauphine.com/economie/2026/11/02/proposition-40-quel-est-ce-projet-de-taxe-sur-les-milliardaires-en-californie-soutenu-par-gabriel-zucman",
-   "Le Figaro": "https://www.lefigaro.fr/international/c-est-une-ignoble-trahison-dans-le-michigan-l-incroyable-ralliement-d-une-elue-democrate-au-candidat-republicain-pour-les-midterms-20261102",
-   "Le Figaro France": "https://www.lefigaro.fr/international/c-est-une-ignoble-trahison-dans-le-michigan-l-incroyable-ralliement-d-une-elue-democrate-au-candidat-republicain-pour-les-midterms-20261102",
-   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/taxation-des-milliardaires-avortement-droit-de-vote-des-criminels-ces-referendums-locaux-prevus-en-meme-temps-que-les-midterms-aux-etats-unis-02-11-2026-RN5CC33L4BD5BL23FRV23RWWPQ.php",
-   "Le Progrès": "https://www.leprogres.fr/economie/2026/11/02/proposition-40-quel-est-ce-projet-de-taxe-sur-les-milliardaires-en-californie-soutenu-par-gabriel-zucman",
-   "franceinfo": "https://www.franceinfo.fr/monde/usa/midterms-2018/midterms-2026-l-essentiel-des-elections-de-mi-mandat/a-quelques-heures-du-scrutin-des-midterms-une-elue-democrate-fait-defection-du-camp-d-abdul-el-sayed-et-rallie-son-adversaire-republicain-dans-le-michigan_8263841.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 112.99929920305556,
-  "personne": "Abdul El-Sayed",
-  "sig": [
-   "2026",
-   "democr",
-   "electi",
-   "elue",
-   "etats",
-   "michig",
-   "midter",
-   "unis"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-02T20:11:30.126861+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Des frappes russes font au moins dix-huit morts en Ukraine",
-  "texte": "En Ukraine, des frappes russes font au moins dix-huit morts dans un village du sud-est, selon Volodymyr Zelensky, après la fin d'une trêve.",
-  "iso": [
-   "UKR",
-   "RUS"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "Euronews",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RFI",
-   "franceinfo"
-  ],
-  "liens": {
-   "Euronews": "https://fr.euronews.com/video/2026/11/02/ukraine-utilise-un-drone-devacuation-stargate-pour-soldats-blesses",
-   "L'Est Républicain": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/11/02/des-frappes-russes-font-18-morts-et-aneantissent-tout-espoir-de-progres-vers-la-paix-selon-zelensky",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/guerre-en-ukraine-la-menace-setend-voici-le-gerbera-2-le-nouveau-drone-russe-capable-de-frapper-a-1-200-kilometres-qui-fait-peser-une-menace-sur-les-13632332.php",
-   "Le Dauphiné": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/02/des-frappes-russes-font-18-morts-et-aneantissent-tout-espoir-de-progres-vers-la-paix-selon-zelensky",
-   "Le Figaro France": "https://www.lefigaro.fr/international/ukraine-des-bombardements-russes-font-dix-huit-morts-dans-un-village-selon-zelensky-20261102",
-   "Le Parisien": "https://www.leparisien.fr/international/des-frappes-russes-font-18-morts-dans-un-village-du-sud-est-de-lukraine-annonce-le-president-volodymyr-zelensky-02-11-2026-6KQFULZHMFEIXCOIBBUVKG6LBQ.php",
-   "Le Progrès": "https://www.leprogres.fr/defense-guerre-conflit/2026/11/02/des-frappes-russes-font-18-morts-et-aneantissent-tout-espoir-de-progres-vers-la-paix-selon-zelensky",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/02/guerre-en-ukraine-lennemi-a-profite-de-la-treve-a-olechky-la-russie-a-t-elle-profite-du-cessez-le-feu-pour-renforcer-ses-positions-13632678.php",
-   "RFI": "https://www.rfi.fr/fr/europe/20261102-ukraine-une-attaque-de-drone-russe-fait-deux-bless%C3%A9s-%C3%A0-kherson-au-lendemain-de-la-fin-de-la-tr%C3%AAve",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/des-frappes-russes-font-18-morts-en-ukraine-au-lendemain-de-la-fin-d-un-cessez-le-feu-a-olechky-volodymyr-zelensky-denonce-l-aneantissement-de-tout-espoir-de-progres-vers-la-paix_8264639.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 102.99929932055555,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "aneant",
-   "font",
-   "frappe",
-   "guerre",
-   "morts",
-   "russes",
-   "ukrain",
-   "zelens"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-02T20:11:30.126868+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Une pétition pour fermer CNews dépasse 600 000 signatures",
-  "texte": "Une pétition demandant la suppression de CNews dépasse 600 000 signatures sur le site de l'Assemblée nationale.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "La Dépêche",
-   "Le Monde France",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "RTS"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/arts-stars/medias/4259653-20261102-cnews-plus-500-000-signatures-petition-suppression-chaine-chances-aboutir?at_medium=display&at_campaign=149",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/la-petition-appelant-a-fermer-cnews-depasse-500-000-signatures-sur-le-site-de-lassemblee-nationale-quelle-suite-possible-13632221.php",
-   "Le Monde France": "https://www.lemonde.fr/actualite-medias/article/2026/11/02/cnews-une-petition-appelant-a-fermer-la-chaine-depasse-600-000-signatures-ouvrant-la-voie-a-un-debat-a-l-assemblee-nationale_6805256_3237.html",
-   "Le Parisien": "https://www.leparisien.fr/politique/plus-de-550-000-signatures-recueillies-quelles-sont-les-prochaines-etapes-pour-la-petition-visant-a-fermer-cnews-02-11-2026-WJSU3T4ZHZAH5O3DXUY6NX4TY4.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/02/une-frequence-publique-ca-se-merite-la-petition-demandant-la-suppression-de-cnews-depasse-les-500-000-signatures-et-pourrait-finir-a-lassemblee-13632224.php",
-   "Nice-Matin": "https://www.nicematin.com/culture/medias/c-est-une-machine-de-propagande-une-petition-appelant-a-fermer-cnews-depasse-500-000-signatures-sur-le-site-de-l-assemblee-nationale-10752438",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/cnews-plus-de-500-000-signatures-pour-fermer-la-chaine-29403087.html?rts_source=rss_t"
-  },
-  "score": 82.99929923638888,
-  "personne": null,
-  "sig": [
-   "000",
-   "500",
-   "assemb",
-   "cnews",
-   "depass",
-   "fermer",
-   "petiti",
-   "signat"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-02T20:11:30.126872+00:00",
-  "edition": "2026-11-02T19:52:24.477020+01:00",
-  "semaine": false,
-  "titre": "Procès des parents d'Inass Touloub, la fillette de l'A10",
-  "texte": "À Blois, s'ouvre le procès des parents d'Inass Touloub, retrouvée morte au bord de l'A10 en 1987, la mère jugée pour tortures.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "BFMTV",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Figaro France",
-   "Le Parisien",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/police-justice/video-proces-de-la-martyre-de-l-a10-les-parents-d-inass-touloub-juges-a-blois-39-ans-apres-la-mort-de-leur-fille_VN-202611020834.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loir-cher/blois/on-vous-a-menti-sur-moi-la-mere-de-la-petite-martyre-de-l-a10-nie-les-accusations-de-torture-3443172.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/02/il-a-choisi-la-vie-plutot-que-la-mort-qui-lui-etait-promise-a-toulouse-jusqua-16-ans-de-prison-requis-dans-le-proces-dun-enlevement-sur-fond-de-trafic-13632635.php",
-   "Le Figaro France": "https://www.lefigaro.fr/faits-divers/ils-ont-menti-sur-moi-c-est-pas-vrai-39-ans-apres-les-premiers-mots-des-parents-de-la-martyre-de-l-a10-face-aux-juges-20261102",
-   "Le Parisien": "https://www.leparisien.fr/podcasts/code-source/rediff-les-parents-de-la-petite-martyre-de-la10-juges-39-ans-apres-sa-mort-02-11-2026-IZ4FDPG24NBLBELELCU264DSFU.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/justice/justice-pour-inass-au-premier-jour-du-proces-des-parents-d-inass-touloub-la-petite-martyre-de-l-a10-sa-mere-prise-a-partie-par-des-militants-10752459",
-   "Sud Ouest": "https://www.sudouest.fr/societe/petite-martyre-de-l-a10-la-mere-d-inass-touloub-prise-a-partie-a-la-sortie-du-tribunal-une-enquete-ouverte-31350903.php",
-   "franceinfo France": "https://www.franceinfo.fr/faits-divers/les-habitants-de-suevres-attendent-l-ouverture-du-proces-des-parents-d-inass-touloub-la-martyre-de-l-a10_8263739.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/martyre-de-l-a10/la-petite-martyre-de-l-a10-le-proces-40-ans-apres_8264612.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 82.9992989411111,
-  "personne": null,
-  "sig": [
-   "a10",
-   "inass",
-   "martyr",
-   "mere",
-   "parent",
-   "petite",
-   "proces",
-   "toulou"
-  ],
-  "youtube": "t3A04Z0RXRM",
-  "yt_attente": null
- },
- {
   "date": "2026-11-03T17:16:27.862426+00:00",
   "edition": "2026-11-03T17:51:19.011955+01:00",
   "semaine": false,
@@ -5950,6 +5656,245 @@
    "presid"
   ],
   "youtube": "U1bKp0GgWUw",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-24T16:57:41.011456+00:00",
+  "edition": "2026-11-24T17:51:23.444575+01:00",
+  "semaine": false,
+  "titre": "Jensen Huang rétabli à la tête de Nvidia, Wall Street bondit",
+  "texte": "Aux États-Unis, Jensen Huang retrouve la direction de Nvidia, réintégré par le conseil d'administration lundi. Le titre de l'entreprise a grimpé d'environ 31 pour cent en Bourse. Des parlementaires réclament des explications.",
+  "iso": [
+   "USA"
+  ],
+  "pays": "États-Unis",
+  "sources": [
+   "20 Minutes",
+   "Courrier international",
+   "La Dépêche",
+   "Le Monde",
+   "Le Parisien",
+   "Ouest-France",
+   "RTS",
+   "Radio-Canada",
+   "Sud Ouest",
+   "franceinfo"
+  ],
+  "liens": {
+   "20 Minutes": "https://www.20minutes.fr/monde/etats-unis/4265346-20261124-nvidia-paris-polymarket-tres-bien-places-autour-retour-jensen-huang-relancent-soupcons-delit-initie?at_medium=display&at_campaign=149",
+   "Courrier international": "https://www.courrierinternational.com/video/video-jensen-huang-accueilli-en-heros-chez-nvidia-avec-applaudissements-et-accolades_289863",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/24/recit-jensen-huang-de-retour-a-nvidia-de-la-decouverte-de-sa-liaison-avec-une-espionne-chinoise-presumee-au-soutien-de-donald-trump-les-dix-jours-qui-13668659.php",
+   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/24/nvidia-donald-trump-aurait-gagne-jusqu-a-15-millions-de-dollars-grace-a-ses-actions-apres-le-retour-de-jensen-huang-selon-le-financial-times_6814756_3210.html",
+   "Le Parisien": "https://www.leparisien.fr/economie/un-soulagement-du-marche-apres-le-retour-de-jensen-huang-le-rebond-spectaculaire-de-nvidia-en-bourse-va-t-il-durer-24-11-2026-UDUEE3EBNJAPPF6XNBZS56556U.php",
+   "Ouest-France": "https://www.ouest-france.fr/high-tech/jensen-huang-de-retour-a-la-tete-de-nvidia-le-rebond-de-laction-pourrait-saverer-juteux-pour-donald-trump-2af7d2e0-e803-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/nvidia-jensen-huang-reprend-la-tete-du-geant-des-puces-29425621.html?rts_source=rss_t",
+   "Radio-Canada": "https://ici.radio-canada.ca/article/info/2302717/sillicon-valley-soutien-jensen-huang-nvidia",
+   "Sud Ouest": "https://www.sudouest.fr/international/etats-unis/too-big-to-fail-pourquoi-la-silicon-valley-a-plaide-pour-le-retour-de-jensen-huang-a-la-tete-de-nvidia-clef-de-voute-du-financement-de-l-ia-31651453.php",
+   "franceinfo": "https://www.franceinfo.fr/monde/usa/le-retour-fracassant-de-jensen-huang-a-la-tete-de-nvidia-entraine-un-rebond-spectaculaire-de-l-action_8297784.html#xtor=RSS-3-%5Bmonde%5D"
+  },
+  "score": 117.99932655527778,
+  "personne": "Jensen Huang",
+  "sig": [
+   "action",
+   "donald",
+   "huang",
+   "jensen",
+   "nvidia",
+   "retour",
+   "tete",
+   "trump"
+  ],
+  "youtube": "BtadNEEHS8Q",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-24T16:57:41.011473+00:00",
+  "edition": "2026-11-24T17:51:23.444575+01:00",
+  "semaine": false,
+  "titre": "Le Congrès des maires s'ouvre sur fond de course à l'Élysée",
+  "texte": "À Paris, le Congrès des maires de France s'est ouvert mardi. Les candidats à la présidentielle de 2027 y cherchent les 500 parrainages nécessaires. La double candidature de David Lisnard, président de l'association, suscite des protestations.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "France 24",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "RFI",
+   "Sud Ouest",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261124-france-le-congr%C3%A8s-des-maires-s-ouvre-sur-fond-de-bataille-pour-l-elys%C3%A9e",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/24/une-provocation-de-plus-avant-daffronter-le-xv-de-france-un-entraineur-de-lafrique-du-sud-refuse-de-repondre-aux-questions-en-anglais-lors-dune-13668549.php",
+   "Le Figaro France": "https://www.lefigaro.fr/politique/on-peut-aimer-les-tronconneuses-et-ne-pas-savoir-trancher-la-pique-d-edouard-philippe-a-david-lisnard-en-marge-du-congres-des-maires-de-france-20261124",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-natacha-polony-assure-avoir-la-moitie-des-parrainages-requis-24-11-2026-6267XF4HSJD3NIAALKATMPUTZY.php",
+   "RFI": "https://www.rfi.fr/fr/france/20261124-pr%C3%A9sidentielle-2027-le-congr%C3%A8s-des-maires-de-france-march%C3%A9-aux-parrainages-des-candidats",
+   "Sud Ouest": "https://www.sudouest.fr/politique/bruno-retailleau/presidentielle-2027-bruno-retailleau-promet-aux-maires-de-liberer-la-france-communale-de-la-bureaucratie-31652360.php",
+   "franceinfo faits divers": "https://www.franceinfo.fr/politique/direct-police-municipale-incendie-fiscalite-quinze-maires-repondent-a-vos-questions-depuis-le-congres-de-l-association-des-maires-de-france_8295998.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 117.99932633666667,
+  "personne": "David Lisnard",
+  "sig": [
+   "2027",
+   "bruno",
+   "bureau",
+   "commun",
+   "congre",
+   "france",
+   "maires",
+   "presid"
+  ],
+  "youtube": "BtadNEEHS8Q",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-24T16:57:41.011481+00:00",
+  "edition": "2026-11-24T17:51:23.444575+01:00",
+  "semaine": false,
+  "titre": "Sarkozy, Bruni et Mimi Marchand renvoyés en procès en 2027",
+  "texte": "En France, Nicolas Sarkozy, Carla Bruni et Mimi Marchand seront jugés en 2027. Ils sont visés dans l'affaire de la rétractation de Ziad Takieddine. Selon une source proche du dossier, neuf autres personnes sont également renvoyées.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "France 24",
+   "La Dépêche",
+   "Le Monde France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "RTS",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4265375-20261124-fausse-retractation-takieddine-nicolas-sarkozy-carla-bruni-renvoyes-proces?at_medium=display&at_campaign=149",
+   "France 24": "https://www.france24.com/fr/france/20261124-fausse-r%C3%A9tractation-takieddine-renvoi-proc%C3%A8s-nicolas-sarkozy-carla-bruni",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/24/fausse-retractation-de-ziad-takieddine-nicolas-sarkozy-et-son-epouse-carla-bruni-renvoyes-devant-la-justice-un-nouveau-proces-prevu-fin-2027-13668856.php",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/24/nicolas-sarkozy-carla-bruni-et-mimi-marchand-renvoyes-devant-le-tribunal-dans-l-affaire-de-la-fausse-retractation-de-l-homme-d-affaires-ziad-takieddine_6814770_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/affaire-takieddine-nicolas-sarkozy-et-carla-bruni-seront-juges-pour-association-de-malfaiteurs-un-proces-prevu-en-2027-24-11-2026-MIRVLSS3Q5GO3EYQW4BWA37JFQ.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/24/affaire-ziad-takieddine-cest-desormais-officiel-nicolas-sarkozy-et-carla-bruni-seront-bien-renvoyes-en-proces-13668850.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/justice/ont-ils-paye-pour-la-retractation-de-ziad-takieddine-dans-l-affaire-libyenne-nicolas-sarkozy-et-carla-bruni-renvoyes-devant-la-justice-en-2027-10768182",
+   "RFI": "https://www.rfi.fr/fr/france/20261124-fausse-r%C3%A9tractation-de-ziad-takieddine-nicolas-sarkozy-et-carla-bruni-renvoy%C3%A9s-en-proc%C3%A8s",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/nicolas-sarkozy-et-carla-bruni-renvoyes-en-proces-en-2027-29425989.html?rts_source=rss_t",
+   "Sud Ouest": "https://www.sudouest.fr/politique/nicolas-sarkozy/affaire-takieddine-nicolas-sarkozy-et-carla-bruni-de-nouveau-renvoyes-en-proces-en-2027-31652033.php"
+  },
+  "score": 112.9993264138889,
+  "personne": "Nicolas Sarkozy",
+  "sig": [
+   "bruni",
+   "carla",
+   "nicola",
+   "proces",
+   "renvoy",
+   "retrac",
+   "sarkoz",
+   "takied"
+  ],
+  "youtube": "BtadNEEHS8Q",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-24T16:57:41.011486+00:00",
+  "edition": "2026-11-24T17:51:23.444575+01:00",
+  "semaine": false,
+  "titre": "Une enquête vise l'agglomération du Havre présidée par Philippe",
+  "texte": "Au Havre, une enquête pour détournement de fonds publics vise la communauté urbaine présidée par Édouard Philippe.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "France 24",
+   "France 3 Régions",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Ouest-France",
+   "Sud Ouest",
+   "franceinfo France",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4265372-20261124-havre-enquete-ouverte-detournement-fonds-publics-agglomeration-presidee-edouard-philippe?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-2027-marine-le-pen-gabriel-attal-edouard-philippe-de-nombreux-candidats-a-la-rencontre-des-maires-a-l-occasion-du-congres-de-l-amf_LN-202611240163.html",
+   "France 24": "https://www.france24.com/fr/france/20261124-edouard-philippe-vis%C3%A9-par-une-enqu%C3%AAte-pour-d%C3%A9tournement-de-fonds-publics-au-havre",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/une-nouvelle-enquete-pour-des-soupcons-de-detournements-de-fonds-publics-vise-la-communaute-urbaine-du-havre-dirigee-par-edouard-philippe-3455168.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/24/presidentielle-2027-la-justice-ouvre-une-enquete-penale-pour-detournement-de-fonds-publics-ciblant-lagglomeration-du-havre-presidee-par-edouard-13668976.php",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-une-enquete-ouverte-pour-detournement-de-fonds-publics-a-l-agglomeration-du-havre-presidee-par-edouard-philippe-20261124",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/sondage-presidentielle-2027-seuls-david-lisnard-et-edouard-philippe-preferes-a-marine-le-pen-au-second-tour-24-11-2026-3A5ULXBSGJEKNPTY4HTKIBTU3I.php",
+   "Ouest-France": "https://www.ouest-france.fr/politique/edouard-philippe/une-autre-plainte-pour-detournement-de-fonds-publics-edouard-philippe-a-nouveau-dans-le-viseur-de-la-justice-46a99ade-e806-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "Sud Ouest": "https://www.sudouest.fr/politique/soupcons-de-detournements-de-fonds-publics-au-havre-la-communaute-urbaine-presidee-par-edouard-philippe-visee-par-une-enquete-penale-31652086.php",
+   "franceinfo France": "https://www.franceinfo.fr/politique/edouard-philippe/une-enquete-ouverte-apres-un-signalement-pour-detournement-de-fonds-publics-a-l-agglomeration-du-havre-presidee-par-edouard-philippe_8297676.html#xtor=RSS-3-%5Bfrance%5D",
+   "franceinfo faits divers": "https://www.franceinfo.fr/politique/edouard-philippe/une-enquete-ouverte-apres-un-signalement-pour-detournement-de-fonds-publics-a-l-agglomeration-du-havre-presidee-par-edouard-philippe_8297676.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 112.99932640361111,
+  "personne": "Édouard Philippe",
+  "sig": [
+   "detour",
+   "edouar",
+   "enquet",
+   "fonds",
+   "havre",
+   "philip",
+   "presid",
+   "public"
+  ],
+  "youtube": "BtadNEEHS8Q",
+  "yt_attente": null
+ },
+ {
+  "date": "2026-11-24T16:57:41.011490+00:00",
+  "edition": "2026-11-24T17:51:23.444575+01:00",
+  "semaine": false,
+  "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre",
+  "texte": "En France, la cour d'appel ordonne que le policier qui a tué Nahel soit jugé pour meurtre devant les assises.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "La Dépêche",
+   "Le Parisien",
+   "Midi Libre",
+   "RFI",
+   "franceinfo faits divers"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4265284-20261124-mort-nahel-merzouk-justice-ordonne-appel-proces-meurtre-encontre-policier?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/video-les-eclaireurs-combien-de-policiers-ont-ils-deja-ete-poursuivis-pour-meurtre_VN-202611240739.html",
+   "DNA": "https://www.dna.fr/faits-divers-justice/2026/11/24/mort-de-nahel-le-policier-sera-bien-juge-pour-meurtre",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261124-mort-de-nahel-la-justice-confirme-en-appel-le-renvoi-du-policier-pour-meurtre",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/24/mort-de-nahel-rarete-de-la-decision-reactions-pourvoi-en-cassation-quelles-suites-apres-le-renvoi-du-policier-florian-m-devant-les-assises-pour-13667310.php",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/mort-de-nahel-pourquoi-la-justice-a-confirme-la-mise-en-accusation-du-policier-pour-meurtre-24-11-2026-BBSPLPFWINC2VCSDWYWPW4DTSY.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/24/mort-de-nahel-le-policier-qui-a-ouvert-le-feu-doit-il-etre-juge-pour-meurtre-la-cour-dappel-va-trancher-ce-mardi-13668443.php",
+   "RFI": "https://www.rfi.fr/fr/france/20261124-mort-de-nahel-en-2023-en-appel-la-justice-fran%C3%A7aise-ordonne-un-proc%C3%A8s-pour-meurtre-%C3%A0-l-encontre-du-policier",
+   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/adolescent-tue-par-un-policier-a-nanterre/la-mere-de-nahel-merzouk-se-dit-soulagee-et-contente-alors-que-la-justice-confirme-en-appel-le-renvoi-du-policier-pour-meurtre_8297925.html#xtor=RSS-3-%5Bfaits-divers%5D"
+  },
+  "score": 94.99932617833333,
+  "personne": null,
+  "sig": [
+   "appel",
+   "confir",
+   "juge",
+   "justic",
+   "meurtr",
+   "mort",
+   "nahel",
+   "polici"
+  ],
+  "youtube": "BtadNEEHS8Q",
   "yt_attente": null
  }
 ]

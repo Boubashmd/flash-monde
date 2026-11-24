@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "fuites",
-   "hugues",
-   "mail",
-   "marine",
-   "moutou",
-   "pen",
-   "prefet",
-   "soupco"
-  ],
-  "date": "2026-11-22T16:51:48.521257+00:00",
-  "titre": "Le préfet Moutouh demande à être relevé de ses fonctions"
- },
- {
-  "sig": [
-   "accord",
-   "acheve",
-   "climat",
-   "cop31",
-   "decisi",
-   "echec",
-   "energi",
-   "fossil"
-  ],
-  "date": "2026-11-22T16:51:48.521267+00:00",
-  "titre": "La COP31 s'achève sans accord, l'UE rejette le texte final"
- },
- {
-  "sig": [
-   "attaqu",
-   "cisjor",
-   "colons",
-   "eisenk",
-   "enquet",
-   "gadi",
-   "israel",
-   "ouvert"
-  ],
-  "date": "2026-11-22T16:51:48.521271+00:00",
-  "titre": "Des colons israéliens incendient des villages en Cisjordanie"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "elysee",
-   "franco",
-   "interr",
-   "lhermi",
-   "presid",
-   "primai"
-  ],
-  "date": "2026-11-22T16:51:48.521273+00:00",
-  "titre": "François Ruffin retire sa candidature à la présidentielle"
- },
- {
-  "sig": [
-   "budget",
-   "congre",
-   "consti",
-   "convoq",
-   "emmanu",
-   "inscri",
-   "macron",
-   "regle"
-  ],
-  "date": "2026-11-22T16:51:48.521275+00:00",
-  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
- },
- {
-  "sig": [
-   "fuites",
-   "hugues",
-   "mail",
-   "marine",
-   "moutou",
-   "pen",
-   "prefet",
-   "soupco"
-  ],
-  "date": "2026-11-22T16:56:25.065184+00:00",
-  "titre": "Le préfet Moutouh demande à être relevé de ses fonctions"
- },
- {
-  "sig": [
-   "accord",
-   "acheve",
-   "climat",
-   "cop31",
-   "decisi",
-   "echec",
-   "energi",
-   "fossil"
-  ],
-  "date": "2026-11-22T16:56:25.065198+00:00",
-  "titre": "La COP31 s'achève sans accord, l'UE rejette le texte final"
- },
- {
-  "sig": [
-   "attaqu",
-   "cisjor",
-   "colons",
-   "eisenk",
-   "enquet",
-   "gadi",
-   "israel",
-   "ouvert"
-  ],
-  "date": "2026-11-22T16:56:25.065201+00:00",
-  "titre": "Des colons israéliens incendient des villages en Cisjordanie"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "elysee",
-   "franco",
-   "interr",
-   "lhermi",
-   "presid",
-   "primai"
-  ],
-  "date": "2026-11-22T16:56:25.065204+00:00",
-  "titre": "François Ruffin retire sa candidature à la présidentielle"
- },
- {
-  "sig": [
-   "budget",
-   "congre",
-   "consti",
-   "convoq",
-   "emmanu",
-   "inscri",
-   "macron",
-   "regle"
-  ],
-  "date": "2026-11-22T16:56:25.065206+00:00",
-  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
- },
- {
-  "sig": [
    "athlet",
    "attaqu",
    "guerre",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-23T18:07:54.798532+00:00",
   "titre": "David Lisnard progresse dans les sondages pour la présidentielle"
+ },
+ {
+  "sig": [
+   "action",
+   "donald",
+   "huang",
+   "jensen",
+   "nvidia",
+   "retour",
+   "tete",
+   "trump"
+  ],
+  "date": "2026-11-24T16:51:45.296510+00:00",
+  "titre": "Jensen Huang rétabli à la tête de Nvidia, Wall Street bondit"
+ },
+ {
+  "sig": [
+   "2027",
+   "bruno",
+   "bureau",
+   "commun",
+   "congre",
+   "france",
+   "maires",
+   "presid"
+  ],
+  "date": "2026-11-24T16:51:45.296518+00:00",
+  "titre": "Le Congrès des maires s'ouvre sur fond de course à l'Élysée"
+ },
+ {
+  "sig": [
+   "bruni",
+   "carla",
+   "nicola",
+   "proces",
+   "renvoy",
+   "retrac",
+   "sarkoz",
+   "takied"
+  ],
+  "date": "2026-11-24T16:51:45.296521+00:00",
+  "titre": "Sarkozy, Bruni et Mimi Marchand renvoyés en procès en 2027"
+ },
+ {
+  "sig": [
+   "detour",
+   "edouar",
+   "enquet",
+   "fonds",
+   "havre",
+   "philip",
+   "presid",
+   "public"
+  ],
+  "date": "2026-11-24T16:51:45.296523+00:00",
+  "titre": "Une enquête vise l'agglomération du Havre présidée par Philippe"
+ },
+ {
+  "sig": [
+   "appel",
+   "confir",
+   "juge",
+   "justic",
+   "meurtr",
+   "mort",
+   "nahel",
+   "polici"
+  ],
+  "date": "2026-11-24T16:51:45.296524+00:00",
+  "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre"
+ },
+ {
+  "sig": [
+   "action",
+   "donald",
+   "huang",
+   "jensen",
+   "nvidia",
+   "retour",
+   "tete",
+   "trump"
+  ],
+  "date": "2026-11-24T16:57:16.327825+00:00",
+  "titre": "Jensen Huang rétabli à la tête de Nvidia, Wall Street bondit"
+ },
+ {
+  "sig": [
+   "2027",
+   "bruno",
+   "bureau",
+   "commun",
+   "congre",
+   "france",
+   "maires",
+   "presid"
+  ],
+  "date": "2026-11-24T16:57:16.327838+00:00",
+  "titre": "Le Congrès des maires s'ouvre sur fond de course à l'Élysée"
+ },
+ {
+  "sig": [
+   "bruni",
+   "carla",
+   "nicola",
+   "proces",
+   "renvoy",
+   "retrac",
+   "sarkoz",
+   "takied"
+  ],
+  "date": "2026-11-24T16:57:16.327841+00:00",
+  "titre": "Sarkozy, Bruni et Mimi Marchand renvoyés en procès en 2027"
+ },
+ {
+  "sig": [
+   "detour",
+   "edouar",
+   "enquet",
+   "fonds",
+   "havre",
+   "philip",
+   "presid",
+   "public"
+  ],
+  "date": "2026-11-24T16:57:16.327843+00:00",
+  "titre": "Une enquête vise l'agglomération du Havre présidée par Philippe"
+ },
+ {
+  "sig": [
+   "appel",
+   "confir",
+   "juge",
+   "justic",
+   "meurtr",
+   "mort",
+   "nahel",
+   "polici"
+  ],
+  "date": "2026-11-24T16:57:16.327845+00:00",
+  "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre"
  }
 ]
