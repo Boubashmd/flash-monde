@@ -1,528 +1,5 @@
 [
  {
-  "date": "2026-11-03T17:16:27.862426+00:00",
-  "edition": "2026-11-03T17:51:19.011955+01:00",
-  "semaine": false,
-  "titre": "Les Américains votent aux midterms, Trump en ligne de mire",
-  "texte": "Aux États-Unis, les électeurs se rendent aux urnes pour les législatives de mi-mandat. Plus de 50 millions d'Américains avaient déjà voté. Le scrutin détermine le contrôle du Congrès pour les deux dernières années de Donald Trump.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "20 Minutes",
-   "20 Minutes France",
-   "BBC Afrique",
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "Euronews",
-   "Jeune Afrique",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Figaro",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "20 Minutes": "https://www.20minutes.fr/monde/4260021-20261103-guerre-iran-teheran-devoile-immense-panneau-affichage-menacant-donald-trump-mort?at_medium=display&at_campaign=149",
-   "20 Minutes France": "https://www.20minutes.fr/monde/etats-unis/4259011-20261103-elections-americaines-comment-democrates-sali-mains-affronter-trump-midterms?at_medium=display&at_campaign=149",
-   "BBC Afrique": "https://www.bbc.com/afrique/articles/cxyvrlyd0m5lo?at_medium=RSS&at_campaign=rss",
-   "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/direct-midterms-2026-aux-etats-unis-des-elections-cruciales-pour-l-avenir-du-mandat-de-donald-trump-les-bureaux-de-vote-ont-ouvert-sur-la-cote-est_LN-202611030505.html",
-   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-a-la-veille-des-midterms-donald-trump-parle-tuyaux-et-gazon-au-lincoln-memorial_284850",
-   "DNA": "https://www.dna.fr/economie/2026/11/03/apres-plusieurs-annees-de-difficultes-gifi-place-en-redressement-judiciaire",
-   "Euronews": "https://fr.euronews.com/video/2026/11/03/etats-unis-les-americains-votent-aux-legislatives-de-mi-mandat-de-2026",
-   "Jeune Afrique": "https://www.jeuneafrique.com/1858341/economie-entreprises/agoa-pourquoi-les-etats-unis-excluent-lafrique-du-sud-et-le-rwanda-de-laccord-commercial/",
-   "L'Est Républicain": "https://www.estrepublicain.fr/economie/2026/11/03/apres-plusieurs-annees-de-difficultes-gifi-place-en-redressement-judiciaire",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/midterms-2026-trump-va-t-il-perdre-une-partie-du-vote-afro-americain-apres-linstallation-dune-statue-dun-esclavagiste-sur-une-place-dediee-a-martin-13633239.php",
-   "Le Figaro": "https://www.lefigaro.fr/international/midterms-donald-trump-va-tenter-de-voler-l-election-comme-par-le-passe-alerte-le-gouverneur-democrate-gavin-newsom-20261103",
-   "Le Figaro France": "https://www.lefigaro.fr/international/midterms-2026-des-referendums-organises-dans-chaque-etat-pour-trancher-des-debats-de-societe-20261103",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/03/midterms-2026-a-quelle-heure-connaitra-t-on-les-premiers-resultats-des-elections-americaines-de-mi-mandat-et-quels-sont-les-etats-cles-a-surveiller_6805569_3211.html",
-   "Le Parisien": "https://www.leparisien.fr/international/etats-unis/elections-americaines/je-suppose-que-je-vais-devenir-monsieur-veto-apres-les-midterms-jusquou-donald-trump-pourrait-gouverner-sans-majorite-03-11-2026-YGXSLMMCUBHHRDCYEZSTBFZGHE.php",
-   "Le Progrès": "https://www.leprogres.fr/politique/2026/11/03/midterms-2026-apres-les-elections-de-mi-mandat-donald-trump-aura-encore-enormement-de-pouvoir",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/gifi-place-en-redressement-judiciaire-que-vont-devenir-vos-cartes-cadeaux-avoirs-et-commandes-13633473.php",
-   "RFI": "https://www.rfi.fr/fr/am%C3%A9riques/20261103-direct-midterms-aux-%C3%A9tats-unis-les-bureaux-de-vote-ouvrent-sur-la-c%C3%B4te-est-l-avenir-de-trump-et-du-congr%C3%A8s-en-jeu",
-   "RTS": "https://www.rts.ch/info/monde/2026/minute-par-minute/29402944.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/etats-unis/donald-trump/etats-unis-donald-trump-annonce-mettre-fin-a-une-aide-annuelle-de-3-8-milliards-de-dollars-pour-la-securite-d-israel-31364536.php",
-   "franceinfo": "https://www.franceinfo.fr/l-actu-pour-les-jeunes/c-est-quoi-les-midterms-aux-etats-unis-et-quels-sont-les-enjeux-de-ces-elections_8266130.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 177.99930675472223,
-  "personne": "Donald Trump",
-  "sig": [
-   "2026",
-   "americ",
-   "donald",
-   "electi",
-   "etats",
-   "midter",
-   "trump",
-   "unis"
-  ],
-  "youtube": "hpIPI-Por_o",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T17:16:27.862449+00:00",
-  "edition": "2026-11-03T17:51:19.011955+01:00",
-  "semaine": false,
-  "titre": "Philippe Jaenada décroche le prix Goncourt 2026",
-  "texte": "Philippe Jaenada, 62 ans, a reçu le prix Goncourt 2026 pour L'Inconnue du quai de Javel, publié chez Flammarion. Ce roman retrace l'enquête sur le meurtre d'une jeune femme à Paris en 1949. Le président de l'académie Goncourt, Philippe Claudel, a annoncé le prix.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "DNA",
-   "France 24",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "RFI",
-   "Sud Ouest",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/arts-stars/culture/4258608-20261103-faits-divers-humour-parentheses-quoi-style-philippe-jaenada-laureat-prix-goncourt-2026?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/culture/video-prix-goncourt-2026-c-est-un-aboutissement-c-est-un-honneur-confie-philippe-jaenada_VN-202611030698.html",
-   "DNA": "https://www.dna.fr/culture-loisirs/2026/11/03/prix-goncourt-2026-philippe-jaenada-recompense-pour-l-inconnue-du-quai-de-javel",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261103-goncourt-2026-le-prix-changera-ma-carri%C3%A8re-mais-certainement-pas-ma-vie",
-   "L'Est Républicain": "https://www.estrepublicain.fr/culture-loisirs/2026/11/03/prix-goncourt-2026-philippe-jaenada-recompense-pour-l-inconnue-du-quai-de-javel",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/prix-goncourt-2026-philippe-jaenada-recompense-pour-son-ouvrage-linconnue-du-quai-de-javel-13633496.php",
-   "Le Dauphiné": "https://www.ledauphine.com/culture-loisirs/2026/11/03/prix-goncourt-2026-philippe-jaenada-recompense-pour-l-inconnue-du-quai-de-javel",
-   "Le Monde France": "https://www.lemonde.fr/livres/article/2026/11/03/le-prix-goncourt-est-decerne-a-philippe-jaenada-pour-l-inconnue-du-quai-de-javel_6805573_3260.html",
-   "Le Parisien": "https://www.leparisien.fr/culture-loisirs/livres/goncourt-2026-philippe-jaenada-le-sacre-du-roi-de-la-contre-enquete-et-de-la-parenthese-03-11-2026-ANKVZI53YZAPBMG364GD3R6W3M.php",
-   "Le Progrès": "https://www.leprogres.fr/culture-loisirs/2026/11/03/prix-goncourt-2026-philippe-jaenada-recompense-pour-l-inconnue-du-quai-de-javel",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/on-a-fait-de-louise-cansot-dans-la-presse-le-modele-de-la-fille-perdue-de-la-debauchee-confie-philippe-jaenada-prix-goncourt-2026-a-midi-libre-13633888.php",
-   "Nice-Matin": "https://www.nicematin.com/culture/litterature/le-prix-goncourt-2026-attribue-a-philippe-jaenada-pour-l-inconnue-du-quai-de-javel-10753227",
-   "Ouest-France": "https://www.ouest-france.fr/culture/livres/nous-etions-chez-drouant-pour-voir-philippe-jaenada-recevoir-le-prix-goncourt-2026-0ebbc898-d787-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "RFI": "https://www.rfi.fr/fr/culture/20261103-litt%C3%A9rature-philippe-jaenada-remporte-le-prix-goncourt-2026-pour-l-inconnue-du-quai-de-javel",
-   "Sud Ouest": "https://www.sudouest.fr/culture/litterature/prix-renaudot-2026-l-ecrivain-francois-henri-deserable-recompense-avec-le-palais-un-roman-sur-le-vin-31363464.php",
-   "actu.fr": "https://actu.fr/societe/il-remporte-un-prix-litteraire-prestigieux-avec-une-histoire-qui-plonge-en-plein-coeur-de-la-bourgogne_65009129.html"
-  },
-  "score": 122.99930671555556,
-  "personne": null,
-  "sig": [
-   "2026",
-   "goncou",
-   "inconn",
-   "jaenad",
-   "javel",
-   "philip",
-   "prix",
-   "quai"
-  ],
-  "youtube": "hpIPI-Por_o",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T17:16:27.862457+00:00",
-  "edition": "2026-11-03T17:51:19.011955+01:00",
-  "semaine": false,
-  "titre": "Les États-Unis frappent l'île iranienne de Qeshm",
-  "texte": "Les États-Unis ont frappé l'île iranienne de Qeshm, dans le détroit d'Ormuz, lundi 2 novembre. Selon le Wall Street Journal, ces frappes sont intervenues peu après que Donald Trump s'est montré optimiste sur les négociations avec Téhéran. Des médiateurs échangent encore des propositions.",
-  "iso": [
-   "USA",
-   "IRN"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "BFMTV",
-   "France 24",
-   "Jeune Afrique",
-   "La Dépêche",
-   "Le Figaro",
-   "Midi Libre",
-   "RFI",
-   "RTS",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/europe/ukraine/l-un-des-plus-grands-massacres-depuis-le-debut-de-la-guerre-volodymyr-zelensky-craint-un-tres-lourd-bilan-au-lendemain-d-une-frappe-russe-en-ukraine_AD-202611030681.html",
-   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261103-guerre-en-ukraine-des-frappes-russes-massives-font-des-d%C3%A9g%C3%A2ts-sur-le-r%C3%A9seau-%C3%A9nerg%C3%A9tique",
-   "Jeune Afrique": "https://www.jeuneafrique.com/1858260/politique/mines-nucleaire-et-guerre-en-ukraine-ce-quil-faut-retenir-du-troisieme-sommet-russie-afrique/",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/direct-guerre-en-ukraine-les-bombardements-russes-a-komychouvakha-ont-fait-26-morts-les-victimes-venaient-chercher-de-laide-humanitaire-13632302.php",
-   "Le Figaro": "https://www.lefigaro.fr/international/guerre-en-ukraine-piratee-l-application-d-alerte-nationale-annonce-a-tort-une-attaque-nucleaire-sur-kiev-20261102",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/02/guerre-en-ukraine-lennemi-a-profite-de-la-treve-a-olechky-la-russie-a-t-elle-profite-du-cessez-le-feu-pour-renforcer-ses-positions-13632678.php",
-   "RFI": "https://www.rfi.fr/fr/europe/20261103-guerre-en-ukraine-29-morts-dans-une-frappe-russe-kiev-accuse-moscou-de-torpiller-les-espoirs-de-paix",
-   "RTS": "https://www.rts.ch/info/monde/2026/article/ukraine-au-moins-26-morts-dans-des-frappes-russes-apres-une-treve-29403453.html?rts_source=rss_t",
-   "Sud Ouest": "https://www.sudouest.fr/international/russie/vladimir-poutine/guerre-en-ukraine-donald-tusk-affirme-que-la-pologne-a-dejoue-une-possible-provocation-a-la-frontiere-avec-l-enclave-russe-de-kaliningrad-31362939.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ennemi-a-largue-des-petites-bombes-pour-attirer-les-gens-sur-place-avant-de-les-viser-29-morts-apres-une-pluie-de-frappes-dans-le-sud-est-de-l-ukraine_8265974.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 121.73932949194445,
-  "personne": "Donald Trump",
-  "sig": [
-   "bilan",
-   "frappe",
-   "guerre",
-   "morts",
-   "russe",
-   "russes",
-   "sud",
-   "ukrain"
-  ],
-  "youtube": "hpIPI-Por_o",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T17:16:27.862463+00:00",
-  "edition": "2026-11-03T17:51:19.011955+01:00",
-  "semaine": false,
-  "titre": "Une frappe russe tue au moins 29 personnes près de Zaporijjia",
-  "texte": "En Ukraine, une frappe russe a tué au moins vingt-neuf personnes près de Zaporijjia, selon le président Zelensky qui accuse Moscou de saboter la paix.",
-  "iso": [
-   "UKR",
-   "RUS"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "France 3 Régions",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo France",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/faits_divers/4260054-20261103-nice-mere-eleve-agresse-deux-enseignantes-suivie-radicalisation-islamiste?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/police-justice/video-agression-dans-une-ecole-a-nice-la-mere-est-en-situation-irreguliere-sur-le-territoire-francais_VN-202611030699.html",
-   "France 3 Régions": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/agression-dans-une-ecole-a-nice-choc-et-incomprehension-des-parents-le-profil-de-la-mere-deja-fichee-pour-radicalisation-interroge-3443298.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/agression-dune-directrice-decole-et-dune-enseignante-a-nice-la-mere-deleve-interpellee-est-visee-par-une-oqtf-et-fichee-pour-radicalisation-islamiste-13633986.php",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/la-mere-de-famille-soupconnee-davoir-agresse-une-directrice-decole-et-une-enseignante-a-nice-a-fait-lobjet-dun-suivi-pour-radicalisation-03-11-2026-BYBSO4E6URFFNCD6KPYKNPTBJY.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/professeure-sequestree-dans-une-ecole-a-nice-la-suspecte-avait-recu-une-oqtf-et-etait-suivie-pour-radicalisation-13634046.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/agression-a-l-ecole-clement-roassal-a-nice-la-mere-de-famille-a-tente-de-s-evader-lors-d-une-perquisition-10753272",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/agression-dans-une-ecole-a-nice-la-suspecte-etait-fichee-pour-radicalisation-islamiste-et-sous-le-coup-d-une-oqtf-31363364.php",
-   "franceinfo France": "https://www.franceinfo.fr/faits-divers/la-mere-d-eleve-soupconnee-d-avoir-agresse-une-directrice-d-ecole-a-nice-est-sous-oqtf-et-avait-ete-suivie-pour-radicalisation_8265902.html#xtor=RSS-3-%5Bgeneral%5D",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/la-mere-d-eleve-soupconnee-d-avoir-agresse-une-directrice-d-ecole-a-nice-est-sous-oqtf-et-avait-ete-suivie-pour-radicalisation_8265902.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 97.99930651222222,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "agress",
-   "direct",
-   "ecole",
-   "enseig",
-   "mere",
-   "nice",
-   "oqtf",
-   "radica"
-  ],
-  "youtube": "hpIPI-Por_o",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T17:16:27.862469+00:00",
-  "edition": "2026-11-03T17:51:19.011955+01:00",
-  "semaine": false,
-  "titre": "Kiev dénonce des frappes russes massives sur l'énergie",
-  "texte": "En Ukraine, la Russie a lancé une attaque massive contre les infrastructures énergétiques, avec des centaines de drones et de missiles, selon Kiev.",
-  "iso": [
-   "UKR",
-   "RUS"
-  ],
-  "pays": "Ukraine",
-  "sources": [
-   "BFMTV",
-   "Le Figaro France",
-   "Le Monde France",
-   "Le Parisien",
-   "Midi Libre",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/politique/direct-colere-sociale-nouvel-appel-a-bloquer-les-lycees-et-les-universites-laurent-nunez-auditionne-par-l-assemblee-nationale-cet-apres-midi_LN-202611030137.html",
-   "Le Figaro France": "https://www.lefigaro.fr/social/greve-intersyndicale-du-5-novembre-transports-education-sante-quels-sont-les-secteurs-mobilises-20261025",
-   "Le Monde France": "https://www.lemonde.fr/economie/article/2026/11/03/greve-du-5-novembre-la-sncf-prevoit-un-trafic-perturbe-la-ratp-table-sur-un-trafic-normal-sur-ses-metros-bus-et-tramway-a-l-exception-du-rer-b_6805620_3235.html",
-   "Le Parisien": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/greve-du-5-novembre-rer-metro-transilien-voici-les-previsions-de-trafic-en-ile-de-france-03-11-2026-IHEHZYMIRBHRLKFQPC4GAB27LM.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/manifestation-du-5-novembre-trains-perturbes-syndicats-lyceens-et-salaries-dans-la-rue-a-quoi-sattendre-jeudi-13634216.php",
-   "Sud Ouest": "https://www.sudouest.fr/societe/greves-et-manifestations/greve-du-5-novembre-la-sncf-prevoit-un-trafic-tgv-perturbe-jeudi-a-quoi-faut-il-s-attendre-31365360.php"
-  },
-  "score": 92.99930669083334,
-  "personne": "Volodymyr Zelensky",
-  "sig": [
-   "attend",
-   "greve",
-   "novemb",
-   "pertur",
-   "quoi",
-   "rer",
-   "tgv",
-   "trafic"
-  ],
-  "youtube": "hpIPI-Por_o",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T23:03:47.583699+00:00",
-  "edition": "2026-11-03T23:31:19.713680+01:00",
-  "semaine": false,
-  "titre": "Trump annonce la fin de l'aide militaire à Israël",
-  "texte": "Le jour des midterms, Donald Trump affirme à Fox News que l'aide militaire à Israël sera coupée à la fin de l'année. Il ne donne ni détails ni calendrier précis, selon les médias. L'aide annuelle s'élève à 3,8 milliards de dollars.",
-  "iso": [
-   "USA",
-   "ISR"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "BFMTV",
-   "Courrier international",
-   "DNA",
-   "Euronews",
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Monde",
-   "Le Monde France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Sud Ouest",
-   "franceinfo"
-  ],
-  "liens": {
-   "BFMTV": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-elections-de-mi-mandat-les-americains-continuent-de-voter_VN-202611030987.html",
-   "Courrier international": "https://www.courrierinternational.com/article/etats-unis-trump-annonce-la-fin-de-l-aide-militaire-a-israel-le-jour-des-elections_284871",
-   "DNA": "https://www.dna.fr/politique/2026/11/03/midterms-2026-texas-kansas-alaska-ces-etats-cles-qui-vont-determiner-l-issue-des-elections",
-   "Euronews": "https://fr.euronews.com/2026/11/03/elections-americaines-de-mi-mandat-les-etats-cles-qui-decideront-du-scrutin",
-   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/03/midterms-2026-texas-kansas-alaska-ces-etats-cles-qui-vont-determiner-l-issue-des-elections",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/midterms-2026-deux-candidats-nommes-dan-sullivan-dans-le-meme-etat-donald-trump-accuse-les-democrates-davoir-encourage-un-homonyme-pour-saboter-le-13634248.php",
-   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/11/03/midterms-2026-texas-kansas-alaska-ces-etats-cles-qui-vont-determiner-l-issue-des-elections",
-   "Le Figaro France": "https://www.lefigaro.fr/conjoncture/moins-d-inflation-et-plus-de-pouvoir-d-achat-la-promesse-manquee-de-donald-trump-qui-pourrait-lui-couter-cher-aux-midterms-20261103",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/03/midterms-2026-donald-trump-revele-a-fox-news-que-l-aide-militaire-a-israel-sera-coupee-a-la-fin-de-l-annee_6805657_3210.html",
-   "Le Monde France": "https://www.lemonde.fr/international/article/2026/11/03/midterms-2026-donald-trump-revele-a-fox-news-que-l-aide-militaire-a-israel-sera-coupee-a-la-fin-de-l-annee_6805657_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-sil-est-elu-a-la-tete-du-pays-david-lisnard-promet-de-nommer-un-gouvernement-commando-03-11-2026-U76HQLM4CBGLRLOOU464FROZGY.php",
-   "Le Progrès": "https://www.leprogres.fr/politique/2026/11/03/midterms-2026-texas-kansas-alaska-ces-etats-cles-qui-vont-determiner-l-issue-des-elections",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/presidentielle-2027-david-lisnard-assure-avoir-obtenu-les-500-parrainages-et-invite-eric-ciotti-a-se-separer-du-rn-13634496.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/politique/hordes-de-barbares-maghrebins-remigration-des-pillards-l-arcom-saisit-la-justice-apres-des-propos-d-eric-zemmour-sur-lci-bfmtv-et-cnews-10753320",
-   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-david-lisnard-promet-un-gouvernement-commando-s-il-est-elu-31370624.php",
-   "franceinfo": "https://www.franceinfo.fr/monde/usa/midterms-2018/midterms-2026-coup-d-envoi-d-un-vote-crucial-aux-etats-unis_8266496.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 137.99938464666667,
-  "personne": "Donald Trump",
-  "sig": [
-   "2026",
-   "donald",
-   "electi",
-   "etats",
-   "midter",
-   "presid",
-   "trump",
-   "unis"
-  ],
-  "youtube": "1Iqsxc9fwuQ",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T23:03:47.583721+00:00",
-  "edition": "2026-11-03T23:31:19.713680+01:00",
-  "semaine": false,
-  "titre": "Les démocrates favoris pour la Chambre, le Sénat incertain",
-  "texte": "Aux États-Unis, les démocrates sont presque assurés de prendre la Chambre des représentants. La bataille décisive se joue au Sénat, où quelques scrutins dans des États inattendus détermineront le contrôle du Congrès.",
-  "iso": [
-   "USA"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "20 Minutes France",
-   "BFMTV",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "RFI",
-   "actu.fr"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/politique/4259625-20261103-presidentielle-2027-david-lisnard-vraiment-passe-quelque-chose?at_medium=display&at_campaign=149",
-   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/video-pour-chaque-enfant-je-deduirai-les-interets-d-emprunt-bruno-retailleau-candidat-lr-a-la-presidentielle-detaille-ses-mesures-pour-ameliorer-les-conditions-de-vie-des-francais_VN-202611030983.html",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/presidentielle-2027-sondage-le-pen-domine-toujours-melenchon-progresse-encore-glucksmann-peine-a-decoller-13634459.php",
-   "Le Dauphiné": "https://www.ledauphine.com/elections/2026/11/03/le-pen-et-melenchon-creusent-l-ecart-et-glucksmann-en-baisse-selon-un-nouveau-sondage",
-   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-la-progression-de-david-lisnard-peut-elle-inquieter-les-liberaux-du-rn-et-de-l-udr-20261103",
-   "Le Parisien": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-moscou-envisage-de-retarder-le-paiement-des-salaires-de-certains-militaires-pour-le-mois-de-decembre-03-11-2026-YYB2ORMLTNELJGN26FFFJIOCRA.php",
-   "Le Progrès": "https://www.leprogres.fr/elections/2026/11/03/le-pen-et-melenchon-creusent-l-ecart-et-glucksmann-en-baisse-selon-un-nouveau-sondage",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/appel-a-temoignages-factures-de-gaz-et-delectricite-etes-vous-contraint-de-reduire-votre-chauffage-ou-de-sacrifier-certaines-depenses-13633285.php",
-   "RFI": "https://www.rfi.fr/fr/france/20261103-pr%C3%A9sidentielle-fran%C3%A7aise-la-candidat-nouvelle-%C3%A9nergie-david-lisnard-fait-il-peur-%C3%A0-ses-concurrents",
-   "actu.fr": "https://actu.fr/politique/election-presidentielle/presidentielle-jean-luc-melenchon-contre-marine-le-pen-au-second-tour-dans-tous-les-cas-de-figure-selon-ce-sondage_65010870.html"
-  },
-  "score": 112.99938482166667,
-  "personne": null,
-  "sig": [
-   "2027",
-   "bruno",
-   "candid",
-   "melenc",
-   "pen",
-   "presid",
-   "retail",
-   "sondag"
-  ],
-  "youtube": "1Iqsxc9fwuQ",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T23:03:47.583727+00:00",
-  "edition": "2026-11-03T23:31:19.713680+01:00",
-  "semaine": false,
-  "titre": "Pretoria exclue de l'accord commercial AGOA par Washington",
-  "texte": "Washington annonce que l'Afrique du Sud ne bénéficiera plus de l'accord AGOA à partir du 1er janvier 2027. Cet accord exempte de taxes de nombreux produits africains importés aux États-Unis. Pretoria minimise la portée de cette décision.",
-  "iso": [
-   "USA",
-   "ZAF"
-  ],
-  "pays": "États-Unis",
-  "sources": [
-   "20 Minutes France",
-   "DNA",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Monde",
-   "Le Parisien",
-   "Midi Libre",
-   "RFI",
-   "Sud Ouest"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4260181-20261103-vie-chere-syndicats-associations-appellent-manifester-sept-pays-europeens-fin-novembre?at_medium=display&at_campaign=149",
-   "DNA": "https://www.dna.fr/social/2026/11/03/greve-du-5-novembre-a-quoi-faut-il-s-attendre-pour-cette-nouvelle-journee-de-mobilisation-jeudi",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/manifestation-du-5-novembre-a-toulouse-le-prefet-interdit-les-boulevards-et-impose-le-parcours-aux-arenes-loin-du-centre-ville-13633323.php",
-   "Le Dauphiné": "https://www.ledauphine.com/social/2026/11/03/greve-du-5-novembre-a-quoi-faut-il-s-attendre-pour-cette-nouvelle-journee-de-mobilisation-jeudi",
-   "Le Monde": "https://www.lemonde.fr/international/article/2026/11/03/des-syndicats-et-associations-de-sept-pays-europeens-appellent-a-manifester-contre-la-vie-chere-fin-novembre_6805665_3210.html",
-   "Le Parisien": "https://www.leparisien.fr/societe/eviter-des-corteges-en-centre-ville-nunez-appelle-les-prefets-a-se-preparer-pour-les-manifestations-du-5-novembre-03-11-2026-UEVX3ZLKANFLHGJR5Y2X6ER7DY.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/manifestation-du-5-novembre-trains-perturbes-syndicats-lyceens-et-salaries-dans-la-rue-a-quoi-sattendre-jeudi-13634216.php",
-   "RFI": "https://www.rfi.fr/fr/europe/20261103-associations-et-syndicats-de-sept-pays-europ%C3%A9ens-appellent-%C3%A0-manifester-contre-la-vie-ch%C3%A8re-fin-novembre",
-   "Sud Ouest": "https://www.sudouest.fr/economie/social/greve/colere-sociale-droit-au-travail-service-public-prix-des-logements-en-europe-les-syndicats-appellent-a-des-manifestations-coordonnees-fin-novembre-31369712.php"
-  },
-  "score": 102.99938455305555,
-  "personne": null,
-  "sig": [
-   "appell",
-   "associ",
-   "chere",
-   "europe",
-   "fin",
-   "manife",
-   "novemb",
-   "syndic"
-  ],
-  "youtube": "1Iqsxc9fwuQ",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T23:03:47.583733+00:00",
-  "edition": "2026-11-03T23:31:19.713680+01:00",
-  "semaine": false,
-  "titre": "Le suspect de Trappes tente de se suicider en détention",
-  "texte": "Dans les Yvelines, le suspect de l'attentat raciste de Trappes a tenté de se suicider en détention, ses jours ne sont pas en danger.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "L'Est Républicain",
-   "La Dépêche",
-   "Le Dauphiné",
-   "Le Figaro France",
-   "Le Parisien",
-   "Le Progrès",
-   "Midi Libre",
-   "Nice-Matin",
-   "Ouest-France",
-   "Sud Ouest",
-   "franceinfo faits divers"
-  ],
-  "liens": {
-   "L'Est Républicain": "https://www.estrepublicain.fr/societe/2026/11/03/attentat-raciste-de-trappes-kevin-teissier-a-tente-de-mettre-fin-a-ses-jours-en-prison",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/attentat-de-trappes-kevin-tessier-aurait-tente-de-mettre-fin-a-ses-jours-en-detention-13634545.php",
-   "Le Dauphiné": "https://www.ledauphine.com/societe/2026/11/03/attentat-raciste-de-trappes-kevin-teissier-a-tente-de-mettre-fin-a-ses-jours-en-prison",
-   "Le Figaro France": "https://www.lefigaro.fr/faits-divers/attentat-de-trappes-le-suspect-kevin-t-a-fait-une-tentative-de-suicide-en-prison-20261103",
-   "Le Parisien": "https://www.leparisien.fr/faits-divers/attentat-raciste-de-trappes-le-suspect-kevin-t-a-tente-de-mettre-fin-a-ses-jours-en-detention-03-11-2026-GRT72ZBZENBKFG6HY66QT5POFE.php",
-   "Le Progrès": "https://www.leprogres.fr/societe/2026/11/03/attentat-raciste-de-trappes-kevin-teissier-a-tente-de-mettre-fin-a-ses-jours-en-prison",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/attentat-raciste-de-trappes-kevin-t-a-fait-une-tentative-de-suicide-en-detention-que-sait-on-de-letat-de-sante-du-suspect-13634518.php",
-   "Nice-Matin": "https://www.nicematin.com/faits-divers/attentat-raciste-a-trappes-l-assaillant-a-tente-de-se-suicider-en-prison-10753395",
-   "Ouest-France": "https://www.ouest-france.fr/faits-divers/attentat/attentat-raciste-de-trappes-le-suspect-kevin-tessier-tente-de-se-suicider-en-cellule-selon-une-info-de-bfmtv-30b0a476-d7ca-11f1-b736-5b9907ef0b5a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-   "Sud Ouest": "https://www.sudouest.fr/faits-divers/attentat-raciste-a-trappes-le-suspect-kevin-t-a-tente-de-se-suicider-en-prison-31371759.php",
-   "franceinfo faits divers": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-dans-les-yvelines-le-suspect-kevin-tessier-a-tente-de-se-suicider-en-detention_8266586.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 102.99938453666667,
-  "personne": null,
-  "sig": [
-   "attent",
-   "kevin",
-   "prison",
-   "racist",
-   "suicid",
-   "suspec",
-   "tente",
-   "trappe"
-  ],
-  "youtube": "1Iqsxc9fwuQ",
-  "yt_attente": null
- },
- {
-  "date": "2026-11-03T23:03:47.583738+00:00",
-  "edition": "2026-11-03T23:31:19.713680+01:00",
-  "semaine": false,
-  "titre": "La SNCF prévoit un trafic perturbé pour la grève du 5 novembre",
-  "texte": "En France, la SNCF prévoit un trafic perturbé jeudi pour la grève nationale, la RATP annonçant un trafic normal hors RER B.",
-  "iso": [
-   "FRA"
-  ],
-  "pays": "France",
-  "sources": [
-   "20 Minutes France",
-   "La Dépêche",
-   "Le Parisien",
-   "Midi Libre",
-   "Nice-Matin",
-   "franceinfo France"
-  ],
-  "liens": {
-   "20 Minutes France": "https://www.20minutes.fr/societe/4260108-20261103-greve-5-novembre-sncf-prevoit-deja-perturbations-assez-peu-reseau-tgv?at_medium=display&at_campaign=149",
-   "La Dépêche": "https://www.ladepeche.fr/2026/11/03/manifestations-du-5-novembre-la-sncf-prevoit-un-trafic-perturbe-sur-les-liaisons-tgv-intercites-et-ter-13634309.php",
-   "Le Parisien": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/greve-du-5-novembre-rer-metro-transilien-voici-les-previsions-de-trafic-en-ile-de-france-03-11-2026-IHEHZYMIRBHRLKFQPC4GAB27LM.php",
-   "Midi Libre": "https://www.midilibre.fr/2026/11/03/a-deux-jours-de-la-manifestation-du-5-novembre-les-cheminots-obtiennent-de-la-sncf-le-versement-dune-prime-de-400-euros-13634471.php",
-   "Nice-Matin": "https://www.nicematin.com/societe/transports/tous-les-clients-tgv-et-intercites-dont-le-train-est-supprime-seront-recontactes-le-trafic-sncf-sera-perturbe-ce-jeudi-ce-qu-il-faut-savoir-10753303",
-   "franceinfo France": "https://www.franceinfo.fr/economie/greve/greve-du-5-novembre-la-sncf-prevoit-quelques-perturbations-jeudi-la-ratp-table-sur-un-trafic-normal-en-ile-de-france_8266229.html#xtor=RSS-3-%5Bgeneral%5D"
-  },
-  "score": 97.9993848025,
-  "personne": null,
-  "sig": [
-   "france",
-   "greve",
-   "novemb",
-   "pertur",
-   "prevoi",
-   "sncf",
-   "tgv",
-   "trafic"
-  ],
-  "youtube": "1Iqsxc9fwuQ",
-  "yt_attente": null
- },
- {
   "date": "2026-11-05T18:20:10.976262+00:00",
   "edition": "2026-11-05T17:52:08.240320+01:00",
   "semaine": false,
@@ -5896,5 +5373,248 @@
   ],
   "youtube": "BtadNEEHS8Q",
   "yt_attente": null
+ },
+ {
+  "date": "2026-11-25T18:46:30.939060+00:00",
+  "edition": "2026-11-25T17:51:10.866473+01:00",
+  "semaine": false,
+  "titre": "David Lisnard réélu à la tête de l'AMF",
+  "texte": "David Lisnard, maire de Cannes et candidat à la présidentielle, a été réélu pour un troisième mandat à la tête de l'Association des maires de France, avec 72 pour cent des voix. Cette réélection suscite des critiques sur la neutralité politique de l'association.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "BFMTV",
+   "DNA",
+   "France 24",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Figaro France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "Ouest-France",
+   "RFI",
+   "Sud Ouest",
+   "actu.fr"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4265565-20261125-presidentielle-2027-lfi-veut-revoir-regle-500-parrainages-etre-candidat-passer-maires?at_medium=display&at_campaign=149",
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/video-l-effet-grably-presidentielle-2027-david-lisnard-poursuit-son-ascension_VN-202611250768.html",
+   "DNA": "https://www.dna.fr/politique/2026/11/25/soldats-francais-en-ukraine-c-est-pas-notre-guerre-lance-teddy-riner",
+   "France 24": "https://www.france24.com/fr/vid%C3%A9o/20261125-david-lisnard-r%C3%A9%C3%A9lu-pr%C3%A9sident-de-l-association-des-maires-de-france",
+   "L'Est Républicain": "https://www.estrepublicain.fr/politique/2026/11/25/soldats-francais-en-ukraine-c-est-pas-notre-guerre-lance-teddy-riner",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/25/presidentielle-2027-lukraine-nest-pas-notre-guerre-teddy-riner-critique-lenvoi-de-militaires-francais-sur-le-sol-ukrainien-au-salon-des-maires-de-13671007.php",
+   "Le Dauphiné": "https://www.ledauphine.com/politique/2026/11/25/bayrou-philippe-barrot-ils-refusent-de-choisir-entre-melenchon-et-le-pen-la-fin-du-barrage",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/david-lisnard-reelu-pour-un-troisieme-mandat-a-la-tete-des-maires-de-france-20261125",
+   "Le Parisien": "https://www.leparisien.fr/politique/je-les-derange-et-je-ne-compte-pas-arreter-pour-david-lisnard-reelu-a-la-tete-de-lamf-le-plus-dur-commence-25-11-2026-IS5UQZ5SLFEKNFBHP5E4NDY7E4.php",
+   "Le Progrès": "https://www.leprogres.fr/politique/2026/11/25/soldats-francais-en-ukraine-c-est-pas-notre-guerre-lance-teddy-riner",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/25/presidentielle-2027-seul-candidat-present-jean-luc-melenchon-vole-la-vedette-aux-assises-des-economies-de-la-mer-13670841.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/presidentielle-2027-le-gouvernement-defend-le-second-tour-le-2-mai-au-lendemain-de-la-fete-du-travail-malgre-la-polemique-10768541",
+   "Ouest-France": "https://www.ouest-france.fr/politique/nous-les-aurons-ces-500-signatures-lfi-a-la-peche-aux-parrainages-sans-jean-luc-melenchon-au-congres-des-maires-4ea6d218-e8d5-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+   "RFI": "https://www.rfi.fr/fr/france/20261125-david-lisnard-candidat-%C3%A0-la-pr%C3%A9sidentielle-r%C3%A9%C3%A9lu-%C3%A0-la-t%C3%AAte-de-l-association-des-maires-de-france",
+   "Sud Ouest": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-lfi-presente-son-plan-pour-en-finir-avec-le-saccage-de-la-mer-31666920.php",
+   "actu.fr": "https://actu.fr/politique/election-presidentielle/un-nouveau-macron-aux-idees-proches-de-l-extreme-droite-comment-david-lisnard-bouscule-la-campagne-presidentielle_65100796.html"
+  },
+  "score": 157.9992480861111,
+  "personne": "David Lisnard",
+  "sig": [
+   "2027",
+   "candid",
+   "david",
+   "france",
+   "lisnar",
+   "maires",
+   "presid",
+   "ukrain"
+  ],
+  "youtube": null,
+  "yt_attente": "5fdc7e"
+ },
+ {
+  "date": "2026-11-25T18:46:30.939075+00:00",
+  "edition": "2026-11-25T17:51:10.866473+01:00",
+  "semaine": false,
+  "titre": "Patrick Bruel visé par une nouvelle plainte pour viol",
+  "texte": "Une nouvelle plainte pour viol a été déposée contre le chanteur Patrick Bruel, déjà mis en examen. Selon l'avocate de la plaignante, les faits remonteraient à février 2006, en marge d'un spectacle à Lyon. Le chanteur conteste les faits.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "L'Est Républicain",
+   "La Dépêche",
+   "Le Dauphiné",
+   "Le Monde France",
+   "Le Parisien",
+   "Le Progrès",
+   "Midi Libre",
+   "Nice-Matin",
+   "RTS"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/justice/4265652-20261125-affaire-patrick-bruel-nouvelle-plainte-viol-marge-spectacle-enfoires?at_medium=display&at_campaign=149",
+   "L'Est Républicain": "https://www.estrepublicain.fr/faits-divers-justice/2026/11/25/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-en-marge-d-un-spectacle-des-enfoires",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/25/affaire-patrick-bruel-je-culpabilisais-tellement-pourquoi-celle-qui-accuse-le-chanteur-de-lavoir-violee-en-2006-lui-souhaitait-encore-la-bonne-annee-13671165.php",
+   "Le Dauphiné": "https://www.ledauphine.com/faits-divers-justice/2026/11/25/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-en-marge-d-un-spectacle-des-enfoires",
+   "Le Monde France": "https://www.lemonde.fr/societe/article/2026/11/25/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol_6815101_3224.html",
+   "Le Parisien": "https://www.leparisien.fr/faits-divers/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-pour-des-faits-remontant-a-2006-25-11-2026-KKMQQ3P3RBF4RC2DBGBSVGFARA.php",
+   "Le Progrès": "https://www.leprogres.fr/faits-divers-justice/2026/11/25/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-en-marge-d-un-spectacle-des-enfoires",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/25/nouvelle-plainte-dans-laffaire-patrick-bruel-une-correspondante-de-presse-accuse-le-chanteur-de-lavoir-violee-en-marge-dun-spectacle-des-enfoires-13670686.php",
+   "Nice-Matin": "https://www.nicematin.com/culture/people/patrick-bruel/il-m-a-tout-de-suite-saute-dessus-le-chanteur-patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-en-marge-d-un-concert-des-enfoires-a-lyon-10768538",
+   "RTS": "https://www.rts.ch/info/monde/2026/article/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-29427542.html?rts_source=rss_t"
+  },
+  "score": 99.99924806833333,
+  "personne": null,
+  "sig": [
+   "2006",
+   "bruel",
+   "enfoir",
+   "patric",
+   "plaint",
+   "specta",
+   "viol",
+   "vise"
+  ],
+  "youtube": null,
+  "yt_attente": "5fdc7e"
+ },
+ {
+  "date": "2026-11-25T18:46:30.939081+00:00",
+  "edition": "2026-11-25T17:51:10.866473+01:00",
+  "semaine": false,
+  "titre": "Teddy Riner juge que l'Ukraine n'est pas la guerre de la France",
+  "texte": "Le judoka Teddy Riner, candidat à la présidentielle, a déclaré que l'Ukraine n'était pas la guerre de la France. Il critique l'envoi de troupes françaises en Ukraine, alors qu'elles mènent des missions non combattantes. Il affirme vouloir jouer un rôle dans la paix.",
+  "iso": [
+   "FRA",
+   "UKR"
+  ],
+  "pays": "France",
+  "sources": [
+   "BFMTV",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Monde",
+   "Le Parisien"
+  ],
+  "liens": {
+   "BFMTV": "https://www.bfmtv.com/politique/elections/presidentielle/ce-n-est-pas-notre-guerre-teddy-riner-ne-comprend-pas-qu-on-envoie-des-troupes-en-ukraine_AV-202611250763.html",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/25/guerre-en-ukraine-une-attaque-nucleaire-de-la-russie-depuis-lespace-en-decembre-tout-comprendre-a-lalerte-de-lotan-sur-le-projet-spoutnik-s-13669160.php",
+   "Le Figaro France": "https://www.lefigaro.fr/elections/presidentielles/l-ukraine-n-est-pas-notre-guerre-avance-teddy-riner-au-congres-des-maires-de-france-20261125",
+   "Le Monde": "https://www.lemonde.fr/politique/article/2026/11/25/teddy-riner-critique-le-deploiement-de-soldats-francais-en-ukraine-pour-des-missions-non-combattantes-ce-n-est-pas-notre-guerre_6815137_823448.html",
+   "Le Parisien": "https://www.leparisien.fr/elections/presidentielle/ce-nest-pas-notre-guerre-teddy-riner-bouscule-par-les-journalistes-sur-le-conflit-en-ukraine-25-11-2026-67V5SOZHOJC53OFIAG7XQWCOWA.php"
+  },
+  "score": 97.99924796444444,
+  "personne": "Teddy Riner",
+  "sig": [
+   "compre",
+   "confli",
+   "decryp",
+   "guerre",
+   "notre",
+   "riner",
+   "teddy",
+   "ukrain"
+  ],
+  "youtube": null,
+  "yt_attente": "5fdc7e"
+ },
+ {
+  "date": "2026-11-25T18:46:30.939087+00:00",
+  "edition": "2026-11-25T17:51:10.866473+01:00",
+  "semaine": false,
+  "titre": "147 féminicides recensés en France depuis le début de l'année",
+  "texte": "Le collectif Nous Toutes recense 147 féminicides en France depuis le début de l'année, à l'occasion de la Journée contre les violences faites aux femmes.",
+  "iso": [
+   "FRA",
+   "MONDE"
+  ],
+  "pays": "France",
+  "sources": [
+   "Courrier international",
+   "France 24",
+   "France 3 Régions",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "actu.fr",
+   "franceinfo France"
+  ],
+  "liens": {
+   "Courrier international": "https://www.courrierinternational.com/une/une-du-jour-face-aux-violences-faites-aux-femmes-nous-ne-sommes-pas-seules_290306",
+   "France 24": "https://www.france24.com/fr/%C3%A9missions/parlons-en-les-invit%C3%A9s/20261125-%C3%A9dition-sp%C3%A9ciale-journ%C3%A9e-internationale-de-lutte-contre-les-violences-faites-aux-femmes",
+   "France 3 Régions": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/une-jeune-nanceienne-lance-une-application-pour-lutter-contre-les-violences-faites-aux-femmes-3450387.html",
+   "Le Parisien": "https://www.leparisien.fr/societe/violences-faites-aux-femmes-perquisition-au-rn-congres-des-maires-greve-a-eurostar-les-infos-a-retenir-ce-midi-25-11-2026-TQFICAU3Z5BT3PUTZZZPFHA7BY.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/25/violences-faites-aux-femmes-comment-les-villes-doccitanie-combattent-les-agressions-et-le-harcelement-de-rue-13667350.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/stop-aux-violences-conjugales-un-lieu-d-accueil-d-ecoute-et-d-orientation-ouvre-a-l-hopital-de-brignoles-pour-mieux-accompagner-les-femmes-victimes-10768215",
+   "RFI": "https://www.rfi.fr/fr/monde/20261125-violences-faites-aux-femmes-comment-passer-des-avanc%C3%A9es-l%C3%A9gislatives-%C3%A0-une-justice-effective",
+   "actu.fr": "https://actu.fr/pays-de-la-loire/le-mans_72181/lutte-contre-les-violences-faites-aux-femmes-le-departement-de-la-sarthe-finance-mais-veut-plus-de-coordination_65101308.html",
+   "franceinfo France": "https://www.franceinfo.fr/societe/feminicides/violences-faites-aux-femmes-147-feminicides-recenses-depuis-le-debut-de-l-annee_8298774.html#xtor=RSS-3-%5Bfrance%5D"
+  },
+  "score": 92.9992481875,
+  "personne": null,
+  "sig": [
+   "agress",
+   "faites",
+   "femmes",
+   "harcel",
+   "journe",
+   "lutte",
+   "victim",
+   "violen"
+  ],
+  "youtube": null,
+  "yt_attente": "5fdc7e"
+ },
+ {
+  "date": "2026-11-25T18:46:30.939091+00:00",
+  "edition": "2026-11-25T17:51:10.866473+01:00",
+  "semaine": false,
+  "titre": "Hugues Moutouh démis après des soupçons de fuites",
+  "texte": "Le préfet Hugues Moutouh est officiellement démis de ses fonctions, dans une enquête sur des soupçons de fuites au profit du Rassemblement national.",
+  "iso": [
+   "FRA"
+  ],
+  "pays": "France",
+  "sources": [
+   "20 Minutes France",
+   "La Dépêche",
+   "Le Figaro France",
+   "Le Parisien",
+   "Midi Libre",
+   "Nice-Matin",
+   "RFI",
+   "Sud Ouest"
+  ],
+  "liens": {
+   "20 Minutes France": "https://www.20minutes.fr/politique/4265628-20261125-soupcons-fuite-profit-rn-prefet-moutouh-officiellement-demis-fonctions-successeur-nomme?at_medium=display&at_campaign=149",
+   "La Dépêche": "https://www.ladepeche.fr/2026/11/25/on-veut-ma-tete-et-la-vraie-question-est-de-savoir-pourquoi-accuse-detre-une-taupe-lancien-prefet-du-loiret-hughes-moutouh-sort-du-silence-apres-sa-13670653.php",
+   "Le Figaro France": "https://www.lefigaro.fr/actualite-france/ils-ne-me-font-pas-peur-le-prefet-demissionnaire-hugues-moutouh-veut-rendre-coup-pour-coup-20261125",
+   "Le Parisien": "https://www.leparisien.fr/politique/soupcons-de-fuite-vers-le-rn-le-prefet-hugues-moutouh-officiellement-demis-de-ses-fonctions-et-remplace-par-le-prefet-pierre-ory-25-11-2026-5SRCM6FQXBH77IYRVHYWEKMEOE.php",
+   "Midi Libre": "https://www.midilibre.fr/2026/11/25/soupcons-de-fuites-vers-le-rn-le-prefet-hugues-moutouh-a-officiellement-ete-demis-de-ses-fonctions-son-remplacant-deja-designe-13670593.php",
+   "Nice-Matin": "https://www.nicematin.com/societe/politique/l-ex-prefet-des-alpes-maritimes-hugues-moutouh-officiellement-demis-de-ses-fonctions-et-remplace-10768524",
+   "RFI": "https://www.rfi.fr/fr/france/20261125-soup%C3%A7ons-de-fuites-au-profit-du-rn-en-france-un-pr%C3%A9fet-d%C3%A9mis-de-ses-fonctions",
+   "Sud Ouest": "https://www.sudouest.fr/politique/enquete-sur-des-fuites-vers-le-rn-hugues-moutouh-le-prefet-bulldozer-rattrape-par-la-justice-31667146.php"
+  },
+  "score": 92.99924816888888,
+  "personne": null,
+  "sig": [
+   "demis",
+   "foncti",
+   "fuites",
+   "hugues",
+   "moutou",
+   "offici",
+   "prefet",
+   "soupco"
+  ],
+  "youtube": null,
+  "yt_attente": "5fdc7e"
  }
 ]

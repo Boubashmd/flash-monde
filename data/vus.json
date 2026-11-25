@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "athlet",
-   "attaqu",
-   "guerre",
-   "interd",
-   "libye",
-   "navire",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-23T18:02:36.047822+00:00",
-  "titre": "Kiev revendique deux attaques contre des navires russes en Libye"
- },
- {
-  "sig": [
-   "huang",
-   "jensen",
-   "nvidia",
-   "pdg",
-   "reinte",
-   "retour",
-   "tete",
-   "trump"
-  ],
-  "date": "2026-11-23T18:02:36.047834+00:00",
-  "titre": "Nvidia réintègre Jensen Huang comme directeur général"
- },
- {
-  "sig": [
-   "denude",
-   "elle",
-   "gisele",
-   "humili",
-   "pelico",
-   "photos",
-   "promou",
-   "utilis"
-  ],
-  "date": "2026-11-23T18:02:36.047836+00:00",
-  "titre": "Gisèle Pelicot dénonce l'usage de ses photos intimes"
- },
- {
-  "sig": [
-   "budget",
-   "consti",
-   "emmanu",
-   "inscri",
-   "macron",
-   "regle",
-   "toulou",
-   "vous"
-  ],
-  "date": "2026-11-23T18:02:36.047839+00:00",
-  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "david",
-   "jean",
-   "lisnar",
-   "luc",
-   "melenc",
-   "presid"
-  ],
-  "date": "2026-11-23T18:02:36.047841+00:00",
-  "titre": "David Lisnard progresse dans les sondages pour la présidentielle"
- },
- {
-  "sig": [
-   "athlet",
-   "attaqu",
-   "guerre",
-   "interd",
-   "libye",
-   "navire",
-   "russes",
-   "ukrain"
-  ],
-  "date": "2026-11-23T18:07:54.798511+00:00",
-  "titre": "Kiev revendique deux attaques contre des navires russes en Libye"
- },
- {
-  "sig": [
-   "huang",
-   "jensen",
-   "nvidia",
-   "pdg",
-   "reinte",
-   "retour",
-   "tete",
-   "trump"
-  ],
-  "date": "2026-11-23T18:07:54.798524+00:00",
-  "titre": "Nvidia réintègre Jensen Huang comme directeur général"
- },
- {
-  "sig": [
-   "denude",
-   "elle",
-   "gisele",
-   "humili",
-   "pelico",
-   "photos",
-   "promou",
-   "utilis"
-  ],
-  "date": "2026-11-23T18:07:54.798527+00:00",
-  "titre": "Gisèle Pelicot dénonce l'usage de ses photos intimes"
- },
- {
-  "sig": [
-   "budget",
-   "consti",
-   "emmanu",
-   "inscri",
-   "macron",
-   "regle",
-   "toulou",
-   "vous"
-  ],
-  "date": "2026-11-23T18:07:54.798530+00:00",
-  "titre": "Macron envisage une règle d'or budgétaire dans la Constitution"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "david",
-   "jean",
-   "lisnar",
-   "luc",
-   "melenc",
-   "presid"
-  ],
-  "date": "2026-11-23T18:07:54.798532+00:00",
-  "titre": "David Lisnard progresse dans les sondages pour la présidentielle"
- },
- {
-  "sig": [
    "action",
    "donald",
    "huang",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-24T16:57:16.327845+00:00",
   "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "david",
+   "france",
+   "lisnar",
+   "maires",
+   "presid",
+   "ukrain"
+  ],
+  "date": "2026-11-25T16:51:34.324464+00:00",
+  "titre": "David Lisnard réélu à la tête de l'AMF"
+ },
+ {
+  "sig": [
+   "2006",
+   "bruel",
+   "enfoir",
+   "patric",
+   "plaint",
+   "specta",
+   "viol",
+   "vise"
+  ],
+  "date": "2026-11-25T16:51:34.324473+00:00",
+  "titre": "Patrick Bruel visé par une nouvelle plainte pour viol"
+ },
+ {
+  "sig": [
+   "compre",
+   "confli",
+   "decryp",
+   "guerre",
+   "notre",
+   "riner",
+   "teddy",
+   "ukrain"
+  ],
+  "date": "2026-11-25T16:51:34.324476+00:00",
+  "titre": "Teddy Riner juge que l'Ukraine n'est pas la guerre de la France"
+ },
+ {
+  "sig": [
+   "agress",
+   "faites",
+   "femmes",
+   "harcel",
+   "journe",
+   "lutte",
+   "victim",
+   "violen"
+  ],
+  "date": "2026-11-25T16:51:34.324478+00:00",
+  "titre": "147 féminicides recensés en France depuis le début de l'année"
+ },
+ {
+  "sig": [
+   "demis",
+   "foncti",
+   "fuites",
+   "hugues",
+   "moutou",
+   "offici",
+   "prefet",
+   "soupco"
+  ],
+  "date": "2026-11-25T16:51:34.324479+00:00",
+  "titre": "Hugues Moutouh démis après des soupçons de fuites"
+ },
+ {
+  "sig": [
+   "2027",
+   "candid",
+   "david",
+   "france",
+   "lisnar",
+   "maires",
+   "presid",
+   "ukrain"
+  ],
+  "date": "2026-11-25T17:46:21.536953+00:00",
+  "titre": "David Lisnard réélu à la tête de l'AMF"
+ },
+ {
+  "sig": [
+   "2006",
+   "bruel",
+   "enfoir",
+   "patric",
+   "plaint",
+   "specta",
+   "viol",
+   "vise"
+  ],
+  "date": "2026-11-25T17:46:21.536970+00:00",
+  "titre": "Patrick Bruel visé par une nouvelle plainte pour viol"
+ },
+ {
+  "sig": [
+   "compre",
+   "confli",
+   "decryp",
+   "guerre",
+   "notre",
+   "riner",
+   "teddy",
+   "ukrain"
+  ],
+  "date": "2026-11-25T17:46:21.536972+00:00",
+  "titre": "Teddy Riner juge que l'Ukraine n'est pas la guerre de la France"
+ },
+ {
+  "sig": [
+   "agress",
+   "faites",
+   "femmes",
+   "harcel",
+   "journe",
+   "lutte",
+   "victim",
+   "violen"
+  ],
+  "date": "2026-11-25T17:46:21.536973+00:00",
+  "titre": "147 féminicides recensés en France depuis le début de l'année"
+ },
+ {
+  "sig": [
+   "demis",
+   "foncti",
+   "fuites",
+   "hugues",
+   "moutou",
+   "offici",
+   "prefet",
+   "soupco"
+  ],
+  "date": "2026-11-25T17:46:21.536976+00:00",
+  "titre": "Hugues Moutouh démis après des soupçons de fuites"
  }
 ]
