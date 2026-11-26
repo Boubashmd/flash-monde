@@ -1,146 +1,6 @@
 [
  {
   "sig": [
-   "action",
-   "donald",
-   "huang",
-   "jensen",
-   "nvidia",
-   "retour",
-   "tete",
-   "trump"
-  ],
-  "date": "2026-11-24T16:51:45.296510+00:00",
-  "titre": "Jensen Huang rétabli à la tête de Nvidia, Wall Street bondit"
- },
- {
-  "sig": [
-   "2027",
-   "bruno",
-   "bureau",
-   "commun",
-   "congre",
-   "france",
-   "maires",
-   "presid"
-  ],
-  "date": "2026-11-24T16:51:45.296518+00:00",
-  "titre": "Le Congrès des maires s'ouvre sur fond de course à l'Élysée"
- },
- {
-  "sig": [
-   "bruni",
-   "carla",
-   "nicola",
-   "proces",
-   "renvoy",
-   "retrac",
-   "sarkoz",
-   "takied"
-  ],
-  "date": "2026-11-24T16:51:45.296521+00:00",
-  "titre": "Sarkozy, Bruni et Mimi Marchand renvoyés en procès en 2027"
- },
- {
-  "sig": [
-   "detour",
-   "edouar",
-   "enquet",
-   "fonds",
-   "havre",
-   "philip",
-   "presid",
-   "public"
-  ],
-  "date": "2026-11-24T16:51:45.296523+00:00",
-  "titre": "Une enquête vise l'agglomération du Havre présidée par Philippe"
- },
- {
-  "sig": [
-   "appel",
-   "confir",
-   "juge",
-   "justic",
-   "meurtr",
-   "mort",
-   "nahel",
-   "polici"
-  ],
-  "date": "2026-11-24T16:51:45.296524+00:00",
-  "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre"
- },
- {
-  "sig": [
-   "action",
-   "donald",
-   "huang",
-   "jensen",
-   "nvidia",
-   "retour",
-   "tete",
-   "trump"
-  ],
-  "date": "2026-11-24T16:57:16.327825+00:00",
-  "titre": "Jensen Huang rétabli à la tête de Nvidia, Wall Street bondit"
- },
- {
-  "sig": [
-   "2027",
-   "bruno",
-   "bureau",
-   "commun",
-   "congre",
-   "france",
-   "maires",
-   "presid"
-  ],
-  "date": "2026-11-24T16:57:16.327838+00:00",
-  "titre": "Le Congrès des maires s'ouvre sur fond de course à l'Élysée"
- },
- {
-  "sig": [
-   "bruni",
-   "carla",
-   "nicola",
-   "proces",
-   "renvoy",
-   "retrac",
-   "sarkoz",
-   "takied"
-  ],
-  "date": "2026-11-24T16:57:16.327841+00:00",
-  "titre": "Sarkozy, Bruni et Mimi Marchand renvoyés en procès en 2027"
- },
- {
-  "sig": [
-   "detour",
-   "edouar",
-   "enquet",
-   "fonds",
-   "havre",
-   "philip",
-   "presid",
-   "public"
-  ],
-  "date": "2026-11-24T16:57:16.327843+00:00",
-  "titre": "Une enquête vise l'agglomération du Havre présidée par Philippe"
- },
- {
-  "sig": [
-   "appel",
-   "confir",
-   "juge",
-   "justic",
-   "meurtr",
-   "mort",
-   "nahel",
-   "polici"
-  ],
-  "date": "2026-11-24T16:57:16.327845+00:00",
-  "titre": "Mort de Nahel : le policier sera jugé pour meurtre à Nanterre"
- },
- {
-  "sig": [
    "2027",
    "candid",
    "david",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-25T17:46:21.536976+00:00",
   "titre": "Hugues Moutouh démis après des soupçons de fuites"
+ },
+ {
+  "sig": [
+   "2027",
+   "david",
+   "guerre",
+   "lisnar",
+   "presid",
+   "riner",
+   "teddy",
+   "ukrain"
+  ],
+  "date": "2026-11-26T16:51:29.555645+00:00",
+  "titre": "Teddy Riner appelle à cesser l'aide financière à l'Ukraine"
+ },
+ {
+  "sig": [
+   "acteur",
+   "arnoul",
+   "charlo",
+   "depard",
+   "gerard",
+   "juge",
+   "sera",
+   "viols"
+  ],
+  "date": "2026-11-26T16:51:29.555658+00:00",
+  "titre": "Gérard Depardieu sera jugé pour une partie des viols dénoncés"
+ },
+ {
+  "sig": [
+   "egerie",
+   "emilie",
+   "etat",
+   "franca",
+   "konig",
+   "paris",
+   "proces",
+   "propag"
+  ],
+  "date": "2026-11-26T16:51:29.555661+00:00",
+  "titre": "Émilie König, ex-propagandiste de l'EI, jugée à Paris"
+ },
+ {
+  "sig": [
+   "antise",
+   "attrib",
+   "bardel",
+   "ecrits",
+   "jordan",
+   "presid",
+   "propos",
+   "revele"
+  ],
+  "date": "2026-11-26T16:51:29.555663+00:00",
+  "titre": "Jordan Bardella conteste de nouveaux écrits antisémites"
+ },
+ {
+  "sig": [
+   "action",
+   "colere",
+   "commis",
+   "devant",
+   "polici",
+   "prime",
+   "reclam",
+   "risque"
+  ],
+  "date": "2026-11-26T16:51:29.555666+00:00",
+  "titre": "Des policiers se rassemblent devant les commissariats en France"
+ },
+ {
+  "sig": [
+   "2027",
+   "david",
+   "guerre",
+   "lisnar",
+   "presid",
+   "riner",
+   "teddy",
+   "ukrain"
+  ],
+  "date": "2026-11-26T16:56:40.882938+00:00",
+  "titre": "Teddy Riner appelle à cesser l'aide financière à l'Ukraine"
+ },
+ {
+  "sig": [
+   "acteur",
+   "arnoul",
+   "charlo",
+   "depard",
+   "gerard",
+   "juge",
+   "sera",
+   "viols"
+  ],
+  "date": "2026-11-26T16:56:40.882953+00:00",
+  "titre": "Gérard Depardieu sera jugé pour une partie des viols dénoncés"
+ },
+ {
+  "sig": [
+   "egerie",
+   "emilie",
+   "etat",
+   "franca",
+   "konig",
+   "paris",
+   "proces",
+   "propag"
+  ],
+  "date": "2026-11-26T16:56:40.882956+00:00",
+  "titre": "Émilie König, ex-propagandiste de l'EI, jugée à Paris"
+ },
+ {
+  "sig": [
+   "antise",
+   "attrib",
+   "bardel",
+   "ecrits",
+   "jordan",
+   "presid",
+   "propos",
+   "revele"
+  ],
+  "date": "2026-11-26T16:56:40.882958+00:00",
+  "titre": "Jordan Bardella conteste de nouveaux écrits antisémites"
+ },
+ {
+  "sig": [
+   "action",
+   "colere",
+   "commis",
+   "devant",
+   "polici",
+   "prime",
+   "reclam",
+   "risque"
+  ],
+  "date": "2026-11-26T16:56:40.882961+00:00",
+  "titre": "Des policiers se rassemblent devant les commissariats en France"
  }
 ]
