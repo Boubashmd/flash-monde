@@ -2,146 +2,6 @@
  {
   "sig": [
    "2027",
-   "candid",
-   "david",
-   "france",
-   "lisnar",
-   "maires",
-   "presid",
-   "ukrain"
-  ],
-  "date": "2026-11-25T16:51:34.324464+00:00",
-  "titre": "David Lisnard réélu à la tête de l'AMF"
- },
- {
-  "sig": [
-   "2006",
-   "bruel",
-   "enfoir",
-   "patric",
-   "plaint",
-   "specta",
-   "viol",
-   "vise"
-  ],
-  "date": "2026-11-25T16:51:34.324473+00:00",
-  "titre": "Patrick Bruel visé par une nouvelle plainte pour viol"
- },
- {
-  "sig": [
-   "compre",
-   "confli",
-   "decryp",
-   "guerre",
-   "notre",
-   "riner",
-   "teddy",
-   "ukrain"
-  ],
-  "date": "2026-11-25T16:51:34.324476+00:00",
-  "titre": "Teddy Riner juge que l'Ukraine n'est pas la guerre de la France"
- },
- {
-  "sig": [
-   "agress",
-   "faites",
-   "femmes",
-   "harcel",
-   "journe",
-   "lutte",
-   "victim",
-   "violen"
-  ],
-  "date": "2026-11-25T16:51:34.324478+00:00",
-  "titre": "147 féminicides recensés en France depuis le début de l'année"
- },
- {
-  "sig": [
-   "demis",
-   "foncti",
-   "fuites",
-   "hugues",
-   "moutou",
-   "offici",
-   "prefet",
-   "soupco"
-  ],
-  "date": "2026-11-25T16:51:34.324479+00:00",
-  "titre": "Hugues Moutouh démis après des soupçons de fuites"
- },
- {
-  "sig": [
-   "2027",
-   "candid",
-   "david",
-   "france",
-   "lisnar",
-   "maires",
-   "presid",
-   "ukrain"
-  ],
-  "date": "2026-11-25T17:46:21.536953+00:00",
-  "titre": "David Lisnard réélu à la tête de l'AMF"
- },
- {
-  "sig": [
-   "2006",
-   "bruel",
-   "enfoir",
-   "patric",
-   "plaint",
-   "specta",
-   "viol",
-   "vise"
-  ],
-  "date": "2026-11-25T17:46:21.536970+00:00",
-  "titre": "Patrick Bruel visé par une nouvelle plainte pour viol"
- },
- {
-  "sig": [
-   "compre",
-   "confli",
-   "decryp",
-   "guerre",
-   "notre",
-   "riner",
-   "teddy",
-   "ukrain"
-  ],
-  "date": "2026-11-25T17:46:21.536972+00:00",
-  "titre": "Teddy Riner juge que l'Ukraine n'est pas la guerre de la France"
- },
- {
-  "sig": [
-   "agress",
-   "faites",
-   "femmes",
-   "harcel",
-   "journe",
-   "lutte",
-   "victim",
-   "violen"
-  ],
-  "date": "2026-11-25T17:46:21.536973+00:00",
-  "titre": "147 féminicides recensés en France depuis le début de l'année"
- },
- {
-  "sig": [
-   "demis",
-   "foncti",
-   "fuites",
-   "hugues",
-   "moutou",
-   "offici",
-   "prefet",
-   "soupco"
-  ],
-  "date": "2026-11-25T17:46:21.536976+00:00",
-  "titre": "Hugues Moutouh démis après des soupçons de fuites"
- },
- {
-  "sig": [
-   "2027",
    "david",
    "guerre",
    "lisnar",
@@ -278,5 +138,145 @@
   ],
   "date": "2026-11-26T16:56:40.882961+00:00",
   "titre": "Des policiers se rassemblent devant les commissariats en France"
+ },
+ {
+  "sig": [
+   "attent",
+   "decemb",
+   "hommag",
+   "invali",
+   "nation",
+   "racist",
+   "trappe",
+   "victim"
+  ],
+  "date": "2026-11-27T16:51:36.569000+00:00",
+  "titre": "Un hommage national aux victimes de Trappes le 4 décembre"
+ },
+ {
+  "sig": [
+   "defici",
+   "derail",
+   "examen",
+   "homme",
+   "intell",
+   "jeune",
+   "mis",
+   "ter"
+  ],
+  "date": "2026-11-27T16:51:36.569009+00:00",
+  "titre": "Trappes : des proches demandent à réentendre un collègue du suspect"
+ },
+ {
+  "sig": [
+   "2027",
+   "antise",
+   "bardel",
+   "ecrits",
+   "jordan",
+   "marine",
+   "pen",
+   "presid"
+  ],
+  "date": "2026-11-27T16:51:36.569013+00:00",
+  "titre": "Présidentielle : Lisnard à 12 %, Philippe recule dans un sondage"
+ },
+ {
+  "sig": [
+   "000",
+   "120",
+   "500",
+   "cocain",
+   "condam",
+   "euros",
+   "ferme",
+   "prison"
+  ],
+  "date": "2026-11-27T16:51:36.569015+00:00",
+  "titre": "Manifestations du 28 novembre contre les violences faites aux femmes"
+ },
+ {
+  "sig": [
+   "beauco",
+   "change",
+   "impots",
+   "millio",
+   "patrio",
+   "payer",
+   "riches",
+   "veulen"
+  ],
+  "date": "2026-11-27T16:51:36.569017+00:00",
+  "titre": "Des « millionnaires patriotes » lancent une branche en France"
+ },
+ {
+  "sig": [
+   "attent",
+   "decemb",
+   "hommag",
+   "invali",
+   "nation",
+   "racist",
+   "trappe",
+   "victim"
+  ],
+  "date": "2026-11-27T17:05:37.471526+00:00",
+  "titre": "Un hommage national aux victimes de Trappes le 4 décembre"
+ },
+ {
+  "sig": [
+   "defici",
+   "derail",
+   "examen",
+   "homme",
+   "intell",
+   "jeune",
+   "mis",
+   "ter"
+  ],
+  "date": "2026-11-27T17:05:37.471539+00:00",
+  "titre": "Trappes : des proches demandent à réentendre un collègue du suspect"
+ },
+ {
+  "sig": [
+   "2027",
+   "antise",
+   "bardel",
+   "ecrits",
+   "jordan",
+   "marine",
+   "pen",
+   "presid"
+  ],
+  "date": "2026-11-27T17:05:37.471542+00:00",
+  "titre": "Présidentielle : Lisnard à 12 %, Philippe recule dans un sondage"
+ },
+ {
+  "sig": [
+   "000",
+   "120",
+   "500",
+   "cocain",
+   "condam",
+   "euros",
+   "ferme",
+   "prison"
+  ],
+  "date": "2026-11-27T17:05:37.471545+00:00",
+  "titre": "Manifestations du 28 novembre contre les violences faites aux femmes"
+ },
+ {
+  "sig": [
+   "beauco",
+   "change",
+   "impots",
+   "millio",
+   "patrio",
+   "payer",
+   "riches",
+   "veulen"
+  ],
+  "date": "2026-11-27T17:05:37.471549+00:00",
+  "titre": "Des « millionnaires patriotes » lancent une branche en France"
  }
 ]
